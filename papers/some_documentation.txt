@@ -1,0 +1,31 @@
+How to Run Reach Locally
+
+# SBT
+brew install sbt
+
+# JAVA
+brew install --cask temurin@8
+
+# CHECK VERSIONS 
+## MY VERSIONS
+user reach % sbt --version
+sbt script version: 1.10.1
+user reach % java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+# JENV FOR MULTIPLE JAVA VERSIONS (ONLY IF NEEDED)
+brew install jenv
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(jenv init -)"' >> ~/.zshrc
+To have JAVA_HOME get set by jEnv, enable the export plugin. This needs to be done in an initialised shell:
+
+eval "$(jenv init -)"
+jenv enable-plugin export
+
+jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/
+jenv local temurin64-1.8.0.422 (OR jenv global temurin64-1.8.0.422)
+
+# Took maybe ~5 minutes to start after 6MB/s download
+sbt "runMain org.clulab.reach.export.server.ApiServer"

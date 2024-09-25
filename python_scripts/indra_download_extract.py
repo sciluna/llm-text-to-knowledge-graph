@@ -44,7 +44,12 @@ def get_xml(pmc_id):
 
 
 def setup_output_directory(pmc_id):
-    output_dir = f'results/{pmc_id}'
+    # Get the absolute path to the directory where the script is running
+    script_dir = os.path.dirname(__file__)
+    # Navigate to the main project directory (assuming the script is in a subdirectory of the main project directory)
+    project_dir = os.path.abspath(os.path.join(script_dir, os.pardir))
+    # Set up the output directory within the 'results' directory of the project
+    output_dir = os.path.join(project_dir, 'results', pmc_id)
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     return output_dir

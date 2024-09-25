@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 from ndex2.cx2 import PandasDataFrameToCX2NetworkFactory
-from ndex2.client import Ndex2
+# from ndex2.client import Ndex2
 
 
 def convert_to_cx2(extracted_results):

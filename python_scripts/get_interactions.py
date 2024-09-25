@@ -1,14 +1,24 @@
 import warnings
+import os
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers.openai_functions import JsonKeyOutputFunctionsParser
-from model import extraction_model
-import prompt_file_v3
+from model import extraction_model 
 warnings.filterwarnings("ignore")
 
 
 def get_prompt(identifier, filepath):
-    with open(filepath, 'rb') as file:
+    # Determine the absolute path to the script's directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Navigate to the main project directory by going up one level
+    project_dir = os.path.dirname(script_dir)
+
+    # Construct the absolute path to the prompt file in the main 'data' directory
+    absolute_filepath = os.path.join(project_dir, 'data', filepath)
+
+    with open(absolute_filepath, 'rb') as file:
         content = file.read()
+
     # Check for BOM and remove it
     if content.startswith(b'\xef\xbb\xbf'):
         content = content[3:]
@@ -27,13 +37,11 @@ def get_prompt(identifier, filepath):
     return ''.join(prompt)
 
 
-# Usage
-# filepath = 'papers/prompt_file_v3.txt'
-# prompt_identifier = 'general prompt'
-prompt = prompt_file_v3.prompt
+filepath = 'prompt_file_v3.txt'
+prompt_identifier = 'general prompt'
+prompt = get_prompt(prompt_identifier, filepath)
 
 
-# Define the extraction chain
 prompt = ChatPromptTemplate.from_messages([
     ("system", prompt),
     ("human", "{input}")

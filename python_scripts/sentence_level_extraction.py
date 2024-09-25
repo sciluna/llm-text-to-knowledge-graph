@@ -11,10 +11,6 @@ def load_json_data(filepath):
     return data
 
 
-file_path = 'results/pmc3898398/indra_results.json'
-indra_data = load_json_data(file_path)
-
-
 def extract_sentences(data):
     sentences = {}
     index = 0  # Initialize a counter to keep track of the indices
@@ -27,52 +23,49 @@ def extract_sentences(data):
     return sentences
 
 
-sentences = extract_sentences(indra_data)
-selected_keys = sorted(sentences.keys())[:]
-
 # Initialize dictionaries to store the results
 llm_results = {}
 indra_reach_results = {}
 
-# #extracting interactions from each sentence using llm
-llm_results["LLM_extractions"] = []
-start_time = time.time()
-for index in selected_keys:
-    sentence = sentences[index]
-    results = extraction_chain.invoke({"input": sentence})
-    llm_results["LLM_extractions"].append({
-        "Index": index,
-        "Sentence": sentence,
-        "Results": results
-    })
-end_time = time.time()
-elapsed_time = end_time - start_time
-elapsed_minutes = elapsed_time / 60
-print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
 
-# with open('results/pmc3898398/llm_full_extractions.json', 'w') as llm_file:
-#     json.dump(llm_results, llm_file, indent=4)
+#extracting interactions from each sentence using llm
+def llm_processing(selected_keys, sentences):
+    llm_results["LLM_extractions"] = []
+    start_time = time.time()
+    for index in selected_keys:
+        sentence = sentences[index]
+        results = extraction_chain.invoke({"input": sentence})
+        llm_results["LLM_extractions"].append({
+            "Index": index,
+            "Sentence": sentence,
+            "Results": results
+        })
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    elapsed_minutes = elapsed_time / 60
+    print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+    return llm_results
+
 
 # # perform extraction using indra reach
-indra_reach_results["INDRA_REACH_extractions"] = []
-start_time = time.time()
-for index in selected_keys:
-    sentence = sentences[index]
-    reach_processor = reach.process_text(sentence, url=reach.local_text_url)
-    stmts = reach_processor.statements
-    statements_json = [stmt.to_json() for stmt in stmts]
-    indra_reach_results["INDRA_REACH_extractions"].append({
-        "Index": index,
-        "Sentence": sentence,
-        "Results": statements_json
-    })
-end_time = time.time()
-elapsed_time = end_time - start_time
-elapsed_minutes = elapsed_time / 60
-print(f"Time taken for indra processing: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
-
-# with open('results/pmc3898398/indra_full_extractions.json', 'w') as indra_file:
-#     json.dump(indra_reach_results, indra_file, indent=4)
+def indra_processing(selected_keys, sentences):
+    indra_reach_results["INDRA_REACH_extractions"] = []
+    start_time = time.time()
+    for index in selected_keys:
+        sentence = sentences[index]
+        reach_processor = reach.process_text(sentence, url=reach.local_text_url)
+        stmts = reach_processor.statements
+        statements_json = [stmt.to_json() for stmt in stmts]
+        indra_reach_results["INDRA_REACH_extractions"].append({
+            "Index": index,
+            "Sentence": sentence,
+            "Results": statements_json
+        })
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    elapsed_minutes = elapsed_time / 60
+    print(f"Time taken for indra processing: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+    return indra_reach_results
 
 
 #function to create sub-interaction type-obj
@@ -103,17 +96,6 @@ def create_combined_results(results):
     return combined_results
 
 
-llm_combined_results = create_combined_results(llm_results["LLM_extractions"])
-indra_combined_results = create_combined_results(indra_reach_results["INDRA_REACH_extractions"])
-
-# Save the results to different JSON files
-# with open('results/pmc3898398/indra_combined_results.json', 'w') as indra_file:
-#     json.dump(indra_combined_results, indra_file, indent=4)
-
-# with open('results/pmc3898398/llm_combined_results.json', 'w') as outfile:
-#     json.dump(llm_combined_results, outfile, indent=4)
-
-
 #function to save both indra outputs and llm outputs in one file
 def combine_llm_and_indra_results(llm_filepath, indra_filepath):
     llm_results = load_json_data(llm_filepath)
@@ -141,13 +123,6 @@ def combine_llm_and_indra_results(llm_filepath, indra_filepath):
     return combined_data
 
 
-combined_data = combine_llm_and_indra_results('results/pmc3898398/llm_combined_results.json', 
-                                              'results/pmc3898398/indra_combined_results.json')
-
-with open('results/pmc3898398/full_combined_output.json', 'w') as outfile:
-    json.dump(combined_data, outfile, indent=4)
-
-
 # Define the function to ground genes in combined results
 def ground_genes_in_combined_results(combined_results):
     for entry in combined_results:
@@ -170,9 +145,3 @@ def ground_genes_in_combined_results(combined_results):
                 grounded_interactions.append(f"{grounded_subject} {parts[1]} {grounded_object}")
         entry["Combined_Results"] = grounded_interactions
     return combined_results
-
-
-grounded_llm_combined_results = ground_genes_in_combined_results(llm_combined_results)
-
-with open('results/pmc3898398/grounded_llm_results.json', 'w') as outfile:
-    json.dump(grounded_llm_combined_results, outfile, indent=4)
