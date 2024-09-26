@@ -1,0 +1,779 @@
+{
+  "events" : {
+    "frames" : [ {
+      "frame-id" : "evem-api85-UAZ-r1-Reach-0-733",
+      "text" : "phosphorylation of IRF3",
+      "arguments" : [ {
+        "text" : "IRF3",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api85-UAZ-r1-Reach-0-2961"
+      } ],
+      "type" : "protein-modification",
+      "frame-type" : "event-mention",
+      "subtype" : "phosphorylation",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 178,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "phosphorylation",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 155,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "found-by" : "Phosphorylation_token_of",
+      "verbose-text" : "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig. 2)."
+    }, {
+      "frame-id" : "evem-api85-UAZ-r1-Reach-0-734",
+      "text" : "cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3",
+      "arguments" : [ {
+        "text" : "phosphorylation of IRF3",
+        "argument-type" : "event",
+        "type" : "controlled",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "evem-api85-UAZ-r1-Reach-0-733"
+      }, {
+        "text" : "cGAS",
+        "argument-type" : "entity",
+        "type" : "controller",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api85-UAZ-r1-Reach-0-2959"
+      } ],
+      "type" : "regulation",
+      "frame-type" : "event-mention",
+      "subtype" : "positive-regulation",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 178,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "produces",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 25,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "found-by" : "Positive_regulation_syntax_1_verb",
+      "verbose-text" : "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig. 2)."
+    }, {
+      "frame-id" : "evem-api85-UAZ-r1-Reach-0-732",
+      "text" : "nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3",
+      "arguments" : [ {
+        "text" : "phosphorylation of IRF3",
+        "argument-type" : "event",
+        "type" : "controlled",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "evem-api85-UAZ-r1-Reach-0-733"
+      }, {
+        "text" : "nucleotidyl transferase",
+        "argument-type" : "entity",
+        "type" : "controller",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api85-UAZ-r1-Reach-0-2960"
+      } ],
+      "type" : "regulation",
+      "frame-type" : "event-mention",
+      "subtype" : "positive-regulation",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 178,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "produces",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 30,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "found-by" : "Positive_regulation_syntax_1_verb",
+      "verbose-text" : "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig. 2)."
+    }, {
+      "frame-id" : "evem-api85-UAZ-r1-Reach-0-730",
+      "text" : "cyclic GMP-AMP (cGAMP) that binds to STING",
+      "arguments" : [ {
+        "text" : "cyclic GMP-AMP",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api85-UAZ-r1-Reach-0-2957"
+      }, {
+        "text" : "STING",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 1,
+        "arg" : "ment-api85-UAZ-r1-Reach-0-2958"
+      } ],
+      "type" : "complex-assembly",
+      "frame-type" : "event-mention",
+      "is-direct" : true,
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 122,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "binds",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 80,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "found-by" : "binding1b",
+      "verbose-text" : "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig. 2)."
+    }, {
+      "frame-id" : "evem-api85-UAZ-r1-Reach-0-729",
+      "text" : "cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING",
+      "arguments" : [ {
+        "text" : "cyclic GMP-AMP (cGAMP) that binds to STING",
+        "argument-type" : "event",
+        "type" : "controlled",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "evem-api85-UAZ-r1-Reach-0-730"
+      }, {
+        "text" : "cGAS",
+        "argument-type" : "entity",
+        "type" : "controller",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api85-UAZ-r1-Reach-0-2959"
+      } ],
+      "type" : "regulation",
+      "frame-type" : "event-mention",
+      "subtype" : "positive-regulation",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 122,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "produces",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 25,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "found-by" : "Positive_regulation_syntax_1_verb",
+      "verbose-text" : "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig. 2)."
+    }, {
+      "frame-id" : "evem-api85-UAZ-r1-Reach-0-731",
+      "text" : "nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING",
+      "arguments" : [ {
+        "text" : "cyclic GMP-AMP (cGAMP) that binds to STING",
+        "argument-type" : "event",
+        "type" : "controlled",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "evem-api85-UAZ-r1-Reach-0-730"
+      }, {
+        "text" : "nucleotidyl transferase",
+        "argument-type" : "entity",
+        "type" : "controller",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api85-UAZ-r1-Reach-0-2960"
+      } ],
+      "type" : "regulation",
+      "frame-type" : "event-mention",
+      "subtype" : "positive-regulation",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 122,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "produces",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 30,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "found-by" : "Positive_regulation_syntax_1_verb",
+      "verbose-text" : "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig. 2)."
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2024-09-25T15:29:25Z",
+      "doc-id" : "api85",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2024-09-25T15:29:24Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  },
+  "entities" : {
+    "frames" : [ {
+      "text" : "type",
+      "frame-id" : "ment-api85-UAZ-r1-Reach-0-2963",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 202,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q13326"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 198,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q13326"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q13326"
+      } ]
+    }, {
+      "text" : "TBK1",
+      "frame-id" : "ment-api85-UAZ-r1-Reach-0-2962",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 153,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q9UHD2"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 149,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q9UHD2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q9UHD2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "african clawed frog",
+        "object-type" : "db-reference",
+        "id" : "Q6DFJ6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9WUN2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9WUN2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "xenopus laevis",
+        "object-type" : "db-reference",
+        "id" : "Q6DFJ6"
+      } ]
+    }, {
+      "text" : "cyclic GMP-AMP",
+      "frame-id" : "ment-api85-UAZ-r1-Reach-0-2957",
+      "type" : "simple-chemical",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 94,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "pubchem",
+        "object-type" : "db-reference",
+        "id" : "11181459"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 80,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "pubchem",
+        "object-type" : "db-reference",
+        "id" : "11181459"
+      } ]
+    }, {
+      "text" : "cGAS",
+      "frame-id" : "ment-api85-UAZ-r1-Reach-0-2959",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 29,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q8N884"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 25,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q8N884"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q8N884"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bos taurus",
+        "object-type" : "db-reference",
+        "id" : "E1BGN7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bovine",
+        "object-type" : "db-reference",
+        "id" : "E1BGN7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "escherichia coli (strain tw11681)",
+        "object-type" : "db-reference",
+        "id" : "P0DTF0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q8C6L5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q8C6L5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "nematostella vectensis",
+        "object-type" : "db-reference",
+        "id" : "A7SFB5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pig",
+        "object-type" : "db-reference",
+        "id" : "I3LM39"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pseudomonas aeruginosa (strain bwhpsa011 / pa011)",
+        "object-type" : "db-reference",
+        "id" : "P0DX86"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "starlet sea anemone",
+        "object-type" : "db-reference",
+        "id" : "A7SFB5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "sus scrofa",
+        "object-type" : "db-reference",
+        "id" : "I3LM39"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "vibrio cholerae serotype o1 (strain atcc 39315 / el tor inaba n16961)",
+        "object-type" : "db-reference",
+        "id" : "Q9KVG7"
+      } ]
+    }, {
+      "text" : "IRF3",
+      "frame-id" : "ment-api85-UAZ-r1-Reach-0-2961",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 178,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q14653"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 174,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q14653"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q14653"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bos taurus",
+        "object-type" : "db-reference",
+        "id" : "Q4JF28"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bovine",
+        "object-type" : "db-reference",
+        "id" : "Q4JF28"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "chicken",
+        "object-type" : "db-reference",
+        "id" : "Q90643"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "gallus gallus",
+        "object-type" : "db-reference",
+        "id" : "Q90643"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "P70671"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "P70671"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pig",
+        "object-type" : "db-reference",
+        "id" : "Q764M6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "sus scrofa",
+        "object-type" : "db-reference",
+        "id" : "Q764M6"
+      } ]
+    }, {
+      "text" : "STING",
+      "frame-id" : "ment-api85-UAZ-r1-Reach-0-2958",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 122,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q86WV6"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 117,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q86WV6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q86WV6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bos taurus",
+        "object-type" : "db-reference",
+        "id" : "Q2KI99"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bovine",
+        "object-type" : "db-reference",
+        "id" : "Q2KI99"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "brachydanio rerio",
+        "object-type" : "db-reference",
+        "id" : "E7F4N7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "chicken",
+        "object-type" : "db-reference",
+        "id" : "E1C7U0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "danio rerio",
+        "object-type" : "db-reference",
+        "id" : "E7F4N7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "drosophila eugracilis",
+        "object-type" : "db-reference",
+        "id" : "P0DV10"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "drosophila melanogaster",
+        "object-type" : "db-reference",
+        "id" : "A0A0B4LFY9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "eidolon helvum",
+        "object-type" : "db-reference",
+        "id" : "A0A291NUI5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "fruit fly",
+        "object-type" : "db-reference",
+        "id" : "A0A0B4LFY9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "fruit fly",
+        "object-type" : "db-reference",
+        "id" : "P0DV10"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "gallus gallus",
+        "object-type" : "db-reference",
+        "id" : "E1C7U0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "greater horseshoe bat",
+        "object-type" : "db-reference",
+        "id" : "A0A291NUI4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q3TBT3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q3TBT3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "nematostella vectensis",
+        "object-type" : "db-reference",
+        "id" : "A7SLZ2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "parnell's mustached bat",
+        "object-type" : "db-reference",
+        "id" : "A0A291NUG3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pig",
+        "object-type" : "db-reference",
+        "id" : "B8XX90"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pteronotus parnellii",
+        "object-type" : "db-reference",
+        "id" : "A0A291NUG3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "F1M391"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "F1M391"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rhinolophus ferrumequinum",
+        "object-type" : "db-reference",
+        "id" : "A0A291NUI4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "silurana tropicalis",
+        "object-type" : "db-reference",
+        "id" : "A8E5V9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "starlet sea anemone",
+        "object-type" : "db-reference",
+        "id" : "A7SLZ2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "straw-colored fruit bat",
+        "object-type" : "db-reference",
+        "id" : "A0A291NUI5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "sus scrofa",
+        "object-type" : "db-reference",
+        "id" : "B8XX90"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "western clawed frog",
+        "object-type" : "db-reference",
+        "id" : "A8E5V9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "xenopus tropicalis",
+        "object-type" : "db-reference",
+        "id" : "A8E5V9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "zebrafish",
+        "object-type" : "db-reference",
+        "id" : "E7F4N7"
+      } ]
+    }, {
+      "text" : "nucleotidyl transferase",
+      "frame-id" : "ment-api85-UAZ-r1-Reach-0-2960",
+      "type" : "family",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 53,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "pfam",
+        "object-type" : "db-reference",
+        "id" : "PF00483"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 30,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api85-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "pfam",
+        "object-type" : "db-reference",
+        "id" : "PF12281"
+      }, {
+        "namespace" : "pfam",
+        "object-type" : "db-reference",
+        "id" : "PF06042"
+      }, {
+        "namespace" : "pfam",
+        "object-type" : "db-reference",
+        "id" : "PF07984"
+      }, {
+        "namespace" : "pfam",
+        "object-type" : "db-reference",
+        "id" : "PF00483"
+      } ]
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2024-09-25T15:29:25Z",
+      "doc-id" : "api85",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2024-09-25T15:29:24Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  },
+  "sentences" : {
+    "frames" : [ {
+      "text" : "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig. 2).",
+      "frame-id" : "pass-api85-UAZ-r1-Reach",
+      "section-id" : "NoSection",
+      "frame-type" : "passage",
+      "is-title" : false,
+      "section-name" : "NoSection",
+      "object-type" : "frame",
+      "index" : "Reach",
+      "object-meta" : {
+        "component" : "nxml2fries",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "After mtDNA sensing , the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP ( cGAMP ) that binds to STING , leading to activation of TBK1 , phosphorylation of IRF3 , and production of type I IFNs   ( Fig. 2 ) .",
+      "frame-id" : "sent-api85-UAZ-r1-Reach-0",
+      "passage" : "pass-api85-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 221,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api85-UAZ-r1-Reach",
+        "offset" : 0,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2024-09-25T15:29:25Z",
+      "doc-id" : "api85",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2024-09-25T15:29:24Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  }
+}

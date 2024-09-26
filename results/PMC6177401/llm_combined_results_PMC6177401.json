@@ -1,0 +1,594 @@
+[
+    {
+        "Index": "0",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "1",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "10",
+        "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+        "Combined_Results": [
+            "NS2A Inhibition TBK1",
+            "NS4B Inhibition TBK1",
+            "NS4A Inhibition TBK1"
+        ]
+    },
+    {
+        "Index": "11",
+        "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+        "Combined_Results": [
+            "NS2A Inhibition TBK1",
+            "NS4B Inhibition TBK1",
+            "NS4A Inhibition TBK1"
+        ]
+    },
+    {
+        "Index": "12",
+        "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+        "Combined_Results": [
+            "NS2A Inhibition TBK1",
+            "NS4B Inhibition TBK1",
+            "NS4A Inhibition TBK1"
+        ]
+    },
+    {
+        "Index": "13",
+        "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+        "Combined_Results": [
+            "NS2A Inhibition TBK1",
+            "NS4B Inhibition TBK1",
+            "NS4A Inhibition TBK1"
+        ]
+    },
+    {
+        "Index": "14",
+        "Sentence": "NS2b binds to NS3 and forms the functional NS3 protease  .",
+        "Combined_Results": [
+            "NS2B Complex NS3"
+        ]
+    },
+    {
+        "Index": "15",
+        "Sentence": "NS2b binds to NS3 and forms the functional NS3 protease  .",
+        "Combined_Results": [
+            "NS2B Complex NS3"
+        ]
+    },
+    {
+        "Index": "16",
+        "Sentence": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF3",
+            "STING RegulateActivity TBK1",
+            "cGAS Complex STING"
+        ]
+    },
+    {
+        "Index": "17",
+        "Sentence": "IFN\u03b1/\u03b2 cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+        "Combined_Results": [
+            "JAK1 Phosphorylation STAT2",
+            "STAT1 Complex IRF9",
+            "STAT1 Complex STAT2",
+            "STAT2 Complex IRF9",
+            "IFNA Complex IFNAR",
+            "JAK1 Phosphorylation STAT1"
+        ]
+    },
+    {
+        "Index": "18",
+        "Sentence": "IFN\u03b1/\u03b2 cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+        "Combined_Results": [
+            "JAK1 Phosphorylation STAT2",
+            "STAT1 Complex IRF9",
+            "IFNAR RegulateActivity JAK1",
+            "STAT1 Complex STAT2",
+            "STAT2 Complex IRF9",
+            "JAK1 Phosphorylation STAT1"
+        ]
+    },
+    {
+        "Index": "19",
+        "Sentence": "KIR3DLI, an inhibitory receptor of the killer immunoglobulin-like receptor (KIR) family that is expressed on NK cells, binds to DENV NS1   and is associated with development of DHF.",
+        "Combined_Results": [
+            "KIR3DL1 Complex DENV NS1"
+        ]
+    },
+    {
+        "Index": "2",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "20",
+        "Sentence": "NS3 blocks RIG-I translocation to mitochondria by binding with the mitochondrial-targeting chaperone protein 14-3-3\u03b5  .",
+        "Combined_Results": [
+            "NS3 RegulateActivity 14-3-3\u03b5"
+        ]
+    },
+    {
+        "Index": "21",
+        "Sentence": "NS4a will also inhibit RIG-I interaction with MAVS by binding to the MAVS CARD-like domain and transmembrane domain  .",
+        "Combined_Results": [
+            "NS4A Inhibition MAVS"
+        ]
+    },
+    {
+        "Index": "22",
+        "Sentence": "NS1 inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b  .",
+        "Combined_Results": [
+            "NS1 RegulateActivity C4",
+            "NS1 RegulateActivity C4b",
+            "NS1 RegulateActivity C1s"
+        ]
+    },
+    {
+        "Index": "23",
+        "Sentence": "NS1 also protects DENV from neutralization by binding to MBL  .",
+        "Combined_Results": [
+            "NS1 Complex MBL"
+        ]
+    },
+    {
+        "Index": "24",
+        "Sentence": "NS1 binding to complement inhibitory factor clusterin will also inhibit MAC formation   (Fig.\u00a05).",
+        "Combined_Results": [
+            "NS1 RegulateActivity CLU"
+        ]
+    },
+    {
+        "Index": "25",
+        "Sentence": "NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP\u2013Argo interaction and RISC formation   (Fig.\u00a04).",
+        "Combined_Results": [
+            "NS3 RegulateActivity HSPA8"
+        ]
+    },
+    {
+        "Index": "26",
+        "Sentence": "DENV C protein aids in inhibition of apoptosis in Huh7 cells by interacting with calcium-modulating cyclophilin-binding ligand, an ER protein associated with cell survival by regulating Bim-dependent death  .",
+        "Combined_Results": [
+            "DENV C RegulateActivity CALM"
+        ]
+    },
+    {
+        "Index": "27",
+        "Sentence": "Cross-protection from other serotypes is not long term, instead heterotypic infection can cause severe disease.",
+        "Combined_Results": []
+    },
+    {
+        "Index": "28",
+        "Sentence": "Primary infections may cause a rash and fever, but many infections are asymptomatic.",
+        "Combined_Results": []
+    },
+    {
+        "Index": "29",
+        "Sentence": "Primary infections may cause a rash and fever, but many infections are asymptomatic.",
+        "Combined_Results": []
+    },
+    {
+        "Index": "3",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "30",
+        "Sentence": "Secondary infections, however, are known to cause severe disease, specifically after a heterotypic infection  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "31",
+        "Sentence": "The exact cause of this is unknown, but the phenomenon of antibody-dependent enhancement (ADE) may cause increased pathogenicity and virulence  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "32",
+        "Sentence": "Cofactor NS2b is necessary for the protease to be functional.",
+        "Combined_Results": []
+    },
+    {
+        "Index": "33",
+        "Sentence": "PRR recognition will trigger production of cytokines and chemokines, which induce an antiviral state.",
+        "Combined_Results": []
+    },
+    {
+        "Index": "34",
+        "Sentence": "Following virus recognition, the RLRs translocate to the mitochondrial membrane and activate mitochondrial antiviral signaling (MAVS) protein found on the surface of the mitochondria via the caspase activation recruitment domains (CARD) of the RLRs and MAVS.",
+        "Combined_Results": [
+            "RLRs Translocation MAVS"
+        ]
+    },
+    {
+        "Index": "35",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "36",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "37",
+        "Sentence": "TLR7 recognition of ssRNA, including DENV genomic fragments, uses the myeloid differentiation primary response gene 88-dependent signal pathway to induce pro-inflammatory cytokines by recruiting TRAF6 to activate inhibitor of nuclear factor-\u03baB kinase (IKK)\u03b1/IKK\u03b2/ IKK\u03b3, and activate nuclear factor-\u03baB (NF-\u03baB)   (Fig.\u00a02).",
+        "Combined_Results": [
+            "IKK\u03b2 RegulateActivity NF-\u03baB",
+            "IKK\u03b3 RegulateActivity NF-\u03baB",
+            "TRAF6 RegulateActivity IKK\u03b1",
+            "TLR7 RegulateActivity TRAF6",
+            "TRAF6 RegulateActivity IKK\u03b3",
+            "TRAF6 RegulateActivity IKK\u03b2",
+            "IKK\u03b1 RegulateActivity NF-\u03baB"
+        ]
+    },
+    {
+        "Index": "38",
+        "Sentence": "The cyclic GMP-AMP synthase (cGAS) and stimulator of IFN gene (STING) pathway is also activated during DENV infection by the cGAS PRR, despite the fact that this pathway recognizes cytoplasmic DNA  .",
+        "Combined_Results": [
+            "cGAS RegulateActivity STING"
+        ]
+    },
+    {
+        "Index": "39",
+        "Sentence": "The cyclic GMP-AMP synthase (cGAS) and stimulator of IFN gene (STING) pathway is also activated during DENV infection by the cGAS PRR, despite the fact that this pathway recognizes cytoplasmic DNA  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "4",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "40",
+        "Sentence": "Production of type I IFNs inhibits DENV infection of other monocytes  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "41",
+        "Sentence": "The following classical complement cascade includes the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation   (Fig.\u00a03b).",
+        "Combined_Results": [
+            "C5 convertase Complex C5b-9",
+            "C5 Complex C5 convertase"
+        ]
+    },
+    {
+        "Index": "42",
+        "Sentence": "DENV proteins have been shown to activate apoptosis inside infected cells.",
+        "Combined_Results": []
+    },
+    {
+        "Index": "43",
+        "Sentence": "The capsid protein nuclear localization interacts with death-associated protein 6 and triggers Fas-mediated apoptosis in liver cells  .",
+        "Combined_Results": [
+            "CAPS Complex DAXX"
+        ]
+    },
+    {
+        "Index": "44",
+        "Sentence": "The NS2b-NS3 protease precursor and NS3 protease induce apoptosis   most likely through the caspase-8 pathway   or NF-\u03baB  .",
+        "Combined_Results": [
+            "NS2B RegulateActivity NS3"
+        ]
+    },
+    {
+        "Index": "45",
+        "Sentence": "TLR4 recognition of NS1 leads to pro-inflammatory cytokine production that contribute to vascular damage   (Fig.\u00a03).",
+        "Combined_Results": [
+            "TLR4 RegulateActivity NS1"
+        ]
+    },
+    {
+        "Index": "46",
+        "Sentence": "DENV can block PRR signaling and production of type I IFN response by targeting the RLR and TLR pathways mentioned above.",
+        "Combined_Results": [
+            "DENV RegulateActivity PRR"
+        ]
+    },
+    {
+        "Index": "47",
+        "Sentence": "DENV can block PRR signaling and production of type I IFN response by targeting the RLR and TLR pathways mentioned above.",
+        "Combined_Results": [
+            "DENV RegulateActivity TLR",
+            "DENV RegulateActivity PRR",
+            "DENV RegulateActivity RLR"
+        ]
+    },
+    {
+        "Index": "48",
+        "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+        "Combined_Results": [
+            "NS2A Inhibition TBK1",
+            "NS4B Inhibition TBK1",
+            "NS4A Inhibition TBK1"
+        ]
+    },
+    {
+        "Index": "49",
+        "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+        "Combined_Results": [
+            "NS2A Inhibition TBK1",
+            "NS4B Inhibition TBK1",
+            "NS4A Inhibition TBK1"
+        ]
+    },
+    {
+        "Index": "5",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "50",
+        "Sentence": "NS2b/3 protease inhibits IFN production by cleaving STING   (Fig.\u00a04).",
+        "Combined_Results": [
+            "NS2B Inhibition STING"
+        ]
+    },
+    {
+        "Index": "51",
+        "Sentence": "Furthermore, along with inhibiting IFN\u03b1/\u03b2 production, NS proteins block the IFNAR pathways.",
+        "Combined_Results": [
+            "NS proteins Inhibition IFNAR"
+        ]
+    },
+    {
+        "Index": "52",
+        "Sentence": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
+        "Combined_Results": [
+            "NS5 RegulateAmount STAT2",
+            "NS5 Complex N-recognin 4"
+        ]
+    },
+    {
+        "Index": "53",
+        "Sentence": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
+        "Combined_Results": [
+            "NS5 RegulateAmount STAT2",
+            "NS5 Complex N-recognin 4"
+        ]
+    },
+    {
+        "Index": "54",
+        "Sentence": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
+        "Combined_Results": [
+            "N-recognin 4 RegulateAmount STAT2",
+            "NS5 RegulateAmount STAT2",
+            "NS5 Complex N-recognin 4"
+        ]
+    },
+    {
+        "Index": "55",
+        "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "56",
+        "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "57",
+        "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "58",
+        "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "59",
+        "Sentence": "NS1 binding to complement inhibitory factor clusterin will also inhibit MAC formation   (Fig.\u00a05).",
+        "Combined_Results": [
+            "NS1 RegulateActivity CLU"
+        ]
+    },
+    {
+        "Index": "6",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "60",
+        "Sentence": "NS4b suppresses the RNAi pathway in mammalian cells by blocking Dicer processing via transmembrane domain 3 (TMD3) and TMD5, preventing the biogenesis of mRNA; this is independent of the N-terminal domain that is associated with IFN suppression  .",
+        "Combined_Results": [
+            "NS4B RegulateActivity Dicer"
+        ]
+    },
+    {
+        "Index": "61",
+        "Sentence": "NS4b suppresses the RNAi pathway in mammalian cells by blocking Dicer processing via transmembrane domain 3 (TMD3) and TMD5, preventing the biogenesis of mRNA; this is independent of the N-terminal domain that is associated with IFN suppression  .",
+        "Combined_Results": [
+            "NS4B RegulateActivity Dicer"
+        ]
+    },
+    {
+        "Index": "62",
+        "Sentence": "DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy  .",
+        "Combined_Results": [
+            "DENV NS2B/3 RegulateActivity FAM134B"
+        ]
+    },
+    {
+        "Index": "63",
+        "Sentence": "DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy  .",
+        "Combined_Results": [
+            "DENV RegulateActivity FAM134B"
+        ]
+    },
+    {
+        "Index": "64",
+        "Sentence": "DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy  .",
+        "Combined_Results": [
+            "DENV RegulateActivity FAM134B"
+        ]
+    },
+    {
+        "Index": "65",
+        "Sentence": "A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "66",
+        "Sentence": "A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "67",
+        "Sentence": "The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice  .",
+        "Combined_Results": [
+            "DENV Inhibition capsid protein"
+        ]
+    },
+    {
+        "Index": "68",
+        "Sentence": "The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice  .",
+        "Combined_Results": [
+            "DENV Inhibition capsid protein"
+        ]
+    },
+    {
+        "Index": "69",
+        "Sentence": "The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice  .",
+        "Combined_Results": [
+            "DENV Inhibition capsid protein"
+        ]
+    },
+    {
+        "Index": "7",
+        "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF7",
+            "TBK1 Phosphorylation IRF3"
+        ]
+    },
+    {
+        "Index": "70",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "71",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "72",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "73",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "74",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "75",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "76",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "77",
+        "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+        "Combined_Results": [
+            "DENV2 RegulateActivity PIK3CA",
+            "AR-12 RegulateActivity PIK3CA"
+        ]
+    },
+    {
+        "Index": "78",
+        "Sentence": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "79",
+        "Sentence": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo  .",
+        "Combined_Results": []
+    },
+    {
+        "Index": "8",
+        "Sentence": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF3",
+            "STING RegulateActivity TBK1",
+            "cGAS Complex STING"
+        ]
+    },
+    {
+        "Index": "80",
+        "Sentence": "Following virus recognition, the RLRs translocate to the mitochondrial membrane and activate mitochondrial antiviral signaling (MAVS) protein found on the surface of the mitochondria via the caspase activation recruitment domains (CARD) of the RLRs and MAVS.",
+        "Combined_Results": [
+            "RLRs Translocation MAVS"
+        ]
+    },
+    {
+        "Index": "9",
+        "Sentence": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
+        "Combined_Results": [
+            "TBK1 Phosphorylation IRF3",
+            "STING RegulateActivity TBK1",
+            "cGAS Complex STING"
+        ]
+    }
+]

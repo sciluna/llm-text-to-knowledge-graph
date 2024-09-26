@@ -5,7 +5,7 @@ import logging
 import re
 from indra_download_extract import fetch_pmc_article, setup_output_directory, save_to_json
 from get_indra_statements import process_nxml_file
-from sentence_level_extraction import extract_sentences, llm_processing, create_combined_results
+from sentence_level_extraction import extract_sentences, llm_processing, create_combined_results, indra_processing
 from convert_to_cx2 import convert_to_cx2
 
 # Configure logging
@@ -34,21 +34,31 @@ def main(pmc_id):
         xml_file = fetch_pmc_article(pmc_id, output_dir)
 
         logging.info("Processing XML file with Reach to get INDRA statements")
-        indra_statements = process_nxml_file(xml_file)
+        indra_statements = process_nxml_file(xml_file, output_dir)
 
         logging.info("Extracting sentences from INDRA statements")
         sentences = extract_sentences(indra_statements)
-        selected_keys = sorted(sentences.keys())
+        selected_keys = sorted(sentences.keys())[:]
 
         logging.info("Processing sentences with LLM model")
         llm_results = llm_processing(selected_keys, sentences)
         llm_results_filename = f'llm_results_{pmc_id}.json'
-        save_to_json(llm_results, llm_results_filename, output_dir)
+        save_to_json(llm_results, llm_results_filename, output_dir)      
+
+        logging.info("processing sentences with indra reach")
+        indra_results = indra_processing(selected_keys, sentences)
+        indra_results_filename = f'indra_results_{pmc_id}.json'
+        save_to_json(indra_results, indra_results_filename, output_dir)
 
         logging.info("Combining extracted results into subject-interaction_type-object")
         llm_combined_results = create_combined_results(llm_results["LLM_extractions"])
         llm_combined_results_filename = f'llm_combined_results_{pmc_id}.json'
-        save_to_json(llm_combined_results, llm_combined_results_filename, output_dir)
+        save_to_json(llm_combined_results, llm_combined_results_filename, output_dir)    
+
+        logging.info("Combining extracted results into subject-interaction_type-object")
+        indra_combined_results = create_combined_results(indra_results["INDRA_REACH_extractions"])
+        indra_combined_results_filename = f'indra_combined_results_{pmc_id}.json'
+        save_to_json(indra_combined_results, indra_combined_results_filename, output_dir) 
 
         logging.info("Converting results to CX2 format")
         cx2_network = convert_to_cx2(llm_combined_results)

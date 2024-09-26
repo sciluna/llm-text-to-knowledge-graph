@@ -1,0 +1,1212 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 45,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 111,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "name": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "name": "TBK1"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "name": "IRF7"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "name": "IRF3"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "name": "NS2A"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "name": "NS4B"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "name": "NS4A"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "name": "NS2B"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "name": "NS3"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "name": "STING"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "name": "cGAS"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "name": "JAK1"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "name": "STAT2"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "name": "STAT1"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "name": "IRF9"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "name": "IFNA"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "name": "IFNAR"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "name": "14-3-3\u03b5"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "name": "MAVS"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "name": "NS1"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "name": "C4"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "name": "C4b"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "name": "C1s"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "name": "MBL"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "name": "CLU"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "name": "HSPA8"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "name": "RLRs"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "name": "IKK\u03b2"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "name": "NF-\u03baB"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "name": "IKK\u03b3"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "name": "TRAF6"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "name": "IKK\u03b1"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "name": "TLR7"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "name": "CAPS"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "name": "DAXX"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "name": "TLR4"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "name": "DENV"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "name": "PRR"
+                }
+            },
+            {
+                "id": 37,
+                "v": {
+                    "name": "TLR"
+                }
+            },
+            {
+                "id": 38,
+                "v": {
+                    "name": "RLR"
+                }
+            },
+            {
+                "id": 39,
+                "v": {
+                    "name": "NS5"
+                }
+            },
+            {
+                "id": 40,
+                "v": {
+                    "name": "Dicer"
+                }
+            },
+            {
+                "id": 41,
+                "v": {
+                    "name": "FAM134B"
+                }
+            },
+            {
+                "id": 42,
+                "v": {
+                    "name": "DENV2"
+                }
+            },
+            {
+                "id": 43,
+                "v": {
+                    "name": "PIK3CA"
+                }
+            },
+            {
+                "id": 44,
+                "v": {
+                    "name": "AR-12"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 1,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 2,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 3,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 4,
+                "s": 3,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 5,
+                "s": 4,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 6,
+                "s": 5,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 7,
+                "s": 3,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 8,
+                "s": 4,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 9,
+                "s": 5,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 10,
+                "s": 3,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 11,
+                "s": 4,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 12,
+                "s": 5,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 13,
+                "s": 3,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 14,
+                "s": 4,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 15,
+                "s": 5,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 16,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 17,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 18,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 19,
+                "s": 8,
+                "t": 0,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 20,
+                "s": 9,
+                "t": 8,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 21,
+                "s": 10,
+                "t": 11,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 22,
+                "s": 12,
+                "t": 13,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 23,
+                "s": 12,
+                "t": 11,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 24,
+                "s": 11,
+                "t": 13,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 25,
+                "s": 14,
+                "t": 15,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 26,
+                "s": 10,
+                "t": 12,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 27,
+                "s": 10,
+                "t": 11,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 28,
+                "s": 12,
+                "t": 13,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 29,
+                "s": 15,
+                "t": 10,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 30,
+                "s": 12,
+                "t": 11,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 31,
+                "s": 11,
+                "t": 13,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 32,
+                "s": 10,
+                "t": 12,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 33,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 34,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 35,
+                "s": 7,
+                "t": 16,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 36,
+                "s": 5,
+                "t": 17,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 37,
+                "s": 18,
+                "t": 19,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 38,
+                "s": 18,
+                "t": 20,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 39,
+                "s": 18,
+                "t": 21,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 40,
+                "s": 18,
+                "t": 22,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 41,
+                "s": 18,
+                "t": 23,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 42,
+                "s": 7,
+                "t": 24,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 43,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 44,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 45,
+                "s": 25,
+                "t": 17,
+                "v": {
+                    "interaction": "Translocation"
+                }
+            },
+            {
+                "id": 46,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 47,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 48,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 49,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 50,
+                "s": 26,
+                "t": 27,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 51,
+                "s": 28,
+                "t": 27,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 52,
+                "s": 29,
+                "t": 30,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 53,
+                "s": 31,
+                "t": 29,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 54,
+                "s": 29,
+                "t": 28,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 55,
+                "s": 29,
+                "t": 26,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 56,
+                "s": 30,
+                "t": 27,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 57,
+                "s": 9,
+                "t": 8,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 58,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 59,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 60,
+                "s": 32,
+                "t": 33,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 61,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 62,
+                "s": 34,
+                "t": 18,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 63,
+                "s": 35,
+                "t": 36,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 64,
+                "s": 35,
+                "t": 37,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 65,
+                "s": 35,
+                "t": 36,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 66,
+                "s": 35,
+                "t": 38,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 67,
+                "s": 3,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 68,
+                "s": 4,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 69,
+                "s": 5,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 70,
+                "s": 3,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 71,
+                "s": 4,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 72,
+                "s": 5,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 73,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 74,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 75,
+                "s": 6,
+                "t": 8,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 76,
+                "s": 39,
+                "t": 11,
+                "v": {
+                    "interaction": "RegulateAmount"
+                }
+            },
+            {
+                "id": 77,
+                "s": 39,
+                "t": 11,
+                "v": {
+                    "interaction": "RegulateAmount"
+                }
+            },
+            {
+                "id": 78,
+                "s": 39,
+                "t": 11,
+                "v": {
+                    "interaction": "RegulateAmount"
+                }
+            },
+            {
+                "id": 79,
+                "s": 18,
+                "t": 23,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 80,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 81,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 82,
+                "s": 4,
+                "t": 40,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 83,
+                "s": 4,
+                "t": 40,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 84,
+                "s": 35,
+                "t": 41,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 85,
+                "s": 35,
+                "t": 41,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 86,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 87,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 88,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 89,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 90,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 91,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 92,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 93,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 94,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 95,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 96,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 97,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 98,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 99,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 100,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 101,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 102,
+                "s": 42,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 103,
+                "s": 44,
+                "t": 43,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 104,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 105,
+                "s": 8,
+                "t": 0,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 106,
+                "s": 9,
+                "t": 8,
+                "v": {
+                    "interaction": "Complex"
+                }
+            },
+            {
+                "id": 107,
+                "s": 25,
+                "t": 17,
+                "v": {
+                    "interaction": "Translocation"
+                }
+            },
+            {
+                "id": 108,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 109,
+                "s": 8,
+                "t": 0,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 110,
+                "s": 9,
+                "t": 8,
+                "v": {
+                    "interaction": "Complex"
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,3987 @@
+[
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "TBK1",
+            "db_refs": {
+                "UP": "Q9UHD2",
+                "TEXT": "TANK-binding kinase 1",
+                "HGNC": "11584",
+                "EGID": "29110"
+            }
+        },
+        "sub": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                95,
+                                98
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "45ee9ba5-b175-42f3-806b-d4437e6dc4d3",
+        "matches_hash": "-9938266965199975"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "TBK1",
+            "db_refs": {
+                "UP": "Q9UHD2",
+                "TEXT": "TBK1",
+                "HGNC": "11584",
+                "EGID": "29110"
+            }
+        },
+        "sub": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                95,
+                                98
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "543c8e85-41ef-4fa1-afdd-7fee6d31b8ac",
+        "matches_hash": "-9938266965199975"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "IRF7",
+            "db_refs": {
+                "UP": "Q92985",
+                "TEXT": "IRF7",
+                "HGNC": "6122",
+                "EGID": "3665"
+            }
+        },
+        "sub": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                95,
+                                98
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "fb6441c7-ca0d-4b7c-a86a-5e50b197fe37",
+        "matches_hash": "4888436753848517"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "IKK_complex",
+            "db_refs": {
+                "FPLX": "IKK_complex",
+                "TEXT": "IKK"
+            }
+        },
+        "sub": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                95,
+                                98
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "3cc1c3ce-e6aa-40d5-ad54-92151df6b0ba",
+        "matches_hash": "27223413991455408"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "IRF7",
+            "db_refs": {
+                "UP": "Q92985",
+                "TEXT": "IRF7",
+                "HGNC": "6122",
+                "EGID": "3665"
+            }
+        },
+        "sub": {
+            "name": "IRF3",
+            "db_refs": {
+                "UP": "Q14653",
+                "TEXT": "IRF3",
+                "EGID": "3661",
+                "HGNC": "6118"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                119,
+                                123
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "43301a37-db86-4aa2-b265-8429425977eb",
+        "matches_hash": "3761565934151861"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "TBK1",
+            "db_refs": {
+                "UP": "Q9UHD2",
+                "TEXT": "TANK-binding kinase 1",
+                "HGNC": "11584",
+                "EGID": "29110"
+            }
+        },
+        "sub": {
+            "name": "IRF3",
+            "db_refs": {
+                "UP": "Q14653",
+                "TEXT": "IRF3",
+                "EGID": "3661",
+                "HGNC": "6118"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                119,
+                                123
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "9c374aaa-dcb0-44d1-adfd-aec3d0bd1559",
+        "matches_hash": "26210460670272183"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "TBK1",
+            "db_refs": {
+                "UP": "Q9UHD2",
+                "TEXT": "TBK1",
+                "HGNC": "11584",
+                "EGID": "29110"
+            }
+        },
+        "sub": {
+            "name": "IRF3",
+            "db_refs": {
+                "UP": "Q14653",
+                "TEXT": "IRF3",
+                "EGID": "3661",
+                "HGNC": "6118"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                119,
+                                123
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "ef0337af-1ebd-415d-9fc4-0ca1bbb24b58",
+        "matches_hash": "26210460670272183"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "IKK_complex",
+            "db_refs": {
+                "FPLX": "IKK_complex",
+                "TEXT": "IKK"
+            }
+        },
+        "sub": {
+            "name": "IRF3",
+            "db_refs": {
+                "UP": "Q14653",
+                "TEXT": "IRF3",
+                "EGID": "3661",
+                "HGNC": "6118"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                72,
+                                75
+                            ],
+                            [
+                                119,
+                                123
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "3c380caa-e8db-4768-9252-f4fef154d072",
+        "matches_hash": "2855175529344073"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "nucleotidyl transferase",
+            "db_refs": {
+                "PF": "PF00483",
+                "TEXT": "nucleotidyl transferase"
+            }
+        },
+        "sub": {
+            "name": "IRF3",
+            "db_refs": {
+                "UP": "Q14653",
+                "TEXT": "IRF3",
+                "EGID": "3661",
+                "HGNC": "6118"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_token_of",
+                    "agents": {
+                        "coords": [
+                            [
+                                25,
+                                29
+                            ],
+                            [
+                                174,
+                                178
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7699761198041418574
+            }
+        ],
+        "id": "600f27bf-b2bc-4f87-96cc-9768e75584a5",
+        "matches_hash": "-8467913774448399"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "CGAS",
+            "db_refs": {
+                "UP": "Q8N884",
+                "TEXT": "cGAS",
+                "HGNC": "21367",
+                "EGID": "115004"
+            }
+        },
+        "sub": {
+            "name": "IRF3",
+            "db_refs": {
+                "UP": "Q14653",
+                "TEXT": "IRF3",
+                "EGID": "3661",
+                "HGNC": "6118"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Phosphorylation_token_of",
+                    "agents": {
+                        "coords": [
+                            [
+                                25,
+                                29
+                            ],
+                            [
+                                174,
+                                178
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7699761198041418574
+            }
+        ],
+        "id": "4d68e7ab-0f18-4795-a9ac-eab4a79a9265",
+        "matches_hash": "35671418067870628"
+    },
+    {
+        "type": "Dephosphorylation",
+        "enz": {
+            "name": "NS2a",
+            "db_refs": {
+                "PR": "PR:000036825",
+                "TEXT": "NS2a"
+            }
+        },
+        "sub": {
+            "name": "TBK1",
+            "db_refs": {
+                "UP": "Q9UHD2",
+                "TEXT": "TBK1",
+                "HGNC": "11584",
+                "EGID": "29110"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+                "annotations": {
+                    "found_by": "Phosphorylation_token_of",
+                    "agents": {
+                        "coords": [
+                            [
+                                9,
+                                13
+                            ],
+                            [
+                                124,
+                                128
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7445739439165369894
+            }
+        ],
+        "id": "1cb955e5-4d68-44ab-9c3d-fc44504fc1cd",
+        "matches_hash": "7538619412264859"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "NS4b",
+            "db_refs": {
+                "PR": "PR:000036833",
+                "TEXT": "NS4b"
+            }
+        },
+        "sub": {
+            "name": "TBK1",
+            "db_refs": {
+                "UP": "Q9UHD2",
+                "TEXT": "TBK1",
+                "HGNC": "11584",
+                "EGID": "29110"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+                "annotations": {
+                    "found_by": "Phosphorylation_token_of",
+                    "agents": {
+                        "coords": [
+                            [
+                                9,
+                                13
+                            ],
+                            [
+                                124,
+                                128
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7445739439165369894
+            }
+        ],
+        "id": "833d0796-bf74-466f-80a5-b02f4b2b5c48",
+        "matches_hash": "27931489828938051"
+    },
+    {
+        "type": "Dephosphorylation",
+        "enz": {
+            "name": "NS4b",
+            "db_refs": {
+                "PR": "PR:000036833",
+                "TEXT": "NS4b"
+            }
+        },
+        "sub": {
+            "name": "TRIM63",
+            "db_refs": {
+                "UP": "Q969Q1",
+                "TEXT": "IRF",
+                "EGID": "84676",
+                "HGNC": "16007"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_noun",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                129,
+                                132
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7445739439165369894
+            }
+        ],
+        "id": "a2b76ff2-1d36-4812-a156-b3b72be7a94c",
+        "matches_hash": "-7797576100830976"
+    },
+    {
+        "type": "Phosphorylation",
+        "enz": {
+            "name": "NS2a",
+            "db_refs": {
+                "PR": "PR:000036825",
+                "TEXT": "NS2a"
+            }
+        },
+        "sub": {
+            "name": "TRIM63",
+            "db_refs": {
+                "UP": "Q969Q1",
+                "TEXT": "IRF",
+                "EGID": "84676",
+                "HGNC": "16007"
+            }
+        },
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+                "annotations": {
+                    "found_by": "Phosphorylation_syntax_1a_noun",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                129,
+                                132
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7445739439165369894
+            }
+        ],
+        "id": "6468f2af-afb6-4329-8f94-816481d348ff",
+        "matches_hash": "10983371109337413"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS2b",
+                "db_refs": {
+                    "PR": "PR:000036827",
+                    "TEXT": "NS2b"
+                }
+            },
+            {
+                "name": "NS3",
+                "db_refs": {
+                    "PR": "PR:000036828",
+                    "TEXT": "NS3"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2b binds to NS3 and forms the functional NS3 protease  .",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                14,
+                                17
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 8226097451845794668
+            }
+        ],
+        "id": "796e5b03-1ed5-4fc8-b7af-d1ed43c8f95f",
+        "matches_hash": "-31313742781281363"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS2b",
+                "db_refs": {
+                    "PR": "PR:000036827",
+                    "TEXT": "NS2b"
+                }
+            },
+            {
+                "name": "Protease",
+                "db_refs": {
+                    "FPLX": "Protease",
+                    "TEXT": "protease",
+                    "NCIT": "C16965"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2b binds to NS3 and forms the functional NS3 protease  .",
+                "annotations": {
+                    "found_by": "binding6",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                47,
+                                55
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 8226097451845794668
+            }
+        ],
+        "id": "edac2870-d206-46cb-88ff-0be9701a3864",
+        "matches_hash": "22048405563258671"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "cyclic GMP-AMP",
+                "db_refs": {
+                    "PUBCHEM": "11181459",
+                    "TEXT": "cyclic GMP-AMP"
+                }
+            },
+            {
+                "name": "STING1",
+                "db_refs": {
+                    "UP": "Q86WV6",
+                    "TEXT": "STING",
+                    "EGID": "340061",
+                    "HGNC": "27962"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                80,
+                                94
+                            ],
+                            [
+                                117,
+                                122
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": -7699761198041418574
+            }
+        ],
+        "id": "8da51a5a-e706-42bb-9118-9dd9bafdb342",
+        "matches_hash": "30424955011305792"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "STAT1",
+                "db_refs": {
+                    "UP": "P42224",
+                    "TEXT": "STAT1",
+                    "EGID": "6772",
+                    "HGNC": "11362"
+                }
+            },
+            {
+                "name": "STAT2",
+                "db_refs": {
+                    "UP": "P52630",
+                    "TEXT": "STAT2",
+                    "HGNC": "11363",
+                    "EGID": "6773"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "IFN\u03b1/\u03b2 cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                "annotations": {
+                    "found_by": "binding_of_and",
+                    "agents": {
+                        "coords": [
+                            [
+                                122,
+                                127
+                            ],
+                            [
+                                132,
+                                137
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 7715289522225373054
+            }
+        ],
+        "id": "c8317c5e-13fb-4bbc-a5d2-075b61a27dfb",
+        "matches_hash": "27337590753047795"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "Interferon",
+                "db_refs": {
+                    "FPLX": "Interferon",
+                    "TEXT": "IFN",
+                    "NCIT": "C20493",
+                    "PF": "PF00143"
+                }
+            },
+            {
+                "name": "IFNAR",
+                "db_refs": {
+                    "FPLX": "IFNAR",
+                    "TEXT": "IFNAR"
+                }
+            },
+            {
+                "name": "tyrosine",
+                "db_refs": {
+                    "TEXT": "tyrosine"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "IFN\u03b1/\u03b2 cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                25,
+                                30
+                            ],
+                            [
+                                52,
+                                60
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 7715289522225373054
+            }
+        ],
+        "id": "f1f4740a-9fcb-4bf9-b904-872c49c76345",
+        "matches_hash": "30569595552002966"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "KIR3DLI",
+                "db_refs": {
+                    "TEXT": "KIR3DLI"
+                }
+            },
+            {
+                "name": "NS1",
+                "db_refs": {
+                    "PR": "PR:000036824",
+                    "TEXT": "NS1"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "KIR3DLI, an inhibitory receptor of the killer immunoglobulin-like receptor (KIR) family that is expressed on NK cells, binds to DENV NS1   and is associated with development of DHF.",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                7
+                            ],
+                            [
+                                133,
+                                136
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": -2098677843848987117
+            }
+        ],
+        "id": "8e813774-7822-4ad8-a375-79e142488c51",
+        "matches_hash": "-6107625308599476"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS3",
+                "db_refs": {
+                    "PR": "PR:000036828",
+                    "TEXT": "NS3"
+                }
+            },
+            {
+                "name": "chaperone protein 14-3-3\u03b5",
+                "db_refs": {
+                    "TEXT": "chaperone protein 14-3-3\u03b5"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS3 blocks RIG-I translocation to mitochondria by binding with the mitochondrial-targeting chaperone protein 14-3-3\u03b5  .",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                91,
+                                116
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 3472143068810793354
+            }
+        ],
+        "id": "bc81e775-482a-4d27-b370-92357ac216d8",
+        "matches_hash": "15441561591903914"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS4a",
+                "db_refs": {
+                    "PR": "PR:000036830",
+                    "TEXT": "NS4a"
+                }
+            },
+            {
+                "name": "CARD",
+                "db_refs": {
+                    "PF": "PF00619",
+                    "TEXT": "CARD"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS4a will also inhibit RIG-I interaction with MAVS by binding to the MAVS CARD-like domain and transmembrane domain  .",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                74,
+                                78
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": -7297613119208151313
+            }
+        ],
+        "id": "3685ca12-23eb-40a3-adf1-31fd687bc505",
+        "matches_hash": "-4238072211864313"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS1",
+                "db_refs": {
+                    "PR": "PR:000036824",
+                    "TEXT": "NS1"
+                }
+            },
+            {
+                "name": "C4A",
+                "db_refs": {
+                    "UP": "P0C0L4",
+                    "TEXT": "C4b",
+                    "EGID": "720",
+                    "HGNC": "1323"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS1 inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b  .",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                93,
+                                96
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": -3301009536181715952
+            }
+        ],
+        "id": "3d518f68-e197-468a-9c93-eec2020dcf17",
+        "matches_hash": "30908358865131307"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS1",
+                "db_refs": {
+                    "PR": "PR:000036824",
+                    "TEXT": "NS1"
+                }
+            },
+            {
+                "name": "MBL2",
+                "db_refs": {
+                    "UP": "P11226",
+                    "TEXT": "MBL",
+                    "HGNC": "6922",
+                    "EGID": "4153"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS1 also protects DENV from neutralization by binding to MBL  .",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                57,
+                                60
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": -4326921093583375678
+            }
+        ],
+        "id": "6c8112ff-e76c-4d5e-9142-d24eb66f4687",
+        "matches_hash": "2155292688578444"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS1",
+                "db_refs": {
+                    "PR": "PR:000036824",
+                    "TEXT": "NS1"
+                }
+            },
+            {
+                "name": "CLU",
+                "db_refs": {
+                    "UP": "P10909",
+                    "TEXT": "clusterin",
+                    "HGNC": "2095",
+                    "EGID": "1191"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS1 binding to complement inhibitory factor clusterin will also inhibit MAC formation   (Fig.\u00a05).",
+                "annotations": {
+                    "found_by": "binding_syntax_24_noun",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                44,
+                                53
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 4185730916589490318
+            }
+        ],
+        "id": "fd596e48-3825-4a2c-a5d8-30a310a1a066",
+        "matches_hash": "20666957585372526"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "NS3",
+                "db_refs": {
+                    "PR": "PR:000036828",
+                    "TEXT": "NS3"
+                }
+            },
+            {
+                "name": "heat-shock cognate 70",
+                "db_refs": {
+                    "TEXT": "heat-shock cognate 70"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP\u2013Argo interaction and RISC formation   (Fig.\u00a04).",
+                "annotations": {
+                    "found_by": "binding1b",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                39,
+                                60
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": -3169965244808394926
+            }
+        ],
+        "id": "2377ef71-57cb-4581-9b79-7682f549a114",
+        "matches_hash": "-22138365298178699"
+    },
+    {
+        "type": "Complex",
+        "members": [
+            {
+                "name": "ligand",
+                "db_refs": {
+                    "CHEBI": "CHEBI:52214",
+                    "TEXT": "ligand"
+                }
+            },
+            {
+                "name": "Cyclophilin",
+                "db_refs": {
+                    "FPLX": "Cyclophilin",
+                    "TEXT": "cyclophilin"
+                }
+            }
+        ],
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV C protein aids in inhibition of apoptosis in Huh7 cells by interacting with calcium-modulating cyclophilin-binding ligand, an ER protein associated with cell survival by regulating Bim-dependent death  .",
+                "annotations": {
+                    "found_by": "binding5",
+                    "agents": {
+                        "coords": [
+                            [
+                                120,
+                                126
+                            ],
+                            [
+                                100,
+                                111
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": true,
+                    "section_type": null
+                },
+                "source_hash": 7323692161140929551
+            }
+        ],
+        "id": "9267019a-0cac-4c8d-9dc2-c5199e822431",
+        "matches_hash": "387342582345890"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Infections",
+            "db_refs": {
+                "MESH": "D007239",
+                "TEXT": "infection",
+                "EFO": "0000544"
+            }
+        },
+        "obj": {
+            "name": "Disease",
+            "db_refs": {
+                "MESH": "D004194",
+                "TEXT": "disease"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Cross-protection from other serotypes is not long term, instead heterotypic infection can cause severe disease.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                76,
+                                85
+                            ],
+                            [
+                                103,
+                                110
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -6536609110875163877
+            }
+        ],
+        "id": "4d679eee-3436-47f5-9f3a-e01705597ca1",
+        "matches_hash": "11740454599062583"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Infections",
+            "db_refs": {
+                "MESH": "D007239",
+                "TEXT": "infections",
+                "EFO": "0000544"
+            }
+        },
+        "obj": {
+            "name": "Fever",
+            "db_refs": {
+                "MESH": "D005334",
+                "TEXT": "fever",
+                "HP": "HP:0001945"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Primary infections may cause a rash and fever, but many infections are asymptomatic.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                8,
+                                18
+                            ],
+                            [
+                                40,
+                                45
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3551419670482612401
+            }
+        ],
+        "id": "0b25acaa-da4a-4731-b569-7be6acca1506",
+        "matches_hash": "11807426574439157"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Infections",
+            "db_refs": {
+                "MESH": "D007239",
+                "TEXT": "infections",
+                "EFO": "0000544"
+            }
+        },
+        "obj": {
+            "name": "Exanthema",
+            "db_refs": {
+                "MESH": "D005076",
+                "TEXT": "rash"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Primary infections may cause a rash and fever, but many infections are asymptomatic.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                8,
+                                18
+                            ],
+                            [
+                                31,
+                                35
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3551419670482612401
+            }
+        ],
+        "id": "9cd87525-3452-435b-8dc9-28aa6a3344a9",
+        "matches_hash": "33859976942943536"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Infections",
+            "db_refs": {
+                "MESH": "D007239",
+                "TEXT": "infections",
+                "EFO": "0000544"
+            }
+        },
+        "obj": {
+            "name": "Disease",
+            "db_refs": {
+                "MESH": "D004194",
+                "TEXT": "disease"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Secondary infections, however, are known to cause severe disease, specifically after a heterotypic infection  .",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                10,
+                                20
+                            ],
+                            [
+                                57,
+                                64
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 4951954367219015941
+            }
+        ],
+        "id": "7590c117-4191-4d29-873a-56468343e6e6",
+        "matches_hash": "11740454599062583"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "adenine",
+            "db_refs": {
+                "PUBCHEM": "190",
+                "TEXT": "ADE",
+                "MESH": "D000225",
+                "DRUGBANK": "DB00173",
+                "CHEMBL": "CHEMBL226345",
+                "HMDB": "HMDB0000034",
+                "CAS": "73-24-5",
+                "CHEBI": "CHEBI:16708"
+            }
+        },
+        "obj": {
+            "name": "viral process",
+            "db_refs": {
+                "GO": "GO:0016032",
+                "TEXT": "virulence"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The exact cause of this is unknown, but the phenomenon of antibody-dependent enhancement (ADE) may cause increased pathogenicity and virulence  .",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                90,
+                                93
+                            ],
+                            [
+                                133,
+                                142
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 6864770321655107943
+            }
+        ],
+        "id": "38205a61-5e9d-4ca2-849f-511e3fe6a363",
+        "matches_hash": "35929088858022330"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "NS2b",
+            "db_refs": {
+                "PR": "PR:000036827",
+                "TEXT": "NS2b"
+            }
+        },
+        "obj": {
+            "name": "Protease",
+            "db_refs": {
+                "FPLX": "Protease",
+                "TEXT": "protease",
+                "NCIT": "C16965"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Cofactor NS2b is necessary for the protease to be functional.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_7_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                9,
+                                13
+                            ],
+                            [
+                                35,
+                                43
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 82132090251751410
+            }
+        ],
+        "id": "1a538a4b-9959-418e-91cb-396c34625019",
+        "matches_hash": "-15689302476670020"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "ATP6AP2",
+            "db_refs": {
+                "UP": "O75787",
+                "TEXT": "PRR",
+                "EGID": "10159",
+                "HGNC": "18305"
+            }
+        },
+        "obj": {
+            "name": "Chemokine",
+            "db_refs": {
+                "FPLX": "Chemokine",
+                "TEXT": "chemokines",
+                "NCIT": "C20466"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "PRR recognition will trigger production of cytokines and chemokines, which induce an antiviral state.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                57,
+                                67
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 6315716360181606394
+            }
+        ],
+        "id": "b8edaea4-9d34-4d54-ac70-f411d980fd02",
+        "matches_hash": "-31757957566449516"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "RLR",
+            "db_refs": {
+                "FPLX": "RLR",
+                "TEXT": "RLRs"
+            }
+        },
+        "obj": {
+            "name": "MAVS",
+            "db_refs": {
+                "UP": "Q7Z434",
+                "TEXT": "MAVS",
+                "HGNC": "29233",
+                "EGID": "57506"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Following virus recognition, the RLRs translocate to the mitochondrial membrane and activate mitochondrial antiviral signaling (MAVS) protein found on the surface of the mitochondria via the caspase activation recruitment domains (CARD) of the RLRs and MAVS.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                33,
+                                37
+                            ],
+                            [
+                                128,
+                                132
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 6474165934372694851
+            }
+        ],
+        "id": "0e37f206-c2e5-4ab1-9ba4-f62b6b1ddeec",
+        "matches_hash": "14169303501657527"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "IRF3",
+            "db_refs": {
+                "UP": "Q14653",
+                "TEXT": "IRF3",
+                "EGID": "3661",
+                "HGNC": "6118"
+            }
+        },
+        "obj": {
+            "name": "SGCG",
+            "db_refs": {
+                "UP": "Q13326",
+                "TEXT": "type",
+                "HGNC": "10809",
+                "EGID": "6445"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                119,
+                                123
+                            ],
+                            [
+                                184,
+                                188
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "2f9f7755-bef8-4543-a723-473acdac4693",
+        "matches_hash": "-6611233859029434"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "obj": {
+            "name": "SGCG",
+            "db_refs": {
+                "UP": "Q13326",
+                "TEXT": "type",
+                "HGNC": "10809",
+                "EGID": "6445"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                95,
+                                98
+                            ],
+                            [
+                                184,
+                                188
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 5444880232717560826
+            }
+        ],
+        "id": "23ec953f-e93f-4786-a0c9-9652644b0910",
+        "matches_hash": "-2919186971651457"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "TLR7",
+            "db_refs": {
+                "UP": "Q9NYK1",
+                "TEXT": "TLR7",
+                "EGID": "51284",
+                "HGNC": "15631"
+            }
+        },
+        "obj": {
+            "name": "TRAF6",
+            "db_refs": {
+                "UP": "Q9Y4K3",
+                "TEXT": "TRAF6",
+                "HGNC": "12036",
+                "EGID": "7189"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "TLR7 recognition of ssRNA, including DENV genomic fragments, uses the myeloid differentiation primary response gene 88-dependent signal pathway to induce pro-inflammatory cytokines by recruiting TRAF6 to activate inhibitor of nuclear factor-\u03baB kinase (IKK)\u03b1/IKK\u03b2/ IKK\u03b3, and activate nuclear factor-\u03baB (NF-\u03baB)   (Fig.\u00a02).",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                195,
+                                200
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3663315857487464997
+            }
+        ],
+        "id": "25711938-d551-493f-9bc1-fab75f693045",
+        "matches_hash": "-24828536739893004"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "cGAS PRR",
+            "db_refs": {
+                "TEXT": "cGAS PRR"
+            }
+        },
+        "obj": {
+            "name": "CGAS",
+            "db_refs": {
+                "UP": "Q8N884",
+                "TEXT": "cyclic GMP-AMP synthase",
+                "HGNC": "21367",
+                "EGID": "115004"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The cyclic GMP-AMP synthase (cGAS) and stimulator of IFN gene (STING) pathway is also activated during DENV infection by the cGAS PRR, despite the fact that this pathway recognizes cytoplasmic DNA  .",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_2_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                125,
+                                133
+                            ],
+                            [
+                                4,
+                                27
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 2347133346212361732
+            }
+        ],
+        "id": "bf5fbf94-fdab-4c8d-af9b-8ee334d7b9f6",
+        "matches_hash": "85962753482575"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "cGAS PRR",
+            "db_refs": {
+                "TEXT": "cGAS PRR"
+            }
+        },
+        "obj": {
+            "name": "CGAS",
+            "db_refs": {
+                "UP": "Q8N884",
+                "TEXT": "cGAS",
+                "HGNC": "21367",
+                "EGID": "115004"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The cyclic GMP-AMP synthase (cGAS) and stimulator of IFN gene (STING) pathway is also activated during DENV infection by the cGAS PRR, despite the fact that this pathway recognizes cytoplasmic DNA  .",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_2_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                125,
+                                133
+                            ],
+                            [
+                                29,
+                                33
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 2347133346212361732
+            }
+        ],
+        "id": "5fa36bd5-7992-43ab-94fd-150dab09761e",
+        "matches_hash": "85962753482575"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "SGCG",
+            "db_refs": {
+                "UP": "Q13326",
+                "TEXT": "type",
+                "HGNC": "10809",
+                "EGID": "6445"
+            }
+        },
+        "obj": {
+            "name": "Infections",
+            "db_refs": {
+                "MESH": "D007239",
+                "TEXT": "infection",
+                "EFO": "0000544"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Production of type I IFNs inhibits DENV infection of other monocytes  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                14,
+                                18
+                            ],
+                            [
+                                40,
+                                49
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1785391024367941535
+            }
+        ],
+        "id": "c891be25-a585-4d9d-8e33-46abff2e1e3f",
+        "matches_hash": "2640425578336846"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "complement activation",
+            "db_refs": {
+                "GO": "GO:0006956",
+                "TEXT": "complement cascade",
+                "MESH": "D003167"
+            }
+        },
+        "obj": {
+            "name": "inflammatory response",
+            "db_refs": {
+                "GO": "GO:0006954",
+                "TEXT": "inflammation",
+                "MESH": "D007249"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The following classical complement cascade includes the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation   (Fig.\u00a03b).",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                24,
+                                42
+                            ],
+                            [
+                                175,
+                                187
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 6235887151556011535
+            }
+        ],
+        "id": "3bbf4188-adc5-488f-b3c4-1a2ae6fb8630",
+        "matches_hash": "-29018014518672471"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "DENV proteins",
+            "db_refs": {
+                "TEXT": "DENV proteins"
+            }
+        },
+        "obj": {
+            "name": "apoptotic process",
+            "db_refs": {
+                "GO": "GO:0006915",
+                "TEXT": "apoptosis",
+                "MESH": "D017209"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV proteins have been shown to activate apoptosis inside infected cells.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                13
+                            ],
+                            [
+                                42,
+                                51
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -5741732525245111405
+            }
+        ],
+        "id": "1dd5c1c7-40fe-46de-9308-b898767c7886",
+        "matches_hash": "35501781233500048"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "FAS",
+            "db_refs": {
+                "UP": "P25445",
+                "TEXT": "Fas",
+                "HGNC": "11920",
+                "EGID": "355"
+            }
+        },
+        "obj": {
+            "name": "apoptotic process",
+            "db_refs": {
+                "GO": "GO:0006915",
+                "TEXT": "apoptosis",
+                "MESH": "D017209"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The capsid protein nuclear localization interacts with death-associated protein 6 and triggers Fas-mediated apoptosis in liver cells  .",
+                "annotations": {
+                    "found_by": "Positive_early_activation",
+                    "agents": {
+                        "coords": [
+                            [
+                                95,
+                                98
+                            ],
+                            [
+                                108,
+                                117
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 1278937664112998050
+            }
+        ],
+        "id": "cb997c5b-41b1-4a5b-9455-63236af142ab",
+        "matches_hash": "-28602618503492820"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Protease",
+            "db_refs": {
+                "FPLX": "Protease",
+                "TEXT": "protease",
+                "NCIT": "C16965"
+            }
+        },
+        "obj": {
+            "name": "apoptotic process",
+            "db_refs": {
+                "GO": "GO:0006915",
+                "TEXT": "apoptosis",
+                "MESH": "D017209"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The NS2b-NS3 protease precursor and NS3 protease induce apoptosis   most likely through the caspase-8 pathway   or NF-\u03baB  .",
+                "annotations": {
+                    "found_by": "Positive_activation_token_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                40,
+                                48
+                            ],
+                            [
+                                56,
+                                65
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 4040416460590420763
+            }
+        ],
+        "id": "b2363193-96bc-47dd-9e83-fb319e55e0fe",
+        "matches_hash": "-27020819478694497"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "TLR4",
+            "db_refs": {
+                "UP": "O00206",
+                "TEXT": "TLR4",
+                "HGNC": "11850",
+                "EGID": "7099"
+            }
+        },
+        "obj": {
+            "name": "cytokine production",
+            "db_refs": {
+                "GO": "GO:0001816",
+                "TEXT": "cytokine production"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "TLR4 recognition of NS1 leads to pro-inflammatory cytokine production that contribute to vascular damage   (Fig.\u00a03).",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_7_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                50,
+                                69
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -731568550005028135
+            }
+        ],
+        "id": "c3bf51c8-47f7-41bd-9a3d-8b03ac0e9978",
+        "matches_hash": "-2495674223288990"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "ATP6AP2",
+            "db_refs": {
+                "UP": "O75787",
+                "TEXT": "PRR",
+                "EGID": "10159",
+                "HGNC": "18305"
+            }
+        },
+        "obj": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV can block PRR signaling and production of type I IFN response by targeting the RLR and TLR pathways mentioned above.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_3_noun",
+                    "agents": {
+                        "coords": [
+                            [
+                                15,
+                                18
+                            ],
+                            [
+                                54,
+                                57
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 1510615712682896534
+            }
+        ],
+        "id": "81e6553a-dea5-426d-a989-44be1303bca2",
+        "matches_hash": "2861741220580726"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "ATP6AP2",
+            "db_refs": {
+                "UP": "O75787",
+                "TEXT": "PRR",
+                "EGID": "10159",
+                "HGNC": "18305"
+            }
+        },
+        "obj": {
+            "name": "SGCG",
+            "db_refs": {
+                "UP": "Q13326",
+                "TEXT": "type",
+                "HGNC": "10809",
+                "EGID": "6445"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV can block PRR signaling and production of type I IFN response by targeting the RLR and TLR pathways mentioned above.",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_3_noun",
+                    "agents": {
+                        "coords": [
+                            [
+                                15,
+                                18
+                            ],
+                            [
+                                47,
+                                51
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 1510615712682896534
+            }
+        ],
+        "id": "c0afec56-3ed8-492d-9495-3db59c58cd5f",
+        "matches_hash": "-18787028396536650"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "TBK1",
+            "db_refs": {
+                "UP": "Q9UHD2",
+                "TEXT": "TBK1",
+                "HGNC": "11584",
+                "EGID": "29110"
+            }
+        },
+        "obj": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                124,
+                                128
+                            ],
+                            [
+                                145,
+                                148
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7445739439165369894
+            }
+        ],
+        "id": "d44365a5-936e-450e-9ea7-f858179e3023",
+        "matches_hash": "11750985187907048"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "TRIM63",
+            "db_refs": {
+                "UP": "Q969Q1",
+                "TEXT": "IRF",
+                "EGID": "84676",
+                "HGNC": "16007"
+            }
+        },
+        "obj": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                129,
+                                132
+                            ],
+                            [
+                                145,
+                                148
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -7445739439165369894
+            }
+        ],
+        "id": "20d6464f-34cc-4a4c-9804-601b5e0f74d5",
+        "matches_hash": "-35304908533737120"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "Protease",
+            "db_refs": {
+                "FPLX": "Protease",
+                "TEXT": "protease",
+                "NCIT": "C16965"
+            }
+        },
+        "obj": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS2b/3 protease inhibits IFN production by cleaving STING   (Fig.\u00a04).",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                7,
+                                15
+                            ],
+                            [
+                                25,
+                                28
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 4619948569211367374
+            }
+        ],
+        "id": "3865a6d4-b8a0-4b18-a853-32e590270ea1",
+        "matches_hash": "-27062725373484879"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "GNL3",
+            "db_refs": {
+                "UP": "Q9BVP2",
+                "TEXT": "NS",
+                "HGNC": "29931",
+                "EGID": "26354"
+            }
+        },
+        "obj": {
+            "name": "IFNAR",
+            "db_refs": {
+                "FPLX": "IFNAR",
+                "TEXT": "IFNAR"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Furthermore, along with inhibiting IFN\u03b1/\u03b2 production, NS proteins block the IFNAR pathways.",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                54,
+                                56
+                            ],
+                            [
+                                76,
+                                81
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 10565697927909170
+            }
+        ],
+        "id": "baaa0181-b934-4c02-b360-53961082810f",
+        "matches_hash": "-3177480229576565"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NS5",
+            "db_refs": {
+                "PR": "PR:000036835",
+                "TEXT": "NS5"
+            }
+        },
+        "obj": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                13,
+                                16
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1352287549363080206
+            }
+        ],
+        "id": "ed6161cf-4af3-4bff-9d2d-88ab72119126",
+        "matches_hash": "12778991017658525"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NS5",
+            "db_refs": {
+                "PR": "PR:000036835",
+                "TEXT": "NS5"
+            }
+        },
+        "obj": {
+            "name": "STAT2",
+            "db_refs": {
+                "UP": "P52630",
+                "TEXT": "STAT2",
+                "HGNC": "11363",
+                "EGID": "6773"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                152,
+                                157
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1352287549363080206
+            }
+        ],
+        "id": "bc739011-b050-430d-ba41-ba6475c2c583",
+        "matches_hash": "-1232245094958684"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NS5",
+            "db_refs": {
+                "PR": "PR:000036835",
+                "TEXT": "NS5"
+            }
+        },
+        "obj": {
+            "name": "STAT2",
+            "db_refs": {
+                "UP": "P52630",
+                "TEXT": "STAT2",
+                "HGNC": "11363",
+                "EGID": "6773"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                39,
+                                44
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1352287549363080206
+            }
+        ],
+        "id": "37d46903-adea-4ac5-a253-9a2c5f7be7a7",
+        "matches_hash": "-1232245094958684"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "DENV2",
+            "db_refs": {
+                "TEXT": "DENV2"
+            }
+        },
+        "obj": {
+            "name": "AKT",
+            "db_refs": {
+                "FPLX": "AKT",
+                "TEXT": "Akt",
+                "NCIT": "C41625"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                5
+                            ],
+                            [
+                                96,
+                                99
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1419029748444274286
+            }
+        ],
+        "id": "da6ddc4e-6398-4a5b-a1bf-654592e300ab",
+        "matches_hash": "15697743479576991"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "DENV2",
+            "db_refs": {
+                "TEXT": "DENV2"
+            }
+        },
+        "obj": {
+            "name": "apoptotic process",
+            "db_refs": {
+                "GO": "GO:0006915",
+                "TEXT": "apoptosis",
+                "MESH": "D017209"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                5
+                            ],
+                            [
+                                31,
+                                40
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1419029748444274286
+            }
+        ],
+        "id": "253d0768-190a-4857-b6fc-fc52a3bea236",
+        "matches_hash": "16626488576912437"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "DENV2",
+            "db_refs": {
+                "TEXT": "DENV2"
+            }
+        },
+        "obj": {
+            "name": "Caspase",
+            "db_refs": {
+                "FPLX": "Caspase",
+                "TEXT": "caspase",
+                "MESH": "D020169",
+                "NCIT": "C18153",
+                "IP": "IPR002138",
+                "PF": "PF00656",
+                "GO": "GO:0004199"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                5
+                            ],
+                            [
+                                13,
+                                20
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1419029748444274286
+            }
+        ],
+        "id": "7e7e7e31-58b5-4894-b446-688dd062f0b9",
+        "matches_hash": "19014823620737201"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "DENV2",
+            "db_refs": {
+                "TEXT": "DENV2"
+            }
+        },
+        "obj": {
+            "name": "PI3K",
+            "db_refs": {
+                "FPLX": "PI3K",
+                "TEXT": "PI3K",
+                "NCIT": "C17270"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                5
+                            ],
+                            [
+                                91,
+                                95
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -1419029748444274286
+            }
+        ],
+        "id": "5fa5b1c2-57b5-4840-b319-b2e09d98eaf3",
+        "matches_hash": "-33025003037815944"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NS1",
+            "bound_conditions": [
+                {
+                    "agent": {
+                        "name": "CLU",
+                        "db_refs": {
+                            "UP": "P10909",
+                            "TEXT": "clusterin",
+                            "HGNC": "2095",
+                            "EGID": "1191"
+                        }
+                    },
+                    "is_bound": true
+                }
+            ],
+            "db_refs": {
+                "PR": "PR:000036824",
+                "TEXT": "NS1"
+            }
+        },
+        "obj": {
+            "name": "activation of membrane attack complex",
+            "db_refs": {
+                "GO": "GO:0001905",
+                "TEXT": "MAC formation"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS1 binding to complement inhibitory factor clusterin will also inhibit MAC formation   (Fig.\u00a05).",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                3
+                            ],
+                            [
+                                72,
+                                85
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 4185730916589490318
+            }
+        ],
+        "id": "b78b87f6-edfa-4c7a-949e-ad81446e8c54",
+        "matches_hash": "30962629864897509"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NS4b",
+            "db_refs": {
+                "PR": "PR:000036833",
+                "TEXT": "NS4b"
+            }
+        },
+        "obj": {
+            "name": "DICER1",
+            "db_refs": {
+                "UP": "Q9UPY3",
+                "TEXT": "Dicer",
+                "HGNC": "17098",
+                "EGID": "23405"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS4b suppresses the RNAi pathway in mammalian cells by blocking Dicer processing via transmembrane domain 3 (TMD3) and TMD5, preventing the biogenesis of mRNA; this is independent of the N-terminal domain that is associated with IFN suppression  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                64,
+                                69
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -6831904197541534921
+            }
+        ],
+        "id": "586fea67-338b-48a7-89a2-2d492bd36609",
+        "matches_hash": "6989093036454225"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NS4b",
+            "db_refs": {
+                "PR": "PR:000036833",
+                "TEXT": "NS4b"
+            }
+        },
+        "obj": {
+            "name": "cellular component biogenesis",
+            "db_refs": {
+                "GO": "GO:0044085",
+                "TEXT": "biogenesis"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "NS4b suppresses the RNAi pathway in mammalian cells by blocking Dicer processing via transmembrane domain 3 (TMD3) and TMD5, preventing the biogenesis of mRNA; this is independent of the N-terminal domain that is associated with IFN suppression  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                140,
+                                150
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -6831904197541534921
+            }
+        ],
+        "id": "8a737ed6-1514-40b5-8e65-b4934477a7be",
+        "matches_hash": "779224405785920"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "Protease",
+            "db_refs": {
+                "FPLX": "Protease",
+                "TEXT": "protease",
+                "NCIT": "C16965"
+            }
+        },
+        "obj": {
+            "name": "reticulophagy",
+            "db_refs": {
+                "GO": "GO:0061709",
+                "TEXT": "reticulophagy"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                12,
+                                20
+                            ],
+                            [
+                                123,
+                                136
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 2165037704610698012
+            }
+        ],
+        "id": "fdde92c9-f5ac-450b-bfa4-dbabba38af11",
+        "matches_hash": "-2157454323574514"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "Protease",
+            "db_refs": {
+                "FPLX": "Protease",
+                "TEXT": "protease",
+                "NCIT": "C16965"
+            }
+        },
+        "obj": {
+            "name": "RETREG1",
+            "db_refs": {
+                "UP": "Q9H6L5",
+                "TEXT": "FAM134B",
+                "HGNC": "25964",
+                "EGID": "54463"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                12,
+                                20
+                            ],
+                            [
+                                88,
+                                95
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 2165037704610698012
+            }
+        ],
+        "id": "fb5b94ef-b1d4-44bb-91fe-b0fc09e47c73",
+        "matches_hash": "-12569146112225212"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "Protease",
+            "db_refs": {
+                "FPLX": "Protease",
+                "TEXT": "protease",
+                "NCIT": "C16965"
+            }
+        },
+        "obj": {
+            "name": "reticulophagy",
+            "db_refs": {
+                "GO": "GO:0061709",
+                "TEXT": "reticulophagy"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                12,
+                                20
+                            ],
+                            [
+                                30,
+                                43
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 2165037704610698012
+            }
+        ],
+        "id": "ca0a10e0-f353-488e-bcee-08e599dbe6f5",
+        "matches_hash": "-2157454323574514"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NITD-618",
+            "db_refs": {
+                "TEXT": "NITD-618"
+            }
+        },
+        "obj": {
+            "name": "RNA biosynthetic process",
+            "db_refs": {
+                "GO": "GO:0032774",
+                "TEXT": "RNA synthesis"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                27,
+                                35
+                            ],
+                            [
+                                46,
+                                59
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -2766797322498189639
+            }
+        ],
+        "id": "5c67817b-b94e-413b-969a-dda959d345df",
+        "matches_hash": "18437361521955888"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "NS4b",
+            "db_refs": {
+                "PR": "PR:000036833",
+                "TEXT": "NS4b"
+            }
+        },
+        "obj": {
+            "name": "RNA biosynthetic process",
+            "db_refs": {
+                "GO": "GO:0032774",
+                "TEXT": "RNA synthesis"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                21,
+                                25
+                            ],
+                            [
+                                46,
+                                59
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -2766797322498189639
+            }
+        ],
+        "id": "e2e5ad4a-5ee5-4807-9518-f7641ef35484",
+        "matches_hash": "-5930453937428114"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "ST-147",
+            "db_refs": {
+                "TEXT": "ST-147"
+            }
+        },
+        "obj": {
+            "name": "AR1",
+            "db_refs": {
+                "UP": "P21942",
+                "TEXT": "capsid protein",
+                "EGID": "956370"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                35,
+                                41
+                            ],
+                            [
+                                86,
+                                100
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 8654809971636933678
+            }
+        ],
+        "id": "2b2212b4-1c87-45e2-8226-5c6819cdb56d",
+        "matches_hash": "-10640079332516258"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "ST-147",
+            "db_refs": {
+                "TEXT": "ST-147"
+            }
+        },
+        "obj": {
+            "name": "Viremia",
+            "db_refs": {
+                "MESH": "D014766",
+                "TEXT": "viremia",
+                "HP": "HP:0020071"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                35,
+                                41
+                            ],
+                            [
+                                113,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 8654809971636933678
+            }
+        ],
+        "id": "9713cc68-c0cc-44b1-bfd1-ae37da7f08b0",
+        "matches_hash": "-9831485840545860"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "ST-147",
+            "db_refs": {
+                "TEXT": "ST-147"
+            }
+        },
+        "obj": {
+            "name": "CASP14",
+            "db_refs": {
+                "UP": "P31944",
+                "TEXT": "mice",
+                "HGNC": "1502",
+                "EGID": "23581"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                35,
+                                41
+                            ],
+                            [
+                                139,
+                                143
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 8654809971636933678
+            }
+        ],
+        "id": "31c2f0b9-797c-4556-9152-e391e59dbc29",
+        "matches_hash": "15518547622194713"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "celecoxib",
+            "db_refs": {
+                "CHEBI": "CHEBI:41423",
+                "TEXT": "celecoxib",
+                "CAS": "169590-42-5",
+                "MESH": "D000068579",
+                "CHEMBL": "CHEMBL118",
+                "HMDB": "HMDB0005014",
+                "DRUGBANK": "DB00482",
+                "HMS-LINCS": "10503",
+                "PUBCHEM": "2662"
+            }
+        },
+        "obj": {
+            "name": "viral RNA genome replication",
+            "db_refs": {
+                "GO": "GO:0039694",
+                "TEXT": "viral replication"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                23,
+                                32
+                            ],
+                            [
+                                191,
+                                208
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "fa22efe8-d87e-45d0-ab4d-891b9cc7ed27",
+        "matches_hash": "-7413223781099909"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "non-steroidal anti-inflammatory drug",
+            "db_refs": {
+                "CHEBI": "CHEBI:35475",
+                "TEXT": "non-steroidal anti-inflammatory drug",
+                "MESH": "D000894"
+            }
+        },
+        "obj": {
+            "name": "protein kinase B signaling",
+            "db_refs": {
+                "GO": "GO:0043491",
+                "TEXT": "Akt signaling"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                36,
+                                72
+                            ],
+                            [
+                                93,
+                                106
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "2514be0e-5a82-4b75-8292-f54d4840aa9e",
+        "matches_hash": "-8747944521108899"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "DENV2",
+            "db_refs": {
+                "TEXT": "DENV2"
+            }
+        },
+        "obj": {
+            "name": "apoptotic process",
+            "db_refs": {
+                "GO": "GO:0006915",
+                "TEXT": "apoptosis",
+                "MESH": "D017209"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                154,
+                                159
+                            ],
+                            [
+                                169,
+                                178
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "385100e9-cebb-4baf-ba80-1743198d7803",
+        "matches_hash": "16626488576912437"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "OSU-03012",
+            "db_refs": {
+                "PUBCHEM": "10027278",
+                "TEXT": "AR-12",
+                "MESH": "C500894",
+                "CAS": "742112-33-0",
+                "CHEBI": "CHEBI:131196",
+                "CHEMBL": "CHEMBL1650595"
+            }
+        },
+        "obj": {
+            "name": "viral RNA genome replication",
+            "db_refs": {
+                "GO": "GO:0039694",
+                "TEXT": "viral replication"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                5
+                            ],
+                            [
+                                191,
+                                208
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "74b5ceaa-80a0-4961-9abd-270a7a5597b0",
+        "matches_hash": "31085457638972783"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "celecoxib",
+            "db_refs": {
+                "CHEBI": "CHEBI:41423",
+                "TEXT": "celecoxib",
+                "CAS": "169590-42-5",
+                "MESH": "D000068579",
+                "CHEMBL": "CHEMBL118",
+                "HMDB": "HMDB0005014",
+                "DRUGBANK": "DB00482",
+                "HMS-LINCS": "10503",
+                "PUBCHEM": "2662"
+            }
+        },
+        "obj": {
+            "name": "PI3K",
+            "db_refs": {
+                "FPLX": "PI3K",
+                "TEXT": "PI3K",
+                "NCIT": "C17270"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                23,
+                                32
+                            ],
+                            [
+                                88,
+                                92
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "39acb317-390a-4f10-baf6-dd919aef80b0",
+        "matches_hash": "-7653263026420114"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "DENV2",
+            "db_refs": {
+                "TEXT": "DENV2"
+            }
+        },
+        "obj": {
+            "name": "apoptotic process",
+            "db_refs": {
+                "GO": "GO:0006915",
+                "TEXT": "apoptosis",
+                "MESH": "D017209"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                154,
+                                159
+                            ],
+                            [
+                                169,
+                                178
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "9f041e07-377e-4651-b5d6-3061528d5960",
+        "matches_hash": "16626488576912437"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "non-steroidal anti-inflammatory drug",
+            "db_refs": {
+                "CHEBI": "CHEBI:35475",
+                "TEXT": "non-steroidal anti-inflammatory drug",
+                "MESH": "D000894"
+            }
+        },
+        "obj": {
+            "name": "PI3K",
+            "db_refs": {
+                "FPLX": "PI3K",
+                "TEXT": "PI3K",
+                "NCIT": "C17270"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                36,
+                                72
+                            ],
+                            [
+                                88,
+                                92
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "ae3df821-bcb3-456c-a974-d61e3ed23735",
+        "matches_hash": "1371677273076170"
+    },
+    {
+        "type": "Inhibition",
+        "subj": {
+            "name": "celecoxib",
+            "db_refs": {
+                "CHEBI": "CHEBI:41423",
+                "TEXT": "celecoxib",
+                "CAS": "169590-42-5",
+                "MESH": "D000068579",
+                "CHEMBL": "CHEMBL118",
+                "HMDB": "HMDB0005014",
+                "DRUGBANK": "DB00482",
+                "HMS-LINCS": "10503",
+                "PUBCHEM": "2662"
+            }
+        },
+        "obj": {
+            "name": "protein kinase B signaling",
+            "db_refs": {
+                "GO": "GO:0043491",
+                "TEXT": "Akt signaling"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
+                "annotations": {
+                    "found_by": "Negative_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                23,
+                                32
+                            ],
+                            [
+                                93,
+                                106
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": -3914043928162006961
+            }
+        ],
+        "id": "e603ef78-307e-486e-9747-9133e3e90a9f",
+        "matches_hash": "-9512423868745434"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Schisandrin A",
+            "db_refs": {
+                "TEXT": "Schisandrin A"
+            }
+        },
+        "obj": {
+            "name": "Interferon",
+            "db_refs": {
+                "FPLX": "Interferon",
+                "TEXT": "IFN",
+                "NCIT": "C20493",
+                "PF": "PF00143"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo  .",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                13
+                            ],
+                            [
+                                127,
+                                130
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 411701639864154490
+            }
+        ],
+        "id": "a46a0cad-5784-4b17-8548-5b8b94b4d80f",
+        "matches_hash": "-162729612354117"
+    },
+    {
+        "type": "Activation",
+        "subj": {
+            "name": "Schisandrin A",
+            "db_refs": {
+                "TEXT": "Schisandrin A"
+            }
+        },
+        "obj": {
+            "name": "SGCG",
+            "db_refs": {
+                "UP": "Q13326",
+                "TEXT": "type",
+                "HGNC": "10809",
+                "EGID": "6445"
+            }
+        },
+        "obj_activity": "activity",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo  .",
+                "annotations": {
+                    "found_by": "Positive_activation_syntax_1_verb",
+                    "agents": {
+                        "coords": [
+                            [
+                                0,
+                                13
+                            ],
+                            [
+                                120,
+                                124
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 411701639864154490
+            }
+        ],
+        "id": "719920a3-5bc0-4862-9c76-b9b0313fb2a7",
+        "matches_hash": "-15512125137287584"
+    },
+    {
+        "type": "Translocation",
+        "agent": {
+            "name": "RLR",
+            "db_refs": {
+                "FPLX": "RLR",
+                "TEXT": "RLRs"
+            }
+        },
+        "to_location": "mitochondrial membrane",
+        "belief": 1,
+        "evidence": [
+            {
+                "source_api": "reach",
+                "text": "Following virus recognition, the RLRs translocate to the mitochondrial membrane and activate mitochondrial antiviral signaling (MAVS) protein found on the surface of the mitochondria via the caspase activation recruitment domains (CARD) of the RLRs and MAVS.",
+                "annotations": {
+                    "found_by": "translocation_8b_verb_active_no_cause",
+                    "agents": {
+                        "coords": [
+                            [
+                                33,
+                                37
+                            ]
+                        ]
+                    }
+                },
+                "epistemics": {
+                    "direct": false,
+                    "section_type": null
+                },
+                "source_hash": 6474165934372694851
+            }
+        ],
+        "id": "bc2500c5-7793-4c0c-b161-12fbf3513b83",
+        "matches_hash": "6377489107425333"
+    }
+]
