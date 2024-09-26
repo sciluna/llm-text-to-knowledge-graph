@@ -3,76 +3,76 @@
         "Index": "0",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
         "Index": "1",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
         "Index": "10",
         "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
         "Combined_Results": [
-            "TBK1 Activation Interferon",
-            "NS4b Phosphorylation TBK1",
-            "NS4b Phosphorylation TRIM63",
-            "NS2a Dephosphorylation TRIM63",
             "NS2a Dephosphorylation TBK1",
-            "TRIM63 Activation Interferon"
+            "TRIM63 Activation Interferon",
+            "NS4b Phosphorylation TBK1",
+            "TBK1 Activation Interferon",
+            "NS4b Phosphorylation TRIM63",
+            "NS2a Dephosphorylation TRIM63"
         ]
     },
     {
         "Index": "11",
         "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
         "Combined_Results": [
-            "TBK1 Activation Interferon",
-            "NS4b Phosphorylation TBK1",
-            "NS4b Phosphorylation TRIM63",
-            "NS2a Dephosphorylation TRIM63",
             "NS2a Dephosphorylation TBK1",
-            "TRIM63 Activation Interferon"
+            "TRIM63 Activation Interferon",
+            "NS4b Phosphorylation TBK1",
+            "TBK1 Activation Interferon",
+            "NS4b Phosphorylation TRIM63",
+            "NS2a Dephosphorylation TRIM63"
         ]
     },
     {
         "Index": "12",
         "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
         "Combined_Results": [
-            "TBK1 Activation Interferon",
-            "NS4b Phosphorylation TBK1",
-            "NS4b Phosphorylation TRIM63",
-            "NS2a Dephosphorylation TRIM63",
             "NS2a Dephosphorylation TBK1",
-            "TRIM63 Activation Interferon"
+            "TRIM63 Activation Interferon",
+            "NS4b Phosphorylation TBK1",
+            "TBK1 Activation Interferon",
+            "NS4b Phosphorylation TRIM63",
+            "NS2a Dephosphorylation TRIM63"
         ]
     },
     {
         "Index": "13",
         "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
         "Combined_Results": [
-            "TBK1 Activation Interferon",
-            "NS4b Phosphorylation TBK1",
-            "NS4b Phosphorylation TRIM63",
-            "NS2a Dephosphorylation TRIM63",
             "NS2a Dephosphorylation TBK1",
-            "TRIM63 Activation Interferon"
+            "TRIM63 Activation Interferon",
+            "NS4b Phosphorylation TBK1",
+            "TBK1 Activation Interferon",
+            "NS4b Phosphorylation TRIM63",
+            "NS2a Dephosphorylation TRIM63"
         ]
     },
     {
@@ -95,9 +95,9 @@
         "Index": "16",
         "Sentence": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
         "Combined_Results": [
-            "cyclic GMP-AMP Complex STING1",
             "CGAS Phosphorylation IRF3",
-            "nucleotidyl transferase Phosphorylation IRF3"
+            "nucleotidyl transferase Phosphorylation IRF3",
+            "cyclic GMP-AMP Complex STING1"
         ]
     },
     {
@@ -135,14 +135,14 @@
         "Index": "2",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
@@ -222,14 +222,14 @@
         "Index": "3",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
@@ -276,28 +276,28 @@
         "Index": "35",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
         "Index": "36",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
@@ -325,14 +325,14 @@
         "Index": "4",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
@@ -381,54 +381,54 @@
         "Index": "46",
         "Sentence": "DENV can block PRR signaling and production of type I IFN response by targeting the RLR and TLR pathways mentioned above.",
         "Combined_Results": [
-            "ATP6AP2 Activation Interferon",
-            "ATP6AP2 Activation SGCG"
+            "ATP6AP2 Activation SGCG",
+            "ATP6AP2 Activation Interferon"
         ]
     },
     {
         "Index": "47",
         "Sentence": "DENV can block PRR signaling and production of type I IFN response by targeting the RLR and TLR pathways mentioned above.",
         "Combined_Results": [
-            "ATP6AP2 Activation Interferon",
-            "ATP6AP2 Activation SGCG"
+            "ATP6AP2 Activation SGCG",
+            "ATP6AP2 Activation Interferon"
         ]
     },
     {
         "Index": "48",
         "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
         "Combined_Results": [
-            "TBK1 Activation Interferon",
-            "NS4b Phosphorylation TBK1",
-            "NS4b Phosphorylation TRIM63",
-            "NS2a Dephosphorylation TRIM63",
             "NS2a Dephosphorylation TBK1",
-            "TRIM63 Activation Interferon"
+            "TRIM63 Activation Interferon",
+            "NS4b Phosphorylation TBK1",
+            "TBK1 Activation Interferon",
+            "NS4b Phosphorylation TRIM63",
+            "NS2a Dephosphorylation TRIM63"
         ]
     },
     {
         "Index": "49",
         "Sentence": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFN\u03b2 induction  .",
         "Combined_Results": [
-            "TBK1 Activation Interferon",
-            "NS4b Phosphorylation TBK1",
-            "NS4b Phosphorylation TRIM63",
-            "NS2a Dephosphorylation TRIM63",
             "NS2a Dephosphorylation TBK1",
-            "TRIM63 Activation Interferon"
+            "TRIM63 Activation Interferon",
+            "NS4b Phosphorylation TBK1",
+            "TBK1 Activation Interferon",
+            "NS4b Phosphorylation TRIM63",
+            "NS2a Dephosphorylation TRIM63"
         ]
     },
     {
         "Index": "5",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
@@ -449,64 +449,64 @@
         "Index": "52",
         "Sentence": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
         "Combined_Results": [
-            "NS5 Inhibition Interferon",
-            "NS5 Inhibition STAT2"
+            "NS5 Inhibition STAT2",
+            "NS5 Inhibition Interferon"
         ]
     },
     {
         "Index": "53",
         "Sentence": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
         "Combined_Results": [
-            "NS5 Inhibition Interferon",
-            "NS5 Inhibition STAT2"
+            "NS5 Inhibition STAT2",
+            "NS5 Inhibition Interferon"
         ]
     },
     {
         "Index": "54",
         "Sentence": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2   (Fig.\u00a05).",
         "Combined_Results": [
-            "NS5 Inhibition Interferon",
-            "NS5 Inhibition STAT2"
+            "NS5 Inhibition STAT2",
+            "NS5 Inhibition Interferon"
         ]
     },
     {
         "Index": "55",
         "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
         "Combined_Results": [
-            "DENV2 Inhibition AKT",
-            "DENV2 Inhibition apoptotic process",
             "DENV2 Inhibition Caspase",
-            "DENV2 Inhibition PI3K"
+            "DENV2 Inhibition apoptotic process",
+            "DENV2 Inhibition PI3K",
+            "DENV2 Inhibition AKT"
         ]
     },
     {
         "Index": "56",
         "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
         "Combined_Results": [
-            "DENV2 Inhibition AKT",
-            "DENV2 Inhibition apoptotic process",
             "DENV2 Inhibition Caspase",
-            "DENV2 Inhibition PI3K"
+            "DENV2 Inhibition apoptotic process",
+            "DENV2 Inhibition PI3K",
+            "DENV2 Inhibition AKT"
         ]
     },
     {
         "Index": "57",
         "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
         "Combined_Results": [
-            "DENV2 Inhibition AKT",
-            "DENV2 Inhibition apoptotic process",
             "DENV2 Inhibition Caspase",
-            "DENV2 Inhibition PI3K"
+            "DENV2 Inhibition apoptotic process",
+            "DENV2 Inhibition PI3K",
+            "DENV2 Inhibition AKT"
         ]
     },
     {
         "Index": "58",
         "Sentence": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway  .",
         "Combined_Results": [
-            "DENV2 Inhibition AKT",
-            "DENV2 Inhibition apoptotic process",
             "DENV2 Inhibition Caspase",
-            "DENV2 Inhibition PI3K"
+            "DENV2 Inhibition apoptotic process",
+            "DENV2 Inhibition PI3K",
+            "DENV2 Inhibition AKT"
         ]
     },
     {
@@ -521,14 +521,14 @@
         "Index": "6",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
@@ -575,16 +575,16 @@
         "Index": "65",
         "Sentence": "A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV  .",
         "Combined_Results": [
-            "NS4b Inhibition RNA biosynthetic process",
-            "NITD-618 Inhibition RNA biosynthetic process"
+            "NITD-618 Inhibition RNA biosynthetic process",
+            "NS4b Inhibition RNA biosynthetic process"
         ]
     },
     {
         "Index": "66",
         "Sentence": "A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV  .",
         "Combined_Results": [
-            "NS4b Inhibition RNA biosynthetic process",
-            "NITD-618 Inhibition RNA biosynthetic process"
+            "NITD-618 Inhibition RNA biosynthetic process",
+            "NS4b Inhibition RNA biosynthetic process"
         ]
     },
     {
@@ -618,26 +618,26 @@
         "Index": "7",
         "Sentence": "This leads to activation of TANK-binding kinase 1 (TBK1), I\u03baB kinase-\u03b5 (IKK\u03b5), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-\u03b2   (Fig.\u00a02).",
         "Combined_Results": [
-            "TBK1 Phosphorylation IRF3",
             "IRF3 Activation SGCG",
             "IKK_complex Phosphorylation Interferon",
+            "IKK_complex Phosphorylation IRF3",
+            "IRF7 Phosphorylation IRF3",
+            "IRF7 Phosphorylation Interferon",
             "TBK1 Phosphorylation Interferon",
             "Interferon Activation SGCG",
-            "IRF7 Phosphorylation Interferon",
-            "IKK_complex Phosphorylation IRF3",
-            "IRF7 Phosphorylation IRF3"
+            "TBK1 Phosphorylation IRF3"
         ]
     },
     {
         "Index": "70",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -645,12 +645,12 @@
         "Index": "71",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -658,12 +658,12 @@
         "Index": "72",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -671,12 +671,12 @@
         "Index": "73",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -684,12 +684,12 @@
         "Index": "74",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -697,12 +697,12 @@
         "Index": "75",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -710,12 +710,12 @@
         "Index": "76",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -723,12 +723,12 @@
         "Index": "77",
         "Sentence": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis  ), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo  .",
         "Combined_Results": [
-            "OSU-03012 Inhibition viral RNA genome replication",
-            "DENV2 Inhibition apoptotic process",
             "non-steroidal anti-inflammatory drug Inhibition PI3K",
-            "celecoxib Inhibition PI3K",
+            "DENV2 Inhibition apoptotic process",
             "celecoxib Inhibition protein kinase B signaling",
             "non-steroidal anti-inflammatory drug Inhibition protein kinase B signaling",
+            "celecoxib Inhibition PI3K",
+            "OSU-03012 Inhibition viral RNA genome replication",
             "celecoxib Inhibition viral RNA genome replication"
         ]
     },
@@ -736,25 +736,25 @@
         "Index": "78",
         "Sentence": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo  .",
         "Combined_Results": [
-            "Schisandrin A Activation SGCG",
-            "Schisandrin A Activation Interferon"
+            "Schisandrin A Activation Interferon",
+            "Schisandrin A Activation SGCG"
         ]
     },
     {
         "Index": "79",
         "Sentence": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo  .",
         "Combined_Results": [
-            "Schisandrin A Activation SGCG",
-            "Schisandrin A Activation Interferon"
+            "Schisandrin A Activation Interferon",
+            "Schisandrin A Activation SGCG"
         ]
     },
     {
         "Index": "8",
         "Sentence": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
         "Combined_Results": [
-            "cyclic GMP-AMP Complex STING1",
             "CGAS Phosphorylation IRF3",
-            "nucleotidyl transferase Phosphorylation IRF3"
+            "nucleotidyl transferase Phosphorylation IRF3",
+            "cyclic GMP-AMP Complex STING1"
         ]
     },
     {
@@ -773,9 +773,9 @@
         "Index": "9",
         "Sentence": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs   (Fig.\u00a02).",
         "Combined_Results": [
-            "cyclic GMP-AMP Complex STING1",
             "CGAS Phosphorylation IRF3",
-            "nucleotidyl transferase Phosphorylation IRF3"
+            "nucleotidyl transferase Phosphorylation IRF3",
+            "cyclic GMP-AMP Complex STING1"
         ]
     }
 ]

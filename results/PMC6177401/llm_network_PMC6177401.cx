@@ -10,11 +10,11 @@
                 "name": "attributeDeclarations"
             },
             {
-                "elementCount": 45,
+                "elementCount": 43,
                 "name": "nodes"
             },
             {
-                "elementCount": 111,
+                "elementCount": 112,
                 "name": "edges"
             }
         ]
@@ -46,13 +46,13 @@
             {
                 "id": 1,
                 "v": {
-                    "name": "IRF7"
+                    "name": "IRF3"
                 }
             },
             {
                 "id": 2,
                 "v": {
-                    "name": "IRF3"
+                    "name": "IRF7"
                 }
             },
             {
@@ -100,55 +100,55 @@
             {
                 "id": 10,
                 "v": {
-                    "name": "JAK1"
+                    "name": "STAT2"
                 }
             },
             {
                 "id": 11,
                 "v": {
-                    "name": "STAT2"
+                    "name": "IRF9"
                 }
             },
             {
                 "id": 12,
                 "v": {
-                    "name": "STAT1"
+                    "name": "JAK1"
                 }
             },
             {
                 "id": 13,
                 "v": {
-                    "name": "IRF9"
+                    "name": "STAT1"
                 }
             },
             {
                 "id": 14,
                 "v": {
-                    "name": "IFNA"
+                    "name": "IFNAR"
                 }
             },
             {
                 "id": 15,
                 "v": {
-                    "name": "IFNAR"
+                    "name": "14-3-3\u03b5"
                 }
             },
             {
                 "id": 16,
                 "v": {
-                    "name": "14-3-3\u03b5"
+                    "name": "MAVS"
                 }
             },
             {
                 "id": 17,
                 "v": {
-                    "name": "MAVS"
+                    "name": "NS1"
                 }
             },
             {
                 "id": 18,
                 "v": {
-                    "name": "NS1"
+                    "name": "C1s"
                 }
             },
             {
@@ -166,55 +166,55 @@
             {
                 "id": 21,
                 "v": {
-                    "name": "C1s"
+                    "name": "MBL"
                 }
             },
             {
                 "id": 22,
                 "v": {
-                    "name": "MBL"
+                    "name": "CLU"
                 }
             },
             {
                 "id": 23,
                 "v": {
-                    "name": "CLU"
+                    "name": "HSPA8"
                 }
             },
             {
                 "id": 24,
                 "v": {
-                    "name": "HSPA8"
+                    "name": "RLRs"
                 }
             },
             {
                 "id": 25,
                 "v": {
-                    "name": "RLRs"
+                    "name": "IKK\u03b2"
                 }
             },
             {
                 "id": 26,
                 "v": {
-                    "name": "IKK\u03b2"
+                    "name": "NF-\u03baB"
                 }
             },
             {
                 "id": 27,
                 "v": {
-                    "name": "NF-\u03baB"
+                    "name": "TLR7"
                 }
             },
             {
                 "id": 28,
                 "v": {
-                    "name": "IKK\u03b3"
+                    "name": "TRAF6"
                 }
             },
             {
                 "id": 29,
                 "v": {
-                    "name": "TRAF6"
+                    "name": "IKK\u03b3"
                 }
             },
             {
@@ -226,37 +226,37 @@
             {
                 "id": 31,
                 "v": {
-                    "name": "TLR7"
+                    "name": "CAPS"
                 }
             },
             {
                 "id": 32,
                 "v": {
-                    "name": "CAPS"
+                    "name": "DAXX"
                 }
             },
             {
                 "id": 33,
                 "v": {
-                    "name": "DAXX"
+                    "name": "TLR4"
                 }
             },
             {
                 "id": 34,
                 "v": {
-                    "name": "TLR4"
+                    "name": "DENV"
                 }
             },
             {
                 "id": 35,
                 "v": {
-                    "name": "DENV"
+                    "name": "PRR"
                 }
             },
             {
                 "id": 36,
                 "v": {
-                    "name": "PRR"
+                    "name": "RLR"
                 }
             },
             {
@@ -268,41 +268,29 @@
             {
                 "id": 38,
                 "v": {
-                    "name": "RLR"
+                    "name": "NS5"
                 }
             },
             {
                 "id": 39,
                 "v": {
-                    "name": "NS5"
+                    "name": "Dicer"
                 }
             },
             {
                 "id": 40,
                 "v": {
-                    "name": "Dicer"
+                    "name": "DENV2"
                 }
             },
             {
                 "id": 41,
                 "v": {
-                    "name": "FAM134B"
-                }
-            },
-            {
-                "id": 42,
-                "v": {
-                    "name": "DENV2"
-                }
-            },
-            {
-                "id": 43,
-                "v": {
                     "name": "PIK3CA"
                 }
             },
             {
-                "id": 44,
+                "id": 42,
                 "v": {
                     "name": "AR-12"
                 }
@@ -457,14 +445,6 @@
             },
             {
                 "id": 18,
-                "s": 0,
-                "t": 2,
-                "v": {
-                    "interaction": "Phosphorylation"
-                }
-            },
-            {
-                "id": 19,
                 "s": 8,
                 "t": 0,
                 "v": {
@@ -472,7 +452,7 @@
                 }
             },
             {
-                "id": 20,
+                "id": 19,
                 "s": 9,
                 "t": 8,
                 "v": {
@@ -480,11 +460,19 @@
                 }
             },
             {
+                "id": 20,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
                 "id": 21,
                 "s": 10,
                 "t": 11,
                 "v": {
-                    "interaction": "Phosphorylation"
+                    "interaction": "Complex"
                 }
             },
             {
@@ -492,21 +480,21 @@
                 "s": 12,
                 "t": 13,
                 "v": {
-                    "interaction": "Complex"
+                    "interaction": "Phosphorylation"
                 }
             },
             {
                 "id": 23,
-                "s": 12,
-                "t": 11,
+                "s": 13,
+                "t": 10,
                 "v": {
                     "interaction": "Complex"
                 }
             },
             {
                 "id": 24,
-                "s": 11,
-                "t": 13,
+                "s": 13,
+                "t": 11,
                 "v": {
                     "interaction": "Complex"
                 }
@@ -514,15 +502,15 @@
             {
                 "id": 25,
                 "s": 14,
-                "t": 15,
+                "t": 12,
                 "v": {
-                    "interaction": "Complex"
+                    "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 26,
-                "s": 10,
-                "t": 12,
+                "s": 12,
+                "t": 10,
                 "v": {
                     "interaction": "Phosphorylation"
                 }
@@ -532,7 +520,7 @@
                 "s": 10,
                 "t": 11,
                 "v": {
-                    "interaction": "Phosphorylation"
+                    "interaction": "Complex"
                 }
             },
             {
@@ -540,20 +528,20 @@
                 "s": 12,
                 "t": 13,
                 "v": {
-                    "interaction": "Complex"
+                    "interaction": "Phosphorylation"
                 }
             },
             {
                 "id": 29,
-                "s": 15,
+                "s": 13,
                 "t": 10,
                 "v": {
-                    "interaction": "RegulateActivity"
+                    "interaction": "Complex"
                 }
             },
             {
                 "id": 30,
-                "s": 12,
+                "s": 13,
                 "t": 11,
                 "v": {
                     "interaction": "Complex"
@@ -561,16 +549,16 @@
             },
             {
                 "id": 31,
-                "s": 11,
-                "t": 13,
+                "s": 14,
+                "t": 12,
                 "v": {
-                    "interaction": "Complex"
+                    "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 32,
-                "s": 10,
-                "t": 12,
+                "s": 12,
+                "t": 10,
                 "v": {
                     "interaction": "Phosphorylation"
                 }
@@ -594,7 +582,7 @@
             {
                 "id": 35,
                 "s": 7,
-                "t": 16,
+                "t": 15,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -602,47 +590,47 @@
             {
                 "id": 36,
                 "s": 5,
-                "t": 17,
+                "t": 16,
                 "v": {
                     "interaction": "Inhibition"
                 }
             },
             {
                 "id": 37,
-                "s": 18,
-                "t": 19,
+                "s": 17,
+                "t": 18,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 38,
-                "s": 18,
-                "t": 20,
+                "s": 17,
+                "t": 19,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 39,
-                "s": 18,
-                "t": 21,
+                "s": 17,
+                "t": 20,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 40,
-                "s": 18,
-                "t": 22,
+                "s": 17,
+                "t": 21,
                 "v": {
                     "interaction": "Complex"
                 }
             },
             {
                 "id": 41,
-                "s": 18,
-                "t": 23,
+                "s": 17,
+                "t": 22,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -650,7 +638,7 @@
             {
                 "id": 42,
                 "s": 7,
-                "t": 24,
+                "t": 23,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -673,8 +661,8 @@
             },
             {
                 "id": 45,
-                "s": 25,
-                "t": 17,
+                "s": 24,
+                "t": 16,
                 "v": {
                     "interaction": "Translocation"
                 }
@@ -713,16 +701,16 @@
             },
             {
                 "id": 50,
-                "s": 26,
-                "t": 27,
+                "s": 25,
+                "t": 26,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 51,
-                "s": 28,
-                "t": 27,
+                "s": 27,
+                "t": 28,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -730,39 +718,39 @@
             {
                 "id": 52,
                 "s": 29,
-                "t": 30,
-                "v": {
-                    "interaction": "RegulateActivity"
-                }
-            },
-            {
-                "id": 53,
-                "s": 31,
-                "t": 29,
-                "v": {
-                    "interaction": "RegulateActivity"
-                }
-            },
-            {
-                "id": 54,
-                "s": 29,
-                "t": 28,
-                "v": {
-                    "interaction": "RegulateActivity"
-                }
-            },
-            {
-                "id": 55,
-                "s": 29,
                 "t": 26,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
-                "id": 56,
+                "id": 53,
                 "s": 30,
-                "t": 27,
+                "t": 26,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 54,
+                "s": 28,
+                "t": 29,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 55,
+                "s": 28,
+                "t": 25,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 56,
+                "s": 28,
+                "t": 30,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -777,6 +765,14 @@
             },
             {
                 "id": 58,
+                "s": 9,
+                "t": 8,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 59,
                 "s": 0,
                 "t": 1,
                 "v": {
@@ -784,7 +780,7 @@
                 }
             },
             {
-                "id": 59,
+                "id": 60,
                 "s": 0,
                 "t": 2,
                 "v": {
@@ -792,15 +788,15 @@
                 }
             },
             {
-                "id": 60,
-                "s": 32,
-                "t": 33,
+                "id": 61,
+                "s": 31,
+                "t": 32,
                 "v": {
                     "interaction": "Complex"
                 }
             },
             {
-                "id": 61,
+                "id": 62,
                 "s": 6,
                 "t": 7,
                 "v": {
@@ -808,32 +804,24 @@
                 }
             },
             {
-                "id": 62,
-                "s": 34,
-                "t": 18,
-                "v": {
-                    "interaction": "RegulateActivity"
-                }
-            },
-            {
                 "id": 63,
-                "s": 35,
-                "t": 36,
+                "s": 33,
+                "t": 17,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 64,
-                "s": 35,
-                "t": 37,
+                "s": 34,
+                "t": 35,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 65,
-                "s": 35,
+                "s": 34,
                 "t": 36,
                 "v": {
                     "interaction": "RegulateActivity"
@@ -841,34 +829,34 @@
             },
             {
                 "id": 66,
-                "s": 35,
-                "t": 38,
+                "s": 34,
+                "t": 37,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 67,
-                "s": 3,
-                "t": 0,
+                "s": 34,
+                "t": 35,
                 "v": {
-                    "interaction": "Inhibition"
+                    "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 68,
-                "s": 4,
-                "t": 0,
+                "s": 34,
+                "t": 36,
                 "v": {
-                    "interaction": "Inhibition"
+                    "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 69,
-                "s": 5,
-                "t": 0,
+                "s": 34,
+                "t": 37,
                 "v": {
-                    "interaction": "Inhibition"
+                    "interaction": "RegulateActivity"
                 }
             },
             {
@@ -897,6 +885,30 @@
             },
             {
                 "id": 73,
+                "s": 3,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 74,
+                "s": 4,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 75,
+                "s": 5,
+                "t": 0,
+                "v": {
+                    "interaction": "Inhibition"
+                }
+            },
+            {
+                "id": 76,
                 "s": 0,
                 "t": 1,
                 "v": {
@@ -904,7 +916,7 @@
                 }
             },
             {
-                "id": 74,
+                "id": 77,
                 "s": 0,
                 "t": 2,
                 "v": {
@@ -912,7 +924,7 @@
                 }
             },
             {
-                "id": 75,
+                "id": 78,
                 "s": 6,
                 "t": 8,
                 "v": {
@@ -920,87 +932,39 @@
                 }
             },
             {
-                "id": 76,
-                "s": 39,
-                "t": 11,
-                "v": {
-                    "interaction": "RegulateAmount"
-                }
-            },
-            {
-                "id": 77,
-                "s": 39,
-                "t": 11,
-                "v": {
-                    "interaction": "RegulateAmount"
-                }
-            },
-            {
-                "id": 78,
-                "s": 39,
-                "t": 11,
-                "v": {
-                    "interaction": "RegulateAmount"
-                }
-            },
-            {
                 "id": 79,
-                "s": 18,
-                "t": 23,
+                "s": 38,
+                "t": 10,
                 "v": {
-                    "interaction": "RegulateActivity"
+                    "interaction": "RegulateAmount"
                 }
             },
             {
                 "id": 80,
-                "s": 0,
-                "t": 1,
+                "s": 38,
+                "t": 10,
                 "v": {
-                    "interaction": "Phosphorylation"
+                    "interaction": "RegulateAmount"
                 }
             },
             {
                 "id": 81,
-                "s": 0,
-                "t": 2,
+                "s": 38,
+                "t": 10,
                 "v": {
-                    "interaction": "Phosphorylation"
+                    "interaction": "RegulateAmount"
                 }
             },
             {
                 "id": 82,
-                "s": 4,
-                "t": 40,
+                "s": 17,
+                "t": 22,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 83,
-                "s": 4,
-                "t": 40,
-                "v": {
-                    "interaction": "RegulateActivity"
-                }
-            },
-            {
-                "id": 84,
-                "s": 35,
-                "t": 41,
-                "v": {
-                    "interaction": "RegulateActivity"
-                }
-            },
-            {
-                "id": 85,
-                "s": 35,
-                "t": 41,
-                "v": {
-                    "interaction": "RegulateActivity"
-                }
-            },
-            {
-                "id": 86,
                 "s": 0,
                 "t": 1,
                 "v": {
@@ -1008,7 +972,7 @@
                 }
             },
             {
-                "id": 87,
+                "id": 84,
                 "s": 0,
                 "t": 2,
                 "v": {
@@ -1016,17 +980,41 @@
                 }
             },
             {
-                "id": 88,
-                "s": 42,
-                "t": 43,
+                "id": 85,
+                "s": 4,
+                "t": 39,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
+                "id": 86,
+                "s": 4,
+                "t": 39,
+                "v": {
+                    "interaction": "RegulateActivity"
+                }
+            },
+            {
+                "id": 87,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
+                "id": 88,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "Phosphorylation"
+                }
+            },
+            {
                 "id": 89,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -1034,15 +1022,15 @@
             {
                 "id": 90,
                 "s": 42,
-                "t": 43,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 91,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -1050,15 +1038,15 @@
             {
                 "id": 92,
                 "s": 42,
-                "t": 43,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 93,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -1066,15 +1054,15 @@
             {
                 "id": 94,
                 "s": 42,
-                "t": 43,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 95,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -1082,15 +1070,15 @@
             {
                 "id": 96,
                 "s": 42,
-                "t": 43,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 97,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -1098,15 +1086,15 @@
             {
                 "id": 98,
                 "s": 42,
-                "t": 43,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 99,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -1114,15 +1102,15 @@
             {
                 "id": 100,
                 "s": 42,
-                "t": 43,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 101,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
@@ -1130,25 +1118,25 @@
             {
                 "id": 102,
                 "s": 42,
-                "t": 43,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 103,
-                "s": 44,
-                "t": 43,
+                "s": 40,
+                "t": 41,
                 "v": {
                     "interaction": "RegulateActivity"
                 }
             },
             {
                 "id": 104,
-                "s": 0,
-                "t": 2,
+                "s": 42,
+                "t": 41,
                 "v": {
-                    "interaction": "Phosphorylation"
+                    "interaction": "RegulateActivity"
                 }
             },
             {
@@ -1169,18 +1157,18 @@
             },
             {
                 "id": 107,
-                "s": 25,
-                "t": 17,
+                "s": 0,
+                "t": 1,
                 "v": {
-                    "interaction": "Translocation"
+                    "interaction": "Phosphorylation"
                 }
             },
             {
                 "id": 108,
-                "s": 0,
-                "t": 2,
+                "s": 24,
+                "t": 16,
                 "v": {
-                    "interaction": "Phosphorylation"
+                    "interaction": "Translocation"
                 }
             },
             {
@@ -1197,6 +1185,14 @@
                 "t": 8,
                 "v": {
                     "interaction": "Complex"
+                }
+            },
+            {
+                "id": 111,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "Phosphorylation"
                 }
             }
         ]
