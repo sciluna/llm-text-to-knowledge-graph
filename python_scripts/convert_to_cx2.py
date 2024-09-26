@@ -36,7 +36,8 @@ def convert_to_cx2(extracted_results):
     factory = PandasDataFrameToCX2NetworkFactory()
     cx2_network = factory.get_cx2network(df, source_field='source', target_field='target', 
                                          edge_interaction='interaction')
-    return cx2_network
+    new_network = cx2_network.to_cx2()
+    return new_network
 
 
 if __name__ == "main":
