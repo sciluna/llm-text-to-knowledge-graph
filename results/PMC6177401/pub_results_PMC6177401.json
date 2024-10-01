@@ -1,0 +1,1689 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": "1",
+            "Sentence": "Dengue virus (DENV) is a mosquito-borne Flavivirus that is endemic in many tropical and sub-tropical countries where the transmission vectors Aedes spp. mosquitoes resides. There are four serotypes of the virus. Each serotype is antigenically different, meaning they elicit heterologous antibodies. Infection with one serotype will create neutralizing antibodies to the serotype. Cross-protection from other serotypes is not long term, instead heterotypic infection can cause severe disease. This review will focus on the innate immune response to DENV infection and the virus evasion of the innate immune system by escaping recognition or inhibiting the production of an antiviral state. Activated innate immune pathways includes type I interferon, complement, apoptosis, and autophagy, which the virus can evade or exploit to exacerbate disease. It is important to understand out how the immune system reacts to infection and how the virus evades immune response in order to develop effective antivirals and vaccines.",
+            "Results": []
+        },
+        {
+            "Index": "10",
+            "Sentence": "The virus binds to host cell receptors (exact receptors are unknown) (1) and enters the host cell (DENV permissive cells include keratinocytes, dendritic cells, endothelial cells, fibroblasts, macrophage, and mast cells), via receptor-mediated endocytosis (2). Acidification of the endosome induces conformational change of the E glycoprotein causing the virus to fuse with the endosomal membrane and release its genomic RNA material into the cytoplasm (3). DENV RNA translation and replication occur at the endoplasmic reticulum (ER) (4). The host ribosome directly translates the genomic RNA into a polyprotein, where host and viral proteases cleave the nascent protein into structural (blue) and nonstructural (red) proteins (5). RNA replication occurs in virus-induced membrane vesicles by the viral replication complex, with the transmembrane NS2a, NS2b, NS4a, and NS4b proteins acting as the scaffold (6). The viral genome is packaged into the immature virus particles during assembly (7). These particles are transported through the Golgi apparatus, where host furin-like proteases cleave the prM peptide (8), and the nascent viral particles exit the cell via exocytosis as fully mature virions (9). Some pr peptides are not cleaved resulting in immature, non-infectious virions or partially mature virions. The soluble NS1 hexamer is also secreted",
+            "Results": [
+                {
+                    "subject": "host ribosome",
+                    "object": "genomic RNA",
+                    "interaction_type": "Complex",
+                    "text": "The host ribosome directly translates the genomic RNA into a polyprotein, where host and viral proteases cleave the nascent protein into structural (blue) and nonstructural (red) proteins (5).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "host furin-like proteases",
+                    "object": "prM peptide",
+                    "interaction_type": "Cleavage",
+                    "text": "These particles are transported through the Golgi apparatus, where host furin-like proteases cleave the prM peptide (8), and the nascent viral particles exit the cell via exocytosis as fully mature virions (9).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "Sentence": "The NS proteins are responsible for viral replication and host immune evasion. The exact roles of NS1 and the transmembrane proteins NS2a, NS2b, NS4a, and NS4b are not well characterized. NS1 is dimeric in early stages of infection and secreted in hexameric form in later stages. The NS1 dimer is located on the lumen side of the ER, yet it plays an essential role in viral RNA replication, since deletion of NS1 from the viral genome inhibits replication. Through transmembrane interaction with NS4a and NS4b, NS1 will help form vesicles for virus replication, called the viral replication complex (RC), and colocalize with double-stranded RNA (dsRNA) (Fig. 1). It also modulates infectious virus particle production by interacting with structural proteins prM/E. NS4a plays a role in membrane alteration, in order to form the RC. NS2a is crucial for viral RNA synthesis and virion assembly. NS2b binds to NS3 and forms the functional NS3 protease. NS4b interacts with the NS3 helicase domain.",
+            "Results": [
+                {
+                    "subject": "NS1",
+                    "object": "NS4a",
+                    "interaction_type": "Complex",
+                    "text": "Through transmembrane interaction with NS4a and NS4b, NS1 will help form vesicles for virus replication, called the viral replication complex (RC), and colocalize with double-stranded RNA (dsRNA) (Fig. 1).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "NS4b",
+                    "interaction_type": "Complex",
+                    "text": "Through transmembrane interaction with NS4a and NS4b, NS1 will help form vesicles for virus replication, called the viral replication complex (RC), and colocalize with double-stranded RNA (dsRNA) (Fig. 1).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "prM/E",
+                    "interaction_type": "Complex",
+                    "text": "It also modulates infectious virus particle production by interacting with structural proteins prM/E.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b",
+                    "object": "NS3",
+                    "interaction_type": "Complex",
+                    "text": "NS2b binds to NS3 and forms the functional NS3 protease.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4b",
+                    "object": "NS3",
+                    "interaction_type": "Complex",
+                    "text": "NS4b interacts with the NS3 helicase domain.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "Sentence": "NS3 and NS5 are the best characterized out of the NS proteins, both having enzymatic activity essential for viral replication. NS3 functions as the viral protease and helicase. The N-terminal domain of the NS3 is essential for protease activity, cleaving the viral polypeptide into structural and nonstructural proteins. The C-terminal end contains the helicase domain, necessary for unwinding the RNA duplex during replication. Cofactor NS2b is necessary for the protease to be functional. NS5 is the largest and most conserved of the Flavivirus proteins. It functions as the viral RNA-dependent RNA polymerase (RdRp), and the N-terminal domain contains the methyltransferase, which is responsible for 5'-RNA capping of the new viral genomes.",
+            "Results": [
+                {
+                    "subject": "NS3",
+                    "object": "NS5",
+                    "interaction_type": "Complex",
+                    "text": "NS3 and NS5 are the best characterized out of the NS proteins, both having enzymatic activity essential for viral replication.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS3",
+                    "object": "viral polypeptide",
+                    "interaction_type": "RegulateActivity",
+                    "text": "The N-terminal domain of the NS3 is essential for protease activity, cleaving the viral polypeptide into structural and nonstructural proteins.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b",
+                    "object": "NS3",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Cofactor NS2b is necessary for the protease to be functional.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS5",
+                    "object": "viral genomes",
+                    "interaction_type": "Modification",
+                    "text": "It functions as the viral RNA-dependent RNA polymerase (RdRp), and the N-terminal domain contains the methyltransferase, which is responsible for 5'-RNA capping of the new viral genomes.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "Sentence": "DENV is spread to humans from an infected mosquito. The exact cell types and binding receptors on human cells are also unknown. Many putative receptors have been proposed as candidates, including receptors such as heparan sulfate, glycosphingolipid nLc4Cer, DC-SIGN, mannose, CD14, and HSP70/90. Cells that are permissive for DENV infection are dendritic cells (DCs), endothelial cells, fibroblasts, keratinocytes, macrophage, mast cells, and monocytes.",
+            "Results": [
+                {
+                    "subject": "DENV",
+                    "object": "heparan sulfate",
+                    "interaction_type": "Complex",
+                    "text": "Many putative receptors have been proposed as candidates, including receptors such as heparan sulfate, glycosphingolipid nLc4Cer, DC-SIGN, mannose, CD14, and HSP70/90.",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "DENV",
+                    "object": "glycosphingolipid nLc4Cer",
+                    "interaction_type": "Complex",
+                    "text": "Many putative receptors have been proposed as candidates, including receptors such as heparan sulfate, glycosphingolipid nLc4Cer, DC-SIGN, mannose, CD14, and HSP70/90.",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "DENV",
+                    "object": "DC-SIGN",
+                    "interaction_type": "Complex",
+                    "text": "Many putative receptors have been proposed as candidates, including receptors such as heparan sulfate, glycosphingolipid nLc4Cer, DC-SIGN, mannose, CD14, and HSP70/90.",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "DENV",
+                    "object": "mannose",
+                    "interaction_type": "Complex",
+                    "text": "Many putative receptors have been proposed as candidates, including receptors such as heparan sulfate, glycosphingolipid nLc4Cer, DC-SIGN, mannose, CD14, and HSP70/90.",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "DENV",
+                    "object": "CD14",
+                    "interaction_type": "Complex",
+                    "text": "Many putative receptors have been proposed as candidates, including receptors such as heparan sulfate, glycosphingolipid nLc4Cer, DC-SIGN, mannose, CD14, and HSP70/90.",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "DENV",
+                    "object": "HSP70/90",
+                    "interaction_type": "Complex",
+                    "text": "Many putative receptors have been proposed as candidates, including receptors such as heparan sulfate, glycosphingolipid nLc4Cer, DC-SIGN, mannose, CD14, and HSP70/90.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "Sentence": "DENV is transmitted to people via a mosquito bite. Following infection, the virus initially replicates in skin cells, such as keratinocytes and Langerhans cells. This will trigger a variety of host innate immune responses. Innate immune cells are the first to respond to infection by using pattern recognition receptor (PRR) recognizing pathogen-associated molecular patterns. These immune cells include DCs, macrophages, and monocytes. PRR recognition will trigger production of cytokines and chemokines, which induce an antiviral state. The PRRs that are associated with DENV recognition are cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5), along with endosomal Toll-like receptor 3 (TLR3) and TLR7. Activation of these receptors by DENV recognition induces type 1 interferon (IFN) responses.",
+            "Results": [
+                {
+                    "subject": "DENV",
+                    "object": "RIG-I",
+                    "interaction_type": "Activation",
+                    "text": "The PRRs that are associated with DENV recognition are cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5), along with endosomal Toll-like receptor 3 (TLR3) and TLR7.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV",
+                    "object": "MDA5",
+                    "interaction_type": "Activation",
+                    "text": "The PRRs that are associated with DENV recognition are cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5), along with endosomal Toll-like receptor 3 (TLR3) and TLR7.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV",
+                    "object": "TLR3",
+                    "interaction_type": "Activation",
+                    "text": "The PRRs that are associated with DENV recognition are cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5), along with endosomal Toll-like receptor 3 (TLR3) and TLR7.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV",
+                    "object": "TLR7",
+                    "interaction_type": "Activation",
+                    "text": "The PRRs that are associated with DENV recognition are cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5), along with endosomal Toll-like receptor 3 (TLR3) and TLR7.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV",
+                    "object": "type 1 interferon (IFN) responses",
+                    "interaction_type": "Activation",
+                    "text": "Activation of these receptors by DENV recognition induces type 1 interferon (IFN) responses.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "21",
+            "Sentence": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows). Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines. Virus-induced mitochondria damage activates the cyclic GMP-AMP synthase (cGAS) (pink arrows) and stimulator of interferon gene (STING) pathway to induce IFNalpha/beta production via IRF3 and IRF7. MicroRNAs (miRNAs) associate with RNA-induced silencing complex (RISC) in the cytoplasm to target viral RNA for inhibition or degradation. miRNA biogenesis starts in the nucleus as pri-miRNA and processed by Drosha into pre-miRNA. Pre-miRNAs are transported to the cytoplasm and cleaved by Dicer to produce mature miRNAs. Argonaute (Argo) and TAR RNA-binding protein (TRBP) are proteins essential to the formation of RISC (blue arrows). Double membrane vacuoles, called autophagosomes, will engulf foreign cytoplasmic material and fuse with the lysosome for degradation, inhibiting virus replication (red)",
+            "Results": [
+                {
+                    "subject": "RIG-I",
+                    "object": "MAVS",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MDA5",
+                    "object": "MAVS",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MAVS",
+                    "object": "TBK1",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MAVS",
+                    "object": "IKKepsilon",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TBK1",
+                    "object": "IRF3",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKepsilon",
+                    "object": "IRF3",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TBK1",
+                    "object": "IRF7",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKepsilon",
+                    "object": "IRF7",
+                    "interaction_type": "Activation",
+                    "text": "Recognition of viral genomes by cytoplasmic retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA5) trigger mitochondrial antiviral signaling (MAVS) activation that lead to TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon) induction of interferon regulatory factor 3 (IRF3), and IRF7 (tan arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TLR3",
+                    "object": "TRIF",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TLR7",
+                    "object": "MyD88",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TRIF",
+                    "object": "IRF3",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TRIF",
+                    "object": "IRF7",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MyD88",
+                    "object": "IRF3",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MyD88",
+                    "object": "IRF7",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKalpha",
+                    "object": "NF-kappaB",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKbeta",
+                    "object": "NF-kappaB",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKgamma",
+                    "object": "NF-kappaB",
+                    "interaction_type": "Activation",
+                    "text": "Viral genome recognition by endosomal toll-like receptor 3 (TLR3) (green arrows) and TLR7 (orange arrows) will activate TIR-domain-containing adapter-inducing IFNbeta (TRIF) and myeloid differentiation primary response gene 88 (MyD88) signaling pathways, inducing IRF3/IRF7 and inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) to produce IFNalpha/beta and pro-inflammatory cytokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "cGAS",
+                    "object": "STING",
+                    "interaction_type": "Activation",
+                    "text": "Virus-induced mitochondria damage activates the cyclic GMP-AMP synthase (cGAS) (pink arrows) and stimulator of interferon gene (STING) pathway to induce IFNalpha/beta production via IRF3 and IRF7.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STING",
+                    "object": "IRF3",
+                    "interaction_type": "Activation",
+                    "text": "Virus-induced mitochondria damage activates the cyclic GMP-AMP synthase (cGAS) (pink arrows) and stimulator of interferon gene (STING) pathway to induce IFNalpha/beta production via IRF3 and IRF7.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STING",
+                    "object": "IRF7",
+                    "interaction_type": "Activation",
+                    "text": "Virus-induced mitochondria damage activates the cyclic GMP-AMP synthase (cGAS) (pink arrows) and stimulator of interferon gene (STING) pathway to induce IFNalpha/beta production via IRF3 and IRF7.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "miRNAs",
+                    "object": "RISC",
+                    "interaction_type": "Complex",
+                    "text": "MicroRNAs (miRNAs) associate with RNA-induced silencing complex (RISC) in the cytoplasm to target viral RNA for inhibition or degradation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Argonaute",
+                    "object": "RISC",
+                    "interaction_type": "Complex",
+                    "text": "Argonaute (Argo) and TAR RNA-binding protein (TRBP) are proteins essential to the formation of RISC (blue arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TRBP",
+                    "object": "RISC",
+                    "interaction_type": "Complex",
+                    "text": "Argonaute (Argo) and TAR RNA-binding protein (TRBP) are proteins essential to the formation of RISC (blue arrows).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "22",
+            "Sentence": "RIG-I and MDA5 are RIG-I-like receptors (RLRs), located in the cytoplasm of a variety of cells, including myeloid, epithelial, and central nervous system. They sense phosphate-containing RNA in the cytoplasm and long dsRNA. Thus, they are an essential part of the innate immune response against virus, sensing viral replication in the cytoplasm. The exact RNA ligands on DENVs that these receptors recognize are unknown. Following virus recognition, the RLRs translocate to the mitochondrial membrane and activate mitochondrial antiviral signaling (MAVS) protein found on the surface of the mitochondria via the caspase activation recruitment domains (CARD) of the RLRs and MAVS. This leads to activation of TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-beta (Fig. 2).",
+            "Results": [
+                {
+                    "subject": "RIG-I",
+                    "object": "MDA5",
+                    "interaction_type": "Complex",
+                    "text": "RIG-I and MDA5 are RIG-I-like receptors (RLRs), located in the cytoplasm of a variety of cells, including myeloid, epithelial, and central nervous system.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "RLRs",
+                    "object": "MAVS",
+                    "interaction_type": "Translocation",
+                    "text": "Following virus recognition, the RLRs translocate to the mitochondrial membrane and activate mitochondrial antiviral signaling (MAVS) protein found on the surface of the mitochondria via the caspase activation recruitment domains (CARD) of the RLRs and MAVS.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "RLRs",
+                    "object": "MAVS",
+                    "interaction_type": "Activation",
+                    "text": "Following virus recognition, the RLRs translocate to the mitochondrial membrane and activate mitochondrial antiviral signaling (MAVS) protein found on the surface of the mitochondria via the caspase activation recruitment domains (CARD) of the RLRs and MAVS.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MAVS",
+                    "object": "TBK1",
+                    "interaction_type": "Activation",
+                    "text": "This leads to activation of TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-beta (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MAVS",
+                    "object": "IKKepsilon",
+                    "interaction_type": "Activation",
+                    "text": "This leads to activation of TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-beta (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TBK1",
+                    "object": "IRF3",
+                    "interaction_type": "Phosphorylation",
+                    "text": "This leads to activation of TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-beta (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TBK1",
+                    "object": "IRF7",
+                    "interaction_type": "Phosphorylation",
+                    "text": "This leads to activation of TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-beta (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKepsilon",
+                    "object": "IRF3",
+                    "interaction_type": "Phosphorylation",
+                    "text": "This leads to activation of TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-beta (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKepsilon",
+                    "object": "IRF7",
+                    "interaction_type": "Phosphorylation",
+                    "text": "This leads to activation of TANK-binding kinase 1 (TBK1), IkappaB kinase-epsilon (IKKepsilon), phosphorylating IFN regulatory factors (IRF3), and IRF7, which enter the nucleus to induce production of type I IFNs such as IFN-beta (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "23",
+            "Sentence": "Another type of PRR that recognizes viruses are the toll-like receptors (TLRs). Two TLRs critical in the innate response to DENV infection are TLR3 and TLR7. TLR3, which is the primary TLR for DENV, recognizes dsRNA in endosomal compartments and TLR7 recognizes ssRNA in DC endosomal compartments. TLR3 activation causes phosphorylation of TIR-domain-containing adapter-inducing IFNbeta, interacting with TNF-receptor-associated factor 3 (TRAF3) and TBK1/IKKepsilon to induce IFNalpha/beta-stimulating genes (ISGs) and chemokines. TLR3 acts synergistically with RIG-I and MDA5 in producing an antiviral state against DENV infection. TLR7 recognition of ssRNA, including DENV genomic fragments, uses the myeloid differentiation primary response gene 88-dependent signal pathway to induce pro-inflammatory cytokines by recruiting TRAF6 to activate inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/ IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) (Fig. 2).",
+            "Results": [
+                {
+                    "subject": "TLR3",
+                    "object": "TIR-domain-containing adapter-inducing IFNbeta",
+                    "interaction_type": "Phosphorylation",
+                    "text": "TLR3 activation causes phosphorylation of TIR-domain-containing adapter-inducing IFNbeta, interacting with TNF-receptor-associated factor 3 (TRAF3) and TBK1/IKKepsilon to induce IFNalpha/beta-stimulating genes (ISGs) and chemokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TLR3",
+                    "object": "TRAF3",
+                    "interaction_type": "Complex",
+                    "text": "TLR3 activation causes phosphorylation of TIR-domain-containing adapter-inducing IFNbeta, interacting with TNF-receptor-associated factor 3 (TRAF3) and TBK1/IKKepsilon to induce IFNalpha/beta-stimulating genes (ISGs) and chemokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TLR3",
+                    "object": "TBK1/IKKepsilon",
+                    "interaction_type": "Complex",
+                    "text": "TLR3 activation causes phosphorylation of TIR-domain-containing adapter-inducing IFNbeta, interacting with TNF-receptor-associated factor 3 (TRAF3) and TBK1/IKKepsilon to induce IFNalpha/beta-stimulating genes (ISGs) and chemokines.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TLR3",
+                    "object": "RIG-I",
+                    "interaction_type": "Complex",
+                    "text": "TLR3 acts synergistically with RIG-I and MDA5 in producing an antiviral state against DENV infection.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TLR3",
+                    "object": "MDA5",
+                    "interaction_type": "Complex",
+                    "text": "TLR3 acts synergistically with RIG-I and MDA5 in producing an antiviral state against DENV infection.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TLR7",
+                    "object": "TRAF6",
+                    "interaction_type": "Complex",
+                    "text": "TLR7 recognition of ssRNA, including DENV genomic fragments, uses the myeloid differentiation primary response gene 88-dependent signal pathway to induce pro-inflammatory cytokines by recruiting TRAF6 to activate inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/ IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TRAF6",
+                    "object": "IKKalpha/IKKbeta/IKKgamma",
+                    "interaction_type": "Activation",
+                    "text": "TLR7 recognition of ssRNA, including DENV genomic fragments, uses the myeloid differentiation primary response gene 88-dependent signal pathway to induce pro-inflammatory cytokines by recruiting TRAF6 to activate inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/ IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IKKalpha/IKKbeta/IKKgamma",
+                    "object": "NF-kappaB",
+                    "interaction_type": "Activation",
+                    "text": "TLR7 recognition of ssRNA, including DENV genomic fragments, uses the myeloid differentiation primary response gene 88-dependent signal pathway to induce pro-inflammatory cytokines by recruiting TRAF6 to activate inhibitor of nuclear factor-kappaB kinase (IKK)alpha/IKKbeta/ IKKgamma, and activate nuclear factor-kappaB (NF-kappaB) (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "24",
+            "Sentence": "The cyclic GMP-AMP synthase (cGAS) and stimulator of IFN gene (STING) pathway is also activated during DENV infection by the cGAS PRR, despite the fact that this pathway recognizes cytoplasmic DNA. DENV damages the mitochondria by inducing swelling and other morphological changes; thus, the cGAS-STING is activated by mitochondrial DNA (mtDNA) released in the cytosol. After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs (Fig. 2). This release of mtDNA has been shown to activate TLR9, an endosomal PRR that recognizes DNA containing nonmethylated CpG motifs, in human DCs in vitro.",
+            "Results": [
+                {
+                    "subject": "cGAS",
+                    "object": "STING",
+                    "interaction_type": "Activation",
+                    "text": "The cyclic GMP-AMP synthase (cGAS) and stimulator of IFN gene (STING) pathway is also activated during DENV infection by the cGAS PRR, despite the fact that this pathway recognizes cytoplasmic DNA.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "cGAS",
+                    "object": "STING",
+                    "interaction_type": "Activation",
+                    "text": "thus, the cGAS-STING is activated by mitochondrial DNA (mtDNA) released in the cytosol.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "cGAS",
+                    "object": "cGAMP",
+                    "interaction_type": "Conversion",
+                    "text": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "cGAMP",
+                    "object": "STING",
+                    "interaction_type": "Binding",
+                    "text": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STING",
+                    "object": "TBK1",
+                    "interaction_type": "Activation",
+                    "text": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs (Fig. 2).",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "TBK1",
+                    "object": "IRF3",
+                    "interaction_type": "Phosphorylation",
+                    "text": "After mtDNA sensing, the cGAS nucleotidyl transferase produces second-messenger cyclic GMP-AMP (cGAMP) that binds to STING, leading to activation of TBK1, phosphorylation of IRF3, and production of type I IFNs (Fig. 2).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "mtDNA",
+                    "object": "TLR9",
+                    "interaction_type": "Activation",
+                    "text": "This release of mtDNA has been shown to activate TLR9, an endosomal PRR that recognizes DNA containing nonmethylated CpG motifs, in human DCs in vitro.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "27",
+            "Sentence": "a Type I IFN signaling (green): Binding of type I IFN to IFNalpha/beta receptors (IFNARs) stimulates IFN-stimulated gene (ISG) expression that results in antiviral activity. These cytokines bind to on the surface of nearby or infected cells, activating the Janus kinase (JAK)/signal transducer and activator of transcription (STAT) pathway. JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9). The complex will translocate to the nucleus where they induce transcription of ISGs by the IFN-stimulated response element (ISRE). b Complement pathway (blue): Recognition of DENV by the mannose-binding lectin (MBL) complex will induce complement activation. Cleavage of C4 and C2 by MBL-associated serine protease-2 (MASP-2) make the C3 convertase and initiates the classical complement cascade, including the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation. c NS1 binding to TLR4 will induce vascular damage (purple)",
+            "Results": [
+                {
+                    "subject": "type I IFN",
+                    "object": "IFNalpha/beta receptors (IFNARs)",
+                    "interaction_type": "Binding",
+                    "text": "Binding of type I IFN to IFNalpha/beta receptors (IFNARs) stimulates IFN-stimulated gene (ISG) expression that results in antiviral activity.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "type I IFN",
+                    "object": "IFN-stimulated gene (ISG)",
+                    "interaction_type": "RegulateAmount",
+                    "text": "Binding of type I IFN to IFNalpha/beta receptors (IFNARs) stimulates IFN-stimulated gene (ISG) expression that results in antiviral activity.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "type I IFN",
+                    "object": "Janus kinase (JAK)/signal transducer and activator of transcription (STAT) pathway",
+                    "interaction_type": "Activation",
+                    "text": "These cytokines bind to on the surface of nearby or infected cells, activating the Janus kinase (JAK)/signal transducer and activator of transcription (STAT) pathway.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "JAK1",
+                    "object": "STAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "JAK1",
+                    "object": "STAT2",
+                    "interaction_type": "Phosphorylation",
+                    "text": "JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "tyrosine kinase 2 (TYK2)",
+                    "object": "STAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "tyrosine kinase 2 (TYK2)",
+                    "object": "STAT2",
+                    "interaction_type": "Phosphorylation",
+                    "text": "JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT1",
+                    "object": "STAT2",
+                    "interaction_type": "Complex",
+                    "text": "JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT1",
+                    "object": "interferon regulatory factor 9 (IRF9)",
+                    "interaction_type": "Complex",
+                    "text": "JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT2",
+                    "object": "interferon regulatory factor 9 (IRF9)",
+                    "interaction_type": "Complex",
+                    "text": "JAK1 and tyrosine kinase 2 (TYK2) lead to phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with interferon regulatory factor 9 (IRF9).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "mannose-binding lectin (MBL) complex",
+                    "object": "C4",
+                    "interaction_type": "Cleavage",
+                    "text": "Cleavage of C4 and C2 by MBL-associated serine protease-2 (MASP-2) make the C3 convertase and initiates the classical complement cascade, including the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "mannose-binding lectin (MBL) complex",
+                    "object": "C2",
+                    "interaction_type": "Cleavage",
+                    "text": "Cleavage of C4 and C2 by MBL-associated serine protease-2 (MASP-2) make the C3 convertase and initiates the classical complement cascade, including the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MBL-associated serine protease-2 (MASP-2)",
+                    "object": "C4",
+                    "interaction_type": "Cleavage",
+                    "text": "Cleavage of C4 and C2 by MBL-associated serine protease-2 (MASP-2) make the C3 convertase and initiates the classical complement cascade, including the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MBL-associated serine protease-2 (MASP-2)",
+                    "object": "C2",
+                    "interaction_type": "Cleavage",
+                    "text": "Cleavage of C4 and C2 by MBL-associated serine protease-2 (MASP-2) make the C3 convertase and initiates the classical complement cascade, including the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "TLR4",
+                    "interaction_type": "Binding",
+                    "text": "NS1 binding to TLR4 will induce vascular damage (purple)",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "28",
+            "Sentence": "Production of type I IFNs inhibits DENV infection of other monocytes. These cytokines bind to IFNalpha/beta receptors (IFNARs) on the surface of nearby or infected cells, activating the Janus kinase (JAK)/signal transducer and activator of transcription (STAT) pathway, and producing ISGs to further promote antiviral activity. IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9. The complex will translocate to the nucleus where they induce transcription of ISGs by the IFN-stimulated response element (Fig. 3).",
+            "Results": [
+                {
+                    "subject": "IFNalpha/beta cytokines",
+                    "object": "IFNAR",
+                    "interaction_type": "Complex",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "JAK1",
+                    "object": "STAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "JAK1",
+                    "object": "STAT2",
+                    "interaction_type": "Phosphorylation",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "tyrosine kinase 2",
+                    "object": "STAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "tyrosine kinase 2",
+                    "object": "STAT2",
+                    "interaction_type": "Phosphorylation",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT1",
+                    "object": "STAT2",
+                    "interaction_type": "Complex",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT1",
+                    "object": "IRF9",
+                    "interaction_type": "Complex",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT2",
+                    "object": "IRF9",
+                    "interaction_type": "Complex",
+                    "text": "IFNalpha/beta cytokines bind to IFNAR, activating JAK1 and tyrosine kinase 2, leading to the phosphorylation and dimerization of STAT1 and STAT2, which forms a complex with IRF9.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT1",
+                    "object": "nucleus",
+                    "interaction_type": "Translocation",
+                    "text": "The complex will translocate to the nucleus where they induce transcription of ISGs by the IFN-stimulated response element (Fig. 3).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "STAT2",
+                    "object": "nucleus",
+                    "interaction_type": "Translocation",
+                    "text": "The complex will translocate to the nucleus where they induce transcription of ISGs by the IFN-stimulated response element (Fig. 3).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "IRF9",
+                    "object": "nucleus",
+                    "interaction_type": "Translocation",
+                    "text": "The complex will translocate to the nucleus where they induce transcription of ISGs by the IFN-stimulated response element (Fig. 3).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "30",
+            "Sentence": "The complement system is also an important part of innate immune response to the virus. The mannose-binding lectin (MBL) pathway induces neutralizing protection against DENV. MBL binds to surfaces containing mannose glycans, and this protein will recognize the surface of DENV. Recognition of DENV by the MBL complex will induce cleavage of C4 and C2 by MBL-associated serine protease-2 and deposit C4b and C2a on the surface of the virion, making the C3 convertase. The following classical complement cascade includes the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation (Fig. 3b).",
+            "Results": [
+                {
+                    "subject": "MBL",
+                    "object": "DENV",
+                    "interaction_type": "Complex",
+                    "text": "MBL binds to surfaces containing mannose glycans, and this protein will recognize the surface of DENV.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MBL",
+                    "object": "C4",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Recognition of DENV by the MBL complex will induce cleavage of C4 and C2 by MBL-associated serine protease-2 and deposit C4b and C2a on the surface of the virion, making the C3 convertase.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MBL",
+                    "object": "C2",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Recognition of DENV by the MBL complex will induce cleavage of C4 and C2 by MBL-associated serine protease-2 and deposit C4b and C2a on the surface of the virion, making the C3 convertase.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "C5 convertase",
+                    "object": "C5b-9",
+                    "interaction_type": "Complex",
+                    "text": "The following classical complement cascade includes the formation of C5 convertase and the C5b-9 membrane attack complex (MAC) to induce lysis, recruitment of phagocytes, and inflammation.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "32",
+            "Sentence": "RNA interference (RNAi) for antiviral defense in plants and invertebrates have been well characterized, including the DENV vector Aedes aegypti. There is also evidence of vertebrate systems using the RNAi to inhibit virus infection, though it is not as well understood. RNAi is a sequence-specific process to regulate gene expression mediated by small interfering RNA (siRNA) or microRNA (miRNA). Dicer will create siRNA from long dsRNA, while both Drosha and Dicer are needed to create miRNA. These small non-coding RNAs will associate with RNA-induced silencing complex (RISC) in the cytoplasm to target mRNA for inhibition or degradation by Argonaute (Argo) proteins. During viral infection of mammalian hosts, viral RNA is recognized by the miRNA-RISC assembly and targeted for silencing or degradation (Fig. 2). Knockdown of essential components of RNAi (Dicer, Drosha, Argo1, Argo2) resulted increased DENV viral titer in human cell line Huh7, implicating RNAi as a regulator of DENV replication. There have been a number of cellular miRNA that are modulated during DENV infection, such at let-c, miRNA-30e*, and miRNA-126-5p.",
+            "Results": [
+                {
+                    "subject": "Dicer",
+                    "object": "dsRNA",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Dicer will create siRNA from long dsRNA, while both Drosha and Dicer are needed to create miRNA.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Drosha",
+                    "object": "dsRNA",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Dicer will create siRNA from long dsRNA, while both Drosha and Dicer are needed to create miRNA.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Dicer",
+                    "object": "Drosha",
+                    "interaction_type": "Complex",
+                    "text": "Dicer will create siRNA from long dsRNA, while both Drosha and Dicer are needed to create miRNA.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "RNA-induced silencing complex (RISC)",
+                    "object": "siRNA",
+                    "interaction_type": "Complex",
+                    "text": "These small non-coding RNAs will associate with RNA-induced silencing complex (RISC) in the cytoplasm to target mRNA for inhibition or degradation by Argonaute (Argo) proteins.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "RNA-induced silencing complex (RISC)",
+                    "object": "miRNA",
+                    "interaction_type": "Complex",
+                    "text": "These small non-coding RNAs will associate with RNA-induced silencing complex (RISC) in the cytoplasm to target mRNA for inhibition or degradation by Argonaute (Argo) proteins.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Argonaute (Argo) proteins",
+                    "object": "mRNA",
+                    "interaction_type": "RegulateAmount",
+                    "text": "These small non-coding RNAs will associate with RNA-induced silencing complex (RISC) in the cytoplasm to target mRNA for inhibition or degradation by Argonaute (Argo) proteins.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "miRNA-RISC assembly",
+                    "object": "viral RNA",
+                    "interaction_type": "RegulateAmount",
+                    "text": "During viral infection of mammalian hosts, viral RNA is recognized by the miRNA-RISC assembly and targeted for silencing or degradation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Dicer",
+                    "object": "DENV",
+                    "interaction_type": "RegulateAmount",
+                    "text": "Knockdown of essential components of RNAi (Dicer, Drosha, Argo1, Argo2) resulted increased DENV viral titer in human cell line Huh7, implicating RNAi as a regulator of DENV replication.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Drosha",
+                    "object": "DENV",
+                    "interaction_type": "RegulateAmount",
+                    "text": "Knockdown of essential components of RNAi (Dicer, Drosha, Argo1, Argo2) resulted increased DENV viral titer in human cell line Huh7, implicating RNAi as a regulator of DENV replication.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Argo1",
+                    "object": "DENV",
+                    "interaction_type": "RegulateAmount",
+                    "text": "Knockdown of essential components of RNAi (Dicer, Drosha, Argo1, Argo2) resulted increased DENV viral titer in human cell line Huh7, implicating RNAi as a regulator of DENV replication.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Argo2",
+                    "object": "DENV",
+                    "interaction_type": "RegulateAmount",
+                    "text": "Knockdown of essential components of RNAi (Dicer, Drosha, Argo1, Argo2) resulted increased DENV viral titer in human cell line Huh7, implicating RNAi as a regulator of DENV replication.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "33",
+            "Sentence": "Autophagy is a natural cellular process to maintain homeostasis, regulating cell degradation usually in response to starvation and disease. Double membrane vacuoles, called autophagosomes, will engulf cytoplasmic material and fuse with the lysosome for degradation. Thus, autophagy is an important system to clearing the host of foreign pathogens such as viruses. Autophagy has been shown to be activated in DENV infections and has antiviral or pro-viral activity depending on cell type. Autophagy inhibits replication in monocytes, specifically under ADE conditions, which make these cells highly susceptible to infection. Reticulophagy, a selective autophagy process for ER homeostasis, reduces DENV via its FAM134B receptor in endothelial cells. In liver cells, autophagy has a pro-viral effect. DENV blocks the autophagosome from fusing with the lysosome, and instead uses the vacuoles for replication, assembly and maturation, and evading neutralizing antibodies during transmission.",
+            "Results": [
+                {
+                    "subject": "Autophagy",
+                    "object": "DENV",
+                    "interaction_type": "Activation",
+                    "text": "Autophagy has been shown to be activated in DENV infections and has antiviral or pro-viral activity depending on cell type.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Autophagy",
+                    "object": "DENV",
+                    "interaction_type": "Inhibition",
+                    "text": "Autophagy inhibits replication in monocytes, specifically under ADE conditions, which make these cells highly susceptible to infection.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Reticulophagy",
+                    "object": "DENV",
+                    "interaction_type": "DecreaseAmount",
+                    "text": "Reticulophagy, a selective autophagy process for ER homeostasis, reduces DENV via its FAM134B receptor in endothelial cells.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV",
+                    "object": "autophagosome",
+                    "interaction_type": "Inhibition",
+                    "text": "DENV blocks the autophagosome from fusing with the lysosome, and instead uses the vacuoles for replication, assembly and maturation, and evading neutralizing antibodies during transmission.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "34",
+            "Sentence": "Apoptosis is a highly regulated process of self-destruction that cells undergo in response to stimuli such as redundant or dangerous cells like tumors or pathogen-infected cells. There are two main apoptotic pathways, the intrinsic (or mitochondrial) and extrinsic, though the two are linked and converge at the execution phase, where the cell undergoes DNA fragmentation, degradation of the cytoskeleton, and formation of apoptotic bodies that are ultimately engulfed by surrounding phaocytes. DENV proteins have been shown to activate apoptosis inside infected cells. The capsid protein nuclear localization interacts with death-associated protein 6 and triggers Fas-mediated apoptosis in liver cells. The intrinsic pathway is activated by the DENV membrane protein ectodomain export from golgi to plasma membrane. The NS2b-NS3 protease precursor and NS3 protease induce apoptosis most likely through the caspase-8 pathway or NF-kappaB.",
+            "Results": [
+                {
+                    "subject": "capsid protein",
+                    "object": "death-associated protein 6",
+                    "interaction_type": "Complex",
+                    "text": "The capsid protein nuclear localization interacts with death-associated protein 6 and triggers Fas-mediated apoptosis in liver cells.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b-NS3 protease precursor",
+                    "object": "caspase-8",
+                    "interaction_type": "RegulateActivity",
+                    "text": "The NS2b-NS3 protease precursor and NS3 protease induce apoptosis most likely through the caspase-8 pathway or NF-kappaB.",
+                    "direct": false,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "NS3 protease",
+                    "object": "caspase-8",
+                    "interaction_type": "RegulateActivity",
+                    "text": "The NS2b-NS3 protease precursor and NS3 protease induce apoptosis most likely through the caspase-8 pathway or NF-kappaB.",
+                    "direct": false,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "NS2b-NS3 protease precursor",
+                    "object": "NF-kappaB",
+                    "interaction_type": "RegulateActivity",
+                    "text": "The NS2b-NS3 protease precursor and NS3 protease induce apoptosis most likely through the caspase-8 pathway or NF-kappaB.",
+                    "direct": false,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "NS3 protease",
+                    "object": "NF-kappaB",
+                    "interaction_type": "RegulateActivity",
+                    "text": "The NS2b-NS3 protease precursor and NS3 protease induce apoptosis most likely through the caspase-8 pathway or NF-kappaB.",
+                    "direct": false,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "36",
+            "Sentence": "Some immune responses are implicated with disease severity. TLR4 recognition of NS1 leads to pro-inflammatory cytokine production that contribute to vascular damage (Fig. 3). NS1 will also exacerbate disease by binding to uninfected cells to initiate vascular leakage. Activation of the alternative complement pathway is associated with disease severity. Apoptosis may contribute to disease severity; apoptotic cells were found in liver, cerebral, and endothelial cells from autopsies of patients with dengue hemorrhagic fever (DHF)/dengue shock syndrome.",
+            "Results": [
+                {
+                    "subject": "TLR4",
+                    "object": "NS1",
+                    "interaction_type": "Complex",
+                    "text": "TLR4 recognition of NS1 leads to pro-inflammatory cytokine production that contribute to vascular damage (Fig. 3).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "uninfected cells",
+                    "interaction_type": "Complex",
+                    "text": "NS1 will also exacerbate disease by binding to uninfected cells to initiate vascular leakage.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "37",
+            "Sentence": "DCs are one of the first immune cells that encounter DENV following infection and send signals to recruit NK cells via type I IFN and TNF-alpha, resulting in perforin/granzyme activity, Fas/Fas ligand-dependent virus killing, and IFNgamma production. It is unclear if increased number of NK cells contribute to increase in disease severity. KIR3DLI, an inhibitory receptor of the killer immunoglobulin-like receptor (KIR) family that is expressed on NK cells, binds to DENV NS1 and is associated with development of DHF. However, acutely infected patients in Thailand showed no correlation between NK cell subsets and level of severity.",
+            "Results": [
+                {
+                    "subject": "DCs",
+                    "object": "DENV",
+                    "interaction_type": "RegulateActivity",
+                    "text": "DCs are one of the first immune cells that encounter DENV following infection and send signals to recruit NK cells via type I IFN and TNF-alpha, resulting in perforin/granzyme activity, Fas/Fas ligand-dependent virus killing, and IFNgamma production.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "KIR3DLI",
+                    "object": "DENV NS1",
+                    "interaction_type": "Complex",
+                    "text": "KIR3DLI, an inhibitory receptor of the killer immunoglobulin-like receptor (KIR) family that is expressed on NK cells, binds to DENV NS1 and is associated with development of DHF.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "Sentence": "Dengue virus (DENV) is the most prevalent arbovirus worldwide, found in over 100 tropical and sub-tropical countries. It is transmitted mainly by the Aedes aegypti and Aedes albopictus mosquitoes. Over half of the global population is at risk for dengue infection, with 100 million symptomatic cases being reported every year. There are four genetically distinct serotypes of the virus, DENV1-4. Due to the antigenic differences between the serotypes, infection with one serotype will confer long-lasting immune protection against that serotype only, while cross-protection against other serotypes are short term. In endemic countries, more than one serotype of DENV circulates.",
+            "Results": []
+        },
+        {
+            "Index": "41",
+            "Sentence": "Nonstructural proteins block signaling pathways after virus recognition and inhibit type I IFN production. NS3 and NS4a block retinoic acid-inducible gene I (RIG-I) translocation to mitochondria (red). NS2a and NS4b from DENV1, -2, -4 (green) and NS4a from DENV1 (light green) inhibit the activation of TANK-binding kinase 1 (TBK1), blocking the RIG-I/mitochondrial antiviral signaling (MAVS) signaling pathway and IFNbeta induction. NS2b targets cyclic GMP-AMP synthase (cGAS) for autophagy-lysosome-dependent degradation and prevents mitochondrial DNA sensing (purple). NS2b/3 protease inhibits IFN production by cleaving stimulator of interferon gene (STING) (pink). NS4b inhibits RNAi by binding to Dicer, preventing the biogenesis of miRNA. NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP-Argonaute interaction and RISC formation (blue). DENV will exploit the autophagy pathway and use autophagosomes for replication, assembly and maturation, and evasion of neutralizing antibodies during transmission (red)",
+            "Results": [
+                {
+                    "subject": "NS3",
+                    "object": "RIG-I",
+                    "interaction_type": "Translocation",
+                    "text": "NS3 and NS4a block retinoic acid-inducible gene I (RIG-I) translocation to mitochondria (red).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4a",
+                    "object": "RIG-I",
+                    "interaction_type": "Translocation",
+                    "text": "NS3 and NS4a block retinoic acid-inducible gene I (RIG-I) translocation to mitochondria (red).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2a",
+                    "object": "TBK1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a and NS4b from DENV1, -2, -4 (green) and NS4a from DENV1 (light green) inhibit the activation of TANK-binding kinase 1 (TBK1), blocking the RIG-I/mitochondrial antiviral signaling (MAVS) signaling pathway and IFNbeta induction.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4b",
+                    "object": "TBK1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a and NS4b from DENV1, -2, -4 (green) and NS4a from DENV1 (light green) inhibit the activation of TANK-binding kinase 1 (TBK1), blocking the RIG-I/mitochondrial antiviral signaling (MAVS) signaling pathway and IFNbeta induction.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4a",
+                    "object": "TBK1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a and NS4b from DENV1, -2, -4 (green) and NS4a from DENV1 (light green) inhibit the activation of TANK-binding kinase 1 (TBK1), blocking the RIG-I/mitochondrial antiviral signaling (MAVS) signaling pathway and IFNbeta induction.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b",
+                    "object": "cGAS",
+                    "interaction_type": "RegulateAmount",
+                    "text": "NS2b targets cyclic GMP-AMP synthase (cGAS) for autophagy-lysosome-dependent degradation and prevents mitochondrial DNA sensing (purple).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b/3 protease",
+                    "object": "STING",
+                    "interaction_type": "Cleavage",
+                    "text": "NS2b/3 protease inhibits IFN production by cleaving stimulator of interferon gene (STING) (pink).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4b",
+                    "object": "Dicer",
+                    "interaction_type": "Complex",
+                    "text": "NS4b inhibits RNAi by binding to Dicer, preventing the biogenesis of miRNA.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS3",
+                    "object": "heat-shock cognate 70",
+                    "interaction_type": "Complex",
+                    "text": "NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP-Argonaute interaction and RISC formation (blue).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "42",
+            "Sentence": "DENV uses NS proteins to block or inhibit signaling pathways in the infected cells. It also can block pathways that alert nearby cells of infection. DENV can block PRR signaling and production of type I IFN response by targeting the RLR and TLR pathways mentioned above. NS5 2'-O-methylation of 5' prevents the virus from being sensed by RIG-I. NS3 blocks RIG-I translocation to mitochondria by binding with the mitochondrial-targeting chaperone protein 14-3-3epsilon. NS4a will also inhibit RIG-I interaction with MAVS by binding to the MAVS CARD-like domain and transmembrane domain. NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFNbeta induction. NS2b targets cGAS for autophagy-lysosome-dependent degradation and prevents mitochondrial DNA sensing. NS2b/3 protease inhibits IFN production by cleaving STING (Fig. 4). NS4b triggers elongation of mitochondria by inactivating mitochondrial fission factor dynamin-related protein 1, resulting in altered mitochondria-associated membranes (MAMs), increased DENV replication, and decreased IFN production:possibly by blocking activated RIG-I recruitment to MAMs.",
+            "Results": [
+                {
+                    "subject": "NS5",
+                    "object": "5'",
+                    "interaction_type": "Methylation",
+                    "text": "NS5 2'-O-methylation of 5' prevents the virus from being sensed by RIG-I.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS3",
+                    "object": "RIG-I",
+                    "interaction_type": "Inhibition",
+                    "text": "NS3 blocks RIG-I translocation to mitochondria by binding with the mitochondrial-targeting chaperone protein 14-3-3epsilon.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4a",
+                    "object": "RIG-I",
+                    "interaction_type": "Inhibition",
+                    "text": "NS4a will also inhibit RIG-I interaction with MAVS by binding to the MAVS CARD-like domain and transmembrane domain.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2a",
+                    "object": "RIG-I/MAVS signaling pathway",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFNbeta induction.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4b",
+                    "object": "RIG-I/MAVS signaling pathway",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFNbeta induction.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4a",
+                    "object": "RIG-I/MAVS signaling pathway",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a and NS4b from DENV1, 2, 4, and NS4a from DENV1 block the RIG-I/MAVS signaling pathway by preventing phosphorylation of TBK1/IRF, inhibiting IFNbeta induction.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b",
+                    "object": "cGAS",
+                    "interaction_type": "RegulateAmount",
+                    "text": "NS2b targets cGAS for autophagy-lysosome-dependent degradation and prevents mitochondrial DNA sensing.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b/3 protease",
+                    "object": "STING",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2b/3 protease inhibits IFN production by cleaving STING (Fig. 4).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4b",
+                    "object": "dynamin-related protein 1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS4b triggers elongation of mitochondria by inactivating mitochondrial fission factor dynamin-related protein 1, resulting in altered mitochondria-associated membranes (MAMs), increased DENV replication, and decreased IFN production:possibly by blocking activated RIG-I recruitment to MAMs.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "44",
+            "Sentence": "a Type I IFN signaling inhibition (blue): NS2a, NS4a, and NS4b complex inhibit signal transducer and activator of transcription 1 (STAT1) signaling after IFNalpha/beta receptor activation. NS5 will cause proteasomal degradation of STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 (UBR4). b Complement evasion (red): NS1 hexamer inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b. NS1 inhibits neutralization by the mannose-binding lectin (MBL) pathway by binding to MBL. NS1 blocks membrane attack complex (MAC) formation by binding to complement regulators vitronectin (VN), C9, or clusterin (Clu)",
+            "Results": [
+                {
+                    "subject": "NS2a",
+                    "object": "STAT1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a, NS4a, and NS4b complex inhibit signal transducer and activator of transcription 1 (STAT1) signaling after IFNalpha/beta receptor activation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4a",
+                    "object": "STAT1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a, NS4a, and NS4b complex inhibit signal transducer and activator of transcription 1 (STAT1) signaling after IFNalpha/beta receptor activation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS4b",
+                    "object": "STAT1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a, NS4a, and NS4b complex inhibit signal transducer and activator of transcription 1 (STAT1) signaling after IFNalpha/beta receptor activation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS5",
+                    "object": "STAT2",
+                    "interaction_type": "DecreaseAmount",
+                    "text": "NS5 will cause proteasomal degradation of STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 (UBR4).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "C4",
+                    "interaction_type": "Inhibition",
+                    "text": "NS1 hexamer inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "C1s",
+                    "interaction_type": "Inhibition",
+                    "text": "NS1 hexamer inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "C4b",
+                    "interaction_type": "Inhibition",
+                    "text": "NS1 hexamer inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "MBL",
+                    "interaction_type": "Inhibition",
+                    "text": "NS1 inhibits neutralization by the mannose-binding lectin (MBL) pathway by binding to MBL.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "VN",
+                    "interaction_type": "Inhibition",
+                    "text": "NS1 blocks membrane attack complex (MAC) formation by binding to complement regulators vitronectin (VN), C9, or clusterin (Clu).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "C9",
+                    "interaction_type": "Inhibition",
+                    "text": "NS1 blocks membrane attack complex (MAC) formation by binding to complement regulators vitronectin (VN), C9, or clusterin (Clu).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "Clu",
+                    "interaction_type": "Inhibition",
+                    "text": "NS1 blocks membrane attack complex (MAC) formation by binding to complement regulators vitronectin (VN), C9, or clusterin (Clu).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS5",
+                    "object": "UBR4",
+                    "interaction_type": "Binding",
+                    "text": "NS5 will cause proteasomal degradation of STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 (UBR4).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "45",
+            "Sentence": "Furthermore, along with inhibiting IFNalpha/beta production, NS proteins block the IFNAR pathways. NS2a, NS4a, and NS4b complex is responsible for subverting the IFNalpha/beta response by inhibiting STAT1 signaling after IFNAR activation in vitro. NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2 (Fig. 5).",
+            "Results": [
+                {
+                    "subject": "NS proteins",
+                    "object": "IFNalpha/beta",
+                    "interaction_type": "Inhibition",
+                    "text": "Furthermore, along with inhibiting IFNalpha/beta production, NS proteins block the IFNAR pathways.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2a, NS4a, and NS4b complex",
+                    "object": "STAT1",
+                    "interaction_type": "Inhibition",
+                    "text": "NS2a, NS4a, and NS4b complex is responsible for subverting the IFNalpha/beta response by inhibiting STAT1 signaling after IFNAR activation in vitro.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS5",
+                    "object": "STAT2",
+                    "interaction_type": "Inhibition",
+                    "text": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2 (Fig. 5).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS5",
+                    "object": "ubiquitin protein ligase E3 component N-recognin 4",
+                    "interaction_type": "Binding",
+                    "text": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2 (Fig. 5).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "ubiquitin protein ligase E3 component N-recognin 4",
+                    "object": "STAT2",
+                    "interaction_type": "Ubiquitination",
+                    "text": "NS5 inhibits IFN-mediated response via STAT2 by binding with the host ubiquitin protein ligase E3 component N-recognin 4 for proteasomal degradation of STAT2 (Fig. 5).",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "47",
+            "Sentence": "DENV will subvert apoptosis early in the life cycle to ensure viral replication. The phosphatidylinositol 3 kinase/Akt (PI3K/Akt) pathway plays an important role in cell survival, regulating proliferation, and inhibiting apoptosis; many viruses modulate this pathway for survival during early, chronic, and latent infections. DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway.",
+            "Results": [
+                {
+                    "subject": "DENV2",
+                    "object": "caspase-dependent apoptosis",
+                    "interaction_type": "Inhibition",
+                    "text": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV2",
+                    "object": "PI3K/Akt pathway",
+                    "interaction_type": "Activation",
+                    "text": "DENV2 blocks caspase-dependent apoptosis in cells during early infection by activating the PI3K/Akt pathway.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "48",
+            "Sentence": "The virus evades the complement response using NS1. NS1 inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b. NS1 also protects DENV from neutralization by binding to MBL. To block the formation of MAC, NS1 will bind to complement regulators vitronectin or inhibit C9 polymerization. NS1 binding to complement inhibitory factor clusterin will also inhibit MAC formation (Fig. 5).",
+            "Results": [
+                {
+                    "subject": "NS1",
+                    "object": "C4",
+                    "interaction_type": "Complex",
+                    "text": "NS1 inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "C1s",
+                    "interaction_type": "Complex",
+                    "text": "NS1 inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "C4b",
+                    "interaction_type": "Complex",
+                    "text": "NS1 inhibits the formation of the classical pathway C3 convertase by binding to C4, C1s, and C4b.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "MBL",
+                    "interaction_type": "Complex",
+                    "text": "NS1 also protects DENV from neutralization by binding to MBL.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "vitronectin",
+                    "interaction_type": "Complex",
+                    "text": "To block the formation of MAC, NS1 will bind to complement regulators vitronectin or inhibit C9 polymerization.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "C9",
+                    "interaction_type": "Inhibition",
+                    "text": "To block the formation of MAC, NS1 will bind to complement regulators vitronectin or inhibit C9 polymerization.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS1",
+                    "object": "clusterin",
+                    "interaction_type": "Complex",
+                    "text": "NS1 binding to complement inhibitory factor clusterin will also inhibit MAC formation.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "49",
+            "Sentence": "Other DENV proteins have been shown to have immune evasion activity. NS4b suppresses the RNAi pathway in mammalian cells by blocking Dicer processing via transmembrane domain 3 (TMD3) and TMD5, preventing the biogenesis of mRNA; this is independent of the N-terminal domain that is associated with IFN suppression. NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP-Argo interaction and RISC formation (Fig. 4). DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy. DENV C protein aids in inhibition of apoptosis in Huh7 cells by interacting with calcium-modulating cyclophilin-binding ligand, an ER protein associated with cell survival by regulating Bim-dependent death. DENV C also interacts with cellular protein DEAD (Asp-Glu-Ala-Asp) Box Helicase 3, X-linked, resulting in higher viral titers and down-regulation of innate immune responses against DENV independent of the type I IFN pathway.",
+            "Results": [
+                {
+                    "subject": "NS4b",
+                    "object": "Dicer",
+                    "interaction_type": "Inhibition",
+                    "text": "NS4b suppresses the RNAi pathway in mammalian cells by blocking Dicer processing via transmembrane domain 3 (TMD3) and TMD5, preventing the biogenesis of mRNA; this is independent of the N-terminal domain that is associated with IFN suppression.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS3",
+                    "object": "heat-shock cognate 70",
+                    "interaction_type": "Binding",
+                    "text": "NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP-Argo interaction and RISC formation (Fig. 4).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS3",
+                    "object": "TRBP",
+                    "interaction_type": "Inhibition",
+                    "text": "NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP-Argo interaction and RISC formation (Fig. 4).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS3",
+                    "object": "Argo",
+                    "interaction_type": "Inhibition",
+                    "text": "NS3 will also block RNAi by binding to heat-shock cognate 70, an essential protein for creating RISC, and inhibit TRBP-Argo interaction and RISC formation (Fig. 4).",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2b/3 protease",
+                    "object": "FAM134B",
+                    "interaction_type": "Cleavage",
+                    "text": "DENV NS2b/3 protease inhibits reticulophagy (selective autophagy of the ER) by cleaving FAM134B, an essential receptor for reticulophagy.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV C protein",
+                    "object": "calcium-modulating cyclophilin-binding ligand",
+                    "interaction_type": "Binding",
+                    "text": "DENV C protein aids in inhibition of apoptosis in Huh7 cells by interacting with calcium-modulating cyclophilin-binding ligand, an ER protein associated with cell survival by regulating Bim-dependent death.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DENV C protein",
+                    "object": "DEAD (Asp-Glu-Ala-Asp) Box Helicase 3, X-linked",
+                    "interaction_type": "Binding",
+                    "text": "DENV C also interacts with cellular protein DEAD (Asp-Glu-Ala-Asp) Box Helicase 3, X-linked, resulting in higher viral titers and down-regulation of innate immune responses against DENV independent of the type I IFN pathway.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "Sentence": "Primary infections may cause a rash and fever, but many infections are asymptomatic. Secondary infections, however, are known to cause severe disease, specifically after a heterotypic infection. The exact cause of this is unknown, but the phenomenon of antibody-dependent enhancement (ADE) may cause increased pathogenicity and virulence. ADE occurs when antibodies from a previous heterotypic infection do not neutralize a secondary infection with a different subtype but still bind to viral proteins. This creates a virus-antibody complex phagocytosed by cells that are not usually infected via Fcgamma receptors, specifically monocytes via FcgammaIIa receptor. This results in increased viremia and pathology. Severe disease is seen in only 1% of DENV cases; however, mortality in severe cases can have a rate of up to 20%",
+            "Results": []
+        },
+        {
+            "Index": "51",
+            "Sentence": "There is currently one licensed vaccine, Dengvaxia by Sanofi-Pasteur, which uses the prM-E dengue sequence in a yellow fever virus backbone. However, the administration of the vaccine has been widely criticized, since it has only about 60% efficacy. There are no approved antivirals for DENV. It is necessary to understand the role of the innate immune response to DENV in order to produce an effective vaccine or antiviral against DENV. Treatment for clinical manifestations of the acute febrile are paracetamol for high fever and oral or intravenous fluid intake.",
+            "Results": []
+        },
+        {
+            "Index": "52",
+            "Sentence": "Recent DENV antiviral research has been focusing on identifying novel compounds that targeting the DENV proteins responsible for replication and innate immune evasion. A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV. The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice. Two compounds targeting protease and RdRp activity show protection from DENV2 in mice, with the combination of the compounds having synergistic inhibition in vitro against DENV2. There are many potential NS2B/NS3 protease targets that reduce DENV infectivity in vitro. Additionally, a therapeutic monoclonal antibody raised against NS1 induced complement-mediated lysis in vitro and had protective effects in vivo.",
+            "Results": [
+                {
+                    "subject": "NITD-618",
+                    "object": "NS4b",
+                    "interaction_type": "Inhibition",
+                    "text": "A compound targeting NS4b, NITD-618, inhibits RNA synthesis in vitro in all four serotypes of DENV.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "ST-147",
+                    "object": "capsid protein",
+                    "interaction_type": "Inhibition",
+                    "text": "The novel small-molecule compound, ST-147, inhibits DENV replication by targeting the capsid protein and reduced viremia and viral load in mice.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NS2B/NS3 protease",
+                    "object": "DENV",
+                    "interaction_type": "Inhibition",
+                    "text": "There are many potential NS2B/NS3 protease targets that reduce DENV infectivity in vitro.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "monoclonal antibody",
+                    "object": "NS1",
+                    "interaction_type": "Complex",
+                    "text": "Additionally, a therapeutic monoclonal antibody raised against NS1 induced complement-mediated lysis in vitro and had protective effects in vivo.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "53",
+            "Sentence": "Drug repurposing have been investigated for DENV inhibition. Minocycline, typically used as an antibiotic and anti-inflammatory, inhibits DENV replication in vitro by suppressing migration inhibitory facto, a catalyst for autophagy, and this drug also decreased viremia and autophagy formation in vivo. AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo. Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo. Secreted phospholipase A2, obtained from snake venom showed viricidal, has neutralizing activity against DENV, targeting the virus envelope lipid bilayer.",
+            "Results": [
+                {
+                    "subject": "Minocycline",
+                    "object": "DENV",
+                    "interaction_type": "Inhibition",
+                    "text": "Minocycline, typically used as an antibiotic and anti-inflammatory, inhibits DENV replication in vitro by suppressing migration inhibitory factor, a catalyst for autophagy, and this drug also decreased viremia and autophagy formation in vivo.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "AR-12",
+                    "object": "PI3K/Akt signaling",
+                    "interaction_type": "Inhibition",
+                    "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "AR-12",
+                    "object": "DENV2",
+                    "interaction_type": "Inhibition",
+                    "text": "AR-12, a derivative of celecoxib (a non-steroidal anti-inflammatory drug) that inhibits PI3K/Akt signaling (the pathway that has shown to be activated by DENV2 to block apoptosis), reduces viral replication in all four serotypes in vitro and protects against DEV2 in vivo.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Schisandrin A",
+                    "object": "DENV",
+                    "interaction_type": "Inhibition",
+                    "text": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Schisandrin A",
+                    "object": "type I IFN response",
+                    "interaction_type": "Activation",
+                    "text": "Schisandrin A, a derivative of the herbal medicinal plant Schisandra chinesis, inhibited DENV replication and increased type I IFN response in vitro and in vivo.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Secreted phospholipase A2",
+                    "object": "DENV",
+                    "interaction_type": "Inhibition",
+                    "text": "Secreted phospholipase A2, obtained from snake venom showed viricidal, has neutralizing activity against DENV, targeting the virus envelope lipid bilayer.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "55",
+            "Sentence": "DENV is a mosquito-borne Flavivirus that is endemic in many tropical and sub-tropical countries. The NS proteins are responsible for viral replication and host innate immune evasion. The innate immune response to DENV is not well characterized nor are the exact roles of the NS proteins in evading the immune response. The main innate immune response is type I IFN and the main evasion mechanism of the virus is to target against the type I IFN response. Other innate immune responses include complement activation, apoptosis, autophagy, and RNAi. It is important to understand the host innate immune response to infection and how the virus evades or exploits this in order to develop effective antivirals and vaccines.",
+            "Results": []
+        },
+        {
+            "Index": "7",
+            "Sentence": "DENV is part of the Flaviviridae family, which also includes Zika, Yellow Fever, Japanese Encephalitis, and West Nile viruses. They are enveloped and spherical, with a positive-sensed and single-stranded RNA (ssRNA) genome that encodes one open reading frame with three structural (capsid, precursor membrane (prM), and envelope) and seven nonstructural (NS) proteins (NS1, NS2a, NS2b, NS3, NS4a, NS4b, and NS5). The genome is approximately 11,000 kb in length, containing a type I cap at the 5' end and lacking a 3' poly(A) tail. The virus structure consists of a well-organized outer shell with an icosahedral symmetry, a lipid bilayer, and a poorly ordered nucleocapsid core that encapsulates the RNA genome.",
+            "Results": []
+        },
+        {
+            "Index": "8",
+            "Sentence": "Out of the three structural proteins, the envelope glycoprotein (E) is the main target for neutralizing antibodies and is responsible for receptor binding and fusion. It is a class II fusion protein, with 90 E dimers lying flat on the surface of the virion. The membrane protein sits below the E protein on the surface of the mature virion. Immature virus particles, on the other hand, has a prM protein that forms protruding trimers with E, which creates a \"spiky\" appearance instead of the smooth, icosahedral structure of the mature form. The capsid protein is found below the outer protein shell and the lipid bilayer. It is not as well ordered as the other structural proteins, and it is difficult to discern the viral RNA from the capsid during cryo-electron microscopy imaging.",
+            "Results": [
+                {
+                    "subject": "prM protein",
+                    "object": "E",
+                    "interaction_type": "Complex",
+                    "text": "Immature virus particles, on the other hand, has a prM protein that forms protruding trimers with E, which creates a \"spiky\" appearance instead of the smooth, icosahedral structure of the mature form.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "membrane protein",
+                    "object": "E protein",
+                    "interaction_type": "Complex",
+                    "text": "The membrane protein sits below the E protein on the surface of the mature virion.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "Sentence": "The viral life cycle of dengue virus (DENV).",
+            "Results": []
+        }
+    ]
+}
