@@ -38,14 +38,20 @@ def get_prompt(identifier, filepath):
     return ''.join(prompt)
 
 
-filepath = 'prompt_file_v6.txt'
+filepath = 'prompt_file_v5.txt'
 prompt_identifier = 'general prompt'
 prompt = get_prompt(prompt_identifier, filepath)
 
+# prompt = ChatPromptTemplate.from_messages([
+#     ("system", prompt),
+#     ("human", "{text} | Annotations: {annotations}")
+# ])
+
 prompt = ChatPromptTemplate.from_messages([
     ("system", prompt),
-    # ("human", "{text} | Annotations: {annotations}")
+    ("human", "{text}")
 ])
+
 
 extraction_chain = prompt | extraction_model | JsonKeyOutputFunctionsParser(key_name="interactions")
 
