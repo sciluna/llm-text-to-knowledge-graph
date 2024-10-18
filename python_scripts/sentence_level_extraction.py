@@ -181,6 +181,34 @@ def combine_llm_and_indra_results(llm_filepath, indra_filepath):
     return combined_data
 
 
+# Combine LLM and small corpus extractions
+def combine_llm_and_bel_extractions(llm_file, small_corpus_file):
+    llm_extractions = load_json_data(llm_file)
+    small_corpus_extractions = load_json_data(small_corpus_file)
+
+    # Initialize the combined output dictionary
+    combined_results = {}
+
+    # Iterate through both LLM extractions and small corpus extractions
+    for llm_extraction in llm_extractions["LLM_extractions"]:
+        index = llm_extraction["Index"]
+        text = llm_extraction["text"]
+
+        # Extract LLM results
+        llm_bel_statements = [item["bel_statement"] for item in llm_extraction["Results"]]
+
+        # Extract small corpus results
+        small_corpus_bel_statements = small_corpus_extractions.get(index, {}).get("bel_statements", [])
+
+        # Combine into a single output format
+        combined_results[index] = {
+            "text": text,
+            "LLM_bel_statements": llm_bel_statements,
+            "Small_Corpus_bel_statements": small_corpus_bel_statements
+        }
+    return combined_results
+
+
 # Define the function to ground genes in combined results
 def ground_genes_in_combined_results(combined_results):
     for entry in combined_results:
