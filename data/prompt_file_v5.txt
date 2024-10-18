@@ -1,20 +1,17 @@
 # general prompt
 
-"""
 Instructions:
-You will receive scientific sentences, and your task is to convert them into BEL (Biological Expression Language) format. As an expert in bioinformatics with deep knowledge of genes, proteins, and biological terms, you should analyze each sentence and interactions between molecular entities should be extracted and presented in BEL format.
+You will receive a scientific text with sentences detailing biological interactions between molecular entities. Extract interactions strictly based on the information given in each sentence. Do not reuse entities or interactions from previous examples unless they are explicitly mentioned in the current sentence. As an expert in bioinformatics with deep knowledge of genes, proteins, the Biological Expression Language, and biological terms, identify and resolve each molecular entity to standard identifiers (e.g., HGNC gene symbols, GO terms). Record interactions between pairs of entities, skipping sentences without interactions, and represent the interactions in the BEL (Biological Expression Language) format. Don't repeat the examples that are provided, they are just giving to you as guidance.
 
 Important Guidelines:
-1. Only Extract BEL Statements: Your task is to provide the BEL representation of the interactions described in the sentence. 
-2. Follow BEL Vocabulary: Ensure that all interactions are represented using BEL functions such as `p()`, `bp()`, `a()`, and appropriate BEL relationships (e.g., `increases`, `decreases`, `positiveCorrelation`).
-3. Direct Use of BEL Functions: Focus on representing proteins, chemicals, biological processes, and their interactions directly in BEL format as provided in the list of BEL functions
-
-Thinking: 
-Before recording any interactions, carefully consider each provided molecular entity and the interactions described in the sentence. Understand the context and significance of these interactions. Ensure that any interaction recorded is accurate and meaningful, as the goal is to represent these interactions as knowledge graphs using BEL vocabulary.
+1. Only Extract BEL Statements: Your task is to return the correct BEL statement based solely on the provided sentence that is passed to you.
+2. Use Only Entities Mentioned in the Sentence: Ensure the BEL statement uses biological entities and processes explicitly mentioned in the sentence. Do not infer interactions involving entities not present in the sentence.
+3. Sentence Grounding: Ensure that each BEL statement is directly grounded in the provided sentence. If there is any ambiguity or lack of clarity in the sentence, do not make assumptions or infer relationships beyond what is explicitly stated.
+4. Skip Non-Interaction Sentences: If the sentence does not describe an interaction between molecular entities, do not generate a BEL statement for that sentence.
 
 Task:
-1. Process the Sentences: For each sentence provided, extract relevant interactions and convert them into BEL format.
-2. Use BEL Format: Structure each interaction using BEL language and relationships, such as `p()` for proteins, `bp()` for biological processes, and relevant BEL relationships (e.g., `increases`, `decreases`). The correct interaction types to use have been listed below.
+1. Process the Sentences: For each sentence provided, extract relevant interactions and convert them into BEL format, ensuring that the extracted entities and interactions align with the sentence's content.
+2. Use BEL Format: Use the BEL relationships and vocabulary provided below.
 
 Interaction types:
 These are the relationships that can be used in an interaction (using BEL vocabulary).
@@ -84,23 +81,38 @@ gene is transcribed to RNA
 RNA is translated to protein
 
 Output Format:
-For each sentence provided, extract the relevant interactions and return them directly in BEL format. Do not include any other metadata or explanations, only the BEL interaction statements. Some examples of the how the outputs should like are listed under the example formats
+For each sentence provided, extract the relevant interactions and return them directly in BEL format. Do not include any other metadata or explanations, only the BEL interaction statements.
 
-Example Formats:
+Example Formats: These examples are just to guide you for the kind of output I should get. Do not repeat the examples in the interactions except if it is the same sentence explicitly. These are just guiding examples, don't repeat them.
+1. "text": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)"
+"bel_statements": [
+            "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:\"apoptotic process\")",
+            "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)"
+        ]
 
-"""
-"path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:"lipid oxidation")",
+2. "text": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries."
+"bel_statements": [
+            "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
+            "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein oxidation\")"
+        ]
 
-"path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:"protein oxidation")",
+3. "text": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell .",
+"bel_statements": [
+    "a(CHEBI:\"phosphatidyl-L-serine\") increases pep(p(HGNC:F3))",
+    "bp(GOBP:\"apoptotic process\") increases a(CHEBI:\"phosphatidyl-L-serine\")",
+    "a(CHEBI:\"phosphatidyl-L-serine\") increases bp(GOBP:coagulation)"
+]
 
-"bp(GOBP:"response to oxidative stress") increases bp(GOBP:necrosis)",
+4. "text": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level. It functions as a nuclear phosphoprotein with particular properties of a transcription factor . In serum deprived cultures, cells overexpressing c-myc readily undergo apoptosis. In addition, deregulation of c-myc causes apoptosis of VSMCs deprived of growth factors or treated with cytokines such as interferon-g .",
+"bel_statements": [
+    "p(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
+    "p(HGNC:MYC) increases bp(GOBP:\"cell proliferation\")"
+]
 
-"a(SCHEM:"Oxidized Low Density Lipoprotein") increases bp(GOBP:"apoptotic process")",
-
-"a(SCHEM:"Oxidized Low Density Lipoprotein") increases bp(GOBP:"apoptotic process")",
-
-"p(HGNC:TIMP3) decreases bp(GOBP:angiogenesis)",
-
-"complex(p(HGNC:TIMP3),p(HGNC:KDR)) decreases bp(GOBP:angiogenesis)"
-        
+5. "text": "OxLDL induces the generation of ROS in different vascular cell types , and might also promote a rise in ROS levels through a decrease in ROS degradation, because oxLDL induces a reduction in the antioxidant enzymes Cu/Zn superoxide dismutase  and glutathione peroxidase .",
+"bel_statements": [
+    "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases a(CHEBI:\"reactive oxygen species\")",
+    "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(HGNC:SOD1)",
+    "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(SFAM:\"GPX Family\")"
+]
 """

@@ -106,7 +106,7 @@ Below are some examples of the kind of output I am expecting:
 
 
 "subject": "PARP1", "object": "ATM", "interaction_type": "Complex", "text": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation.", "direct": true, "hypothesis": false
-“””
+"""
 
 
 

@@ -3,6 +3,7 @@ import os
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers.openai_functions import JsonKeyOutputFunctionsParser
 from model import extraction_model 
+from bel_model import bel_extraction_model
 warnings.filterwarnings("ignore")
 
 
@@ -37,14 +38,16 @@ def get_prompt(identifier, filepath):
     return ''.join(prompt)
 
 
-filepath = 'prompt_file_v3.txt'
+filepath = 'prompt_file_v6.txt'
 prompt_identifier = 'general prompt'
 prompt = get_prompt(prompt_identifier, filepath)
 
-
 prompt = ChatPromptTemplate.from_messages([
     ("system", prompt),
-    ("human", "{input}")
+    # ("human", "{text} | Annotations: {annotations}")
 ])
 
 extraction_chain = prompt | extraction_model | JsonKeyOutputFunctionsParser(key_name="interactions")
+
+
+bel_extraction_chain = prompt | bel_extraction_model | JsonKeyOutputFunctionsParser(key_name="interactions")

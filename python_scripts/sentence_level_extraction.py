@@ -1,5 +1,5 @@
 import json
-from get_interactions import extraction_chain
+from get_interactions import extraction_chain, bel_extraction_chain
 from indra.sources import reach
 import time
 from grounding_genes import ground_genes
@@ -41,7 +41,31 @@ def llm_processing(sentences):
         })
         llm_results["LLM_extractions"].append({
             "Index": index,
-            "Sentence": sentence,
+            "text": sentence,
+            "Results": results
+        })
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    elapsed_minutes = elapsed_time / 60
+    print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+    return llm_results
+
+
+#extracting bel functions using llm
+def llm_bel_processing(sentences):
+    llm_results = {"LLM_extractions": []}
+    start_time = time.time()
+
+    # Loop through the sentences dictionary directly
+    for index, sentence_info in sentences.items():
+        sentence = sentence_info['text']  # Assuming 'text' is the correct key for the sentence
+        results = bel_extraction_chain.invoke({
+            "text": sentence
+        })
+        llm_results["LLM_extractions"].append({
+            "Index": index,
+            "text": sentence,
             "Results": results
         })
 
