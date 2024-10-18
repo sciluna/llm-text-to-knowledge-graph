@@ -1,0 +1,26 @@
+name: tumor protein 53
+protein identifier (uniprot): TP53_HUMAN
+hgnc gene symbol: TP53
+hgnc accession: 11998
+ncbi gene: 7157
+
+
+# CHEMICAL
+names: acetaminophen
+Paracetamol
+4-Acetamidophenol
+103-90-2
+Tylenol
+
+# STANDARD NAME???
+Acetaminophen
+
+# Chemical info page 
+https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/sourceid/Comparative%20Toxicogenomics%20Database/D000082/JSON
+
+## Common chemical ID: PubChem: 
+CID: 1983 (unique: https://pubchem.ncbi.nlm.nih.gov/compound/1983)
+SID: many (example: https://pubchem.ncbi.nlm.nih.gov/substance/53789923)
+
+Synonyms
+https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1983/synonyms/JSON

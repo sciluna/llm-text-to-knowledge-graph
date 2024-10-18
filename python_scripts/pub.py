@@ -6,6 +6,11 @@ def get_pubtator_sentences(file_path):
     Extracts passages and their annotations from a PubTator XML file,
     numbering each passage and stopping when 'REF' section is reached.
 
+    - Only includes annotations that have an 'NCBI Homologene' or 'identifier' starting with 'MESH:'.
+    - For each annotation, extracts 'entity_text', 'type', and the identifier (either MESH or NCBI Homologene ID).
+    - Only includes passages that have at least 2 such annotations.
+    - Removes duplicate annotations within a passage.
+
     :param file_path: Path to the PubTator XML file.
     :return: A dictionary with numbered passages as keys and values containing text and annotations.
     """
@@ -30,30 +35,53 @@ def get_pubtator_sentences(file_path):
         # Extract annotations within the passage
         annotations = []
         annotation_elements = passage.findall('annotation')
+        seen_annotations = set()
         for annotation in annotation_elements:
-            # Get the annotation text
-            ann_text_elem = annotation.find('text')
-            ann_text = ann_text_elem.text.strip() if ann_text_elem is not None else ""
+            # Build a dictionary of infon elements
+            infon_elements = annotation.findall('infon')
+            infon_dict = {infon.get('key'): infon.text.strip() for infon in infon_elements if infon.text}
 
-            # Get the annotation type
-            ann_type = ""
-            for infon in annotation.findall('infon'):
-                if infon.get('key') == 'type':
-                    ann_type = infon.text.strip()
-                    break
+            # Initialize variables
+            identifier = ""
+            identifier_type = ""
 
-            annotations.append({
-                'entity_text': ann_text,
-                'type': ann_type
-            })
+            # Check if the annotation meets the criteria
+            if 'NCBI Homologene' in infon_dict:
+                identifier = infon_dict['NCBI Homologene']
+                identifier_type = 'NCBI Homologene'
+            elif 'identifier' in infon_dict and infon_dict['identifier'].startswith('MESH:'):
+                identifier = infon_dict['identifier']
+                identifier_type = 'MESH'
 
-        # Add to the passages dictionary with numbering
-        passages_dict[str(passage_number)] = {
-            'text': passage_text,
-            'annotations': annotations
-        }
+            if identifier:
+                # Get the annotation text
+                ann_text_elem = annotation.find('text')
+                ann_text = ann_text_elem.text.strip() if ann_text_elem is not None else ""
 
-        passage_number += 1
+                # Get the annotation type
+                ann_type = infon_dict.get('type', '')
+
+                # Create a tuple to check for duplicates
+                ann_tuple = (ann_text, ann_type, identifier)
+
+                if ann_tuple not in seen_annotations:
+                    seen_annotations.add(ann_tuple)
+                    annotations.append({
+                        'entity_text': ann_text,
+                        'type': ann_type,
+                        'identifier_type': identifier_type,
+                        'identifier': identifier
+                    })
+
+        # Only include passages with at least 2 annotations
+        if len(annotations) >= 2:
+            # Add to the passages dictionary with numbering
+            passages_dict[str(passage_number)] = {
+                'text': passage_text,
+                'annotations': annotations
+            }
+
+            passage_number += 1
 
     return passages_dict
 

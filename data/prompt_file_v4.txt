@@ -5,12 +5,8 @@ Instructions:
 You will receive a scientific paragraph along with a list of annotated molecular entities extracted from the text. Each entity is provided with its entity text and type (e.g., Gene, Protein). As an expert in bioinformatics with deep knowledge of genes, proteins, and biological terms, your task is to extract interactions between these entities.
 
 Important Guidelines:
-1. Process Only Valid Passages:
-Skip any passage that has fewer than two entities in the annotations.
-Proceed only if there are at least two entities to consider for potential interactions.
-2. Use Provided Annotations:
-Entities are pre-annotated; use the provided entity texts directly.
-No need to perform entity normalization; focus on extracting interactions between the entities.
+1. Process Only Valid Passages: Proceed only if there are at least two entities to consider for potential interactions.
+2. Use Provided Annotations: Extract only entities that are specifically listed under the annotations list. Do not extract any entity that is not listed as an annotation.
 
 Thinking: 
 Before recording any interactions, carefully consider each provided molecular entity and the interactions described in the paragraph. Understand the context and significance of these interactions. Ensure that any interaction recorded is accurate and meaningful, as the goal is to represent these interactions as knowledge graphs.

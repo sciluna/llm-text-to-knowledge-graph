@@ -1,0 +1,106 @@
+# general prompt
+
+"""
+Instructions:
+You will receive scientific sentences, and your task is to convert them into BEL (Biological Expression Language) format. As an expert in bioinformatics with deep knowledge of genes, proteins, and biological terms, you should analyze each sentence and interactions between molecular entities should be extracted and presented in BEL format.
+
+Important Guidelines:
+1. Only Extract BEL Statements: Your task is to provide the BEL representation of the interactions described in the sentence. 
+2. Follow BEL Vocabulary: Ensure that all interactions are represented using BEL functions such as `p()`, `bp()`, `a()`, and appropriate BEL relationships (e.g., `increases`, `decreases`, `positiveCorrelation`).
+3. Direct Use of BEL Functions: Focus on representing proteins, chemicals, biological processes, and their interactions directly in BEL format as provided in the list of BEL functions
+
+Thinking: 
+Before recording any interactions, carefully consider each provided molecular entity and the interactions described in the sentence. Understand the context and significance of these interactions. Ensure that any interaction recorded is accurate and meaningful, as the goal is to represent these interactions as knowledge graphs using BEL vocabulary.
+
+Task:
+1. Process the Sentences: For each sentence provided, extract relevant interactions and convert them into BEL format.
+2. Use BEL Format: Structure each interaction using BEL language and relationships, such as `p()` for proteins, `bp()` for biological processes, and relevant BEL relationships (e.g., `increases`, `decreases`). The correct interaction types to use have been listed below.
+
+Interaction types:
+These are the relationships that can be used in an interaction (using BEL vocabulary).
+
+BEL Biological Functions:
+- abundance: Chemical or drug abundance
+- activity: Denotes activity of protein, RNA, complex
+- biologicalProcess: Biological processes
+- cellSecretion: Denote secretion of abundance from the cell
+- cellSurfaceExpression: Expresses an abundance moved to the cellular surface
+- complexAbundance: Complex of biological/chemical abundances
+- compositeAbundance: Not a complex but a set of abundances that together produce an effect
+- degradation: Denotes degradation of an abundance
+- fragment: Modifier function for protein fragments
+- fusion: Modifier function for biomolecule fusions
+- geneAbundance: Gene abundance
+- location: Modifier function for abundance location
+- microRNAAbundance: MicroRNA abundance
+- molecularActivity: Modifier function – specifies specific type of activity
+- pathology: Pathologies - disease or pathological process
+- proteinAbundance: Protein abundance
+- proteinModification: Modifier function for protein modifications
+- reaction: Reaction function - reactants and products
+- rnaAbundance: RNA abundance
+- translocation: Denotes movement of abundance from one location to another
+- variant: Modifier function for gene/RNA/protein variants
+
+BEL Relations:
+association, –
+- A is associated with B - least informative relationship
+- causesNoChange, cnc: A causes no change in B
+- decreases, -|
+  A indirectly decreases B
+- directlyDecreases, =|
+ A directly decreases B
+- directlyIncreases, =>
+  A directly increases B
+- hasActivity
+  A has activity B, e.g. kinase activity
+- hasComponent
+  A has component B (for complexes)
+- hasComponents
+  A has components list(B, C, D, …)
+- hasMember
+  A has a member B
+- hasMembers
+  A has members list(B, C, D, …)
+- increases, ->
+A indirectly increases B
+- isA
+A is a subset of B
+- negativeCorrelation, neg
+A is negatively correlated with B
+- orthologous
+A is orthologous to B
+- positiveCorrelation, pos
+A is positively correlated with B
+- rateLimitingStepOf
+A is a rate limiting step of B
+- regulates, reg
+A regulates (effects) B somehow
+- subProcessOf
+A is a subprocess of B
+- transcribedTo, :>
+gene is transcribed to RNA
+- translatedTo, >>
+RNA is translated to protein
+
+Output Format:
+For each sentence provided, extract the relevant interactions and return them directly in BEL format. Do not include any other metadata or explanations, only the BEL interaction statements. Some examples of the how the outputs should like are listed under the example formats
+
+Example Formats:
+
+"""
+"path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:"lipid oxidation")",
+
+"path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:"protein oxidation")",
+
+"bp(GOBP:"response to oxidative stress") increases bp(GOBP:necrosis)",
+
+"a(SCHEM:"Oxidized Low Density Lipoprotein") increases bp(GOBP:"apoptotic process")",
+
+"a(SCHEM:"Oxidized Low Density Lipoprotein") increases bp(GOBP:"apoptotic process")",
+
+"p(HGNC:TIMP3) decreases bp(GOBP:angiogenesis)",
+
+"complex(p(HGNC:TIMP3),p(HGNC:KDR)) decreases bp(GOBP:angiogenesis)"
+        
+"""

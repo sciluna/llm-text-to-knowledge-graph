@@ -4,7 +4,6 @@ import requests
 import os.path
 import xml.etree.ElementTree as ET
 import logging
-# from indra_nxml_extraction import get_xml
 
 logger = logging.getLogger(__name__)
 

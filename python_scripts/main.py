@@ -38,15 +38,14 @@ def main(pmc_id):
 
         logging.info("Extracting sentences from INDRA statements")
         sentences = extract_sentences(indra_statements)
-        selected_keys = sorted(sentences.keys())[:]
 
         logging.info("Processing sentences with LLM model")
-        llm_results = llm_processing(selected_keys, sentences)
+        llm_results = llm_processing(sentences)
         llm_results_filename = f'llm_results_{pmc_id}.json'
         save_to_json(llm_results, llm_results_filename, output_dir)      
 
         logging.info("processing sentences with indra reach")
-        indra_results = indra_processing(selected_keys, sentences)
+        indra_results = indra_processing(sentences)
         indra_results_filename = f'indra_results_{pmc_id}.json'
         save_to_json(indra_results, indra_results_filename, output_dir)
 

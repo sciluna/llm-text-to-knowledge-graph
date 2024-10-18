@@ -28,18 +28,23 @@ llm_results = {}
 indra_reach_results = {}
 
 
-#extracting interactions from each sentence using llm
-def llm_processing(selected_keys, sentences):
-    llm_results["LLM_extractions"] = []
+#extracting interactions from sentences without annotations using llm
+def llm_processing(sentences):
+    llm_results = {"LLM_extractions": []}
     start_time = time.time()
-    for index in selected_keys:
-        sentence = sentences[index]
-        results = extraction_chain.invoke({"input": sentence})
+
+    # Loop through the sentences dictionary directly
+    for index, sentence_info in sentences.items():
+        sentence = sentence_info['text']  # Assuming 'text' is the correct key for the sentence
+        results = extraction_chain.invoke({
+            "text": sentence
+        })
         llm_results["LLM_extractions"].append({
             "Index": index,
             "Sentence": sentence,
             "Results": results
         })
+
     end_time = time.time()
     elapsed_time = end_time - start_time
     elapsed_minutes = elapsed_time / 60
@@ -47,12 +52,40 @@ def llm_processing(selected_keys, sentences):
     return llm_results
 
 
-# # perform extraction using indra reach
-def indra_processing(selected_keys, sentences):
-    indra_reach_results["INDRA_REACH_extractions"] = []
+#extracting interactions from sentences with annotations using llm
+def llm_ann_processing(sentences):
+    llm_results = {"LLM_extractions": []}
     start_time = time.time()
-    for index in selected_keys:
-        sentence = sentences[index]
+
+    # Loop through the sentences dictionary directly
+    for index, sentence_info in sentences.items():
+        sentence = sentence_info['text']
+        annotations = sentence_info.get('annotations', [])  # Default to empty list if no annotations
+        results = extraction_chain.invoke({
+            "text": sentence,
+            "annotations": annotations
+        })
+        llm_results["LLM_extractions"].append({
+            "Index": index,
+            "Sentence": sentence,
+            "Annotations": annotations,
+            "Results": results
+        })
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    elapsed_minutes = elapsed_time / 60
+    print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+    return llm_results
+
+
+# perform extraction using indra reach
+def indra_processing(sentences):
+    indra_reach_results = {"INDRA_REACH_extractions": []}
+    start_time = time.time()
+
+    # Loop through the sentences dictionary directly
+    for index, sentence in sentences.items():
         reach_processor = reach.process_text(sentence, url=reach.local_text_url)
         stmts = reach_processor.statements
         statements_json = [stmt.to_json() for stmt in stmts]
@@ -61,6 +94,7 @@ def indra_processing(selected_keys, sentences):
             "Sentence": sentence,
             "Results": statements_json
         })
+
     end_time = time.time()
     elapsed_time = end_time - start_time
     elapsed_minutes = elapsed_time / 60
