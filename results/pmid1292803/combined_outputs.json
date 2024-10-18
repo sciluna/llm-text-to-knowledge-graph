@@ -31,8 +31,7 @@
         "text": "One such risk factor is oxLDL, which exert pro-apoptotic effects on a variety of cell lineages, including endothelial cells and VSMCs, both in cultured cells and in arteries . Increased formation of oxygen radicals (and other radical species) facilitates LDL oxidation and influences oxidation-sensitive mechanisms .",
         "LLM_bel_statements": [
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
-            "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases a(CHEBI:\"reactive oxygen species\")",
-            "a(CHEBI:\"reactive oxygen species\") increases bp(GOBP:\"lipid oxidation\")"
+            "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"oxidation-reduction process\")"
         ],
         "Small_Corpus_bel_statements": [
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
@@ -53,7 +52,7 @@
     "5": {
         "text": "The peptide hormone angiotensin II and pro-inflammatory cytokines also trigger the apoptotic program in endothelial cells .",
         "LLM_bel_statements": [
-            "p(HGNC:AGT) increases bp(GOBP:\"apoptotic process\")",
+            "a(CHEBI:\"angiotensin II\") increases bp(GOBP:\"apoptotic process\")",
             "bp(GOBP:\"inflammatory response\") increases bp(GOBP:\"apoptotic process\")"
         ],
         "Small_Corpus_bel_statements": [
@@ -111,9 +110,9 @@
     "10": {
         "text": "For instance, during 7-ketocholesterol-induced apoptosis of U937 cells, the cellular antioxidant content falls rapidly , but administration of two potent antioxidants, the aminothiols glutathione and N-acetylcysteine, can protect themonocytic cells from 7-ketocholesterol-induced apoptotic cell death .",
         "LLM_bel_statements": [
-            "a(CHEBI:7-ketocholesterol) increases bp(GOBP:\"apoptotic process\")",
-            "a(CHEBI:glutathione) decreases bp(GOBP:\"apoptotic process\")",
-            "a(CHEBI:N-acetylcysteine) decreases bp(GOBP:\"apoptotic process\")"
+            "a(CHEBI:\"7-ketocholesterol\") increases bp(GOBP:\"apoptotic process\")",
+            "a(CHEBI:\"glutathione\") decreases bp(GOBP:\"apoptotic process\")",
+            "a(CHEBI:\"N-acetylcysteine\") decreases bp(GOBP:\"apoptotic process\")"
         ],
         "Small_Corpus_bel_statements": [
             "a(SCHEM:\"7-Ketocholesterol\") increases bp(GOBP:\"apoptotic process\")",
@@ -125,7 +124,8 @@
     "11": {
         "text": "In addition, another oxygen-radical scavenger enzyme, catalase, can prevent VSMC apoptosis triggered by hydrogen peroxide .",
         "LLM_bel_statements": [
-            "p(HGNC:CAT) decreases bp(GOBP:\"apoptotic process\")"
+            "p(HGNC:CAT) decreases bp(GOBP:\"apoptotic process\")",
+            "a(CHEBI:\"hydrogen peroxide\") increases bp(GOBP:\"apoptotic process\")"
         ],
         "Small_Corpus_bel_statements": [
             "a(CHEBI:\"hydrogen peroxide\") increases bp(GOBP:\"apoptotic process\")",
@@ -147,8 +147,9 @@
         "text": "Tissue factor (TF) is a 47 kDa transmembrane glycoprotein that initiates blood coagulation by binding coagulation factor VII and its activated form (factor VIIa), to produce a high-affinity complex  that proteolytically activates factors IX and X, leading to thrombin generation.",
         "LLM_bel_statements": [
             "p(HGNC:F3) hasComponent p(HGNC:F7)",
-            "complex(p(HGNC:F3), p(HGNC:F7)) increases act(p(HGNC:F9))",
-            "complex(p(HGNC:F3), p(HGNC:F7)) increases act(p(HGNC:F10))"
+            "complex(p(HGNC:F3), p(HGNC:F7)) increases p(HGNC:F9)",
+            "complex(p(HGNC:F3), p(HGNC:F7)) increases p(HGNC:F10)",
+            "p(HGNC:F3) increases bp(GOBP:\"blood coagulation\")"
         ],
         "Small_Corpus_bel_statements": [
             "pep(complex(p(HGNC:F3),p(HGNC:F7))) directlyIncreases pep(p(HGNC:F9))",

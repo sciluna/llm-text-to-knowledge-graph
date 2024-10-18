@@ -182,10 +182,7 @@ def combine_llm_and_indra_results(llm_filepath, indra_filepath):
 
 
 # Combine LLM and small corpus extractions
-def combine_llm_and_bel_extractions(llm_file, small_corpus_file):
-    llm_extractions = load_json_data(llm_file)
-    small_corpus_extractions = load_json_data(small_corpus_file)
-
+def combine_llm_and_bel_extractions(llm_extractions, small_corpus_extractions):
     # Initialize the combined output dictionary
     combined_results = {}
 
