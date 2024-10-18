@@ -114,14 +114,4 @@ def process_bel_file(file_path):
         return
     else:
         print(f"Cleaned BEL data processed successfully with {len(cleaned_bel_data)} entries.")
-
-    # Save the modified sentences and cleaned data directly into JSON files
-    save_to_json(modified_sentences, 'sentences_only.json')  
-    save_to_json(cleaned_bel_data, 'sentences_with_bel_interactions.json')
-
-    print("Extraction complete! Files 'sentences_only.json' and 'sentences_with_bel_interactions.json' saved.")
-
-
-# Example usage
-bel_file_path = 'papers/pmid1292803.bel'
-process_bel_file(bel_file_path)
+    return modified_sentences, cleaned_bel_data
