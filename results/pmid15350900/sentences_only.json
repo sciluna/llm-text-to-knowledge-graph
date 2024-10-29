@@ -1,0 +1,80 @@
+{
+    "1": {
+        "text": "For example, the inactivation of VHL has been demonstrated in 70\u201380% of all sporadic clear cell RCC, the major form of RCC, which accounts for ~2% of all cancer deaths worldwide ."
+    },
+    "2": {
+        "text": "The best-established function of pVHL to date has been as a substrate recognition component of an E3 ubiquitinprotein ligase complex, comprising pVHL, Elongin C, Elongin B, Cullin 2 and the RING finger protein, Rbx1, and this is referred to as the VCB\u2013Cul2 complex ."
+    },
+    "3": {
+        "text": "In this setting, pVHL targets the \u03b1-subunits of hypoxiainducible factor (HIF) for ubiquitin-mediated proteolysis under normal oxygen conditions ."
+    },
+    "4": {
+        "text": "The stabilization of HIF in response to hypoxia involves the inactivation of prolylhydroxylases that modify HIF at specific proline residues in an oxygendependent manner. Proline hydroxylation marks HIF for degradation by the VCB\u2013Cul2 E3 ligase complex (Figure 3 and Box 1)."
+    },
+    "5": {
+        "text": "The VHL-mediated proteolytic degradation of HIF suppresses a transcription programme that is normally engaged by HIF as part of the adaptive response of the cell to hypoxia, such as the activation of vascular endothelial growth factor (VEGF), which is a potent angiogenic factor that is involved in the formation and differentiation of blood vessels."
+    },
+    "6": {
+        "text": "Transcriptional control is also maintained by a specific acetylation (Ac) event at lysine 532 and an additional asparagine hydroxylation (OH) event at position 863, both of which act as negative regulators of the transcriptional activity of HIF."
+    },
+    "7": {
+        "text": "The inhibition of HIF-2\u03b1 expression by siRNA inhibits the growth of VHL-negative tumours . Furthermore, the re-introduction of a degradation-resistant mutant of HIF-2\u03b1 into RCC cells ectopically expressing pVHL abolishes the ability of VHL to suppress the growth of these cell lines ."
+    },
+    "8": {
+        "text": "Hydroxylation at two proline residues on the HIF polypeptide mediates interactions between the b-domain of the von Hippel\u2013Lindau protein (pVHL) and HIF . Each site can interact independently with pVHL, potentially contributing to the extremely rapid proteolysis of HIF-a that is observed under normoxic conditions. These sites contain a conserved LxxLAP motif and are targeted by proline hydroxylases (PHD) that, in mammalian cells, are provided by three isoforms termed PHD 1\u20133 ."
+    },
+    "9": {
+        "text": "In a second hydroxylation-dependent control, b-hydroxylation of an asparaginyl residue in the C-terminal activation domain of HIF-a (N803 in human HIF-1a) is regulated by a HIF asparaginyl hydroxylase called FIH (factor inhibiting HIF) . Hydroxylation at this site prevents the binding of the transcriptional co-activators p300/CBP (CREB binding protein). Under normoxic conditions, these hydroxylation reactions provide a dual mechanism for HIF inactivation that involves proteolytic destruction and the inhibition of transcriptional activity ."
+    },
+    "10": {
+        "text": "These hydroxylases are all Fe(II)- and 2-oxoglutarate-dependent dioxygenases that require molecular oxygen. Therefore, HIFa becomes stabilized under hypoxic conditions in which oxygen availability is low."
+    },
+    "11": {
+        "text": "Furthermore, an acetyltransferase, ARD1, acetylates K532, a residue previously shown to result in HIFa stability, thereby negatively regulating it . Jab1, a transcriptional co-activator, has been shown to positively regulate HIFa ."
+    },
+    "12": {
+        "text": "RCC cells lacking functional pVHL overexpress various growth factors, including platelet-derived growth factor b (PDGFb), VEGF and transforming growth factor (TGF)-a . The latter is a bona fide renal-cell mitogen that activates the Ras\u2013Raf\u2013MAP kinase signalling cascade through its cognate epidermal growth factor (EGF) cell-surface receptor ."
+    },
+    "13": {
+        "text": "The overproduction of TGF-a in RCC cells is, at least in part, HIF-dependent and a major contributory event that confers a growth advantage to these cells ."
+    },
+    "14": {
+        "text": "tumour necrosis factor (TNF)-a has been shown to promote HIF-1a accumulation, and this might involve a VHL-dependent step ."
+    },
+    "15": {
+        "text": "In particular, it has been reported that RCC cells can be sensitized to TNF-a-induced cytotoxicity by re-introducing wild-type VHL . The authors highlight the fact that TNFreceptor engagement by TNF-a triggers the activation of atypical protein kinase C (aPKC), which, through IKKb phosphorylation, liberates NFkB, thereby initiating the transcription of genes that are involved in apoptosis"
+    },
+    "16": {
+        "text": "pVHL has been shown to bind directly to various aPKC isoforms and to target aPKCl for ubiquitin-mediated degradation ."
+    },
+    "17": {
+        "text": "pVHL has also been implicated in tumour invasion and metastasis, which represent complex multi-step processes that require the proteolytic degradation of the basement membrane and tissue matrix, changes in cell polarity and motility, and the attachment and detachment of cells to and from the extracellular matrix (ECM) ."
+    },
+    "18": {
+        "text": "Nevertheless, the restored ability of pVHL-positive transfectants to assemble extracellular fibronectin was mediated by b1 integrins, implying that pVHL controls ECM assembly, at least in part, through integrin signalling . A recent development has demonstrated that an ubiquitin-like molecule, NEDD8, covalently modifies pVHL and that a neddylation- defective pVHL mutant, despite retaining its ability to degrade HIF, fails to promote the assembly of a fibronectin matrix ."
+    },
+    "19": {
+        "text": "The regulation of insulin growth factor (IGF)-I-mediated cell invasion of RCC cells appears to be dependent upon PKCd inhibition by pVHL. This inhibition is mediated through a protein\u2013protein interaction involving a domain of pVHL that shows similarity to protein kinase inhibitor (PKI), a natural inhibitor of cAMP-dependent protein kinase (PKA)"
+    },
+    "20": {
+        "text": "In contrast to protein-binding inhibition, evidence has shown that pVHL binds to both atypical PKC isoforms (l and z) through its b-domain, and in the case of activated aPKCl, mediates its turnover as part of the E3-ligase function of pVHL . Although the functional significance of this inhibition remains elusive, given the central role for atypical PKCs (especially aPKCz) in establishing cell polarity in conjunction with PAR6 and the GTPase CDC42 , one could envisage a scenario whereby the loss of pVHL leads to altered cell polarity and, by extension, aberrant cell migration."
+    },
+    "21": {
+        "text": "Consistent with this, pVHL30 has been shown to co-localize with the microtubule network in vivo and to promote microtubule stabilization . Because microtubule dynamics have been intimately linked to the process of directed cell migration ,"
+    },
+    "22": {
+        "text": "This same study demonstrated that the loss of VHL function negatively regulates tissue inhibitor of metalloproteinase 2 (TIMP-2), resulting in the upregulation of matrix metalloproteinase 2 (MMP2) and MMP9, thereby implicating pVHL in the control of these molecules."
+    },
+    "23": {
+        "text": "Importantly, it has been demonstrated that hypoxia promotes tumour cell invasion by inducing the expression of the Met receptor . This establishes a mechanism whereby transformed cells can be spurred to exit a hypoxic microenvironment and invade the surrounding tissues, which provide more favourable growth conditions. Because HIF-1a is involved in Met gene expression, the constitutive activation of HIF-1a as a consequence of pVHL deregulation provides a mechanism explaining the observation that the expression of HGF and Met receptor is associated with genetic alterations of VHL in primary RCC."
+    },
+    "24": {
+        "text": "The gene encoding the chemokine receptor CXCR4 has been discovered as a novel HIF target based on a microarray comparison of genetic profiles derived from VHL-null RCC cells and their isogenic wild-type VHLexpressing counterparts ."
+    },
+    "25": {
+        "text": "The fact that CXCR4 is a hypoxia-inducible gene provided a potential mechanistic explanation for CXCR4 upregulation during tumour cell evolution. CXCR4- induced cell-surface expression due to the loss of VHL function confers enhanced migratory potential to RCC cells in response to its cognate ligand stromal-derived factor 1 (SDF1)."
+    },
+    "26": {
+        "text": "Figure 4. The role of hypoxia-inducible factor (HIF) in conferring tumour growth potential. In solid tumours, HIFa is stabilised under conditions of low oxygen due to a lack of vascularisation and the subsequent evolution of a hypoxic microenvironment. In a VHL-null tumour, HIFa is constitutively active, and can initiate genetic programmes within the entire population of cells that would normally be activated only under hypoxic conditions."
+    }
+}

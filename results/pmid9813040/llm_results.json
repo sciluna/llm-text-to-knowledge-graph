@@ -1,0 +1,175 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": 1,
+            "text": "Like progesterone receptors (PR), Stat5a and 5b are required for normal mammary gland growth and differentiation. These two proteins are up-regulated during pregnancy, a period dominated by high levels of progesterone.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:STAT5A) increases bp(GOBP:\"mammary gland development\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:STAT5B) increases bp(GOBP:\"mammary gland development\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:progesterone) increases p(HGNC:STAT5A)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:progesterone) increases p(HGNC:STAT5B)"
+                }
+            ]
+        },
+        {
+            "Index": 2,
+            "text": "In addition, progestin treatment induces translocation of Stat5 into the nucleus, possibly mediated by the association of PR and Stat5. Last, progesterone pretreatment enhances the phosphorylation of Stat5 on tyrosine 694 induced by epidermal growth factor.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:Progestins) increases tloc(p(HGNC:STAT5A), GOCC:\"nucleus\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:Progesterone) increases pmod(p(HGNC:STAT5A), pmod(P, Tyr, 694))"
+                }
+            ]
+        },
+        {
+            "Index": 3,
+            "text": "Functional data show that progestin pretreatment of breast cancer cells enhances the ability of prolactin to stimulate the transcriptional activity of Stat5 on a \u03b2-casein promoter. Progesterone and epidermal growth factor synergize to control transcription from p21WAF1 and c-fos promoters.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:Progestins) increases act(p(HGNC:PRL), ma(GO:\"transcription factor activity\"))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:Progestins) increases act(p(HGNC:STAT5A), ma(GO:\"transcription factor activity\"))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:Progesterone) positiveCorrelation a(HGNC:EGF)"
+                }
+            ]
+        },
+        {
+            "Index": 4,
+            "text": "Stat5 protein levels were elevated by 8 h and remained elevated until 72 h after R5020 treatment with increases of 4\u20137-fold (Fig. 1A). To test the PR dependence of this effect, the experiment was repeated using PR-negative T47D-Y cells (28) (Fig. 1B). In the absence of PR, R5020 did not up-regulate Stat5.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:R5020) increases p(HGNC:STAT5A)"
+                }
+            ]
+        },
+        {
+            "Index": 5,
+            "text": "This study shows that both the longer (95 kDa) Stat5a and the shorter (92 kDa) Stat5b isoform are up-regulated by progestin treatment.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"progestin\") increases p(HGNC:STAT5A)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"progestin\") increases p(HGNC:STAT5B)"
+                }
+            ]
+        },
+        {
+            "Index": 6,
+            "text": "Similar studies using anti-Stat3 (Fig. 2B) and anti-Stat1 (Fig. 2C) antibodies show that these STAT family members are also progestin regulated. While Stat3 is clearly up-regulated by progestin treatment, Stat1 is slightly down-regulated.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:progestin) increases p(HGNC:STAT3)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:progestin) decreases p(HGNC:STAT1)"
+                }
+            ]
+        },
+        {
+            "Index": 7,
+            "text": "Northern blot analysis demonstrates hormone-dependent induction of Stat5a message at 12 and 24 h following progestin treatment (Fig. 3).",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"progestin\") increases r(HGNC:STAT5A)"
+                }
+            ]
+        },
+        {
+            "Index": 8,
+            "text": "In contrast, the same Northern blot hybridized with cDNA for two genes known to be PR regulated, fatty acid synthetase (30,38) or cyclin D1 (18,39), shows equal induction of these genes by the two PR isoforms.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:FASN) positiveCorrelation p(HGNC:PGR)"
+                }
+            ]
+        },
+        {
+            "Index": 9,
+            "text": "T47Dco cells were treated for 24 h with 10 nm R5020 or vehicle, then with 10 nm EGF or vehicle for 5 min. Nuclear and cytosolic extracts were prepared and equal amounts of protein were probed with antibody recognizing total Stat5 (Fig. 4A). In untreated cells, Stat5 was exclusively cytoplasmic (lane 1); no Stat5 was found in the nucleus (lane 2). As expected, EGF treatment promoted nuclear translocation of a portion of Stat5 (lanes 5 and 6). Surprisingly, R5020 not only increased total Stat5 levels (lanes 3  and 4; 7and 8), but also promoted extensive nuclear translocation of Stat5 (compare lanes 2 and 4) independent of EGF treatment.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:R5020) increases p(HGNC:STAT5A)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:R5020) increases tloc(p(HGNC:STAT5A), GOCC:cytoplasm, GOCC:nucleus)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:EGF) increases tloc(p(HGNC:STAT5A), GOCC:cytoplasm, GOCC:nucleus)"
+                }
+            ]
+        },
+        {
+            "Index": 10,
+            "text": "These reciprocal studies show that PR and Stat5 are associated, either directly or in a multiprotein complex.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:PGR) association p(HGNC:STAT5A)"
+                }
+            ]
+        },
+        {
+            "Index": 11,
+            "text": "In the absence of R5020 pretreatment, JAK2 is immunoprecipitated with the anti-phosphotyrosine antibody only following EGF treatment (lane 2). Note that JAK2 is not present in phosphotyrosine immunoprecipitates after 1 h of R5020 treatment (lane 1). However, JAK2 is immunoprecipitated with the anti-phosphotyrosine antibody as efficiently after 48 h of R5020 treatment (lane 4) as with EGF treatment (lane 5).",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:EGF) increases p(HGNC:JAK2)"
+                }
+            ]
+        },
+        {
+            "Index": 12,
+            "text": "However, Stat5 remained unphosphorylated (P-Stat5, lanes 1\u20135), except in the cells that were pretreated with R5020 for 48 h, prior to the 10-min prolactin treatment (P-Stat5, lane 6). Prolactin alone had no effect (lane 3) nor did transient (1 h) or chronic (48 h) R5020 treatment (lane 2). Thus, in T47Dco cells, Stat5 phosphorylation by prolactin requires progesterone pretreatment.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:Prolactin) increases p(HGNC:STAT5A, pmod(Ph))"
+                }
+            ]
+        },
+        {
+            "Index": 13,
+            "text": "The \u03b2-casein promoter, known to be induced by Stat5 when activated by prolactin via prolactin receptors and JAK2, was next used to test the function of the phosphorylated Stat5. T47D-YB cells were pretreated with either R5020 or ethanol vehicle for 48 h. Cells were then washed, transfected with a \u03b2-casein promoter-luciferase reporter, treated with either R5020 or prolactin, and harvested for luciferase assay 24 h after hormone treatment. We found that in T47D-YB breast cancer cells, prolactin alone has minimal to no significant effect on the \u03b2-casein luciferase promoter. However, after R5020 pretreatment, a 6\u20137-fold induction of the \u03b2-casein luciferase promoter was observed (Fig.7B). Thus R5020 sensitized these breast cancer cells to the transcriptional effects of prolactin mediated through Stat5.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:STAT5A) increases r(HGNC:CSN2)"
+                }
+            ]
+        },
+        {
+            "Index": 14,
+            "text": "Fig. 8A shows that the p21WAF1 promoter is induced 4.5-fold by progesterone, 2.4-fold by EGF, and 13.2-fold by both hormones together. The average increase in five experiments was progesterone, 3.5-fold; EGF, 2.2-fold; both hormones, 11-fold. Fig. 8B demonstrates the corresponding increases in endogenous p21 levels when T47D-YB cells are treated for 24 h with ethanol, progesterone, EGF, or both hormones. Whole cell lysates were probed by immunoblotting with antibody to p21.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:Progesterone) increases r(HGNC:CDKN1A)"
+                },
+                {
+                    "bel_statement": "p(HGNC:EGF) increases r(HGNC:CDKN1A)"
+                },
+                {
+                    "bel_statement": "compositeAbundance(a(CHEBI:Progesterone), p(HGNC:EGF)) increases r(HGNC:CDKN1A)"
+                }
+            ]
+        },
+        {
+            "Index": 15,
+            "text": "Fig. 8C shows that the c-fos promoter is induced 19.3-fold by R5020 and 6.2-fold by EGF. Remarkably, together the two hormones produced a 145-fold increase in luciferase activity.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:R5020) increases r(HGNC:FOS)"
+                }
+            ]
+        }
+    ]
+}

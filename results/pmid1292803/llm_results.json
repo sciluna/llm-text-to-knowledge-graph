@@ -12,15 +12,6 @@
                 },
                 {
                     "bel_statement": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA oxidation\")"
-                },
-                {
-                    "bel_statement": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid nitration\")"
-                },
-                {
-                    "bel_statement": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein nitration\")"
-                },
-                {
-                    "bel_statement": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA nitration\")"
                 }
             ]
         },
@@ -74,7 +65,7 @@
             "text": "Aging, one of the major predictors for atherosclerotic lesion formation, increases the sensitivity of endothelial cells to apoptosis induced by in vitro and in vivo stimuli .",
             "Results": [
                 {
-                    "bel_statement": "bp(GOBP:Aging) increases bp(GOBP:\"endothelial cell apoptotic process\")"
+                    "bel_statement": "bp(GOBP:Aging) increases bp(GOBP:\"apoptotic process\")"
                 }
             ]
         },
@@ -83,10 +74,10 @@
             "text": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury .",
             "Results": [
                 {
-                    "bel_statement": "bp(GOBP:\"shear stress\") increases g(HGNC:NOS3)"
+                    "bel_statement": "bp(GOBP:\"response to shear stress\") increases g(HGNC:NOS3)"
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"shear stress\") increases ma(a(CHEBI:\"nitric oxide\"))"
+                    "bel_statement": "bp(GOBP:\"response to shear stress\") increases ma(a(CHEBI:\"nitric oxide\"))"
                 },
                 {
                     "bel_statement": "a(CHEBI:\"nitric oxide\") decreases bp(GOBP:\"apoptotic process\")"
@@ -138,9 +129,6 @@
             "Results": [
                 {
                     "bel_statement": "p(HGNC:CAT) decreases bp(GOBP:\"apoptotic process\")"
-                },
-                {
-                    "bel_statement": "a(CHEBI:\"hydrogen peroxide\") increases bp(GOBP:\"apoptotic process\")"
                 }
             ]
         },
@@ -164,13 +152,10 @@
                     "bel_statement": "p(HGNC:F3) hasComponent p(HGNC:F7)"
                 },
                 {
-                    "bel_statement": "complex(p(HGNC:F3), p(HGNC:F7)) increases p(HGNC:F9)"
+                    "bel_statement": "complex(p(HGNC:F3), p(HGNC:F7)) increases act(p(HGNC:F9))"
                 },
                 {
-                    "bel_statement": "complex(p(HGNC:F3), p(HGNC:F7)) increases p(HGNC:F10)"
-                },
-                {
-                    "bel_statement": "p(HGNC:F3) increases bp(GOBP:\"blood coagulation\")"
+                    "bel_statement": "complex(p(HGNC:F3), p(HGNC:F7)) increases act(p(HGNC:F10))"
                 }
             ]
         },

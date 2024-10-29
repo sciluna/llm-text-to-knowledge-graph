@@ -1,0 +1,141 @@
+{
+    "1": {
+        "text": "Phosphorylation at Ser473, along with Thr308 of its activation loop, is deemed necessary for Akt function, although the regulatory mechanisms and physiological importance of each phosphorylation site remain to be fully understood.",
+        "LLM_bel_statements": [
+            "p(HGNC:AKT1, pmod(Ph, Ser473)) hasActivity ma(GO:\"protein kinase activity\")",
+            "p(HGNC:AKT1, pmod(Ph, Thr308)) hasActivity ma(GO:\"protein kinase activity\")"
+        ],
+        "Small_Corpus_bel_statements": [
+            "SET Citation = {\"PubMed\",\"Cell\",\"16962653\",\"2006-10-07\",\"Jacinto E|Facchinetti V|Liu D|Soto N|Wei S|Jung SY|Huang Q|Qin J|Su B\",\"\"}",
+            "SET Species = 9606",
+            "p(HGNC:AKT1,pmod(P,T,308)) directlyIncreases kin(p(HGNC:AKT1))",
+            "p(HGNC:AKT1,pmod(P,S,473)) directlyIncreases kin(p(HGNC:AKT1))"
+        ]
+    },
+    "2": {
+        "text": "Genetic ablation of sin1 abolished Akt-Ser473 phosphorylation and disrupted rictor-mTOR interaction but maintained Thr308 phosphorylation.",
+        "LLM_bel_statements": [
+            "g(HGNC:MAPKAP1) decreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+            "g(HGNC:MAPKAP1) decreases complex(p(HGNC:RICTOR), p(HGNC:MTOR))"
+        ],
+        "Small_Corpus_bel_statements": [
+            "p(HGNC:MAPKAP1) increases p(HGNC:AKT1,pmod(P,S,473)) //sin1 = MAPKAP1",
+            "SET Cell = fibroblast",
+            "SET TextLocation = Results"
+        ]
+    },
+    "3": {
+        "text": "We next examined the Akt T-loop Thr308 phosphorylation in wild-type and SIN1\u2212/\u2212 cells. We found that although Ser473 phosphorylation was completely abolished in the SIN1\u2212/\u2212 cells, Thr308 phosphorylation of Akt was not blocked (Figure 3A).",
+        "LLM_bel_statements": [
+            "p(HGNC:AKT1, pmod(Ph, Ser, 473)) decreases p(HGNC:AKT1, pmod(Ph, Thr, 308))"
+        ],
+        "Small_Corpus_bel_statements": [
+            "SET Species = 10090",
+            "p(MGI:Mapkap1) increases p(MGI:Akt1,pmod(P,S,473))",
+            "p(MGI:Mapkap1) causesNoChange p(MGI:Akt1,pmod(P,S,308))"
+        ]
+    },
+    "4": {
+        "text": "We also examined phosphorylation of TSC2, another Akt target (Manning et al., 2002), at the Akt target sites Ser939 and Thr1462 and found no significant difference between wild-type and SIN1\u2212/\u2212 cells upon serum and insulin stimulation (Figure 3C).",
+        "LLM_bel_statements": [
+            "p(HGNC:AKT1) directlyIncreases p(HGNC:TSC2, pmod(Ph, Ser939))",
+            "p(HGNC:AKT1) directlyIncreases p(HGNC:TSC2, pmod(Ph, Thr1462))"
+        ],
+        "Small_Corpus_bel_statements": [
+            "kin(p(MGI:Akt1)) directlyIncreases p(MGI:Tsc2,pmod(P,S,939))",
+            "kin(p(MGI:Akt1)) directlyIncreases p(MGI:Tsc2,pmod(P,T,1462)) //Human T1462 = Mouse T1465"
+        ]
+    },
+    "5": {
+        "text": "To identify a function that could be linked specifically to Akt-Ser473 phosphorylation, we further examined known Akt substrates that may have defective phosphorylation in SIN1\u2212/\u2212 cells. We found that phosphorylation of FoxO1/3a (also called FKHR/FKHRL1) (Greer and Brunet, 2005), was affected in SIN1\u2212/\u2212 cells. In particular, phosphorylation of FoxO1/3a at Thr24/Thr32 was significantly decreased in the absence of SIN1 under normal growing and restimulated conditions (Figure 4A).",
+        "LLM_bel_statements": [
+            "p(HGNC:AKT1, pmod(Ph, Ser, 473)) directlyIncreases p(HGNC:FOXO1, pmod(Ph, Thr, 24))",
+            "p(HGNC:AKT1, pmod(Ph, Ser, 473)) directlyIncreases p(HGNC:FOXO3, pmod(Ph, Thr, 32))",
+            "p(HGNC:MAPKAP1) decreases p(HGNC:FOXO1, pmod(Ph, Thr, 24))",
+            "p(HGNC:MAPKAP1) decreases p(HGNC:FOXO3, pmod(Ph, Thr, 32))"
+        ],
+        "Small_Corpus_bel_statements": [
+            "p(MGI:Mapkap1) increases p(MGI:Foxo1,pmod(P,T,24))",
+            "p(MGI:Mapkap1) increases p(MGI:Foxo3,pmod(P,T,32))",
+            "kin(p(MGI:Akt1)) directlyIncreases p(MGI:Foxo1,pmod(P,T,24))",
+            "kin(p(MGI:Akt1)) directlyIncreases p(MGI:Foxo3,pmod(P,T,32))"
+        ]
+    },
+    "6": {
+        "text": "We also found that the recombinant FoxO1 could not be phosphorylated at Thr24/32 in vitro by an Akt mutant harboring an alanine mutation in either Thr308 or Ser473, whereas a Ser473 to Ala mutated Akt could still phosphorylate recombinant GSK3 (Figure S2). These results indicate that Akt-Ser473 phosphorylation is required for FoxO1/3a phosphorylation at Thr24/32.",
+        "LLM_bel_statements": [
+            "p(HGNC:AKT1, pmod(Ph, Ser473)) directlyIncreases p(HGNC:FOXO1, pmod(Ph, Thr24))",
+            "p(HGNC:AKT1, pmod(Ph, Ser473)) directlyIncreases p(HGNC:FOXO3, pmod(Ph, Thr32))"
+        ],
+        "Small_Corpus_bel_statements": [
+            "p(MGI:Akt1,pmod(P,S,473)) directlyIncreases p(MGI:Foxo1,pmod(P,T,24))",
+            "p(MGI:Akt1,pmod(P,S,473)) directlyIncreases p(MGI:Foxo3,pmod(P,T,32))",
+            "kin(p(MGI:Akt1)) directlyIncreases p(MGI:Foxo1,pmod(P,T,24))",
+            "kin(p(MGI:Akt1)) directlyIncreases p(MGI:Foxo3,pmod(P,T,32))",
+            "p(MGI:Akt1,pmod(P,S,473)) directlyIncreases kin(p(MGI:Akt1))"
+        ]
+    },
+    "7": {
+        "text": "In etoposide-treated cells, there was a 2-fold increase in the number of cells that underwent apoptosis after 48 hr in SIN1 knockouts (Figure\u00a04D). Thus, we find that the SIN1\u2212/\u2212 cells were more sensitive to stress-induced apoptosis, suggesting that Akt-Ser473 phosphorylation plays an important role in cell survival (Figures 4C and 4D).",
+        "LLM_bel_statements": [
+            "bp(GOBP:\"apoptotic process\") increases bp(GOBP:\"response to stress\")",
+            "p(HGNC:AKT1, pmod(Ph, Ser, 473)) increases bp(GOBP:\"cell survival\")"
+        ],
+        "Small_Corpus_bel_statements": [
+            "p(MGI:Mapkap1) decreases bp(GOBP:\"apoptotic process\")"
+        ]
+    },
+    "8": {
+        "text": "The phosphorylation of S6K at Thr389, which is the TORC1-mediated site, was not inhibited in the SIN1-/- cells (Figure 5A).",
+        "LLM_bel_statements": [
+            "p(HGNC:RPS6KB1, pmod(Ph, Thr, 389)) cnc complex(p(HGNC:MTOR), p(HGNC:MLST8), p(HGNC:RPTOR))"
+        ],
+        "Small_Corpus_bel_statements": [
+            "kin(complex(SCOMP:\"TORC1 Complex\")) directlyIncreases p(MGI:Rps6kb1,pmod(P,T,412))"
+        ]
+    },
+    "9": {
+        "text": "Likewise, phosphorylation of another translational regulator, 4E-BP1, at the mTOR target site Thr37/46 (Gingras et al., 1999), was also not impaired in SIN1\u2212/\u2212 cells (Figure 5A).",
+        "LLM_bel_statements": [
+            "p(HGNC:EIF4EBP1, pmod(Ph, Thr, 37_46)) causesNoChange p(HGNC:MAPKAP1)"
+        ],
+        "Small_Corpus_bel_statements": [
+            "kin(complex(SCOMP:\"TORC2 Complex\")) directlyIncreases p(MGI:Eif4ebp1,pmod(P,T,36))",
+            "kin(complex(SCOMP:\"TORC2 Complex\")) directlyIncreases p(MGI:Eif4ebp1,pmod(P,T,45))",
+            "kin(p(MGI:Mtor)) directlyIncreases p(MGI:Eif4ebp1,pmod(P,T,36))",
+            "kin(p(MGI:Mtor)) directlyIncreases p(MGI:Eif4ebp1,pmod(P,T,45))"
+        ]
+    },
+    "10": {
+        "text": "Akt Ser473 was strongly induced in wild-type cells by different growth factors such as the platelet-derived growth factor, epidermal growth factor, and insulin, even in the absence of amino acids and glucose (Figure 5B). In SIN1\u2212/\u2212 cells, Akt-Ser473 phosphorylation was not induced by any type of stimulus.",
+        "LLM_bel_statements": [
+            "p(HGNC:AKT1, pmod(Ph, Ser473)) increases p(HGNC:PDGFB)",
+            "p(HGNC:AKT1, pmod(Ph, Ser473)) increases p(HGNC:EGF)",
+            "p(HGNC:AKT1, pmod(Ph, Ser473)) increases a(CHEBI:insulin)"
+        ],
+        "Small_Corpus_bel_statements": [
+            "p(MGI:Mapkap1) increases p(MGI:Akt1,pmod(P,S,473))",
+            "p(SFAM:\"PDGF Family\") increases p(MGI:Akt1,pmod(P,S,473))",
+            "p(MGI:Egf) increases p(MGI:Akt1,pmod(P,S,473))",
+            "p(SFAM:\"INS Family\") increases p(MGI:Akt1,pmod(P,S,473))"
+        ]
+    },
+    "11": {
+        "text": "As shown in Figures 5E and 5F, SIN1 was able to associate with Akt under normal growth, starvation, or restimulated conditions. Although SIN1 and Akt interacted under starved condition, the SIN1 bound Akt was not phosphorylated on Ser473 (Figure 5E).",
+        "LLM_bel_statements": [
+            "p(HGNC:MAPKAP1) association p(HGNC:AKT1)"
+        ],
+        "Small_Corpus_bel_statements": [
+            "complex(p(MGI:Akt1),p(MGI:Mapkap1))"
+        ]
+    },
+    "12": {
+        "text": "Akt has been well characterized as a prosurvival molecule, and part of this function is mediated through its suppression of the activity of the FoxO proteins (Greer and Brunet, 2005).",
+        "LLM_bel_statements": [
+            "p(HGNC:AKT1) decreases act(p(HGNC:FOXO3))"
+        ],
+        "Small_Corpus_bel_statements": [
+            "kin(p(MGI:Akt1)) directlyDecreases tscript(p(SFAM:\"FOXO Family\"))"
+        ]
+    }
+}

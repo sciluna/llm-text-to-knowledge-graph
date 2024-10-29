@@ -1,0 +1,267 @@
+SET STATEMENT_GROUP = "Group 3"
+
+SET TextLocation = Review
+SET Evidence = "For example, the inactivation of VHL has been demonstrated in 70–80% of all sporadic
+clear cell RCC, the major form of RCC, which accounts for ~2% of all cancer
+deaths worldwide [8]."
+SET Citation = {"PubMed","Trends in molecular medicine","15350900","","Barry RE|Krek W",""}
+SET Species = 9606
+
+p(HGNC:VHL) negativeCorrelation path(MESHD:"Carcinoma, Renal Cell") //curating to protein, since inactivation of gene may be via mutation, deletion, or hypermethylation and will affect protein levels
+
+SET Evidence = "The best-established function of pVHL to date has been as a substrate recognition
+component of an E3 ubiquitinprotein ligase complex, comprising pVHL, Elongin C,
+Elongin B, Cullin 2 and the RING finger protein, Rbx1, and this is referred to
+as the VCB–Cul2 complex [17]."
+
+complex(p(HGNC:VHL),p(HGNC:TCEB1),p(HGNC:TCEB2),p(HGNC:CUL2),p(HGNC:RBX1))
+
+SET Evidence = "In this setting, pVHL targets the α-subunits of hypoxiainducible factor (HIF) for
+ubiquitin-mediated proteolysis under normal oxygen conditions [18]."
+
+act(p(HGNC:VHL)) directlyIncreases deg(p(HGNC:HIF1A))
+act(p(HGNC:VHL)) directlyIncreases deg(p(HGNC:EPAS1))
+act(p(HGNC:VHL)) directlyIncreases deg(p(HGNC:HIF3A))
+
+SET Evidence = "The stabilization of HIF in response to hypoxia involves the inactivation of prolylhydroxylases
+that modify HIF at specific proline residues in an oxygendependent
+manner. Proline hydroxylation marks HIF for degradation by the VCB–Cul2 E3 ligase
+complex (Figure 3 and Box 1)."
+
+a(CHEBI:dioxygen) increases p(HGNC:HIF1A,pmod(H,P))
+p(HGNC:HIF1A,pmod(H,P)) directlyIncreases deg(p(HGNC:HIF1A))
+p(HGNC:HIF1A,pmod(P,H)) directlyIncreases (cat(complex(p(HGNC:VHL),p(HGNC:TCEB1),p(HGNC:TCEB2),p(HGNC:RBX1),p(HGNC:CUL2))) directlyIncreases deg(p(HGNC:HIF1A)))
+
+SET Evidence = "The VHL-mediated proteolytic degradation of HIF suppresses a transcription programme
+that is normally engaged by HIF as part of the adaptive response of the cell
+to hypoxia, such as the activation of vascular endothelial growth factor (VEGF),
+which is a potent angiogenic factor that is involved in the formation and differentiation
+of blood vessels."
+
+tscript(p(HGNC:HIF1A)) increases r(HGNC:VEGFA)
+bp(GOBP:"response to hypoxia") increases r(HGNC:VEGFA)
+p(HGNC:VEGFA) increases bp(GOBP:angiogenesis)
+
+SET TextLocation = Legend
+SET Evidence = "Transcriptional control is also maintained by a specific acetylation (Ac) event at
+lysine 532 and an additional asparagine hydroxylation (OH) event at position 863,
+both of which act as negative regulators of the transcriptional activity of
+HIF."
+
+p(HGNC:HIF1A,pmod(A,K,532)) directlyDecreases tscript(p(HGNC:HIF1A))
+p(HGNC:HIF1A,pmod(H,N,863)) directlyDecreases tscript(p(HGNC:HIF1A))
+
+SET Disease = cancer
+SET TextLocation = Review
+SET Evidence = "highly vascular phenotype of VHL-null tumours."
+
+p(HGNC:VHL) negativeCorrelation bp(GOBP:vasculogenesis)
+
+SET Disease = "Carcinoma, Renal Cell"
+SET Evidence = "The inhibition of HIF-2α expression by siRNA inhibits the growth of VHL-negative tumours
+[20]. Furthermore, the re-introduction of a degradation-resistant mutant
+of HIF-2α into RCC cells ectopically expressing pVHL abolishes the ability of VHL
+to suppress the growth of these cell lines [21]."
+
+p(HGNC:EPAS1) increases bp(GOBP:"cell growth") //HIF2-alpha = EPAS1
+
+SET TextLocation = Legend
+SET Evidence = "Hydroxylation at two proline residues on the HIF polypeptide mediates interactions
+between the b-domain of the von Hippel–Lindau protein (pVHL) and HIF [60]. Each
+site can interact independently with pVHL, potentially contributing to the extremely
+rapid proteolysis of HIF-a that is observed under normoxic conditions. These
+sites contain a conserved LxxLAP motif and are targeted by proline hydroxylases
+(PHD) that, in mammalian cells, are provided by three isoforms termed PHD 1–3
+[61]."
+
+p(HGNC:HIF1A,pmod(H,P)) directlyIncreases complex(p(HGNC:VHL),p(HGNC:HIF1A))
+cat(p(HGNC:EGLN1)) directlyIncreases p(HGNC:HIF1A,pmod(H,P)) //PHD1-3 = EGLN1 -3
+cat(p(HGNC:EGLN2)) directlyIncreases p(HGNC:HIF1A,pmod(H,P))
+cat(p(HGNC:EGLN3)) directlyIncreases p(HGNC:HIF1A,pmod(H,P))
+a(CHEBI:dioxygen) increases deg(p(HGNC:HIF1A))
+
+SET Evidence = "In a second hydroxylation-dependent control, b-hydroxylation of an asparaginyl residue
+in the C-terminal activation domain of HIF-a (N803 in human HIF-1a) is regulated
+by a HIF asparaginyl hydroxylase called FIH (factor inhibiting HIF) [62,63].
+Hydroxylation at this site prevents the binding of the transcriptional co-activators
+p300/CBP (CREB binding protein). Under normoxic conditions, these hydroxylation
+reactions provide a dual mechanism for HIF inactivation that involves proteolytic
+destruction and the inhibition of transcriptional activity [64]."
+
+p(HGNC:HIF1A,pmod(H,N,803)) directlyDecreases complex(p(HGNC:HIF1A),p(HGNC:CREBBP))
+p(HGNC:HIF1A,pmod(H,N,803)) directlyDecreases complex(p(HGNC:HIF1A),p(HGNC:EP300))
+cat(p(HGNC:HIF1AN)) directlyIncreases p(HGNC:HIF1A,pmod(H,N,803)) //FIH = HIF1AN
+complex(p(HGNC:HIF1A),p(HGNC:CREBBP)) directlyIncreases tscript(p(HGNC:HIF1A))
+complex(p(HGNC:HIF1A),p(HGNC:EP300)) directlyIncreases tscript(p(HGNC:HIF1A))
+
+SET Evidence = "These hydroxylases are all Fe(II)- and 2-oxoglutarate-dependent dioxygenases that
+require molecular oxygen. Therefore, HIFa becomes stabilized under hypoxic conditions
+in which oxygen availability is low."
+
+a(CHEBI:dioxygen) directlyIncreases cat(p(HGNC:EGLN1))
+a(CHEBI:dioxygen) directlyIncreases cat(p(HGNC:EGLN2))
+a(CHEBI:dioxygen) directlyIncreases cat(p(HGNC:EGLN3))
+a(CHEBI:dioxygen) directlyIncreases cat(p(HGNC:HIF1AN)) //FIH = HIF1AN
+a(CHEBI:"iron(2+)") directlyIncreases cat(p(HGNC:EGLN1))
+a(CHEBI:"iron(2+)") directlyIncreases cat(p(HGNC:EGLN2))
+a(CHEBI:"iron(2+)") directlyIncreases cat(p(HGNC:EGLN3))
+a(CHEBI:"iron(2+)") directlyIncreases cat(p(HGNC:HIF1AN))
+a(CHEBIID:16810) directlyIncreases cat(p(HGNC:EGLN1))
+a(CHEBIID:16810) directlyIncreases cat(p(HGNC:EGLN2))
+a(CHEBIID:16810) directlyIncreases cat(p(HGNC:EGLN3))
+a(CHEBIID:16810) directlyIncreases cat(p(HGNC:HIF1AN)) //FIH = HIF1AN
+bp(GOBP:"response to hypoxia") increases p(HGNC:HIF1A)
+
+SET Evidence = "Furthermore, an acetyltransferase, ARD1, acetylates K532, a residue previously shown
+to result in HIFa stability, thereby negatively regulating it [65]. Jab1, a
+transcriptional co-activator, has been shown to positively regulate HIFa [66]."
+
+cat(p(HGNC:NAA10)) directlyIncreases p(HGNC:HIF1A,pmod(A,K,532)) //AARD1 = NAA10
+cat(p(HGNC:NAA10)) directlyIncreases deg(p(HGNC:HIF1A))
+p(HGNC:HIF1A,pmod(A,K,532)) directlyIncreases deg(p(HGNC:HIF1A))
+tscript(p(HGNC:COPS5)) increases p(HGNC:HIF1A)
+
+SET TextLocation = Review
+SET Evidence = "RCC cells lacking functional pVHL overexpress various growth factors, including platelet-derived
+growth factor b (PDGFb), VEGF and transforming growth factor (TGF)-a
+[25]. The latter is a bona fide renal-cell mitogen that activates the Ras–Raf–MAP
+kinase signalling cascade through its cognate epidermal growth factor (EGF)
+cell-surface receptor [26]."
+
+p(HGNC:VHL) negativeCorrelation p(HGNC:PDGFB)
+p(HGNC:VHL) negativeCorrelation p(HGNC:VEGFA)
+p(HGNC:VHL) negativeCorrelation p(HGNC:TGFA)
+p(HGNC:TGFA) directlyIncreases kin(p(HGNC:EGFR))
+p(HGNC:TGFA) increases gtp(p(SFAM:"RAS Family"))
+kin(p(HGNC:EGFR)) increases gtp(p(SFAM:"RAS Family"))
+
+SET Evidence = "The overproduction of TGF-a in RCC cells is, at least in part, HIF-dependent and a
+major contributory event that confers a growth advantage to these cells [25,27]."
+
+tscript(p(HGNC:HIF1A)) increases p(HGNC:TGFA)
+p(HGNC:TGFA) increases bp(GOBP:"cell growth")
+
+SET Evidence = "tumour necrosis factor (TNF)-a has been shown to promote HIF-1a accumulation, and
+this might involve a VHL-dependent step [33,34]."
+
+p(HGNC:TNF) increases p(HGNC:HIF1A)
+
+SET Evidence = "In particular, it has been reported that RCC cells can be sensitized to TNF-a-induced
+cytotoxicity by re-introducing wild-type VHL [38]. The authors highlight the
+fact that TNFreceptor engagement by TNF-a triggers the activation of atypical
+protein kinase C (aPKC), which, through IKKb phosphorylation, liberates NFkB, thereby
+initiating the transcription of genes that are involved in apoptosis"
+
+p(HGNC:VHL) increases (p(HGNC:TNF) increases bp(GOBP:"cell death"))
+act(p(HGNC:TNFRSF1A)) increases kin(p(SFAM:"PRKC Family"))
+kin(p(SFAM:"PRKC Family")) directlyIncreases p(HGNC:IKBKB,pmod(P))
+p(HGNC:TNF) directlyIncreases act(p(HGNC:TNFRSF1A))
+p(HGNC:IKBKB,pmod(P)) increases tscript(complex(SCOMP:"Nfkb Complex"))
+
+SET Evidence = "pVHL has been shown to bind directly to various aPKC isoforms and to target aPKCl
+for ubiquitin-mediated degradation [39,40]."
+
+p(HGNC:VHL) directlyIncreases deg(p(HGNC:PRKCI)) //PKC lambda = PKC iota
+
+SET Disease = cancer
+SET Evidence = "pVHL has also been implicated in tumour invasion and metastasis, which represent complex
+multi-step processes that require the proteolytic degradation of the basement
+membrane and tissue matrix, changes in cell polarity and motility, and the
+attachment and detachment of cells to and from the extracellular matrix (ECM) [41]."
+
+p(HGNC:VHL) association path(MESHD:"Neoplasm Invasiveness")
+p(HGNC:VHL) association path(MESHD:"Neoplasm Metastasis")
+
+SET Evidence = "Nevertheless, the restored ability of pVHL-positive transfectants to assemble extracellular
+fibronectin was mediated by b1 integrins, implying that pVHL controls
+ECM assembly, at least in part, through integrin signalling [46]. A recent development
+has demonstrated that an ubiquitin-like molecule, NEDD8, covalently modifies
+pVHL and that a neddylation- defective pVHL mutant, despite retaining its ability
+to degrade HIF, fails to promote the assembly of a fibronectin matrix [47]."
+
+p(HGNC:VHL) increases bp(GOBP:"extracellular matrix assembly")
+p(HGNC:VHL) increases (bp(GOBP:"integrin-mediated signaling pathway") increases bp(GOBP:"extracellular matrix assembly"))
+
+SET Evidence = "The regulation of insulin growth factor (IGF)-I-mediated cell invasion of RCC cells
+appears to be dependent upon PKCd inhibition by pVHL. This inhibition is mediated
+through a protein–protein interaction involving a domain of pVHL that shows
+similarity to protein kinase inhibitor (PKI), a natural inhibitor of cAMP-dependent
+protein kinase (PKA) [48]"
+
+p(HGNC:VHL) directlyDecreases kin(p(HGNC:PRKCD))
+
+SET Disease = "Carcinoma, Renal Cell"
+
+p(HGNC:IGF1) increases path(MESHD:"Neoplasm Invasiveness")
+
+SET Evidence = "In contrast to protein-binding inhibition, evidence has shown that pVHL binds to both
+atypical PKC isoforms (l and z) through its b-domain, and in the case of activated
+aPKCl, mediates its turnover as part of the E3-ligase function of pVHL [39,40].
+Although the functional significance of this inhibition remains elusive,
+given the central role for atypical PKCs (especially aPKCz) in establishing cell
+polarity in conjunction with PAR6 and the GTPase CDC42 [49], one could envisage
+a scenario whereby the loss of pVHL leads to altered cell polarity and, by extension,
+aberrant cell migration."
+
+complex(p(HGNC:VHL),p(HGNC:PRKCZ))
+complex(p(HGNC:VHL),p(HGNC:PRKCI)) //PKC lambda = PKC iota (PRKCI)
+cat(p(HGNC:VHL)) directlyIncreases deg(p(HGNC:PRKCI))
+kin(p(HGNC:PRKCZ)) increases bp(GOBP:"establishment of cell polarity")
+
+SET Evidence = "Consistent with this, pVHL30 has been shown to co-localize with the microtubule network
+in vivo and to promote microtubule stabilization [12]. Because microtubule
+dynamics have been intimately linked to the process of directed cell migration
+[49],"
+
+p(HGNC:VHL) increases bp(GOBP:"negative regulation of microtubule depolymerization") //microtubule stabilization" synonym = "negative regulation of microtubule depolymerization
+
+SET Evidence = "This same study demonstrated that the loss of VHL function negatively regulates tissue
+inhibitor of metalloproteinase 2 (TIMP-2), resulting in the upregulation of
+matrix metalloproteinase 2 (MMP2) and MMP9, thereby implicating pVHL in the control
+of these molecules."
+
+p(HGNC:VHL) increases pep(p(HGNC:TIMP2))
+pep(p(HGNC:TIMP2)) decreases p(HGNC:MMP2)
+pep(p(HGNC:TIMP2)) decreases p(HGNC:MMP9)
+
+SET Evidence = "Importantly, it has been demonstrated that hypoxia promotes tumour cell invasion by
+inducing the expression of the Met receptor [54]. This establishes a mechanism
+whereby transformed cells can be spurred to exit a hypoxic microenvironment and
+invade the surrounding tissues, which provide more favourable growth conditions.
+Because HIF-1a is involved in Met gene expression, the constitutive activation
+of HIF-1a as a consequence of pVHL deregulation provides a mechanism explaining
+the observation that the expression of HGF and Met receptor is associated with
+genetic alterations of VHL in primary RCC."
+
+bp(GOBP:"response to hypoxia") increases r(HGNC:MET)
+tscript(p(HGNC:HIF1A)) increases r(HGNC:MET)
+g(HGNC:VHL) association r(HGNC:MET)
+g(HGNC:VHL) association r(HGNC:HGF)
+
+SET Evidence = "The gene encoding the chemokine receptor CXCR4 has been discovered as a novel HIF
+target based on a microarray comparison of genetic profiles derived from VHL-null
+RCC cells and their isogenic wild-type VHLexpressing counterparts [52]."
+
+p(HGNC:VHL) decreases r(HGNC:CXCR4)
+
+SET Evidence = "The fact that CXCR4 is a hypoxia-inducible gene provided a potential mechanistic explanation
+for CXCR4 upregulation during tumour cell evolution. CXCR4- induced
+cell-surface expression due to the loss of VHL function confers enhanced migratory
+potential to RCC cells in response to its cognate ligand stromal-derived factor
+1 (SDF1)."
+
+bp(GOBP:"response to hypoxia") increases r(HGNC:CXCR4)
+p(HGNC:VHL) decreases surf(p(HGNC:CXCR4))
+p(HGNC:CXCL12) directlyIncreases act(p(HGNC:CXCR4)) //SDF1 = CXCL12
+act(p(HGNC:CXCR4)) increases bp(GOBP:"cell migration")
+
+SET TextLocation = Legend
+SET Evidence = "Figure 4. The role of hypoxia-inducible factor (HIF) in conferring tumour growth potential.
+In solid tumours, HIFa is stabilised under conditions of low oxygen due
+to a lack of vascularisation and the subsequent evolution of a hypoxic microenvironment.
+In a VHL-null tumour, HIFa is constitutively active, and can initiate
+genetic programmes within the entire population of cells that would normally be
+activated only under hypoxic conditions."
+
+bp(GOBP:"response to hypoxia") decreases deg(p(HGNC:HIF1A))
+p(HGNC:VHL) decreases tscript(p(HGNC:HIF1A))

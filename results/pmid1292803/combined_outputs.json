@@ -4,10 +4,7 @@
         "LLM_bel_statements": [
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein oxidation\")",
-            "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA oxidation\")",
-            "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid nitration\")",
-            "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein nitration\")",
-            "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA nitration\")"
+            "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA oxidation\")"
         ],
         "Small_Corpus_bel_statements": [
             "SET Citation = {\"PubMed\",\"Trends in molecular medicine\",\"12928037\",\"\",\"de Nigris F|Lerman A|Ignarro LJ|Williams-Ignarro S|Sica V|Baker AH|Lerman LO|Geng YJ|Napoli C\",\"\"}",
@@ -62,7 +59,7 @@
     "6": {
         "text": "Aging, one of the major predictors for atherosclerotic lesion formation, increases the sensitivity of endothelial cells to apoptosis induced by in vitro and in vivo stimuli .",
         "LLM_bel_statements": [
-            "bp(GOBP:Aging) increases bp(GOBP:\"endothelial cell apoptotic process\")"
+            "bp(GOBP:Aging) increases bp(GOBP:\"apoptotic process\")"
         ],
         "Small_Corpus_bel_statements": [
             "bp(GOBP:aging) positiveCorrelation path(MESHD:\"Plaque, Atherosclerotic\")",
@@ -72,8 +69,8 @@
     "7": {
         "text": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury .",
         "LLM_bel_statements": [
-            "bp(GOBP:\"shear stress\") increases g(HGNC:NOS3)",
-            "bp(GOBP:\"shear stress\") increases ma(a(CHEBI:\"nitric oxide\"))",
+            "bp(GOBP:\"response to shear stress\") increases g(HGNC:NOS3)",
+            "bp(GOBP:\"response to shear stress\") increases ma(a(CHEBI:\"nitric oxide\"))",
             "a(CHEBI:\"nitric oxide\") decreases bp(GOBP:\"apoptotic process\")"
         ],
         "Small_Corpus_bel_statements": [
@@ -124,8 +121,7 @@
     "11": {
         "text": "In addition, another oxygen-radical scavenger enzyme, catalase, can prevent VSMC apoptosis triggered by hydrogen peroxide .",
         "LLM_bel_statements": [
-            "p(HGNC:CAT) decreases bp(GOBP:\"apoptotic process\")",
-            "a(CHEBI:\"hydrogen peroxide\") increases bp(GOBP:\"apoptotic process\")"
+            "p(HGNC:CAT) decreases bp(GOBP:\"apoptotic process\")"
         ],
         "Small_Corpus_bel_statements": [
             "a(CHEBI:\"hydrogen peroxide\") increases bp(GOBP:\"apoptotic process\")",
@@ -147,9 +143,8 @@
         "text": "Tissue factor (TF) is a 47 kDa transmembrane glycoprotein that initiates blood coagulation by binding coagulation factor VII and its activated form (factor VIIa), to produce a high-affinity complex  that proteolytically activates factors IX and X, leading to thrombin generation.",
         "LLM_bel_statements": [
             "p(HGNC:F3) hasComponent p(HGNC:F7)",
-            "complex(p(HGNC:F3), p(HGNC:F7)) increases p(HGNC:F9)",
-            "complex(p(HGNC:F3), p(HGNC:F7)) increases p(HGNC:F10)",
-            "p(HGNC:F3) increases bp(GOBP:\"blood coagulation\")"
+            "complex(p(HGNC:F3), p(HGNC:F7)) increases act(p(HGNC:F9))",
+            "complex(p(HGNC:F3), p(HGNC:F7)) increases act(p(HGNC:F10))"
         ],
         "Small_Corpus_bel_statements": [
             "pep(complex(p(HGNC:F3),p(HGNC:F7))) directlyIncreases pep(p(HGNC:F9))",

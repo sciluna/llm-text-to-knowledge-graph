@@ -8,6 +8,7 @@ Important Guidelines:
 2. Use Only Entities Mentioned in the Sentence: Ensure the BEL statement uses biological entities and processes explicitly mentioned in the sentence. Do not infer interactions involving entities not present in the sentence.
 3. Sentence Grounding: Ensure that each BEL statement is directly grounded in the provided sentence. If there is any ambiguity or lack of clarity in the sentence, do not make assumptions or infer relationships beyond what is explicitly stated.
 4. Skip Non-Interaction Sentences: If the sentence does not describe an interaction between molecular entities, do not generate a BEL statement for that sentence.
+5. Do not duplicate any interaction that has been extracted, ensure to extract an interaction for a sentence only once.
 
 Task:
 1. Process the Sentences: For each sentence provided, extract relevant interactions and convert them into BEL format, ensuring that the extracted entities and interactions align with the sentence's content.
