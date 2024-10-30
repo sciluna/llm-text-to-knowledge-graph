@@ -91,7 +91,7 @@ def llm_ann_processing(sentences):
         })
         llm_results["LLM_extractions"].append({
             "Index": index,
-            "Sentence": sentence,
+            "text": sentence,
             "Annotations": annotations,
             "Results": results
         })
@@ -109,7 +109,8 @@ def indra_processing(sentences):
     start_time = time.time()
 
     # Loop through the sentences dictionary directly
-    for index, sentence in sentences.items():
+    for index, sentence_info in sentences.items():
+        sentence = sentence_info['text']
         reach_processor = reach.process_text(sentence, url=reach.local_text_url)
         stmts = reach_processor.statements
         statements_json = [stmt.to_json() for stmt in stmts]

@@ -4,8 +4,8 @@
         "LLM_bel_statements": [
             "p(HGNC:STAT5A) increases bp(GOBP:\"mammary gland development\")",
             "p(HGNC:STAT5B) increases bp(GOBP:\"mammary gland development\")",
-            "a(CHEBI:progesterone) increases p(HGNC:STAT5A)",
-            "a(CHEBI:progesterone) increases p(HGNC:STAT5B)"
+            "bp(GOBP:\"pregnancy\") increases p(HGNC:STAT5A)",
+            "bp(GOBP:\"pregnancy\") increases p(HGNC:STAT5B)"
         ],
         "Small_Corpus_bel_statements": [
             "SET Citation = {\"PubMed\",\"The Journal of biological chemistry\",\"9813040\",\"\",\"Richer JK|Lange CA|Manning NG|Owen G|Powell R|Horwitz KB\",\"\"}",
@@ -22,7 +22,8 @@
         "text": "In addition, progestin treatment induces translocation of Stat5 into the nucleus, possibly mediated by the association of PR and Stat5. Last, progesterone pretreatment enhances the phosphorylation of Stat5 on tyrosine 694 induced by epidermal growth factor.",
         "LLM_bel_statements": [
             "a(CHEBI:Progestins) increases tloc(p(HGNC:STAT5A), GOCC:\"nucleus\")",
-            "a(CHEBI:Progesterone) increases pmod(p(HGNC:STAT5A), pmod(P, Tyr, 694))"
+            "a(CHEBI:Progesterone) increases pmod(p(HGNC:STAT5A), pmod(P, Tyr, 694))",
+            "a(CHEBI:\"Epidermal Growth Factor\") increases pmod(p(HGNC:STAT5A), pmod(P, Tyr, 694))"
         ],
         "Small_Corpus_bel_statements": [
             "a(CHEBIID:59826) increases tloc(p(SFAM:\"STAT5 Family\"),MESHCS:Cytoplasm,MESHCS:\"Cell Nucleus\")",
@@ -32,9 +33,11 @@
     "3": {
         "text": "Functional data show that progestin pretreatment of breast cancer cells enhances the ability of prolactin to stimulate the transcriptional activity of Stat5 on a \u03b2-casein promoter. Progesterone and epidermal growth factor synergize to control transcription from p21WAF1 and c-fos promoters.",
         "LLM_bel_statements": [
-            "a(CHEBI:Progestins) increases act(p(HGNC:PRL), ma(GO:\"transcription factor activity\"))",
-            "a(CHEBI:Progestins) increases act(p(HGNC:STAT5A), ma(GO:\"transcription factor activity\"))",
-            "a(CHEBI:Progesterone) positiveCorrelation a(HGNC:EGF)"
+            "a(CHEBI:Progestins) increases act(p(HGNC:PRL), ma(GO:\"transcription regulator activity\"))",
+            "a(CHEBI:Progestins) increases act(p(HGNC:STAT5A), ma(GO:\"transcription regulator activity\"))",
+            "a(CHEBI:Progesterone) positiveCorrelation a(CHEBI:\"Epidermal Growth Factor\")",
+            "a(CHEBI:Progesterone) increases act(p(HGNC:CDKN1A), ma(GO:\"transcription regulator activity\"))",
+            "a(CHEBI:Progesterone) increases act(p(HGNC:FOS), ma(GO:\"transcription regulator activity\"))"
         ],
         "Small_Corpus_bel_statements": [
             "composite(a(CHEBIID:59826),p(HGNC:PRL)) increases (tscript(p(SFAM:\"STAT5 Family\")) directlyIncreases r(HGNC:CSN2))",
@@ -152,7 +155,7 @@
         "LLM_bel_statements": [
             "a(CHEBI:Progesterone) increases r(HGNC:CDKN1A)",
             "p(HGNC:EGF) increases r(HGNC:CDKN1A)",
-            "compositeAbundance(a(CHEBI:Progesterone), p(HGNC:EGF)) increases r(HGNC:CDKN1A)"
+            "composite(a(CHEBI:Progesterone), p(HGNC:EGF)) increases r(HGNC:CDKN1A)"
         ],
         "Small_Corpus_bel_statements": [
             "composite(p(HGNC:EGF),a(CHEBI:progesterone)) increases r(HGNC:CDKN1A)",

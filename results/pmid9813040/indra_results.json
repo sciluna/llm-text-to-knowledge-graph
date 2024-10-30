@@ -1,0 +1,785 @@
+{
+    "INDRA_REACH_extractions": [
+        {
+            "Index": "1",
+            "Sentence": "Like progesterone receptors (PR), Stat5a and 5b are required for normal mammary gland growth and differentiation. These two proteins are up-regulated during pregnancy, a period dominated by high levels of progesterone.",
+            "Results": []
+        },
+        {
+            "Index": "2",
+            "Sentence": "In addition, progestin treatment induces translocation of Stat5 into the nucleus, possibly mediated by the association of PR and Stat5. Last, progesterone pretreatment enhances the phosphorylation of Stat5 on tyrosine 694 induced by epidermal growth factor.",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "EGF",
+                        "db_refs": {
+                            "UP": "P01133",
+                            "TEXT": "epidermal growth factor",
+                            "EGID": "1950",
+                            "HGNC": "3229"
+                        }
+                    },
+                    "sub": {
+                        "name": "STAT5",
+                        "db_refs": {
+                            "FPLX": "STAT5",
+                            "TEXT": "Stat5"
+                        }
+                    },
+                    "residue": "Y",
+                    "position": "694",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Last, progesterone pretreatment enhances the phosphorylation of Stat5 on tyrosine 694 induced by epidermal growth factor.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_token_of",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            97,
+                                            120
+                                        ],
+                                        [
+                                            64,
+                                            69
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 7466442131593233148
+                        }
+                    ],
+                    "id": "c78755a1-38d4-4abe-9127-4886866180fe",
+                    "matches_hash": "2083230053196761"
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "Sentence": "Functional data show that progestin pretreatment of breast cancer cells enhances the ability of prolactin to stimulate the transcriptional activity of Stat5 on a \u03b2-casein promoter. Progesterone and epidermal growth factor synergize to control transcription from p21WAF1 and c-fos promoters.",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progestin",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:59826",
+                            "TEXT": "progestin",
+                            "MESH": "D011372"
+                        }
+                    },
+                    "obj": {
+                        "name": "PRL",
+                        "db_refs": {
+                            "UP": "P01236",
+                            "TEXT": "prolactin",
+                            "EGID": "5617",
+                            "HGNC": "9445"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Functional data show that progestin pretreatment of breast cancer cells enhances the ability of prolactin to stimulate the transcriptional activity of Stat5 on a \u03b2-casein promoter.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            26,
+                                            35
+                                        ],
+                                        [
+                                            96,
+                                            105
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 3079158514066492167
+                        }
+                    ],
+                    "id": "eb036f29-b99e-4c90-9bb1-91cb8abcfd51",
+                    "matches_hash": "-10190297440685389"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progestin",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:59826",
+                            "TEXT": "progestin",
+                            "MESH": "D011372"
+                        }
+                    },
+                    "obj": {
+                        "name": "STAT5",
+                        "db_refs": {
+                            "FPLX": "STAT5",
+                            "TEXT": "Stat5"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Functional data show that progestin pretreatment of breast cancer cells enhances the ability of prolactin to stimulate the transcriptional activity of Stat5 on a \u03b2-casein promoter.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            26,
+                                            35
+                                        ],
+                                        [
+                                            151,
+                                            156
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 3079158514066492167
+                        }
+                    ],
+                    "id": "ee95a9a7-bcf2-421d-bde3-a03adefbb384",
+                    "matches_hash": "-7166344037925729"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progestin",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:59826",
+                            "TEXT": "progestin",
+                            "MESH": "D011372"
+                        }
+                    },
+                    "obj": {
+                        "name": "STAT5",
+                        "db_refs": {
+                            "FPLX": "STAT5",
+                            "TEXT": "Stat5"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Functional data show that progestin pretreatment of breast cancer cells enhances the ability of prolactin to stimulate the transcriptional activity of Stat5 on a \u03b2-casein promoter.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            26,
+                                            35
+                                        ],
+                                        [
+                                            151,
+                                            156
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 3079158514066492167
+                        }
+                    ],
+                    "id": "db4da40f-f652-40d1-ad93-a12ea0e48956",
+                    "matches_hash": "-7166344037925729"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "EGF",
+                        "db_refs": {
+                            "UP": "P01133",
+                            "TEXT": "epidermal growth factor",
+                            "EGID": "1950",
+                            "HGNC": "3229"
+                        }
+                    },
+                    "obj": {
+                        "name": "transcription, DNA-templated",
+                        "db_refs": {
+                            "GO": "GO:0006351",
+                            "TEXT": "transcription",
+                            "MESH": "D014158"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Progesterone and epidermal growth factor synergize to control transcription from p21WAF1 and c-fos promoters.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            17,
+                                            40
+                                        ],
+                                        [
+                                            62,
+                                            75
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 8869856484048473150
+                        }
+                    ],
+                    "id": "3539c73c-69ee-4954-84c3-d2228b484f88",
+                    "matches_hash": "-519892711050678"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progesterone",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:17026",
+                            "TEXT": "Progesterone",
+                            "MESH": "D011374",
+                            "HMDB": "HMDB0001830",
+                            "CHEMBL": "CHEMBL103",
+                            "PUBCHEM": "5994",
+                            "CAS": "57-83-0",
+                            "DRUGBANK": "DB00396"
+                        }
+                    },
+                    "obj": {
+                        "name": "transcription, DNA-templated",
+                        "db_refs": {
+                            "GO": "GO:0006351",
+                            "TEXT": "transcription",
+                            "MESH": "D014158"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Progesterone and epidermal growth factor synergize to control transcription from p21WAF1 and c-fos promoters.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            12
+                                        ],
+                                        [
+                                            62,
+                                            75
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 8869856484048473150
+                        }
+                    ],
+                    "id": "f25d3640-5d3b-49a8-8b71-b65d12fa5bc7",
+                    "matches_hash": "14973204768918856"
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "Sentence": "Stat5 protein levels were elevated by 8 h and remained elevated until 72 h after R5020 treatment with increases of 4\u20137-fold (Fig. 1A). To test the PR dependence of this effect, the experiment was repeated using PR-negative T47D-Y cells (28) (Fig. 1B). In the absence of PR, R5020 did not up-regulate Stat5.",
+            "Results": []
+        },
+        {
+            "Index": "5",
+            "Sentence": "This study shows that both the longer (95 kDa) Stat5a and the shorter (92 kDa) Stat5b isoform are up-regulated by progestin treatment.",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progestin",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:59826",
+                            "TEXT": "progestin",
+                            "MESH": "D011372"
+                        }
+                    },
+                    "obj": {
+                        "name": "STAT5B",
+                        "db_refs": {
+                            "UP": "P51692",
+                            "TEXT": "Stat5b",
+                            "HGNC": "11367",
+                            "EGID": "6777"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "This study shows that both the longer (95 kDa) Stat5a and the shorter (92 kDa) Stat5b isoform are up-regulated by progestin treatment.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_2_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            114,
+                                            123
+                                        ],
+                                        [
+                                            79,
+                                            85
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 4731915700171779105
+                        }
+                    ],
+                    "id": "05c6bb61-4a25-4b5c-9433-ba320b63c70d",
+                    "matches_hash": "13920798791775360"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progestin",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:59826",
+                            "TEXT": "progestin",
+                            "MESH": "D011372"
+                        }
+                    },
+                    "obj": {
+                        "name": "STAT5A",
+                        "db_refs": {
+                            "UP": "P42229",
+                            "TEXT": "Stat5a",
+                            "EGID": "6776",
+                            "HGNC": "11366"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "This study shows that both the longer (95 kDa) Stat5a and the shorter (92 kDa) Stat5b isoform are up-regulated by progestin treatment.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_2_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            114,
+                                            123
+                                        ],
+                                        [
+                                            47,
+                                            53
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 4731915700171779105
+                        }
+                    ],
+                    "id": "c193d707-6cc0-41d4-bdc8-dda5f76fa6e1",
+                    "matches_hash": "17050953895733004"
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "Sentence": "Similar studies using anti-Stat3 (Fig. 2B) and anti-Stat1 (Fig. 2C) antibodies show that these STAT family members are also progestin regulated. While Stat3 is clearly up-regulated by progestin treatment, Stat1 is slightly down-regulated.",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progestin",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:59826",
+                            "TEXT": "progestin",
+                            "MESH": "D011372"
+                        }
+                    },
+                    "obj": {
+                        "name": "STAT3",
+                        "db_refs": {
+                            "UP": "P40763",
+                            "TEXT": "Stat3",
+                            "HGNC": "11364",
+                            "EGID": "6774"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "While Stat3 is clearly up-regulated by progestin treatment, Stat1 is slightly down-regulated.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_2_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            39,
+                                            48
+                                        ],
+                                        [
+                                            6,
+                                            11
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6099498437471292331
+                        }
+                    ],
+                    "id": "36360c29-3f20-4241-b07b-3747284dbced",
+                    "matches_hash": "28986334982052931"
+                }
+            ]
+        },
+        {
+            "Index": "7",
+            "Sentence": "Northern blot analysis demonstrates hormone-dependent induction of Stat5a message at 12 and 24 h following progestin treatment (Fig. 3).",
+            "Results": []
+        },
+        {
+            "Index": "8",
+            "Sentence": "In contrast, the same Northern blot hybridized with cDNA for two genes known to be PR regulated, fatty acid synthetase (30,38) or cyclin D1 (18,39), shows equal induction of these genes by the two PR isoforms.",
+            "Results": []
+        },
+        {
+            "Index": "9",
+            "Sentence": "T47Dco cells were treated for 24 h with 10 nm R5020 or vehicle, then with 10 nm EGF or vehicle for 5 min. Nuclear and cytosolic extracts were prepared and equal amounts of protein were probed with antibody recognizing total Stat5 (Fig. 4A). In untreated cells, Stat5 was exclusively cytoplasmic (lane 1); no Stat5 was found in the nucleus (lane 2). As expected, EGF treatment promoted nuclear translocation of a portion of Stat5 (lanes 5 and 6). Surprisingly, R5020 not only increased total Stat5 levels (lanes 3  and 4; 7and 8), but also promoted extensive nuclear translocation of Stat5 (compare lanes 2 and 4) independent of EGF treatment.",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "EGF",
+                        "db_refs": {
+                            "UP": "P01133",
+                            "TEXT": "EGF",
+                            "EGID": "1950",
+                            "HGNC": "3229"
+                        }
+                    },
+                    "obj": {
+                        "name": "import into nucleus",
+                        "db_refs": {
+                            "GO": "GO:0051170",
+                            "TEXT": "nuclear translocation"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "As expected, EGF treatment promoted nuclear translocation of a portion of Stat5 (lanes 5 and 6).",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            13,
+                                            16
+                                        ],
+                                        [
+                                            36,
+                                            57
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -4849310651515506088
+                        }
+                    ],
+                    "id": "169228e4-f808-4498-98ac-8212bf6e869d",
+                    "matches_hash": "18343628653838586"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "EGF",
+                        "db_refs": {
+                            "UP": "P01133",
+                            "TEXT": "EGF",
+                            "EGID": "1950",
+                            "HGNC": "3229"
+                        }
+                    },
+                    "obj": {
+                        "name": "STAT5",
+                        "db_refs": {
+                            "FPLX": "STAT5",
+                            "TEXT": "Stat5"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "As expected, EGF treatment promoted nuclear translocation of a portion of Stat5 (lanes 5 and 6).",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            13,
+                                            16
+                                        ],
+                                        [
+                                            74,
+                                            79
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -4849310651515506088
+                        }
+                    ],
+                    "id": "1260e8a2-12cf-453f-b743-3982302d7627",
+                    "matches_hash": "32509448975862230"
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "Sentence": "These reciprocal studies show that PR and Stat5 are associated, either directly or in a multiprotein complex.",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "PRH2",
+                            "db_refs": {
+                                "UP": "P02810",
+                                "TEXT": "PR",
+                                "EGID": "5555",
+                                "HGNC": "9367"
+                            }
+                        },
+                        {
+                            "name": "STAT5",
+                            "db_refs": {
+                                "FPLX": "STAT5",
+                                "TEXT": "Stat5"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "These reciprocal studies show that PR and Stat5 are associated, either directly or in a multiprotein complex.",
+                            "annotations": {
+                                "found_by": "binding1a",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            35,
+                                            37
+                                        ],
+                                        [
+                                            42,
+                                            47
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 5123014096828496496
+                        }
+                    ],
+                    "id": "f0180389-e510-4063-8dde-0240110e3280",
+                    "matches_hash": "12969487189251069"
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "Sentence": "In the absence of R5020 pretreatment, JAK2 is immunoprecipitated with the anti-phosphotyrosine antibody only following EGF treatment (lane 2). Note that JAK2 is not present in phosphotyrosine immunoprecipitates after 1 h of R5020 treatment (lane 1). However, JAK2 is immunoprecipitated with the anti-phosphotyrosine antibody as efficiently after 48 h of R5020 treatment (lane 4) as with EGF treatment (lane 5).",
+            "Results": []
+        },
+        {
+            "Index": "12",
+            "Sentence": "However, Stat5 remained unphosphorylated (P-Stat5, lanes 1\u20135), except in the cells that were pretreated with R5020 for 48 h, prior to the 10-min prolactin treatment (P-Stat5, lane 6). Prolactin alone had no effect (lane 3) nor did transient (1 h) or chronic (48 h) R5020 treatment (lane 2). Thus, in T47Dco cells, Stat5 phosphorylation by prolactin requires progesterone pretreatment.",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "PRL",
+                        "db_refs": {
+                            "UP": "P01236",
+                            "TEXT": "prolactin",
+                            "EGID": "5617",
+                            "HGNC": "9445"
+                        }
+                    },
+                    "sub": {
+                        "name": "STAT5",
+                        "db_refs": {
+                            "FPLX": "STAT5",
+                            "TEXT": "Stat5"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Thus, in T47Dco cells, Stat5 phosphorylation by prolactin requires progesterone pretreatment.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_2_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            48,
+                                            57
+                                        ],
+                                        [
+                                            23,
+                                            28
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 3076959061989304626
+                        }
+                    ],
+                    "id": "1281d17a-f847-4f73-916f-674325cca2b2",
+                    "matches_hash": "-26313882884322359"
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "Sentence": "The \u03b2-casein promoter, known to be induced by Stat5 when activated by prolactin via prolactin receptors and JAK2, was next used to test the function of the phosphorylated Stat5. T47D-YB cells were pretreated with either R5020 or ethanol vehicle for 48 h. Cells were then washed, transfected with a \u03b2-casein promoter-luciferase reporter, treated with either R5020 or prolactin, and harvested for luciferase assay 24 h after hormone treatment. We found that in T47D-YB breast cancer cells, prolactin alone has minimal to no significant effect on the \u03b2-casein luciferase promoter. However, after R5020 pretreatment, a 6\u20137-fold induction of the \u03b2-casein luciferase promoter was observed (Fig.7B). Thus R5020 sensitized these breast cancer cells to the transcriptional effects of prolactin mediated through Stat5.",
+            "Results": []
+        },
+        {
+            "Index": "14",
+            "Sentence": "Fig. 8A shows that the p21WAF1 promoter is induced 4.5-fold by progesterone, 2.4-fold by EGF, and 13.2-fold by both hormones together. The average increase in five experiments was progesterone, 3.5-fold; EGF, 2.2-fold; both hormones, 11-fold. Fig. 8B demonstrates the corresponding increases in endogenous p21 levels when T47D-YB cells are treated for 24 h with ethanol, progesterone, EGF, or both hormones. Whole cell lysates were probed by immunoblotting with antibody to p21.",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "progesterone",
+                        "db_refs": {
+                            "CHEBI": "CHEBI:17026",
+                            "TEXT": "progesterone",
+                            "MESH": "D011374",
+                            "HMDB": "HMDB0001830",
+                            "CHEMBL": "CHEMBL103",
+                            "PUBCHEM": "5994",
+                            "CAS": "57-83-0",
+                            "DRUGBANK": "DB00396"
+                        }
+                    },
+                    "obj": {
+                        "name": "p21WAF1 promoter",
+                        "db_refs": {
+                            "TEXT": "p21WAF1 promoter"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Fig. 8A shows that the p21WAF1 promoter is induced 4.5-fold by progesterone, 2.4-fold by EGF, and 13.2-fold by both hormones together.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_2_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            63,
+                                            75
+                                        ],
+                                        [
+                                            23,
+                                            39
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -8264117101336437281
+                        }
+                    ],
+                    "id": "5ab9af05-d14b-4064-9222-80ab4ac335a2",
+                    "matches_hash": "17080087209374339"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "Sentence": "Fig. 8C shows that the c-fos promoter is induced 19.3-fold by R5020 and 6.2-fold by EGF. Remarkably, together the two hormones produced a 145-fold increase in luciferase activity.",
+            "Results": []
+        }
+    ]
+}

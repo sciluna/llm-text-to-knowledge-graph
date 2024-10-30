@@ -22,6 +22,10 @@ def delayed_completion(delay_in_seconds: float = 1, **kwargs):
 rate_limit_per_minute = 3
 delay = 60.0 / rate_limit_per_minute
 
+# Define model for extraction
+model = delayed_completion(delay_in_seconds=delay, model="gpt-4o",
+                           temperature=0, openai_api_key=OPENAI_API_KEY)
+
 
 class Interaction(BaseModel):
     """Information about molecular interactions mentioned."""
@@ -45,10 +49,6 @@ class Molecular_Interactions(BaseModel):
 paper_extraction_function = [
     convert_pydantic_to_openai_function(Molecular_Interactions)
 ]
-
-# Define model for extraction
-model = delayed_completion(delay_in_seconds=delay, model="gpt-4o",
-                           temperature=0, openai_api_key=OPENAI_API_KEY)
 
 
 extraction_model = model.bind(

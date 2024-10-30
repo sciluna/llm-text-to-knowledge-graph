@@ -11,10 +11,10 @@
                     "bel_statement": "p(HGNC:STAT5B) increases bp(GOBP:\"mammary gland development\")"
                 },
                 {
-                    "bel_statement": "a(CHEBI:progesterone) increases p(HGNC:STAT5A)"
+                    "bel_statement": "bp(GOBP:\"pregnancy\") increases p(HGNC:STAT5A)"
                 },
                 {
-                    "bel_statement": "a(CHEBI:progesterone) increases p(HGNC:STAT5B)"
+                    "bel_statement": "bp(GOBP:\"pregnancy\") increases p(HGNC:STAT5B)"
                 }
             ]
         },
@@ -27,6 +27,9 @@
                 },
                 {
                     "bel_statement": "a(CHEBI:Progesterone) increases pmod(p(HGNC:STAT5A), pmod(P, Tyr, 694))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"Epidermal Growth Factor\") increases pmod(p(HGNC:STAT5A), pmod(P, Tyr, 694))"
                 }
             ]
         },
@@ -35,13 +38,19 @@
             "text": "Functional data show that progestin pretreatment of breast cancer cells enhances the ability of prolactin to stimulate the transcriptional activity of Stat5 on a \u03b2-casein promoter. Progesterone and epidermal growth factor synergize to control transcription from p21WAF1 and c-fos promoters.",
             "Results": [
                 {
-                    "bel_statement": "a(CHEBI:Progestins) increases act(p(HGNC:PRL), ma(GO:\"transcription factor activity\"))"
+                    "bel_statement": "a(CHEBI:Progestins) increases act(p(HGNC:PRL), ma(GO:\"transcription regulator activity\"))"
                 },
                 {
-                    "bel_statement": "a(CHEBI:Progestins) increases act(p(HGNC:STAT5A), ma(GO:\"transcription factor activity\"))"
+                    "bel_statement": "a(CHEBI:Progestins) increases act(p(HGNC:STAT5A), ma(GO:\"transcription regulator activity\"))"
                 },
                 {
-                    "bel_statement": "a(CHEBI:Progesterone) positiveCorrelation a(HGNC:EGF)"
+                    "bel_statement": "a(CHEBI:Progesterone) positiveCorrelation a(CHEBI:\"Epidermal Growth Factor\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:Progesterone) increases act(p(HGNC:CDKN1A), ma(GO:\"transcription regulator activity\"))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:Progesterone) increases act(p(HGNC:FOS), ma(GO:\"transcription regulator activity\"))"
                 }
             ]
         },
@@ -158,7 +167,7 @@
                     "bel_statement": "p(HGNC:EGF) increases r(HGNC:CDKN1A)"
                 },
                 {
-                    "bel_statement": "compositeAbundance(a(CHEBI:Progesterone), p(HGNC:EGF)) increases r(HGNC:CDKN1A)"
+                    "bel_statement": "composite(a(CHEBI:Progesterone), p(HGNC:EGF)) increases r(HGNC:CDKN1A)"
                 }
             ]
         },
