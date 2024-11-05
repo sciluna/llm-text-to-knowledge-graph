@@ -10,7 +10,7 @@ def extract_bel_data(file_content):
     sentence_index = 1
     in_evidence = False
 
-    # Update the regex to handle more citation formats
+    # Updated regex to handle more citation formats
     citation_pattern = r'\[\d+(?:[-,\u2013]\d+)*\]'
 
     lines = file_content.splitlines()
@@ -45,8 +45,8 @@ def extract_bel_data(file_content):
             # Continuation of a multiline Evidence section
             current_evidence += " " + line.strip()
 
-        # Handle BEL statements (assuming they don't start with "SET")
-        elif not in_evidence and re.match(r'^[a-zA-Z]', line):
+        # Handle BEL statements (excluding those that start with "SET")
+        elif not in_evidence and re.match(r'^[a-zA-Z]', line) and not line.startswith("SET"):
             current_bel_interactions.append(line)
 
     # Handle the last section if there's remaining evidence and interactions
