@@ -2,7 +2,6 @@
     "1": {
         "text": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries.",
         "bel_statements": [
-            "SET Citation = {\"PubMed\",\"Trends in molecular medicine\",\"12928037\",\"\",\"de Nigris F|Lerman A|Ignarro LJ|Williams-Ignarro S|Sica V|Baker AH|Lerman LO|Geng YJ|Napoli C\",\"\"}",
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein oxidation\")"
         ]
@@ -11,15 +10,13 @@
         "text": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)",
         "bel_statements": [
             "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:\"apoptotic process\")",
-            "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)",
-            "SET Cell = \"endothelial cell\""
+            "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)"
         ]
     },
     "3": {
         "text": "One such risk factor is oxLDL, which exert pro-apoptotic effects on a variety of cell lineages, including endothelial cells and VSMCs, both in cultured cells and in arteries . Increased formation of oxygen radicals (and other radical species) facilitates LDL oxidation and influences oxidation-sensitive mechanisms .",
         "bel_statements": [
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
-            "SET MeSHAnatomy = \"Muscle, Smooth, Vascular\"",
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
             "a(CHEBI:\"oxygen radical\") increases a(SCHEM:\"Oxidized Low Density Lipoprotein\")"
         ]
@@ -55,8 +52,7 @@
     "8": {
         "text": "More importantly, intervention with L-arginine has induced beneficial effects on atherosclerosis in experimental and human studies .",
         "bel_statements": [
-            "a(CHEBI:\"L-arginine\") decreases path(MESHD:Atherosclerosis)",
-            "SET Anatomy = \"cardiovascular system endothelium\""
+            "a(CHEBI:\"L-arginine\") decreases path(MESHD:Atherosclerosis)"
         ]
     },
     "9": {
@@ -64,8 +60,7 @@
         "bel_statements": [
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases a(CHEBI:\"reactive oxygen species\")",
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(HGNC:SOD1)",
-            "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(SFAM:\"GPX Family\")",
-            "SET CellLine = \"U-937 cell\""
+            "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(SFAM:\"GPX Family\")"
         ]
     },
     "10": {
@@ -73,8 +68,7 @@
         "bel_statements": [
             "a(SCHEM:\"7-Ketocholesterol\") increases bp(GOBP:\"apoptotic process\")",
             "a(SCHEM:\"7-Ketocholesterol\") negativeCorrelation a(CHEBI:antioxidant)",
-            "a(CHEBI:antioxidant) decreases (a(SCHEM:\"7-Ketocholesterol\") increases bp(GOBP:\"apoptotic process\"))",
-            "SET MeSHAnatomy = \"Muscle, Smooth, Vascular\""
+            "a(CHEBI:antioxidant) decreases (a(SCHEM:\"7-Ketocholesterol\") increases bp(GOBP:\"apoptotic process\"))"
         ]
     },
     "11": {
@@ -97,8 +91,7 @@
             "pep(complex(p(HGNC:F3),p(HGNC:F7))) directlyIncreases pep(p(HGNC:F9))",
             "pep(complex(p(HGNC:F3),p(HGNC:F7))) directlyIncreases pep(p(HGNC:F10))",
             "pep(p(HGNC:F9)) increases pep(p(HGNC:F2))",
-            "pep(p(HGNC:F10)) increases pep(p(HGNC:F2))",
-            "SET CellStructure = \"Cell Membrane\""
+            "pep(p(HGNC:F10)) increases pep(p(HGNC:F2))"
         ]
     },
     "14": {

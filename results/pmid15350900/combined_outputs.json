@@ -5,8 +5,6 @@
             "p(HGNC:VHL) decreases path(MESHD:\"Carcinoma, Renal Cell\")"
         ],
         "Small_Corpus_bel_statements": [
-            "SET Citation = {\"PubMed\",\"Trends in molecular medicine\",\"15350900\",\"\",\"Barry RE|Krek W\",\"\"}",
-            "SET Species = 9606",
             "p(HGNC:VHL) negativeCorrelation path(MESHD:\"Carcinoma, Renal Cell\") //curating to protein, since inactivation of gene may be via mutation, deletion, or hypermethylation and will affect protein levels"
         ]
     },
@@ -50,8 +48,7 @@
         "Small_Corpus_bel_statements": [
             "tscript(p(HGNC:HIF1A)) increases r(HGNC:VEGFA)",
             "bp(GOBP:\"response to hypoxia\") increases r(HGNC:VEGFA)",
-            "p(HGNC:VEGFA) increases bp(GOBP:angiogenesis)",
-            "SET TextLocation = Legend"
+            "p(HGNC:VEGFA) increases bp(GOBP:angiogenesis)"
         ]
     },
     "6": {
@@ -62,9 +59,7 @@
         ],
         "Small_Corpus_bel_statements": [
             "p(HGNC:HIF1A,pmod(A,K,532)) directlyDecreases tscript(p(HGNC:HIF1A))",
-            "p(HGNC:HIF1A,pmod(H,N,863)) directlyDecreases tscript(p(HGNC:HIF1A))",
-            "SET Disease = cancer",
-            "SET TextLocation = Review"
+            "p(HGNC:HIF1A,pmod(H,N,863)) directlyDecreases tscript(p(HGNC:HIF1A))"
         ]
     },
     "7": {
@@ -74,8 +69,7 @@
             "p(HGNC:VHL) decreases r(HGNC:EPAS1)"
         ],
         "Small_Corpus_bel_statements": [
-            "p(HGNC:EPAS1) increases bp(GOBP:\"cell growth\") //HIF2-alpha = EPAS1",
-            "SET TextLocation = Legend"
+            "p(HGNC:EPAS1) increases bp(GOBP:\"cell growth\") //HIF2-alpha = EPAS1"
         ]
     },
     "8": {
@@ -139,8 +133,7 @@
             "cat(p(HGNC:NAA10)) directlyIncreases p(HGNC:HIF1A,pmod(A,K,532)) //AARD1 = NAA10",
             "cat(p(HGNC:NAA10)) directlyIncreases deg(p(HGNC:HIF1A))",
             "p(HGNC:HIF1A,pmod(A,K,532)) directlyIncreases deg(p(HGNC:HIF1A))",
-            "tscript(p(HGNC:COPS5)) increases p(HGNC:HIF1A)",
-            "SET TextLocation = Review"
+            "tscript(p(HGNC:COPS5)) increases p(HGNC:HIF1A)"
         ]
     },
     "12": {
@@ -200,8 +193,7 @@
             "p(HGNC:VHL) directlyIncreases degradation(p(HGNC:PRKCI))"
         ],
         "Small_Corpus_bel_statements": [
-            "p(HGNC:VHL) directlyIncreases deg(p(HGNC:PRKCI)) //PKC lambda = PKC iota",
-            "SET Disease = cancer"
+            "p(HGNC:VHL) directlyIncreases deg(p(HGNC:PRKCI)) //PKC lambda = PKC iota"
         ]
     },
     "17": {
@@ -235,7 +227,6 @@
         ],
         "Small_Corpus_bel_statements": [
             "p(HGNC:VHL) directlyDecreases kin(p(HGNC:PRKCD))",
-            "SET Disease = \"Carcinoma, Renal Cell\"",
             "p(HGNC:IGF1) increases path(MESHD:\"Neoplasm Invasiveness\")"
         ]
     },
@@ -310,8 +301,7 @@
             "bp(GOBP:\"response to hypoxia\") increases r(HGNC:CXCR4)",
             "p(HGNC:VHL) decreases surf(p(HGNC:CXCR4))",
             "p(HGNC:CXCL12) directlyIncreases act(p(HGNC:CXCR4)) //SDF1 = CXCL12",
-            "act(p(HGNC:CXCR4)) increases bp(GOBP:\"cell migration\")",
-            "SET TextLocation = Legend"
+            "act(p(HGNC:CXCR4)) increases bp(GOBP:\"cell migration\")"
         ]
     },
     "26": {

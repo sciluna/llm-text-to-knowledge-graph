@@ -6,10 +6,12 @@ from typing import List
 from pydantic import BaseModel, Field
 from langchain_core.utils.function_calling import convert_pydantic_to_openai_function
 from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
 warnings.filterwarnings("ignore")
 
 load_dotenv()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
 
 # Define a function that adds a delay to a Completion API call
@@ -19,12 +21,22 @@ def delayed_completion(delay_in_seconds: float = 1, **kwargs):
     return ChatOpenAI(**kwargs)
 
 
+def delayed_claude_completion(delay_in_seconds: float = 1, **kwargs):
+    """Delay a completion by a specified amount of time.""" 
+    time.sleep(delay_in_seconds)
+    return ChatAnthropic(**kwargs)
+
+
 rate_limit_per_minute = 3
 delay = 60.0 / rate_limit_per_minute
 
 # Define model for extraction
 model = delayed_completion(delay_in_seconds=delay, model="gpt-4o",
                            temperature=0, openai_api_key=OPENAI_API_KEY)
+
+
+claude_model = delayed_claude_completion(delay_in_seconds=delay, model="claude-3-5-sonnet-20241022",
+                                         temperature=0, api_key=ANTHROPIC_API_KEY)
 
 
 class Interaction(BaseModel):

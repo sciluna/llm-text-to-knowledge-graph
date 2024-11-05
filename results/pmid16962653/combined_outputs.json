@@ -6,8 +6,6 @@
             "p(HGNC:AKT1, pmod(Ph, Thr308)) hasActivity ma(GO:\"protein kinase activity\")"
         ],
         "Small_Corpus_bel_statements": [
-            "SET Citation = {\"PubMed\",\"Cell\",\"16962653\",\"2006-10-07\",\"Jacinto E|Facchinetti V|Liu D|Soto N|Wei S|Jung SY|Huang Q|Qin J|Su B\",\"\"}",
-            "SET Species = 9606",
             "p(HGNC:AKT1,pmod(P,T,308)) directlyIncreases kin(p(HGNC:AKT1))",
             "p(HGNC:AKT1,pmod(P,S,473)) directlyIncreases kin(p(HGNC:AKT1))"
         ]
@@ -19,9 +17,7 @@
             "g(HGNC:MAPKAP1) decreases complex(p(HGNC:RICTOR), p(HGNC:MTOR))"
         ],
         "Small_Corpus_bel_statements": [
-            "p(HGNC:MAPKAP1) increases p(HGNC:AKT1,pmod(P,S,473)) //sin1 = MAPKAP1",
-            "SET Cell = fibroblast",
-            "SET TextLocation = Results"
+            "p(HGNC:MAPKAP1) increases p(HGNC:AKT1,pmod(P,S,473)) //sin1 = MAPKAP1"
         ]
     },
     "3": {
@@ -30,7 +26,6 @@
             "p(HGNC:AKT1, pmod(Ph, Ser, 473)) decreases p(HGNC:AKT1, pmod(Ph, Thr, 308))"
         ],
         "Small_Corpus_bel_statements": [
-            "SET Species = 10090",
             "p(MGI:Mapkap1) increases p(MGI:Akt1,pmod(P,S,473))",
             "p(MGI:Mapkap1) causesNoChange p(MGI:Akt1,pmod(P,S,308))"
         ]

@@ -8,14 +8,11 @@
             "bp(GOBP:\"pregnancy\") increases p(HGNC:STAT5B)"
         ],
         "Small_Corpus_bel_statements": [
-            "SET Citation = {\"PubMed\",\"The Journal of biological chemistry\",\"9813040\",\"\",\"Richer JK|Lange CA|Manning NG|Owen G|Powell R|Horwitz KB\",\"\"}",
-            "SET Species = 9606",
             "p(HGNC:STAT5A) increases bp(MESHPP:\"Cell Differentiation\")",
             "p(HGNC:STAT5B) increases bp(MESHPP:\"Cell Differentiation\")",
             "p(HGNC:PGR) increases bp(MESHPP:\"Cell Differentiation\")",
             "bp(MESHPP:Pregnancy) positiveCorrelation p(HGNC:STAT5A)",
-            "bp(MESHPP:Pregnancy) positiveCorrelation p(HGNC:STAT5B)",
-            "SET Disease = \"Breast Neoplasms\""
+            "bp(MESHPP:Pregnancy) positiveCorrelation p(HGNC:STAT5B)"
         ]
     },
     "2": {
@@ -42,8 +39,7 @@
         "Small_Corpus_bel_statements": [
             "composite(a(CHEBIID:59826),p(HGNC:PRL)) increases (tscript(p(SFAM:\"STAT5 Family\")) directlyIncreases r(HGNC:CSN2))",
             "composite(a(CHEBI:progesterone),p(HGNC:EGF)) increases (tscript(p(SFAM:\"STAT5 Family\")) directlyIncreases r(HGNC:FOS))",
-            "composite(a(CHEBI:progesterone),p(HGNC:EGF)) increases (tscript(p(SFAM:\"STAT5 Family\")) directlyIncreases r(HGNC:CDKN1A))",
-            "SET TextLocation = Results"
+            "composite(a(CHEBI:progesterone),p(HGNC:EGF)) increases (tscript(p(SFAM:\"STAT5 Family\")) directlyIncreases r(HGNC:CDKN1A))"
         ]
     },
     "4": {
@@ -107,8 +103,7 @@
         "Small_Corpus_bel_statements": [
             "a(CHEBIID:59826) increases p(SFAM:\"STAT5 Family\")",
             "a(CHEBIID:59826) increases tloc(p(SFAM:\"STAT5 Family\"),MESHCS:Cytoplasm,MESHCS:\"Cell Nucleus\")",
-            "p(HGNC:EGF) increases tloc(p(SFAM:\"STAT5 Family\"),MESHCS:Cytoplasm,MESHCS:\"Cell Nucleus\")",
-            "SET CellLine = \"HeLa cell\""
+            "p(HGNC:EGF) increases tloc(p(SFAM:\"STAT5 Family\"),MESHCS:Cytoplasm,MESHCS:\"Cell Nucleus\")"
         ]
     },
     "10": {
@@ -117,8 +112,7 @@
             "p(HGNC:PGR) association p(HGNC:STAT5A)"
         ],
         "Small_Corpus_bel_statements": [
-            "complex(p(HGNC:PGR),p(SFAM:\"STAT5 Family\"))",
-            "SET CellLine = \"T-47D\""
+            "complex(p(HGNC:PGR),p(SFAM:\"STAT5 Family\"))"
         ]
     },
     "11": {
@@ -171,8 +165,7 @@
         "Small_Corpus_bel_statements": [
             "composite(p(HGNC:EGF),a(CHEBIID:59826)) increases r(HGNC:FOS)",
             "p(HGNC:EGF) increases r(HGNC:FOS)",
-            "a(CHEBIID:59826) increases r(HGNC:FOS)",
-            "SET TextLocation = Legend"
+            "a(CHEBIID:59826) increases r(HGNC:FOS)"
         ]
     }
 }

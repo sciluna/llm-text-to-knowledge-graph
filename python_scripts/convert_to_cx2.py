@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 from ndex2.cx2 import PandasDataFrameToCX2NetworkFactory
-# from ndex2.client import Ndex2
+from ndex2.client import Ndex2
 
 
 def convert_to_cx2(extracted_results):
@@ -9,30 +9,31 @@ def convert_to_cx2(extracted_results):
     source_list = []
     target_list = []
     interaction_list = []
+    evidence_list = []
 
-    # Extract data from JSON
+    # Extract data directly from the JSON structure
     for entry in extracted_results:
-        combined_results = entry.get('Combined_Results', []) 
-        # Skip processing if the combined_results list is empty
-        if not combined_results:
-            continue
-        for result in combined_results:
-            if isinstance(result, str):  # Ensure the result is a string before attempting to split
-                parts = result.split()
-                if len(parts) == 3:
-                    source, interaction, target = parts
-                    source_list.append(source)
-                    target_list.append(target)
-                    interaction_list.append(interaction)
+        # Access source, interaction, and target directly
+        source = entry.get("source")
+        interaction = entry.get("interaction")
+        target = entry.get("target")
+        text = entry.get("text")
+        # Ensure all fields are present before appending
+        if source and interaction and target:
+            source_list.append(source)
+            target_list.append(target)
+            interaction_list.append(interaction)
+            text = evidence_list.append(text)
 
-    # Create a DataFrame
+    # Create a DataFrame for CX2 conversion
     df = pd.DataFrame({
         'source': source_list,
         'target': target_list,
-        'interaction': interaction_list
+        'interaction': interaction_list,
+        'text': evidence_list
     })
-    # print(df)
 
+    # Convert DataFrame to CX2 network format
     factory = PandasDataFrameToCX2NetworkFactory()
     cx2_network = factory.get_cx2network(df, source_field='source', target_field='target', 
                                          edge_interaction='interaction')
@@ -47,8 +48,8 @@ if __name__ == "main":
     net_cx = cx2_network.to_cx2()
 
     # Create an NDEx client instance with your credentials
-    # client = Ndex2(username='favour.ujames196@gmail.com', password='Fujames17')
-    # client.save_new_cx2_network(net_cx)
+    client = Ndex2(username='favour.ujames196@gmail.com', password='Fujames17')
+    client.save_new_cx2_network(net_cx)
 
     # new_network = json.dumps(cx2_network.to_cx2(), indent=2)
     # with open('cx2.cx', 'w') as file:

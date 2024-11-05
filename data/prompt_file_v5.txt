@@ -81,6 +81,25 @@ gene is transcribed to RNA
 - translatedTo, >>
 RNA is translated to protein
 
+3. Use the resources with the corresponding entity classes as well as the namespace symbols provided below for the entity classes that would be extracted:
+
+| Entity class               | Resources              | OpenBEL namespace |
+|----------------------------|------------------------|--------------------|
+| Human genes/proteins       | EntrezGene/Uniprot     | HGNC               |
+| Mouse genes/proteins       | EntrezGene/Uniprot     | MGI                |
+| Rat genes/proteins         | EntrezGene/Uniprot     | RGD                |
+| Protein family names       | OpenBEL                | SFAM               |
+| Protein complex names      | OpenBEL                | SCOMP              |
+| Protein complex names      | Gene Ontology          | GOCC               |
+| Biological processes       | Gene Ontology          | GOBP               |
+| Chemical names             | OpenBEL                | SCHEM              |
+| Chemical names             | ChEBI                  | CHEBI              |
+| Chemical names             | ChEMBL                 | CHEMBL             |
+| Disease names              | MeSH                   | MESHD              |
+| Anatomical names           | MeSH                   | MESHAnatomy        |
+| Cell lines                 | Cell Line Ontology     | CellLine           |
+| Cell structures            | MeSH                   | CellStructure      |
+
 Output Format:
 For each sentence provided, extract the relevant interactions and return them directly in BEL format. Do not include any other metadata or explanations, only the BEL interaction statements.
 

@@ -7,7 +7,6 @@
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA oxidation\")"
         ],
         "Small_Corpus_bel_statements": [
-            "SET Citation = {\"PubMed\",\"Trends in molecular medicine\",\"12928037\",\"\",\"de Nigris F|Lerman A|Ignarro LJ|Williams-Ignarro S|Sica V|Baker AH|Lerman LO|Geng YJ|Napoli C\",\"\"}",
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein oxidation\")"
         ]
@@ -20,8 +19,7 @@
         ],
         "Small_Corpus_bel_statements": [
             "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:\"apoptotic process\")",
-            "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)",
-            "SET Cell = \"endothelial cell\""
+            "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)"
         ]
     },
     "3": {
@@ -32,7 +30,6 @@
         ],
         "Small_Corpus_bel_statements": [
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
-            "SET MeSHAnatomy = \"Muscle, Smooth, Vascular\"",
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
             "a(CHEBI:\"oxygen radical\") increases a(SCHEM:\"Oxidized Low Density Lipoprotein\")"
         ]
@@ -86,8 +83,7 @@
             "a(CHEBI:\"L-arginine\") decreases path(MESHD:Atherosclerosis)"
         ],
         "Small_Corpus_bel_statements": [
-            "a(CHEBI:\"L-arginine\") decreases path(MESHD:Atherosclerosis)",
-            "SET Anatomy = \"cardiovascular system endothelium\""
+            "a(CHEBI:\"L-arginine\") decreases path(MESHD:Atherosclerosis)"
         ]
     },
     "9": {
@@ -100,8 +96,7 @@
         "Small_Corpus_bel_statements": [
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases a(CHEBI:\"reactive oxygen species\")",
             "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(HGNC:SOD1)",
-            "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(SFAM:\"GPX Family\")",
-            "SET CellLine = \"U-937 cell\""
+            "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(SFAM:\"GPX Family\")"
         ]
     },
     "10": {
@@ -114,8 +109,7 @@
         "Small_Corpus_bel_statements": [
             "a(SCHEM:\"7-Ketocholesterol\") increases bp(GOBP:\"apoptotic process\")",
             "a(SCHEM:\"7-Ketocholesterol\") negativeCorrelation a(CHEBI:antioxidant)",
-            "a(CHEBI:antioxidant) decreases (a(SCHEM:\"7-Ketocholesterol\") increases bp(GOBP:\"apoptotic process\"))",
-            "SET MeSHAnatomy = \"Muscle, Smooth, Vascular\""
+            "a(CHEBI:antioxidant) decreases (a(SCHEM:\"7-Ketocholesterol\") increases bp(GOBP:\"apoptotic process\"))"
         ]
     },
     "11": {
@@ -150,8 +144,7 @@
             "pep(complex(p(HGNC:F3),p(HGNC:F7))) directlyIncreases pep(p(HGNC:F9))",
             "pep(complex(p(HGNC:F3),p(HGNC:F7))) directlyIncreases pep(p(HGNC:F10))",
             "pep(p(HGNC:F9)) increases pep(p(HGNC:F2))",
-            "pep(p(HGNC:F10)) increases pep(p(HGNC:F2))",
-            "SET CellStructure = \"Cell Membrane\""
+            "pep(p(HGNC:F10)) increases pep(p(HGNC:F2))"
         ]
     },
     "14": {
