@@ -29,12 +29,9 @@ Important Guidelines to Note:
 
 Tasks:
 Step 1. Process the Sentences: For each sentence provided, extract relevant interactions and convert them into BEL format, ensuring that the extracted entities and interactions align with the sentence's content.
-Step 2. Use BEL Format: Use the BEL Biological Functions and relations provided under the Interaction Types for extracting the BEL statements
+Step 2. Use BEL Format: Use the BEL Biological Functions and relations provided below for extracting the BEL statements. Use only the shortforms for function names when giving the result for the BEL statement.
 
-Interaction types:
-These are the relationships that can be used in an interaction (using BEL vocabulary).
-
-BEL Biological Functions:
+BEL Biological Functions: 
 - abundance: Long form: abundance() Short form: a()
 abundance(ns:v) or a(ns:v) denotes the abundance of the entity designated by the value v in the namespace ns. abundance is a general abundance term that can be used for chemicals or other molecules not defined by a more specific abundance function. Gene, RNA, protein, and microRNA abundances should be represented using the appropriate specific abundance function.
 Examples: a(CHEBI:"oxygen atom"), a(CHEBI:thapsigargin)
@@ -146,9 +143,6 @@ p(HGNC:AKT1, pmod(Ph, S, 473))
 
 default BEL namespace and 3-letter amino acid code
 p(HGNC:AKT1, pmod(Ph, Ser, 473))
-
-PSI-MOD namespace and 3-letter amino acid code
-p(HGNC:AKT1, pmod(MOD:PhosRes, Ser, 473))
 
 MAPK1 phosphorylated at both Threonine 185 and Tyrosine 187
 p(HGNC:MAPK1, pmod(Ph, Thr, 185), pmod(Ph, Tyr, 187))
