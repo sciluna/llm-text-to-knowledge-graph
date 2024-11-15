@@ -1,0 +1,1144 @@
+{
+    "0": {
+        "text": "Normal protein-protein interactions (normPPIs) occur with high fidelity to regulate almost every physiological process. In cancer, this highly organised and precisely regulated network is disrupted, hijacked or reprogrammed resulting in oncogenic protein-protein interactions (oncoPPIs). OncoPPIs, which can result from genomic alterations, are a hallmark of many types of cancers. Recent technological advances in the field of mass spectrometry (MS)-based interactomics, structural biology and drug discovery have prompted scientists to identify and characterise oncoPPIs. Disruption of oncoPPI interfaces has become a major focus of drug discovery programs and has resulted in the use of PPI-specific drugs clinically. However, due to several technical hurdles, studies to build a reference oncoPPI map for various cancer types have not been undertaken. Therefore, there is an urgent need for experimental workflows to overcome the existing challenges in studying oncoPPIs in various cancers and to build comprehensive reference maps. Here, we discuss the important hurdles for characterising oncoPPIs and propose a three-phase multidisciplinary workflow to identify and characterise oncoPPIs. Systematic identification of cancer-type-specific oncogenic interactions will spur new opportunities for PPI-focused drug discovery projects and precision medicine.",
+        "annotations": [
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "1": {
+        "text": "Multimodal combinations of radiotherapy, surgery, biologicals and chemotherapy have become the mainstay of cancer therapeutics. These modalities often lack selectivity which can lead to adverse effects such as chemotherapy-induced cardiotoxicity. Quality of life in surviving patients is thereby compromised. In contrast, targeted molecular therapies offer a great potential to combat various cancer types with minimal harm to normal cells or organs. The main purpose of molecular therapy in oncology is to target specific biological pathways activated by oncoproteins in tumour cells. Oncoproteins are involved in various signalling pathways and mediate a large number of oncogenic protein-protein interactions (oncoPPIs). OncoPPI interfaces offer great potential for rational drug development and targeted cancer therapy.",
+        "annotations": [
+            {
+                "entity_text": "cardiotoxicity",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D066126"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "2": {
+        "text": "Cancer is a highly complex disease featuring complex genotypes and gene dysregulation, which can result in the formation of complex oncogenic interaction networks. Better understanding of the composition of protein interaction networks of each cancer will greatly enhance our molecular understanding of cancer biology and provide us with the ability to improve patient outcomes through precision and personalised medicine. Efforts to map oncoPPI networks have already been initiated, for example, lung cancer-specific oncoPPI networks (~400 PPIs) have been generated on a small-scale for a few well-known cancer genes.",
+        "annotations": [
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "lung cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008175"
+            }
+        ]
+    },
+    "3": {
+        "text": "Several publicly available databases such as BioGrid, BioPlex, IntAct, MINT and HIPPIES regularly update human protein interaction networks by curating PPIs from both focused low-throughput experimental studies and large high-throughput mass spectrometry (MS) and yeast two-hybrid (Y2H) datasets. Databases such as PINA integrate cancer-focused transcriptomics and proteomics information with PPI datasets to draw a cancer-specific protein interaction network. However, these maps do not distinguish normal PPIs (normPPIs) from oncoPPIs because nearly all affinity purification MS (AP-MS)-generated PPI datasets have been constructed using transformed cell lines, which contain abnormal karyotypes and thus an abnormal interactome profile. Hence, a focus on generating comprehensive maps of the oncoPPI networks for human cancers is crucial.",
+        "annotations": [
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "4": {
+        "text": "The protein interaction networks of oncoproteins which are referred to as \"oncoPPIs\" first appeared in the literature in 1997. Since then, these terms have been used in many publications mostly for well-known oncoproteins (eg, KRAS) and tumour suppressors (eg, P53), which are categorised as cancer genes in many cancers. Recent large-scale genome-wide analysis of 33 different cancer types involving 10 000 tumour samples reported that 55% (ie, 142 out of 258) of cancer genes and their mutations are associated with a single cancer. This strongly suggests that oncoPPI networks could be unique for many cancer types as their cancer driver genes and genomic alterations vary. Here, we define oncoPPIs as any direct PPIs that arise from genomic alterations in tumour cells. Identification and characterisation of oncoPPIs for each cancer can guide targeted molecular therapies and precision medicine. In the following sections, we discuss the genomic alterations and approaches to build reference oncoPPI maps for various cancers.",
+        "annotations": [
+            {
+                "entity_text": "KRAS",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "37990"
+            },
+            {
+                "entity_text": "P53",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "460"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "5": {
+        "text": "The genomic landscapes of many tumours from diverse cancers have been described. Coding and noncoding mutations, as well as structural variants such as copy number variations, rearrangements, insertions, inversions and translocations have each been defined and characterised. How pathogenic genomic alterations lead to complex oncogenic traits has remained one of the major challenges in cancer biology. Part of the answer lies in defining how these alterations are linked to oncogenic protein networks, thus enabling a network level understanding of the effects of genomic alterations on cellular functions.",
+        "annotations": [
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumours",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "6": {
+        "text": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+        "annotations": [
+            {
+                "entity_text": "CTCF",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4786"
+            },
+            {
+                "entity_text": "MUC1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136477"
+            },
+            {
+                "entity_text": "EGFR",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "74545"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "7": {
+        "text": "Analysis of pan-cancer genome studies show that noncoding mutations are less frequent than coding mutations. About 91% of tumours carry at least one driver mutation, with an average of 2.6 coding mutations per tumour. The number of large-scale studies reporting the effects of coding mutations on disease-specific PPI networks has increased rapidly. A recent comprehensive investigation of over 10 000 tumour exomes demonstrated that disease-associated germline variants as well as somatic missense mutations are significantly enriched in PPI interfaces compared to germline variants found in healthy individuals. Further characterisation of some of the variants confirmed that disease-associated variants disrupt PPIs and regulate tumour growth. In a large-scale study using the binary Y2H system, PPIs were assessed for ~2500 pathogenic missense mutations. Approximately, 70% of the missense mutations had no effect on protein stability and folding, however half of these mutations resulted in edgetic perturbation. In a comprehensive assessment of somatic missense mutations within 304 cancer-specific PPI interfaces for which structural data was available, 16 interfaces (~5%) were disrupted.",
+        "annotations": [
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumours",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "8": {
+        "text": "Missense or truncation mutations affecting protein interactions can rewire biological processes in cancer as well as developmental disorders. This has been observed in melanoma where two missense mutations in cyclin-dependent kinase 4 (CDK4), R24H and R24C, have been shown to confer resistance to cyclin-dependent kinase inhibitor 2A (CDKN2A) inhibitors. In a pairwise interaction study, it was shown that CDK4 R24C and R24H, but not other putative disease-causing mutations (N41S and S52N), disrupted CDK4 binding to CDKN2C. Notably, perturbation of the CDK4-CDKN2C complex leads to drug resistance phenotypes in melanoma patients.",
+        "annotations": [
+            {
+                "entity_text": "cyclin-dependent kinase 4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55429"
+            },
+            {
+                "entity_text": "CDK4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55429"
+            },
+            {
+                "entity_text": "cyclin-dependent kinase inhibitor 2A",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55430"
+            },
+            {
+                "entity_text": "CDKN2A",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55430"
+            },
+            {
+                "entity_text": "CDKN2C.",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "966"
+            },
+            {
+                "entity_text": "CDKN2C",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "966"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "developmental disorders",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            },
+            {
+                "entity_text": "melanoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008545"
+            }
+        ]
+    },
+    "9": {
+        "text": "In a recent report in hereditary pancreatic cancer, it was shown that a truncated RAB-like protein 3 (RABL3) mutant markedly increased its binding affinity to RAP1 GTPase-GDP dissociation stimulator 1 (RAP1GDS1) protein, a chaperon involved in prenylation of RAS GTPases. Consequently, the RAS signalling pathway was disrupted leading to enhanced cell proliferation and tumour growth. In another study, it was shown that a missense mutation, R183W, in serine/threonine-protein phosphatase 2A regulatory subunit 1A (PPP2R1A) disrupted its binding to the canonical subunits of the PP2A complex B module, including B55 and B56 proteins, and abrogated growth suppressive effects. However, mutant PPP2R1A also exhibited increased binding to striatin subunit family members, demonstrating that a missense mutation can confer both loss- and gain-of-function phenotypes.",
+        "annotations": [
+            {
+                "entity_text": "RAB-like protein 3",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12171"
+            },
+            {
+                "entity_text": "RABL3",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12171"
+            },
+            {
+                "entity_text": "RAP1 GTPase-GDP dissociation stimulator 1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "41422"
+            },
+            {
+                "entity_text": "RAP1GDS1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "41422"
+            },
+            {
+                "entity_text": "serine/threonine-protein phosphatase 2A regulatory subunit 1A",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "68559"
+            },
+            {
+                "entity_text": "PPP2R1A",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "68559"
+            },
+            {
+                "entity_text": "B55",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56762"
+            },
+            {
+                "entity_text": "striatin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2380"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "hereditary pancreatic cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C537262"
+            }
+        ]
+    },
+    "10": {
+        "text": "Many cancers from diverse tissues exhibit dysregulated gene expression despite no significant genomic alterations in the protein coding region of the differentially expressed genes. Single nucleotide variants within cis-regulatory regions of cancer genes have been shown to greatly modulate gene expression in a range of cancers. These mutations can lead to transcriptional activation or repression of the target genes. For example, the promoter region of telomerase reverse transcriptase (TERT) is frequently mutated in a range of cancers and linked to increased tumour growth and metastasis (Figure 1B). Genomic alterations can also occur in trans-regulatory elements, distant from cis-regulatory elements of the given cancer genes. For instance, mutations or structural variations in DNA motifs bound by genome-organising proteins, such as CCCTC-binding factor (CTCF) and cohesin, or transcription factors, indirectly lead to the dysregulation of many genes in various cancers (Figure 1C). Mutations that occur within topologically associating domain (TAD) boundaries or in enhancer and insulator regions can result in coordinated dysregulation of a cluster of neighbouring genes located within the same TAD. Mutations in CTCF itself, and other genome organising proteins such as the cohesin subunit STAG2, can have a similar impact.",
+        "annotations": [
+            {
+                "entity_text": "telomerase reverse transcriptase",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31141"
+            },
+            {
+                "entity_text": "TERT",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31141"
+            },
+            {
+                "entity_text": "CCCTC-binding factor",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4786"
+            },
+            {
+                "entity_text": "CTCF",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4786"
+            },
+            {
+                "entity_text": "STAG2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "38206"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "metastasis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009362"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "11": {
+        "text": "In gastrointestinal cancer, a CTCF-binding motif on chromosome 6 is disrupted by mutations at TAD boundaries flanking centromere protein Q (CENPQ) and methylmalonyl-CoA mutase (MUT) genes (Figure 1C). In acute myeloid leukaemia, the oncogenic MDS1 and EVI1 Complex Locus (MECOM) protein is activated due to a genomic inversion event that occurs in neighbouring TADs which disrupts CTCF-mediated genome organisation. Such aberrant activation of proteins can potentiate illicit oncoPPIs and redefine the oncogenic potential of cancer cells. As another example, the aberrant expression of CTCF-like (CTCFL), a paralogue of CTCF, in treatment-resistant neuroblastoma alters genome folding and leads to the formation of superenhancers that consequently activate proneural proteins and promote a resistance phenotype. Another example is the bromodomain (BRD)-containing protein family members, which are readers of lysine acetylation, that are highly elevated in many cancers. BRD4 overexpression leads to the formation of an oncogenic complex with positive transcription elongation factor (p-TEFb) leading to activation of RNA Polymerase II (RNAPII) at late mitosis.",
+        "annotations": [
+            {
+                "entity_text": "CTCF",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4786"
+            },
+            {
+                "entity_text": "centromere protein Q",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "49525"
+            },
+            {
+                "entity_text": "CENPQ",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "49525"
+            },
+            {
+                "entity_text": "methylmalonyl-CoA mutase",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "20097"
+            },
+            {
+                "entity_text": "MUT",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "20097"
+            },
+            {
+                "entity_text": "MDS1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "21086"
+            },
+            {
+                "entity_text": "CTCF-like",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "46476"
+            },
+            {
+                "entity_text": "CTCFL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "46476"
+            },
+            {
+                "entity_text": "BRD4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "137685"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "acute myeloid leukaemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D054218"
+            },
+            {
+                "entity_text": "gastrointestinal cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005770"
+            },
+            {
+                "entity_text": "neuroblastoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009447"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "12": {
+        "text": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments.",
+        "annotations": [
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "metastasis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009362"
+            }
+        ]
+    },
+    "13": {
+        "text": "Spatial compartmentalisation of proteins and organelle-specific interactions enable cells to conduct numerous biological processes in parallel. However, the subcellular relocalisation of the proteins as a rapid cellular response to internal or environmental stimuli can elicit new protein interaction networks. An exemplar is the receptor tyrosine-protein kinase HER2, an oncogene associated with progression of aggressive types of breast cancer. HER2 is expressed on the cell surface where it can function as a receptor or can localise to the nucleus upon stimulation to modulate transcription of target genes. Another example is alpha-enolase (ENO1), a potential prognostic marker which is elevated in various types of cancers and is linked to tumourigenesis. ENO1 can exhibit distinct functions in different cellular locations: (a) as a gene transcriptional repressor in the nucleus, where it exhibits enzymatic function in the cytosol regulating the phosphatidylinositol 3-kinase (PI3K)/protein kinase B (AKT) signalling pathway; and (b) as a plasminogen receptor in the plasma membrane. Similarly, mucin-1 (MUC1), a well-characterised oncoprotein extensively expressed on the surface of cancer cells, is also expressed in the nucleus, cytosol and mitochondria, and has been shown to interact with different protein partners in a location-dependent manner. When MUC1 is localised to the nucleus in breast cancer cells it interacts with epidermal growth factor receptor (EGFR), facilitating chromatin binding and thereby rewiring oncogenic pathways (Figure 1D). Therefore, specific biochemical and experimental strategies need to be designed to investigate multilocalising protein interactome networks as they can interact with a range of protein classes as they shuttle between different compartments.",
+        "annotations": [
+            {
+                "entity_text": "HER2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3273"
+            },
+            {
+                "entity_text": "alpha-enolase",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "134343"
+            },
+            {
+                "entity_text": "ENO1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "134343"
+            },
+            {
+                "entity_text": "phosphatidylinositol 3-kinase",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "7889"
+            },
+            {
+                "entity_text": "PI3K",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "7889"
+            },
+            {
+                "entity_text": "protein kinase B",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "23001"
+            },
+            {
+                "entity_text": "AKT",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3785"
+            },
+            {
+                "entity_text": "mucin-1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136477"
+            },
+            {
+                "entity_text": "MUC1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136477"
+            },
+            {
+                "entity_text": "epidermal growth factor receptor",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "74545"
+            },
+            {
+                "entity_text": "EGFR",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "74545"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "14": {
+        "text": "A cancer-focused human PPI workflow. A flowchart of the recommended procedures for systematic analysis of normPPIs and oncoPPIs. In Phase I, patient-derived tumour and normal tissue samples are used to generate cancer and normal cell lines as well as organoids; liver and pancreas have been depicted as examples. In Phase II, two different approaches can be chosen. First, a targeted approach where well-characterised oncoproteins are used to capture interactions in both patient-derived cancer and normal cells and organoids using AP-MS and PL-MS approaches. Second, an alternative approach can be undertaken on a proteome-wide scale using XL-MS, which can provide a picture of vicinal proteins within 30 A. Phase II will define normPPIs and oncoPPIs in a stepwise manner. The novel normPPIs identified herein are reported to interactome repositories but oncoPPIs are further processed to characterise physical interactions. Physically interacting oncoproteins are subjected to structural analysis for rational drug design. In Phase III, a range of drug discovery approaches are employed to find small molecules that inhibit oncogenic interactions. Functional characterisation of drugs can be done in a personalised manner on the organoids from the same patient",
+        "annotations": [
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "15": {
+        "text": "Over the past decades, numerous methods have been used to transform a range of patient cancer samples into immortalised cell lines for studies. Tumour-derived cell lines are regularly used in pharmacogenomics and cancer biology to investigate biological pathways underlying tumour initiation and development. Integrated analysis of proteogenomics data generated from hundreds of model cell lines have greatly enhanced our understanding of the molecular mechanisms underlying cancer development. Data generated from cell lines complement the large scale cancer genomics data generated from patient samples. Cell lines offer several advantages including ease of maintenance and proliferation in cell culture with low cost and are amenable to high-throughput screening (HTS) of anticancer therapeutics. Therefore, establishing cell lines from patient samples would provide an important first step in mapping and identifying potential oncoPPI networks (Figure 2).",
+        "annotations": [
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "16": {
+        "text": "In addition, patient-derived organoids, which are three-dimensional structures with the capacity to self-organise into \"miniorgans\" resembling the tissue of origin, have been established in various cancers (Table 1). Importantly, organoids maintain key cellular hierarchy and function, and can genetically and phenotypically recapitulate the host cancer, with which therapeutic responses can potentially be predicted. Their use as a cancer model for studying protein interactions as well as for screening oncoPPI inhibitors has so far been underutilised but show great potential for precision/personalised medicine. Small-scale studies using patient-derived colorectal cancer organoids has identified different proteomic signatures in all patients studied, highlighting the importance of PPI characterisation for personalised therapy. In another study, autophagy impairment and disrupted pathways in Paneth cells was studied using mouse tumour organoids using computational PPI networks. Mouse tumour organoids have also been used for functional validation of PPI inhibitors, Poloppin and Poloppin-II, which inhibit Polo-like kinase interactions. Although patient-derived organoids are technically challenging and costly, the ability to gain a more clinically relevant understanding of a patient's tumour outweighs these challenges in the search for effective targeted therapies.",
+        "annotations": [
+            {
+                "entity_text": "colorectal cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D015179"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "17": {
+        "text": "Tumour site Tumour Normal Reference   Colorectal 22 19    32 18    52 41    Rectum 65 51    Pancreas 8 (2)    114 (11)(19a)    39 (10a)    52 (5)    Stomach 37 7    20 4    46 17    7 4    10 8    43 34    Prostate 7 2a    Breast 56 18     95 5    Oesophagus 15 12    10 1    Oral mucosa 25 9    Endometrium 14 662a    Kidney 54 47",
+        "annotations": [
+            {
+                "entity_text": "Stomach",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013272"
+            },
+            {
+                "entity_text": "Tumour site Tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "18": {
+        "text": "A set of master oncogenes or tumour suppressors are selected for further characterisation in paired patient-derived normal and cancer cells or organoids (Figure 2). Depending on the protein of interest's function and localisation either AP-MS or proximity labelling (PL)-MS can be chosen.",
+        "annotations": [
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "19": {
+        "text": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID.",
+        "annotations": [
+            {
+                "entity_text": "myc",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "HRAS",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55890"
+            },
+            {
+                "entity_text": "KRAS",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "37990"
+            },
+            {
+                "entity_text": "NRAS",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55661"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "pancreatic cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010190"
+            }
+        ]
+    },
+    "20": {
+        "text": "Engineered peroxidase and biotin ligase enzymes are now routinely applied to proximity labelling of protein interactions. These include proximity-dependent biotin-identification (BioID) and ascorbate peroxidase (APEX)-based methods or derivatives of these. These approaches were initially developed to overcome the limitations of AP-MS approaches, in which mild lysis conditions may limit protein solubility and therefore accessibility. Furthermore, weak and transient interactions, especially interactions involved in cell signalling, may remain undetected. Therefore PL-MS is very useful to identify highly dynamic interactions that occur in various biological processes such as the cell cycle, transcription and translation initiation, elongation and termination. BioID, the most widely used approach over the past decade utilises engineered BirA enzymes that are covalently linked to a protein of interest to catalyse the conversion of biotin and ATP into highly reactive biotinoyl-5'-AMP molecules which bind lysine residues on neighbouring proteins. Proteins within a 10 nm radius are labelled depending on the type of fused BirA enzyme and duration. Most recently, a BioID-based approach was used to define the interaction map for 4000 proteins within various intracellular compartments highlighting BioID as a powerful tool for profiling PPIs in different organelles and compartments of live cells.",
+        "annotations": [
+            {
+                "entity_text": "ATP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000255"
+            },
+            {
+                "entity_text": "lysine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008239"
+            },
+            {
+                "entity_text": "biotin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001710"
+            },
+            {
+                "entity_text": "biotinoyl-5'-AMP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C082099"
+            }
+        ]
+    },
+    "21": {
+        "text": "In mammalian cells, most signal transduction pathways are characterised by weak PPIs that typically occur between globular peptide binding domains (PBDs) of proteins with short, disordered peptide stretches. Over 1800 PBDs have been reported, which indicate their diversity and importance in mediating transient interactions. Dissecting diversity, low binding affinities and the sensitivity of binding properties to minor sequence variation represent major challenges. In cancer, somatic mutations can commonly occur in PBD-containing proteins and many of these proteins are drug targets. BioID could be an ideal method to study the transient interactome of oncoproteins containing PBDs in different cancers.",
+        "annotations": [
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "22": {
+        "text": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+        "annotations": [
+            {
+                "entity_text": "SOX2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "68298"
+            },
+            {
+                "entity_text": "EP300",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1094"
+            },
+            {
+                "entity_text": "KRAS",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "37990"
+            },
+            {
+                "entity_text": "PIP5K1A",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "93492"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "squamous cell carcinoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002294"
+            },
+            {
+                "entity_text": "lung cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008175"
+            },
+            {
+                "entity_text": "pancreatic cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010190"
+            }
+        ]
+    },
+    "23": {
+        "text": "Tumours acquire a chemoresistance phenotype by acquiring new protein interactions and conformations. The ability to define interaction networks that drive chemoresistance will provide invaluable insights for developing new therapies and strategies for various drug-resistant cancers. Chemotherapy remains the standard of care treatment for many cancers. Despite significant advancements in cancer therapy, resistance to chemotherapy frequently occurs and is responsible for poor patient outcomes and cancer relapse. XL-MS has successfully been used to investigate proteome dynamics and interactions in drug-sensitive and -resistant HeLa cells. This supports using the XL-MS approach to study protein interaction networks in a proteome scale in normal and paired cancer cell lines (Figure 2).",
+        "annotations": [
+            {
+                "entity_text": "Tumours",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "24": {
+        "text": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+        "annotations": [
+            {
+                "entity_text": "BCL-2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "527"
+            },
+            {
+                "entity_text": "Bax",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "7242"
+            },
+            {
+                "entity_text": "MDM2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1793"
+            },
+            {
+                "entity_text": "p53",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "460"
+            },
+            {
+                "entity_text": "LFA1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1666"
+            },
+            {
+                "entity_text": "ICAM1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "168"
+            },
+            {
+                "entity_text": "Beta-catenin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1434"
+            },
+            {
+                "entity_text": "Caspase 9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31024"
+            },
+            {
+                "entity_text": "XIAP",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "901"
+            },
+            {
+                "entity_text": "myelodysplastic syndromes",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009190"
+            },
+            {
+                "entity_text": "NVP-CGM097",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C000602644"
+            },
+            {
+                "entity_text": "lymphomas",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008223"
+            },
+            {
+                "entity_text": "lymphoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008223"
+            },
+            {
+                "entity_text": "Coronary artery disease",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D003324"
+            },
+            {
+                "entity_text": "KRT 232",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C588087"
+            },
+            {
+                "entity_text": "RVX-",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C451779"
+            },
+            {
+                "entity_text": "Myelofibrosis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D055728"
+            },
+            {
+                "entity_text": "Neoplasm malignant",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Liver cirrhosis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008103"
+            },
+            {
+                "entity_text": "solid tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "neoplasms",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Solid tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumours",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Haematologic malignancies",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Chronic lymphocytic leukaemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D015461"
+            },
+            {
+                "entity_text": "CPI-0610",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C000623150"
+            },
+            {
+                "entity_text": "Chronic myeloid leukaemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D015451"
+            },
+            {
+                "entity_text": "Neoplasms",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Acute myeloid leukaemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D054218"
+            },
+            {
+                "entity_text": "NUT midline carcinoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C538667"
+            },
+            {
+                "entity_text": "ABT199",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C579720"
+            }
+        ]
+    },
+    "25": {
+        "text": "Both industry and academia have successfully used HTS technology for screening libraries of different chemical compounds for drug discovery purposes. Lead compounds identified in HTS screens can be further modified to enhance the specificity and affinity in binding to their target. Compounds identified in HTS screens have been shown to best target PPIs mediated through helix-groove interactions, where a helical region of a protein binds to the groove of the second protein (eg, p53-MDM2 complex). Recent advancements in technology and screening have also identified binders for nonhelix-groove interactions. For example, the XIAP-caspase-9 complex involved in early-stage regulation of the apoptosis cascade is an extended nonhelical-groove interaction and targeted by small molecules discovered from HTS studies (Table 2).",
+        "annotations": [
+            {
+                "entity_text": "p53",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "460"
+            },
+            {
+                "entity_text": "MDM2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1793"
+            },
+            {
+                "entity_text": "XIAP",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "901"
+            },
+            {
+                "entity_text": "caspase-9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31024"
+            }
+        ]
+    },
+    "26": {
+        "text": "The fragment-based drug discovery (FBDD) method has successfully been employed for intractable biological targets such as PPI interfaces. FBDD is a powerful approach to develop effective small molecule compounds starting from weakly binding fragments. In this method, fragment hits (100-300 Da) with low affinity for the target protein are identified by screening libraries of synthetic or natural product low molecular weight (<300 Da) compounds. Through chemical modifications, the identified fragment hits are further developed into drug-like molecules with higher affinity. Recently, dozens of FBDD-based drugs have entered clinical trials and two have received Food and Drug Administration approval. Using FBDD, PPI inhibitors for oncogenic interfaces such as XIAP-caspase 9, and RAD51-BRCA2 complexes have been developed (Table 2).",
+        "annotations": [
+            {
+                "entity_text": "XIAP",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "901"
+            },
+            {
+                "entity_text": "caspase 9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31024"
+            },
+            {
+                "entity_text": "RAD51",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2155"
+            },
+            {
+                "entity_text": "BRCA2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "41"
+            }
+        ]
+    },
+    "27": {
+        "text": "Cancer patients exhibit widespread tumour heterogeneity, which drives an urgent need for precision and personalised treatments. Genomic characterisation of human tumours has led to the generation of vast amounts of high-resolution sequencing data. These data have enabled identification of many cancer-driver genes that are involved in the initiation and progression of tumour cells. However, it remains a challenging task to determine how these genomic signatures can be exploited to develop new therapies. Most cancer-driver genes or oncogenes, discovered to date, are essential for cell growth and maintenance pathways in both healthy and disease states. Therefore, exploiting them as new drug targets may result in adverse effects by perturbing normal physiological pathways. Given that proteins exert their function mostly through interaction with other proteins, it is highly plausible that targeting cancer-specific oncoPPIs could be a more advantageous approach which may result in a better clinical outcome with minimal side effects. Thus, a focus on generating a comprehensive map of the oncoPPI networks for various human cancers will stimulate targeted drug discovery efforts and will shed more insight into protein networks governing tumour growth.",
+        "annotations": [
+            {
+                "entity_text": "tumour",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumours",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    }
+}

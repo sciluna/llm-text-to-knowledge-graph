@@ -1,0 +1,1072 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 60,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 40,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "Neoplasms",
+                    "name": "path(MESHD:Neoplasms)",
+                    "bel_expression": "path(MESHD:Neoplasms) increases bp(GOBP:\"oncogenic protein-protein interactions\")",
+                    "evidence": "Normal protein-protein interactions (normPPIs) occur with high fidelity to regulate almost every physiological process. In cancer, this highly organised and precisely regulated network is disrupted, hijacked or reprogrammed resulting in oncogenic protein-protein interactions (oncoPPIs). OncoPPIs, which can result from genomic alterations, are a hallmark of many types of cancers. Recent technological advances in the field of mass spectrometry (MS)-based interactomics, structural biology and drug discovery have prompted scientists to identify and characterise oncoPPIs. Disruption of oncoPPI interfaces has become a major focus of drug discovery programs and has resulted in the use of PPI-specific drugs clinically. However, due to several technical hurdles, studies to build a reference oncoPPI map for various cancer types have not been undertaken. Therefore, there is an urgent need for experimental workflows to overcome the existing challenges in studying oncoPPIs in various cancers and to build comprehensive reference maps. Here, we discuss the important hurdles for characterising oncoPPIs and propose a three-phase multidisciplinary workflow to identify and characterise oncoPPIs. Systematic identification of cancer-type-specific oncogenic interactions will spur new opportunities for PPI-focused drug discovery projects and precision medicine.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "oncogenic protein-protein interactions",
+                    "name": "bp(GOBP:\"oncogenic protein-protein interactions\")",
+                    "bel_expression": "path(MESHD:Neoplasms) increases bp(GOBP:\"oncogenic protein-protein interactions\")",
+                    "evidence": "Normal protein-protein interactions (normPPIs) occur with high fidelity to regulate almost every physiological process. In cancer, this highly organised and precisely regulated network is disrupted, hijacked or reprogrammed resulting in oncogenic protein-protein interactions (oncoPPIs). OncoPPIs, which can result from genomic alterations, are a hallmark of many types of cancers. Recent technological advances in the field of mass spectrometry (MS)-based interactomics, structural biology and drug discovery have prompted scientists to identify and characterise oncoPPIs. Disruption of oncoPPI interfaces has become a major focus of drug discovery programs and has resulted in the use of PPI-specific drugs clinically. However, due to several technical hurdles, studies to build a reference oncoPPI map for various cancer types have not been undertaken. Therefore, there is an urgent need for experimental workflows to overcome the existing challenges in studying oncoPPIs in various cancers and to build comprehensive reference maps. Here, we discuss the important hurdles for characterising oncoPPIs and propose a three-phase multidisciplinary workflow to identify and characterise oncoPPIs. Systematic identification of cancer-type-specific oncogenic interactions will spur new opportunities for PPI-focused drug discovery projects and precision medicine.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "molecular function",
+                    "name": "bp(GOBP:\"molecular function\")",
+                    "bel_expression": "bp(GOBP:\"molecular function\") increases bp(GOBP:\"oncogenic protein-protein interaction\")",
+                    "evidence": "Multimodal combinations of radiotherapy, surgery, biologicals and chemotherapy have become the mainstay of cancer therapeutics. These modalities often lack selectivity which can lead to adverse effects such as chemotherapy-induced cardiotoxicity. Quality of life in surviving patients is thereby compromised. In contrast, targeted molecular therapies offer a great potential to combat various cancer types with minimal harm to normal cells or organs. The main purpose of molecular therapy in oncology is to target specific biological pathways activated by oncoproteins in tumour cells. Oncoproteins are involved in various signalling pathways and mediate a large number of oncogenic protein-protein interactions (oncoPPIs). OncoPPI interfaces offer great potential for rational drug development and targeted cancer therapy.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "oncogenic protein-protein interaction",
+                    "name": "bp(GOBP:\"oncogenic protein-protein interaction\")",
+                    "bel_expression": "bp(GOBP:\"molecular function\") increases bp(GOBP:\"oncogenic protein-protein interaction\")",
+                    "evidence": "Multimodal combinations of radiotherapy, surgery, biologicals and chemotherapy have become the mainstay of cancer therapeutics. These modalities often lack selectivity which can lead to adverse effects such as chemotherapy-induced cardiotoxicity. Quality of life in surviving patients is thereby compromised. In contrast, targeted molecular therapies offer a great potential to combat various cancer types with minimal harm to normal cells or organs. The main purpose of molecular therapy in oncology is to target specific biological pathways activated by oncoproteins in tumour cells. Oncoproteins are involved in various signalling pathways and mediate a large number of oncogenic protein-protein interactions (oncoPPIs). OncoPPI interfaces offer great potential for rational drug development and targeted cancer therapy.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "Cancer",
+                    "name": "path(MESHD:Cancer)",
+                    "bel_expression": "path(MESHD:Cancer) increases bp(GOBP:\"gene dysregulation\")",
+                    "evidence": "Cancer is a highly complex disease featuring complex genotypes and gene dysregulation, which can result in the formation of complex oncogenic interaction networks. Better understanding of the composition of protein interaction networks of each cancer will greatly enhance our molecular understanding of cancer biology and provide us with the ability to improve patient outcomes through precision and personalised medicine. Efforts to map oncoPPI networks have already been initiated, for example, lung cancer-specific oncoPPI networks (~400 PPIs) have been generated on a small-scale for a few well-known cancer genes.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "gene dysregulation",
+                    "name": "bp(GOBP:\"gene dysregulation\")",
+                    "bel_expression": "path(MESHD:Cancer) increases bp(GOBP:\"gene dysregulation\")",
+                    "evidence": "Cancer is a highly complex disease featuring complex genotypes and gene dysregulation, which can result in the formation of complex oncogenic interaction networks. Better understanding of the composition of protein interaction networks of each cancer will greatly enhance our molecular understanding of cancer biology and provide us with the ability to improve patient outcomes through precision and personalised medicine. Efforts to map oncoPPI networks have already been initiated, for example, lung cancer-specific oncoPPI networks (~400 PPIs) have been generated on a small-scale for a few well-known cancer genes.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "oncogenic interaction network formation",
+                    "name": "bp(GOBP:\"oncogenic interaction network formation\")",
+                    "bel_expression": "path(MESHD:Cancer) increases bp(GOBP:\"oncogenic interaction network formation\")",
+                    "evidence": "Cancer is a highly complex disease featuring complex genotypes and gene dysregulation, which can result in the formation of complex oncogenic interaction networks. Better understanding of the composition of protein interaction networks of each cancer will greatly enhance our molecular understanding of cancer biology and provide us with the ability to improve patient outcomes through precision and personalised medicine. Efforts to map oncoPPI networks have already been initiated, for example, lung cancer-specific oncoPPI networks (~400 PPIs) have been generated on a small-scale for a few well-known cancer genes.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "KRAS",
+                    "name": "p(HGNC:KRAS)",
+                    "bel_expression": "p(HGNC:KRAS) association path(MESHD:Cancer)",
+                    "evidence": "The protein interaction networks of oncoproteins which are referred to as \"oncoPPIs\" first appeared in the literature in 1997. Since then, these terms have been used in many publications mostly for well-known oncoproteins (eg, KRAS) and tumour suppressors (eg, P53), which are categorised as cancer genes in many cancers. Recent large-scale genome-wide analysis of 33 different cancer types involving 10 000 tumour samples reported that 55% (ie, 142 out of 258) of cancer genes and their mutations are associated with a single cancer. This strongly suggests that oncoPPI networks could be unique for many cancer types as their cancer driver genes and genomic alterations vary. Here, we define oncoPPIs as any direct PPIs that arise from genomic alterations in tumour cells. Identification and characterisation of oncoPPIs for each cancer can guide targeted molecular therapies and precision medicine. In the following sections, we discuss the genomic alterations and approaches to build reference oncoPPI maps for various cancers.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "TP53",
+                    "name": "p(HGNC:TP53)",
+                    "bel_expression": "p(HGNC:TP53) association path(MESHD:Cancer)",
+                    "evidence": "The protein interaction networks of oncoproteins which are referred to as \"oncoPPIs\" first appeared in the literature in 1997. Since then, these terms have been used in many publications mostly for well-known oncoproteins (eg, KRAS) and tumour suppressors (eg, P53), which are categorised as cancer genes in many cancers. Recent large-scale genome-wide analysis of 33 different cancer types involving 10 000 tumour samples reported that 55% (ie, 142 out of 258) of cancer genes and their mutations are associated with a single cancer. This strongly suggests that oncoPPI networks could be unique for many cancer types as their cancer driver genes and genomic alterations vary. Here, we define oncoPPIs as any direct PPIs that arise from genomic alterations in tumour cells. Identification and characterisation of oncoPPIs for each cancer can guide targeted molecular therapies and precision medicine. In the following sections, we discuss the genomic alterations and approaches to build reference oncoPPI maps for various cancers.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "MYC",
+                    "name": "g(HGNC:MYC)",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "apoptotic process",
+                    "name": "bp(GOBP:\"apoptotic process\")",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "cell proliferation",
+                    "name": "bp(GOBP:\"cell proliferation\")",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"cell proliferation\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "CTCF",
+                    "name": "p(HGNC:CTCF)",
+                    "bel_expression": "p(HGNC:CTCF) decreases bp(GOBP:\"genome organization\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "genome organization",
+                    "name": "bp(GOBP:\"genome organization\")",
+                    "bel_expression": "p(HGNC:CTCF) decreases bp(GOBP:\"genome organization\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "MUC1",
+                    "name": "p(HGNC:MUC1)",
+                    "bel_expression": "p(HGNC:MUC1) increases complex(p(HGNC:EGFR)",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "EGFR",
+                    "name": "complex(p(HGNC:EGFR)",
+                    "bel_expression": "p(HGNC:MUC1) increases complex(p(HGNC:EGFR)",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "Neoplasms",
+                    "name": "a(MESHD:\"Neoplasms\")",
+                    "bel_expression": "a(MESHD:\"Neoplasms\") increases bp(GOBP:\"protein-protein interaction disruption\")",
+                    "evidence": "Analysis of pan-cancer genome studies show that noncoding mutations are less frequent than coding mutations. About 91% of tumours carry at least one driver mutation, with an average of 2.6 coding mutations per tumour. The number of large-scale studies reporting the effects of coding mutations on disease-specific PPI networks has increased rapidly. A recent comprehensive investigation of over 10 000 tumour exomes demonstrated that disease-associated germline variants as well as somatic missense mutations are significantly enriched in PPI interfaces compared to germline variants found in healthy individuals. Further characterisation of some of the variants confirmed that disease-associated variants disrupt PPIs and regulate tumour growth. In a large-scale study using the binary Y2H system, PPIs were assessed for ~2500 pathogenic missense mutations. Approximately, 70% of the missense mutations had no effect on protein stability and folding, however half of these mutations resulted in edgetic perturbation. In a comprehensive assessment of somatic missense mutations within 304 cancer-specific PPI interfaces for which structural data was available, 16 interfaces (~5%) were disrupted.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "protein-protein interaction disruption",
+                    "name": "bp(GOBP:\"protein-protein interaction disruption\")",
+                    "bel_expression": "a(MESHD:\"Neoplasms\") increases bp(GOBP:\"protein-protein interaction disruption\")",
+                    "evidence": "Analysis of pan-cancer genome studies show that noncoding mutations are less frequent than coding mutations. About 91% of tumours carry at least one driver mutation, with an average of 2.6 coding mutations per tumour. The number of large-scale studies reporting the effects of coding mutations on disease-specific PPI networks has increased rapidly. A recent comprehensive investigation of over 10 000 tumour exomes demonstrated that disease-associated germline variants as well as somatic missense mutations are significantly enriched in PPI interfaces compared to germline variants found in healthy individuals. Further characterisation of some of the variants confirmed that disease-associated variants disrupt PPIs and regulate tumour growth. In a large-scale study using the binary Y2H system, PPIs were assessed for ~2500 pathogenic missense mutations. Approximately, 70% of the missense mutations had no effect on protein stability and folding, however half of these mutations resulted in edgetic perturbation. In a comprehensive assessment of somatic missense mutations within 304 cancer-specific PPI interfaces for which structural data was available, 16 interfaces (~5%) were disrupted.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "RABL3",
+                    "name": "p(NCBI Gene:RABL3)",
+                    "bel_expression": "p(NCBI Gene:RABL3) increases complex(p(NCBI Gene:RABL3)",
+                    "evidence": "In a recent report in hereditary pancreatic cancer, it was shown that a truncated RAB-like protein 3 (RABL3) mutant markedly increased its binding affinity to RAP1 GTPase-GDP dissociation stimulator 1 (RAP1GDS1) protein, a chaperon involved in prenylation of RAS GTPases. Consequently, the RAS signalling pathway was disrupted leading to enhanced cell proliferation and tumour growth. In another study, it was shown that a missense mutation, R183W, in serine/threonine-protein phosphatase 2A regulatory subunit 1A (PPP2R1A) disrupted its binding to the canonical subunits of the PP2A complex B module, including B55 and B56 proteins, and abrogated growth suppressive effects. However, mutant PPP2R1A also exhibited increased binding to striatin subunit family members, demonstrating that a missense mutation can confer both loss- and gain-of-function phenotypes.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "RABL3",
+                    "name": "complex(p(NCBI Gene:RABL3)",
+                    "bel_expression": "p(NCBI Gene:RABL3) increases complex(p(NCBI Gene:RABL3)",
+                    "evidence": "In a recent report in hereditary pancreatic cancer, it was shown that a truncated RAB-like protein 3 (RABL3) mutant markedly increased its binding affinity to RAP1 GTPase-GDP dissociation stimulator 1 (RAP1GDS1) protein, a chaperon involved in prenylation of RAS GTPases. Consequently, the RAS signalling pathway was disrupted leading to enhanced cell proliferation and tumour growth. In another study, it was shown that a missense mutation, R183W, in serine/threonine-protein phosphatase 2A regulatory subunit 1A (PPP2R1A) disrupted its binding to the canonical subunits of the PP2A complex B module, including B55 and B56 proteins, and abrogated growth suppressive effects. However, mutant PPP2R1A also exhibited increased binding to striatin subunit family members, demonstrating that a missense mutation can confer both loss- and gain-of-function phenotypes.",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "TERT",
+                    "name": "g(HGNC:TERT)",
+                    "bel_expression": "g(HGNC:TERT) increases path(MESHD:Neoplasms)",
+                    "evidence": "Many cancers from diverse tissues exhibit dysregulated gene expression despite no significant genomic alterations in the protein coding region of the differentially expressed genes. Single nucleotide variants within cis-regulatory regions of cancer genes have been shown to greatly modulate gene expression in a range of cancers. These mutations can lead to transcriptional activation or repression of the target genes. For example, the promoter region of telomerase reverse transcriptase (TERT) is frequently mutated in a range of cancers and linked to increased tumour growth and metastasis (Figure 1B). Genomic alterations can also occur in trans-regulatory elements, distant from cis-regulatory elements of the given cancer genes. For instance, mutations or structural variations in DNA motifs bound by genome-organising proteins, such as CCCTC-binding factor (CTCF) and cohesin, or transcription factors, indirectly lead to the dysregulation of many genes in various cancers (Figure 1C). Mutations that occur within topologically associating domain (TAD) boundaries or in enhancer and insulator regions can result in coordinated dysregulation of a cluster of neighbouring genes located within the same TAD. Mutations in CTCF itself, and other genome organising proteins such as the cohesin subunit STAG2, can have a similar impact.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "CTCF",
+                    "name": "g(HGNC:CTCF)",
+                    "bel_expression": "g(HGNC:CTCF) regulates g(HGNC:STAG2)",
+                    "evidence": "Many cancers from diverse tissues exhibit dysregulated gene expression despite no significant genomic alterations in the protein coding region of the differentially expressed genes. Single nucleotide variants within cis-regulatory regions of cancer genes have been shown to greatly modulate gene expression in a range of cancers. These mutations can lead to transcriptional activation or repression of the target genes. For example, the promoter region of telomerase reverse transcriptase (TERT) is frequently mutated in a range of cancers and linked to increased tumour growth and metastasis (Figure 1B). Genomic alterations can also occur in trans-regulatory elements, distant from cis-regulatory elements of the given cancer genes. For instance, mutations or structural variations in DNA motifs bound by genome-organising proteins, such as CCCTC-binding factor (CTCF) and cohesin, or transcription factors, indirectly lead to the dysregulation of many genes in various cancers (Figure 1C). Mutations that occur within topologically associating domain (TAD) boundaries or in enhancer and insulator regions can result in coordinated dysregulation of a cluster of neighbouring genes located within the same TAD. Mutations in CTCF itself, and other genome organising proteins such as the cohesin subunit STAG2, can have a similar impact.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "STAG2",
+                    "name": "g(HGNC:STAG2)",
+                    "bel_expression": "g(HGNC:CTCF) regulates g(HGNC:STAG2)",
+                    "evidence": "Many cancers from diverse tissues exhibit dysregulated gene expression despite no significant genomic alterations in the protein coding region of the differentially expressed genes. Single nucleotide variants within cis-regulatory regions of cancer genes have been shown to greatly modulate gene expression in a range of cancers. These mutations can lead to transcriptional activation or repression of the target genes. For example, the promoter region of telomerase reverse transcriptase (TERT) is frequently mutated in a range of cancers and linked to increased tumour growth and metastasis (Figure 1B). Genomic alterations can also occur in trans-regulatory elements, distant from cis-regulatory elements of the given cancer genes. For instance, mutations or structural variations in DNA motifs bound by genome-organising proteins, such as CCCTC-binding factor (CTCF) and cohesin, or transcription factors, indirectly lead to the dysregulation of many genes in various cancers (Figure 1C). Mutations that occur within topologically associating domain (TAD) boundaries or in enhancer and insulator regions can result in coordinated dysregulation of a cluster of neighbouring genes located within the same TAD. Mutations in CTCF itself, and other genome organising proteins such as the cohesin subunit STAG2, can have a similar impact.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "MECOM",
+                    "name": "g(HGNC:MECOM)",
+                    "bel_expression": "g(HGNC:MECOM) increases p(HGNC:MECOM)",
+                    "evidence": "In gastrointestinal cancer, a CTCF-binding motif on chromosome 6 is disrupted by mutations at TAD boundaries flanking centromere protein Q (CENPQ) and methylmalonyl-CoA mutase (MUT) genes (Figure 1C). In acute myeloid leukaemia, the oncogenic MDS1 and EVI1 Complex Locus (MECOM) protein is activated due to a genomic inversion event that occurs in neighbouring TADs which disrupts CTCF-mediated genome organisation. Such aberrant activation of proteins can potentiate illicit oncoPPIs and redefine the oncogenic potential of cancer cells. As another example, the aberrant expression of CTCF-like (CTCFL), a paralogue of CTCF, in treatment-resistant neuroblastoma alters genome folding and leads to the formation of superenhancers that consequently activate proneural proteins and promote a resistance phenotype. Another example is the bromodomain (BRD)-containing protein family members, which are readers of lysine acetylation, that are highly elevated in many cancers. BRD4 overexpression leads to the formation of an oncogenic complex with positive transcription elongation factor (p-TEFb) leading to activation of RNA Polymerase II (RNAPII) at late mitosis.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "MECOM",
+                    "name": "p(HGNC:MECOM)",
+                    "bel_expression": "g(HGNC:MECOM) increases p(HGNC:MECOM)",
+                    "evidence": "In gastrointestinal cancer, a CTCF-binding motif on chromosome 6 is disrupted by mutations at TAD boundaries flanking centromere protein Q (CENPQ) and methylmalonyl-CoA mutase (MUT) genes (Figure 1C). In acute myeloid leukaemia, the oncogenic MDS1 and EVI1 Complex Locus (MECOM) protein is activated due to a genomic inversion event that occurs in neighbouring TADs which disrupts CTCF-mediated genome organisation. Such aberrant activation of proteins can potentiate illicit oncoPPIs and redefine the oncogenic potential of cancer cells. As another example, the aberrant expression of CTCF-like (CTCFL), a paralogue of CTCF, in treatment-resistant neuroblastoma alters genome folding and leads to the formation of superenhancers that consequently activate proneural proteins and promote a resistance phenotype. Another example is the bromodomain (BRD)-containing protein family members, which are readers of lysine acetylation, that are highly elevated in many cancers. BRD4 overexpression leads to the formation of an oncogenic complex with positive transcription elongation factor (p-TEFb) leading to activation of RNA Polymerase II (RNAPII) at late mitosis.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "BRD4",
+                    "name": "p(HGNC:BRD4)",
+                    "bel_expression": "p(HGNC:BRD4) increases complex(p(HGNC:BRD4)",
+                    "evidence": "In gastrointestinal cancer, a CTCF-binding motif on chromosome 6 is disrupted by mutations at TAD boundaries flanking centromere protein Q (CENPQ) and methylmalonyl-CoA mutase (MUT) genes (Figure 1C). In acute myeloid leukaemia, the oncogenic MDS1 and EVI1 Complex Locus (MECOM) protein is activated due to a genomic inversion event that occurs in neighbouring TADs which disrupts CTCF-mediated genome organisation. Such aberrant activation of proteins can potentiate illicit oncoPPIs and redefine the oncogenic potential of cancer cells. As another example, the aberrant expression of CTCF-like (CTCFL), a paralogue of CTCF, in treatment-resistant neuroblastoma alters genome folding and leads to the formation of superenhancers that consequently activate proneural proteins and promote a resistance phenotype. Another example is the bromodomain (BRD)-containing protein family members, which are readers of lysine acetylation, that are highly elevated in many cancers. BRD4 overexpression leads to the formation of an oncogenic complex with positive transcription elongation factor (p-TEFb) leading to activation of RNA Polymerase II (RNAPII) at late mitosis.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "BRD4",
+                    "name": "complex(p(HGNC:BRD4)",
+                    "bel_expression": "p(HGNC:BRD4) increases complex(p(HGNC:BRD4)",
+                    "evidence": "In gastrointestinal cancer, a CTCF-binding motif on chromosome 6 is disrupted by mutations at TAD boundaries flanking centromere protein Q (CENPQ) and methylmalonyl-CoA mutase (MUT) genes (Figure 1C). In acute myeloid leukaemia, the oncogenic MDS1 and EVI1 Complex Locus (MECOM) protein is activated due to a genomic inversion event that occurs in neighbouring TADs which disrupts CTCF-mediated genome organisation. Such aberrant activation of proteins can potentiate illicit oncoPPIs and redefine the oncogenic potential of cancer cells. As another example, the aberrant expression of CTCF-like (CTCFL), a paralogue of CTCF, in treatment-resistant neuroblastoma alters genome folding and leads to the formation of superenhancers that consequently activate proneural proteins and promote a resistance phenotype. Another example is the bromodomain (BRD)-containing protein family members, which are readers of lysine acetylation, that are highly elevated in many cancers. BRD4 overexpression leads to the formation of an oncogenic complex with positive transcription elongation factor (p-TEFb) leading to activation of RNA Polymerase II (RNAPII) at late mitosis.",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "mutation",
+                    "name": "bp(GOBP:\"mutation\")",
+                    "bel_expression": "bp(GOBP:\"mutation\") increases bp(GOBP:\"protein-protein interaction\")",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "protein-protein interaction",
+                    "name": "bp(GOBP:\"protein-protein interaction\")",
+                    "bel_expression": "bp(GOBP:\"mutation\") increases bp(GOBP:\"protein-protein interaction\")",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "gene expression regulation",
+                    "name": "bp(GOBP:\"gene expression regulation\")",
+                    "bel_expression": "bp(GOBP:\"mutation\") increases bp(GOBP:\"gene expression regulation\")",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "tumor growth",
+                    "name": "bp(GOBP:\"tumor growth\")",
+                    "bel_expression": "bp(GOBP:\"protein-protein interaction\") increases bp(GOBP:\"tumor growth\")",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "metastasis",
+                    "name": "bp(GOBP:metastasis)",
+                    "bel_expression": "bp(GOBP:\"protein-protein interaction\") increases bp(GOBP:metastasis)",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "Poloppin",
+                    "name": "a(CHEMBL:Poloppin)",
+                    "bel_expression": "a(CHEMBL:Poloppin) directlyDecreases complex(p(MGI:Plk1)",
+                    "evidence": "In addition, patient-derived organoids, which are three-dimensional structures with the capacity to self-organise into \"miniorgans\" resembling the tissue of origin, have been established in various cancers (Table 1). Importantly, organoids maintain key cellular hierarchy and function, and can genetically and phenotypically recapitulate the host cancer, with which therapeutic responses can potentially be predicted. Their use as a cancer model for studying protein interactions as well as for screening oncoPPI inhibitors has so far been underutilised but show great potential for precision/personalised medicine. Small-scale studies using patient-derived colorectal cancer organoids has identified different proteomic signatures in all patients studied, highlighting the importance of PPI characterisation for personalised therapy. In another study, autophagy impairment and disrupted pathways in Paneth cells was studied using mouse tumour organoids using computational PPI networks. Mouse tumour organoids have also been used for functional validation of PPI inhibitors, Poloppin and Poloppin-II, which inhibit Polo-like kinase interactions. Although patient-derived organoids are technically challenging and costly, the ability to gain a more clinically relevant understanding of a patient's tumour outweighs these challenges in the search for effective targeted therapies.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "Plk1",
+                    "name": "complex(p(MGI:Plk1)",
+                    "bel_expression": "a(CHEMBL:Poloppin) directlyDecreases complex(p(MGI:Plk1)",
+                    "evidence": "In addition, patient-derived organoids, which are three-dimensional structures with the capacity to self-organise into \"miniorgans\" resembling the tissue of origin, have been established in various cancers (Table 1). Importantly, organoids maintain key cellular hierarchy and function, and can genetically and phenotypically recapitulate the host cancer, with which therapeutic responses can potentially be predicted. Their use as a cancer model for studying protein interactions as well as for screening oncoPPI inhibitors has so far been underutilised but show great potential for precision/personalised medicine. Small-scale studies using patient-derived colorectal cancer organoids has identified different proteomic signatures in all patients studied, highlighting the importance of PPI characterisation for personalised therapy. In another study, autophagy impairment and disrupted pathways in Paneth cells was studied using mouse tumour organoids using computational PPI networks. Mouse tumour organoids have also been used for functional validation of PPI inhibitors, Poloppin and Poloppin-II, which inhibit Polo-like kinase interactions. Although patient-derived organoids are technically challenging and costly, the ability to gain a more clinically relevant understanding of a patient's tumour outweighs these challenges in the search for effective targeted therapies.",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "Poloppin-II",
+                    "name": "a(CHEMBL:Poloppin-II)",
+                    "bel_expression": "a(CHEMBL:Poloppin-II) directlyDecreases complex(p(MGI:Plk1)",
+                    "evidence": "In addition, patient-derived organoids, which are three-dimensional structures with the capacity to self-organise into \"miniorgans\" resembling the tissue of origin, have been established in various cancers (Table 1). Importantly, organoids maintain key cellular hierarchy and function, and can genetically and phenotypically recapitulate the host cancer, with which therapeutic responses can potentially be predicted. Their use as a cancer model for studying protein interactions as well as for screening oncoPPI inhibitors has so far been underutilised but show great potential for precision/personalised medicine. Small-scale studies using patient-derived colorectal cancer organoids has identified different proteomic signatures in all patients studied, highlighting the importance of PPI characterisation for personalised therapy. In another study, autophagy impairment and disrupted pathways in Paneth cells was studied using mouse tumour organoids using computational PPI networks. Mouse tumour organoids have also been used for functional validation of PPI inhibitors, Poloppin and Poloppin-II, which inhibit Polo-like kinase interactions. Although patient-derived organoids are technically challenging and costly, the ability to gain a more clinically relevant understanding of a patient's tumour outweighs these challenges in the search for effective targeted therapies.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "HRAS",
+                    "name": "g(HGNC:HRAS)",
+                    "bel_expression": "g(HGNC:HRAS) positiveCorrelation path(MESHD:\"Pancreatic Neoplasms\")",
+                    "evidence": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "label": "Pancreatic Neoplasms",
+                    "name": "path(MESHD:\"Pancreatic Neoplasms\")",
+                    "bel_expression": "g(HGNC:HRAS) positiveCorrelation path(MESHD:\"Pancreatic Neoplasms\")",
+                    "evidence": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 37,
+                "v": {
+                    "label": "KRAS",
+                    "name": "g(HGNC:KRAS)",
+                    "bel_expression": "g(HGNC:KRAS) positiveCorrelation path(MESHD:\"Pancreatic Neoplasms\")",
+                    "evidence": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 38,
+                "v": {
+                    "label": "NRAS",
+                    "name": "g(HGNC:NRAS)",
+                    "bel_expression": "g(HGNC:NRAS) positiveCorrelation path(MESHD:\"Pancreatic Neoplasms\")",
+                    "evidence": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 39,
+                "v": {
+                    "label": "PBD-containing proteins",
+                    "name": "p(HGNC:PBD-containing proteins)",
+                    "bel_expression": "path(MESHD:Cancer) increases p(HGNC:PBD-containing proteins)",
+                    "evidence": "In mammalian cells, most signal transduction pathways are characterised by weak PPIs that typically occur between globular peptide binding domains (PBDs) of proteins with short, disordered peptide stretches. Over 1800 PBDs have been reported, which indicate their diversity and importance in mediating transient interactions. Dissecting diversity, low binding affinities and the sensitivity of binding properties to minor sequence variation represent major challenges. In cancer, somatic mutations can commonly occur in PBD-containing proteins and many of these proteins are drug targets. BioID could be an ideal method to study the transient interactome of oncoproteins containing PBDs in different cancers.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 40,
+                "v": {
+                    "label": "SOX2",
+                    "name": "p(HGNC:SOX2)",
+                    "bel_expression": "p(HGNC:SOX2) association p(HGNC:EP300)",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 41,
+                "v": {
+                    "label": "EP300",
+                    "name": "p(HGNC:EP300)",
+                    "bel_expression": "p(HGNC:SOX2) association p(HGNC:EP300)",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 42,
+                "v": {
+                    "label": "SOX2",
+                    "name": "act(p(HGNC:SOX2)",
+                    "bel_expression": "p(HGNC:EP300) increases act(p(HGNC:SOX2)",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 43,
+                "v": {
+                    "label": "EP300 bromodomain inhibitors",
+                    "name": "a(CHEMBL:\"EP300 bromodomain inhibitors\")",
+                    "bel_expression": "a(CHEMBL:\"EP300 bromodomain inhibitors\") decreases bp(GOBP:\"cell growth\")",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 44,
+                "v": {
+                    "label": "cell growth",
+                    "name": "bp(GOBP:\"cell growth\")",
+                    "bel_expression": "a(CHEMBL:\"EP300 bromodomain inhibitors\") decreases bp(GOBP:\"cell growth\")",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 45,
+                "v": {
+                    "label": "PIP5K1A",
+                    "name": "g(HGNC:PIP5K1A)",
+                    "bel_expression": "g(HGNC:PIP5K1A) decreases bp(GOBP:\"cell proliferation\")",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 46,
+                "v": {
+                    "label": "signal transduction",
+                    "name": "bp(GOBP:\"signal transduction\")",
+                    "bel_expression": "g(HGNC:PIP5K1A) decreases bp(GOBP:\"signal transduction\")",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 47,
+                "v": {
+                    "label": "BCL2",
+                    "name": "p(HGNC:BCL2)",
+                    "bel_expression": "p(HGNC:BCL2) directlyDecreases p(HGNC:BAX)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 48,
+                "v": {
+                    "label": "BAX",
+                    "name": "p(HGNC:BAX)",
+                    "bel_expression": "p(HGNC:BCL2) directlyDecreases p(HGNC:BAX)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 49,
+                "v": {
+                    "label": "MDM2",
+                    "name": "p(HGNC:MDM2)",
+                    "bel_expression": "p(HGNC:MDM2) directlyDecreases p(HGNC:TP53)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 50,
+                "v": {
+                    "label": "LFA1",
+                    "name": "p(HGNC:LFA1)",
+                    "bel_expression": "p(HGNC:LFA1) directlyDecreases p(HGNC:ICAM1)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 51,
+                "v": {
+                    "label": "ICAM1",
+                    "name": "p(HGNC:ICAM1)",
+                    "bel_expression": "p(HGNC:LFA1) directlyDecreases p(HGNC:ICAM1)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 52,
+                "v": {
+                    "label": "XIAP",
+                    "name": "p(HGNC:XIAP)",
+                    "bel_expression": "p(HGNC:XIAP) directlyDecreases p(HGNC:CASP9)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 53,
+                "v": {
+                    "label": "CASP9",
+                    "name": "p(HGNC:CASP9)",
+                    "bel_expression": "p(HGNC:XIAP) directlyDecreases p(HGNC:CASP9)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 54,
+                "v": {
+                    "label": "Histone",
+                    "name": "p(HGNC:Histone)",
+                    "bel_expression": "p(HGNC:BRD4) directlyDecreases p(HGNC:Histone)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 55,
+                "v": {
+                    "label": "CTNNB1",
+                    "name": "p(HGNC:CTNNB1)",
+                    "bel_expression": "p(HGNC:CTNNB1) directlyDecreases p(HGNC:CREBBP)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 56,
+                "v": {
+                    "label": "CREBBP",
+                    "name": "p(HGNC:CREBBP)",
+                    "bel_expression": "p(HGNC:CTNNB1) directlyDecreases p(HGNC:CREBBP)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 57,
+                "v": {
+                    "label": "PDCD1",
+                    "name": "p(HGNC:PDCD1)",
+                    "bel_expression": "p(HGNC:PDCD1) directlyDecreases p(HGNC:CD274)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 58,
+                "v": {
+                    "label": "CD274",
+                    "name": "p(HGNC:CD274)",
+                    "bel_expression": "p(HGNC:PDCD1) directlyDecreases p(HGNC:CD274)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 59,
+                "v": {
+                    "label": "maintenance pathways",
+                    "name": "bp(GOBP:\"maintenance pathways\")",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"maintenance pathways\")",
+                    "evidence": "Cancer patients exhibit widespread tumour heterogeneity, which drives an urgent need for precision and personalised treatments. Genomic characterisation of human tumours has led to the generation of vast amounts of high-resolution sequencing data. These data have enabled identification of many cancer-driver genes that are involved in the initiation and progression of tumour cells. However, it remains a challenging task to determine how these genomic signatures can be exploited to develop new therapies. Most cancer-driver genes or oncogenes, discovered to date, are essential for cell growth and maintenance pathways in both healthy and disease states. Therefore, exploiting them as new drug targets may result in adverse effects by perturbing normal physiological pathways. Given that proteins exert their function mostly through interaction with other proteins, it is highly plausible that targeting cancer-specific oncoPPIs could be a more advantageous approach which may result in a better clinical outcome with minimal side effects. Thus, a focus on generating a comprehensive map of the oncoPPI networks for various human cancers will stimulate targeted drug discovery efforts and will shed more insight into protein networks governing tumour growth.",
+                    "type": "bp"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:Neoplasms) increases bp(GOBP:\"oncogenic protein-protein interactions\")",
+                    "evidence": "Normal protein-protein interactions (normPPIs) occur with high fidelity to regulate almost every physiological process. In cancer, this highly organised and precisely regulated network is disrupted, hijacked or reprogrammed resulting in oncogenic protein-protein interactions (oncoPPIs). OncoPPIs, which can result from genomic alterations, are a hallmark of many types of cancers. Recent technological advances in the field of mass spectrometry (MS)-based interactomics, structural biology and drug discovery have prompted scientists to identify and characterise oncoPPIs. Disruption of oncoPPI interfaces has become a major focus of drug discovery programs and has resulted in the use of PPI-specific drugs clinically. However, due to several technical hurdles, studies to build a reference oncoPPI map for various cancer types have not been undertaken. Therefore, there is an urgent need for experimental workflows to overcome the existing challenges in studying oncoPPIs in various cancers and to build comprehensive reference maps. Here, we discuss the important hurdles for characterising oncoPPIs and propose a three-phase multidisciplinary workflow to identify and characterise oncoPPIs. Systematic identification of cancer-type-specific oncogenic interactions will spur new opportunities for PPI-focused drug discovery projects and precision medicine."
+                }
+            },
+            {
+                "id": 1,
+                "s": 2,
+                "t": 3,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"molecular function\") increases bp(GOBP:\"oncogenic protein-protein interaction\")",
+                    "evidence": "Multimodal combinations of radiotherapy, surgery, biologicals and chemotherapy have become the mainstay of cancer therapeutics. These modalities often lack selectivity which can lead to adverse effects such as chemotherapy-induced cardiotoxicity. Quality of life in surviving patients is thereby compromised. In contrast, targeted molecular therapies offer a great potential to combat various cancer types with minimal harm to normal cells or organs. The main purpose of molecular therapy in oncology is to target specific biological pathways activated by oncoproteins in tumour cells. Oncoproteins are involved in various signalling pathways and mediate a large number of oncogenic protein-protein interactions (oncoPPIs). OncoPPI interfaces offer great potential for rational drug development and targeted cancer therapy."
+                }
+            },
+            {
+                "id": 2,
+                "s": 4,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:Cancer) increases bp(GOBP:\"gene dysregulation\")",
+                    "evidence": "Cancer is a highly complex disease featuring complex genotypes and gene dysregulation, which can result in the formation of complex oncogenic interaction networks. Better understanding of the composition of protein interaction networks of each cancer will greatly enhance our molecular understanding of cancer biology and provide us with the ability to improve patient outcomes through precision and personalised medicine. Efforts to map oncoPPI networks have already been initiated, for example, lung cancer-specific oncoPPI networks (~400 PPIs) have been generated on a small-scale for a few well-known cancer genes."
+                }
+            },
+            {
+                "id": 3,
+                "s": 4,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:Cancer) increases bp(GOBP:\"oncogenic interaction network formation\")",
+                    "evidence": "Cancer is a highly complex disease featuring complex genotypes and gene dysregulation, which can result in the formation of complex oncogenic interaction networks. Better understanding of the composition of protein interaction networks of each cancer will greatly enhance our molecular understanding of cancer biology and provide us with the ability to improve patient outcomes through precision and personalised medicine. Efforts to map oncoPPI networks have already been initiated, for example, lung cancer-specific oncoPPI networks (~400 PPIs) have been generated on a small-scale for a few well-known cancer genes."
+                }
+            },
+            {
+                "id": 4,
+                "s": 7,
+                "t": 4,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:KRAS) association path(MESHD:Cancer)",
+                    "evidence": "The protein interaction networks of oncoproteins which are referred to as \"oncoPPIs\" first appeared in the literature in 1997. Since then, these terms have been used in many publications mostly for well-known oncoproteins (eg, KRAS) and tumour suppressors (eg, P53), which are categorised as cancer genes in many cancers. Recent large-scale genome-wide analysis of 33 different cancer types involving 10 000 tumour samples reported that 55% (ie, 142 out of 258) of cancer genes and their mutations are associated with a single cancer. This strongly suggests that oncoPPI networks could be unique for many cancer types as their cancer driver genes and genomic alterations vary. Here, we define oncoPPIs as any direct PPIs that arise from genomic alterations in tumour cells. Identification and characterisation of oncoPPIs for each cancer can guide targeted molecular therapies and precision medicine. In the following sections, we discuss the genomic alterations and approaches to build reference oncoPPI maps for various cancers."
+                }
+            },
+            {
+                "id": 5,
+                "s": 8,
+                "t": 4,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:TP53) association path(MESHD:Cancer)",
+                    "evidence": "The protein interaction networks of oncoproteins which are referred to as \"oncoPPIs\" first appeared in the literature in 1997. Since then, these terms have been used in many publications mostly for well-known oncoproteins (eg, KRAS) and tumour suppressors (eg, P53), which are categorised as cancer genes in many cancers. Recent large-scale genome-wide analysis of 33 different cancer types involving 10 000 tumour samples reported that 55% (ie, 142 out of 258) of cancer genes and their mutations are associated with a single cancer. This strongly suggests that oncoPPI networks could be unique for many cancer types as their cancer driver genes and genomic alterations vary. Here, we define oncoPPIs as any direct PPIs that arise from genomic alterations in tumour cells. Identification and characterisation of oncoPPIs for each cancer can guide targeted molecular therapies and precision medicine. In the following sections, we discuss the genomic alterations and approaches to build reference oncoPPI maps for various cancers."
+                }
+            },
+            {
+                "id": 6,
+                "s": 9,
+                "t": 10,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes"
+                }
+            },
+            {
+                "id": 7,
+                "s": 9,
+                "t": 11,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"cell proliferation\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes"
+                }
+            },
+            {
+                "id": 8,
+                "s": 12,
+                "t": 13,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:CTCF) decreases bp(GOBP:\"genome organization\")",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes"
+                }
+            },
+            {
+                "id": 9,
+                "s": 14,
+                "t": 15,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:MUC1) increases complex(p(HGNC:EGFR)",
+                    "evidence": "Genomic alterations, gene dysregulation and protein mislocalisation in cancer give rise to oncoPPIs. (A) Schematic illustration of edgetic perturbation and node removal in cancer and their impact on normal protein interaction networks. Missense mutations are depicted as coloured stars. Specific interactions can be interrupted (dotted line, blue star) or enhanced (thick line, brown star) or created (green star) by a missense mutation, whereas complete loss of the node protein (dotted circle) leads to the loss of the entire interaction network. (B) Gene dysregulation is another source of oncogenic network formation. In normal cells (upper panel), Gene 1 (ie, oncogene) is inactive whereas Gene 2 (ie, tumour suppressor) is active and normPPIs occur. In cancer (lower panel), Gene 1 is activated and initiates oncoPPIs whilst Gene 2 is silenced and normPPIs are lost. (C) Genome organising proteins such as CTCF regulate genome folding globally in a highly organised manner. In cancer, CTCF binding sites or CTCF itself can be mutated leading to loss of CTCF occupancy. This causes disorganisation of genome architecture and dysregulation of neighbouring genes. Dysregulated genes can potentially define new interaction networks. (D) In cancer, mislocalisation of proteins can also initiate new interaction networks. For example, MUC1 and EGFR are normally expressed separately at the cell surface. However, in cancer, MUC1 forms oncogenic PPIs with EGFR, regulating its nuclear localisation and hence transcriptional regulation of target genes"
+                }
+            },
+            {
+                "id": 10,
+                "s": 16,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(MESHD:\"Neoplasms\") increases bp(GOBP:\"protein-protein interaction disruption\")",
+                    "evidence": "Analysis of pan-cancer genome studies show that noncoding mutations are less frequent than coding mutations. About 91% of tumours carry at least one driver mutation, with an average of 2.6 coding mutations per tumour. The number of large-scale studies reporting the effects of coding mutations on disease-specific PPI networks has increased rapidly. A recent comprehensive investigation of over 10 000 tumour exomes demonstrated that disease-associated germline variants as well as somatic missense mutations are significantly enriched in PPI interfaces compared to germline variants found in healthy individuals. Further characterisation of some of the variants confirmed that disease-associated variants disrupt PPIs and regulate tumour growth. In a large-scale study using the binary Y2H system, PPIs were assessed for ~2500 pathogenic missense mutations. Approximately, 70% of the missense mutations had no effect on protein stability and folding, however half of these mutations resulted in edgetic perturbation. In a comprehensive assessment of somatic missense mutations within 304 cancer-specific PPI interfaces for which structural data was available, 16 interfaces (~5%) were disrupted."
+                }
+            },
+            {
+                "id": 11,
+                "s": 18,
+                "t": 19,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(NCBI Gene:RABL3) increases complex(p(NCBI Gene:RABL3)",
+                    "evidence": "In a recent report in hereditary pancreatic cancer, it was shown that a truncated RAB-like protein 3 (RABL3) mutant markedly increased its binding affinity to RAP1 GTPase-GDP dissociation stimulator 1 (RAP1GDS1) protein, a chaperon involved in prenylation of RAS GTPases. Consequently, the RAS signalling pathway was disrupted leading to enhanced cell proliferation and tumour growth. In another study, it was shown that a missense mutation, R183W, in serine/threonine-protein phosphatase 2A regulatory subunit 1A (PPP2R1A) disrupted its binding to the canonical subunits of the PP2A complex B module, including B55 and B56 proteins, and abrogated growth suppressive effects. However, mutant PPP2R1A also exhibited increased binding to striatin subunit family members, demonstrating that a missense mutation can confer both loss- and gain-of-function phenotypes."
+                }
+            },
+            {
+                "id": 12,
+                "s": 20,
+                "t": 0,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:TERT) increases path(MESHD:Neoplasms)",
+                    "evidence": "Many cancers from diverse tissues exhibit dysregulated gene expression despite no significant genomic alterations in the protein coding region of the differentially expressed genes. Single nucleotide variants within cis-regulatory regions of cancer genes have been shown to greatly modulate gene expression in a range of cancers. These mutations can lead to transcriptional activation or repression of the target genes. For example, the promoter region of telomerase reverse transcriptase (TERT) is frequently mutated in a range of cancers and linked to increased tumour growth and metastasis (Figure 1B). Genomic alterations can also occur in trans-regulatory elements, distant from cis-regulatory elements of the given cancer genes. For instance, mutations or structural variations in DNA motifs bound by genome-organising proteins, such as CCCTC-binding factor (CTCF) and cohesin, or transcription factors, indirectly lead to the dysregulation of many genes in various cancers (Figure 1C). Mutations that occur within topologically associating domain (TAD) boundaries or in enhancer and insulator regions can result in coordinated dysregulation of a cluster of neighbouring genes located within the same TAD. Mutations in CTCF itself, and other genome organising proteins such as the cohesin subunit STAG2, can have a similar impact."
+                }
+            },
+            {
+                "id": 13,
+                "s": 21,
+                "t": 22,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "g(HGNC:CTCF) regulates g(HGNC:STAG2)",
+                    "evidence": "Many cancers from diverse tissues exhibit dysregulated gene expression despite no significant genomic alterations in the protein coding region of the differentially expressed genes. Single nucleotide variants within cis-regulatory regions of cancer genes have been shown to greatly modulate gene expression in a range of cancers. These mutations can lead to transcriptional activation or repression of the target genes. For example, the promoter region of telomerase reverse transcriptase (TERT) is frequently mutated in a range of cancers and linked to increased tumour growth and metastasis (Figure 1B). Genomic alterations can also occur in trans-regulatory elements, distant from cis-regulatory elements of the given cancer genes. For instance, mutations or structural variations in DNA motifs bound by genome-organising proteins, such as CCCTC-binding factor (CTCF) and cohesin, or transcription factors, indirectly lead to the dysregulation of many genes in various cancers (Figure 1C). Mutations that occur within topologically associating domain (TAD) boundaries or in enhancer and insulator regions can result in coordinated dysregulation of a cluster of neighbouring genes located within the same TAD. Mutations in CTCF itself, and other genome organising proteins such as the cohesin subunit STAG2, can have a similar impact."
+                }
+            },
+            {
+                "id": 14,
+                "s": 23,
+                "t": 24,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:MECOM) increases p(HGNC:MECOM)",
+                    "evidence": "In gastrointestinal cancer, a CTCF-binding motif on chromosome 6 is disrupted by mutations at TAD boundaries flanking centromere protein Q (CENPQ) and methylmalonyl-CoA mutase (MUT) genes (Figure 1C). In acute myeloid leukaemia, the oncogenic MDS1 and EVI1 Complex Locus (MECOM) protein is activated due to a genomic inversion event that occurs in neighbouring TADs which disrupts CTCF-mediated genome organisation. Such aberrant activation of proteins can potentiate illicit oncoPPIs and redefine the oncogenic potential of cancer cells. As another example, the aberrant expression of CTCF-like (CTCFL), a paralogue of CTCF, in treatment-resistant neuroblastoma alters genome folding and leads to the formation of superenhancers that consequently activate proneural proteins and promote a resistance phenotype. Another example is the bromodomain (BRD)-containing protein family members, which are readers of lysine acetylation, that are highly elevated in many cancers. BRD4 overexpression leads to the formation of an oncogenic complex with positive transcription elongation factor (p-TEFb) leading to activation of RNA Polymerase II (RNAPII) at late mitosis."
+                }
+            },
+            {
+                "id": 15,
+                "s": 25,
+                "t": 26,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:BRD4) increases complex(p(HGNC:BRD4)",
+                    "evidence": "In gastrointestinal cancer, a CTCF-binding motif on chromosome 6 is disrupted by mutations at TAD boundaries flanking centromere protein Q (CENPQ) and methylmalonyl-CoA mutase (MUT) genes (Figure 1C). In acute myeloid leukaemia, the oncogenic MDS1 and EVI1 Complex Locus (MECOM) protein is activated due to a genomic inversion event that occurs in neighbouring TADs which disrupts CTCF-mediated genome organisation. Such aberrant activation of proteins can potentiate illicit oncoPPIs and redefine the oncogenic potential of cancer cells. As another example, the aberrant expression of CTCF-like (CTCFL), a paralogue of CTCF, in treatment-resistant neuroblastoma alters genome folding and leads to the formation of superenhancers that consequently activate proneural proteins and promote a resistance phenotype. Another example is the bromodomain (BRD)-containing protein family members, which are readers of lysine acetylation, that are highly elevated in many cancers. BRD4 overexpression leads to the formation of an oncogenic complex with positive transcription elongation factor (p-TEFb) leading to activation of RNA Polymerase II (RNAPII) at late mitosis."
+                }
+            },
+            {
+                "id": 16,
+                "s": 27,
+                "t": 28,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"mutation\") increases bp(GOBP:\"protein-protein interaction\")",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments."
+                }
+            },
+            {
+                "id": 17,
+                "s": 27,
+                "t": 29,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"mutation\") increases bp(GOBP:\"gene expression regulation\")",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments."
+                }
+            },
+            {
+                "id": 18,
+                "s": 28,
+                "t": 30,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"protein-protein interaction\") increases bp(GOBP:\"tumor growth\")",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments."
+                }
+            },
+            {
+                "id": 19,
+                "s": 28,
+                "t": 31,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"protein-protein interaction\") increases bp(GOBP:metastasis)",
+                    "evidence": "Together, these examples highlight the impact that acquired mutations and structural variations can have on oncoPPI networks. These can directly rewire new oncoPPI networks or indirectly lead to the dysregulation of many genes which then form aberrant protein interaction networks to promote tumour growth and metastasis. Therefore, defining oncoPPIs for each cancer not only sheds light on molecular mechanisms of malignant phenotypes, but also paves the way to design more effective treatments."
+                }
+            },
+            {
+                "id": 20,
+                "s": 32,
+                "t": 33,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(CHEMBL:Poloppin) directlyDecreases complex(p(MGI:Plk1)",
+                    "evidence": "In addition, patient-derived organoids, which are three-dimensional structures with the capacity to self-organise into \"miniorgans\" resembling the tissue of origin, have been established in various cancers (Table 1). Importantly, organoids maintain key cellular hierarchy and function, and can genetically and phenotypically recapitulate the host cancer, with which therapeutic responses can potentially be predicted. Their use as a cancer model for studying protein interactions as well as for screening oncoPPI inhibitors has so far been underutilised but show great potential for precision/personalised medicine. Small-scale studies using patient-derived colorectal cancer organoids has identified different proteomic signatures in all patients studied, highlighting the importance of PPI characterisation for personalised therapy. In another study, autophagy impairment and disrupted pathways in Paneth cells was studied using mouse tumour organoids using computational PPI networks. Mouse tumour organoids have also been used for functional validation of PPI inhibitors, Poloppin and Poloppin-II, which inhibit Polo-like kinase interactions. Although patient-derived organoids are technically challenging and costly, the ability to gain a more clinically relevant understanding of a patient's tumour outweighs these challenges in the search for effective targeted therapies."
+                }
+            },
+            {
+                "id": 21,
+                "s": 34,
+                "t": 33,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(CHEMBL:Poloppin-II) directlyDecreases complex(p(MGI:Plk1)",
+                    "evidence": "In addition, patient-derived organoids, which are three-dimensional structures with the capacity to self-organise into \"miniorgans\" resembling the tissue of origin, have been established in various cancers (Table 1). Importantly, organoids maintain key cellular hierarchy and function, and can genetically and phenotypically recapitulate the host cancer, with which therapeutic responses can potentially be predicted. Their use as a cancer model for studying protein interactions as well as for screening oncoPPI inhibitors has so far been underutilised but show great potential for precision/personalised medicine. Small-scale studies using patient-derived colorectal cancer organoids has identified different proteomic signatures in all patients studied, highlighting the importance of PPI characterisation for personalised therapy. In another study, autophagy impairment and disrupted pathways in Paneth cells was studied using mouse tumour organoids using computational PPI networks. Mouse tumour organoids have also been used for functional validation of PPI inhibitors, Poloppin and Poloppin-II, which inhibit Polo-like kinase interactions. Although patient-derived organoids are technically challenging and costly, the ability to gain a more clinically relevant understanding of a patient's tumour outweighs these challenges in the search for effective targeted therapies."
+                }
+            },
+            {
+                "id": 22,
+                "s": 35,
+                "t": 36,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "g(HGNC:HRAS) positiveCorrelation path(MESHD:\"Pancreatic Neoplasms\")",
+                    "evidence": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID."
+                }
+            },
+            {
+                "id": 23,
+                "s": 37,
+                "t": 36,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "g(HGNC:KRAS) positiveCorrelation path(MESHD:\"Pancreatic Neoplasms\")",
+                    "evidence": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID."
+                }
+            },
+            {
+                "id": 24,
+                "s": 38,
+                "t": 36,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "g(HGNC:NRAS) positiveCorrelation path(MESHD:\"Pancreatic Neoplasms\")",
+                    "evidence": "AP-MS is widely used to purify and characterise interactors of a protein of interest from a complex cell lysate mixture. In AP-MS, either an immunoprecipitation-grade antibody is immobilised onto a solid-phase support and then is mixed with cell lysates to capture the target protein and its interactors, or the bait protein is either endogenously or ectopically tagged with epitopes (eg, FLAG, HA and myc) and used to capture interactions. AP-MS using an epitope-tagged approach offers an excellent opportunity to undertake deep and region-specific interactome studies for most proteins. The most comprehensive human interactome, BioPlex 3.0, has been constructed using this approach. In this project, ~15 000 genes were dual-tagged with FLAG and HA epitopes and stably overexpressed in HEK293 cells. Affinity-purified complexes were subjected to MS and network analysis. However, such interactome maps will not distinguish normPPIs from oncoPPIs. To do this, the protein of interest should be compared in both cancer and matched normal cell lines or organoids. For example, RAS gene family members HRAS, KRAS and NRAS carry missense mutations or display dysregulated expression patterns in various cancers and convey aberrant interaction networks. Therefore, affinity purification and interactome studies of RAS family members or their mutants from both cancer and paired normal cells in pancreatic cancer or other cancers can extract more informative interaction networks and oncogenic pathways (Figure 2). Likewise, a different interaction profile might be observed for a panel of well-known oncoproteins and tumour suppressors. Together, this approach will not only facilitate the comprehensive definition of the oncogenic map of cancer driver proteins in a tissue-specific manner but will also enable identification of novel tissue-specific normPPIs that have not been reported before. The novel PPIs can be reported in interaction repositories such as BioGRID."
+                }
+            },
+            {
+                "id": 25,
+                "s": 4,
+                "t": 39,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:Cancer) increases p(HGNC:PBD-containing proteins)",
+                    "evidence": "In mammalian cells, most signal transduction pathways are characterised by weak PPIs that typically occur between globular peptide binding domains (PBDs) of proteins with short, disordered peptide stretches. Over 1800 PBDs have been reported, which indicate their diversity and importance in mediating transient interactions. Dissecting diversity, low binding affinities and the sensitivity of binding properties to minor sequence variation represent major challenges. In cancer, somatic mutations can commonly occur in PBD-containing proteins and many of these proteins are drug targets. BioID could be an ideal method to study the transient interactome of oncoproteins containing PBDs in different cancers."
+                }
+            },
+            {
+                "id": 26,
+                "s": 40,
+                "t": 41,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:SOX2) association p(HGNC:EP300)",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine."
+                }
+            },
+            {
+                "id": 27,
+                "s": 41,
+                "t": 42,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:EP300) increases act(p(HGNC:SOX2)",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine."
+                }
+            },
+            {
+                "id": 28,
+                "s": 43,
+                "t": 44,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEMBL:\"EP300 bromodomain inhibitors\") decreases bp(GOBP:\"cell growth\")",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine."
+                }
+            },
+            {
+                "id": 29,
+                "s": 45,
+                "t": 11,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:PIP5K1A) decreases bp(GOBP:\"cell proliferation\")",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine."
+                }
+            },
+            {
+                "id": 30,
+                "s": 45,
+                "t": 46,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:PIP5K1A) decreases bp(GOBP:\"signal transduction\")",
+                    "evidence": "A BioID-based screen for the \"undruggable\" SOX2 oncoprotein in patient-derived squamous cell carcinoma tissue identified SOX2 interaction with EP300 as a therapeutic vulnerability. Indeed, EP300 was shown to be a mediator of SOX2 activity and EP300 bromodomain inhibitors suppressed growth in several lung cancer cell lines. Similarly, interrogation of the oncogenic KRAS G12V interactome using BioID coupled to a CRISPR-Cas9 loss-of-function screen revealed phosphatidylinositol phosphate kinase PIP5K1A as the most negatively enriched target. PIP5K1A depletion reduced KRAS-dependent proliferation and signalling in several pancreatic cancer cell lines, thus providing a potential drug target for the treatment of KRAS-mutant cancers. Taken together, growing evidence supports a continual role for proximity labelling technology in the development of precision medicine."
+                }
+            },
+            {
+                "id": 31,
+                "s": 47,
+                "t": 48,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:BCL2) directlyDecreases p(HGNC:BAX)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911"
+                }
+            },
+            {
+                "id": 32,
+                "s": 49,
+                "t": 8,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:MDM2) directlyDecreases p(HGNC:TP53)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911"
+                }
+            },
+            {
+                "id": 33,
+                "s": 50,
+                "t": 51,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:LFA1) directlyDecreases p(HGNC:ICAM1)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911"
+                }
+            },
+            {
+                "id": 34,
+                "s": 52,
+                "t": 53,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:XIAP) directlyDecreases p(HGNC:CASP9)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911"
+                }
+            },
+            {
+                "id": 35,
+                "s": 25,
+                "t": 54,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:BRD4) directlyDecreases p(HGNC:Histone)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911"
+                }
+            },
+            {
+                "id": 36,
+                "s": 55,
+                "t": 56,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:CTNNB1) directlyDecreases p(HGNC:CREBBP)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911"
+                }
+            },
+            {
+                "id": 37,
+                "s": 57,
+                "t": 58,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:PDCD1) directlyDecreases p(HGNC:CD274)",
+                    "evidence": "Inhibitor name Disease area Developer Clinical trial phase ID   BCL-2/Bax   Venetoclax (ABT199) Chronic lymphocytic leukaemia AbbVie Approved in 2016 -   MDM2/p53   Idasanutlin (RO5503781) Acute myeloid leukaemia Hoffmann-La Roche Phase I/II (terminated) NCT03850535   KRT 232 (formerly, AMG 232) Chronic myeloid leukaemia Kartos Therapeutics, Inc Phase I/II (recruiting) NCT04835584   NVP-CGM097 Solid tumour with p53 wild type status Novartis Pharmaceuticals Phase I (completed) NCT01760525   Milademetan (DS-3032b) Advanced solid tumour, lymphoma Daiichi Sankyo, Inc Phase I (completed) NCT01877382   SAR405838 Neoplasm malignant Sanofi Phase I (completed) NCT01636479   JNJ-26854165 Neoplasms Johnson & Johnson Pharmaceutical Research & Development, L.L.C. Phase I (completed) NCT00676910   ALRN-6924 Advanced solid tumours or lymphomas Aileron Therapeutics Phase I/II (completed) NCT02264613   LFA1/ICAM1   Lifitegrast (SAR 1118) Dry eye Lifelong Vision Foundation Phase IV (completed) NCT03451396   XIAP/Caspase 9   Debio 1143 (AT-406) Squamous cell carcinoma of the head and neck Debiopharm International SA Phase I/II (active, not recruiting) NCT02022098   LCL-161 Relapsed or refractory multiple myeloma Novartis Phase II (completed) NCT01955434   Birinapant (TL32711) Advanced or metastatic solid tumours TetraLogic Pharmaceuticals Phase I/II (completed) NCT01188499   ASTX-660 Advanced solid tumours and lymphomas Astex Pharmaceuticals, Inc Phase I/II (recruiting) NCT02503423   GDC-0917 Refractory solid tumours or lymphoma Genentech, Inc Phase I (completed) NCT01226277   HGS1029 (AEG40826-2HCl) Advanced solid tumours Human Genome Sciences, Inc Phase I (completed) NCT00708006   Bromodomain/Histone   Apabetalone (RVX-000222, RVX-208) Coronary artery disease Resverlogix Corp Phase III (completed) NCT02586155   Molibresib (GSK525762) NUT midline carcinoma GlaxoSmithKline Phase I (completed) NCT01587703   CPI-0610 Myelofibrosis Constellation Pharmaceuticals Phase I/II (recruiting) NCT02158858   RO6870810 (formerly, TEN-010) Acute myeloid leukaemia; myelodysplastic syndromes Hoffmann-La Roche Phase I (completed) NCT02308761   OTX015 (MK-8628, Birabresib) Haematologic malignancies Oncoethix GmbH Phase I (completed) NCT01713582   Beta-catenin/CBP   PRI-724 Liver cirrhosis Komagome Hospital Phase I/II (active, not recruiting) NCT03620474   PD-1/PD-L1   CA-170 Prostatic neoplasms Astellas Pharma, Inc Phase II (completed) NCT01288911"
+                }
+            },
+            {
+                "id": 38,
+                "s": 9,
+                "t": 44,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"cell growth\")",
+                    "evidence": "Cancer patients exhibit widespread tumour heterogeneity, which drives an urgent need for precision and personalised treatments. Genomic characterisation of human tumours has led to the generation of vast amounts of high-resolution sequencing data. These data have enabled identification of many cancer-driver genes that are involved in the initiation and progression of tumour cells. However, it remains a challenging task to determine how these genomic signatures can be exploited to develop new therapies. Most cancer-driver genes or oncogenes, discovered to date, are essential for cell growth and maintenance pathways in both healthy and disease states. Therefore, exploiting them as new drug targets may result in adverse effects by perturbing normal physiological pathways. Given that proteins exert their function mostly through interaction with other proteins, it is highly plausible that targeting cancer-specific oncoPPIs could be a more advantageous approach which may result in a better clinical outcome with minimal side effects. Thus, a focus on generating a comprehensive map of the oncoPPI networks for various human cancers will stimulate targeted drug discovery efforts and will shed more insight into protein networks governing tumour growth."
+                }
+            },
+            {
+                "id": 39,
+                "s": 9,
+                "t": 59,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:MYC) increases bp(GOBP:\"maintenance pathways\")",
+                    "evidence": "Cancer patients exhibit widespread tumour heterogeneity, which drives an urgent need for precision and personalised treatments. Genomic characterisation of human tumours has led to the generation of vast amounts of high-resolution sequencing data. These data have enabled identification of many cancer-driver genes that are involved in the initiation and progression of tumour cells. However, it remains a challenging task to determine how these genomic signatures can be exploited to develop new therapies. Most cancer-driver genes or oncogenes, discovered to date, are essential for cell growth and maintenance pathways in both healthy and disease states. Therefore, exploiting them as new drug targets may result in adverse effects by perturbing normal physiological pathways. Given that proteins exert their function mostly through interaction with other proteins, it is highly plausible that targeting cancer-specific oncoPPIs could be a more advantageous approach which may result in a better clinical outcome with minimal side effects. Thus, a focus on generating a comprehensive map of the oncoPPI networks for various human cancers will stimulate targeted drug discovery efforts and will shed more insight into protein networks governing tumour growth."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

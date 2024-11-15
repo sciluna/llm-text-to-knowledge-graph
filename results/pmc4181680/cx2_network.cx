@@ -1,0 +1,1002 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 46,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 47,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "BRCA1",
+                    "name": "g(HGNC:BRCA1)",
+                    "bel_expression": "g(HGNC:BRCA1) positiveCorrelation path(MESHD:\"Triple Negative Breast Neoplasms\")",
+                    "evidence": "Triple Negative Breast Cancer (TNBC) is a heterogeneous disease that based on immunohistochemistry (IHC) is estrogen receptor (ER) negative, progesterone receptor (PR) negative and human epidermal growth factor receptor 2 (HER2) negative. TNBC is typically observed in young AA women and Hispanic women who carry a mutation in the BRCA1 gene. TNBC is characterized by a distinct molecular profile, aggressive nature and lack of targeted therapies. The purpose of this article is to review the current and future novel signalling pathways as therapeutic approaches to TNBC. Recent Identification of a new BRCA1 trafficking pathway holds promise in the future for the development of targeted therapies for TNBC.",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "Triple Negative Breast Neoplasms",
+                    "name": "path(MESHD:\"Triple Negative Breast Neoplasms\")",
+                    "bel_expression": "g(HGNC:BRCA1) positiveCorrelation path(MESHD:\"Triple Negative Breast Neoplasms\")",
+                    "evidence": "Triple Negative Breast Cancer (TNBC) is a heterogeneous disease that based on immunohistochemistry (IHC) is estrogen receptor (ER) negative, progesterone receptor (PR) negative and human epidermal growth factor receptor 2 (HER2) negative. TNBC is typically observed in young AA women and Hispanic women who carry a mutation in the BRCA1 gene. TNBC is characterized by a distinct molecular profile, aggressive nature and lack of targeted therapies. The purpose of this article is to review the current and future novel signalling pathways as therapeutic approaches to TNBC. Recent Identification of a new BRCA1 trafficking pathway holds promise in the future for the development of targeted therapies for TNBC.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "EGFR",
+                    "name": "p(HGNC:EGFR)",
+                    "bel_expression": "p(HGNC:EGFR) increases a(GOCC:\"mammary gland basal cell\")",
+                    "evidence": "Breast cancers are typically classified into seven subtypes (3): luminal A (ER positive and histologic low grade), luminal B (ER positive and histologic high grade), HER2 overexpressing, basal-like (2 types - BL1 and BL2), immunomodulatory (IM), mesenchymal (M), mesenchymal stem-like (MSL) and normal breast-like tumours. Majority of the TNBC are the basal-like subtype, and many basal-like breast cancers are triple negative; they are not equivalent in terms of gene expression signatures and IHC analysis. Basal-like breast cancer is a classification based on gene expression profiling. Although they appear to be synonymous, there is up to 30% discordance between the two groups. In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "mammary gland basal cell",
+                    "name": "a(GOCC:\"mammary gland basal cell\")",
+                    "bel_expression": "p(HGNC:EGFR) increases a(GOCC:\"mammary gland basal cell\")",
+                    "evidence": "Breast cancers are typically classified into seven subtypes (3): luminal A (ER positive and histologic low grade), luminal B (ER positive and histologic high grade), HER2 overexpressing, basal-like (2 types - BL1 and BL2), immunomodulatory (IM), mesenchymal (M), mesenchymal stem-like (MSL) and normal breast-like tumours. Majority of the TNBC are the basal-like subtype, and many basal-like breast cancers are triple negative; they are not equivalent in terms of gene expression signatures and IHC analysis. Basal-like breast cancer is a classification based on gene expression profiling. Although they appear to be synonymous, there is up to 30% discordance between the two groups. In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "myoepithelial cell",
+                    "name": "a(GOCC:\"myoepithelial cell\")",
+                    "bel_expression": "p(HGNC:EGFR) increases a(GOCC:\"myoepithelial cell\")",
+                    "evidence": "Breast cancers are typically classified into seven subtypes (3): luminal A (ER positive and histologic low grade), luminal B (ER positive and histologic high grade), HER2 overexpressing, basal-like (2 types - BL1 and BL2), immunomodulatory (IM), mesenchymal (M), mesenchymal stem-like (MSL) and normal breast-like tumours. Majority of the TNBC are the basal-like subtype, and many basal-like breast cancers are triple negative; they are not equivalent in terms of gene expression signatures and IHC analysis. Basal-like breast cancer is a classification based on gene expression profiling. Although they appear to be synonymous, there is up to 30% discordance between the two groups. In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "TP53",
+                    "name": "p(HGNC:TP53)",
+                    "bel_expression": "p(HGNC:TP53) increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "Basal-like breast cancer",
+                    "name": "path(MESHD:\"Basal-like breast cancer\")",
+                    "bel_expression": "p(HGNC:TP53) increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "MAPK cascade",
+                    "name": "bp(GOBP:\"MAPK cascade\")",
+                    "bel_expression": "bp(GOBP:\"MAPK cascade\") increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "Akt signaling pathway",
+                    "name": "bp(GOBP:\"Akt signaling pathway\")",
+                    "bel_expression": "bp(GOBP:\"Akt signaling pathway\") increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "PARP1",
+                    "name": "p(HGNC:PARP1)",
+                    "bel_expression": "p(HGNC:PARP1) increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "Breast Neoplasms",
+                    "name": "path(MESHD:\"Breast Neoplasms\")",
+                    "bel_expression": "g(HGNC:BRCA1) positiveCorrelation path(MESHD:\"Breast Neoplasms\")",
+                    "evidence": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers are triple negative and express a high proportion of basal like cytokeratins (CK5,14,17), as well as P-Cadherin and HER1/EGFR. Gene expression studies support this association among patients with BRCA1 mutations that breast tumours tend to cluster within the basal like category.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "EGFR",
+                    "name": "a(HGNC:EGFR)",
+                    "bel_expression": "g(HGNC:BRCA1) positiveCorrelation a(HGNC:EGFR)",
+                    "evidence": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers are triple negative and express a high proportion of basal like cytokeratins (CK5,14,17), as well as P-Cadherin and HER1/EGFR. Gene expression studies support this association among patients with BRCA1 mutations that breast tumours tend to cluster within the basal like category.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "Luminal breast cancer",
+                    "name": "path(MESHD:\"Luminal breast cancer\")",
+                    "bel_expression": "path(MESHD:\"Basal-like breast cancer\") negativeCorrelation path(MESHD:\"Luminal breast cancer\")",
+                    "evidence": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies. Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "Triple Negative Breast Cancer",
+                    "name": "path(MESHD:\"Triple Negative Breast Cancer\")",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Cancer\") negativeCorrelation path(MESHD:\"Luminal breast cancer\")",
+                    "evidence": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies. Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "Brain Neoplasms",
+                    "name": "path(MESHD:\"Brain Neoplasms\")",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") increases path(MESHD:\"Brain Neoplasms\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "Cerebral Metastasis",
+                    "name": "path(MESHD:\"Cerebral Metastasis\")",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") increases path(MESHD:\"Cerebral Metastasis\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "cisplatin",
+                    "name": "a(CHEBI:cisplatin)",
+                    "bel_expression": "a(CHEBI:cisplatin) increases bp(GOBP:\"complete pathologic response\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "complete pathologic response",
+                    "name": "bp(GOBP:\"complete pathologic response\")",
+                    "bel_expression": "a(CHEBI:cisplatin) increases bp(GOBP:\"complete pathologic response\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "NOTCH signaling pathway",
+                    "name": "bp(GOBP:\"NOTCH signaling pathway\")",
+                    "bel_expression": "bp(GOBP:\"NOTCH signaling pathway\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "apoptotic process",
+                    "name": "bp(GOBP:\"apoptotic process\")",
+                    "bel_expression": "bp(GOBP:\"NOTCH signaling pathway\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "Hedgehog signaling pathway",
+                    "name": "bp(GOBP:\"Hedgehog signaling pathway\")",
+                    "bel_expression": "bp(GOBP:\"Hedgehog signaling pathway\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "Wnt signaling pathway",
+                    "name": "bp(GOBP:\"Wnt signaling pathway\")",
+                    "bel_expression": "bp(GOBP:\"Wnt signaling pathway\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "response to anthracycline-based chemotherapy",
+                    "name": "bp(GOBP:\"response to anthracycline-based chemotherapy\")",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") positiveCorrelation bp(GOBP:\"response to anthracycline-based chemotherapy\")",
+                    "evidence": "Adjuvant chemotherapy has been shown to not only prolong disease-free survival in patients but overall survival as a whole; however, TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists. To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype. Highest response rates were noticed among those classified as basal like (85%) and HER2 positive (70%), as compared to luminal (47%, p<0.0001). Despite initial chemo sensitivity, disease free survival (p=0.04) and overall survival (p=0.02) remained poorest among those with basal like and HER2 positive tumours, compared to the luminal subtype. Although triple negative disease is highly responsive to Anthracycline/Taxane chemotherapy treatment, a high risk of relapse still remains if the tumour is not completely eradicated.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "response to taxane-based chemotherapy",
+                    "name": "bp(GOBP:\"response to taxane-based chemotherapy\")",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") positiveCorrelation bp(GOBP:\"response to taxane-based chemotherapy\")",
+                    "evidence": "Adjuvant chemotherapy has been shown to not only prolong disease-free survival in patients but overall survival as a whole; however, TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists. To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype. Highest response rates were noticed among those classified as basal like (85%) and HER2 positive (70%), as compared to luminal (47%, p<0.0001). Despite initial chemo sensitivity, disease free survival (p=0.04) and overall survival (p=0.02) remained poorest among those with basal like and HER2 positive tumours, compared to the luminal subtype. Although triple negative disease is highly responsive to Anthracycline/Taxane chemotherapy treatment, a high risk of relapse still remains if the tumour is not completely eradicated.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "BRCA1",
+                    "name": "p(HGNC:BRCA1)",
+                    "bel_expression": "p(HGNC:BRCA1) decreases a(CHEBI:Cisplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "Cisplatin",
+                    "name": "a(CHEBI:Cisplatin)",
+                    "bel_expression": "p(HGNC:BRCA1) decreases a(CHEBI:Cisplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "Carboplatin",
+                    "name": "a(CHEBI:Carboplatin)",
+                    "bel_expression": "p(HGNC:BRCA1) decreases a(CHEBI:Carboplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "DNA damage",
+                    "name": "bp(GOBP:\"DNA damage\")",
+                    "bel_expression": "a(CHEBI:Cisplatin) increases bp(GOBP:\"DNA damage\")",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "TP63",
+                    "name": "p(HGNC:TP63)",
+                    "bel_expression": "p(HGNC:TP63) increases a(CHEBI:Cisplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "Breast Neoplasms, Triple Negative",
+                    "name": "path(MESHD:\"Breast Neoplasms, Triple Negative\")",
+                    "bel_expression": "p(HGNC:EGFR) positiveCorrelation path(MESHD:\"Breast Neoplasms, Triple Negative\")",
+                    "evidence": "EGFR expression is approximately seen in 60% of triple negative breast tumors, thus providing a reasonable targeted treatment approach. A phase II trial evaluating the combination of Cetuximab (a chimeric monoclonal antibody targeting EGFR) and Carboplatin, weekly for 3 to 4 weeks reported a response rate of 18% and overall clinical benefit of 27% among 102 patients with advanced TNBC.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "CHEMBL1201581",
+                    "name": "a(CHEMBL:CHEMBL1201581)",
+                    "bel_expression": "a(CHEMBL:CHEMBL1201581) decreases p(HGNC:EGFR)",
+                    "evidence": "EGFR expression is approximately seen in 60% of triple negative breast tumors, thus providing a reasonable targeted treatment approach. A phase II trial evaluating the combination of Cetuximab (a chimeric monoclonal antibody targeting EGFR) and Carboplatin, weekly for 3 to 4 weeks reported a response rate of 18% and overall clinical benefit of 27% among 102 patients with advanced TNBC.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "Panitumumab",
+                    "name": "a(CHEMBL:Panitumumab)",
+                    "bel_expression": "a(CHEMBL:Panitumumab) increases path(MESHD:\"Triple Negative Breast Neoplasms\")",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC. EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%. Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents. To date, the majority of data with EGFR inhibitors has generally been interpreted as negative.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "Irinotecan",
+                    "name": "a(CHEBI:Irinotecan)",
+                    "bel_expression": "a(CHEMBL:Panitumumab) increases a(CHEBI:Irinotecan)",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC. EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%. Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents. To date, the majority of data with EGFR inhibitors has generally been interpreted as negative.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "DNA repair",
+                    "name": "bp(GOBP:\"DNA repair\")",
+                    "bel_expression": "p(HGNC:PARP1) decreases bp(GOBP:\"DNA repair\")",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "homologous recombination",
+                    "name": "bp(GOBP:\"homologous recombination\")",
+                    "bel_expression": "p(HGNC:BRCA1) increases bp(GOBP:\"homologous recombination\")",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "BRCA2",
+                    "name": "p(HGNC:BRCA2)",
+                    "bel_expression": "p(HGNC:BRCA2) increases bp(GOBP:\"homologous recombination\")",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "label": "Olaparib",
+                    "name": "a(CHEMBL:Olaparib)",
+                    "bel_expression": "a(CHEMBL:Olaparib) decreases p(HGNC:PARP1)",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 37,
+                "v": {
+                    "label": "Velaparib",
+                    "name": "a(CHEMBL:Velaparib)",
+                    "bel_expression": "a(CHEMBL:Velaparib) decreases p(HGNC:PARP1)",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 38,
+                "v": {
+                    "label": "PF-01367338",
+                    "name": "a(CHEMBL:PF-01367338)",
+                    "bel_expression": "a(CHEMBL:PF-01367338) decreases p(HGNC:PARP1)",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 39,
+                "v": {
+                    "label": "Bevacizumab",
+                    "name": "a(CHEMBL:Bevacizumab)",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) decreases bp(GOBP:angiogenesis)",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 40,
+                "v": {
+                    "label": "angiogenesis",
+                    "name": "bp(GOBP:angiogenesis)",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) decreases bp(GOBP:angiogenesis)",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 41,
+                "v": {
+                    "label": "Breast Neoplasms, Metastatic",
+                    "name": "path(MESHD:\"Breast Neoplasms, Metastatic\")",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) decreases path(MESHD:\"Breast Neoplasms, Metastatic\")",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 42,
+                "v": {
+                    "label": "progression-free survival",
+                    "name": "bp(GOBP:\"progression-free survival\")",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) increases bp(GOBP:\"progression-free survival\")",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 43,
+                "v": {
+                    "label": "Paclitaxel",
+                    "name": "a(CHEMBL:Paclitaxel)",
+                    "bel_expression": "a(CHEMBL:Paclitaxel) increases bp(GOBP:\"progression-free survival\")",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval.",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 44,
+                "v": {
+                    "label": "Notch signaling pathway",
+                    "name": "bp(GOBP:\"Notch signaling pathway\")",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") association bp(GOBP:\"Notch signaling pathway\")",
+                    "evidence": "In conclusion, TNBC is a difficult and complex disease entity that is both confusing and frustrating for researchers, physicians and patients. To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including DNA damaging agents like platinum's, targeted EGFR and VEGF inhibitors, and, PARP inhibitors; however, none have been as clinically successful as anticipated and more targeted therapies need to be developed and explored. The Wnt/b-Catenin, NOTCH and Hedgehog signaling pathways are being considered as novel therapeutic targets for TNBC.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 45,
+                "v": {
+                    "label": "UBE2I",
+                    "name": "p(HGNC:UBE2I)",
+                    "bel_expression": "p(HGNC:UBE2I) binds p(HGNC:BRCA1)",
+                    "evidence": "The key to developing targeted therapies for TNBC will depend on understanding the molecular mechanism for the development of these cancers. There are seminal studies by Hosey et al. and by our group (unpublished results) on the possible molecular mechanisms of BRCA1 dysfunction which could result in ER negative breast cancers. Recently Ubc9, a sole SUMO-E2-conjugating enzyme for sumoylation was found to bind BRCA1 proteins and ferry it to the nucleus unlike disease associated mutant BRCA1 proteins. Over expression of Ubc9 was observed in breast tumours and TNBC cell lines. BRCA1 function-based cellular assays have been designed to detect loss of binding to Ubc9 by BRCA1 mutants (Patent number US 8,372,580). These assays not only predict the risk for developing TNBC but may also lead to the development of targeted therapies for hereditary and sporadic TNBC.",
+                    "type": "p"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "g(HGNC:BRCA1) positiveCorrelation path(MESHD:\"Triple Negative Breast Neoplasms\")",
+                    "evidence": "Triple Negative Breast Cancer (TNBC) is a heterogeneous disease that based on immunohistochemistry (IHC) is estrogen receptor (ER) negative, progesterone receptor (PR) negative and human epidermal growth factor receptor 2 (HER2) negative. TNBC is typically observed in young AA women and Hispanic women who carry a mutation in the BRCA1 gene. TNBC is characterized by a distinct molecular profile, aggressive nature and lack of targeted therapies. The purpose of this article is to review the current and future novel signalling pathways as therapeutic approaches to TNBC. Recent Identification of a new BRCA1 trafficking pathway holds promise in the future for the development of targeted therapies for TNBC."
+                }
+            },
+            {
+                "id": 1,
+                "s": 2,
+                "t": 3,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:EGFR) increases a(GOCC:\"mammary gland basal cell\")",
+                    "evidence": "Breast cancers are typically classified into seven subtypes (3): luminal A (ER positive and histologic low grade), luminal B (ER positive and histologic high grade), HER2 overexpressing, basal-like (2 types - BL1 and BL2), immunomodulatory (IM), mesenchymal (M), mesenchymal stem-like (MSL) and normal breast-like tumours. Majority of the TNBC are the basal-like subtype, and many basal-like breast cancers are triple negative; they are not equivalent in terms of gene expression signatures and IHC analysis. Basal-like breast cancer is a classification based on gene expression profiling. Although they appear to be synonymous, there is up to 30% discordance between the two groups. In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component."
+                }
+            },
+            {
+                "id": 2,
+                "s": 2,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:EGFR) increases a(GOCC:\"myoepithelial cell\")",
+                    "evidence": "Breast cancers are typically classified into seven subtypes (3): luminal A (ER positive and histologic low grade), luminal B (ER positive and histologic high grade), HER2 overexpressing, basal-like (2 types - BL1 and BL2), immunomodulatory (IM), mesenchymal (M), mesenchymal stem-like (MSL) and normal breast-like tumours. Majority of the TNBC are the basal-like subtype, and many basal-like breast cancers are triple negative; they are not equivalent in terms of gene expression signatures and IHC analysis. Basal-like breast cancer is a classification based on gene expression profiling. Although they appear to be synonymous, there is up to 30% discordance between the two groups. In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component."
+                }
+            },
+            {
+                "id": 3,
+                "s": 5,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TP53) increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway."
+                }
+            },
+            {
+                "id": 4,
+                "s": 7,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"MAPK cascade\") increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway."
+                }
+            },
+            {
+                "id": 5,
+                "s": 8,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"Akt signaling pathway\") increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway."
+                }
+            },
+            {
+                "id": 6,
+                "s": 9,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:PARP1) increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway."
+                }
+            },
+            {
+                "id": 7,
+                "s": 0,
+                "t": 10,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "g(HGNC:BRCA1) positiveCorrelation path(MESHD:\"Breast Neoplasms\")",
+                    "evidence": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers are triple negative and express a high proportion of basal like cytokeratins (CK5,14,17), as well as P-Cadherin and HER1/EGFR. Gene expression studies support this association among patients with BRCA1 mutations that breast tumours tend to cluster within the basal like category."
+                }
+            },
+            {
+                "id": 8,
+                "s": 0,
+                "t": 11,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "g(HGNC:BRCA1) positiveCorrelation a(HGNC:EGFR)",
+                    "evidence": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers are triple negative and express a high proportion of basal like cytokeratins (CK5,14,17), as well as P-Cadherin and HER1/EGFR. Gene expression studies support this association among patients with BRCA1 mutations that breast tumours tend to cluster within the basal like category."
+                }
+            },
+            {
+                "id": 9,
+                "s": 6,
+                "t": 12,
+                "v": {
+                    "interaction": "negativeCorrelation",
+                    "bel_expression": "path(MESHD:\"Basal-like breast cancer\") negativeCorrelation path(MESHD:\"Luminal breast cancer\")",
+                    "evidence": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies. Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype."
+                }
+            },
+            {
+                "id": 10,
+                "s": 13,
+                "t": 12,
+                "v": {
+                    "interaction": "negativeCorrelation",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Cancer\") negativeCorrelation path(MESHD:\"Luminal breast cancer\")",
+                    "evidence": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies. Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype."
+                }
+            },
+            {
+                "id": 11,
+                "s": 1,
+                "t": 14,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") increases path(MESHD:\"Brain Neoplasms\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone."
+                }
+            },
+            {
+                "id": 12,
+                "s": 1,
+                "t": 15,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") increases path(MESHD:\"Cerebral Metastasis\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone."
+                }
+            },
+            {
+                "id": 13,
+                "s": 10,
+                "t": 14,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:\"Breast Neoplasms\") increases path(MESHD:\"Brain Neoplasms\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone."
+                }
+            },
+            {
+                "id": 14,
+                "s": 16,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:cisplatin) increases bp(GOBP:\"complete pathologic response\")",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone."
+                }
+            },
+            {
+                "id": 15,
+                "s": 18,
+                "t": 19,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GOBP:\"NOTCH signaling pathway\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression."
+                }
+            },
+            {
+                "id": 16,
+                "s": 20,
+                "t": 19,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GOBP:\"Hedgehog signaling pathway\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression."
+                }
+            },
+            {
+                "id": 17,
+                "s": 21,
+                "t": 19,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GOBP:\"Wnt signaling pathway\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression."
+                }
+            },
+            {
+                "id": 18,
+                "s": 1,
+                "t": 22,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") positiveCorrelation bp(GOBP:\"response to anthracycline-based chemotherapy\")",
+                    "evidence": "Adjuvant chemotherapy has been shown to not only prolong disease-free survival in patients but overall survival as a whole; however, TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists. To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype. Highest response rates were noticed among those classified as basal like (85%) and HER2 positive (70%), as compared to luminal (47%, p<0.0001). Despite initial chemo sensitivity, disease free survival (p=0.04) and overall survival (p=0.02) remained poorest among those with basal like and HER2 positive tumours, compared to the luminal subtype. Although triple negative disease is highly responsive to Anthracycline/Taxane chemotherapy treatment, a high risk of relapse still remains if the tumour is not completely eradicated."
+                }
+            },
+            {
+                "id": 19,
+                "s": 1,
+                "t": 23,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") positiveCorrelation bp(GOBP:\"response to taxane-based chemotherapy\")",
+                    "evidence": "Adjuvant chemotherapy has been shown to not only prolong disease-free survival in patients but overall survival as a whole; however, TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists. To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype. Highest response rates were noticed among those classified as basal like (85%) and HER2 positive (70%), as compared to luminal (47%, p<0.0001). Despite initial chemo sensitivity, disease free survival (p=0.04) and overall survival (p=0.02) remained poorest among those with basal like and HER2 positive tumours, compared to the luminal subtype. Although triple negative disease is highly responsive to Anthracycline/Taxane chemotherapy treatment, a high risk of relapse still remains if the tumour is not completely eradicated."
+                }
+            },
+            {
+                "id": 20,
+                "s": 24,
+                "t": 25,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:BRCA1) decreases a(CHEBI:Cisplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC."
+                }
+            },
+            {
+                "id": 21,
+                "s": 24,
+                "t": 26,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:BRCA1) decreases a(CHEBI:Carboplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC."
+                }
+            },
+            {
+                "id": 22,
+                "s": 25,
+                "t": 27,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:Cisplatin) increases bp(GOBP:\"DNA damage\")",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC."
+                }
+            },
+            {
+                "id": 23,
+                "s": 26,
+                "t": 27,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:Carboplatin) increases bp(GOBP:\"DNA damage\")",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC."
+                }
+            },
+            {
+                "id": 24,
+                "s": 25,
+                "t": 19,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:Cisplatin) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC."
+                }
+            },
+            {
+                "id": 25,
+                "s": 26,
+                "t": 19,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:Carboplatin) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC."
+                }
+            },
+            {
+                "id": 26,
+                "s": 28,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TP63) increases a(CHEBI:Cisplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC."
+                }
+            },
+            {
+                "id": 27,
+                "s": 2,
+                "t": 29,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "p(HGNC:EGFR) positiveCorrelation path(MESHD:\"Breast Neoplasms, Triple Negative\")",
+                    "evidence": "EGFR expression is approximately seen in 60% of triple negative breast tumors, thus providing a reasonable targeted treatment approach. A phase II trial evaluating the combination of Cetuximab (a chimeric monoclonal antibody targeting EGFR) and Carboplatin, weekly for 3 to 4 weeks reported a response rate of 18% and overall clinical benefit of 27% among 102 patients with advanced TNBC."
+                }
+            },
+            {
+                "id": 28,
+                "s": 30,
+                "t": 2,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEMBL:CHEMBL1201581) decreases p(HGNC:EGFR)",
+                    "evidence": "EGFR expression is approximately seen in 60% of triple negative breast tumors, thus providing a reasonable targeted treatment approach. A phase II trial evaluating the combination of Cetuximab (a chimeric monoclonal antibody targeting EGFR) and Carboplatin, weekly for 3 to 4 weeks reported a response rate of 18% and overall clinical benefit of 27% among 102 patients with advanced TNBC."
+                }
+            },
+            {
+                "id": 29,
+                "s": 31,
+                "t": 1,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:Panitumumab) increases path(MESHD:\"Triple Negative Breast Neoplasms\")",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC. EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%. Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents. To date, the majority of data with EGFR inhibitors has generally been interpreted as negative."
+                }
+            },
+            {
+                "id": 30,
+                "s": 31,
+                "t": 32,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:Panitumumab) increases a(CHEBI:Irinotecan)",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC. EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%. Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents. To date, the majority of data with EGFR inhibitors has generally been interpreted as negative."
+                }
+            },
+            {
+                "id": 31,
+                "s": 31,
+                "t": 26,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:Panitumumab) increases a(CHEBI:Carboplatin)",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC. EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%. Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents. To date, the majority of data with EGFR inhibitors has generally been interpreted as negative."
+                }
+            },
+            {
+                "id": 32,
+                "s": 9,
+                "t": 33,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:PARP1) decreases bp(GOBP:\"DNA repair\")",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials."
+                }
+            },
+            {
+                "id": 33,
+                "s": 24,
+                "t": 34,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:BRCA1) increases bp(GOBP:\"homologous recombination\")",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials."
+                }
+            },
+            {
+                "id": 34,
+                "s": 35,
+                "t": 34,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:BRCA2) increases bp(GOBP:\"homologous recombination\")",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials."
+                }
+            },
+            {
+                "id": 35,
+                "s": 36,
+                "t": 9,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEMBL:Olaparib) decreases p(HGNC:PARP1)",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials."
+                }
+            },
+            {
+                "id": 36,
+                "s": 37,
+                "t": 9,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEMBL:Velaparib) decreases p(HGNC:PARP1)",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials."
+                }
+            },
+            {
+                "id": 37,
+                "s": 38,
+                "t": 9,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEMBL:PF-01367338) decreases p(HGNC:PARP1)",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials."
+                }
+            },
+            {
+                "id": 38,
+                "s": 39,
+                "t": 40,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) decreases bp(GOBP:angiogenesis)",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval."
+                }
+            },
+            {
+                "id": 39,
+                "s": 39,
+                "t": 41,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) decreases path(MESHD:\"Breast Neoplasms, Metastatic\")",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval."
+                }
+            },
+            {
+                "id": 40,
+                "s": 39,
+                "t": 42,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) increases bp(GOBP:\"progression-free survival\")",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval."
+                }
+            },
+            {
+                "id": 41,
+                "s": 43,
+                "t": 42,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:Paclitaxel) increases bp(GOBP:\"progression-free survival\")",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval."
+                }
+            },
+            {
+                "id": 42,
+                "s": 39,
+                "t": 42,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:Bevacizumab) increases bp(GOBP:\"progression-free survival\")",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval."
+                }
+            },
+            {
+                "id": 43,
+                "s": 1,
+                "t": 21,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") association bp(GOBP:\"Wnt signaling pathway\")",
+                    "evidence": "In conclusion, TNBC is a difficult and complex disease entity that is both confusing and frustrating for researchers, physicians and patients. To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including DNA damaging agents like platinum's, targeted EGFR and VEGF inhibitors, and, PARP inhibitors; however, none have been as clinically successful as anticipated and more targeted therapies need to be developed and explored. The Wnt/b-Catenin, NOTCH and Hedgehog signaling pathways are being considered as novel therapeutic targets for TNBC."
+                }
+            },
+            {
+                "id": 44,
+                "s": 1,
+                "t": 44,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") association bp(GOBP:\"Notch signaling pathway\")",
+                    "evidence": "In conclusion, TNBC is a difficult and complex disease entity that is both confusing and frustrating for researchers, physicians and patients. To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including DNA damaging agents like platinum's, targeted EGFR and VEGF inhibitors, and, PARP inhibitors; however, none have been as clinically successful as anticipated and more targeted therapies need to be developed and explored. The Wnt/b-Catenin, NOTCH and Hedgehog signaling pathways are being considered as novel therapeutic targets for TNBC."
+                }
+            },
+            {
+                "id": 45,
+                "s": 1,
+                "t": 20,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "path(MESHD:\"Triple Negative Breast Neoplasms\") association bp(GOBP:\"Hedgehog signaling pathway\")",
+                    "evidence": "In conclusion, TNBC is a difficult and complex disease entity that is both confusing and frustrating for researchers, physicians and patients. To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including DNA damaging agents like platinum's, targeted EGFR and VEGF inhibitors, and, PARP inhibitors; however, none have been as clinically successful as anticipated and more targeted therapies need to be developed and explored. The Wnt/b-Catenin, NOTCH and Hedgehog signaling pathways are being considered as novel therapeutic targets for TNBC."
+                }
+            },
+            {
+                "id": 46,
+                "s": 45,
+                "t": 24,
+                "v": {
+                    "interaction": "binds",
+                    "bel_expression": "p(HGNC:UBE2I) binds p(HGNC:BRCA1)",
+                    "evidence": "The key to developing targeted therapies for TNBC will depend on understanding the molecular mechanism for the development of these cancers. There are seminal studies by Hosey et al. and by our group (unpublished results) on the possible molecular mechanisms of BRCA1 dysfunction which could result in ER negative breast cancers. Recently Ubc9, a sole SUMO-E2-conjugating enzyme for sumoylation was found to bind BRCA1 proteins and ferry it to the nucleus unlike disease associated mutant BRCA1 proteins. Over expression of Ubc9 was observed in breast tumours and TNBC cell lines. BRCA1 function-based cellular assays have been designed to detect loss of binding to Ubc9 by BRCA1 mutants (Patent number US 8,372,580). These assays not only predict the risk for developing TNBC but may also lead to the development of targeted therapies for hereditary and sporadic TNBC."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

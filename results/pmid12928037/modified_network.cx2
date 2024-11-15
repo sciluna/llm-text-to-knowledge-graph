@@ -1,0 +1,692 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 33,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 29,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "Atherosclerosis",
+                    "name": "path(MESHD:Atherosclerosis)",
+                    "bel_expression": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
+                    "evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries.",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "lipid oxidation",
+                    "name": "bp(GOBP:\"lipid oxidation\")",
+                    "bel_expression": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
+                    "evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "protein oxidation",
+                    "name": "bp(GOBP:\"protein oxidation\")",
+                    "bel_expression": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein oxidation\")",
+                    "evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "DNA oxidation",
+                    "name": "bp(GOBP:\"DNA oxidation\")",
+                    "bel_expression": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA oxidation\")",
+                    "evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries.",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "response to oxidative stress",
+                    "name": "bp(GOBP:\"response to oxidative stress\")",
+                    "bel_expression": "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "apoptotic process",
+                    "name": "bp(GOBP:\"apoptotic process\")",
+                    "bel_expression": "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "necrosis",
+                    "name": "bp(GOBP:necrosis)",
+                    "bel_expression": "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)",
+                    "evidence": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "Oxidized Low Density Lipoprotein",
+                    "name": "a(SCHEM:\"Oxidized Low Density Lipoprotein\")",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "One such risk factor is oxLDL, which exert pro-apoptotic effects on a variety of cell lineages, including endothelial cells and VSMCs, both in cultured cells and in arteries . Increased formation of oxygen radicals (and other radical species) facilitates LDL oxidation and influences oxidation-sensitive mechanisms .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "oxidation-reduction process",
+                    "name": "bp(GOBP:\"oxidation-reduction process\")",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"oxidation-reduction process\")",
+                    "evidence": "One such risk factor is oxLDL, which exert pro-apoptotic effects on a variety of cell lineages, including endothelial cells and VSMCs, both in cultured cells and in arteries . Increased formation of oxygen radicals (and other radical species) facilitates LDL oxidation and influences oxidation-sensitive mechanisms .",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "reactive oxygen species",
+                    "name": "a(CHEBI:\"reactive oxygen species\")",
+                    "bel_expression": "a(CHEBI:\"reactive oxygen species\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Not surprisingly, high concentrations of exogenous reactive oxygen species (ROS), generated by enzymatic reactions or by radiation, also stimulate the apoptosis of endothelial cells in vitro .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "angiotensin II",
+                    "name": "a(CHEBI:\"angiotensin II\")",
+                    "bel_expression": "a(CHEBI:\"angiotensin II\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "The peptide hormone angiotensin II and pro-inflammatory cytokines also trigger the apoptotic program in endothelial cells .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "inflammatory response",
+                    "name": "bp(GOBP:\"inflammatory response\")",
+                    "bel_expression": "bp(GOBP:\"inflammatory response\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "The peptide hormone angiotensin II and pro-inflammatory cytokines also trigger the apoptotic program in endothelial cells .",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "Aging",
+                    "name": "bp(GOBP:Aging)",
+                    "bel_expression": "bp(GOBP:Aging) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Aging, one of the major predictors for atherosclerotic lesion formation, increases the sensitivity of endothelial cells to apoptosis induced by in vitro and in vivo stimuli .",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "response to shear stress",
+                    "name": "bp(GOBP:\"response to shear stress\")",
+                    "bel_expression": "bp(GOBP:\"response to shear stress\") increases g(HGNC:NOS3)",
+                    "evidence": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury .",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "NOS3",
+                    "name": "g(HGNC:NOS3)",
+                    "bel_expression": "bp(GOBP:\"response to shear stress\") increases g(HGNC:NOS3)",
+                    "evidence": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury .",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "nitric oxide",
+                    "name": "ma(a(CHEBI:\"nitric oxide\")",
+                    "bel_expression": "bp(GOBP:\"response to shear stress\") increases ma(a(CHEBI:\"nitric oxide\")",
+                    "evidence": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury .",
+                    "type": "ma"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "nitric oxide",
+                    "name": "a(CHEBI:\"nitric oxide\")",
+                    "bel_expression": "a(CHEBI:\"nitric oxide\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "L-arginine",
+                    "name": "a(CHEBI:\"L-arginine\")",
+                    "bel_expression": "a(CHEBI:\"L-arginine\") decreases path(MESHD:Atherosclerosis)",
+                    "evidence": "More importantly, intervention with L-arginine has induced beneficial effects on atherosclerosis in experimental and human studies .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "SOD1",
+                    "name": "p(HGNC:SOD1)",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(HGNC:SOD1)",
+                    "evidence": "OxLDL induces the generation of ROS in different vascular cell types , and might also promote a rise in ROS levels through a decrease in ROS degradation, because oxLDL induces a reduction in the antioxidant enzymes Cu/Zn superoxide dismutase  and glutathione peroxidase .",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "GPX Family",
+                    "name": "p(SFAM:\"GPX Family\")",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(SFAM:\"GPX Family\")",
+                    "evidence": "OxLDL induces the generation of ROS in different vascular cell types , and might also promote a rise in ROS levels through a decrease in ROS degradation, because oxLDL induces a reduction in the antioxidant enzymes Cu/Zn superoxide dismutase  and glutathione peroxidase .",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "7-ketocholesterol",
+                    "name": "a(CHEBI:\"7-ketocholesterol\")",
+                    "bel_expression": "a(CHEBI:\"7-ketocholesterol\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "For instance, during 7-ketocholesterol-induced apoptosis of U937 cells, the cellular antioxidant content falls rapidly , but administration of two potent antioxidants, the aminothiols glutathione and N-acetylcysteine, can protect themonocytic cells from 7-ketocholesterol-induced apoptotic cell death .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "glutathione",
+                    "name": "a(CHEBI:\"glutathione\")",
+                    "bel_expression": "a(CHEBI:\"glutathione\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "For instance, during 7-ketocholesterol-induced apoptosis of U937 cells, the cellular antioxidant content falls rapidly , but administration of two potent antioxidants, the aminothiols glutathione and N-acetylcysteine, can protect themonocytic cells from 7-ketocholesterol-induced apoptotic cell death .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "N-acetylcysteine",
+                    "name": "a(CHEBI:\"N-acetylcysteine\")",
+                    "bel_expression": "a(CHEBI:\"N-acetylcysteine\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "For instance, during 7-ketocholesterol-induced apoptosis of U937 cells, the cellular antioxidant content falls rapidly , but administration of two potent antioxidants, the aminothiols glutathione and N-acetylcysteine, can protect themonocytic cells from 7-ketocholesterol-induced apoptotic cell death .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "CAT",
+                    "name": "p(HGNC:CAT)",
+                    "bel_expression": "p(HGNC:CAT) decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "In addition, another oxygen-radical scavenger enzyme, catalase, can prevent VSMC apoptosis triggered by hydrogen peroxide .",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "MYC",
+                    "name": "p(HGNC:MYC)",
+                    "bel_expression": "p(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level. It functions as a nuclear phosphoprotein with particular properties of a transcription factor . In serum deprived cultures, cells overexpressing c-myc readily undergo apoptosis. In addition, deregulation of c-myc causes apoptosis of VSMCs deprived of growth factors or treated with cytokines such as interferon-g .",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "cell proliferation",
+                    "name": "bp(GOBP:\"cell proliferation\")",
+                    "bel_expression": "p(HGNC:MYC) increases bp(GOBP:\"cell proliferation\")",
+                    "evidence": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level. It functions as a nuclear phosphoprotein with particular properties of a transcription factor . In serum deprived cultures, cells overexpressing c-myc readily undergo apoptosis. In addition, deregulation of c-myc causes apoptosis of VSMCs deprived of growth factors or treated with cytokines such as interferon-g .",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "F3",
+                    "name": "p(HGNC:F3)",
+                    "bel_expression": "p(HGNC:F3) hasComponent p(HGNC:F7)",
+                    "evidence": "Tissue factor (TF) is a 47 kDa transmembrane glycoprotein that initiates blood coagulation by binding coagulation factor VII and its activated form (factor VIIa), to produce a high-affinity complex  that proteolytically activates factors IX and X, leading to thrombin generation.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "F7",
+                    "name": "p(HGNC:F7)",
+                    "bel_expression": "p(HGNC:F3) hasComponent p(HGNC:F7)",
+                    "evidence": "Tissue factor (TF) is a 47 kDa transmembrane glycoprotein that initiates blood coagulation by binding coagulation factor VII and its activated form (factor VIIa), to produce a high-affinity complex  that proteolytically activates factors IX and X, leading to thrombin generation.",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "phosphatidyl-L-serine",
+                    "name": "a(CHEBI:\"phosphatidyl-L-serine\")",
+                    "bel_expression": "a(CHEBI:\"phosphatidyl-L-serine\") increases pep(p(HGNC:F3)",
+                    "evidence": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell .",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "F3",
+                    "name": "pep(p(HGNC:F3)",
+                    "bel_expression": "a(CHEBI:\"phosphatidyl-L-serine\") increases pep(p(HGNC:F3)",
+                    "evidence": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell .",
+                    "type": "pep"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "coagulation",
+                    "name": "bp(GOBP:coagulation)",
+                    "bel_expression": "a(CHEBI:\"phosphatidyl-L-serine\") increases bp(GOBP:coagulation)",
+                    "evidence": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell .",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "TIMP3",
+                    "name": "p(HGNC:TIMP3)",
+                    "bel_expression": "p(HGNC:TIMP3) directlyDecreases p(HGNC:KDR)",
+                    "evidence": "TIMP-3 can be anti-angiogenic by direct binding to vascular endothelial growth factor (VEGF) receptor 2 in a matrix-metalloproteinase- independent manner .",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "KDR",
+                    "name": "p(HGNC:KDR)",
+                    "bel_expression": "p(HGNC:TIMP3) directlyDecreases p(HGNC:KDR)",
+                    "evidence": "TIMP-3 can be anti-angiogenic by direct binding to vascular endothelial growth factor (VEGF) receptor 2 in a matrix-metalloproteinase- independent manner .",
+                    "type": "p"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
+                    "evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries."
+                }
+            },
+            {
+                "id": 1,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein oxidation\")",
+                    "evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries."
+                }
+            },
+            {
+                "id": 2,
+                "s": 0,
+                "t": 3,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"DNA oxidation\")",
+                    "evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries."
+                }
+            },
+            {
+                "id": 3,
+                "s": 4,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)"
+                }
+            },
+            {
+                "id": 4,
+                "s": 4,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)",
+                    "evidence": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)"
+                }
+            },
+            {
+                "id": 5,
+                "s": 7,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "One such risk factor is oxLDL, which exert pro-apoptotic effects on a variety of cell lineages, including endothelial cells and VSMCs, both in cultured cells and in arteries . Increased formation of oxygen radicals (and other radical species) facilitates LDL oxidation and influences oxidation-sensitive mechanisms ."
+                }
+            },
+            {
+                "id": 6,
+                "s": 7,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases bp(GOBP:\"oxidation-reduction process\")",
+                    "evidence": "One such risk factor is oxLDL, which exert pro-apoptotic effects on a variety of cell lineages, including endothelial cells and VSMCs, both in cultured cells and in arteries . Increased formation of oxygen radicals (and other radical species) facilitates LDL oxidation and influences oxidation-sensitive mechanisms ."
+                }
+            },
+            {
+                "id": 7,
+                "s": 9,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"reactive oxygen species\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Not surprisingly, high concentrations of exogenous reactive oxygen species (ROS), generated by enzymatic reactions or by radiation, also stimulate the apoptosis of endothelial cells in vitro ."
+                }
+            },
+            {
+                "id": 8,
+                "s": 10,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"angiotensin II\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "The peptide hormone angiotensin II and pro-inflammatory cytokines also trigger the apoptotic program in endothelial cells ."
+                }
+            },
+            {
+                "id": 9,
+                "s": 11,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"inflammatory response\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "The peptide hormone angiotensin II and pro-inflammatory cytokines also trigger the apoptotic program in endothelial cells ."
+                }
+            },
+            {
+                "id": 10,
+                "s": 12,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:Aging) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Aging, one of the major predictors for atherosclerotic lesion formation, increases the sensitivity of endothelial cells to apoptosis induced by in vitro and in vivo stimuli ."
+                }
+            },
+            {
+                "id": 11,
+                "s": 13,
+                "t": 14,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"response to shear stress\") increases g(HGNC:NOS3)",
+                    "evidence": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury ."
+                }
+            },
+            {
+                "id": 12,
+                "s": 13,
+                "t": 15,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"response to shear stress\") increases ma(a(CHEBI:\"nitric oxide\")",
+                    "evidence": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury ."
+                }
+            },
+            {
+                "id": 13,
+                "s": 16,
+                "t": 5,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:\"nitric oxide\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "Shear stress enhances expression of the gene encoding the endothelial nitric oxide synthase (eNOS) and further stimulates its enzymatic activity, leading to physiologic low concentrations of nitric oxide (NO) within endothelial cells . This continuous generation of NO prevents the apoptosis of endothelial cells, thereby protecting the endothelial monolayer from injury ."
+                }
+            },
+            {
+                "id": 14,
+                "s": 17,
+                "t": 0,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:\"L-arginine\") decreases path(MESHD:Atherosclerosis)",
+                    "evidence": "More importantly, intervention with L-arginine has induced beneficial effects on atherosclerosis in experimental and human studies ."
+                }
+            },
+            {
+                "id": 15,
+                "s": 7,
+                "t": 9,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") increases a(CHEBI:\"reactive oxygen species\")",
+                    "evidence": "OxLDL induces the generation of ROS in different vascular cell types , and might also promote a rise in ROS levels through a decrease in ROS degradation, because oxLDL induces a reduction in the antioxidant enzymes Cu/Zn superoxide dismutase  and glutathione peroxidase ."
+                }
+            },
+            {
+                "id": 16,
+                "s": 7,
+                "t": 18,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(HGNC:SOD1)",
+                    "evidence": "OxLDL induces the generation of ROS in different vascular cell types , and might also promote a rise in ROS levels through a decrease in ROS degradation, because oxLDL induces a reduction in the antioxidant enzymes Cu/Zn superoxide dismutase  and glutathione peroxidase ."
+                }
+            },
+            {
+                "id": 17,
+                "s": 7,
+                "t": 19,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(SCHEM:\"Oxidized Low Density Lipoprotein\") decreases p(SFAM:\"GPX Family\")",
+                    "evidence": "OxLDL induces the generation of ROS in different vascular cell types , and might also promote a rise in ROS levels through a decrease in ROS degradation, because oxLDL induces a reduction in the antioxidant enzymes Cu/Zn superoxide dismutase  and glutathione peroxidase ."
+                }
+            },
+            {
+                "id": 18,
+                "s": 20,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"7-ketocholesterol\") increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "For instance, during 7-ketocholesterol-induced apoptosis of U937 cells, the cellular antioxidant content falls rapidly , but administration of two potent antioxidants, the aminothiols glutathione and N-acetylcysteine, can protect themonocytic cells from 7-ketocholesterol-induced apoptotic cell death ."
+                }
+            },
+            {
+                "id": 19,
+                "s": 21,
+                "t": 5,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:\"glutathione\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "For instance, during 7-ketocholesterol-induced apoptosis of U937 cells, the cellular antioxidant content falls rapidly , but administration of two potent antioxidants, the aminothiols glutathione and N-acetylcysteine, can protect themonocytic cells from 7-ketocholesterol-induced apoptotic cell death ."
+                }
+            },
+            {
+                "id": 20,
+                "s": 22,
+                "t": 5,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:\"N-acetylcysteine\") decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "For instance, during 7-ketocholesterol-induced apoptosis of U937 cells, the cellular antioxidant content falls rapidly , but administration of two potent antioxidants, the aminothiols glutathione and N-acetylcysteine, can protect themonocytic cells from 7-ketocholesterol-induced apoptotic cell death ."
+                }
+            },
+            {
+                "id": 21,
+                "s": 23,
+                "t": 5,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:CAT) decreases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "In addition, another oxygen-radical scavenger enzyme, catalase, can prevent VSMC apoptosis triggered by hydrogen peroxide ."
+                }
+            },
+            {
+                "id": 22,
+                "s": 24,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level. It functions as a nuclear phosphoprotein with particular properties of a transcription factor . In serum deprived cultures, cells overexpressing c-myc readily undergo apoptosis. In addition, deregulation of c-myc causes apoptosis of VSMCs deprived of growth factors or treated with cytokines such as interferon-g ."
+                }
+            },
+            {
+                "id": 23,
+                "s": 24,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:MYC) increases bp(GOBP:\"cell proliferation\")",
+                    "evidence": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level. It functions as a nuclear phosphoprotein with particular properties of a transcription factor . In serum deprived cultures, cells overexpressing c-myc readily undergo apoptosis. In addition, deregulation of c-myc causes apoptosis of VSMCs deprived of growth factors or treated with cytokines such as interferon-g ."
+                }
+            },
+            {
+                "id": 24,
+                "s": 26,
+                "t": 27,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "p(HGNC:F3) hasComponent p(HGNC:F7)",
+                    "evidence": "Tissue factor (TF) is a 47 kDa transmembrane glycoprotein that initiates blood coagulation by binding coagulation factor VII and its activated form (factor VIIa), to produce a high-affinity complex  that proteolytically activates factors IX and X, leading to thrombin generation."
+                }
+            },
+            {
+                "id": 25,
+                "s": 28,
+                "t": 29,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"phosphatidyl-L-serine\") increases pep(p(HGNC:F3)",
+                    "evidence": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell ."
+                }
+            },
+            {
+                "id": 26,
+                "s": 5,
+                "t": 28,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"apoptotic process\") increases a(CHEBI:\"phosphatidyl-L-serine\")",
+                    "evidence": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell ."
+                }
+            },
+            {
+                "id": 27,
+                "s": 28,
+                "t": 30,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"phosphatidyl-L-serine\") increases bp(GOBP:coagulation)",
+                    "evidence": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell ."
+                }
+            },
+            {
+                "id": 28,
+                "s": 31,
+                "t": 32,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:TIMP3) directlyDecreases p(HGNC:KDR)",
+                    "evidence": "TIMP-3 can be anti-angiogenic by direct binding to vascular endothelial growth factor (VEGF) receptor 2 in a matrix-metalloproteinase- independent manner ."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

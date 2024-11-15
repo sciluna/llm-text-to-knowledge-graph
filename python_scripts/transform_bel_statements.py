@@ -1,6 +1,4 @@
-import json
 import re
-from convert_to_cx2 import convert_to_cx2
 
 
 def parse_bel_statement(bel_statement):
@@ -14,12 +12,10 @@ def parse_bel_statement(bel_statement):
     return None, None, None
 
 
-def process_llm_results(llm_json_path):
-    with open(llm_json_path, 'r') as f:
-        llm_data = json.load(f)
-
+def process_llm_results(llm_data):
     extracted_results = []
     for entry in llm_data["LLM_extractions"]:
+        text = entry["text"]
         for result in entry["Results"]:
             bel_statement = result["bel_statement"]
             source, interaction, target = parse_bel_statement(bel_statement)
@@ -27,19 +23,8 @@ def process_llm_results(llm_json_path):
                 extracted_results.append({
                     "source": source,
                     "interaction": interaction,
-                    "target": target
+                    "target": target,
+                    "text": text
                 })
     # Debugging: Print extracted results
-    print("Extracted Results:")
     return extracted_results
-
-
-llm_json_path = 'results/pmid12928037/llm_results.json'
-extracted_results = process_llm_results(llm_json_path)
-
-cx2_network = convert_to_cx2(extracted_results)
-
-# Save CX2 network to file
-with open('llm_network.cx2', 'w') as f:
-    json.dump(cx2_network.to_cx2(), f, indent=2)
-print("CX2 network saved to 'llm_network.cx2'.")

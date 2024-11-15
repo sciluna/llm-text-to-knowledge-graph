@@ -1,10 +1,10 @@
 from lxml import etree
 
 
-def get_pubtator_sentences(file_path):
+def get_pubtator_paragraphs(file_path):
     """
-    Extracts passages and their annotations from a PubTator XML file,
-    numbering each passage and stopping when 'REF' section is reached.
+    Extracts paragraphs and their annotations from a PubTator XML file,
+    ensuring text represents full paragraphs or abstract-like content.
 
     - Only includes annotations that have an 'NCBI Homologene' or 'identifier' starting with 'MESH:'.
     - For each annotation, extracts 'entity_text', 'type', and the identifier (either MESH or NCBI Homologene ID).
@@ -12,40 +12,40 @@ def get_pubtator_sentences(file_path):
     - Removes duplicate annotations within a passage.
 
     :param file_path: Path to the PubTator XML file.
-    :return: A dictionary with numbered passages as keys and values containing text and annotations.
+    :return: A dictionary with numbered paragraphs as keys and values containing text and annotations.
     """
     tree = etree.parse(file_path)
     root = tree.getroot()
 
-    passages_dict = {}
+    paragraphs_dict = {}
     passage_elements = root.findall('.//passage')
-    passage_number = 0
+    paragraph_number = 0
 
     for passage in passage_elements:
-        # Get the section_type
-        section_type = passage.findtext('infon[@key="section_type"]')
-        if section_type == 'REF':
-            # Stop extracting when 'REF' section is reached
-            break
+        # Check section type
+        section_type = passage.findtext('infon[@key="section_type"]', "").lower()
+
+        # Include sections that are meaningful (abstracts, paragraphs, introduction, etc.)
+        if section_type in ['ref', 'title']:
+            continue  # Skip non-content sections
 
         # Extract the passage text
         text_elem = passage.find('text')
         passage_text = text_elem.text.strip() if text_elem is not None else ""
+        if len(passage_text) < 20:  # Skip overly short texts
+            continue
 
         # Extract annotations within the passage
         annotations = []
-        annotation_elements = passage.findall('annotation')
+        annotation_elements = passage.findall('.//annotation')
         seen_annotations = set()
         for annotation in annotation_elements:
             # Build a dictionary of infon elements
-            infon_elements = annotation.findall('infon')
-            infon_dict = {infon.get('key'): infon.text.strip() for infon in infon_elements if infon.text}
+            infon_dict = {infon.get('key'): infon.text.strip() for infon in annotation.findall('infon') if infon.text}
 
-            # Initialize variables
+            # Check annotation criteria
             identifier = ""
             identifier_type = ""
-
-            # Check if the annotation meets the criteria
             if 'NCBI Homologene' in infon_dict:
                 identifier = infon_dict['NCBI Homologene']
                 identifier_type = 'NCBI Homologene'
@@ -54,16 +54,12 @@ def get_pubtator_sentences(file_path):
                 identifier_type = 'MESH'
 
             if identifier:
-                # Get the annotation text
-                ann_text_elem = annotation.find('text')
-                ann_text = ann_text_elem.text.strip() if ann_text_elem is not None else ""
-
-                # Get the annotation type
+                # Extract annotation details
+                ann_text = annotation.findtext('text', default="").strip()
                 ann_type = infon_dict.get('type', '')
 
-                # Create a tuple to check for duplicates
+                # Create a unique tuple to check for duplicates
                 ann_tuple = (ann_text, ann_type, identifier)
-
                 if ann_tuple not in seen_annotations:
                     seen_annotations.add(ann_tuple)
                     annotations.append({
@@ -73,17 +69,15 @@ def get_pubtator_sentences(file_path):
                         'identifier': identifier
                     })
 
-        # Only include passages with at least 2 annotations
+        # Include only sections with at least 2 valid annotations
         if len(annotations) >= 2:
-            # Add to the passages dictionary with numbering
-            passages_dict[str(passage_number)] = {
+            paragraphs_dict[str(paragraph_number)] = {
                 'text': passage_text,
                 'annotations': annotations
             }
+            paragraph_number += 1
 
-            passage_number += 1
-
-    return passages_dict
+    return paragraphs_dict
 
 
 def extract_annotations_from_pubtator_xml(file_path):
