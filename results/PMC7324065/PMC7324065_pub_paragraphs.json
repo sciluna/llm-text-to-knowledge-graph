@@ -1,0 +1,1530 @@
+{
+    "0": {
+        "text": "Signaling by the cytokine transforming growth factor beta (TGF-beta) has been implicated in a multitude of biological functions; however, TGF-beta signaling, particularly in the CNS, remains largely unexplored. ANK3 variants (encoding ankyrin-G) are associated with bipolar disorder, intellectual disability, and autism spectrum disorder, while mutations in USP9X, which encodes a deubiquitinase, are associated with X-linked intellectual disability and autism in humans. Here, we show that TGF-beta signaling promotes Usp9X phosphorylation, which enhances its interaction with ankyrin-G and stabilizes ankyrin-G in spines, leading to spine enlargement. Using in situ proximity ligation combined with structured illumination superresolution microscopy, we characterize the postsynaptic spatial organization of phosphorylation-dependent regulation of Usp9X/ankyrin-G interactions in dendrites and its quantitative relationship with spine morphology and number. These data reveal a cytokine-mediated mechanism regulating protein stability in spines and suggest a role for deubiquitination and TGF-beta signaling in neurodevelopmental disorder pathogenesis and treatment.",
+        "annotations": [
+            {
+                "entity_text": "transforming growth factor beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "ANK3",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "USP9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "autism",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001321"
+            },
+            {
+                "entity_text": "neurodevelopmental disorder",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            },
+            {
+                "entity_text": "autism spectrum disorder",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000067877"
+            },
+            {
+                "entity_text": "X-linked intellectual disability",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008607"
+            },
+            {
+                "entity_text": "intellectual disability",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008607"
+            },
+            {
+                "entity_text": "bipolar disorder",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001714"
+            }
+        ]
+    },
+    "1": {
+        "text": "Structural plasticity of spiny synapses, consisting of their formation, maturation, stabilization, remodeling, and elimination, underlies the development, function, and remodeling of brain circuits and contributes to behavior and cognition. Conversely, abnormalities of synaptic structural plasticity have emerged as cellular substrates in the pathogenesis of neurodevelopmental disorders. Accordingly, dendritic spine alterations have been observed in postmortem studies of patients with schizophrenia (SZ), bipolar disorder (BD), autism spectrum disorders (ASDs), and intellectual disability (ID).",
+        "annotations": [
+            {
+                "entity_text": "BD",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001714"
+            },
+            {
+                "entity_text": "SZ",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012559"
+            },
+            {
+                "entity_text": "intellectual disability",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008607"
+            },
+            {
+                "entity_text": "schizophrenia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012559"
+            },
+            {
+                "entity_text": "ID",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008607"
+            },
+            {
+                "entity_text": "neurodevelopmental disorders",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            },
+            {
+                "entity_text": "autism spectrum disorders",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000067877"
+            },
+            {
+                "entity_text": "ASDs",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000067877"
+            },
+            {
+                "entity_text": "bipolar disorder",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001714"
+            }
+        ]
+    },
+    "2": {
+        "text": "Consistent with this, recent genomic studies support a key role for genes encoding postsynaptic proteins in the pathogenesis of neurodevelopmental disorders. Among these, rare and common variants at the ANK3 gene locus were identified in patients with ASD and ID/attention-deficit/hyperactivity disorder (ADHD) and are among the most strongly associated risk factors for BD in genome-wide association studies (GWASs). ANK3 encodes ankyrin-G, which acts as a scaffold linking plasma membrane proteins to the actin/beta-spectrin cytoskeleton. Multiple isoforms of ankyrin-G (190/270/480 kDa) are expressed in the brain and share four conserved domains: an ankyrin repeat domain (ANKRD), a spectrin-binding domain, a death domain, and a regulatory domain. The giant 270/480-kDa isoforms have well-characterized roles at the axon initial segment (AIS) and nodes of Ranvier, and the 190-kDa form is enriched in dendrites and postsynaptic densities (PSDs) and regulates spine structure. Despite their importance, little is known about how the levels of ANKRD proteins, in particular at synapses, are regulated.",
+        "annotations": [
+            {
+                "entity_text": "ANK3",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "ID",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008607"
+            },
+            {
+                "entity_text": "BD",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001714"
+            },
+            {
+                "entity_text": "ADHD",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001289"
+            },
+            {
+                "entity_text": "neurodevelopmental disorders",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            },
+            {
+                "entity_text": "ASD",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001321"
+            },
+            {
+                "entity_text": "attention-deficit/hyperactivity disorder",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001289"
+            }
+        ]
+    },
+    "3": {
+        "text": "One of the major mechanisms controlling postsynaptic proteins is their regulated degradation by the ubiquitin-proteasome system (UPS), which also plays an important role in synaptic remodeling. Synapse remodeling is accompanied by changes in protein turnover, which occurs via regulated increases or decreases in protein degradation. Proteins are generally targeted for degradation by the UPS through the covalent addition of polyubiquitin chains to their lysine residues. Deubiquitinating enzymes (DUBs) oppose this process by removing ubiquitin from substrate proteins. Activation or inhibition of DUBs induces synaptic plasticity. Recent studies support a role for dysregulation of the UPS pathway in SZ, BD, ID, and ASDs, suggesting that protein turnover may play an important role in neurodevelopmental disorders. However, little is known about the synaptic targets of DUBs and about how deubiquitination of PSD proteins impacts spine plasticity and contributes to disease pathogenesis.",
+        "annotations": [
+            {
+                "entity_text": "BD",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001714"
+            },
+            {
+                "entity_text": "ID",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008607"
+            },
+            {
+                "entity_text": "neurodevelopmental disorders",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            },
+            {
+                "entity_text": "ASDs",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000067877"
+            },
+            {
+                "entity_text": "SZ",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012559"
+            }
+        ]
+    },
+    "4": {
+        "text": "Transforming growth factor beta (TGF-beta) is a cytokine with important functions in the immune system but immune-independent roles have been reported. TGF-beta binds to TGF-beta receptors I and II, which are Ser/Thr kinases that phosphorylate intracellular downstream substrates. TGF-beta has been shown to play important roles in neuronal development and function. Abnormal TGF-beta signaling has been implicated in cancer, heart disease, obesity and diabetes, but also in SZ and ASDs. However, the role of TGF-beta in dendritic spine structural plasticity has not been explored and its interaction with neurodevelopmental and psychiatric disorder risk factors is not clearly defined.",
+        "annotations": [
+            {
+                "entity_text": "Transforming growth factor beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "neurodevelopmental and psychiatric disorder",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001523"
+            },
+            {
+                "entity_text": "ASDs",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000067877"
+            },
+            {
+                "entity_text": "heart disease",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006331"
+            },
+            {
+                "entity_text": "diabetes",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D003920"
+            },
+            {
+                "entity_text": "obesity",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009765"
+            },
+            {
+                "entity_text": "SZ",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012559"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "5": {
+        "text": "Here, we investigated the regulation of ankyrin-G protein stability at synapses. Previously, we found that the ID-associated DUB Usp9X interacts with ankyrin-G and regulates its stability, maintaining dendritic spines persistently. In the current study, we show that the neuroprotective factor TGF-beta initializes a signaling cascade causing Usp9X phosphorylation and subsequent stabilization of ankyrin-G in spines. Using structured illumination microscopy (SIM), we found that ankyrin-G and Usp9X localize to distinct nanostructures within spines, the number of which correlates to mushroom spine head size, while proximity ligation assay (PLA)/SIM confirmed that TGF-beta increases ankyrin-G's interaction with Usp9X. These data reveal that TGF-beta can enhance stabilization of ankyrin-G in spines through the increase of Usp9X binding ability toward its target substrate.",
+        "annotations": [
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "ID",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008607"
+            }
+        ]
+    },
+    "6": {
+        "text": "Usp9X has been shown to modulate the TGF-beta signaling pathway by controlling the stability of Smad transcription factors. However, because TGF-beta receptors, which are Ser/Thr kinases, can also act by phosphorylating other substrates, we hypothesized that TGF-beta signaling may also directly regulate Usp9X function and its interaction with substrates for deubiquitination. We thus investigated the role of TGF-beta in regulating the Usp9X/ankyrin-G interaction. Ankyrin-G was costained for either TGF-beta receptor I or TGF-beta receptor II to understand the expression patterns of TGF-beta receptor in ankyrin-Gpositive neurons. TGF-beta receptors I and II were localized to both the AIS and dendrites, and they overlapped strongly with ankyrin-G in dendrites (Figure 1A); both receptor proteins were present at significantly higher levels in the dendrites than the AIS (Figure 1B). Next, to determine whether TGF-beta affected the expression of ankyrin-G and Usp9X, neurons were treated with TGF-beta for 15 min, 30 min, 1 h, 3 h, and 6 h. As expected, TGF-beta treatment resulted in a robust increase in Smad2 phosphorylation after 1 h, a known signaling component downstream of TGF-beta (Figure 1C). Interestingly, ankyrin-G protein levels increased after TGF-beta treatment, while Usp9X levels were not affected. Our previous studies have suggested that ankyrin-G plays an important role in spine development. Therefore, we tested the impact of TGF-beta on dendritic spine morphology in cultured cortical neurons. TGF-beta treatment caused a significant increase in spine head size and density (Figures 1E and 1F). Taken together, the TGF-beta-mediated increase in ankyrin-G may regulate spine development.",
+        "annotations": [
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "TGF-beta receptor II",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2435"
+            },
+            {
+                "entity_text": "Smad2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "21197"
+            }
+        ]
+    },
+    "7": {
+        "text": "TGF-beta Signaling Regulates Spine Morphology through the Interaction of Usp9X with Ankyrin-G",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "8": {
+        "text": "To validate TGF-beta-mediated stabilization of ankyrin-G and the interaction of Usp9X and ankyrin-G within a cellular context, an in situ PLA was performed as previously reported. The PLA method allows the interaction of cellular proteins to be spatially and quantitatively visualized. The PLA signal was significantly increased in both dendritic shafts and spine heads upon TGF-beta treatment (Figures 2A and 2B).",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "PLA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C033616"
+            }
+        ]
+    },
+    "9": {
+        "text": "As TGF-beta signaling is a known regulator of synaptic development and function, we hypothesized that it may regulate dendritic spine morphogenesis through Usp9X and its substrate ankyrin-G. We therefore applied TGF-beta to cortical neurons after knockdown of ankyrin-G or Usp9X with short hairpin RNA (shRNA) or control neurons. TGF-beta treatment of cultured cortical neurons resulted in increased spine area and density (Figures 2C-2E). Interestingly, the increase in spine area produced by TGF-beta was prevented by knockdown of Usp9X (shUsp9X) or ankyrin-G (shAnkG). In addition, the observed alterations in spine density were prevented by shAnkG and attenuated by shUsp9X. These results strongly implicate Usp9X and ankyrin-G as downstream effectors of TGF-beta receptor activation.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "ankyrin-G.",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            }
+        ]
+    },
+    "10": {
+        "text": "TGF-beta-Dependent Phosphorylation of Usp9X Enhances Its Interaction with Ankyrin-G",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "11": {
+        "text": "TGF-beta receptors are serine/threonine (S/T) kinases, and the TGF-beta signaling pathway regulates the activity of a wide range of downstream S/T kinases, such as Smads, extracellular signal-regulated kinase, JUN N-terminal kinase, and mitogen-activated protein kinase. As Usp9X levels remained consistent following TGF-beta stimulation, we hypothesized that post-translational modifications (PTMs) of Usp9X may be altered. We identified three S/T phosphorylation consensus sites (Serine 1,593/1,600/1,609) within the Usp9X peptidase domain (residues 1,555-1,958), and previous mass spectrometry studies have revealed that these sites are subject to PTM. All three serine sites are predicted to lie distal to the catalytic triad and are likely exposed for PTM (Figure 3A). To confirm the interaction between the ANKRD of ankyrin-G and the peptidase domain of Usp9X, we conducted a pulldown assay. Nickel-bead-bound His-Usp9X1,547-1,962 showed pull-down of AnkG1-807 (Figure 3B). In order to assess whether these sites are subject to PTM following TGF-beta stimulation, we carried out mutagenesis on the isolated peptidase domain of Usp9X (Usp9XWt) to create a phosphorylation-null triple mutant (Usp9XS3A). TGF-beta treatment produced a robust increase in serine phosphorylation in Usp9XWt, but not in Usp9XS3A, suggesting that Usp9X is a downstream target of TGF-beta receptor activation (Figure 3C). Interestingly, treatment with TGF-beta enhanced the reciprocal interaction between AnkG1-807 and Usp9XWt, but this effect was not observed with Usp9XS3A (Figure 3C). To validate the interaction of Usp9X and ankyrin-G within a cellular context, we employed in situ PLA. This technique labels interacting proteins that fall within a defined, 16-nm distance as calculated from the number of nucleotides in the attached DNA arms, a strong indicator of direct protein-protein interaction or complex formation. The PLA signal increased significantly after TGF-beta treatment; however, this effect was absent when Usp9XS3A was employed (Figures 3D and 3E). As both 190-kDa and 480-kDa ankyrin-G isoforms share an ANKRD, we tested the interaction of Usp9X with the giant ankyrin-G (ankyrin-G 480). Consistent with the 190-kDa isoform, TGF-beta-mediated Usp9X phosphorylation showed the enhancement in ankyrin-G 480 binding to Usp9X (Figure S1). Taken together, TGF-beta-mediated phosphorylation of the peptidase domain of Usp9X enhances the interaction between ankyrin-G and Usp9X, an effect that may underlie the morphological effects on dendritic spine area, density, and axonal outgrowth.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Nickel",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009532"
+            }
+        ]
+    },
+    "12": {
+        "text": "TGF-beta-Mediated Phosphorylation of Usp9X Regulates Spine Morphogenesis through Interaction with Ankyrin-G",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "13": {
+        "text": "Confocal images showed that PLA signals in the soma and dendrites after TGF-beta treatment increased upon coexpression of ankyrin-G with Usp9XWt, but not with Usp9XS3A (Figures 4A and 4B). Similar experiments also showed ankyrin-G 480 and Usp9X interaction in the AIS (Figure S2). We then utilized SIM to investigate the spatial relationship between the sites of ankyrin-G-Usp9X interaction within spine heads and spine head size (Figure 4C). Likewise, the number of PLA puncta in dendritic shaft and spines increased in ankyrin-G with Usp9XWt with TGF-beta treatment (Figure S3). Spine heads containing ankyrin-G were significantly larger than spine heads without ankyrin-G (Figure 4D), as previously reported. Interestingly, TGF-beta treatment increased the ratio of ankyrin-G-containing spines coincident with an increase in PLA-positive spines (Figure 4E), and it promoted an increase in spine head size (Figure 4F). PLA signals were partially overlapping with and around ankyrin-G and Usp9X clusters and localized to the perisynaptic areas of spines (Figures 5A and 5B). To analyze the effects of TGF-beta treatment on the correlation among the size of ankyrin-G, Usp9X, PLA nanodomains, and spine heads, equivalence tests were performed with confidence intervals. Unexpectedly, TGF-beta treatment did not show any superior effects on correlations (Figures 5C-5F). Spine heads, which include ankyrin-G, Usp9X, and PLA nanodomains concurrently, showed the same phenotype whether TGF-beta treated or not, suggesting that TGF-beta treatment increases the number of ankyrin-G-containing spines and spine head size through upregulation of the interaction between Usp9X and ankyrin-G.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "PLA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C033616"
+            }
+        ]
+    },
+    "14": {
+        "text": "Phosphorylation of Usp9X Is Required for TGF-beta-Dependent Spine Enlargement",
+        "annotations": [
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            }
+        ]
+    },
+    "15": {
+        "text": "To better understand the role of TGF-beta and phosphorylation of the Usp9X peptidase domain in regulating spine head size and spine density, we replaced endogenous Usp9X with the wild-type or S3A Usp9X peptidase domain and assessed the effect of TGF-beta treatment on spines. We transfected neurons with either control or shUsp9X and co-transfected with GFP-tagged Usp9XWt or Usp9XS3A. Overexpression of Usp9XS3A significantly decreased spine head size and spine density in control shRNA-transfected neurons (Figure 6A). In addition, overexpression of Usp9XWt rescued the effect of shUsp9X on spine head size and spine density; however, overexpression of Usp9XS3A could not rescue the spine phenotype. The effect of TGF-beta was prevented by overexpression of Usp9XS3A (Figures 6B and 6C). These data suggest that phosphorylation of the peptidase domain of Usp9X is important for regulating spine head size and generating new spines in response to TGF-beta.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "16": {
+        "text": "Based on these results, we propose that TGF-beta induces spine growth by enhancing the interaction between Usp9X and ankyrin-G, stabilizing it through deubiquitination in dendritic spine heads. Using SIM, we mapped the subsynaptic localization and TGF-beta-regulated interaction of ankyrin-G and Usp9X and assessed their relationship to spine morphology. We identify TGF-beta-dependent phosphorylation of Usp9X as an upstream regulatory mechanism of ankyrin-G and spine stability.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            }
+        ]
+    },
+    "17": {
+        "text": "We show that TGF-beta regulates the Usp9X-ankyrin-G module and spine morphology. Usp9X has been shown to mediate TGF-beta signaling by deubiquitinating Smad4 proteins, thereby modulating their transcription factor properties in the nucleus. However, here, we report a novel signaling pathway involving TGF-beta and Usp9X; Usp9X is a direct downstream target of TGF-beta-dependent phosphorylation, which is required for its interaction with the important postsynaptic protein ankyrin-G.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Smad4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31310"
+            }
+        ]
+    },
+    "18": {
+        "text": "TGF-beta signaling has been extensively implicated in neuronal functions, including hippocampal development, axonal specification, developmental synaptic refinement, and dendritic growth and excitatory-inhibitory synaptic balance in dopaminergic neurons, as well as hippocampal synaptic plasticity and memory and reversal learning. Loss of TGF-beta signaling induces improper CNS development, including neuronal degeneration and deficits in both glutamatergic and GABAergic synapses. However, TGF-beta has not been implicated in dendritic spine plasticity.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "neuronal degeneration",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009410"
+            }
+        ]
+    },
+    "19": {
+        "text": "We find that TGF-beta signaling induces phosphorylation of Usp9X within the peptidase domain, strengthening its interaction with ankyrin-G. Phosphorylation of key interacting partners in response to extracellular signaling may fine-tune ankyrin-G function at synapses. Interestingly, alteration of TGF-beta signaling has been reported in SZ and ASD patients. Moreover, mutations (D1606E and P1613T) within the peptidase domain in close proximity to serine 1,600/1,609, have been identified in patients with mild developmental delay and speech delay.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "ankyrin-G.",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "SZ",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012559"
+            },
+            {
+                "entity_text": "developmental delay",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            },
+            {
+                "entity_text": "ASD",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001321"
+            },
+            {
+                "entity_text": "speech delay",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007805"
+            }
+        ]
+    },
+    "20": {
+        "text": "Our SIM imaging reveals, for the first time, the nanoscale spatial organization of the regulation of a deubiquitination pathway in spines by an extracellular signal. SIM has been instrumental in showing that ankyrin-G is localized to perisynaptic regions and spine necks. Here the combination of PLA and SIM provides the unprecedented ability to examine phosphorylation-dependent protein-protein interactions in situ at the nanoscale level. In particular, we show that the phosphorylation-dependent interaction of ankyrin-G with Usp9X occurs primarily in a region of the spine head facing the interior of the spine and not in the neck. In addition, SIM and PLA/SIM allowed accurate quantitative analysis of the relationships between the size of TGF-beta-regulated deubiquitinase-substrate interaction nanodomains and spine morphological parameters.",
+        "annotations": [
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "PLA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C033616"
+            }
+        ]
+    },
+    "21": {
+        "text": "We previously found that the absence of Usp9X in mice drastically reduces the levels of multiple ANKRD proteins, including Shank2, Shank3, and ankyrin-B, indicating that Usp9X is likely the major DUB regulating their stability during this developmental period. Taken together with the present data, this suggests a mechanism of convergence between multiple neurodevelopmental risk factors, whereby one paracrine signaling molecule with important roles in brain development and disease regulates the interaction of two other important risk factors independently implicated in neurodevelopmental disorders.",
+        "annotations": [
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Shank2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "105965"
+            },
+            {
+                "entity_text": "Shank3",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "75163"
+            },
+            {
+                "entity_text": "neurodevelopmental disorders",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            }
+        ]
+    },
+    "22": {
+        "text": "Multiple studies have shown that TGF-beta and its related family members have neuroprotective actions in several models of brain injury and degeneration, suggesting potentially therapeutic synaptotrophic actions. For example, TGF-beta protects synapses against Abeta oligomers in an Alzheimer's disease model; it protects neurons in Huntington's disease, Parkinson's disease, and ischemia and promotes nigrostriatal dopaminergic neuron survival. By enhancing the efficiency of Usp9X-mediated deubiquitination toward its substrates, leading to stabilization of ankyrin-G and perhaps other ANKRD proteins, TGF-beta could be developed into a therapeutic strategy to recover synaptic deficits in neurodevelopmental disorders.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Abeta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1603"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "synaptic deficits",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009461"
+            },
+            {
+                "entity_text": "brain injury and degeneration",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001927"
+            },
+            {
+                "entity_text": "Huntington's disease",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006816"
+            },
+            {
+                "entity_text": "Alzheimer's disease",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000544"
+            },
+            {
+                "entity_text": "Parkinson's disease",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010300"
+            },
+            {
+                "entity_text": "neurodevelopmental disorders",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002658"
+            },
+            {
+                "entity_text": "ischemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007511"
+            }
+        ]
+    },
+    "23": {
+        "text": "Dissociated cultures of primary cortical neurons were prepared from P0 C57BL/6J (The Jackson Laboratory) pups. All procedures were approved by Northwestern University's Animal Care and Use Committee and were in compliance with the National Institutes of Health standards. Brains were dissected in ice-cold Leibowitz's L-15 media with penicillin/streptomycin, and cortical tissue isolated, digested with 0.25% trypsin-EDTA solution at 37 C for 10 min, and mechanically dissociated in high-glucose Dulbecco's Modified Eagle Medium (DMEM) supplemented with 10% fetal bovine serum, 1.4 mM L-glutamine, and 6.0 g/L glucose. Cortical neurons were plated at 320,000 cells per 18 x 18 mm coverslip precoated with 50 mug/ml poly-D-lysine (Sigma) and 2 mug/ml laminin (Sigma). Neuronal cultures were maintained at 37 C in 5% CO2 in Neurobasal media supplemented with B27 and GlutaMax-1 and penicillin/streptomycin. Neurons were transfected at day in vitro (DIV) 21 with Lipofectamine 2000 (Invitrogen). 4 mug total DNA and Lipofectamine 2000 were diluted in DMEM + HEPES (10 mM), mixed thoroughly together, and incubated for 20-30 minutes at 37 C before adding to cultured cells. Following transfection, neurons were supplanted in antibiotic-containing feeding media containing half conditioned and half fresh media, and allowed to express constructs for 4 days.",
+        "annotations": [
+            {
+                "entity_text": "streptomycin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013307"
+            },
+            {
+                "entity_text": "HEPES",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006531"
+            },
+            {
+                "entity_text": "L-glutamine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005973"
+            },
+            {
+                "entity_text": "penicillin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010406"
+            },
+            {
+                "entity_text": "EDTA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004492"
+            },
+            {
+                "entity_text": "Lipofectamine 2000",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C086724"
+            },
+            {
+                "entity_text": "glucose",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005947"
+            },
+            {
+                "entity_text": "CO2",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002245"
+            }
+        ]
+    },
+    "24": {
+        "text": "3XHA-AnkG (EX-Mm25668-M06) and 3XFlag-Usp9X (EX-Mm24322-M12) were purchased from GeneCopoeia. GFP-AnkG 480 was generously given by Dr. Vann Bennett (Duke University School of Medicine) and the construct was cloned into pReceiver-M06 (GeneCopoeia). shRNA constructs were purchased from Origene, in the pGFP-C-RS vector with a turboGFP element or the pRFP-C-RS vector with a turboRFP element to enable identification of transfected cells. The N-terminal fragment of 3XHA-AnkG (amino acids 1-807) and the peptidase domain fragment of 3XFlag-Usp9X (amino acids 1555-1958; 3XFlag-Usp9X1555-1958) were generated as described previously. The 3XFlag-Usp9X1555-1958 triple serine mutant (S1593A, S1600A, S1609A; S3A) was generated using a QuickChange Site-Directed Mutagenesis Kit (Agilent) as per the manufacturer's instructions. All constructs were verified by sequencing (Genewiz).",
+        "annotations": [
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            }
+        ]
+    },
+    "25": {
+        "text": "Cells were fixed for 10 min in 4% formaldehyde in phosphate-buffer saline (PBS) at 4 C. After 3 PBS washes of 5 min each, fixed neurons were permeabilized and blocked simultaneously in PBS containing 1% bovine serum albumin (BSA) and 0.3% Triton X-100 for 1 h at room temperature. Primary antibodies were added in PBS containing 1% BSA and 0.3% Triton X-100 overnight at 4 C, followed by 3 x 10 min washes in PBS. Secondary antibodies were incubated for 1 h at room temperature, also in 1% BSA and 0.3% Triton X-100 in PBS. Three further washes (5 min each) were performed before coverslips were mounted using Fluorescent Mounting Medium (Dako).",
+        "annotations": [
+            {
+                "entity_text": "PBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007854"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            },
+            {
+                "entity_text": "formaldehyde",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005557"
+            }
+        ]
+    },
+    "26": {
+        "text": "Colocalization highlighter images (ankyrin-G, Usp9X, TGFbetaRI, and TGFbetaRII) and Manders' colocalization coefficients were determined in ImageJ with the use of the MBF set of plugins. ImageJ recalculates the pixel values of images between 0-65535 for 16-bit images and the 'Auto' option in the Brightness/Contrast was chosen to apply to the optimal contrast of images. To outline a region of interest (ROI) along dendrites or cell bodies, images were auto-thresholded (threshold = (average background + average objects)/2) and converted into binary images. Total immunofluorescence intensity for each cluster was measured automatically. For dendritic spine quantification, two-dimensional, background-subtracted maximum projection reconstructions of images for dendritic spine morphometric analysis (area), and quantification of spine linear density (# of spines/10 mum dendritic length) were performed using ImageJ software. A threshold was applied to the maximum projection images to include all detectable spines, and regions along dendrites containing dendritic spines were manually traced to enclose spines but not dendritic shafts or other structures. Dendritic spine \"objects,\" restricted to objects with areas greater than 0.1 mum2, were automatically detected, and the area of each spine head was measured. Two dendritic branches (approximately 100 mum) of each neuron were analyzed. Only spines on secondary and tertiary apical dendrites were measured to reduce variability. Cultures that were directly compared were stained simultaneously and imaged with the same acquisition parameters. To analyze the number of PLA puncta, ImageJ examined the image of 32.38 x 32.38 mum area taken by SIM. All images transferred to an 8-bit format and applied a threshold option as a range 0 and 30. Next, thresholded images processed convert to mask and watershed with a binary option. Finally, an option for \"analyze particles\" was selected to count the number of PLA puncta automatically. Counted puncta were separately recorded inside and outside of transfected neurons and divided by analyzed area (punta number / mum2).",
+        "annotations": [
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "PLA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C033616"
+            }
+        ]
+    },
+    "27": {
+        "text": "Coimmunoprecipitation assays were performed as described in with modifications. For assays of overexpressed AnkG and Usp9X constructs, HEK293T cells were transfected with 3XHA-AnkG1-807 and 3XFlag-Usp9XWt or 3XFlag-Usp9XS3A using PEI transfection reagent (Sigma) in 100-mm dishes. Cells were treated in lysis buffer (20 mM Tris pH 7.5, 1% Triton X-100, 150 mM NaCl, 1 mM EGTA, 1mM 4-(2-Aminoethyl) benzenesulfonyl fluoride hydrochloride (AEBSF) with protease inhibitor cocktail), and equal protein aliquots of cell lysates (700 mug) were incubated with 3 mug of antibody overnight at 4 C followed by the addition of 30 mul of Sepharose A/G slurry for 4 h at 4 C. The complexes were washed three times with washing buffer. Samples were then denatured (5 min at 95 C). The immunoprecipitated proteins were separated with 10% SDS-PAGE and detected by western blotting.",
+        "annotations": [
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "4-(2-Aminoethyl) benzenesulfonyl fluoride hydrochloride",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C002010"
+            },
+            {
+                "entity_text": "SDS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012967"
+            },
+            {
+                "entity_text": "NaCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012965"
+            },
+            {
+                "entity_text": "AEBSF",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C002010"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            },
+            {
+                "entity_text": "EGTA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004533"
+            }
+        ]
+    },
+    "28": {
+        "text": "Recombinant protein was expressed in E. Coli, and purified by nickel affinity as previously described. Protein was assessed to be > 95% pure by Coomassie stain, and protein was snap-frozen in liquid nitrogen for storage. HEK293T cells were transfected with GFP or AnkG1-808, and expressed for 3 days before lysis in PBS + 0.5% Triton X-100. Cells were scraped down, and incubated 1 hour before centrifugation (5,000 x g, 5 mins) to remove insoluble material. Nickel beads were prewashed in lysis buffer and incubated with lysis buffer or saturated with recombinant Usp9X (0.8 mg on 50 ul beads), before dilution of Triton X-100 (2.5x dilution in PBS + 30 mM imidazole, final = 12.5 mM imidazole, 0.2% Triton X-100). Lysates were split into each condition and incubated with nickel beads for 2 hours. Beads were pelleted (1000 x g, 1 min) and washed with PBS + 30 mM imidazole for 30 minutes two times. Final elution was performed using PBS + 2 M NaCl and brief vortexing. Samples were loaded on a 4%-20% SDS gel and ECL was performed.",
+        "annotations": [
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            },
+            {
+                "entity_text": "nitrogen",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009584"
+            },
+            {
+                "entity_text": "imidazole",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C029899"
+            },
+            {
+                "entity_text": "nickel",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009532"
+            },
+            {
+                "entity_text": "Nickel",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009532"
+            },
+            {
+                "entity_text": "PBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007854"
+            },
+            {
+                "entity_text": "SDS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012967"
+            },
+            {
+                "entity_text": "NaCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012965"
+            }
+        ]
+    },
+    "29": {
+        "text": "Cortical neurons plated on coverslips were transfected with 3XHA-AnkG and 3XFlag-Usp9XWt or 3XFlag-Usp9XS3A at DIV 14. At 3 days post-transfection, the transfected cells were treated with 20 ng/ml of TGFbeta (eBioscience) for 1 h before fixation. HEK293T cells were transfected with 3XHA-AnkG1-807 and 3XFlag-Usp9XS3A using PEI transfection reagent. At 24 h post-transfection, the transfected cells were treated with 20 ng/ml of TGFbeta (eBioscience; 14-8342-62) for 1 h before fixation. All procedures of PLA were performed according to the manufacturer's instructions (Sigma). To confirm the transfected cells, mouse 488 conjugated-Flag antibody and rabbit 568 conjugated-HA antibody were used. For negative control, in situ PLA probe anti-mouse MINUS was replaced by anti-goat MINUS. To detect PLA signal, far red reagent (Sigma, DUO92013) was used.",
+        "annotations": [
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGFbeta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "PLA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C033616"
+            }
+        ]
+    },
+    "30": {
+        "text": "(C) Representative images of western blot. Time-dependent stimulation of expression of ankyrin-G after treatment with TGF-beta (20 ng/mL) in cultured neurons. Phosphorylation of Smad2 (p-Smad2) was used for confirmation of TGF-beta signaling activity. beta-Actin was the internal loading control.",
+        "annotations": [
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Smad2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "21197"
+            },
+            {
+                "entity_text": "beta-Actin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "110648"
+            }
+        ]
+    },
+    "31": {
+        "text": "TGF-beta-Enhanced Interaction of Ankyrin-G and Usp9X Regulates Spine Morphogenesis",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "32": {
+        "text": "(A) SIM image of mCherry-expressing neurons (red) with treatment of vehicle or TGF-beta (20 ng/mL) for 1 h to detect the interaction between ankyrin-G and Usp9X by PLA (cyan). Scale bar, 10 mum, top. Magnified image of boxed spine and dendrite (bottom). Scale bar, 2 mum, bottom.",
+        "annotations": [
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "33": {
+        "text": "(B) The number of PLA puncta per 10 mum in neurons treated with vehicle or TGF-beta. Bars also show the distribution of PLA puncta in spines (white) and dendrites (gray) (vehicle, n = 28 neurons; TGF-beta, n = 33 neurons). **p < 0.01; ***p < 0.001 by two-tailed unpaired t test.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "PLA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C033616"
+            }
+        ]
+    },
+    "34": {
+        "text": "(C) Confocal images of neurons transfected with control RNAi (control) or shRNA against Usp9X (shUsp9X) or ankyrin-G (shAnkG) and subsequently treated with vehicle (top) or TGF-beta (20 ng/mL) (bottom) for 1 h. Scale bar, 5 mum.",
+        "annotations": [
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "35": {
+        "text": "TGF-beta-Mediated Phosphorylation of Usp9X Enhances the Interaction with Ankyrin-G",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "36": {
+        "text": "(A) Usp9X homology model (gray) was generated using crystal structure (PDB: 5WCH) as template. S1,593, S1,600, and S1,609 (orange) are positioned on a loop absent from crystal structure 5WCH. Energy minimization of this loop allowed an energetically favorable conformation to be predicted (blue) and suggests that all serine sites lie distal to the catalytic triad (magenta).",
+        "annotations": [
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "serine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012694"
+            }
+        ]
+    },
+    "37": {
+        "text": "(C) Representative western blot of HA-AnkG1-807 with co-expressing FLAG-Usp9X1,555-1,958 (FLAG-Usp9XWt) or FLAG-Usp9X1,555-1,958 (S1,593;1,600;1,609A) (FLAG-Usp9XS3A) construct from HEK293T cells. Immunoprecipitation (IP) of phosphoserine (pSer) and detection of phosphorylated Smad2 (p-Smad2) were performed to confirm TGF-beta-mediated signaling.",
+        "annotations": [
+            {
+                "entity_text": "Smad2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "21197"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "pSer",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010768"
+            },
+            {
+                "entity_text": "phosphoserine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010768"
+            }
+        ]
+    },
+    "38": {
+        "text": "(E) Quantification of PLA signal from (D) (n = 9-16 cells). HA-AnkG1-807 and FLAG-Usp9XWt (black bars) or FLAG-Usp9XS3A (red bars) with vehicle (plain pattern) or TGF-beta (comb pattern). ***p < 0.001;    p < 0.001 by two-way ANOVA followed by Bonferroni post-tests. All data are presented as mean +- SEM. TGF-beta (-), vehicle; TGF-beta (+), 20 ng/mL TGF-beta for 1 h.",
+        "annotations": [
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            }
+        ]
+    },
+    "39": {
+        "text": "TGF-beta-Mediated Phosphorylation of Usp9X in Dendrites Is Required for the Development of Spines",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "40": {
+        "text": "(A) Confocal images of primary cortical neurons for detection of interaction between the whole construct of HA-AnkG and FLAG-Usp9XWt or FLAG-Usp9XS3A with PLA. Scale bar, 20 mum.",
+        "annotations": [
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "41": {
+        "text": "(B) Bar graph of PLA signal with vehicle (plain pattern) or TGF-beta (comb pattern) treatment in HA-AnkG and FLAG-Usp9XWt (black bars) or FLAG-Usp9XS3A (red bars) expressing cells (n = 16 neurons for each group). ***p < 0.001;    p < 0.001 by two-way ANOVA followed by Bonferroni post-tests. All data are presented as mean +- SEM.",
+        "annotations": [
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            }
+        ]
+    },
+    "42": {
+        "text": "(D-F) Spine head size in the presence or absence of ankyrin-G (D) and with vehicle (plain pattern) or TGF-beta (comb pattern) treatment (F); theratio of spines expression HA-AnkG and PLA signal (E) (n = 16 neurons for each group). ***p < 0.001;    p < 0.001 by two-tailed unpaired t test (D) or one-way ANOVA followed by non-parametric statistical analysis (F). All data are presented as mean +- SEM.",
+        "annotations": [
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "ankyrin-G",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            }
+        ]
+    },
+    "43": {
+        "text": "TGF-beta-Mediated Phosphorylation of Usp9X Regulates Spine Morphogenesis through Interaction with Ankyrin-G",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "44": {
+        "text": "(A and B) SIM images of a spine (A) from FLAG-Usp9XWt in Figure 4C. Lower panels show ratiometric images and colocalization (white). Scale bar, 0.5 mum. 3D reconstruction (B) of a PLA-SIM image of a spine from TGF-beta (+). Scale bar, 1 mum.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "PLA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C033616"
+            }
+        ]
+    },
+    "45": {
+        "text": "(C-F) Correlation plots of the area of FLAG-Usp9X versus HA-AnkG nanodomains (C) and the area of FLAG-Usp9X (D) or HA-AnkG (E) nanodomains versus the area of PLA nanodomains and spine head area versus the area of PLA nanodomains (F) from the HA-AnkG + FLAG-Usp9XWt + TGF-beta(-) group or the HA-AnkG + FLAG-Usp9XWt + TGF-beta(+) group. Two-tailed non-parametric Spearman correlation was performed, and the 90% confidence interval (CI) was considered for equivalence tests. TGF-beta (-): vehicle; TGF-beta (+): 20 ng/mL TGF-beta for 1 h.",
+        "annotations": [
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            },
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            }
+        ]
+    },
+    "46": {
+        "text": "Replacement of RNAi-Resistant GFP-Usp9XWt, but Not GFP-Usp9XS3A, Induces TGF-beta-Dependent Spine Enlargement",
+        "annotations": [
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            }
+        ]
+    },
+    "47": {
+        "text": "(A) Confocal images of neurons transfected with control RNAi (control) or shUsp9X and GFP-Usp9XWt or GFP-Usp9XS3A (green) and subsequently treated with vehicle or TGF-beta (20 ng/mL) for 1 h in a dendritic region outlined by tRFP (red) expression. Scale bar, 5 mum.",
+        "annotations": [
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            }
+        ]
+    },
+    "48": {
+        "text": "(B and C) Spine head area (B) and density (C) in control or shUsp9X and GFP-Usp9XWt (black bars) or GFP-Usp9XS3A (red bars) with vehicle (plain pattern) or TGF-beta (comb pattern) (n = 12-18 neurons for each group). Vehicle versus TGF-beta: *p < 0.05, ***p < 0.001; GFP-Usp9XWt versus GFP-Usp9XS3A:   p < 0.01,    p < 0.001 by one-way ANOVA followed by non-parametric statistical analysis. TGF-beta (-), vehicle; TGF-beta (+), 20 ng/mL TGF-beta for 1 h. All data are presented as mean +- SEM.",
+        "annotations": [
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "TGF-beta",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "540"
+            }
+        ]
+    },
+    "49": {
+        "text": "REAGENT or RESOURCE SOURCE IDENTIFIER   Antibodies   Mouse monoclonal anti-AnkG NeuroMab Facility Cat#75-146; RRID: AB_10673030   Goat polyclonal anti-AnkG Santa Cruz Biotechnology Cat#sc-31778; RRID: AB_2289736   Rabbit polyclonal anti-Usp9X Abcam Cat#ab19879; RRID: AB_470300   Mouse monoclonal anti-Flag (clone M2) Sigma-Aldrich Cat#F1804; RRID: AB_262044   Mouse monoclonal anti-HA (clone HA-7) Sigma-Aldrich Cat#H3663; RRID: AB_262051   Rabbit polyclonal anti-HA Enzo Life Sciences Cat#ADI-MSA-106; RRID: AB_10615792   Rabbit polyclonal anti-HA Abcam Cat#ab20084; RRID: AB_445319   Mouse monoclonal anti-His Millipore Cat#05-949; RRID: AB_492660   Mouse monoclonal anti-beta-actin (clone AC-74) Sigma-Aldrich Cat#A2228; RRID: AB_476697   Rabbit polyclonal anti-TGFbetaRI Abcam Cat#ab31013; RRID: AB_778352   Rabbit polyclonal anti-TGFbetaRII Abcam Cat#ab186838; RRID: AB_2728775   Rabbit monoclonal anti-p-Smad2 (Ser465/467) Cell signaling Technology Cat#3101; RRID: AB_331673   Mouse monoclonal anti-Smad2 Abcam Cat#ab119907; RRID: AB_10899446   Rabbit polyclonal anti-phosphoserine Abcam Cat#ab9332; RRID: AB_307184   Mouse monoclonal anti-Flag-488 (clone M2) Abcam Cat#ab117505; RRID: AB_10972518   Rabbit polyclonal anti-HA-568 Synaptic System Cat#245 003C3; RRID: AB_2619954   Chicken polyclonal anti-mCherry Abcam Cat#ab205402; RRID: AB_2722769   Chicken polyclonal anti-GFP Abcam Cat#ab13970; RRID: AB_300798   Rabbit polyclonal anti-GFP Thermo Fisher Scientific Cat#A10260; RRID: AB_2534022   Goat anti-chicken 488 Thermo Fisher Scientific Cat#A-11039; RRID: AB_2534096   Goat anti-chicken 568 Thermo Fisher Scientific Cat#A-11041; RRID: AB_2534098   Donkey anti-rabbit 488 Thermo Fisher Scientific Cat#A-21206; RRID: AB_2535792   Goat anti-mouse 568 Thermo Fisher Scientific Cat#A-11031; RRID: AB_144696   Bacterial and Virus Strains   E. coli HST08 TaKaRa Cat#636766   Chemicals, Peptides, and Recombinant Proteins   Mouse TGFbeta1 eBioscience Cat#14-8342-62   Critical Commercial Assays   Duolink  In Situ PLA  Probe Anti-Mouse MINUS Sigma-Aldrich Cat#DUO92004   Duolink  In Situ PLA  Probe Anti-Rabbit PLUS Sigma-Aldrich Cat#DUO92002   Duolink  In Situ PLA  Probe Anti-Goat MINUS Sigma-Aldrich Cat#DUO92006   Duolink  In Situ Detection Reagents FarRed Sigma-Aldrich Cat#DUO92013   In-Fusion HD Cloning Kit Clontech Cat#638910   QuickChange Site-Directed Mutagenesis Kit Agilent Technologies Cat#200516   Experimental Models: Cell Lines   HEK293T/17 cells ATCC Cat#CRL-11268   Experimental Models: Organisms/Strains   Mouse: C57BL/6J The Jackson Laboratory #000664   Oligonucleotides   AnkG480 F: TGA AGG AAT TCG GTA CCA TGG CTC ATG CCG CCT CCC AGTTA This paper N/A   AnkG480 R: GCG GCC GCA CTC GAG CTA GTG GGC TTT CTT CTC CAC ATT CCG This paper N/A   Recombinant DNA   pEZ-3XHA-AnkG GeneCopoeia Cat# EX-Mm25668-M06   pEZ-3XFlag-Usp9X GeneCopoeia Cat#EX-Mm24322-M12   pRFP-C-RS Control Origene Cat#TR30015   pRFP-C-RS shUsp9X Origene Cat#TF510959   pGFP-C-RS shAnkG  https://www.cell.com/neuron/abstract/S0896-6273(14)00908-8   pmCherry-C1 Clontech Cat#632524   pEZ-3XHA-AnkG1-807  HA-AnkG1-807   pEZ-3XFlag-Usp9X1555-1958  Flag-Usp9XWt   pEGFP-Usp9X1555-1958  GFP-Usp9XWt   pEZ-3XFlag-Usp9X1555-1958 S1593;1600;1609A  Flag-Usp9XS3A   pEGFP-Usp9X1555-1958 S1593;1600;1609A  GFP-Usp9XS3A   pMCSG53-6XHis-Usp9X1547-1962  His-Usp9X1547-1962   pEZ-3XHA-AnkG480 This paper HA-AnkG480   Software and Algorithms   FIJI (ImageJ) NIH https://fiji.sc/   NIS-Elements v4.51.00 Nikon https://www.nikon.com/products/microscope-solutions/support/index.htm   Prism 8 GraphPad https://www.graphpad.com/scientific-software/prism/   Maestro multiple sequence viewer Schrodinger https://www.schrodinger.com/   Maestro Bioluminate Schrodinger https://www.schrodinger.com/   PyMOL V1.8.2.0 Schrodinger https://pymol.org/2/   Image Lab 3.0 Bio-Rad Laboratories https://www.bio-rad.com/en-us/product/image-lab-software",
+        "annotations": [
+            {
+                "entity_text": "AnkG",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "56908"
+            },
+            {
+                "entity_text": "Usp9X",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "beta-actin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "110648"
+            },
+            {
+                "entity_text": "Smad2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "21197"
+            },
+            {
+                "entity_text": "Usp9XWt",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3418"
+            },
+            {
+                "entity_text": "AB",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1603"
+            }
+        ]
+    }
+}

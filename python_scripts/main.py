@@ -24,6 +24,9 @@ def main(pmc_id):
 
     Args:
         pmc_id (str): PubMed Central ID of the article to process.
+
+    Returns:
+        cx2_network (dict): The extracted interaction data in CX2 format.
     """
     try:
         validate_pmc_id(pmc_id)

@@ -18,13 +18,15 @@ def process_llm_results(llm_data):
         text = entry["text"]
         for result in entry["Results"]:
             bel_statement = result["bel_statement"]
+            evidence = result["evidence"]
             source, interaction, target = parse_bel_statement(bel_statement)
             if source and interaction and target:
                 extracted_results.append({
                     "source": source,
                     "interaction": interaction,
                     "target": target,
-                    "text": text
+                    "text": text,
+                    "evidence": evidence
                 })
     # Debugging: Print extracted results
     return extracted_results

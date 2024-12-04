@@ -1,0 +1,807 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": "0",
+            "text": "There are substantial shortcomings in the drugs currently available for treatment of type 2 diabetes mellitus. The global diabetic crisis has not abated despite the introduction of new types of drugs and targets. Persistent unaddressed patient needs remain a significant factor in the quest for new leads in routine studies. Drug discovery methods in this area have followed developments in the market, contributing to a recent rise in the number of molecules. Nevertheless, troubling developments and fresh challenges are still evident. Recently, metformin, the most widely used first-line drug for diabetes, was found to contain a carcinogenic contaminant known as N-nitroso dimethylamine (NDMA). Therefore, purity and toxicity are also a big challenge for drug discovery and development. Moreover, newer drug classes against SGLT-2 illustrate both progress and difficulties. The same was true previously in the case of glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors. Furthermore, researchers must study the importance of mechanistic characteristics of novel compounds, as well as exposure-related hazardous aspects of current and newly identified protein targets, in order to identify new pharmacological molecules with improved selectivity and specificity.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:metformin) hasComponent a(CHEBI:\"N-nitroso dimethylamine\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:metformin) increases path(MESHD:carcinogenesis)"
+                }
+            ]
+        },
+        {
+            "Index": "1",
+            "text": "Diabetes mellitus (DM) is a chronic progressive metabolic disorder in which the body is unable to utilize glucose. It could be caused by a decrease in pancreatic cell insulin secretion or a lack of insulin responsiveness in the body. Insulin aids glucose assimilation within cells, allowing blood glucose levels to remain within a healthy range (80-120 mg/dL). Thus, a deficit of insulin in the body results in hyperglycemia, raising the blood glucose level, which in turn leads to many metabolic and life-threatening complications, including cardiovascular, nephropathic, and neuropathic diseases, amongst others.",
+            "Results": [
+                {
+                    "bel_statement": "deg(p(HGNC:INS)) directlyDecreases sec(p(HGNC:INS))"
+                },
+                {
+                    "bel_statement": "deg(p(HGNC:INS)) directlyDecreases bp(GOBP:\"glucose assimilation\")"
+                },
+                {
+                    "bel_statement": "deg(p(HGNC:INS)) directlyIncreases path(MESHD:Hyperglycemia)"
+                }
+            ]
+        },
+        {
+            "Index": "2",
+            "text": "A significant portion of the world's population is affected by diabetes mellitus (DM). Studies estimate that 8.8% of those between the ages of 20-79 in the world's population are diabetic. According to an International Diabetes Federation (IDF) report, the Federated States of Micronesia (Micronesia) have the world's most overweight population, with a 30% obesity prevalence. On the other hand, North American and Caribbean adults aged between 20-79 years have the highest prevalence (13%) of diabetes among Western IDF regions. In South Asian countries, diabetes prevalence is at its highest in Mauritius (22%), followed by Sri Lanka (10.7%), and India (10.4%). Approximately 425 million people worldwide are affected by diabetes, and this is projected to increase to ~629 million by the year 2045 due to unhealthy diets and inactive lifestyles.",
+            "Results": []
+        },
+        {
+            "Index": "3",
+            "text": "In the case of Micronesia and other nearby islands, there is one hypothesis that argues the cause of severe diabetes is inadequate physical activity and an unhealthy diet. During times in which there is an inadequate food supply, people in Micronesia consume an excess amount of sugar to sustain themselves. After recovering from such periods, even with an increased availability of higher quality foods, sugar consumption has become an integral part of their daily dietary habits. Micronesian survey data show that around 73.1% of the population is overweight, and 32.1% frankly diabetic.",
+            "Results": []
+        },
+        {
+            "Index": "4",
+            "text": "DM is a major threat to both the developed and developing worlds. According to the 2017 National Diabetes Statistics Report, about 30.3 million people in the U.S. are diabetic and surprisingly some 23.8% are undiagnosed. The latest 2019 statistics by the IDF are shown in Table 1. However, in countries like India, the dominant factor contributing to the prevalence of diabetes is an underdeveloped health services system, as 70% of the Indian population lives in poorly serviced rural areas. Widespread illiteracy and unfamiliarity with healthier nutritional habits only serve to exacerbate the situation. These factors contribute to inadequate diabetes screening and availability of preventive measures, as well as non-adherence to diabetes management guidelines once diagnosed. Less physical activity and sedentary lifestyles may also contribute to obesity and T2DM. Correspondingly, increased physical activity has been shown to help maintain glucose homeostasis in the body and to delay the onset of impaired glucose tolerance.",
+            "Results": [
+                {
+                    "bel_statement": "bp(GOBP:\"increased physical activity\") increases bp(GOBP:\"glucose homeostasis\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"increased physical activity\") decreases path(MESHD:\"Impaired Glucose Tolerance\")"
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "text": "Diabetes existed long before its mechanisms were understood. The first reference to diabetes was in 1550 B.C. in an Egyptian papyrus, where it was described as a rare disease characterized by excessive weight loss and frequent urination. The term diabetes (to siphon or to pass through, in Greek) was first used by Apollonius of Memphis, who noted that patients with diabetes present with frequent urination. A Greek physician, Galen, hypothesized it to be a type of kidney disease, as the most prominent symptom was glucosuria. Avicenna (980-1037) offered a comprehensive description of diabetes mellitus in his publication \"The Canon of Medicine\" in 1025. Eventually, owing to its characteristic symptoms, many tests to more fully identify the disease were developed in the late 11th century, involving the examination of the subject's urine's color, odor and taste. The sweet taste of a diabetic patient's urine apparently led to its second name, mellitus (honey, in Latin). Later in the 19th century, Matthew Dobson discovered that the excessive amount of sugar in the urine of patients with diabetes gives it that sweet taste. He also provided an important distinction between the two different types of diabetes, which are now referred to as type 1 and type 2 diabetes. Banting and Macleod observed a reduction in blood glucose levels after administering islets of Langerhans to a pancreatectomized dog, and for this breakthrough discovery they were awarded the Nobel Prize in 1923. Eli Lilly acquired the first deal to produce insulin on a commercial level. Gradually, by the late 20th century, as the mechanisms behind diabetes started to unfold, various insulin preparations and other oral hypoglycemic drugs paved their way onto the market.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:insulin) decreases a(CHEBI:\"blood glucose\")"
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "text": "At present, based on insulin deficiency and insensitivity of cells towards insulin, diabetes is classified into three major types, described below. The detailed classification can be found in the WHO's classification of diabetes mellitus 2019.",
+            "Results": []
+        },
+        {
+            "Index": "7",
+            "text": "T1DM is primarily caused by the destruction of pancreatic beta-cells by the body's immune system and is also known as Insulin Dependent Diabetes Mellitus. This type of diabetes is found across all age groups of patients, but the prevalence is higher among children.",
+            "Results": [
+                {
+                    "bel_statement": "path(MESHD:\"Diabetes Mellitus, Type 1\") increases bp(GOBP:\"immune system process\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"immune system process\") decreases a(MESHAnatomy:\"pancreatic beta cell\")"
+                }
+            ]
+        },
+        {
+            "Index": "8",
+            "text": "T2DM is the most common type of diabetes. It is a chronic and multifactorial disease. Earlier this was also called Non-insulin Dependent Diabetes Mellitus (NIDDM), but this term is no longer used because insulin is often used in the management of NIDDM. T2DM is believed to be caused by the gradual development of cells resistant towards insulin and beta-cell dysfunction, although the exact mechanism remains unclear. Being overweight or obese is a major risk factor for T2DM, as it may increase the likelihood of insulin resistance. This in turn will decrease uptake of glucose in, for example, the heart or musculoskeletal tissues, with simultaneous increase in glucose production in organs such as the liver. To counter this, insulin secretion is enhanced by beta-cells. Therefore, hyperglycemia and hyperinsulinemia often coexist during early T2DM. In later stages of the disease, beta-cell function is also diminished. Thus, therapeutics that target beta-cell functioning and decrease insulin resistance are key treatments in T2DM. Some of the factors that control beta-cell functioning include oxidative stress, ER-stress and autophagy. Over the years, researchers have worked on various targets to moderate the onset or worsening of diabetes in their patients, out of which many turned into drug targets.",
+            "Results": [
+                {
+                    "bel_statement": "bp(GOBP:\"insulin resistance\") decreases bp(GOBP:\"glucose uptake\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"insulin resistance\") increases bp(GOBP:\"glucose production\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"insulin secretion\") increases bp(GOBP:\"glucose uptake\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"insulin secretion\") increases bp(GOBP:\"glucose production\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"oxidative stress\") regulates bp(GOBP:\"beta-cell functioning\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"ER-stress\") regulates bp(GOBP:\"beta-cell functioning\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:autophagy) regulates bp(GOBP:\"beta-cell functioning\")"
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "text": "2.3. Gestational Diabetes Mellitus (GDM)",
+            "Results": []
+        },
+        {
+            "Index": "10",
+            "text": "Mothers with GDM is a type of glucose intolerance that occurs during pregnancy. It affects around 2-14% of pregnant women worldwide. Mothers with GDM are at increased risk for the development of T2DM after pregnancy. Their offspring have increased rates of birth trauma, as well as a higher chance of developing issues with obesity and diabetes later in life. Mothers with GDM can be managed by diet and exercise with only some cases requiring medication.",
+            "Results": []
+        },
+        {
+            "Index": "11",
+            "text": "T1DM is managed by regular administration of insulin and modifications in the diet and lifestyle of affected individuals. T2DM is the most common type of diabetes, and due to its complex pathogenesis, the ideal treatment for T2DM has been difficult to find. Several studies have reported compounds that improved insulin's action on target tissues and helped restore beta-cell function. In the last decade, many targets have been discovered as new oral agents for T2DM patients. Among these, four major target types are known as insulin secretagogues, insulin mimickers and sensitizers, and starch blockers.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:insulin) increases bp(GOBP:\"insulin receptor signaling pathway\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:insulin) increases bp(GOBP:\"beta-cell function\")"
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "text": "Insulin secretagogues work by stimulating beta-cells to secrete more insulin. There are two types: sulfonylureas and non-sulfonylureas. Sulphonylureas (SU) bind to the sulphonylurea receptors on pancreatic beta-cells and stimulate them to secrete insulin. SU have shown good efficacy in reducing glycated hemoglobin microvasculature complications in patients with T2DM. However, their major drawback is prolonged binding time to the beta-cells, which results in prolonged insulin release. The non-sulfonylureas also stimulate beta-cells to secrete insulin, but they are short acting. In 2004, Jean-Claude Henquin proposed five potential action sites for insulin secretagogue beta-cell metabolism activation: increased blocking of beta-cell KATP channels; increase in intracellular (Ca2+) concentration by means other than KATP channels; activation of various amplifying pathways in beta-cells; action on beta-cell membrane receptors; and action on beta-cell nuclear receptors.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"sulfonylurea\") increases sec(p(HGNC:INS))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"non-sulfonylurea\") increases sec(p(HGNC:INS))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"sulfonylurea\") increases a(CHEBI:\"glycated hemoglobin\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"sulfonylurea\") increases a(CHEBI:\"calcium ion\")"
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "text": "Insulin mimickers and sensitizers are agents which are helpful in lowering blood-glucose levels and are usually found as dietary supplements. They work by activating glucose transporters on muscle and fat cells, thus mimicking the function of insulin. Insulin sensitizers work by increasing the sensitivity of body tissues towards insulin. A variety of observable cardiac risk factors such as an increased risk of blood clotting, elevated blood pressure, lipid profile or C-reactive protein, undesired lipoprotein(a) or serum fibrinogen, and even abnormal thickening of the heart muscle have also been shown to improve upon use of insulin sensitizers.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"insulin mimicker\") increases act(p(HGNC:SLC2A4))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"insulin sensitizer\") increases act(p(HGNC:SLC2A4))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"insulin sensitizer\") decreases path(MESHD:\"Hypertension\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"insulin sensitizer\") decreases path(MESHD:\"Hyperlipidemias\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"insulin sensitizer\") decreases a(CHEBI:\"C-reactive protein\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"insulin sensitizer\") decreases a(CHEBI:\"lipoprotein(a)\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"insulin sensitizer\") decreases a(CHEBI:\"serum fibrinogen\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"insulin sensitizer\") decreases path(MESHD:\"Cardiac Hypertrophy\")"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "text": "Another important class is alpha-glucosidase inhibitors, which act by slowing down carbohydrate absorption. The most common drugs are Acarbose and miglitol. Another category is dipeptidyl peptidase-4 (DPP-4) inhibitors, which also act in carbohydrate metabolism. For example, Glucagon-like peptide-1 (GLP-1) is released after meal ingestion and found highly expressed in adipose tissue. It works by delaying gastric emptying, increasing insulin secretion, and reducing glucagon secretion.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:Acarbose) decreases bp(GOBP:\"carbohydrate absorption\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:miglitol) decreases bp(GOBP:\"carbohydrate absorption\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"dipeptidyl peptidase-4 inhibitor\") regulates bp(GOBP:\"carbohydrate metabolism\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:GCG) increases sec(p(HGNC:INS))"
+                },
+                {
+                    "bel_statement": "p(HGNC:GCG) decreases sec(p(HGNC:GCG))"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "text": "Sodium-glucose co-transporter type 2 (SGLT2) inhibitors are another recently discovered class. Canagliflozin and dapagliflozin are recently approved drugs in this category. These agents promote glucose excretion by the kidney and thus exert their actions independent of insulin (Figure 1a,b).",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEMBL:canagliflozin) increases bp(GOBP:\"glucose excretion\")"
+                },
+                {
+                    "bel_statement": "a(CHEMBL:dapagliflozin) increases bp(GOBP:\"glucose excretion\")"
+                }
+            ]
+        },
+        {
+            "Index": "16",
+            "text": "The other advantages of these drugs include modest weight loss and a low risk of hyperglycemia, etc.. The search for the ideal anti-diabetic drug is still ongoing, leading to the development of newer molecules which are in different phases of clinical trials. Some of the anti-diabetic drugs at phase-III clinical trials are listed in Table 2.",
+            "Results": []
+        },
+        {
+            "Index": "17",
+            "text": "11beta-Hydroxysteroid dehydrogenase is an enzyme that catalyzes the conversion of inactive cortisone to active cortisol. Literature reports indicated that high circulating levels of active glucocorticoid cortisol contribute to various disorders such as diabetes mellitus, obesity, dyslipidemia and high blood pressure. The 11beta-HSD knockout transgenic mice were shown to have higher insulin sensitivity and were comparatively more resistant to high fat induced obesity, whereas studies also suggested that the over expression of 11beta-HSD made animals prone to metabolic syndrome. Hence, 11beta-HSD is considered an important drug target for T2DM.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:HSD11B1)) increases a(CHEBI:cortisol)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:cortisol) increases path(MESHD:\"Diabetes Mellitus\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:cortisol) increases path(MESHD:Obesity)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:cortisol) increases path(MESHD:Dyslipidemias)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:cortisol) increases path(MESHD:\"Hypertension\")"
+                }
+            ]
+        },
+        {
+            "Index": "18",
+            "text": "As reported earlier, most glucose entering the cell undergo glycolytic metabolism and a very small percentage enter the hexosamine pathway. Biosynthesis of hexosamine is well known for its contribution to insulin resistance and activation of growth factor synthesis. Enzyme Glutamine fructose-6-phosphate aminotransferase (GFAT) has a central role in the hexosamine biosynthetic pathway, as it is involved in catalysis of the first and rate limiting steps for hexosamine formation. Therefore, it is considered to be an important therapeutic target against T2DM.",
+            "Results": [
+                {
+                    "bel_statement": "bp(GOBP:\"hexosamine biosynthetic process\") increases path(MESHD:\"Insulin Resistance\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"hexosamine biosynthetic process\") increases bp(GOBP:\"growth factor biosynthetic process\")"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:GFPT1)) rateLimitingStepOf bp(GOBP:\"hexosamine biosynthetic process\")"
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "text": "Protein tyrosine phosphatases, such as protein tyrosine phosphatase 1B (PTP1B) and leukocyte antigen-related tyrosine phosphatase, play an important role in modulating insulin signal transductions. Tyrosine phosphorylation in the insulin-receptor activation loop is an important step in insulin signal transduction. PTP1B dephosphorylates phosphor-tyrosine residues of insulin receptor kinase activation segments leading to negative regulation of insulin signaling. The evidence further suggests a relationship between PTP1B, insulin sensitivity, obesity and T2DM. PTP1B is also a negative regulator for leptin signaling. Leptin is a hormone primarily involved in maintaining metabolic homeostasis, and in obesity a decreased sensitivity to leptin results in the inability to attain satiety despite having good energy stores. PTP1B also plays an important part in pancreatic beta-cell proliferation. For example, Fernandez-Ruiz et al. found that that PTP1B knockout mice have a higher proliferation of beta-cells and elevated glucose-induced insulin secretion. These studies are strongly suggestive of the role of PTP1B in diabetes, and thus interest for PTP1B inhibitors, resulting in the search for and development of several inhibitors of this protein. Detailed descriptions of the reported PTP1B inhibitors can be found elsewhere.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:PTPN1) directlyDecreases p(HGNC:INSR, pmod(Ph, Tyr))"
+                },
+                {
+                    "bel_statement": "p(HGNC:PTPN1) directlyDecreases bp(GOBP:\"insulin receptor signaling pathway\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PTPN1) directlyDecreases bp(GOBP:\"leptin receptor signaling pathway\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PTPN1) increases bp(GOBP:\"pancreatic beta cell proliferation\")"
+                }
+            ]
+        },
+        {
+            "Index": "20",
+            "text": "The genome-based studies carried out by the Slim Initiative in Genomic Medicine for the Americas (SIGMA) Type 2 Diabetes identified a genetic locus which is strongly associated with T2DM. These diabetes-associated haplotypes caused a decrease in SLC16A11 expression in the liver and disrupted interaction with basigin, which reduced the cell surface localization of SLC16A11. SLC16A11 knockdown in primary human hepatocytes leads to modulation of fatty acid and lipid metabolism. This modulation increases intracellular acylcarnitine, diacylglycerol and triacylglycerol levels which results in increased triglycerides in blood circulation and an accumulation in liver tissue. The increased levels of triglycerides are implicated in insulin resistance, so variants of SLC16A11 may increase the risk of diabetes by regulating lipid metabolism. However, many questions remain unanswered, for example, what the unique substrates are that are associated with the transport of mediators targeting the physiological and biochemical mechanisms that affect T2DM.",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:SLC16A11) decreases r(HGNC:SLC16A11)"
+                },
+                {
+                    "bel_statement": "g(HGNC:SLC16A11) decreases complex(p(HGNC:BSG), p(HGNC:SLC16A11))"
+                },
+                {
+                    "bel_statement": "g(HGNC:SLC16A11) decreases surf(p(HGNC:SLC16A11))"
+                },
+                {
+                    "bel_statement": "g(HGNC:SLC16A11) increases bp(GOBP:\"fatty acid metabolic process\")"
+                },
+                {
+                    "bel_statement": "g(HGNC:SLC16A11) increases bp(GOBP:\"lipid metabolic process\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"lipid metabolic process\") increases a(CHEBI:triglyceride)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:triglyceride) increases path(MESHD:\"Insulin Resistance\")"
+                }
+            ]
+        },
+        {
+            "Index": "21",
+            "text": "4.5. Nephroblastoma Overexpressed (CCN3/NOV)",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCN3) increases path(MESHD:Nephroblastoma)"
+                }
+            ]
+        },
+        {
+            "Index": "22",
+            "text": "CCN3 (also nephroblastoma overexpressed) is a cysteine-rich protein which is involved in growth-regulatory functions. Its presence is noted in a variety of human tissues and biological fluids such as the musculoskeletal system, kidneys, and cerebrospinal fluid. The average plasma levels of CCN3 have a strong correlation with hs-CRP, BMI, and fat mass, and are elevated significantly in obese patients with hyperlipidemia. Martinerie et al. demonstrated that CCN3 deficiency in mice fed with standard high-fat diets markedly lowered their body weight, and improved glucose tolerance and insulin sensitivity. Moreover, Li et al. investigated the serum CCN3 levels in newly diagnosed T2DM (nT2DM) patients and compared it with healthy control subjects. It was observed that CCN3 levels were significantly elevated in T2DM patients. These data suggest CCN3 may be involved in obesity-associated insulin-resistance and can serve as an important target for a T2DM therapeutic.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCN3) positiveCorrelation a(MESHD:\"C-Reactive Protein\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:CCN3) positiveCorrelation a(MESHD:\"Body Mass Index\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:CCN3) positiveCorrelation a(MESHD:\"Fat Mass\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:CCN3) positiveCorrelation path(MESHD:Obesity)"
+                },
+                {
+                    "bel_statement": "p(HGNC:CCN3) positiveCorrelation path(MESHD:\"Diabetes Mellitus, Type 2\")"
+                }
+            ]
+        },
+        {
+            "Index": "23",
+            "text": "The forehead transcription factor FoxO1 is another important target of T2DM and a prominent mediator of insulin signaling in beta-cells. It has been shown that dominant-negative FoxO1 adipocytes improved both glucose as well as insulin tolerance in a high-fat diet model. In addition, Fox01 in the pancreas are responsible for beta-cell dysfunction by inducing stress and apoptosis. Phosphorylation and acetylation are the two most common post translational modifications of FoxO1, where it regulates many gene functions. Phosphorylation of FoxO1 is the main mechanism by which it comes out of the nucleus to get degraded by ubiquitination. The acetylation state of FoxO1 depends upon the balance between the protein acetylases and deacetylases. Even FoxO1 gets activated by O-GlcNAcylation during oxidative stress-like conditions in diabetic livers and increases the activation of many gluconeogenic and ROS detoxifying genes. PGC1-alpha induction during fasting activates the series of gluconeogenesis genes and later directly binds to FoxO1 to phosphorylate and ultimately degrade it out of the nucleus.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:FOXO1, pmod(Ph)) increases bp(GOBP:\"beta-cell apoptosis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:FOXO1, pmod(Ph)) increases deg(p(HGNC:FOXO1))"
+                },
+                {
+                    "bel_statement": "p(HGNC:FOXO1, pmod(Ac)) regulates g(NCBI Gene:gluconeogenesis)"
+                },
+                {
+                    "bel_statement": "p(HGNC:FOXO1, pmod(O-Glyco)) increases g(NCBI Gene:ROS detoxification)"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) increases g(NCBI Gene:gluconeogenesis)"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) directlyIncreases p(HGNC:FOXO1, pmod(Ph))"
+                }
+            ]
+        },
+        {
+            "Index": "24",
+            "text": "The free fatty acids (FFAs) can act as signaling molecules. FFAs are generally divided into three sub-categories based on their chain length as short-chain fatty acids (SCFAs), medium-chain fatty acids (MCFAs) and long-chain fatty acids (LCFAs). FFAs of these varying chain lengths are known to activate transmembrane receptors such as FFA1, FFA2, and FFA3. For example, FFA1 are expressed to a large extent on the pancreatic beta-cells and are activated by LCFAs. The activation of these receptors also plays an important role in the increase of glucose-stimulated insulin secretion. Therefore, because of its obvious role in glucose-stimulated insulin secretion, a series of FFA1 ligands have been identified and tested. FFA2 and FFA3 are akin to FFA1 receptors and get activated by SCFAs but their role in insulin is complex. FFA2 receptors are highly expressed in immune cells, especially neutrophils. Studies have also identified FFA2 expression on murine pancreatic beta-cell line MIN6 and isolated mouse islets. The indirect support for the role of FFA2 in diabetes comes from the fact that a fiber-rich diet is linked with a lower incidence of diabetes and SCFAs. Ligands for FFA2 are known to be produced by intestinal bacteria in the body by the fermentation of dietary fibers. Tang et al. showed FFA2 and FFA3 expression on human pancreatic beta-cells. These receptors are shown to inhibit insulin secretion by coupling to Gi-type G proteins. They also demonstrated that genetic deletion of FFA2 and FFA3 receptors in pancreatic beta-cells leads to higher insulin secretion in HFD animals, whereas similar deletion in intestinal cells did not affect glucose tolerance in diabetic animals. This study demonstrated that FFA2/FFA3 antagonists may prove beneficial in T2DM.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"long-chain fatty acid\") increases act(p(HGNC:FFAR1))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"short-chain fatty acid\") increases act(p(HGNC:FFAR2))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"short-chain fatty acid\") increases act(p(HGNC:FFAR3))"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:FFAR1)) increases bp(GOBP:\"glucose-stimulated insulin secretion\")"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:FFAR2)) decreases bp(GOBP:\"insulin secretion\")"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:FFAR3)) decreases bp(GOBP:\"insulin secretion\")"
+                }
+            ]
+        },
+        {
+            "Index": "25",
+            "text": "Epoxyeicosatrienoic acids (EETs) are produced from arachidonic acid by cytochrome p450 enzymes (monoxygenase/epoxygenase) in vascular endothelium responses to various stimuli, such as the agonists acetylcholine (ACH) or bradykinin, or by shear stress which activates phospholipase A2 to release arachidonic acid. The cytochrome p450 enzyme is responsible for the formation of 20-hydroxyeicosatetraenoic acid (20-HETE) and EETs. The soluble epoxide hydrolases and reactive oxygen species (ROS) induction rapidly hydrolyze the EETs into their respective dihydroxyepoxytrienoic acids (DHETs) as well as esterificate primarily to glycerophospholipids. The literature shows that EETs demonstrate anti-inflammatory, vasodilatory, and anti-apoptotic actions, inhibited sEH significantly, and elevated EETs' cellular and circulation levels.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"arachidonic acid\") increases a(CHEBI:\"epoxyeicosatrienoic acids\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"arachidonic acid\") increases a(CHEBI:\"20-hydroxyeicosatetraenoic acid\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"epoxyeicosatrienoic acids\") decreases bp(GOBP:\"inflammatory response\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"epoxyeicosatrienoic acids\") increases bp(GOBP:vasodilation)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"epoxyeicosatrienoic acids\") decreases bp(GOBP:\"apoptotic process\")"
+                }
+            ]
+        },
+        {
+            "Index": "26",
+            "text": "The administration of EET or inhibitors of sEH to obese mice is associated with a decrease in visceral subcutaneous fat and an increase in insulin sensitivity. The CYP2J2-mediated increase in EET increases fatty acid oxidation and adiposity. Although EETs have a naturally robust action, including vasodilatation and restraint of the inflammatory response, in adiposity, their effect on mitochondrial work and proliferator-actuated receptor gamma coactivator-1alpha (PGC-1alpha) corresponding to adipogenesis is still unclear.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:EET) increases bp(GOBP:\"fatty acid oxidation\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:EET) increases bp(GOBP:adiposity)"
+                }
+            ]
+        },
+        {
+            "Index": "27",
+            "text": "PGC-1alpha is a protein encoded by the PPARGC1A gene in humans. PGC-1alpha maintains energy homeostasis and regulates the expression of insulin signaling, mitochondrial biogenesis, dynamics, and antioxidant genes, including uncoupling proteins, and thus prevents mitochondrial dysfunction and metabolic disorders related to adipocyte malfunction. Dysregulation of PGC-1alpha alters homeostasis in cells and exacerbates the inflammatory response, which is commonly accompanied by metabolic disturbances. During adipocyte dysfunction, low degrees of PGC-1alpha downregulate mitochondrial quality articulation, instigate irritation and oxidative pressure, and advance atomic factor kappa-B actuation.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) regulates bp(GOBP:\"energy homeostasis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) regulates bp(GOBP:\"insulin signaling pathway\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) regulates bp(GOBP:\"mitochondrial biogenesis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) regulates bp(GOBP:\"antioxidant activity\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) decreases bp(GOBP:\"inflammatory response\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) decreases bp(GOBP:\"oxidative stress\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) decreases act(p(HGNC:NFKB1))"
+                }
+            ]
+        },
+        {
+            "Index": "28",
+            "text": "PGC-1alpha quality treatment facilitated improved fat tissue work and had a positive and beneficial effect on distal organs like the liver, suggesting that focusing on PGC-1alpha quality treatment is an alluring remedial methodology for improving insulin affectability, insulin processing, metabolic movement and vascular capacity in metabolic disorders.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) increases bp(GOBP:\"insulin processing\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) increases bp(GOBP:\"metabolic process\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARGC1A) increases bp(GOBP:\"vascular function\")"
+                }
+            ]
+        },
+        {
+            "Index": "29",
+            "text": "One of the most important nuclear targets for TZDs is PPAR . Originally, it was considered the positive regulator of adipogenesis with higher expression in adipose tissues, though it is also expressed in many other tissues and body cells of the body but to a lesser extent. It has been observed that specific deletion of PPAR  from different cell targets:such as adipose tissue, muscle, macrophages, and the brain:alters glucose homeostasis, which in turn reduces the activity of TZDs. PPAR  is well known for both promoting and secreting adiponectin which is considered an important insulin sensitizing hormone. It is a well-known transcription factor that regulates the functions of many genes both positively and negatively. However, fully understanding PPAR 's role and how it controls insulin sensitivity is still elusive. Despite many side effects, which include heart failure, weight gain, bladder cancer, plasma volume expansion, and others, it is still considered an important target. Understanding its mechanism and exploring its downstream pathway is of great interest. Epigenetic modifications or post translational modification in PPAR 's structure are thought to be promising routes in the treatment of various metabolic diseases. Various studies, including those on its phosphorylation at S273 or sumoylation at Lys107, have already demonstrated its importance in mediating insulin sensitizing actions. Sirtuins-mediated changes in PPAR  also were beneficial in metabolic syndrome.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:PPARG) increases sec(p(HGNC:ADIPOQ))"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG) increases bp(GOBP:adipogenesis)"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG, pmod(Ph, S, 273)) increases bp(GOBP:\"insulin sensitizing action\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG, pmod(Sumo, Lys, 107)) increases bp(GOBP:\"insulin sensitizing action\")"
+                }
+            ]
+        },
+        {
+            "Index": "30",
+            "text": "The glucocorticoid receptor has a distinct effect on insulin action with both endogenous as well exogenous synthetic glucocorticoids. In general, glucocorticoids increase the blood glucose levels when required by the brain, but chronic activation of these receptors is associated with metabolic dysfunction, including insulin resistance. Glucocorticoids exhibit their effects either by directly acting on promoter or enhancer sites of the genes or by acting on other transcription factors and making a complex. Homodimerization and direct binding are associated with insulin resistance, affecting many gluconeogenic genes such as Pck1 and G6pc. Chronic activation of these receptors inhibits protein synthesis and favors proteolysis. This ultimately releases amino acids and acts as substrate for glucose production. While the precise mechanism for how these receptors regulate insulin resistance is still unknown, many studies show that GR activation inhibits insulin stimulated glucose uptake by controlling many downstream targets.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:NR3C1) increases path(MESHD:\"Insulin Resistance\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:NR3C1) increases bp(GOBP:\"gluconeogenesis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:NR3C1) decreases bp(GOBP:\"protein synthesis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:NR3C1) increases bp(GOBP:proteolysis)"
+                }
+            ]
+        },
+        {
+            "Index": "31",
+            "text": "4.12. Nuclear Factor (Erythroid-Derived 2)-Like 2 (NRF2)",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:NFE2L2)"
+                }
+            ]
+        },
+        {
+            "Index": "32",
+            "text": "NRF2 is an important molecular node which imparts cytoprotection in many diseases. Due to its different roles in various diseases, it is predicted to be an important target in drug discovery. With concern to type 2 patients with diabetes, a significant difference was found in the genotypic and allelic frequencies of four SNPs of the NFE2L2 gene. In addition, one study involved induction of NRF2 in obese diabetic db/db mice, displaying a decreased blood glucose level by suppressing hepatic glucose 6 phosphatase via cAMP-CREB signaling. Leptin deficient mice showed decreased expression of NRF2 and displayed reduced amounts of white fat mass. This suggests that NRF2 is a key player in adipogenesis or in other metabolic disorders. It has been postulated that NRF2 levels can be increased with an acute dose of glucose, but chronic glucose conditions failed to activate it. Expression is also downregulated in prediabetes patients. NRF2-mediated protection is well defined in the dysfunction of diabetic retinopathy as well. NRF2 knockdown enhances the palmitate-induced apoptosis in hepatocytes of obese patients.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:NFE2L2) decreases a(CHEBI:\"glucose 6 phosphatase\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:NFE2L2) increases bp(GOBP:adipogenesis)"
+                },
+                {
+                    "bel_statement": "p(HGNC:NFE2L2) decreases bp(GOBP:\"apoptotic process\")"
+                }
+            ]
+        },
+        {
+            "Index": "33",
+            "text": "Neprilysin is a zinc-dependent metalloprotease that cleaves peptides (GLP-1 amide, GLP-1 amide from GLP-1 amide and GLP-1 amide) and inactivates several peptide hormones including glucagon, enkephalins, substance P, neurotensin, oxytocin, and bradykinin. It was thought that GLP-1 amide, which is the major circulation form in plasma, is the c-terminal metabolite which originates after the enzymatic cleavage of incretin hormone GLP-1 amide by dipeptidyl peptidase-4. These new metabolites also were considered to have an insulinomimetic activity that contributes to the pleiotropic effects of GLP1, other than its canonical GLP-1R. It has been found that direct administration of these metabolites has antioxidant, anti-apoptotic, and proliferative effects on pancreatic beta-cells by modulating energy homeostasis. It has been reported that these metabolites preserve mitochondrial function, inhibit membrane depolarization and caspase activation and hence, apoptosis of INS-1 beta-cells. The effect of these metabolites on diabetes is further demonstrated by the administration of GLP-1 amide, which increases beta-cell mass and proliferation by activation of the cAMP/PKA signaling cascade and phosphorylation of the Wnt/beta-catenin signaling pathway.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MME) directlyDecreases a(CHEBI:glucagon)"
+                },
+                {
+                    "bel_statement": "p(HGNC:MME) directlyDecreases a(CHEBI:enkephalins)"
+                },
+                {
+                    "bel_statement": "p(HGNC:MME) directlyDecreases a(CHEBI:\"substance P\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:MME) directlyDecreases a(CHEBI:neurotensin)"
+                },
+                {
+                    "bel_statement": "p(HGNC:MME) directlyDecreases a(CHEBI:oxytocin)"
+                },
+                {
+                    "bel_statement": "p(HGNC:MME) directlyDecreases a(CHEBI:bradykinin)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"GLP-1 amide\") increases bp(GOBP:\"cell proliferation\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"GLP-1 amide\") increases bp(GOBP:\"antioxidant activity\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"GLP-1 amide\") increases bp(GOBP:\"anti-apoptotic process\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"GLP-1 amide\") increases bp(GOBP:\"beta-cell proliferation\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"GLP-1 amide\") increases bp(GOBP:\"cAMP-mediated signaling\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"GLP-1 amide\") increases bp(GOBP:\"Wnt signaling pathway\")"
+                }
+            ]
+        },
+        {
+            "Index": "34",
+            "text": "In finding new therapeutics the multifactorial nature of T2DM should be considered, as well as prioritizing delivery of treatment at the earliest possible time. In addition, elevated risk of CVD is usually associated with T2DM. Consequently, current FDA guidelines necessitate that all new diabetic therapeutics should demonstrate protective or at least neutral cardiovascular impact profiles. In this way, targets of sub-atomic pathways conceivably involved in both diabetes and CVD are particularly attractive. Such methodologies incorporate the focusing of 11-hydroxysteroid dehydrogenase type 1 (11beta-HSD1), GPR119, TGR5, sirtuin 1 (SIRT1), the sodium-glucose co-carrier 2 (SGLT2), and GPR40, for every one of which the reasoning is briefly depicted below (Table 3).",
+            "Results": [
+                {
+                    "bel_statement": "path(MESHD:\"Diabetes Mellitus, Type 2\") positiveCorrelation path(MESHD:\"Cardiovascular Diseases\")"
+                }
+            ]
+        },
+        {
+            "Index": "35",
+            "text": "Diet is a key factor influencing the composition of the gut microbiome, indicating the potential for therapeutic dietary strategies to manipulate microbial diversity, composition, and stability. Although changes in gut microbiota are temporary, diet can induce a shift in the gut microbiota. Numerous studies have pointed to a direct correlation between short-term dietary changes as well as long-term dietary changes with gut microbiome diversity in mouse models. In addition, it was found that gut microbiota participates in drug metabolism by producing specific enzymes, such as reductase and hydrolytic enzymes, thus affecting the efficacy, toxicity, and bioavailability of drugs. Various antibiotics also alter the diversity and composition of gut microbiota which leads to dysbiosis, and it was found to be linked with progression of various neurodegenerative as well as metabolic disorders.",
+            "Results": [
+                {
+                    "bel_statement": "bp(GOBP:\"dietary process\") positiveCorrelation bp(GOBP:\"gut microbiome diversity\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"dietary process\") positiveCorrelation bp(GOBP:\"gut microbiome composition\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"dietary process\") positiveCorrelation bp(GOBP:\"gut microbiome stability\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"gut microbiota\") increases bp(GOBP:\"drug metabolism\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:antibiotic) decreases bp(GOBP:\"gut microbiome diversity\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:antibiotic) decreases bp(GOBP:\"gut microbiome composition\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:antibiotic) increases path(MESHD:Dysbiosis)"
+                }
+            ]
+        },
+        {
+            "Index": "36",
+            "text": "Gut microbiota dysbiosis has been found as a major culprit in initiation as well as progression of various metabolic syndromes including diabetes mellitus, which unlocks various therapeutic interventions for the prevention as well as treatment of metabolic syndrome.",
+            "Results": [
+                {
+                    "bel_statement": "path(MESHD:\"Metabolic Syndrome\") positiveCorrelation path(MESHD:\"Diabetes Mellitus\")"
+                }
+            ]
+        },
+        {
+            "Index": "37",
+            "text": "Isoflavone (genistein) reduced fasting glucose and insulin, as well as HOMA-IR, fibrinogen, and homocysteine levels. However, the current study's findings must be seen in the context of a healthy, well-balanced diet, which is likely to have boosted the positive benefits of genistein aglycone in our postmenopausal women. Isoflavones have been shown to have anti-diabetic benefits due to their a-glucosidase inhibitory activity. It is thought that genistein prevents diabetes by preserving insulin-positive beta-cells and altering the hepatic glucose metabolic enzyme profile. Genistein may prevent glucose-induced lipid peroxidation, modify cell islet pancreatic function, and increase basal metabolic rate and energy metabolism. In vitro and in vivo studies have shown that genistein can serve as an estrogen agonist, resulting in the growth of estrogen-dependent human breast cancer tumors, and that long-term treatment with soy phytoestrogens has been linked to an increased risk of endometrial hyperplasia.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:genistein) decreases a(CHEBI:glucose)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) decreases a(CHEBI:insulin)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) decreases a(MESHD:\"HOMA-IR\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) decreases a(CHEBI:fibrinogen)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) decreases a(CHEBI:homocysteine)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) increases act(p(HGNC:INS), ma(GO:\"glucosidase activity\"))"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) increases a(CHEBI:\"estrogen receptor\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) increases path(MESHD:\"Breast Neoplasms\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:genistein) increases path(MESHD:\"Endometrial Hyperplasia\")"
+                }
+            ]
+        },
+        {
+            "Index": "38",
+            "text": "7. Crosstalk between Diabetes and Fatty Liver Disease-NASH and Prospective Therapeutic Drug Targets",
+            "Results": []
+        },
+        {
+            "Index": "39",
+            "text": "Altered glucose and lipid metabolism are key factors associated with the development of NASH. Studies have shown the close relationship between metabolic disease and NASH. People having NASH are more insulin resistant than healthy people, irrespective of their weight. Although most of the patients with NASH are insulin resistant, they do not show hyperglycemia because of decreased ability of the liver to clear insulin. NASH patients only develop diabetes when pancreatic beta cells are unable to increase insulin secretion to match the insulin resistance.",
+            "Results": [
+                {
+                    "bel_statement": "bp(GOBP:\"glucose metabolic process\") association path(MESHD:\"Non-alcoholic Steatohepatitis\")"
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"lipid metabolic process\") association path(MESHD:\"Non-alcoholic Steatohepatitis\")"
+                },
+                {
+                    "bel_statement": "path(MESHD:\"Metabolic Syndrome\") association path(MESHD:\"Non-alcoholic Steatohepatitis\")"
+                },
+                {
+                    "bel_statement": "path(MESHD:\"Non-alcoholic Steatohepatitis\") increases bp(GOBP:\"insulin resistance\")"
+                }
+            ]
+        },
+        {
+            "Index": "40",
+            "text": "Some of the diabetic medications are used for the management and treatment of NASH. Glucagon-like-peptide-1 (GLP-1) receptors, which are used as second-line therapy for diabetes, have been used for amelioration of insulin resistance in NASH patients which ultimately improves the hepatic condition. The possible mechanism behind the improvement in insulin resistance is changes in body weight. However, researchers are still exploring the exact mechanism of these drugs. Dipeptidyl peptidase (DPP)-4 inhibitors are another diabetic lowering class of agents that can be used for the treatment of NASH. Although these agents are not potent glucose-lowering agents due to their oral intake and low safety, these are used in combination with metformin in the management of diabetes. However, strong evidence is still missing for the clinical use of these agents for the management of NASH. Pioglitazone, an anti-diabetic drug, has been shown to improve the condition in 60% of NASH patients. SGLT2 can be used for the treatment of NASH as it is helpful in glucose homeostasis. It has been shown to reverse liver steatosis and hepatocytes necrosis. These agents have been shown to decrease the plasma aminotransferases resulting in weight reduction which ultimately improves liver steatosis. One of these agents has been found to improve beta cell functions and insulin metabolism. Insulin has been under research for the treatment of liver steatosis and improvement in NASH.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:GLP1R) increases bp(GOBP:\"insulin resistance\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:pioglitazone) increases path(MESHD:NASH)"
+                },
+                {
+                    "bel_statement": "a(CHEBI:pioglitazone) increases bp(GOBP:\"glucose homeostasis\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:pioglitazone) decreases bp(GOBP:\"liver steatosis\")"
+                },
+                {
+                    "bel_statement": "a(CHEBI:pioglitazone) decreases bp(GOBP:necrosis)"
+                }
+            ]
+        },
+        {
+            "Index": "41",
+            "text": "Despite the helpful impacts of current glucose-lowering drugs, morbidity and mortality remain significant in T2DM patients, highlighting the need for the development of pharmacotherapeutics with a special focus on the many metabolic irregularities and different pathways associated with morbidity. Probably the best test in T2DM treatment is to avoid the drawn-out side effects of any therapeutic intervention, including nonalcoholic greasy liver infection/nonalcoholic Steatohepatitis (NAFLD/NASH) and CVD. Forthcoming investigations in T2DM have demonstrated a relationship between the level of hyperglycemia and the danger of micro- and macro-vascular inconveniences, including deadly CVD events. In any case, the new ACCORD and ADVANCE findings in patients with longstanding T2DM have demonstrated that aggressive glucose control in such patients has no reasonable advantages or may even increase the risk of CVD events. In this manner, other independent risk factors may exist that together contribute to CVD risk in these patients. On the other hand, such discoveries may essentially mirror the restrictions of current diabetic treatments, due to off-target impacts that counter the likely advantages of glucose-lowering agents. The discovery of SGLT2 inhibitors that seemingly have only a few drawbacks needs to be further studied. In phase-III clinical trials, vulvovaginal candidiasis and mycotic infections were the most common side effects seen in females. Osmotic diuresis is possible as glucose excreted in the urine also increases water and solute output, which can further lead to ketoacidosis or acidosis by hyperkaliemia and renal insufficiency. On average, SGLT2 inhibitors are expensive and difficult to continue for long-term use (, 15 September 2021). Currently, the search for new drug molecules that can activate sirtuins is of peak interest, and here resveratrol is considered the best characterized compound. However, it does not activate SIRT1 directly. Many similar molecular structures have been made of SRT1720 and SRT2104, which are active. Still, they need some substrate, and surprisingly they activate some fluorophore tags. They activate SIRT1 directly if endogenous sirtuin is similar to the fluorophore substrate (Figure 2).",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEMBL:SRT1720) directlyIncreases act(p(HGNC:SIRT1))"
+                },
+                {
+                    "bel_statement": "a(CHEMBL:SRT2104) directlyIncreases act(p(HGNC:SIRT1))"
+                }
+            ]
+        },
+        {
+            "Index": "42",
+            "text": "The past thirty years have seen unrest in diabetes treatment optimization, especially in basic insulin treatment for glycemic control. This welcome activity is geared toward greater understanding of the hidden systems of disease pathology and the advancement of a great number of potential therapeutics. Lamentably, sedentary lifestyles and uneven dietary preferences have contributed to the current obesity pandemic. Along these lines, there is a steadily developing need to improve prediabetes and diabetes treatment approaches. While therapeutic options have unquestionably advanced, the International Diabetes Federation reports that many patients with diabetes remain unable or unwilling to follow current clinical care guidelines.",
+            "Results": []
+        },
+        {
+            "Index": "43",
+            "text": "HbA1c-reducing agents are being evaluated in large clinical trials such as ACCORD, ADVANCE and VADT, in which improved control of HbA1c levels did result in reductions of serious microvascular diabetic complications, although rates of macrovascular infection and mortality remained essentially unchanged. It is consequently now understood that future therapeutic approaches should address clinical endpoints consistent with a multifactorial view of T2DM.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"HbA1c-reducing agents\") decreases path(MESHD:\"Diabetic Microvascular Complications\")"
+                }
+            ]
+        },
+        {
+            "Index": "44",
+            "text": "A wide variety of methodologies are being deployed to understand the multifactorial nature of T2DM. The ClinicalTrials.gov site records an excess of 1000 active type 2 diabetes trials around the world. These studies include research focused on cardiovascular involvement and liver diseases, among many others. By and large, the coming years hold great promise for the development of novel therapeutic interventions for T2DM and its related illnesses.",
+            "Results": []
+        },
+        {
+            "Index": "45",
+            "text": "Future drug and therapeutic developments must follow a holistic approach with special focus on the following points: (1) they should target mechanisms to achieve efficient glycemic control with a safe weight loss profile; (2) they should mitigate the progression of diabetes-induced microvascular and cardiac complications.",
+            "Results": []
+        },
+        {
+            "Index": "46",
+            "text": "Bariatric surgery has provided sensational improvements for many patients; however, significant relapse after six months has been reported. It is important to the scientific community to focus on the factors that may be involved in those early stages of improvement to advance T2DM research. To these ends, various groups have already started enrolling cohorts of obese diabetic and non-diabetic patients in a gastric banding trial. Blood and tissue samples will be collected from these patients (and a complementary control arm) at the time of the surgical procedure and then longitudinally during a five-year follow-up. The clinical and laboratory findings from this and other ongoing trials will no doubt contribute to advancing our therapeutic approaches to the management of diabetes and other metabolic disorders (Table 4).",
+            "Results": []
+        },
+        {
+            "Index": "47",
+            "text": "Name Sponsor/Developer Mechanism of Action Indication   Afrezza MannKind Ultra-rapid-acting mealtime insulin therapy Adults with type 1 or type 2 diabetes   Albiglutide  GlaxoSmithKline Glucagon-like peptide (GLP) 1 agonist Once weekly for adults with type 2 diabetes   Aleglitazar  Roche Dual peroxisome proliferator-activated receptor (PPAR) alpha/gamma activation Cardiovascular risk reduction in type 2 diabetes   Alogliptin, Alogliptin and pioglitazone, Alogliptin and metformin  Takeda Pharmaceuticals and Furiex Pharmaceuticals DPP-4 inhibitor Oral treatment of type 2 diabetes, individually and in two fixed-dose combinations   Atrasentan AbbVie Selective endothelin-A receptor antagonist Oral once-daily treatment for diabetic nephropathy   Dulaglutide (LY2189265) Eli Lilly GLP-1 analog Once weekly for type 2 diabetes   Empagliflozin (BI10773) Boehringer Ingelheim and Eli Lilly Sodium dependent glucose transporter 2 (SGLT2) inhibitor Oral treatment for adults with type 2 diabetes   Ertugliflozin (MK-8835; PF-04971729) Merck & Co., licensed from Pfizer SGLT2 inhibitor Type 2 diabetes   Fasiglifam (TAK-875) Takeda G-protein-coupled receptor (GPCR) 40 agonist Type 2 diabetes   FIAsp (NN1218) Novo Nordisk Faster-acting formulation of insulin aspart Type 1 and 2 diabetes   Forxiga  (dapagliflozin) Bristol Myers Squibb and AstraZeneca SGLT2 inhibitor Once-daily tablets for adults with type 2 diabetes   IDegLira (NN9068) Novo Nordisk Combination drug therapy Type 2 diabetes   Invokana (canagliflozin) Johnson & Johnson SGLT2 inhibitor Once-daily tablets for adults with type 2 diabetes   Ipragliflozin L-proline (ASP1941) Astellas, MSD, and Kotobuki Pharmaceutical SGLT2 inhibitor Type 2 diabetes   Luseogliflozin hydrate (TS-071) Taisho Pharmaceutical SGLT2 inhibitor Once-daily for type 2 diabetes   LixiLan (lixisenatide+ insulin glargine) Sanofi; lixisenatide Combination drug therapy  Type 2 diabetes   Lyxumia  (lixisenatide) Sanofi; licensed from Zealand Pharma GLP-1 agonist Once-daily for type 2 diabetes   LY2605541 (basal insulin peglispro) Eli Lilly Basal insulin analog Type 1 and 2 diabetes   LY2963016 (new insulin glargine product) Eli Lilly and Boehringer Ingelheim Basal insulin Type 1 and 2 diabetes   Omarigliptin (MK-3102) Merck & Co. DPP-4 inhibitor Once-weekly for adults with type 2 diabetes   Ryzodeg  (insulin degludec + insulin aspart) Novo Nordisk Soluble fixed combination of basal insulin with bolus insulin aspart  Once-daily for type 1 and 2 diabetes   Semaglutide (NN9535) Novo Nordisk GLP-1 analog Once-weekly for type 2 diabetes   SYR-472 (trelagliptin succinate) Takeda Pharmaceuticals and Furiex Pharmaceuticals DPP-4 inhibitor Once-weekly oral treatment for type 2 diabetes   Tresiba  (Insulin degludec) Novo Nordisk Once-daily basal insulin Type 1 and 2 diabetes   U300 Sanofi Insulin glargine Type 1 and 2 diabetes",
+            "Results": []
+        },
+        {
+            "Index": "48",
+            "text": "Targets Mechanism of Action Leads Ref.   11beta-HSD1(hydroxysteroid dehydrogenase) Blocking cortisol 1. INCB13739, MK-0916, 2. BI 135585    G protein-coupled receptor (GPR119)  Increases cAMP signaling APD5979, MBX-2982    TGR5 (bile-acid activated GPCR) cAMP accumulation and enhances GLP-1 secretion (intestine), anti-inflammatory effect (liver)  INT-777    SIRT1 Improves insulin sensitivity, increases glucose homeostasis, increases mitochondrial capacity SRT2104, resveratrol    SGLT-2 Increases kidney-dependent glucose homeostasis Dapagliflozin, canagliflozin, sergliflozin, remogliflozin, ipragliflozin, and empagliflozin, etc.    GPR40 Increases incretin secretion, improves glucose tolerance Modulators     PPAR-gamma Improves serum lipid profile, glucose homeostasis, insulin sensitivity, reduces inflammation and weight gain Piolitazone, aleglitazar, glitazones, GFT505    Tyrosine Kinase Reduces beta cell apoptosis, enhances insulin secretion, increases beta cell survival, reduces insulin resistance,  Imatinib, Sunitinib, Dasatinib, Sorafenib, Erlotinib    PPLR  Improves JAK2/STAT5 pathway for glucose uptake Bromocriptine    Insulin degrading enzyme (IDE) Thiol zinc-metalloendopeptidase that cleaves small proteins of diverse sequence BDM44768, 6bK, NTE-1    FATP5 Enhances the uptake of long-chain and very long-chain fatty acids into the cells Chenodiol and Ursodiol     Sestrin Enhances hepatic insulin sensitivity 3. Enhances hepatic insulin sensitivity    Statin For diabetic dyslipidemia     Adiponectin Decreased adiponectin levels are thought to playa central role in the development of type 2 diabetes and obesity AdipoRon is a novel orally-active small molecule that serves as a potent selective agonist of the AdipoR1 and AdipoR2 adiponectin receptors    Glut4 Triggering the canonical PI3K-AKT pathway is essential and ample to activate exocytosis of GLUT4 storage vesicles to the plasma membrane Staurosporine is used to promotes GSVs translocation and glucose uptake through the AMPK pathwayRutamarin as a dual inducer of both GLUT4 translocation and expression efficiently ameliorates glucose homeostasis in insulin-resistant mice    PGC-1alpha Reduction in PGC-1alpha triggers insulin resistance and ultimately causes diabetes Still waiting to synthesize agonist",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:HSD11B1) decreases a(CHEBI:cortisol)"
+                },
+                {
+                    "bel_statement": "p(HGNC:GPR119) increases bp(GOBP:\"cAMP signaling\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:GPBAR1) increases bp(GOBP:\"cAMP accumulation\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:GPBAR1) increases sec(p(HGNC:GCG))"
+                },
+                {
+                    "bel_statement": "p(HGNC:GPBAR1) increases bp(GOBP:\"anti-inflammatory response\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:SIRT1) increases bp(GOBP:\"insulin sensitivity\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:SIRT1) increases bp(GOBP:\"glucose homeostasis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:SIRT1) increases bp(GOBP:\"mitochondrial capacity\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:SLC5A2) increases bp(GOBP:\"glucose homeostasis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:FFAR1) increases sec(p(HGNC:GCG))"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG) increases bp(GOBP:\"serum lipid profile improvement\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG) increases bp(GOBP:\"glucose homeostasis\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG) increases bp(GOBP:\"insulin sensitivity\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG) decreases bp(GOBP:\"inflammation\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:PPARG) decreases bp(GOBP:\"weight gain\")"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:PTK2)) decreases bp(GOBP:\"beta cell apoptosis\")"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:PTK2)) increases sec(p(HGNC:INS))"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:PTK2)) increases bp(GOBP:\"beta cell survival\")"
+                },
+                {
+                    "bel_statement": "act(p(HGNC:PTK2)) decreases bp(GOBP:\"insulin resistance\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:IDE) hasActivity ma(GO:\"thioesterase activity\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:SLC27A5) increases bp(GOBP:\"fatty acid uptake\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:SESN1) increases bp(GOBP:\"hepatic insulin sensitivity\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:ADIPOQ) decreases bp(GOBP:\"type 2 diabetes development\")"
+                },
+                {
+                    "bel_statement": "p(HGNC:ADIPOQ) decreases bp(GOBP:obesity)"
+                },
+                {
+                    "bel_statement": "p(HGNC:SLC2A4) increases tloc(p(HGNC:SLC2A4), fromLoc(GO:intracellular), toLoc(GO:\"plasma membrane\"))"
+                },
+                {
+                    "bel_statement": "p(HGNC:PGC1A) decreases bp(GOBP:\"insulin resistance\")"
+                }
+            ]
+        },
+        {
+            "Index": "49",
+            "text": "Trend Box   Diabetes mellitus is a complex metabolic disruption characterized by chronic hyperglycemia due to deficiencies in insulin production, its systemic release and action, and resistance.   Incident diabetes is also due to changes in performance of multiple key enzymes. Therefore, identifying and understanding key targets at structure-function-dynamics levels and their potential leads and/or drugs, shortcomings, and associated challenges all together can provide a roadmap for the discovery of new selective modulators.   We listed promising therapeutic targets for treatment of T2DM, most of them involving improvements in glucose tolerance.    Novel drugs from various targets have numerous locales of activity and each focus on a few components of the metabolic disorder. These may help pave the way for future type 2 diabetes treatments.",
+            "Results": []
+        }
+    ]
+}

@@ -1,0 +1,423 @@
+{
+    "0": {
+        "text": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare. Here we report a case of a patient with primary GSCC, presenting as linitis plastic, who was diagnosed using endoscopic ultrasound (EUS)-guided biopsy. With undiagnosed linitis plastica, an 80-year-old woman was referred to our institution. Abdominal computed tomography revealed irregular wall thickening extending from the gastric body to the antrum. Endoscopy suspected to have Borrmann type IV advanced gastric cancer. EUS of the stomach showed diffuse submucosal thickening of the gastric wall, mainly the antrum. EUS-guided bite-on-bite biopsy confirmed the diagnosis of GSCC. In general, GSCC is difficult to diagnose and careful examination is necessary to determine the therapeutic strategy; however, EUS is particularly helpful in the differential diagnosis of a lesion presenting as linitis plastica.",
+        "annotations": [
+            {
+                "entity_text": "linitis plastica",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            },
+            {
+                "entity_text": "neuroendocrine tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018358"
+            },
+            {
+                "entity_text": "gastric small cell carcinoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "GSCC",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "gastric cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013274"
+            },
+            {
+                "entity_text": "Borrmann type IV",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C000631847"
+            },
+            {
+                "entity_text": "linitis plastic",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            },
+            {
+                "entity_text": "Small cell carcinomas",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            }
+        ]
+    },
+    "1": {
+        "text": "Primary gastric small cell carcinoma (GSCC) is a rare and the most poorly differentiated neuroendocrine tumor, accounting for less than 0.1% of all gastric cancers and 15% of all gastric neuroendocrine tumors. Most small cell carcinomas usually arise from the lung and rarely from the gastrointestinal tract. GSCC is diagnosed by endoscopic biopsy of the primary ulcerative or ulceroinfiltrative mass. Herein we report a rare case of primary GSCC presenting as linitis plastica that was diagnosed using endoscopic ultrasound (EUS)-guided biopsy.",
+        "annotations": [
+            {
+                "entity_text": "neuroendocrine tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018358"
+            },
+            {
+                "entity_text": "Primary gastric small cell carcinoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "gastric cancers",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013274"
+            },
+            {
+                "entity_text": "small cell carcinomas",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "GSCC",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "linitis plastica",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            },
+            {
+                "entity_text": "gastric neuroendocrine tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018358"
+            }
+        ]
+    },
+    "2": {
+        "text": "An 80-year-old female with undiagnosed linitis plastica was referred to our institution for epigastric pain. Before visiting our hospital, she had undergone endoscopy at another hospital and was suspected of having Borrmann type IV advanced gastric cancer; however, histological examination had not confirm the malignancy. She showed epigastric tenderness after eating, which had gradually aggravated in the last month. Results of her initial physical examination were unremarkable except for epigastric pain. Her family health history was negative, whereas her medical history included medications for hypertension and diabetes mellitus over the last 10 years. Laboratory values for the serum levels of carcinoembryonic antigen and carbohydrate antigen 19-9 were within normal limits. Abdominal computed tomography of the patient revealed irregular wall thickening extending from the gastric body to the antrum, with no remarkable findings such as metastasis and infiltration of the lymph nodes or peripheral tissues (Fig. 1). No additional information was obtained from positron emission tomography-computed tomography (Fig. 2). Upper endoscopy showed severe mucosal fold thickening with a narrow gastric lumen and normal mucosa (Fig. 3), raising a suspicion for Borrmann type IV advanced gastric cancer. Multiple biopsies were performed; however, results of pathologic examination with endoscopic biopsy were negative. EUS (TGF-ME1; Olympus Optical Co., Tokyo, Japan) showed normal mucosal and muscular layers and diffuse, homogeneous, and slightly hypoechoic submucosal thickening (approximately 12 mm thick) of the gastric wall. Although enlargement of lymph node was not observed, a small amount of ascites was detected in perigastric area (Fig. 4). Using EUS-guided biteon-bite biopsy, multiple biopsies were performed over the thickest lesion at the antrum (eight bites per lesion) to acquire the submucosal tissues. Histopathologic examination showed small, dense, uniform tumor cells with hyperchromatic nuclei and scant cytoplasm. Immunohistochemically, the tumor cells were found to be positive for cytokeratin and CD56 and negative for thyroid transcription factor-1. Ki-67 immunostaining, which reflects the proportion of highly proliferating tumor cells, revealed that 100% of tumor cells were Ki-67 positive (Fig. 5). After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks. After the first cycle of chemotherapy, the patient was no longer able to tolerate chemotherapy owing to its adverse side effects and died due to cancer progression 3 months post-diagnosis.",
+        "annotations": [
+            {
+                "entity_text": "CD56",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "40754"
+            },
+            {
+                "entity_text": "thyroid transcription factor-1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2488"
+            },
+            {
+                "entity_text": "Borrmann type IV advanced gastric cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013274"
+            },
+            {
+                "entity_text": "hypertension",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006973"
+            },
+            {
+                "entity_text": "cisplatin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002945"
+            },
+            {
+                "entity_text": "epigastric tenderness",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D063806"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "epigastric pain",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010146"
+            },
+            {
+                "entity_text": "diabetes mellitus",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D003920"
+            },
+            {
+                "entity_text": "linitis plastica",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "metastasis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009362"
+            },
+            {
+                "entity_text": "etoposide",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005047"
+            },
+            {
+                "entity_text": "lymph node",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000072717"
+            },
+            {
+                "entity_text": "ascites",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001201"
+            },
+            {
+                "entity_text": "malignancy",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "3": {
+        "text": "Generally, the clinical course of GSCC is as aggressive as that of lung small cell carcinoma. Arai and Matsuda reported that approximately all GSCC patients die within a year of the diagnosis. GSCC is associated with a high incidence of lymphovascular invasion, marked deep infiltration, and distant metastases. Given its rarity and lack of randomized controlled trials, the standard treatment for primary GSCC has not yet been established.",
+        "annotations": [
+            {
+                "entity_text": "lung small cell carcinoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D055752"
+            },
+            {
+                "entity_text": "GSCC",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "metastases",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009362"
+            }
+        ]
+    },
+    "4": {
+        "text": "The first case of GSCC was reported in 1976 by Matsusaka et al. Generally, it is difficult to diagnose GSCC preoperatively. Kusayanagi et al. reported that only 40% of patients with GSCC are diagnosed correctly before surgery. Tumor cells may not be detectable in biopsy specimens because standard endoscopic biopsy sampling of submucosal infiltrating tumors often yields a false-negative result. The negative biopsy results is possible that the biopsy specimen included only the normal mucosa covering the tumor owing to the infiltration of tumor cells mainly into the submucosal layer.",
+        "annotations": [
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "GSCC",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "Tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "5": {
+        "text": "Linitis plastica is a type of gastric cancer characterized by poorly differentiated tumor cells that diffusely infiltrate the gastric wall, leading to reactive fibrosis. Its endoscopic characteristics include poor distension of the gastric walls and morphological changes in the gastric folds. These features make it difficult to diagnose before operation. Furthermore, though bite-on-bite biopsy is a commonly used approach for the diagnosis of linitis plastica, the diagnostic yields of the samples have not been determined.",
+        "annotations": [
+            {
+                "entity_text": "fibrosis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005355"
+            },
+            {
+                "entity_text": "gastric cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013274"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "linitis plastica",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            },
+            {
+                "entity_text": "Linitis plastica",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            }
+        ]
+    },
+    "6": {
+        "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results.",
+        "annotations": [
+            {
+                "entity_text": "gastric linitis plastica",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            },
+            {
+                "entity_text": "gastric infiltrating tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013274"
+            }
+        ]
+    },
+    "7": {
+        "text": "Immunohistochemical examination is remarkably valuable for the pathological diagnosis of GSCC. GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules. In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56.",
+        "annotations": [
+            {
+                "entity_text": "synaptophysin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2391"
+            },
+            {
+                "entity_text": "chromogranin A",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "976"
+            },
+            {
+                "entity_text": "neuron-specific enolase",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "74414"
+            },
+            {
+                "entity_text": "CD56",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "40754"
+            },
+            {
+                "entity_text": "GSCC",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "lung small cell carcinoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D055752"
+            }
+        ]
+    },
+    "8": {
+        "text": "In conclusion, we report a rare case of GSCC presenting as linitis plastica that was successfully diagnosed using EUS-guided bite-on-bite biopsy. Although GSCC is difficult to diagnose before treatment, careful examination should be performed to determine the appropriate therapeutic strategy, and EUS may be particularly helpful in the differential diagnosis of a lesion presenting as linitis plastica.",
+        "annotations": [
+            {
+                "entity_text": "GSCC",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D018288"
+            },
+            {
+                "entity_text": "linitis plastica",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D008039"
+            }
+        ]
+    },
+    "9": {
+        "text": "Conventional endoscopic ultrasound (EUS) images. A gastric infiltrating tumor diagnosed using EUS (A, B). EUS showing homogeneous, slightly hypoechogenic thickening of the submucosal layer (12 mm) and intact muscularis propria layer shows reactive wall thickening (C, arrow). The thinnest part of the mucosal lesion was selected for the biopsy after EUS localization (D, arrow).",
+        "annotations": [
+            {
+                "entity_text": "gastric infiltrating tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013274"
+            },
+            {
+                "entity_text": "mucosal lesion",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009059"
+            }
+        ]
+    },
+    "10": {
+        "text": "Microscopic findings of the gastric tissue. Hematoxylin and eosin stained biopsy specimens show small tumor cells with irregular nuclei and scant cytoplasm (A). Tumor cells stained positive for cytokeratin (B) and CD56 (C), while they were negative for thyroid transcription factor-1 staining (D). Detection of a strong Ki-67 reactivity was observed (E). All the images were captured at x200 magnification.",
+        "annotations": [
+            {
+                "entity_text": "CD56",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "40754"
+            },
+            {
+                "entity_text": "thyroid transcription factor-1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2488"
+            },
+            {
+                "entity_text": "Tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Hematoxylin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006416"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "eosin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004801"
+            }
+        ]
+    }
+}

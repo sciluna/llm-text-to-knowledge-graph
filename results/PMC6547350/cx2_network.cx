@@ -1,0 +1,408 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 17,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 13,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "Gastric small cell carcinoma",
+                    "name": "path(MESHD:\"Gastric small cell carcinoma\")",
+                    "bel_expression": "path(MESHD:\"Gastric small cell carcinoma\") isA path(MESHD:\"Small cell carcinoma\")",
+                    "evidence": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare.",
+                    "type": "path",
+                    "text": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare. Here we report a case of a patient with primary GSCC, presenting as linitis plastic, who was diagnosed using endoscopic ultrasound (EUS)-guided biopsy. With undiagnosed linitis plastica, an 80-year-old woman was referred to our institution. Abdominal computed tomography revealed irregular wall thickening extending from the gastric body to the antrum. Endoscopy suspected to have Borrmann type IV advanced gastric cancer. EUS of the stomach showed diffuse submucosal thickening of the gastric wall, mainly the antrum. EUS-guided bite-on-bite biopsy confirmed the diagnosis of GSCC. In general, GSCC is difficult to diagnose and careful examination is necessary to determine the therapeutic strategy; however, EUS is particularly helpful in the differential diagnosis of a lesion presenting as linitis plastica."
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "Small cell carcinoma",
+                    "name": "path(MESHD:\"Small cell carcinoma\")",
+                    "bel_expression": "path(MESHD:\"Gastric small cell carcinoma\") isA path(MESHD:\"Small cell carcinoma\")",
+                    "evidence": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare.",
+                    "type": "path",
+                    "text": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare. Here we report a case of a patient with primary GSCC, presenting as linitis plastic, who was diagnosed using endoscopic ultrasound (EUS)-guided biopsy. With undiagnosed linitis plastica, an 80-year-old woman was referred to our institution. Abdominal computed tomography revealed irregular wall thickening extending from the gastric body to the antrum. Endoscopy suspected to have Borrmann type IV advanced gastric cancer. EUS of the stomach showed diffuse submucosal thickening of the gastric wall, mainly the antrum. EUS-guided bite-on-bite biopsy confirmed the diagnosis of GSCC. In general, GSCC is difficult to diagnose and careful examination is necessary to determine the therapeutic strategy; however, EUS is particularly helpful in the differential diagnosis of a lesion presenting as linitis plastica."
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "etoposide",
+                    "name": "a(CHEMBL:etoposide)",
+                    "bel_expression": "a(CHEMBL:etoposide) increases path(MESHD:\"Gastric Cancer\")",
+                    "evidence": "After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks.",
+                    "type": "a",
+                    "text": "An 80-year-old female with undiagnosed linitis plastica was referred to our institution for epigastric pain. Before visiting our hospital, she had undergone endoscopy at another hospital and was suspected of having Borrmann type IV advanced gastric cancer; however, histological examination had not confirm the malignancy. She showed epigastric tenderness after eating, which had gradually aggravated in the last month. Results of her initial physical examination were unremarkable except for epigastric pain. Her family health history was negative, whereas her medical history included medications for hypertension and diabetes mellitus over the last 10 years. Laboratory values for the serum levels of carcinoembryonic antigen and carbohydrate antigen 19-9 were within normal limits. Abdominal computed tomography of the patient revealed irregular wall thickening extending from the gastric body to the antrum, with no remarkable findings such as metastasis and infiltration of the lymph nodes or peripheral tissues (Fig. 1). No additional information was obtained from positron emission tomography-computed tomography (Fig. 2). Upper endoscopy showed severe mucosal fold thickening with a narrow gastric lumen and normal mucosa (Fig. 3), raising a suspicion for Borrmann type IV advanced gastric cancer. Multiple biopsies were performed; however, results of pathologic examination with endoscopic biopsy were negative. EUS (TGF-ME1; Olympus Optical Co., Tokyo, Japan) showed normal mucosal and muscular layers and diffuse, homogeneous, and slightly hypoechoic submucosal thickening (approximately 12 mm thick) of the gastric wall. Although enlargement of lymph node was not observed, a small amount of ascites was detected in perigastric area (Fig. 4). Using EUS-guided biteon-bite biopsy, multiple biopsies were performed over the thickest lesion at the antrum (eight bites per lesion) to acquire the submucosal tissues. Histopathologic examination showed small, dense, uniform tumor cells with hyperchromatic nuclei and scant cytoplasm. Immunohistochemically, the tumor cells were found to be positive for cytokeratin and CD56 and negative for thyroid transcription factor-1. Ki-67 immunostaining, which reflects the proportion of highly proliferating tumor cells, revealed that 100% of tumor cells were Ki-67 positive (Fig. 5). After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks. After the first cycle of chemotherapy, the patient was no longer able to tolerate chemotherapy owing to its adverse side effects and died due to cancer progression 3 months post-diagnosis."
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "Gastric Cancer",
+                    "name": "path(MESHD:\"Gastric Cancer\")",
+                    "bel_expression": "a(CHEMBL:etoposide) increases path(MESHD:\"Gastric Cancer\")",
+                    "evidence": "After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks.",
+                    "type": "path",
+                    "text": "An 80-year-old female with undiagnosed linitis plastica was referred to our institution for epigastric pain. Before visiting our hospital, she had undergone endoscopy at another hospital and was suspected of having Borrmann type IV advanced gastric cancer; however, histological examination had not confirm the malignancy. She showed epigastric tenderness after eating, which had gradually aggravated in the last month. Results of her initial physical examination were unremarkable except for epigastric pain. Her family health history was negative, whereas her medical history included medications for hypertension and diabetes mellitus over the last 10 years. Laboratory values for the serum levels of carcinoembryonic antigen and carbohydrate antigen 19-9 were within normal limits. Abdominal computed tomography of the patient revealed irregular wall thickening extending from the gastric body to the antrum, with no remarkable findings such as metastasis and infiltration of the lymph nodes or peripheral tissues (Fig. 1). No additional information was obtained from positron emission tomography-computed tomography (Fig. 2). Upper endoscopy showed severe mucosal fold thickening with a narrow gastric lumen and normal mucosa (Fig. 3), raising a suspicion for Borrmann type IV advanced gastric cancer. Multiple biopsies were performed; however, results of pathologic examination with endoscopic biopsy were negative. EUS (TGF-ME1; Olympus Optical Co., Tokyo, Japan) showed normal mucosal and muscular layers and diffuse, homogeneous, and slightly hypoechoic submucosal thickening (approximately 12 mm thick) of the gastric wall. Although enlargement of lymph node was not observed, a small amount of ascites was detected in perigastric area (Fig. 4). Using EUS-guided biteon-bite biopsy, multiple biopsies were performed over the thickest lesion at the antrum (eight bites per lesion) to acquire the submucosal tissues. Histopathologic examination showed small, dense, uniform tumor cells with hyperchromatic nuclei and scant cytoplasm. Immunohistochemically, the tumor cells were found to be positive for cytokeratin and CD56 and negative for thyroid transcription factor-1. Ki-67 immunostaining, which reflects the proportion of highly proliferating tumor cells, revealed that 100% of tumor cells were Ki-67 positive (Fig. 5). After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks. After the first cycle of chemotherapy, the patient was no longer able to tolerate chemotherapy owing to its adverse side effects and died due to cancer progression 3 months post-diagnosis."
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "cisplatin",
+                    "name": "a(CHEMBL:cisplatin)",
+                    "bel_expression": "a(CHEMBL:cisplatin) increases path(MESHD:\"Gastric Cancer\")",
+                    "evidence": "After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks.",
+                    "type": "a",
+                    "text": "An 80-year-old female with undiagnosed linitis plastica was referred to our institution for epigastric pain. Before visiting our hospital, she had undergone endoscopy at another hospital and was suspected of having Borrmann type IV advanced gastric cancer; however, histological examination had not confirm the malignancy. She showed epigastric tenderness after eating, which had gradually aggravated in the last month. Results of her initial physical examination were unremarkable except for epigastric pain. Her family health history was negative, whereas her medical history included medications for hypertension and diabetes mellitus over the last 10 years. Laboratory values for the serum levels of carcinoembryonic antigen and carbohydrate antigen 19-9 were within normal limits. Abdominal computed tomography of the patient revealed irregular wall thickening extending from the gastric body to the antrum, with no remarkable findings such as metastasis and infiltration of the lymph nodes or peripheral tissues (Fig. 1). No additional information was obtained from positron emission tomography-computed tomography (Fig. 2). Upper endoscopy showed severe mucosal fold thickening with a narrow gastric lumen and normal mucosa (Fig. 3), raising a suspicion for Borrmann type IV advanced gastric cancer. Multiple biopsies were performed; however, results of pathologic examination with endoscopic biopsy were negative. EUS (TGF-ME1; Olympus Optical Co., Tokyo, Japan) showed normal mucosal and muscular layers and diffuse, homogeneous, and slightly hypoechoic submucosal thickening (approximately 12 mm thick) of the gastric wall. Although enlargement of lymph node was not observed, a small amount of ascites was detected in perigastric area (Fig. 4). Using EUS-guided biteon-bite biopsy, multiple biopsies were performed over the thickest lesion at the antrum (eight bites per lesion) to acquire the submucosal tissues. Histopathologic examination showed small, dense, uniform tumor cells with hyperchromatic nuclei and scant cytoplasm. Immunohistochemically, the tumor cells were found to be positive for cytokeratin and CD56 and negative for thyroid transcription factor-1. Ki-67 immunostaining, which reflects the proportion of highly proliferating tumor cells, revealed that 100% of tumor cells were Ki-67 positive (Fig. 5). After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks. After the first cycle of chemotherapy, the patient was no longer able to tolerate chemotherapy owing to its adverse side effects and died due to cancer progression 3 months post-diagnosis."
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "Linitis Plastica",
+                    "name": "path(MESHD:\"Linitis Plastica\")",
+                    "bel_expression": "path(MESHD:\"Linitis Plastica\") increases bp(GOBP:\"reactive fibrosis\")",
+                    "evidence": "Linitis plastica is a type of gastric cancer characterized by poorly differentiated tumor cells that diffusely infiltrate the gastric wall, leading to reactive fibrosis.",
+                    "type": "path",
+                    "text": "Linitis plastica is a type of gastric cancer characterized by poorly differentiated tumor cells that diffusely infiltrate the gastric wall, leading to reactive fibrosis. Its endoscopic characteristics include poor distension of the gastric walls and morphological changes in the gastric folds. These features make it difficult to diagnose before operation. Furthermore, though bite-on-bite biopsy is a commonly used approach for the diagnosis of linitis plastica, the diagnostic yields of the samples have not been determined."
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "reactive fibrosis",
+                    "name": "bp(GOBP:\"reactive fibrosis\")",
+                    "bel_expression": "path(MESHD:\"Linitis Plastica\") increases bp(GOBP:\"reactive fibrosis\")",
+                    "evidence": "Linitis plastica is a type of gastric cancer characterized by poorly differentiated tumor cells that diffusely infiltrate the gastric wall, leading to reactive fibrosis.",
+                    "type": "bp",
+                    "text": "Linitis plastica is a type of gastric cancer characterized by poorly differentiated tumor cells that diffusely infiltrate the gastric wall, leading to reactive fibrosis. Its endoscopic characteristics include poor distension of the gastric walls and morphological changes in the gastric folds. These features make it difficult to diagnose before operation. Furthermore, though bite-on-bite biopsy is a commonly used approach for the diagnosis of linitis plastica, the diagnostic yields of the samples have not been determined."
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "endoscopic ultrasound",
+                    "name": "bp(GOBP:\"endoscopic ultrasound\")",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"diagnostic accuracy\")",
+                    "evidence": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics.",
+                    "type": "bp",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results."
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "diagnostic accuracy",
+                    "name": "bp(GOBP:\"diagnostic accuracy\")",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"diagnostic accuracy\")",
+                    "evidence": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics.",
+                    "type": "bp",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results."
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "diagnosis of gastric linitis plastica",
+                    "name": "bp(GOBP:\"diagnosis of gastric linitis plastica\")",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"diagnosis of gastric linitis plastica\")",
+                    "evidence": "Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica.",
+                    "type": "bp",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results."
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "biopsy site selection",
+                    "name": "bp(GOBP:\"biopsy site selection\")",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"biopsy site selection\")",
+                    "evidence": "For accurate biopsy, EUS is effective for select the optimal biopsy site.",
+                    "type": "bp",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results."
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "diagnosis of gastric infiltrating tumors",
+                    "name": "bp(GOBP:\"diagnosis of gastric infiltrating tumors\")",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"diagnosis of gastric infiltrating tumors\")",
+                    "evidence": "Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results.",
+                    "type": "bp",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results."
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "NCAM1",
+                    "name": "p(HGNC:NCAM1)",
+                    "bel_expression": "p(HGNC:NCAM1) increases path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules.",
+                    "type": "p",
+                    "text": "Immunohistochemical examination is remarkably valuable for the pathological diagnosis of GSCC. GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules. In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56."
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "Gastric Small Cell Carcinoma",
+                    "name": "path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "bel_expression": "p(HGNC:NCAM1) increases path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules.",
+                    "type": "path",
+                    "text": "Immunohistochemical examination is remarkably valuable for the pathological diagnosis of GSCC. GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules. In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56."
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "KRT",
+                    "name": "p(HGNC:KRT)",
+                    "bel_expression": "p(HGNC:KRT) increases path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "evidence": "In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56.",
+                    "type": "p",
+                    "text": "Immunohistochemical examination is remarkably valuable for the pathological diagnosis of GSCC. GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules. In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56."
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "Gastric tumor",
+                    "name": "path(MESHD:\"Gastric tumor\")",
+                    "bel_expression": "p(HGNC:KRT) increases path(MESHD:\"Gastric tumor\")",
+                    "evidence": "Tumor cells stained positive for cytokeratin (B).",
+                    "type": "path",
+                    "text": "Microscopic findings of the gastric tissue. Hematoxylin and eosin stained biopsy specimens show small tumor cells with irregular nuclei and scant cytoplasm (A). Tumor cells stained positive for cytokeratin (B) and CD56 (C), while they were negative for thyroid transcription factor-1 staining (D). Detection of a strong Ki-67 reactivity was observed (E). All the images were captured at x200 magnification."
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "MKI67",
+                    "name": "p(HGNC:MKI67)",
+                    "bel_expression": "p(HGNC:MKI67) increases path(MESHD:\"Gastric tumor\")",
+                    "evidence": "Detection of a strong Ki-67 reactivity was observed (E).",
+                    "type": "p",
+                    "text": "Microscopic findings of the gastric tissue. Hematoxylin and eosin stained biopsy specimens show small tumor cells with irregular nuclei and scant cytoplasm (A). Tumor cells stained positive for cytokeratin (B) and CD56 (C), while they were negative for thyroid transcription factor-1 staining (D). Detection of a strong Ki-67 reactivity was observed (E). All the images were captured at x200 magnification."
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "isA",
+                    "bel_expression": "path(MESHD:\"Gastric small cell carcinoma\") isA path(MESHD:\"Small cell carcinoma\")",
+                    "text": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare. Here we report a case of a patient with primary GSCC, presenting as linitis plastic, who was diagnosed using endoscopic ultrasound (EUS)-guided biopsy. With undiagnosed linitis plastica, an 80-year-old woman was referred to our institution. Abdominal computed tomography revealed irregular wall thickening extending from the gastric body to the antrum. Endoscopy suspected to have Borrmann type IV advanced gastric cancer. EUS of the stomach showed diffuse submucosal thickening of the gastric wall, mainly the antrum. EUS-guided bite-on-bite biopsy confirmed the diagnosis of GSCC. In general, GSCC is difficult to diagnose and careful examination is necessary to determine the therapeutic strategy; however, EUS is particularly helpful in the differential diagnosis of a lesion presenting as linitis plastica.",
+                    "evidence": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare."
+                }
+            },
+            {
+                "id": 1,
+                "s": 2,
+                "t": 3,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:etoposide) increases path(MESHD:\"Gastric Cancer\")",
+                    "text": "An 80-year-old female with undiagnosed linitis plastica was referred to our institution for epigastric pain. Before visiting our hospital, she had undergone endoscopy at another hospital and was suspected of having Borrmann type IV advanced gastric cancer; however, histological examination had not confirm the malignancy. She showed epigastric tenderness after eating, which had gradually aggravated in the last month. Results of her initial physical examination were unremarkable except for epigastric pain. Her family health history was negative, whereas her medical history included medications for hypertension and diabetes mellitus over the last 10 years. Laboratory values for the serum levels of carcinoembryonic antigen and carbohydrate antigen 19-9 were within normal limits. Abdominal computed tomography of the patient revealed irregular wall thickening extending from the gastric body to the antrum, with no remarkable findings such as metastasis and infiltration of the lymph nodes or peripheral tissues (Fig. 1). No additional information was obtained from positron emission tomography-computed tomography (Fig. 2). Upper endoscopy showed severe mucosal fold thickening with a narrow gastric lumen and normal mucosa (Fig. 3), raising a suspicion for Borrmann type IV advanced gastric cancer. Multiple biopsies were performed; however, results of pathologic examination with endoscopic biopsy were negative. EUS (TGF-ME1; Olympus Optical Co., Tokyo, Japan) showed normal mucosal and muscular layers and diffuse, homogeneous, and slightly hypoechoic submucosal thickening (approximately 12 mm thick) of the gastric wall. Although enlargement of lymph node was not observed, a small amount of ascites was detected in perigastric area (Fig. 4). Using EUS-guided biteon-bite biopsy, multiple biopsies were performed over the thickest lesion at the antrum (eight bites per lesion) to acquire the submucosal tissues. Histopathologic examination showed small, dense, uniform tumor cells with hyperchromatic nuclei and scant cytoplasm. Immunohistochemically, the tumor cells were found to be positive for cytokeratin and CD56 and negative for thyroid transcription factor-1. Ki-67 immunostaining, which reflects the proportion of highly proliferating tumor cells, revealed that 100% of tumor cells were Ki-67 positive (Fig. 5). After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks. After the first cycle of chemotherapy, the patient was no longer able to tolerate chemotherapy owing to its adverse side effects and died due to cancer progression 3 months post-diagnosis.",
+                    "evidence": "After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks."
+                }
+            },
+            {
+                "id": 2,
+                "s": 4,
+                "t": 3,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEMBL:cisplatin) increases path(MESHD:\"Gastric Cancer\")",
+                    "text": "An 80-year-old female with undiagnosed linitis plastica was referred to our institution for epigastric pain. Before visiting our hospital, she had undergone endoscopy at another hospital and was suspected of having Borrmann type IV advanced gastric cancer; however, histological examination had not confirm the malignancy. She showed epigastric tenderness after eating, which had gradually aggravated in the last month. Results of her initial physical examination were unremarkable except for epigastric pain. Her family health history was negative, whereas her medical history included medications for hypertension and diabetes mellitus over the last 10 years. Laboratory values for the serum levels of carcinoembryonic antigen and carbohydrate antigen 19-9 were within normal limits. Abdominal computed tomography of the patient revealed irregular wall thickening extending from the gastric body to the antrum, with no remarkable findings such as metastasis and infiltration of the lymph nodes or peripheral tissues (Fig. 1). No additional information was obtained from positron emission tomography-computed tomography (Fig. 2). Upper endoscopy showed severe mucosal fold thickening with a narrow gastric lumen and normal mucosa (Fig. 3), raising a suspicion for Borrmann type IV advanced gastric cancer. Multiple biopsies were performed; however, results of pathologic examination with endoscopic biopsy were negative. EUS (TGF-ME1; Olympus Optical Co., Tokyo, Japan) showed normal mucosal and muscular layers and diffuse, homogeneous, and slightly hypoechoic submucosal thickening (approximately 12 mm thick) of the gastric wall. Although enlargement of lymph node was not observed, a small amount of ascites was detected in perigastric area (Fig. 4). Using EUS-guided biteon-bite biopsy, multiple biopsies were performed over the thickest lesion at the antrum (eight bites per lesion) to acquire the submucosal tissues. Histopathologic examination showed small, dense, uniform tumor cells with hyperchromatic nuclei and scant cytoplasm. Immunohistochemically, the tumor cells were found to be positive for cytokeratin and CD56 and negative for thyroid transcription factor-1. Ki-67 immunostaining, which reflects the proportion of highly proliferating tumor cells, revealed that 100% of tumor cells were Ki-67 positive (Fig. 5). After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks. After the first cycle of chemotherapy, the patient was no longer able to tolerate chemotherapy owing to its adverse side effects and died due to cancer progression 3 months post-diagnosis.",
+                    "evidence": "After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks."
+                }
+            },
+            {
+                "id": 3,
+                "s": 5,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "path(MESHD:\"Linitis Plastica\") increases bp(GOBP:\"reactive fibrosis\")",
+                    "text": "Linitis plastica is a type of gastric cancer characterized by poorly differentiated tumor cells that diffusely infiltrate the gastric wall, leading to reactive fibrosis. Its endoscopic characteristics include poor distension of the gastric walls and morphological changes in the gastric folds. These features make it difficult to diagnose before operation. Furthermore, though bite-on-bite biopsy is a commonly used approach for the diagnosis of linitis plastica, the diagnostic yields of the samples have not been determined.",
+                    "evidence": "Linitis plastica is a type of gastric cancer characterized by poorly differentiated tumor cells that diffusely infiltrate the gastric wall, leading to reactive fibrosis."
+                }
+            },
+            {
+                "id": 4,
+                "s": 7,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"diagnostic accuracy\")",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results.",
+                    "evidence": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics."
+                }
+            },
+            {
+                "id": 5,
+                "s": 7,
+                "t": 9,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"diagnosis of gastric linitis plastica\")",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results.",
+                    "evidence": "Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica."
+                }
+            },
+            {
+                "id": 6,
+                "s": 7,
+                "t": 10,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"biopsy site selection\")",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results.",
+                    "evidence": "For accurate biopsy, EUS is effective for select the optimal biopsy site."
+                }
+            },
+            {
+                "id": 7,
+                "s": 7,
+                "t": 11,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"diagnosis of gastric infiltrating tumors\")",
+                    "text": "EUS may be an important diagnostic tool with increased diagnostic accuracy to safely detect gastric infiltrating tumors, based on their endosonographic characteristics. Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica. Under the guidance of EUS, gastric linitis plastica is generally characterized by the disappearance of five sonographic layers, which are replaced with a hypoechogenic thickening of the gastric wall, and blurring and thickening of the first three sonographic layers. However, in the present case, the mucosal, muscular, and muscularis propria layers were intact, and there was hypoechogenic thickening of the submucosal layer. For accurate biopsy, EUS is effective for select the optimal biopsy site. As EUS-guided bite-on-bite biopsies could obtain adequate samples, re-examination using EUS-guided bite-on-bite technique for deep biopsy of submucosal tissues led to a correct diagnosis. Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results.",
+                    "evidence": "Thus, we believe that EUS-guided bite-on-bite biopsy is an effective and safe diagnostic method for gastric infiltrating tumors in patients with negative biopsy results."
+                }
+            },
+            {
+                "id": 8,
+                "s": 12,
+                "t": 13,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:NCAM1) increases path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "text": "Immunohistochemical examination is remarkably valuable for the pathological diagnosis of GSCC. GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules. In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56.",
+                    "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules."
+                }
+            },
+            {
+                "id": 9,
+                "s": 14,
+                "t": 13,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:KRT) increases path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "text": "Immunohistochemical examination is remarkably valuable for the pathological diagnosis of GSCC. GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules. In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56.",
+                    "evidence": "In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56."
+                }
+            },
+            {
+                "id": 10,
+                "s": 14,
+                "t": 15,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:KRT) increases path(MESHD:\"Gastric tumor\")",
+                    "text": "Microscopic findings of the gastric tissue. Hematoxylin and eosin stained biopsy specimens show small tumor cells with irregular nuclei and scant cytoplasm (A). Tumor cells stained positive for cytokeratin (B) and CD56 (C), while they were negative for thyroid transcription factor-1 staining (D). Detection of a strong Ki-67 reactivity was observed (E). All the images were captured at x200 magnification.",
+                    "evidence": "Tumor cells stained positive for cytokeratin (B)."
+                }
+            },
+            {
+                "id": 11,
+                "s": 12,
+                "t": 15,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:NCAM1) increases path(MESHD:\"Gastric tumor\")",
+                    "text": "Microscopic findings of the gastric tissue. Hematoxylin and eosin stained biopsy specimens show small tumor cells with irregular nuclei and scant cytoplasm (A). Tumor cells stained positive for cytokeratin (B) and CD56 (C), while they were negative for thyroid transcription factor-1 staining (D). Detection of a strong Ki-67 reactivity was observed (E). All the images were captured at x200 magnification.",
+                    "evidence": "Tumor cells stained positive for CD56 (C)."
+                }
+            },
+            {
+                "id": 12,
+                "s": 16,
+                "t": 15,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:MKI67) increases path(MESHD:\"Gastric tumor\")",
+                    "text": "Microscopic findings of the gastric tissue. Hematoxylin and eosin stained biopsy specimens show small tumor cells with irregular nuclei and scant cytoplasm (A). Tumor cells stained positive for cytokeratin (B) and CD56 (C), while they were negative for thyroid transcription factor-1 staining (D). Detection of a strong Ki-67 reactivity was observed (E). All the images were captured at x200 magnification.",
+                    "evidence": "Detection of a strong Ki-67 reactivity was observed (E)."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

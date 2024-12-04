@@ -1,7 +1,7 @@
 import pandas as pd
 import re
+import json
 from ndex2.cx2 import PandasDataFrameToCX2NetworkFactory
-from ndex2.client import Ndex2
 
 
 def extract_label(bel_expression):
@@ -20,7 +20,7 @@ def extract_type(bel_expression):
     return match.group(1) if match else "unknown"  # Default to "unknown" if no match
 
 
-def convert_to_cx2(extracted_results):
+def convert_to_cx2(extracted_results, style_path=None):
     # Initialize lists to store extracted data
     source_list = []
     target_list = []
@@ -28,6 +28,7 @@ def convert_to_cx2(extracted_results):
     source_label_list = []
     target_label_list = []
     bel_expression_list = []
+    text_list = []
     evidence_list = []
 
     # Create mappings for node names to unique integer IDs
@@ -39,7 +40,8 @@ def convert_to_cx2(extracted_results):
         source = entry.get("source")
         interaction = entry.get("interaction")
         target = entry.get("target")
-        evidence = entry.get("text")
+        text = entry.get("text")
+        evidence = entry.get("evidence")
 
         if source and interaction and target:
             # Assign unique integer ID if node doesn't exist in mapping
@@ -54,10 +56,11 @@ def convert_to_cx2(extracted_results):
             source_label_list.append(extract_label(source))
             target_label_list.append(extract_label(target))
             bel_expression_list.append(f"{source} {interaction} {target}")
-            evidence_list.append(evidence)
+            text_list.append(text)
             source_list.append(source)
             target_list.append(target)
             interaction_list.append(interaction)
+            evidence_list.append(evidence)
 
     # Create a DataFrame for CX2 conversion
     df = pd.DataFrame({
@@ -67,6 +70,7 @@ def convert_to_cx2(extracted_results):
         'source_label': source_label_list,
         'target_label': target_label_list,
         'bel_expression': bel_expression_list,
+        'text': text_list,
         'evidence': evidence_list
     })
 
@@ -77,6 +81,20 @@ def convert_to_cx2(extracted_results):
 
     # Retrieve nodes from the CX2 structure
     cx2_structure = cx2_network.to_cx2()
+
+    # Add style from JSON if provided
+    if style_path:
+        with open(style_path, 'r') as style_file:
+            style_data = json.load(style_file)
+
+        # Append the style aspects to the CX2 structure
+        cx2_structure.append({
+            "visualEditorProperties": style_data[0]["visualEditorProperties"]
+        })
+        cx2_structure.append({
+            "visualProperties": style_data[1]["visualProperties"]
+        })
+
     nodes_aspect = next((aspect for aspect in cx2_structure if isinstance(aspect, dict) and "nodes" in aspect), None)
     existing_node_ids = {node['id'] for node in nodes_aspect["nodes"]} if nodes_aspect else set()
 
@@ -91,21 +109,24 @@ def convert_to_cx2(extracted_results):
         label = extract_label(node_name)
         bel_expression = row_data['bel_expression']
         evidence = row_data['evidence']
+        text = row_data['text']
         node_type = extract_type(node_name)  # Get the type from the BEL expression
 
         # Set node attributes, including type
         cx2_network.set_node_attribute(node_id, 'label', label)
         cx2_network.set_node_attribute(node_id, 'bel_expression', bel_expression)
         cx2_network.set_node_attribute(node_id, 'evidence', evidence)
-        cx2_network.set_node_attribute(node_id, 'type', node_type)  # Set the type attribute
+        cx2_network.set_node_attribute(node_id, 'type', node_type)
+        cx2_network.set_node_attribute(node_id, 'text', text)
+
+    cx2_network._cx2 = cx2_structure
 
     return cx2_network
-
 
 # cx2_network = convert_to_cx2(json_data)
 # cx2_network.set_name('Indra_50_sentences_network')
 # net_cx = cx2_network.to_cx2()
 
-#   Create an NDEx client instance with your credentials
-client = Ndex2(username='favour.ujames196@gmail.com', password='Fujames17')
+# Create an NDEx client instance with your credentials
+# client = Ndex2(username='favour.ujames196@gmail.com', password='Fujames17')
 # client.save_new_cx2_network(net_cx)

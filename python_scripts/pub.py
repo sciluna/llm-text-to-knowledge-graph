@@ -1,4 +1,29 @@
+import os
+import requests
+import logging
 from lxml import etree
+
+
+def download_pubtator_xml(pmc_id, output_dir):
+    """
+    Downloads the XML file from PubTator API using PMCID and saves it in the specified output directory.
+    """
+    # Construct the PubTator API URL
+    url = f"https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/pmc_export/biocxml?pmcids={pmc_id}"
+
+    # Make the request
+    response = requests.get(url)
+    if response.status_code == 200:
+        logging.info(f"Successfully downloaded XML for PMCID {pmc_id}.")
+        file_path = os.path.join(output_dir, f"pmc{pmc_id}.xml")
+
+        # Save the file in the existing output directory
+        with open(file_path, "wb") as f:
+            f.write(response.content)
+        return file_path
+    else:
+        logging.error(f"Failed to download XML for PMCID {pmc_id}. Status code: {response.status_code}")
+        return None
 
 
 def get_pubtator_paragraphs(file_path):

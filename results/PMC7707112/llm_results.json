@@ -1,0 +1,1206 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": "0",
+            "text": "Cyclin D1 encodes the regulatory subunit of a holoenzyme that phosphorylates RB and functions as a collaborative nuclear oncogene. The serine threonine kinase Akt plays a pivotal role in the control of cellular metabolism, survival, and mitogenic signaling. Herein, Akt1-mediated phosphorylation of downstream substrates in the mammary gland is reduced by cyclin D1 genetic deletion and is induced by mammary-gland-targeted cyclin D1 overexpression. Cyclin D1 is associated with Akt1 and augments the rate of onset and maximal cellular Akt1 activity induced by mitogens. Cyclin D1 is identified in a cytoplasmic-membrane-associated pool, and cytoplasmic-membrane-localized cyclin D1:but not nuclear-localized cyclin D1:recapitulates Akt1 transcriptional function. These studies identify a novel extranuclear function of cyclin D1 to enhance proliferative functions via augmenting Akt1 phosphorylation at Ser473.",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:CCND1) increases act(p(HGNC:AKT1), ma(GO:\"protein kinase activity\"))",
+                    "evidence": "Cyclin D1 is associated with Akt1 and augments the rate of onset and maximal cellular Akt1 activity induced by mitogens."
+                },
+                {
+                    "bel_statement": "g(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "These studies identify a novel extranuclear function of cyclin D1 to enhance proliferative functions via augmenting Akt1 phosphorylation at Ser473."
+                }
+            ]
+        },
+        {
+            "Index": "1",
+            "text": "Chen et al. show that the rate of onset and maximal cellular Akt1 activity induced by mitogens was augmented by cyclin D1. Cyclin D1 bound and phosphorylated Akt1 at Ser473. These studies identify a novel extranuclear function of cyclin D1 to enhance proliferative functions via augmenting Akt1 phosphorylation at Ser473.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1), ma(GO:\"kinase activity\"))",
+                    "evidence": "Chen et al. show that the rate of onset and maximal cellular Akt1 activity induced by mitogens was augmented by cyclin D1."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) directlyIncreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Cyclin D1 bound and phosphorylated Akt1 at Ser473."
+                }
+            ]
+        },
+        {
+            "Index": "2",
+            "text": "The cell survival oncoprotein Akt, also known as protein kinase B, conveys distinct pathophysiological processes promoting cellular survival, proliferation, growth, and migration. Akt is frequently hyperactivated in human cancers. In mammalian cells, oncogenic stimuli and growth factors induce Akt kinase activity to promote anti-apoptotic signaling. Three separate genes encode the major isoforms of Akt (Akt1/PKB, Akt2/PKB, and Akt3/PKB). The phosphatase that negatively regulates Akt, the tumor suppressor gene PTEN, is frequently deleted or mutated in human cancer, resulting in constitutive activation of Akt1 kinase.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) increases bp(GOBP:\"anti-apoptotic signaling pathway\")",
+                    "evidence": "In mammalian cells, oncogenic stimuli and growth factors induce Akt kinase activity to promote anti-apoptotic signaling."
+                },
+                {
+                    "bel_statement": "g(HGNC:PTEN) directlyDecreases act(p(HGNC:AKT1), ma(GO:\"kinase activity\"))",
+                    "evidence": "The phosphatase that negatively regulates Akt, the tumor suppressor gene PTEN, is frequently deleted or mutated in human cancer, resulting in constitutive activation of Akt1 kinase."
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "text": "Akt activation occurs through a complex, multistep, phosphorylation-dependent mechanism that is incompletely understood. Akt is phosphorylated in response to growth factor signaling by phosphoinositide-dependent kinase (PDK1) in the activation loop (Thr308) and by mammalian target of rapamycin complex 2 (mTORC2) in the C-terminal hydrophobic motif (Ser473). Reflecting the diverse cellular contexts in which AKT plays a role, Akt S473 phosphorylation is enhanced by many signaling pathways, including IKKalpha; the serine threonine kinase integrin-linked kinase (ILK); members of the phosphatidylinositol 3-kinase (PI3K)-related kinase (PIKK) family, including DNA-dependent protein kinase catalytic subunit (DNA-PKc), mitogen-activated protein kinase-activated protein kinase 2, (p38), protein kinase CbII (PKCbII); ataxia-telangiectasia mutant; and ataxia-telangiectasia and Rad3 related. BSD-domain-containing signal transducer and Akt interactor (BSTA) also promote phosphorylation of Akt1 at Ser473. The priming phosphorylation by Akt1-pS477/pT479 is mediated by Cdk2/cyclin A, mTORC2, or DNA-dependent protein kinase (DNA-PK) under cell-cycle progression, growth factor stimulation, or DNA-damaging conditions, respectively. Akt activity fluctuates across the cell cycle. Under cell-cycle conditions, the cyclin A/cdk2 priming phosphorylation becomes more important and is, therefore, relatively mTORC2/Rictor independent. These distinct signaling cascades play differing roles under different physiological perturbations. For example, inactivation of mTORC2 by depleting Rictor led to a more dramatic reduction of Akt1-pS477/pT479 in response to insulin than under synchronized cell-cycle conditions. Furthermore, the cyclin A/cdk2-mediated priming of S477/479 was considered to be important in cellular transformation.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Thr, 308)) increases act(p(HGNC:AKT1))",
+                    "evidence": "Akt is phosphorylated in response to growth factor signaling by phosphoinositide-dependent kinase (PDK1) in the activation loop (Thr308)."
+                },
+                {
+                    "bel_statement": "complex(GOCC:\"mTORC2\") increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt is phosphorylated in response to growth factor signaling by mammalian target of rapamycin complex 2 (mTORC2) in the C-terminal hydrophobic motif (Ser473)."
+                },
+                {
+                    "bel_statement": "p(HGNC:IKBKA) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt S473 phosphorylation is enhanced by many signaling pathways, including IKKalpha."
+                },
+                {
+                    "bel_statement": "p(HGNC:ILK) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt S473 phosphorylation is enhanced by many signaling pathways, including the serine threonine kinase integrin-linked kinase (ILK)."
+                },
+                {
+                    "bel_statement": "p(HGNC:PRKDC) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt S473 phosphorylation is enhanced by many signaling pathways, including DNA-dependent protein kinase catalytic subunit (DNA-PKc)."
+                },
+                {
+                    "bel_statement": "p(HGNC:MAPKAPK2) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt S473 phosphorylation is enhanced by many signaling pathways, including mitogen-activated protein kinase-activated protein kinase 2, (p38)."
+                },
+                {
+                    "bel_statement": "p(HGNC:PRKCB) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt S473 phosphorylation is enhanced by many signaling pathways, including protein kinase CbII (PKCbII)."
+                },
+                {
+                    "bel_statement": "p(HGNC:ATM) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt S473 phosphorylation is enhanced by many signaling pathways, including ataxia-telangiectasia mutant."
+                },
+                {
+                    "bel_statement": "p(HGNC:ATR) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Akt S473 phosphorylation is enhanced by many signaling pathways, including ataxia-telangiectasia and Rad3 related."
+                },
+                {
+                    "bel_statement": "p(HGNC:BST1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "BSD-domain-containing signal transducer and Akt interactor (BSTA) also promote phosphorylation of Akt1 at Ser473."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CDK2), p(HGNC:CCNA2)) increases p(HGNC:AKT1, pmod(Ph, Ser, 477), pmod(Ph, Thr, 479))",
+                    "evidence": "The priming phosphorylation by Akt1-pS477/pT479 is mediated by Cdk2/cyclin A."
+                },
+                {
+                    "bel_statement": "complex(GOCC:\"mTORC2\") increases p(HGNC:AKT1, pmod(Ph, Ser, 477), pmod(Ph, Thr, 479))",
+                    "evidence": "The priming phosphorylation by Akt1-pS477/pT479 is mediated by mTORC2."
+                },
+                {
+                    "bel_statement": "p(HGNC:PRKDC) increases p(HGNC:AKT1, pmod(Ph, Ser, 477), pmod(Ph, Thr, 479))",
+                    "evidence": "The priming phosphorylation by Akt1-pS477/pT479 is mediated by DNA-dependent protein kinase (DNA-PK)."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CDK2), p(HGNC:CCNA2)) increases bp(GOBP:\"cellular transformation\")",
+                    "evidence": "The cyclin A/cdk2-mediated priming of S477/479 was considered to be important in cellular transformation."
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "text": "Downstream substrates of Akt1 coordinating the pro-survival functions include tuberous sclerosis (TSC), gene 2, which disrupts the TSC1/TSC2 complex, thereby derepressing mTOR (mammalian target of rapamycin). Additional Akt substrates include BAD, MDM2, Huntington, Arfaptin2, and Forkhead Ligand 1 (FKHR-L1). The pro-proliferative and pro-survival functions of Akt1 involve caspase-9, BAD, IKbeta kinase alpha, and a GSK3beta/cyclin D1 pathway. Akt hyperactivation contributes to human cancer correlating with poor prognosis and therapy resistance, and genetic deletion demonstrated that Akt1 is required for ErbB2-induced breast cancer progression and tumor metastases in vivo. Maximal activation of Akt requires phosphorylation on the carboxy-terminal site S473 by mTORC2. Activity of mTORC2 is determined, in part, by the abundance of its components, including mTOR, regulatory associated protein of mTOR (Raptor), mammalian lethal with SEC13 protein 8 (mLST8), 40-kDa proline-rich Akt substrate (PRAS40), DEP-domain-containing mTOR interacting protein (DEPTOR), and Sin1. Rictor and Sin1 are specific components for the mTORC2 kinase complex.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:TSC2)",
+                    "evidence": "Downstream substrates of Akt1 coordinating the pro-survival functions include tuberous sclerosis (TSC), gene 2, which disrupts the TSC1/TSC2 complex, thereby derepressing mTOR (mammalian target of rapamycin)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:BAD)",
+                    "evidence": "Additional Akt substrates include BAD, MDM2, Huntington, Arfaptin2, and Forkhead Ligand 1 (FKHR-L1)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:MDM2)",
+                    "evidence": "Additional Akt substrates include BAD, MDM2, Huntington, Arfaptin2, and Forkhead Ligand 1 (FKHR-L1)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:CASP9)",
+                    "evidence": "The pro-proliferative and pro-survival functions of Akt1 involve caspase-9, BAD, IKbeta kinase alpha, and a GSK3beta/cyclin D1 pathway."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:GSK3B)",
+                    "evidence": "The pro-proliferative and pro-survival functions of Akt1 involve caspase-9, BAD, IKbeta kinase alpha, and a GSK3beta/cyclin D1 pathway."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:IKBKA)",
+                    "evidence": "The pro-proliferative and pro-survival functions of Akt1 involve caspase-9, BAD, IKbeta kinase alpha, and a GSK3beta/cyclin D1 pathway."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases path(MESHD:\"Breast Neoplasms\")",
+                    "evidence": "Akt hyperactivation contributes to human cancer correlating with poor prognosis and therapy resistance, and genetic deletion demonstrated that Akt1 is required for ErbB2-induced breast cancer progression and tumor metastases in vivo."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, S, 473)) directlyIncreases act(p(HGNC:AKT1))",
+                    "evidence": "Maximal activation of Akt requires phosphorylation on the carboxy-terminal site S473 by mTORC2."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:MTOR), p(HGNC:RPTOR), p(HGNC:MLST8), p(HGNC:PRR5), p(HGNC:DEPTOR), p(HGNC:MAPKAP1)) hasComponent p(HGNC:RICTOR)",
+                    "evidence": "Rictor and Sin1 are specific components for the mTORC2 kinase complex."
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "text": "Downstream targets of Akt promoting cellular proliferation include cyclin D1, the regulatory subunit of the holoenzyme that phosphorylates and inactivates the RB and NRF1 proteins. Phosphorylation of RB promotes DNA synthesis, whereas phosphorylation of NRF1 restrains mitochondrial metabolism. The promotion of DNA synthesis and reduction in mitochondrial metabolism reflects a triage function of cyclin D1 by which metabolic substrates enhance the Warburg effect as frequently observed in cancer. In genetic deletion studies, the phenotype of the cyclin D1-/- and Akt1-/- mice revealed several common features, including defective mammary gland development. In addition to a kinase function, cyclin D1 conveys distinct noncanonical functions, including a nuclear function promoting transcription factor activity, often in the context of local chromatin, wherein distinct enzyme complexes are recruited to target transcription factor binding sites, as reviewed in.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases p(HGNC:CCND1)",
+                    "evidence": "Downstream targets of Akt promoting cellular proliferation include cyclin D1, the regulatory subunit of the holoenzyme that phosphorylates and inactivates the RB and NRF1 proteins."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:RB1, pmod(Ph))",
+                    "evidence": "Phosphorylation of RB promotes DNA synthesis, whereas phosphorylation of NRF1 restrains mitochondrial metabolism."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:NRF1, pmod(Ph))",
+                    "evidence": "Phosphorylation of RB promotes DNA synthesis, whereas phosphorylation of NRF1 restrains mitochondrial metabolism."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases bp(GOBP:\"DNA synthesis\")",
+                    "evidence": "Phosphorylation of RB promotes DNA synthesis, whereas phosphorylation of NRF1 restrains mitochondrial metabolism."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) decreases bp(GOBP:\"mitochondrial metabolism\")",
+                    "evidence": "Phosphorylation of RB promotes DNA synthesis, whereas phosphorylation of NRF1 restrains mitochondrial metabolism."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases bp(GOBP:\"Warburg effect\")",
+                    "evidence": "The promotion of DNA synthesis and reduction in mitochondrial metabolism reflects a triage function of cyclin D1 by which metabolic substrates enhance the Warburg effect as frequently observed in cancer."
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "text": "Evidence for an extranuclear function of cyclin D1 includes the location of cyclin D1 and related cell-cycle proteins in the cytoplasmic membrane, the association of cyclin D1 with cytoplasmic membrane proteins, and evidence for an extranuclear function of cyclin D1 in estrogen (estradiol, or E2) signaling. Cyclin D1 has been shown to bind cytoplasmic-membrane-associated protein PACSIN 2 (protein kinase C [PKC] and casein kinase substrate in neurons protein 2) and Filamin A and co-localizes in the cell membrane with paxillin. Furthermore, cyclin D1 promotes cellular migration, in part through interacting with Rho GTPase. Cyclin D1 is required for both estrogen- and androgen-dependent gene expression and function in vivo, including the estrogen-dependent attenuation of the DNA damage response. In prior studies, estrogen dendrimers that were functionally excluded from the nucleus determined cyclin D1-dependent estrogen signaling, suggesting that the estrogen-dependent attenuation of the DNA damage response involves an extranuclear pool of cyclin D1. In this study, we identified a novel extranuclear function of cyclin D1 to enhance proliferative functions via augmenting phosphorylation of Akt1 at Ser473 and established that cytoplasmic localized cyclin D1, but not nuclear localized cyclin D1, recapitulates Akt1 transcriptional signal transduction function.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) binds p(HGNC:PACSIN2)",
+                    "evidence": "Cyclin D1 has been shown to bind cytoplasmic-membrane-associated protein PACSIN 2 (protein kinase C [PKC] and casein kinase substrate in neurons protein 2)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) binds p(HGNC:FLNA)",
+                    "evidence": "Cyclin D1 has been shown to bind cytoplasmic-membrane-associated protein Filamin A."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) colocalizes p(HGNC:PXN)",
+                    "evidence": "Cyclin D1 co-localizes in the cell membrane with paxillin."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases bp(GOBP:\"cell migration\")",
+                    "evidence": "Cyclin D1 promotes cellular migration, in part through interacting with Rho GTPase."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) directlyIncreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Cyclin D1 enhances proliferative functions via augmenting phosphorylation of Akt1 at Ser473."
+                }
+            ]
+        },
+        {
+            "Index": "7",
+            "text": "Cyclin D1 Augments Akt Activity In Vivo",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1))",
+                    "evidence": "Cyclin D1 Augments Akt Activity In Vivo"
+                }
+            ]
+        },
+        {
+            "Index": "8",
+            "text": "In recent studies, transient expression of a cyclin D1 cDNA at physiological levels was sufficient to promote proliferative signaling and gene expression associated with metabolism, ribosomal biogenesis, and mitogenesis. In order to determine at a higher level of resolution the mechanisms by which cyclin D1 expression induced mitogenic signaling, we examined proliferative kinase activity in the mammary gland of transgenic mice in which either the cyclin D1 cDNA or a point mutant of the cyclin D1 cDNA K112E (cyclin D1KE) was intercrossed with MMTV-RtTA mice to ensure doxycycline-inducible expression of cyclin D1 in the mammary gland of mice (Figure 1A). The cyclin D1 cDNA K112E (cyclin D1KE) generates a mutation previously shown to convey reduced ability to phosphorylate RB. Animals were treated for 14 days, and analysis of Akt1 and Akt1 Ser473 was conducted by immunohistochemistry (IHC) using an Akt1 isoform-specific antibody (Figure 1; Figure S1). The presence of the cyclin D1 transgene was confirmed by IHC to the amino-terminal FLAG epitope of the cyclin D1 cDNA in both the nucleus and cytoplasm (Figure 1B). Induction of the cyclin D1 transgene was associated with increased phosphorylation of Akt1 Ser473, which was seen in both the nucleus and cytoplasm, without a change in Akt1 abundance. Consistent with cyclin D1-mediated activation of Akt1, several downstream targets of Akt were measured in the mammary epithelial cell of the mammary gland in the bi-transgenic mice after induction of the cyclin D1 transgene by doxycycline (TSC2 Ser939, FKHR Ser319, and BAD Ser136) (Figures S1B-S1E).",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1), ma(GO:\"protein kinase activity\"))",
+                    "evidence": "Induction of the cyclin D1 transgene was associated with increased phosphorylation of Akt1 Ser473, which was seen in both the nucleus and cytoplasm, without a change in Akt1 abundance."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:TSC2, pmod(Ph, Ser, 939))",
+                    "evidence": "Consistent with cyclin D1-mediated activation of Akt1, several downstream targets of Akt were measured in the mammary epithelial cell of the mammary gland in the bi-transgenic mice after induction of the cyclin D1 transgene by doxycycline (TSC2 Ser939, FKHR Ser319, and BAD Ser136)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:FOXO1, pmod(Ph, Ser, 319))",
+                    "evidence": "Consistent with cyclin D1-mediated activation of Akt1, several downstream targets of Akt were measured in the mammary epithelial cell of the mammary gland in the bi-transgenic mice after induction of the cyclin D1 transgene by doxycycline (TSC2 Ser939, FKHR Ser319, and BAD Ser136)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:BAD, pmod(Ph, Ser, 136))",
+                    "evidence": "Consistent with cyclin D1-mediated activation of Akt1, several downstream targets of Akt were measured in the mammary epithelial cell of the mammary gland in the bi-transgenic mice after induction of the cyclin D1 transgene by doxycycline (TSC2 Ser939, FKHR Ser319, and BAD Ser136)."
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "text": "In order to determine whether endogenous cyclin D1 maintains Akt1 activity in the mammary gland in vivo, cyclin D1fl/fl mice were intercrossed with ROSA26-ER-Cre mice and analyzed after 5 days of tamoxifen treatment used to induce Cre expression and to thereby delete cyclin D1 gene expression (Figure 1E). Consistent with the induction of Akt1 activity upon transgenic expression of cyclin D1, Cre-mediated deletion of the cyclin D1 gene reduced cyclin D1 protein abundance (Figure 1F) and reduced Akt1 activity, as evidenced by reduced phosphorylation of Akt1 (pAkt Ser473) and its substrates (pTSC2 Ser939 and pFKHR Ser319), without altering the abundance of the substrates (Akt1 and TSC2) (Figures S2B-S2D). As recent studies had demonstrated that cyclin A2 can induce Akt1 activity, we examined cyclin A2 levels in the mammary gland of mice in which cyclin D1 was either overexpressed or reduced in abundance. Cyclin A2 levels were unchanged by cyclin D1 expression, whereas Akt1 Ser473 phosphorylation was increased (Figures S3A and S3B). Induction of the cyclin D1KE cDNA did not induce pAkt1 Ser473 (Figures S3C and S3D). In the cyclin D1-/- mammary gland, cyclin A2 levels were unchanged, although pAkt Ser473 levels were reduced (Figures S3E-S3H).",
+            "Results": [
+                {
+                    "bel_statement": "g(MGI:Ccnd1) directlyDecreases p(HGNC:CCND1)",
+                    "evidence": "Cre-mediated deletion of the cyclin D1 gene reduced cyclin D1 protein abundance (Figure 1F)."
+                },
+                {
+                    "bel_statement": "g(MGI:Ccnd1) directlyDecreases act(p(HGNC:AKT1), ma(GO:\"kinase activity\"))",
+                    "evidence": "Cre-mediated deletion of the cyclin D1 gene reduced cyclin D1 protein abundance (Figure 1F) and reduced Akt1 activity, as evidenced by reduced phosphorylation of Akt1 (pAkt Ser473) and its substrates (pTSC2 Ser939 and pFKHR Ser319), without altering the abundance of the substrates (Akt1 and TSC2) (Figures S2B-S2D)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1), ma(GO:\"kinase activity\"))",
+                    "evidence": "Consistent with the induction of Akt1 activity upon transgenic expression of cyclin D1, Cre-mediated deletion of the cyclin D1 gene reduced cyclin D1 protein abundance (Figure 1F) and reduced Akt1 activity, as evidenced by reduced phosphorylation of Akt1 (pAkt Ser473) and its substrates (pTSC2 Ser939 and pFKHR Ser319), without altering the abundance of the substrates (Akt1 and TSC2) (Figures S2B-S2D)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCNA2) causesNoChange act(p(HGNC:AKT1), ma(GO:\"kinase activity\"))",
+                    "evidence": "Cyclin A2 levels were unchanged by cyclin D1 expression, whereas Akt1 Ser473 phosphorylation was increased (Figures S3A and S3B)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) causesNoChange p(HGNC:CCNA2)",
+                    "evidence": "Cyclin A2 levels were unchanged by cyclin D1 expression, whereas Akt1 Ser473 phosphorylation was increased (Figures S3A and S3B)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) directlyIncreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Cyclin A2 levels were unchanged by cyclin D1 expression, whereas Akt1 Ser473 phosphorylation was increased (Figures S3A and S3B)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) decreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "In the cyclin D1-/- mammary gland, cyclin A2 levels were unchanged, although pAkt Ser473 levels were reduced (Figures S3E-S3H)."
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "text": "As a form of control for Akt1, we examined the activity of Akt and its substrates in vivo. We examined the mammary gland of mice deleted of the Akt1 gene. A similar reduction in pTSC2 Ser939, pFKHR Ser319, and pBad Ser136 was observed upon Akt1 gene deletion (Figure S4). We considered the possibility that cyclin D1 may indirectly induce pAkt1 Ser473 via regulating expression of mTORC2 components. The abundance of the mTORC2 components in the MMTV-cyclin D1 mammary tumors were unchanged by prolonged expression of cyclin D1 (Figures S5A and S5B). Acute induction of cyclin D1 for 1 week using the rtTA cyclin D1 transgenics, compared with control mice, demonstrated no significant change in the abundance of the mTORC2 components (Figures S5C and S5D). Cyclin D1-/- 3T3 cells transduced with an expression vector encoding cyclin D1 or a control expression vector showed no change in abundance of mTORC2 components (Figure S5E). Rictor abundance was assessed by IHC in the mammary gland of transgenic mice and showed no alteration with the acute induction of either the wild-type (WT) cyclin D1 (or cyclin D1WT) or point mutation of the lysine residue K112 (cyclin D1KE) transgene (Figure S5F) or upon chronic deletion in cyclin D1+/+ versus cyclin D1-/- mammary epithelium (Figure S5G).",
+            "Results": [
+                {
+                    "bel_statement": "g(MGI:Akt1) decreases p(MGI:Tsc2, pmod(Ph, Ser, 939))",
+                    "evidence": "A similar reduction in pTSC2 Ser939, pFKHR Ser319, and pBad Ser136 was observed upon Akt1 gene deletion (Figure S4)."
+                },
+                {
+                    "bel_statement": "g(MGI:Akt1) decreases p(MGI:Foxo1, pmod(Ph, Ser, 319))",
+                    "evidence": "A similar reduction in pTSC2 Ser939, pFKHR Ser319, and pBad Ser136 was observed upon Akt1 gene deletion (Figure S4)."
+                },
+                {
+                    "bel_statement": "g(MGI:Akt1) decreases p(MGI:Bad, pmod(Ph, Ser, 136))",
+                    "evidence": "A similar reduction in pTSC2 Ser939, pFKHR Ser319, and pBad Ser136 was observed upon Akt1 gene deletion (Figure S4)."
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "text": "In order to examine a potential role for cyclin D1 in directly phosphorylating Akt1, MCF-7 cells were transduced with an expression vector encoding the amino-terminal FLAG-tagged cyclin D1 expression vector, and western blot was conducted (Figure 2A). The expression of cyclin D1 was identified by the FLAG epitope, and the relative abundance of cellular cyclin D1 was increased ~1.5-fold (exogenous cyclin D1, labeled as \"Ex\" in Figure 2A). This change in abundance is within the physiological 5-fold change in abundance that occurs in MCF-7 cells upon serum or E2 stimulation or during cell-cycle transition. The relative abundance of Akt1 was not significantly altered. The phosphorylation of Akt1 on Serine 473, which activates Akt, was enhanced 2.2-fold (Figure 2A). The phosphorylation of the Akt1 substrate TSC2 at Ser392 was increased 6-fold without any change in TSC2. Reintroduction of cyclin D1 into the cyclin D1-/- 3T3 cells increased cyclin D1 levels to that of cyclin D1WT 3T3 cells, associated with a ~48-fold increase in phosphorylation of Akt at Ser473, without a change in Akt1 abundance (Figure 2B). The phosphorylation of key downstream substrates of Akt1 was increased without a significant change in the abundance of the substrates, including TSC2 (Ser393), FOXO1 (Ser319), and Bad (Ser126) (Figure 2B).",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "The phosphorylation of Akt1 on Serine 473, which activates Akt, was enhanced 2.2-fold (Figure 2A)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Ser, 473)) increases p(HGNC:TSC2, pmod(Ph, Ser, 392))",
+                    "evidence": "The phosphorylation of the Akt1 substrate TSC2 at Ser392 was increased 6-fold without any change in TSC2."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Reintroduction of cyclin D1 into the cyclin D1-/- 3T3 cells increased cyclin D1 levels to that of cyclin D1WT 3T3 cells, associated with a ~48-fold increase in phosphorylation of Akt at Ser473, without a change in Akt1 abundance (Figure 2B)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Ser, 473)) increases p(HGNC:TSC2, pmod(Ph, Ser, 393))",
+                    "evidence": "The phosphorylation of key downstream substrates of Akt1 was increased without a significant change in the abundance of the substrates, including TSC2 (Ser393), FOXO1 (Ser319), and Bad (Ser126) (Figure 2B)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Ser, 473)) increases p(HGNC:FOXO1, pmod(Ph, Ser, 319))",
+                    "evidence": "The phosphorylation of key downstream substrates of Akt1 was increased without a significant change in the abundance of the substrates, including TSC2 (Ser393), FOXO1 (Ser319), and Bad (Ser126) (Figure 2B)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Ser, 473)) increases p(HGNC:BAD, pmod(Ph, Ser, 126))",
+                    "evidence": "The phosphorylation of key downstream substrates of Akt1 was increased without a significant change in the abundance of the substrates, including TSC2 (Ser393), FOXO1 (Ser319), and Bad (Ser126) (Figure 2B)."
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "text": "In order to define further the mechanisms by which cyclin D1 enhanced Akt1 phosphorylation, cyclin D1-/- cells were transduced with expression vectors encoding either cyclin D1WT or cyclin D1KE. Similar levels of cyclin D1WT and cyclin D1KE mutant proteins were identified within the cell by western blot (Figure 2C). Re-expression of cyclin D1 in cyclin D1-/- cells enhanced Akt1 phosphorylation at Ser473. However, cyclin D1KE abrogated the induction of Akt1 phosphorylation (Figure 2C). In order to consider potential mechanism by which cyclin D1 augmented Akt1 activity, we considered the possibility that cyclin D1 directly phosphorylated Akt1. Cyclin D1 immune-precipitation kinase assays were conducted using immune-precipitated cyclin D1 from HEK293T cells overexpressing cyclin D1 as the enzyme source and expressed proteins including a pRB fragment that encodes two CDK phosphorylation sites and full-length immune-purified human Akt1 (Figures 2D and 2E) as substrates. The glutathione S-transferase (GST) fusion protein input was electrophoresed and stained with Coomassie, and the gamma32p incorporated product was compared in order to derive relative incorporation of gamma32p into the substrates (Figures 2D and 2E). Next, HEK293T cells were transfected with expression vector encoding hemagglutinin (HA)-Akt1 and either vector or FLAG N-amino-terminal tagged cyclin D1WT. HA immunoprecipitation (HA-IP) was conducted on the cells, and mass spectrometry compared the relative abundance in post-translational modification between vector control and cyclin D1-transfected cells (Figure 2F). As Akt1 Ser473 was identified in western blot and by mass spectrometry as a residue phosphorylated in response to cyclin D1 expression, cyclin D1 IP kinase assays were conducted of Akt1 WT versus Akt1 S473A. In contrast with Akt1 WT, point mutation of Akt1 Ser473 reduced gamma32p incorporated by -80-fold (Figure 2G). This study demonstrates that RB and Akt1 serve as efficient substrates in cyclin D1 immune complex kinase assays (Figures 2D-2E). Cyclin A2 levels were unchanged by cyclin D1 expression (Figures 2B and 2C).",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Re-expression of cyclin D1 in cyclin D1-/- cells enhanced Akt1 phosphorylation at Ser473."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1, var(\"KE\")) directlyDecreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "However, cyclin D1KE abrogated the induction of Akt1 phosphorylation (Figure 2C)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) directlyIncreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "As Akt1 Ser473 was identified in western blot and by mass spectrometry as a residue phosphorylated in response to cyclin D1 expression."
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "text": "Extranuclear Interaction of Cyclin D1 with Akt1 via the N Terminus",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) association p(HGNC:AKT1)",
+                    "evidence": "Extranuclear Interaction of Cyclin D1 with Akt1 via the N Terminus"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "text": "In order to determine whether cyclin D1 resides in proximity to Akt1 within the cell, we conducted proximity ligation assays (PLAs). The PLA is an antibody-based assay that generates a fluorescent signal only when the two target antigens are within 40 nm of each other. We performed PLAs with antibodies recognizing cyclin D1 or Akt1. Figure 3A shows the signal identified when cyclin D1 was introduced into cyclin D1-/- 3T3 cells, whereas background signal only was identified in cells transduced with a control vector (GFP) (Figure 3B) or with control immunoglobulin G (IgG) (Figures S6 and S7). The signal was primarily extranuclear based on DAPI (blue staining) (Figure 3A). The signal for Akt1 and cyclin D1 proximity was maintained with a mutant of cyclin D1 (cyclin D1KE), which is defective in several functions, including kinase activity (Figure 3C). A mutant of a carboxy-terminal cyclin D1 phosphorylation site (cyclin D1T286) that is known to be primarily nuclear in localization did not show association with Akt1 (Figure 3D; Figure S8). Deletion of the acidic rich carboxy-terminal motif from cyclin D1 (cyclinDeltaE) maintained binding to Akt1; however, deletion of the N-terminal residues 1-91 (cyclin D1C6) abrogated Akt1 binding (Figure 3E-3G), and mutants including deletions of this region (e.g., cyclin D1C4 and cyclin D1C5) also failed to bind Akt1 (Figure S8). The murine cyclin D1/ CDK4/Akt1 (mCD1/CDK4/Akt1) model (Figure 3H) was generated as described in the STAR Methods section. The high sequence identity between mCD1/CDK4/Akt1 and the high-resolution X-ray crystal structures used to generate this model provides a high degree of confidence in the model. The model indicates that Akt1 S473 is in proximity of the ATP gamma-phosphate for nucleophilic attachment to allow for its phosphorylation.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:AKT1))",
+                    "evidence": "The signal for Akt1 and cyclin D1 proximity was maintained with a mutant of cyclin D1 (cyclin D1KE), which is defective in several functions, including kinase activity (Figure 3C)."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:AKT1))",
+                    "evidence": "Deletion of the acidic rich carboxy-terminal motif from cyclin D1 (cyclinDeltaE) maintained binding to Akt1; however, deletion of the N-terminal residues 1-91 (cyclin D1C6) abrogated Akt1 binding (Figure 3E-3G), and mutants including deletions of this region (e.g., cyclin D1C4 and cyclin D1C5) also failed to bind Akt1 (Figure S8)."
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "text": "Cyclin D1 Augments Akt1 Phosphorylation at the Plasma Membrane",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph))",
+                    "evidence": "Cyclin D1 Augments Akt1 Phosphorylation at the Plasma Membrane"
+                }
+            ]
+        },
+        {
+            "Index": "16",
+            "text": "Previously, studies demonstrated the presence of Akt in the cytoplasmic membrane and cyclin D1 was shown to associate with the membrane-associated protein PACSIN 2, likely serving to tether cyclin D1 to the cytoplasmic membrane compartment. In cyclin D1 WT 3T3 cells, endogenous cyclin D1 co-localized with pAkt1 Ser473 (Figure 4A) as seen in the Z series. In cyclin D1-/- 3T3 cells, immunohistochemical staining revealed trivial phosphorylation of Akt1 at Ser473 (Figure 4B). Rescue of cyclin D1-/- 3T3 cells with a cyclin D1 expression retrovirus, which resulted in a physiological rescue of cyclin D1 abundance similar to that of cyclin D1WT 3T3 cells, enhanced Akt1 phosphorylation of Akt1 Ser473 at the cytoplasmic membrane, with enrichment at sites of focal contacts (Figure 4C). In contrast, rescue of cyclin D1-/- 3T3 cells with a cyclin D1KE cDNA induced trivial Akt1 Ser473 phosphorylation at the plasma membrane (Figure 4D).",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Rescue of cyclin D1-/- 3T3 cells with a cyclin D1 expression retrovirus, which resulted in a physiological rescue of cyclin D1 abundance similar to that of cyclin D1WT 3T3 cells, enhanced Akt1 phosphorylation of Akt1 Ser473 at the cytoplasmic membrane, with enrichment at sites of focal contacts (Figure 4C)."
+                }
+            ]
+        },
+        {
+            "Index": "17",
+            "text": "The Onset and Peak Activity of Akt1 by Mitogens Require Cyclin D1/CDK4/6 Activity",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) increases act(complex(p(HGNC:CCND1), p(HGNC:CDK4), p(HGNC:CDK6)))",
+                    "evidence": "The Onset and Peak Activity of Akt1 by Mitogens Require Cyclin D1/CDK4/6 Activity"
+                }
+            ]
+        },
+        {
+            "Index": "18",
+            "text": "Near-infrared (NIR) dye fluoresces at two different wavelengths (dichromic fluorescence). Recent studies identified a dichromic fluorescent (DCF) dye substrate for cellular Akt1 activity. The diserine DCF substrate was shown to serve as a specific substrate for Akt1, which can be used to quantitatively assess the enzyme's activity in real time. Insulin activation of cellular Akt phosphorylates a single serine residue of the diserine DCF substrate in a time-dependent manner and can be used to assess longitudinally the stimulation and reversibility of Akt1 activity. The dichromic dye LS456 is phosphorylated by Akt1 but not a variety of other kinases (including protein kinase A [PKA], PKC, RSK1, P70S6K, and PI3K). The binding of insulin to its cell-surface receptor stimulates PI3K, which then induces the second messenger, phosphotidylinositol-3, 4, 5-triphosphate (PIP3). PIP3 activates Akt and additional downstream effectors. As LS456 was shown to serve as a specific substrate for Akt1 in response to 150 nM insulin, we examined the kinetics of insulin-mediated activation of LS456 in in cyclin D1-/- mouse embryonic fibroblasts (MEFs) compared with WT MEFs (Figure 5A). Insulin stimulation of Akt1 activity assessed by LS456 was delayed with reduced induction in cyclin D1-/- cells compared with the cyclin D1+/+ cells (Figure 5A). The response to epidermal growth factor (EGF) was also delayed (Figure 5B). Analysis in Cdk4/Cdk6-/- MEFs demonstrated a delayed and reduced induction of insulin- and EGF-mediated activation of LS456 in Cdk4/Cdk6-/- MEFs compared with WT MEFs (Figures 5C and 5D).",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases pmod(a(CHEMBL:LS456), Ph)",
+                    "evidence": "The dichromic dye LS456 is phosphorylated by Akt1 but not a variety of other kinases (including protein kinase A [PKA], PKC, RSK1, P70S6K, and PI3K)."
+                },
+                {
+                    "bel_statement": "a(CHEBI:insulin) increases act(p(HGNC:AKT1))",
+                    "evidence": "Insulin activation of cellular Akt phosphorylates a single serine residue of the diserine DCF substrate in a time-dependent manner and can be used to assess longitudinally the stimulation and reversibility of Akt1 activity."
+                },
+                {
+                    "bel_statement": "a(CHEBI:insulin) increases a(CHEBI:\"phosphatidylinositol-3,4,5-trisphosphate\")",
+                    "evidence": "The binding of insulin to its cell-surface receptor stimulates PI3K, which then induces the second messenger, phosphotidylinositol-3, 4, 5-triphosphate (PIP3)."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"phosphatidylinositol-3,4,5-trisphosphate\") increases act(p(HGNC:AKT1))",
+                    "evidence": "PIP3 activates Akt and additional downstream effectors."
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "text": "Akt Ser473 phosphorylation is induced within 15 min of serum release, peaking at 1-3 h. In order to determine whether cyclin D1 rescue of cyclin D1-/- cells augmented cell-cycle progression during this time frame, we compared the cyclin D1-/- and cyclin D1-/-cyclin D1WT rescued cells. Fluorescence-activated cell sorting (FACS) analysis demonstrated trivial differences in cell-cycle distribution in the 0- to 4-h time frame, with an augmentation of S phase enrichment (9.9 versus 13.5) occurring at 24 h (Figure S9A). CDK inhibitors have been shown to reduce the RB kinase function of the cyclin D1/CDK4 complex; however, significant additional interactions have been identified (reviewed in), warranting an analysis of CDK inhibitor impact on Akt1 phosphorylation at Ser473 and the interaction with Rictor. To this end, we deployed MEFs encoding tamoxifen-inducible Rictor small interfering RNA (siRNA). Acute reduction in Rictor abundance reduced Akt1 Ser473 compared with Akt1 (Figure S9B, lane 1 versus lane 4). The addition of the two distinct CDK inhibitors palbociclib (8 mum) or abemociclib (8 mum) reduced RB phosphorylation at Ser780 without significant effects on the relative phosphorylation of Akt1 Ser473 (Figure S9B, lanes 1 versus lanes 2 and 3). The reduction on RB phosphorylation by acute siRictor may be due to the previously described reduction in cyclin D1. In contrast, after chronic reduction in Rictor (30 days), the addition of a CDK inhibitor:abemaciclib (4-8 mum) or palbociclib (4-8 mum):reduced Akt1 Ser473 abundance compared with that of Akt1 (Figure S9C, lane 1 versus lane 5). Together, these studies are consistent with the known importance of Rictor to induce Akt1 Ser473 phosphorylation, and the new evidence herein that endogenous cyclin D/CDK4/6 activity augments Akt1 Ser473 phosphorylation, in part dependent upon the relative activity of Rictor in the cells.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:RICTOR) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Acute reduction in Rictor abundance reduced Akt1 Ser473 compared with Akt1 (Figure S9B, lane 1 versus lane 4)."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:CDK4)) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Together, these studies are consistent with the known importance of Rictor to induce Akt1 Ser473 phosphorylation, and the new evidence herein that endogenous cyclin D/CDK4/6 activity augments Akt1 Ser473 phosphorylation, in part dependent upon the relative activity of Rictor in the cells."
+                }
+            ]
+        },
+        {
+            "Index": "20",
+            "text": "A Membrane-Tethered Cyclin D1 Is Sufficient for the Induction of Akt1 Transcriptional Induction",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases r(HGNC:AKT1)",
+                    "evidence": "A Membrane-Tethered Cyclin D1 Is Sufficient for the Induction of Akt1 Transcriptional Induction"
+                }
+            ]
+        },
+        {
+            "Index": "21",
+            "text": "In order to determine whether the onset and peak Akt1 activity induced by insulin required the CDK binding residue of cyclin D1, NIH 3T3 cells, which had been either deleted of the cyclin D1 gene or rescued with either the cyclin D1WT cDNA or a cyclin D1KE, were compared (Figures 6A and 6B). Insulin stimulation of Akt1 activity assessed by LS456 was delayed with reduced induction in cyclin D1-/- cells compared with the cyclin D1WT rescued cells. Cyclin D1-/- NIH 3T3 transduced with a cyclin D1KE was defective in the insulin-mediated induction of Akt1 activity, as assessed by LS456 dichromic fluorescence (Figure 6B).",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:CCND1))",
+                    "evidence": "Insulin stimulation of Akt1 activity assessed by LS456 was delayed with reduced induction in cyclin D1-/- cells compared with the cyclin D1WT rescued cells."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) decreases act(p(HGNC:CCND1, var(\"KE\")))",
+                    "evidence": "Cyclin D1-/- NIH 3T3 transduced with a cyclin D1KE was defective in the insulin-mediated induction of Akt1 activity, as assessed by LS456 dichromic fluorescence (Figure 6B)."
+                }
+            ]
+        },
+        {
+            "Index": "22",
+            "text": "The promoter of the immediate early gene c-fos is induced acutely via Akt. The promoter reporter c-fos-LUC is activated by EGF-Akt1 via the ternary complex factor (TCF) site (Figure 6C). Co-expression of the cyclin D1WT, but not the CDK-binding defective mutant of cyclin D1, also induced c-fos transcriptional activity assessed using the c-fos promoter linked to a luciferase reporter gene (Figure 6D). A series of point mutations of the TCF site and the serum response element (SRE) of the c-fos promoter were assessed, as prior studies had demonstrated that Akt mediates activity of the c-fos promoter via the TCF site. In MCF7 cells, a point mutation of the TCF site abolished induction of the c-fos promoter, indicating the importance of the TCF site for activation by cyclin D1 (Figure 6E). In contrast, the SRE was identified as the site responding to the serum-induced acute signals that drive cells from Go to G1 via PI3K-Rac/Rho. Cyclin D1 induced the c-fos-LUC reporter and the SRE mutant reporter (Figure 6F).",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) increases g(HGNC:FOS)",
+                    "evidence": "The promoter of the immediate early gene c-fos is induced acutely via Akt."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) increases r(HGNC:FOS)",
+                    "evidence": "The promoter reporter c-fos-LUC is activated by EGF-Akt1 via the ternary complex factor (TCF) site (Figure 6C)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases r(HGNC:FOS)",
+                    "evidence": "Co-expression of the cyclin D1WT, but not the CDK-binding defective mutant of cyclin D1, also induced c-fos transcriptional activity assessed using the c-fos promoter linked to a luciferase reporter gene (Figure 6D)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases r(HGNC:FOS)",
+                    "evidence": "In MCF7 cells, a point mutation of the TCF site abolished induction of the c-fos promoter, indicating the importance of the TCF site for activation by cyclin D1 (Figure 6E)."
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"G0 to G1 transition\") increases r(HGNC:FOS)",
+                    "evidence": "In contrast, the SRE was identified as the site responding to the serum-induced acute signals that drive cells from Go to G1 via PI3K-Rac/Rho."
+                }
+            ]
+        },
+        {
+            "Index": "23",
+            "text": "We next compared the impact of cyclin D1 when tethered to the cytoplasmic membrane or when localized to the nucleus. An expression vector encoding cyclin D1, cytoplasmic-membrane-tethered cyclin D1, or a constitutively active Akt1 (myr-Akt1) induced the c-fos promoter and the SRE point mutant in cyclin D1-/- cells (Figures 6F and 6G). In contrast, nuclear-targeted cyclin D1 failed to induce c-fos promoter activity (Figure 6H). The myr-Akt1 expression vector induced c-fos-LUC activity ~4- to 6-fold, and membrane-tethered cyclin D1 induced c-fos-LUC activity ~2.5-fold. There was no difference in c-fos-LUC activation by membrane-tethered cyclin D1 versus cyclin D1WT (Figures 6F and 6G). There was no further induction of c-fos-LUC activity by membrane-tethered cyclin D1 in the presence of myr-Akt1. The activity of pm12-LUC is higher than that of WT (c-fos-LUC) in the presence of myr-AKT1. Pm12 has a mutation of the SRE site, which reduces basal level activity maintained by Akt-independent signaling pathways in the cell. pm12-LUC maintains WT activation by Akt1. Therefore, when the activity of pm12 is normalized to 1 for basal level activity, the relative activity of pm12 in the presence of Akt1 is greater. These studies suggest that membrane-tethered cyclin D1, but not nuclear-localized cyclin D1, induces c-fos transcriptional activity.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1, loc(GO:\"cytoplasmic membrane\")) increases r(HGNC:FOS)",
+                    "evidence": "An expression vector encoding cyclin D1, cytoplasmic-membrane-tethered cyclin D1, or a constitutively active Akt1 (myr-Akt1) induced the c-fos promoter and the SRE point mutant in cyclin D1-/- cells."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) increases r(HGNC:FOS)",
+                    "evidence": "An expression vector encoding cyclin D1, cytoplasmic-membrane-tethered cyclin D1, or a constitutively active Akt1 (myr-Akt1) induced the c-fos promoter and the SRE point mutant in cyclin D1-/- cells."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) increases a(CHEBI:\"luciferase reporter\")",
+                    "evidence": "The myr-Akt1 expression vector induced c-fos-LUC activity ~4- to 6-fold, and membrane-tethered cyclin D1 induced c-fos-LUC activity ~2.5-fold."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1, loc(GO:\"cytoplasmic membrane\")) increases a(CHEBI:\"luciferase reporter\")",
+                    "evidence": "The myr-Akt1 expression vector induced c-fos-LUC activity ~4- to 6-fold, and membrane-tethered cyclin D1 induced c-fos-LUC activity ~2.5-fold."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1, loc(GO:\"nucleus\")) decreases r(HGNC:FOS)",
+                    "evidence": "In contrast, nuclear-targeted cyclin D1 failed to induce c-fos promoter activity."
+                }
+            ]
+        },
+        {
+            "Index": "24",
+            "text": "Cyclin D1 and Akt Promote Common Signaling Pathways in the Mammary Gland In Vivo",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases bp(GOBP:\"signaling pathway\")",
+                    "evidence": "Cyclin D1 and Akt Promote Common Signaling Pathways in the Mammary Gland In Vivo"
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases bp(GOBP:\"signaling pathway\")",
+                    "evidence": "Cyclin D1 and Akt Promote Common Signaling Pathways in the Mammary Gland In Vivo"
+                }
+            ]
+        },
+        {
+            "Index": "25",
+            "text": "In order to determine whether Akt1 and cyclin D1 govern common signaling pathways in vivo, MMTV-ErbB2 transgenic mice were intercrossed with Akt1+/- mice (Figure 7A) and mammary tumor cell lines were derived that were either ErbB2/Akt1+/+ or ErbB2/Akt1-/-. Microarray analysis of 3 independent lines of each genotype identified expression of 823 genes that were either induced or repressed by endogenous Akt1 (Figure 7B; GEO: GSE138957). The 1,127 genes regulated by cyclin D1 in the mammary gland were derived by transient induction of a cyclin D1 cDNA in the mammary gland under control of the tetracycline-regulated promoter unit (MMTV-RtTA-cyclin D1) (Figures 7A and 7B). The Akt1-regulated and cyclin D1-regulated genes shared 60 genes when using a <2-fold change in expression as a cutoff (p < 0.05) (Table S1). Approximately 50% of the cyclin D1-regulated Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways overlapped with Akt1-regulated pathways (18/38; Figure 7C), including several types of \"cancer signaling,\" \"metabolism in cancer,\" \"FOXO signaling,\" and \"meiosis\" (Figure 7D) with the relative fold enrichment and gene number given in Figure 7E.",
+            "Results": [
+                {
+                    "bel_statement": "p(MGI:Akt1) regulates g(MGI:Ccnd1)",
+                    "evidence": "The Akt1-regulated and cyclin D1-regulated genes shared 60 genes when using a <2-fold change in expression as a cutoff (p < 0.05) (Table S1)."
+                },
+                {
+                    "bel_statement": "p(MGI:Akt1) regulates bp(GOBP:\"cancer signaling\")",
+                    "evidence": "Approximately 50% of the cyclin D1-regulated Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways overlapped with Akt1-regulated pathways (18/38; Figure 7C), including several types of \"cancer signaling,\" \"metabolism in cancer,\" \"FOXO signaling,\" and \"meiosis\" (Figure 7D)."
+                },
+                {
+                    "bel_statement": "p(MGI:Ccnd1) regulates bp(GOBP:\"cancer signaling\")",
+                    "evidence": "Approximately 50% of the cyclin D1-regulated Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways overlapped with Akt1-regulated pathways (18/38; Figure 7C), including several types of \"cancer signaling,\" \"metabolism in cancer,\" \"FOXO signaling,\" and \"meiosis\" (Figure 7D)."
+                }
+            ]
+        },
+        {
+            "Index": "26",
+            "text": "Akt1 Gene Expression Signature Correlates with Cyclin D1 Expression in Human Breast Cancer",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:AKT1) positiveCorrelation g(HGNC:CCND1)",
+                    "evidence": "Akt1 Gene Expression Signature Correlates with Cyclin D1 Expression in Human Breast Cancer"
+                }
+            ]
+        },
+        {
+            "Index": "27",
+            "text": "For luminal A and luminal B breast cancer subtypes, a high Akt1-induced gene expression signature correlated with poor outcome (Figures S9D and S9E). In order to examine the relationship between cyclin D1 expression and gene expression reflecting Akt1 pathway signaling, a superset of 2,254 patient breast cancer gene expression profiles was interrogated. The gene expression signature for Akt1 signaling in the mammary tumors (Figure 7B) was examined for correlation with the abundance of cyclin D1 mRNA in human breast cancer using the Pearson product-moment correlation coefficient. In healthy individuals, the Akt1 gene expression signature and cyclin D1 expression were highly correlated (R = 0.39, p < 10-4) (Figure S10A). Cyclin D1 expression and the Akt1-induced gene expression signature were positively correlated in each genetic subtype of breast cancer, with the highest significance for luminal A (R = 0.34, p < 10-9), luminal B (R = 0.44, p < 10-10), and basal (R = 0.43, p = < 10-17) (Figures S10B-S10F).",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) positiveCorrelation r(HGNC:CCND1)",
+                    "evidence": "Cyclin D1 expression and the Akt1-induced gene expression signature were positively correlated in each genetic subtype of breast cancer, with the highest significance for luminal A (R = 0.34, p < 10-9), luminal B (R = 0.44, p < 10-10), and basal (R = 0.43, p = < 10-17) (Figures S10B-S10F)."
+                }
+            ]
+        },
+        {
+            "Index": "28",
+            "text": "This study provides evidence for a novel mechanism in which cyclin D1 kinase augments Akt1 activity through phosphorylation of Akt1 at Ser473. In this study, mass spectrometry evidenced that cyclin D1 bound to, and augmented, Akt1 phosphorylation at Ser473. Cyclin D1 restored Akt1 signaling in a kinase-dependent manner, as evidenced by increased phosphorylation of Akt1 and its substrates, shown by western blot, immunofluorescence, and IHC in tissue culture and in transgenic mice. Using cyclin D1-/- cells for reconstitution, we demonstrated that cyclin D1 is sufficient to augment Akt1 signaling, as demonstrated by phosphorylation of Akt1 (Ser473) and downstream substrates of Akt1 (TSC2 Ser939, FOXO1 Ser319, and Bad Ser126). The phosphorylation of Akt1 Ser473 by cyclin D1-associated kinase was observed upon acute cyclin D1 overexpression in mammary epithelium of tissue-specific inducible transgenic mice and was shown to be a function of endogenous cyclin D1 using mammary epithelial cell tissue-specific cyclin D1 knockout. In the mammary epithelium and in tissue culture, cyclin A2 levels were unchanged, evidencing that the mechanism by which cyclin D1 augments Akt1 activity is distinct from cyclin A2-induced phosphorylation at S477/T479.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "This study provides evidence for a novel mechanism in which cyclin D1 kinase augments Akt1 activity through phosphorylation of Akt1 at Ser473."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1))",
+                    "evidence": "Cyclin D1 restored Akt1 signaling in a kinase-dependent manner, as evidenced by increased phosphorylation of Akt1 and its substrates, shown by western blot, immunofluorescence, and IHC in tissue culture and in transgenic mice."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:TSC2, pmod(Ph, Ser, 939))",
+                    "evidence": "Using cyclin D1-/- cells for reconstitution, we demonstrated that cyclin D1 is sufficient to augment Akt1 signaling, as demonstrated by phosphorylation of Akt1 (Ser473) and downstream substrates of Akt1 (TSC2 Ser939, FOXO1 Ser319, and Bad Ser126)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:FOXO1, pmod(Ph, Ser, 319))",
+                    "evidence": "Using cyclin D1-/- cells for reconstitution, we demonstrated that cyclin D1 is sufficient to augment Akt1 signaling, as demonstrated by phosphorylation of Akt1 (Ser473) and downstream substrates of Akt1 (TSC2 Ser939, FOXO1 Ser319, and Bad Ser126)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:BAD, pmod(Ph, Ser, 126))",
+                    "evidence": "Using cyclin D1-/- cells for reconstitution, we demonstrated that cyclin D1 is sufficient to augment Akt1 signaling, as demonstrated by phosphorylation of Akt1 (Ser473) and downstream substrates of Akt1 (TSC2 Ser939, FOXO1 Ser319, and Bad Ser126)."
+                }
+            ]
+        },
+        {
+            "Index": "29",
+            "text": "In this study, using PLAs, cyclin D1 co-localized with Akt1 in an extranuclear pool. The interaction between Akt1 and cyclin D1 required the amino-terminal domain of cyclin D1. Restoration of cyclin D1 levels rescued Akt1 phosphorylation at the plasma membrane. Cyclin D1 restored phosphorylation of Akt1 at Ser473. Previous studies identified an association between cyclin D1 and cytoplasmic membrane proteins, including PACSIN 2, Filamin A, and Paxillin; and several components of the cell-cycle control apparatus are located in the cytoplasmic membrane, including cyclin D1, p27Kip1, and p16INK4a. Although the physiological function of cytoplasmic-membrane-associated cell-cycle components was previously not well understood, p16INK4a and CDK6 co-localized in membrane ruffles of spreading cells and functioned upstream of alpha-v-beta3-dependent activation of PKC to regulate matrix-dependent cell migration. The present study extends our understanding of cyclin D1 function in the extranuclear pool and directly links two hall-marks of cancer: cell-cycle control and Akt activity.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:AKT1))",
+                    "evidence": "In this study, using PLAs, cyclin D1 co-localized with Akt1 in an extranuclear pool."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Cyclin D1 restored phosphorylation of Akt1 at Ser473."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CDKN2A), p(HGNC:CDK6))",
+                    "evidence": "p16INK4a and CDK6 co-localized in membrane ruffles of spreading cells."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CDKN2A), p(HGNC:CDK6)) increases act(p(HGNC:PKC))",
+                    "evidence": "p16INK4a and CDK6 co-localized in membrane ruffles of spreading cells and functioned upstream of alpha-v-beta3-dependent activation of PKC to regulate matrix-dependent cell migration."
+                }
+            ]
+        },
+        {
+            "Index": "30",
+            "text": "Herein, cyclin D1 enhanced phosphorylation of TSC2 at Ser939. mTOR functions within two distinct complexes (mTORC1 and mTORC2) that couple growth factors to anabolic signaling. The TSC complex, which is composed of three subunits:TSC1, TSC2, and TBC1D7:integrates many growth signals that sense the abundance of growth factors glucose, oxygen, and energy (ATP). TSC2 Ser939 is important in organismal growth, and mutation of the Akt-target sites on TSC2 (corresponding to S939 and T1462) can block Akt-induced growth in flies. The finding that cyclin D1 augments TSC2 Ser939 phosphorylation, via activation of Akt1, may provide a novel mechanism by which a component of the cell cycle can rapidly cross-couple and thereby fine tune growth sensing and anabolic metabolism.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:TSC2, pmod(Ph, Ser, 939))",
+                    "evidence": "Herein, cyclin D1 enhanced phosphorylation of TSC2 at Ser939."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1))",
+                    "evidence": "The finding that cyclin D1 augments TSC2 Ser939 phosphorylation, via activation of Akt1, may provide a novel mechanism by which a component of the cell cycle can rapidly cross-couple and thereby fine tune growth sensing and anabolic metabolism."
+                }
+            ]
+        },
+        {
+            "Index": "31",
+            "text": "In this study, cyclin D1 restored the induction of Akt1 signaling to the c-fos promoter. Cyclin D1 was sufficient to reconstitute the Akt1 transcriptional signaling program, and membrane-tethered cyclin D1 was sufficient to reconstitute the 2.5-fold induction of c-fos-LUC seen with the rescue by WT cyclin D1. Importantly, signaling to the c-fos promoter by membrane-tethered cyclin D1 occurred via the TCF site. which is known to be activated by EGF-Akt. In contrast, the SRF site, which responds to serum-induced signals via Rac/Rho, was not involved in activation of c-fos-LUC activity by membrane-tethered cyclin D1. Although the signaling to the SRE and TCF sites is complex, our findings are consistent with a model in which membrane-tethered cyclin D1 augments an Akt signaling pathway. The noncanonical functions of cyclin D1 include the ability to regulate gene transcription via specific target transcription factors. Such activity has been designated as a nuclear transcriptional activity mediated by a pool of cyclin D1 located in the context of chromatin. The present studies extend these findings by demonstrating that, in addition to the nuclear transcriptional activity of cyclin D1, a membrane-associated cyclin D1 also augments gene transcription via phosphorylation of Akt1 and, thereby, induction of downstream signaling.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1))",
+                    "evidence": "Cyclin D1 was sufficient to reconstitute the Akt1 transcriptional signaling program."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases bp(GOBP:\"gene transcription\")",
+                    "evidence": "The noncanonical functions of cyclin D1 include the ability to regulate gene transcription via specific target transcription factors."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases bp(GOBP:\"gene transcription\")",
+                    "evidence": "The present studies extend these findings by demonstrating that, in addition to the nuclear transcriptional activity of cyclin D1, a membrane-associated cyclin D1 also augments gene transcription via phosphorylation of Akt1 and, thereby, induction of downstream signaling."
+                }
+            ]
+        },
+        {
+            "Index": "32",
+            "text": "Both insulin and EGF signaling were reduced but not abolished in cyclin D1-/- cells, indicating that cyclin D1-dependent and -independent Akt1 signaling occur. As cyclin D1 tethered to the membrane induced Akt1 transcriptional activity, we sought to determine whether increased cyclin D1 expression correlated with increased Akt1 gene signaling in human breast cancer. To test this hypothesis, we generated a surrogate measure of Akt1 genetic activity by creating an Akt1 genetic signature. The Akt1 activity genetic signature was derived by comparing genetic deletion of Akt1 with Akt1 WT mammary gland. In order to interrogate cyclin D1 and Akt1-mediated gene expression, we interrogated a superset of 2,254 breast cancer samples and samples from healthy breast tissue. This study shows that increased cyclin D1 expression correlated with increased Akt1-mediated gene activity. The abundance of cyclin D1 gene expression correlated with the gene signature for Akt1-induced activity in normal breast tissue and in breast cancer samples. Furthermore, cyclin D1 expression and the Akt1-induced gene expression signature were positively correlated in each genetic subtype of breast cancer. Furthermore, genome-wide expression analysis of murine mammary glands from mice with the Akt1 gene deletion and mice with the cyclin D1 gene deletion demonstrated substantial overlap in KEGG functions, including the \"cell-cycle\" and \"insulin signaling\" pathways and \"mTOR signaling,\" consistent with the phenotype of cyclin D1-/- and Akt1-/- mice, which share several common features, including defective mammary gland development. Together, these studies are consistent with a model in which cyclin D1 induction correlates with increased Akt1-target gene activity.",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:CCND1) positiveCorrelation g(HGNC:AKT1)",
+                    "evidence": "The abundance of cyclin D1 gene expression correlated with the gene signature for Akt1-induced activity in normal breast tissue and in breast cancer samples."
+                },
+                {
+                    "bel_statement": "g(HGNC:CCND1) positiveCorrelation g(HGNC:AKT1)",
+                    "evidence": "Furthermore, cyclin D1 expression and the Akt1-induced gene expression signature were positively correlated in each genetic subtype of breast cancer."
+                }
+            ]
+        },
+        {
+            "Index": "33",
+            "text": "This study define a mechanism by which the cell cycle interacts with Akt signaling that is distinct from that in several previous studies. Under cell-cycle conditions, the cyclin A/Cdk2 priming phosphorylation becomes more important and is, therefore, relatively mTORC2/Rictor independent. We propose that Rictor can function upstream of cyclin D1/CDK4/6 (by priming S477/T479 phosphorylation) and, in certain physiological circumstances, in parallel to mTORC2/Rictor (direct phosphorylation of Ser473). The induction of Akt1 activity by cyclin D1 herein appears to be independent of previously described cell-cycle-related Akt activity, which occurs during the first 15 min to 6 h of the cell cycle, preceding the cell-cycle changes of cyclin D1, which occurred at 16 to 24 h, as assessed herein by FACS analysis. The Sin1 component of mTORC2 binds hyper-phosphorylated RB, which inhibits mTORC2-mediated activation of Akt. Although our studies did not directly address the role of pRB/Sin1 in regulating Akt1 activity, the mechanisms of the two studies appear to be distinct. Cyclin A2 can induce Akt1 activity; however, herein, cyclin A2 levels were unchanged by cyclin D1 expression in the mammary gland of mice in which cyclin D1 was either overexpressed or reduced in abundance. Similarly, the cyclin D1 rescue analysis in 3T3 cells conducted herein showed induction of cyclin D1, but not cyclin A, abundance.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:CDK4)) increases act(p(HGNC:AKT1))",
+                    "evidence": "The induction of Akt1 activity by cyclin D1 herein appears to be independent of previously described cell-cycle-related Akt activity."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CCNA2), p(HGNC:CDK2)) increases act(p(HGNC:AKT1))",
+                    "evidence": "Cyclin A2 can induce Akt1 activity."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:MTOR), p(HGNC:RICTOR)) directlyIncreases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "We propose that Rictor can function upstream of cyclin D1/CDK4/6 (by priming S477/T479 phosphorylation) and, in certain physiological circumstances, in parallel to mTORC2/Rictor (direct phosphorylation of Ser473)."
+                }
+            ]
+        },
+        {
+            "Index": "34",
+            "text": "The Microarray data generated during this study are available at The Gene Expression Omnibus (GEO) database, https://www.ncbi.nlm.nih.gov/geo/. The accession code for the cyclin D1-dependent gene signature in mouse mammary gland with transient induction of a cyclin D1 expression under control of the tetracycline-regulated promoter unit is GEO: GSE43216. The accession code for the Akt1-dependent gene signature from the murine ErbB2 mammary tumors is GEO: GSE138957.",
+            "Results": []
+        },
+        {
+            "Index": "35",
+            "text": "MCF-7 and HEK293T cell lines were from the American Type Culture Collection (Manassas, VA). The rictor inducible siRNA MEFs (iRicKO) were a generous gift from Dr. Michael N. Hall. The cyclin D1+/+ and cyclin D1-/- MEFs and 3T3 cells and the ErbB2-Akt1+/+ or ErbB2-Akt1-/- mammary tumor cell lines were generated from transgenic mouse tumors developed by this laboratory as described previously. MCF-7 and HEK293T were recently authenticated by ATCC. The MEFs generated by this laboratory were authenticated by IDEXX Bioresearch. All cell lines were tested for mycoplasma contamination using the ATCC Universal Mycoplasma Detection Kit. All cell lines were cultured at 37 C in 5% CO2 with DMEM medium supplemented with 10% fetal bovine serum, 100 unit/mL penicillin and 100 mg/mL streptomycin.",
+            "Results": []
+        },
+        {
+            "Index": "36",
+            "text": "The MMTV-RtTA-cyclin D1, MMTV-RtTA-cyclin D1 KE and MMTV-ErbB2-Akt1-/- transgenic mice were previously described. Cyclin D1fl/fl and ROSA26-ER-Cre mice were intercrossed to form Cyclin D1fl/fl-ROSA26-ER-Cre bi-transgenic mice and treated with Tamoxifen as previously described. Comparison was made between the cyclin D1fl/fl-ROSA26-ER-Cre and cyclin D1 wt. ROSA26-ER-Cre. All of the mice used were in FVB background, female and 10-12 weeks old. Experimental procedures with transgenic mice were approved by the Institutional Animal Care and Use Committee (IACUC) of Thomas Jefferson University.",
+            "Results": []
+        },
+        {
+            "Index": "37",
+            "text": "pMSCV-IRES-GFP encoding 3xFlag tagged wild-type cyclin D1 or its series of mutants were generated by inserting the coding region of the human cyclin D1 cDNA or its mutants into the MSCV-IRES-GFP vector at the EcoRI site upstream of the IRES driving expression of GFP. The inserts were PCR amplified from p3xFLAG-CMV-10 (Sigma) encoding 3xFlag tagged wild-type cyclin D1 or its mutants. pECFP-mem-cyclin D1 was generated by inserting the cyclin D1 cDNA, which was amplified by PCR from pMSCV-cyclin D1-IRES-GFP, into Nhe1 and Age1 site of the pECFP-mem vector (Clonetech), which encodes a fusion protein consisting of the N-terminal 20 amino acids of neuromodulin, also called GAP-43, and a cyan fluorescent variant of the enhanced green fluorescent protein (ECFP). The neuromodulin fragment contains a signal for posttranslational palmitoylation of cysteines 3 and 4 that targets ECFP to cellular membranes. Expression of ECFP-Mem in mammalian cells results in strong labeling of the plasma membrane and had been used to target proteins including ERalpha to the plasma membrane. Cherry-lacR-NLS-CD1NUC which encodes a nuclear localized form of cyclin D1 was generated by inserting the cyclin D1 cDNA at the COOH-terminus of the Cherry-lacR-NLS vector into the KpnI/XmaI sites. The primers used were the following: cyclin D1 forward: cggggtaccgaacaccagctcctgtgct; cyclin D1a reverse: tccccccgggtca gatgtccacgtcccgca; cyclin D1b reverse: tccccccgggtcacccttgggggccttg. The Akt1 retroviral expression plasmids encoding constitutively active Akt1 (myr-Akt1) linked through an internal ribosomal entry site to a GFP fusion protein (pBABE-myrAkt1-IRES-GFP) was generous gift from Dr. Nissim Hey at the University of Illinois at Chicago. pCMV5-HA-Akt1 was from Dr. Alessi at the University of Dundee, UK. pGEX-GST-Akt1 and pGEX-GST-Akt1(S473A) were from Dr. Wenyi Wei from Harvard University at Boston. The c-fos-LUC, serum response element (SRE), or ternary complex factor (TCF) mutants (pm12 and pm18) were gift from Dr. Ron Prywes at Columbia University, New York. pRSV-beta-Gal was a gift from Dr. Frederick Stanley at NYU Langone Medical Center (now available at Addgene, plasmid # 24058). All plasmid DNA constructs were verified by sequencing.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) translatedTo p(HGNC:CCND1, pmod(3xFlag))",
+                    "evidence": "pMSCV-IRES-GFP encoding 3xFlag tagged wild-type cyclin D1 or its series of mutants were generated by inserting the coding region of the human cyclin D1 cDNA or its mutants into the MSCV-IRES-GFP vector at the EcoRI site upstream of the IRES driving expression of GFP."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Myr)) translatedTo p(HGNC:AKT1)",
+                    "evidence": "The Akt1 retroviral expression plasmids encoding constitutively active Akt1 (myr-Akt1) linked through an internal ribosomal entry site to a GFP fusion protein (pBABE-myrAkt1-IRES-GFP) was generous gift from Dr. Nissim Hey at the University of Illinois at Chicago."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, S, 473)) translatedTo p(HGNC:AKT1)",
+                    "evidence": "pGEX-GST-Akt1 and pGEX-GST-Akt1(S473A) were from Dr. Wenyi Wei from Harvard University at Boston."
+                }
+            ]
+        },
+        {
+            "Index": "38",
+            "text": "The antibodies used in western blot analysis were cyclin D1 (sc-20044, Santa Cruz), b-actin (sc-47778, Santa Cruz), Akt1 (sc-5298, Santa Cruz), pAkt1 Ser473 (#9018, CST), pAkt1/2/3 Ser473 (sc-7985-R, Santa Cruz), TSC2 (sc-893, Santa Cruz), pTSC2 Ser939 (ab59269, Abcam), FKHR (sc-11350, Santa Cruz), pFKHR Ser319 (sc-101682, Santa Cruz), cyclin A2 (ab16726, Abcam), Bad (sc-8044, Santa Cruz), pBad Ser136 (ab28824, Abcam), Rictor (SC#271081, H11) and phosphorylated RB (S780) (Cell Signaling). Mouse anti-FLAG (M2), mouse anti-vinculin (hVIN-1) antibodies were from Sigma (St. Louis, MO). The antibody used for Immunoprecipitation was HA (sc-805, Santa Cruz). The antibodies used for immunohistochemistry and immunofluorescence were cyclin D1 (sc-20044, Santa Cruz), for Akt Ser473 phosphorylation (pAkt1/2/3 Ser473) (SC-7985-R, Santa Cruz), for pAkt1 Ser473 (#9018, CST), TSC2 (sc-893, Santa Cruz), pTSC2 Ser939 (ab59269, Abcam), pFKHR Ser319 (sc-101682, Santa Cruz), pBad Ser136 (ab28824, Abcam), cyclin A2 (ab16726, Abcam), paxillin (05-417, Millipore-Sigma), Rictor (H278, sc-99004), tyrosine phosphorylated paxillin (44-722G, Thermo Fisher), PACSIN2 (10518-2-AP, Proteintech).",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "The antibodies used in western blot analysis were cyclin D1 (sc-20044, Santa Cruz), b-actin (sc-47778, Santa Cruz), Akt1 (sc-5298, Santa Cruz), pAkt1 Ser473 (#9018, CST), pAkt1/2/3 Ser473 (sc-7985-R, Santa Cruz), TSC2 (sc-893, Santa Cruz), pTSC2 Ser939 (ab59269, Abcam), FKHR (sc-11350, Santa Cruz), pFKHR Ser319 (sc-101682, Santa Cruz), cyclin A2 (ab16726, Abcam), Bad (sc-8044, Santa Cruz), pBad Ser136 (ab28824, Abcam), Rictor (SC#271081, H11) and phosphorylated RB (S780) (Cell Signaling)."
+                },
+                {
+                    "bel_statement": "p(HGNC:TSC2, pmod(Ph, Ser, 939))",
+                    "evidence": "The antibodies used in western blot analysis were cyclin D1 (sc-20044, Santa Cruz), b-actin (sc-47778, Santa Cruz), Akt1 (sc-5298, Santa Cruz), pAkt1 Ser473 (#9018, CST), pAkt1/2/3 Ser473 (sc-7985-R, Santa Cruz), TSC2 (sc-893, Santa Cruz), pTSC2 Ser939 (ab59269, Abcam), FKHR (sc-11350, Santa Cruz), pFKHR Ser319 (sc-101682, Santa Cruz), cyclin A2 (ab16726, Abcam), Bad (sc-8044, Santa Cruz), pBad Ser136 (ab28824, Abcam), Rictor (SC#271081, H11) and phosphorylated RB (S780) (Cell Signaling)."
+                },
+                {
+                    "bel_statement": "p(HGNC:FOXO1, pmod(Ph, Ser, 319))",
+                    "evidence": "The antibodies used in western blot analysis were cyclin D1 (sc-20044, Santa Cruz), b-actin (sc-47778, Santa Cruz), Akt1 (sc-5298, Santa Cruz), pAkt1 Ser473 (#9018, CST), pAkt1/2/3 Ser473 (sc-7985-R, Santa Cruz), TSC2 (sc-893, Santa Cruz), pTSC2 Ser939 (ab59269, Abcam), FKHR (sc-11350, Santa Cruz), pFKHR Ser319 (sc-101682, Santa Cruz), cyclin A2 (ab16726, Abcam), Bad (sc-8044, Santa Cruz), pBad Ser136 (ab28824, Abcam), Rictor (SC#271081, H11) and phosphorylated RB (S780) (Cell Signaling)."
+                },
+                {
+                    "bel_statement": "p(HGNC:BAD, pmod(Ph, Ser, 136))",
+                    "evidence": "The antibodies used in western blot analysis were cyclin D1 (sc-20044, Santa Cruz), b-actin (sc-47778, Santa Cruz), Akt1 (sc-5298, Santa Cruz), pAkt1 Ser473 (#9018, CST), pAkt1/2/3 Ser473 (sc-7985-R, Santa Cruz), TSC2 (sc-893, Santa Cruz), pTSC2 Ser939 (ab59269, Abcam), FKHR (sc-11350, Santa Cruz), pFKHR Ser319 (sc-101682, Santa Cruz), cyclin A2 (ab16726, Abcam), Bad (sc-8044, Santa Cruz), pBad Ser136 (ab28824, Abcam), Rictor (SC#271081, H11) and phosphorylated RB (S780) (Cell Signaling)."
+                }
+            ]
+        },
+        {
+            "Index": "39",
+            "text": "Purified Akt1 used in the cyclin D1 immune-precipitation kinase assays was from OriGene, (AKT1, CAT#TP320257) or GST fusion proteins for pRB, which contains 2 CDK phosphorylation sites, Akt1 or Akt1-S473A, were generated in this laboratory as previously described. Insulin was from Millipore-Sigma and epidermal growth factor (EGF) was from R&D.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1) directlyIncreases act(p(HGNC:CCND1), ma(GO:\"kinase activity\"))",
+                    "evidence": "Purified Akt1 used in the cyclin D1 immune-precipitation kinase assays was from OriGene, (AKT1, CAT#TP320257) or GST fusion proteins for pRB, which contains 2 CDK phosphorylation sites, Akt1 or Akt1-S473A, were generated in this laboratory as previously described."
+                }
+            ]
+        },
+        {
+            "Index": "40",
+            "text": "IHC for tissue was conducted at the Translational Research/Pathology Core Facility of Thomas Jefferson University using a DAKO Autostainer Plus equipment with an enzyme labeled biotin-streptavidin system. The IHC images were acquired with a 10x or 40x objective and semi-quantified with Fiji software. The procedure for semi-quantification involved first opening the image software, then in the heading dropdown menu selecting the option of \"image,\" then clicking on the menu item \"color\" then \"color deconvolution\" with selection of \"H&E, DAB.\" This procedure splits the original image into H&E and DAB-images. When selected within the DAB-image modality, the threshold was established to cover the target signals and this threshold value was then applied to all samples being compared. Subsequently, under the heading dropdown menu entitled \"analyze\" was activated, then the menu item entitled \"setup measurement\" and then \"integrated intensity\" were selected. Within the threshold-image modality, the heading \"measure\" in the heading drop down menu and then the heading \"analyze\" were chosen to obtain the results of integrated intensity. In the H-images setting, the threshold to cover the target nuclear staining was established, then the heading dropdown menu titled \"process\" was selected followed by activating the operation entitled \"binary,\" then \"fill holes\" and then \"watershed.\" The heading dropdown menu item titled \"analyze,\" was then used, activating the item titled \"analyze particles\" and then within the pop-out menu, the target size was defined, \"show outlines\" and \"summary\" were selected, and then clicking \"ok\" to obtain the total cell number. The relative intensity was calculated by dividing the integrated intensity with the total cell number. In order to obtain the ratio of positive cells, the DAB-image was processed as an H-image above to obtain the total number of positive cells. The ratio was calculated by dividing the total positive cell number with the total cell number. Double check if the outline images of the nucleoli matched the staining shown in the original images and if not, therefore it was necessary to count the cell number manually.",
+            "Results": []
+        },
+        {
+            "Index": "41",
+            "text": "IF staining and confocal microscopy of cultured cells was conducted as described previously. The cells that were grown in 4-well-chamber slides (Lab-Tek II, Fisher) were fixed with 10% paraformaldehyde in PBS for 20 min at room temperature. The chambers were removed after fixation. The slides were rinsed with PBS and permeated with 0.05% NP-40 in PBS. The primary antibodies were diluted in PBS containing 5% goat sera, 5% FBS and 0.05% NP-40 and incubated with samples for 1 hour. The secondary antibodies used were Alexa Fluor 488, 568 or 633-conjugated F(ab')2 fragment of goat anti-mouse immunoglobulin G (IgG; Molecular Probes, 1/500). The samples were visualized on a Zeiss LSM 510 META Confocal Microscope with a 63x objective. The images were processed with Fiji software.",
+            "Results": []
+        },
+        {
+            "Index": "42",
+            "text": "Western blot analyses were conducted as described previously. Whole-cell lysates (60 mug) were electrophoresed in a 10% sodium dodecyl sulfate polyacrylamide gel (SDS-PAGE) in a running buffer (25 mM Tris base, 190 mM glycine, 0.1% SDS, pH8.3) and semi-dry transferred to nitrocellulose membrane (Amersham Corp.) in a transfer buffer (48 mM Tris, 39 mM glycine, 0.037% SDS, pH 8.3, 20% methanol). After semi-dry transfer, the membrane was stained with ATX Ponceau S Red staining solution (09189, Fluka) for blotting efficiency. The blotting membrane was blocked for 1 h at room temperature in PBST buffer (137 mM NaCl, 2.7 mM KCl, 8 mM Na2HPO4, 2 mM KH2PO4 and 0.05% Twenn-20) supplemented with 5% (w/v) dry milk or 2% Bovine Serum Albumin (BSA). Following an overnight incubation with primary antibody in PBST buffer containing 0.8% Fish Gelatin (G-7765, Sigma). The membrane was washed 10 min, 3 times with PBST and then incubated with horseradish peroxidase conjugated second antibody (1/2000) for 1 hour and washed again. The target band were visualized by the enhanced chemiluminescence system.",
+            "Results": []
+        },
+        {
+            "Index": "43",
+            "text": "The protocol is described previously with modification. HEK293T cells transfected with an expression vector encoding 3xFLAG tagged cyclin D1, were grown in 10-cm plates at 37 C in 5% CO2 with DMEM medium supplemented with 10% fetal bovine serum, 100 unit/mL penicillin and 100 mg/mL streptomycin. The cells were washed with 10 mL PBS, and one ml of cell lysis buffer (50 mM HEPES pH7.2, 150 mM NaCl, 1 mM EDTA, 1 mM EGTA, 1 mM DTT, 0.1% Tween 20, 0.1 mM PMSF (Sigma), 2.5 mug/mL leupeptin (Sigma), 100 muM sodium orthovanadate) was added. Cells were incubated on ice for 20 min, then scraped, transferred to a 1.5 mL Eppendorf tube and then mixed thoroughly by pipetman tips. The cell lysates were cleared by centrifugation at 10000 rpm for five minutes at 4 C. The supernatant was collected and the protein concentration was measured. 100 mug of soluble proteins were incubated overnight at 4 C in a rocker with 2 mug of anti-Flag antibody (M2, F1804, Sigma) previously bound to 20 muL Protein G agarose beads, which were prewashed with cold lysate buffer without inhibitors. The beads were spun down, the supernatant was carefully removed with a pipetman and then washed three times with cold lysis buffer and two times cold assay buffer (50 mM HEPES buffer, pH7.2, 10 mM MgCl2, 5 mM MnCl2 and 1 mM DTT). The beads were incubated in 40 muL of assay buffer supplemented with 10 muM ATP, 5 muCi gamma32P-ATP and 2 mug of purified Akt1, Akt1(S473A) or GST-Rb for 30 minutes at 30 C. The samples were denatured by boiling in SDS sample buffer and separated on SDS-PAGE gels. The gel was subsequently stained with Coomassie blue, dried, and exposed to radiographic film.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "100 mug of soluble proteins were incubated overnight at 4 C in a rocker with 2 mug of anti-Flag antibody (M2, F1804, Sigma) previously bound to 20 muL Protein G agarose beads, which were prewashed with cold lysate buffer without inhibitors. The beads were incubated in 40 muL of assay buffer supplemented with 10 muM ATP, 5 muCi gamma32P-ATP and 2 mug of purified Akt1, Akt1(S473A) or GST-Rb for 30 minutes at 30 C."
+                }
+            ]
+        },
+        {
+            "Index": "44",
+            "text": "The mass spectrometry was conducted as previously described. HEK293T cells were transfected with expression vectors encoding HA-Akt1 and either Vector or FLAG N-amino terminal target cyclin D1WT. HA-IP was conducted of the cells and mass spectrometry conducted, comparing the relative abundance in post-translational modification between vector control and cyclin D1 transfected cells. The Akt1 protein was isolated by HA immunoprecipitation and separated by gel electrophoresis. The gels were stained with Coomassie G250 and the bands were excised and digested with trypsin. Phosphorylated peptides were isolated using affinity purification using TiO2 Nu-tips from Glygen. Briefly, the extracted peptides were loaded on the tip in a buffer containing 300 mg/ml DHB in 80% Acetonitrile, 0.1% TFA, washed once with the loading buffer and once with 80% Acetonitrile, 0.1% TFA and eluted in 0.4M Ammonium Hydroxide. Peptides were immediately acidified with Formic Acid and were analyzed by ESI-MS/MS on a on a Q Exactive Plus mass spectrometer. MS/MS spectra were searched against a custom UniProt human database plus the HA-Akt1 sequence using MaxQuant 1.5.2.8 with Carbamidomethyl as a fixed modification and Oxidation (M), Phospho (ST), Phospho (Y) as variable modifications. False discovery rates for protein, peptide and PTM site are set at 1%.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1) hasModification pmod(Ph)",
+                    "evidence": "The Akt1 protein was isolated by HA immunoprecipitation and separated by gel electrophoresis."
+                }
+            ]
+        },
+        {
+            "Index": "45",
+            "text": "The PLA was performed using Duolink reagents (Invitrogen) according to the manufacturer's instructions as previously described. Formalin-fixed 3T3 Ccnd1 -/- rescue wt (WT), 3T3 Ccnd1 -/ -rescue GFP (GFP), 3T3 Ccnd1 -/ -rescue KE (KE), 3T3 Ccnd1 -/ -rescue C6 (C6), 3T3 Ccnd1 -/ -rescue DeltaE (DeltaE) and 3T3 Ccnd1 -/ -rescue 286 (286) cells were incubated with blocking solution (Sigma, DUO82007) for 30 minutes at 37 C and then incubated overnight at 4 C with anti-Akt1 (Santa Cruz biotechnology 1:50, sc-5298) and anti-Cyclin D1 (Santa Cruz biotechnology 1:50, sc-753) in antibody diluent (Sigma, DUO82008). For positive control, 3T3ccnd1-/- rescue WT and 3T3ccnd1-/-rescue GFP cells were incubated with anti-Akt1 (Santa Cruz biotechnology 1:50, sc-5298) and anti-phospho-Akt1 S473 (Cell signaling, 1:50, cat # 9018). For negative control, 3T3 ccnd1-/- rescue WT and 3T3 ccnd1-/-rescue GFP cells were incubated with IgG. After incubation with primary antibody, 3T3 ccnd1 -/- rescue wt and 3T3 ccnd1 -/-rescue GFP cells were incubated with secondary antibody conjugated with oligonucleotides (PLA probe PLUS and PLA probe MINUS) for 60 minutes at 37 C. After this step, the samples were incubated with ligation solution for 30 minutes at 37 C and then incubated with amplification solution for 100 minutes at 37 C. The samples were analyzed using a fluorescence microscope (Zeiss Axiovert 200M).",
+            "Results": [
+                {
+                    "bel_statement": "p(MGI:Akt1) increases p(MGI:Ccnd1)",
+                    "evidence": "Formalin-fixed 3T3 Ccnd1 -/- rescue wt (WT), 3T3 Ccnd1 -/ -rescue GFP (GFP), 3T3 Ccnd1 -/ -rescue KE (KE), 3T3 Ccnd1 -/ -rescue C6 (C6), 3T3 Ccnd1 -/ -rescue DeltaE (DeltaE) and 3T3 Ccnd1 -/ -rescue 286 (286) cells were incubated with blocking solution (Sigma, DUO82007) for 30 minutes at 37 C and then incubated overnight at 4 C with anti-Akt1 (Santa Cruz biotechnology 1:50, sc-5298) and anti-Cyclin D1 (Santa Cruz biotechnology 1:50, sc-753) in antibody diluent (Sigma, DUO82008)."
+                },
+                {
+                    "bel_statement": "p(MGI:Akt1, pmod(Ph, S, 473)) increases p(MGI:Ccnd1)",
+                    "evidence": "For positive control, 3T3ccnd1-/- rescue WT and 3T3ccnd1-/-rescue GFP cells were incubated with anti-Akt1 (Santa Cruz biotechnology 1:50, sc-5298) and anti-phospho-Akt1 S473 (Cell signaling, 1:50, cat # 9018)."
+                }
+            ]
+        },
+        {
+            "Index": "46",
+            "text": "Generating the model of the cyclin D1, CDK4/CDK6, Akt1 complex",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:CDK4), p(HGNC:CDK6), p(HGNC:AKT1))",
+                    "evidence": "Generating the model of the cyclin D1, CDK4/CDK6, Akt1 complex"
+                }
+            ]
+        },
+        {
+            "Index": "47",
+            "text": "The murine cyclin D1 and CDK4/6 3D models were generated using the software Protein Homology/analogY Recognition Engine V 2.0 (Phyre 2), which produces a model of the protein of interest based on sequence alignment to known structures. The 3D structure of murine cyclin D1 was modeled of the X-ray crystal structure of human CD1 (PDB ID: 2W9Z), which has 95% sequence identity to the mouse gene. The murine CDK4/CDK6 structure was modeled of the crystal structure of the human CDK4/CDK6 (PDB ID: 1BLX) to which the murine gene has 69% sequence identity. The presence of X-ray crystal structures with significantly high sequence identity with the murine genes has allowed PHYRE to generate these models with 100% confidence. Subsequently the murine cyclin D1-CDK4/6 assembly was generated using the crystal structure of the human cyclin D1-CDK4/CDK6 complex (PDB ID: 2W9Z). In the absence of a structure of CDK4/CDK6 bound to the Akt1 C-terminal activation peptide, we used the crystal structures of CDK2-cyclin A (PDB ID: 1QMZ) and Akt1-GDC-0068 (PDB ID: 4EKK) protein peptide complexes to model the C-terminal Akt1 peptide at the active site of the murine CDK4/CDK6 model. The model was further refined by applying geometry minimization in Phenix. The figures were generated in Pymol.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(MGI:Ccnd1), complex(p(MGI:Cdk4), p(MGI:Cdk6)))",
+                    "evidence": "Subsequently the murine cyclin D1-CDK4/6 assembly was generated using the crystal structure of the human cyclin D1-CDK4/CDK6 complex (PDB ID: 2W9Z)."
+                }
+            ]
+        },
+        {
+            "Index": "48",
+            "text": "Cyclin D1 wt and cyclin D1-/- 3T3 cells and MEFs were maintained at 37 C and 5% CO2 in DMEM medium supplemented with 10% fetal bovine serum, 100 unit/mL penicillin, and 100 mg/mL streptomycin. The cells (105 cell/well) were cultured in glass bottom dishes overnight and transfected with 5 mM of each LS456, using GeneJuice transfection reagent (Novagen, Madison, WI) in the dish for 18 h at 37 C, according to the manufacturer's instructions. The transfected cells were treated with 150 nM insulin in Tris-buffered saline and imaged at 30 C using an FV1000 confocal microscope with UPLanApo/IR 60X/1.20W objective lens (Olympus, Center Valley, PA). The treated cells were incubated with 150 nM of insulin. Imaging was conducted at different time points. The mean fluorescence intensity (n58) (Ex/Em = 633/670-730 nm; Ex/Em = 785/805-830 nm) in the dishes was determined with FV1000 software. All of the fluorescence intensity changes at each time point were normalized to the positive control (0 min). The image of LS542 (Figures 5 and 6) were acquired with LI-COR Pearl Imager (Lincoln, NE) at Ex/Em of 685/705 nm and 785/810 nm channels. Live cell imaging studies were conducted at 30 C, which is the default room temperature for the imaging platform of the microscope. All images within the same time series were recorded from the same area of the slides. However, as the live cells moved during the imaging sessions, eight representative cells were used to quantify the fluorescence using Olympus FV1000 software. The data shown in Figures 5 and 6B were obtained from a duplicate of 4 different experiments.",
+            "Results": []
+        },
+        {
+            "Index": "49",
+            "text": "MCF-7 or cyclin D1-/- 3T3 cells were cultured in Dulbecco's modified Eagle medium supplemented with 10% fetal bovine serum, 1% penicillin, and 1% streptomycin. One day before transfection, the cells were seeded in 24-well plates. MCF-7 cells were co-transfected with 200 ng c-fos wt or mutant promoter reporters, 0-400 ng wild-type cyclin D1 or cyclin D1 mutant expression plasmids, and 200 ng transfection efficiency reporter plasmid pRSV-beta-gal using Lipofectamine 2000 (Invitrogen) following the manufacturer's manual. 48 hours post transfection, LUC assays were performed as previously described. Briefly, the cells were extracted by 100 muL extract buffer (X-buffer, GME buffer (25 mM Gly-gly, 15 mM MgSO4, 4 mM EGTA) supplement with 1 mM DTT, 1% Triton X-100). The cell lysates were divided to two parts: 90 muL was transferred to the assay tube for LUC assay and 10 muL was transferred to 96-well plate for beta-gal assay. For LUC assay, 300 muL ATP-mix (GME buffer supplement with 1/6 (v/v) of 100 mM potassium phosphate buffer (pH 7.4), 1 mM DTT and 1 mM ATP) was added in LUC assay tube and the luciferase activity were read by an automatic tube luminometer (Autolumat LB953, EG&G Berthold) with LUC-buffer (GME buffer supplemented with 1 mM DTT and 0.2 mM Luciferin). For beta-gal assay, 100 muL PM2 buffer (60 mM Na2HPO4, 40 mM NaH2PO4, 10 mM KCl, 1 mM MCl2 and 50 mM Mercap-toethanol) and 20 muL ONPG solution were added to each well, which contained 10 muL of the cell lysates, of 96-well plate. Incubation was conducted at 37 C for 1 hour and the optical density read at 420 nm on an ELISA reader. Normalized luciferase activity was calculated by luciferase activity dividing with b-galactosidase reporter activity. The -fold effect was determined by comparison to the empty expression vector cassette.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), g(HGNC:FOS))",
+                    "evidence": "MCF-7 cells were co-transfected with 200 ng c-fos wt or mutant promoter reporters, 0-400 ng wild-type cyclin D1 or cyclin D1 mutant expression plasmids, and 200 ng transfection efficiency reporter plasmid pRSV-beta-gal using Lipofectamine 2000 (Invitrogen) following the manufacturer's manual."
+                }
+            ]
+        },
+        {
+            "Index": "50",
+            "text": "Comparison of gene expression from Akt1 deficient or cyclin D1 overexpressing mice",
+            "Results": [
+                {
+                    "bel_statement": "g(MGI:Akt1) cnc r(MGI:Ccnd1)",
+                    "evidence": "Comparison of gene expression from Akt1 deficient or cyclin D1 overexpressing mice"
+                }
+            ]
+        },
+        {
+            "Index": "51",
+            "text": "Comparison was made of Akt activity from Akt WT or Akt1-deficient (Akt1-/-) cells. The Akt1-/- and Akt1+/+ (WT) cells used in this study were cultured and transfected as previously described. Briefly, mammary tumor epithelial cells derived from MMTV-ErbB2 transgenic mice tumors were cultured in F-12 medium (Sigma, St. Louis, MO) with EGF (10 ng/mL), hydrocortisone (1 mg/mL), penicillin (100 units/mL), streptomycin (100 mg/mL), and gentamycin (50 mg/mL) and supplemented with 10% FBS. Total RNA isolated from either ErbB2-Akt1+/+ or ErbB2-Akt1-/- mammary tumor cell lines, or mammary epithelium from doxycycline inducible cyclin D1 transgenic mice was treated with Trizol.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(MGI:Akt1))",
+                    "evidence": "Comparison was made of Akt activity from Akt WT or Akt1-deficient (Akt1-/-) cells."
+                }
+            ]
+        },
+        {
+            "Index": "52",
+            "text": "RNA samples were treated with RQ1 DNase I (Promega Inc, Madison, WI) to remove contaminating DNA from RNA preparations followed by re-purification using RNeasy Mini Kit (QIAGEN, Valencia, CA). DNA-free RNA was subjected to reverse transcription reactions, performed using SuperScript III reverse transcriptase kit (Invitrogen, Carlsbad, CA). Affymetrix Expression Console 1.1 or the R statistic console with the limma package was used to compute Robust Multichip Average (RMA) expression values for the Mouse Gene 1.0 ST microarrays and Mouse 430A 2.0 microarrays. The core set of probe-set clusters was used with annotation version na30. The cyclin D1 dataset was imported into MATLAB version R2010b (The Mathworks), and 1-way ANOVA was used to evaluate the significance of differential expression between biological conditions. The -fold change cutoff was > 1.25 and the p value was < 0.05. Akt1 microarray analysis was performed using GeneSpring. Arrays were normalized using robust multi-array analysis, the fold change cutoff of 2 and p value of < 0.05 were applied as a statistical criterion for differentially expressed genes.",
+            "Results": [
+                {
+                    "bel_statement": "g(MGI:Akt1) increases bp(GOBP:\"differential gene expression\")",
+                    "evidence": "Akt1 microarray analysis was performed using GeneSpring. Arrays were normalized using robust multi-array analysis, the fold change cutoff of 2 and p value of < 0.05 were applied as a statistical criterion for differentially expressed genes."
+                }
+            ]
+        },
+        {
+            "Index": "53",
+            "text": "A breast cancer microarray dataset that was previously compiled from the public repositories Gene Expression Omnibus (https://www.ncbi.nlm.nih.gov/geo/, GSE1456, GSE6532, GSE7390, GSE9195, GSE12093) and ArrayExpress (https://www.ebi.ac.uk/arrayexpress/) was used to evaluate Akt pathway and CCND1 transcript level expression in the context of clinical samples and displayed using Zebra Plots.",
+            "Results": [
+                {
+                    "bel_statement": "bp(GOBP:\"Akt signaling pathway\") association r(HGNC:CCND1)",
+                    "evidence": "A breast cancer microarray dataset that was previously compiled from the public repositories Gene Expression Omnibus (https://www.ncbi.nlm.nih.gov/geo/, GSE1456, GSE6532, GSE7390, GSE9195, GSE12093) and ArrayExpress (https://www.ebi.ac.uk/arrayexpress/) was used to evaluate Akt pathway and CCND1 transcript level expression in the context of clinical samples and displayed using Zebra Plots."
+                }
+            ]
+        },
+        {
+            "Index": "54",
+            "text": "A breast cancer microarray dataset used to evaluate the Akt1 pathway and CCND1 transcript level expression in the context of clinical samples was available from the public repositories Gene Expression Omnibus, and ArrayExpress (https://www.ebi.ac.uk/arrayexpress/, E-TABM-158).",
+            "Results": []
+        },
+        {
+            "Index": "55",
+            "text": "Cyclin D1 Augments Akt1 Activity In Vivo",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1))",
+                    "evidence": "Cyclin D1 Augments Akt1 Activity In Vivo"
+                }
+            ]
+        },
+        {
+            "Index": "56",
+            "text": "(B-D) Representative immunohistochemistry (IHC) results are shown, and quantitative data are indicated as mean +- SEM at the right of the panels. IHC was conducted for (B) cyclin D1 cDNA (FLAG), (C) phospho-Akt1 Ser473, and (D) Akt1.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) transcribedTo r(HGNC:CCND1)",
+                    "evidence": "IHC was conducted for (B) cyclin D1 cDNA (FLAG)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "IHC was conducted for (C) phospho-Akt1 Ser473."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1)",
+                    "evidence": "IHC was conducted for (D) Akt1."
+                }
+            ]
+        },
+        {
+            "Index": "57",
+            "text": "(F-H) Immunohistochemical staining of the mammary gland for cyclin D1 and Akt1 or to downstream Akt signaling substrates.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) positiveCorrelation p(HGNC:AKT1)",
+                    "evidence": "Immunohistochemical staining of the mammary gland for cyclin D1 and Akt1 or to downstream Akt signaling substrates."
+                }
+            ]
+        },
+        {
+            "Index": "58",
+            "text": "Cyclin D1 Phosphorylates Akt1 at S473",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, S, 473))",
+                    "evidence": "Cyclin D1 Phosphorylates Akt1 at S473"
+                }
+            ]
+        },
+        {
+            "Index": "59",
+            "text": "(A) Western blot analysis of MCF-7 cells transduced with an expression vector encoding cyclin D1 with antibodies as indicated to cyclin D1, Akt1, Akt1(Ser473), and the Akt1 signaling pathway and its substrate TSC2 (Ser939). The comparison of FLAG-tagged cyclin D1 (high molecular weight, labeled \"Ex\" for exogenous) and endogenous (labeled \"End\") cyclin D1 indicates a 2-fold increase in cyclin D1 abundance. The data are representative of n = 3 separate experiments.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:AKT1)) increases p(HGNC:CCND1)",
+                    "evidence": "The comparison of FLAG-tagged cyclin D1 (high molecular weight, labeled \"Ex\" for exogenous) and endogenous (labeled \"End\") cyclin D1 indicates a 2-fold increase in cyclin D1 abundance."
+                }
+            ]
+        },
+        {
+            "Index": "60",
+            "text": "(B and C) (B) Cyclin D1-/- cells transduced with a retroviral vector for (B) cyclin D1 or (C) cyclin D1WT and cyclin D1KE with antibodies as indicated.",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:CCND1) transcribedTo r(HGNC:CCND1)",
+                    "evidence": "Cyclin D1-/- cells transduced with a retroviral vector for cyclin D1."
+                },
+                {
+                    "bel_statement": "r(HGNC:CCND1) translatedTo p(HGNC:CCND1)",
+                    "evidence": "Cyclin D1-/- cells transduced with a retroviral vector for cyclin D1."
+                }
+            ]
+        },
+        {
+            "Index": "61",
+            "text": "(D and E) In (D), cyclin D1 immune-precipitation kinase assays were conducted using GST fusion proteins as substrates including pRB, and Akt1. Left panel: proteins on an SDS-PAGE stained with Coomassie. Right panel: gamma32 p IP-kinase assay reactions, with relative incorporation into substrates indicated in (E) as mean +- SEM for n = 3 separate experiments.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:RB1))",
+                    "evidence": "In (D), cyclin D1 immune-precipitation kinase assays were conducted using GST fusion proteins as substrates including pRB, and Akt1."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1))",
+                    "evidence": "In (D), cyclin D1 immune-precipitation kinase assays were conducted using GST fusion proteins as substrates including pRB, and Akt1."
+                }
+            ]
+        },
+        {
+            "Index": "62",
+            "text": "(F) Representative mass spectrometry spectrum to map the Akt1 Ser473 phosphorylation status in vivo. The liquid chromatography-tandem mass spectrometry (LC-MS/MS) spectrum of the singly phosphorylated doubly charged peptide RPHFPQFpSYSASGTA representing S473 in the modified Akt1 sequence. The neutral loss of phosphate confirms the phosphorylation status, and sites are localized to S10 (S473 full length) in the peptide based on the b-ion series (N-terminal fragments) starting at b7 and the y-ion series starting at y10 that contain a phosphate group.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Representative mass spectrometry spectrum to map the Akt1 Ser473 phosphorylation status in vivo."
+                }
+            ]
+        },
+        {
+            "Index": "63",
+            "text": "(G) Cyclin D1 immune-precipitation kinase assays were conducted using GST fusion proteins including Akt1-WT and Akt1 Ser473 mutation. Left panel: proteins on an SDS-PAGE stained with Coomassie. Right panel: gamma32P IP-kinase assay reactions.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:AKT1))",
+                    "evidence": "Cyclin D1 immune-precipitation kinase assays were conducted using GST fusion proteins including Akt1-WT and Akt1 Ser473 mutation."
+                }
+            ]
+        },
+        {
+            "Index": "64",
+            "text": "Association of Akt1 via the Cyclin D1 N-Terminal Residues 1-91",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:AKT1), p(HGNC:CCND1, frag(1, 91)))",
+                    "evidence": "Association of Akt1 via the Cyclin D1 N-Terminal Residues 1-91"
+                }
+            ]
+        },
+        {
+            "Index": "65",
+            "text": "(A-F) The PLA for endogenous Akt1 with WT cyclin D1 or cyclin D1 mutants is indicated by red dots, and nucleus was stained by DAPI. Cyclin D1 expression plasmids were introduced by transduction of cyclin D1-/- 3T3 cells. 3D reconstruction of the z stack is indicated for representative examples of multiplicate experiments.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1)",
+                    "evidence": "The PLA for endogenous Akt1 with WT cyclin D1 or cyclin D1 mutants is indicated by red dots."
+                }
+            ]
+        },
+        {
+            "Index": "66",
+            "text": "(H) Model of the murine cyclin D1-CDK4/CDK6-Akt1 (C-terminal peptide) complex. The model indicates cyclin D1 and CDK4/CDK6 in blue and yellow cartoons, respectively. The Akt1 c-terminal peptide bound at the active site of CDK4/CDK6 is indicated in green stick. The ATP and Mg2+ ions are indicated in blue sticks and red spheres, respectively.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(MGI:Ccnd1), p(MGI:Cdk4), p(MGI:Cdk6), p(MGI:Akt1)) hasComponent p(MGI:Ccnd1)",
+                    "evidence": "The model indicates cyclin D1 and CDK4/CDK6 in blue and yellow cartoons, respectively."
+                },
+                {
+                    "bel_statement": "complex(p(MGI:Ccnd1), p(MGI:Cdk4), p(MGI:Cdk6), p(MGI:Akt1)) hasComponent p(MGI:Cdk4)",
+                    "evidence": "The model indicates cyclin D1 and CDK4/CDK6 in blue and yellow cartoons, respectively."
+                },
+                {
+                    "bel_statement": "complex(p(MGI:Ccnd1), p(MGI:Cdk4), p(MGI:Cdk6), p(MGI:Akt1)) hasComponent p(MGI:Cdk6)",
+                    "evidence": "The model indicates cyclin D1 and CDK4/CDK6 in blue and yellow cartoons, respectively."
+                },
+                {
+                    "bel_statement": "complex(p(MGI:Ccnd1), p(MGI:Cdk4), p(MGI:Cdk6), p(MGI:Akt1)) hasComponent p(MGI:Akt1)",
+                    "evidence": "The Akt1 c-terminal peptide bound at the active site of CDK4/CDK6 is indicated in green stick."
+                }
+            ]
+        },
+        {
+            "Index": "67",
+            "text": "Cyclin D1 Augments Phosphorylation of Akt1 at Ser473",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "Cyclin D1 Augments Phosphorylation of Akt1 at Ser473"
+                }
+            ]
+        },
+        {
+            "Index": "68",
+            "text": "(A-D) Immunohistochemical staining of 3T3 cells (A), cyclin D1-/- 3T3 cells (B), or cyclin D1-/- 3T3 cells transduced with retrovirus encoding either cyclin D1WT (C) or cyclin D1KE (D). Immunohistochemical staining with Z slice reconstruction to show staining with antibody as indicated. Cyclin D1 co-localizes with pAkt1 Ser473 at the cytoplasmic membrane and is enriched at focal contacts.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(MGI:Ccnd1), p(MGI:Akt1, pmod(Ph, Ser, 473)))",
+                    "evidence": "Cyclin D1 co-localizes with pAkt1 Ser473 at the cytoplasmic membrane and is enriched at focal contacts."
+                }
+            ]
+        },
+        {
+            "Index": "69",
+            "text": "Selective Phosphorylation of LS456 by Mitogen Activation Requires Cyclin D1 and CDK4/6",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:CDK4), ma(GO:\"kinase activity\"))",
+                    "evidence": "Selective Phosphorylation of LS456 by Mitogen Activation Requires Cyclin D1 and CDK4/6"
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) increases act(p(HGNC:CDK6), ma(GO:\"kinase activity\"))",
+                    "evidence": "Selective Phosphorylation of LS456 by Mitogen Activation Requires Cyclin D1 and CDK4/6"
+                }
+            ]
+        },
+        {
+            "Index": "70",
+            "text": "(A and B) The fluorescence intensity of LS456 in response to either (A) insulin (150 nM) or (B) EGF (10 ng/mL) decreased in the 800-nm channel and increased in the 700-nm channel with delayed changes in cyclin D1-deficient MEFs. Data are indicated as mean +- SEM for n = 8 WT and n = 24 for cyclin D1-/- in separate experiments (*p < 0.05; **p < 0.01; #p < 0.001). Quantitative analysis of the FI in WT and cyclin D1-deficient cells. Fluorescent images in cells were superimposed on differential interference contrast images; scale bars, 20 mum.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEMBL:LS456) decreases a(CHEBI:insulin)",
+                    "evidence": "The fluorescence intensity of LS456 in response to either (A) insulin (150 nM) decreased in the 800-nm channel."
+                },
+                {
+                    "bel_statement": "a(CHEMBL:LS456) decreases a(CHEBI:EGF)",
+                    "evidence": "The fluorescence intensity of LS456 in response to either (B) EGF (10 ng/mL) decreased in the 800-nm channel."
+                }
+            ]
+        },
+        {
+            "Index": "71",
+            "text": "(C and D) The fluorescence intensity of LS456 in response to either (C) insulin (150 nM) (n = 8 Cdk4/6 WT and n = 24 Cdk4/6-/- MEFs) or (D) EGF (10 ng/mL) (n = 8 Cdk4/6 WT and n = 8 Cdk4/6-/- MEFs) was determined. The data are presented as mean +- SEM for n = 8 separate experiments (*p < 0.05; **p < 0.01; #p < 0.001).",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEMBL:LS456) increases act(p(HGNC:INSR))",
+                    "evidence": "The fluorescence intensity of LS456 in response to insulin (150 nM) was determined."
+                },
+                {
+                    "bel_statement": "a(CHEMBL:LS456) increases act(p(HGNC:EGFR))",
+                    "evidence": "The fluorescence intensity of LS456 in response to EGF (10 ng/mL) was determined."
+                }
+            ]
+        },
+        {
+            "Index": "72",
+            "text": "(A) The fluorescent intensity (FI) of LS456 in cyclin D1-/- 3T3 cells transduced with either vector, cyclin D1WT, or cyclin D1KE. The FI of LS456 decreased in the 800-nm channel and increased in the 700-nm channel in response to insulin, indicated as fluorescent images in cells.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:insulin) increases a(CHEBI:LS456)",
+                    "evidence": "The FI of LS456 increased in the 700-nm channel in response to insulin."
+                },
+                {
+                    "bel_statement": "a(CHEBI:insulin) decreases a(CHEBI:LS456)",
+                    "evidence": "The FI of LS456 decreased in the 800-nm channel in response to insulin."
+                }
+            ]
+        },
+        {
+            "Index": "73",
+            "text": "(F-H) Cyclin D1-/- 3T3 cells were co-transfected with expression vector encoding c-fos-LUC WT or mutant and activated Akt (myr-Akt1) or (F) cyclin D1, (G) membrane-localized cyclin D1, or (H) nuclear-localized cyclin D1.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:CCND1), p(HGNC:AKT1))",
+                    "evidence": "(F-H) Cyclin D1-/- 3T3 cells were co-transfected with expression vector encoding c-fos-LUC WT or mutant and activated Akt (myr-Akt1) or (F) cyclin D1, (G) membrane-localized cyclin D1, or (H) nuclear-localized cyclin D1."
+                }
+            ]
+        },
+        {
+            "Index": "74",
+            "text": "Cyclin D1 and Akt1 Govern Similar Signaling Modules in the Mammary Gland In Vivo",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) regulates p(HGNC:AKT1)",
+                    "evidence": "Cyclin D1 and Akt1 Govern Similar Signaling Modules in the Mammary Gland In Vivo"
+                }
+            ]
+        },
+        {
+            "Index": "75",
+            "text": "(A) Schematic representation of transgenic mice used for gene expression analysis. MMTV-Akt+/- mice were intercrossed with MMTV-ErbB2 transgenics, and the mammary epithelium was used for a source of mRNA. The cyclin D1-induced state was recapitulated through doxycycline induction of MMTV-RtTA-cyclin D1 transgenics treated for 10 days.",
+            "Results": [
+                {
+                    "bel_statement": "g(MGI:Akt) positiveCorrelation g(MGI:Erbb2)",
+                    "evidence": "MMTV-Akt+/- mice were intercrossed with MMTV-ErbB2 transgenics, and the mammary epithelium was used for a source of mRNA."
+                },
+                {
+                    "bel_statement": "g(MGI:Ccnd1) increases r(MGI:Ccnd1)",
+                    "evidence": "The cyclin D1-induced state was recapitulated through doxycycline induction of MMTV-RtTA-cyclin D1 transgenics treated for 10 days."
+                }
+            ]
+        },
+        {
+            "Index": "76",
+            "text": "(B) Pie diagrams representing the number of genes either induced or repressed by Akt or cyclin D1.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1) regulates g(HGNC:CCND1)",
+                    "evidence": "Pie diagrams representing the number of genes either induced or repressed by Akt or cyclin D1."
+                }
+            ]
+        },
+        {
+            "Index": "77",
+            "text": "(C) KEGG pathway analysis used to identify functional pathways regulated by either Akt1 or cyclin D1 and those regulated by both Akt1 and cyclin D1.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1) regulates bp(GOBP:\"cell cycle\")",
+                    "evidence": "KEGG pathway analysis used to identify functional pathways regulated by either Akt1 or cyclin D1 and those regulated by both Akt1 and cyclin D1."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) regulates bp(GOBP:\"cell cycle\")",
+                    "evidence": "KEGG pathway analysis used to identify functional pathways regulated by either Akt1 or cyclin D1 and those regulated by both Akt1 and cyclin D1."
+                }
+            ]
+        },
+        {
+            "Index": "78",
+            "text": "(D) The names of pathways identified by KEGG analysis regulated by both cyclin D1 and Akt1 in the mammary gland (migration 1, adherens junction; migration 2, tight junction).",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) regulates bp(GOBP:\"adherens junction organization\")",
+                    "evidence": "The names of pathways identified by KEGG analysis regulated by both cyclin D1 and Akt1 in the mammary gland (migration 1, adherens junction; migration 2, tight junction)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) regulates bp(GOBP:\"adherens junction organization\")",
+                    "evidence": "The names of pathways identified by KEGG analysis regulated by both cyclin D1 and Akt1 in the mammary gland (migration 1, adherens junction; migration 2, tight junction)."
+                },
+                {
+                    "bel_statement": "p(HGNC:CCND1) regulates bp(GOBP:\"tight junction organization\")",
+                    "evidence": "The names of pathways identified by KEGG analysis regulated by both cyclin D1 and Akt1 in the mammary gland (migration 1, adherens junction; migration 2, tight junction)."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) regulates bp(GOBP:\"tight junction organization\")",
+                    "evidence": "The names of pathways identified by KEGG analysis regulated by both cyclin D1 and Akt1 in the mammary gland (migration 1, adherens junction; migration 2, tight junction)."
+                }
+            ]
+        },
+        {
+            "Index": "79",
+            "text": "(E) Schematic representation of the relative fold enrichment in gene number of the individual KEGG pathways regulated by both cyclin D1 and Akt1.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:CCND1) regulates bp(GOBP:\"KEGG pathways\")",
+                    "evidence": "Schematic representation of the relative fold enrichment in gene number of the individual KEGG pathways regulated by both cyclin D1 and Akt1."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) regulates bp(GOBP:\"KEGG pathways\")",
+                    "evidence": "Schematic representation of the relative fold enrichment in gene number of the individual KEGG pathways regulated by both cyclin D1 and Akt1."
+                }
+            ]
+        },
+        {
+            "Index": "80",
+            "text": "REAGENT or RESOURCE SOURCE IDENTIFIER   Antibodies   cyclin D1 Santa Cruz sc-20044; RRID: AB_627346   Akt1 Santa Cruz sc-5298; RRID: AB_626658   pAkt1 Ser473 Cell Signaling #9018; RRID: AB_2629283   pAkt1/2/3 Ser473 Santa Cruz sc-7985-R; RRID: AB_667741   TSC2 Santa Cruz sc-893; RRID: AB_632569   pTSC2 Ser939 Abcam ab59269; RRID: AB_2210004   FKHR Santa Cruz sc-11350; RRID: AB_640607   pFKHR Ser319 Santa Cruz sc-101682; RRID: AB_2294254   Bad Santa Cruz sc-8044; RRID: AB_626717   pBad Ser136 Abcam ab28824; RRID: AB_725616   Rictor Santa Cruz sc-271081; RRID: AB_10611167   Rictor Santa Cruz sc-99004; RRID: AB_2269610   pRb Ser780 Cell signaling #9307; RRID: AB_330015   Flag (M2) Millipore-Sigma F1804; RRID: AB_262044   HA Santa Cruz sc-805; RRID: AB_631618   cyclin A2 Abcam ab16726; RRID: AB_302478   PACSIN 2 Proteintech 10518-2-AP; RRID: AB_2161854   Paxillin (5H11) Millipore-Sigma (Upstate) 05-417; RRID: AB_309724   pPaxillin Tyr118 Thermo Fisher 44-722G; RRID: AB_2533733   beta-actin Santa Cruz sc-47778; RRID: AB_2714189   Bacterial and Virus Strains   JM109 Competent Cells Promega L2001   Chemicals, Peptides, and Recombinant Proteins   AKT1 (NM_005163) Human Recombinant Protein Origene TP320257   Insulin Human Recombinant Protein Millipore-Sigma I2643   Recombinant human EGF protein, CF R&G 236-EG   Critical Commercial Assays   Duolink In Situ Red Starter Kit Mouse/Rabbit Millipore-Sigma DUO92101   RNeasy Mini Kit QIAGEN 74104   SuperScript  III First-Strand Synthesis System Thermo Fisher 18080051   Deposited Data   cyclin D1-dependent gene signature in mouse mammary gland GEO database GEO: GSE43216   Akt1-dependent gene signature from the murine ErbB2 mammary tumor GEO database GEO: GSE138957   Experimental Models: Cell Lines   MCF-7 ATCC HTB-22   HEK293T ATCC CRL-3216   Cyclin D1 wt and ko MEFs/3T3s  N/A   ErbB2-Akt wt and ko mammary tumor cells  N/A   Inducible rictor shRNA MEFs (iRicKO)  N/A   Experimental Models: Organisms/Strains   MMTV-Rtta-control, cyclin D1-wt and cyclin D1-KE mice/FVB  N/A   MMTV-ErbB2-Akt1 wt and ko mice/FVB  N/A   Flox-cyclin D1/Rosa26-CreERT2 mice/FVB  N/A   Recombinant DNA   p3xFlag-CMV-10 encoding cyclin D1 and its mutants  N/A   pMSCV -IRES-GFP encoding cyclin D1 and its mutants  N/A   ECFP-Mem-Cyclin D1 plasmid This paper N/A   Cherry-lacR-NLS-CD1NUC Plasmid  N/A   pBABE-myrAkt1-IRES-GFP  N/A   pCMV5-HA-Akt1  N/A   pGEX-GST-Akt1 and pGEX-GST-Akt1(S473A)  N/A   c-fos-LUC, SRE orTCF mutant (pm12 or pm18)  N/A   pRSV-beta-Gal Addgene #24058   Software and Algorithms   Fiji (ImageJ) ImageJ https://imagej.net/Fiji",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases p(HGNC:BAD, pmod(Ph, Ser, 136))",
+                    "evidence": "pBad Ser136 Abcam ab28824; RRID: AB_725616"
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases p(HGNC:FOXO1, pmod(Ph, Ser, 319))",
+                    "evidence": "pFKHR Ser319 Santa Cruz sc-101682; RRID: AB_2294254"
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases p(HGNC:RB1, pmod(Ph, Ser, 780))",
+                    "evidence": "pRb Ser780 Cell signaling #9307; RRID: AB_330015"
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases p(HGNC:TSC2, pmod(Ph, Ser, 939))",
+                    "evidence": "pTSC2 Ser939 Abcam ab59269; RRID: AB_2210004"
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT1) increases p(HGNC:AKT1, pmod(Ph, Ser, 473))",
+                    "evidence": "pAkt1 Ser473 Cell Signaling #9018; RRID: AB_2629283"
+                }
+            ]
+        }
+    ]
+}

@@ -1,11 +1,11 @@
 # general prompt
 
 Instructions:
-You will receive a scientific text with sentences detailing biological interactions between molecular entities. Extract interactions strictly based on the information given in each sentence. Do not reuse entities or interactions from previous examples unless they are explicitly mentioned in the current sentence. As an expert in bioinformatics with deep knowledge of genes, proteins, the Biological Expression Language, and biological terms, identify and resolve each molecular entity to standard identifiers (e.g., HGNC gene symbols, GO terms). Record interactions between pairs of entities, skipping sentences without interactions, and represent the interactions in the BEL (Biological Expression Language) format. Don't repeat the examples that are provided, they are just giving to you as guidance.
+You will receive a scientific text with paragraphs detailing biological interactions between molecular entities. Extract interactions strictly based on the information given in each paragraph. Do not reuse entities or interactions from previous examples unless they are explicitly mentioned in the current paragraph. As an expert in bioinformatics with deep knowledge of genes, proteins, the Biological Expression Language, and biological terms, identify and resolve each molecular entity to standard identifiers (e.g., HGNC gene symbols, GO terms). Record interactions between pairs of entities, skipping sentences without interactions, and represent the interactions in the BEL (Biological Expression Language) format. Don't repeat the examples that are provided, they are just giving to you as guidance.
 
 Important Guidelines to Note:
-1. Only Extract BEL Statements: Your task is to return the correct BEL statement based solely on the provided sentence that is passed to you.
-2. Use Only Entities Mentioned in the Sentence: Ensure the BEL statement uses biological entities and processes explicitly mentioned in the sentence. Do not infer interactions involving entities not present in the sentence.
+1. Only Extract BEL Statements: Your task is to return the correct BEL statements based solely on the provided paragraph that is passed to you.
+2. Use Only Entities Mentioned in the paragraph: Ensure the BEL statement uses biological entities and processes explicitly mentioned in the paragraph. Do not infer interactions involving entities not present in the paragraph. 
 3. Sentence Grounding: Ensure that each BEL statement is directly grounded in the provided sentence, reflecting only the relationships explicitly stated. If there is any ambiguity or lack of clarity in the sentence, do not make assumptions or infer relationships beyond what is clearly mentioned. Use only the entity classes and namespaces provided in the markdown table below:
 
 |  Entity Class              | Namespace        | Definition                                                                                     |
@@ -191,31 +191,69 @@ BEL Relations:
 
 
 Output Format:
-For each sentence provided, extract the relevant interactions and return them directly in BEL format. Do not include any other metadata or explanations, only the BEL interaction statements.
+For each sentence provided, extract the relevant interactions and return them directly in BEL format along with the exact sentence from which the interactions were extracted. Do not include any other metadata or explanations, only the BEL interaction statements and the sentence.
 
 Example Formats: Use these examples to understand the desired output format but do not replicate these examples unless explicitly required by the text.
 1. "text": "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)"
+"evidence":  "Arterial cells are highly susceptible to oxidative stress, which can induce both necrosis and apoptosis (programmed cell death)"
 "bel_statements": [
             "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:\"apoptotic process\")",
             "bp(GOBP:\"response to oxidative stress\") increases bp(GOBP:necrosis)"
         ]
 
 2. "text": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries."
+"evidence": "Oxidation and nitration of macromolecules, such as proteins, DNA and lipids, are prominent in atherosclerotic arteries."
 "bel_statements": [
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"lipid oxidation\")",
             "path(MESHD:Atherosclerosis) positiveCorrelation bp(GOBP:\"protein oxidation\")"
         ]
 
-3. "text": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell .",
-"bel_statements": [
-    "a(CHEBI:\"phosphatidyl-L-serine\") increases pep(p(HGNC:F3))",
-    "bp(GOBP:\"apoptotic process\") increases a(CHEBI:\"phosphatidyl-L-serine\")",
-    "a(CHEBI:\"phosphatidyl-L-serine\") increases bp(GOBP:coagulation)"
-]
+3. "text": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS), an anionic phospholipid that is redistributed on the cell surface during apoptotic death and confers a potent pro-coagulant activity to the apoptotic cell.",
+    "bel_statements": [
+        [
+            "statement": "a(CHEBI:\"phosphatidyl-L-serine\") increases pep(p(HGNC:F3))",
+            "evidence": "TF works at the surface of cell membranes, and its activity is highly dependent on the presence of phosphatidylserine (PS)."
+        ],
+        [
+            "statement": "bp(GOBP:\"apoptotic process\") increases a(CHEBI:\"phosphatidyl-L-serine\")",
+            "evidence": "Phosphatidylserine (PS), an anionic phospholipid, is redistributed on the cell surface during apoptotic death."
+        ],
+        [
+            "statement": "a(CHEBI:\"phosphatidyl-L-serine\") increases bp(GOBP:coagulation)",
+            "evidence": "Phosphatidylserine (PS) confers a potent pro-coagulant activity to the apoptotic cell."
+        ]
+    ]
 
-4. "text": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level. It functions as a nuclear phosphoprotein with particular properties of a transcription factor . In serum deprived cultures, cells overexpressing c-myc readily undergo apoptosis. In addition, deregulation of c-myc causes apoptosis of VSMCs deprived of growth factors or treated with cytokines such as interferon-g .",
-"bel_statements": [
-    "p(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
-    "p(HGNC:MYC) increases bp(GOBP:\"cell proliferation\")"
-]
+
+4. "text": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level. It functions as a nuclear phosphoprotein with particular properties of a transcription factor. In serum-deprived cultures, cells overexpressing c-myc readily undergo apoptosis. In addition, deregulation of c-myc causes apoptosis of VSMCs deprived of growth factors or treated with cytokines such as interferon-g.",
+    "bel_statements": [
+        [
+            "statement": "p(HGNC:MYC) increases bp(GOBP:\"apoptotic process\")",
+            "evidence": "In serum-deprived cultures, cells overexpressing c-myc readily undergo apoptosis."
+        ],
+        [
+            "statement": "p(HGNC:MYC) increases bp(GOBP:\"cell proliferation\")",
+            "evidence": "The proto-oncogene c-myc can promote cell death (probably mediated through p53) or cell proliferation, depending on its expression level."
+        ]
+    ]
+
+5. "text": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
+    "bel_statements": [
+        [
+            "statement": "p(HGNC:TP53) increases path(MESHD:\"Basal-like breast cancer\")",
+            "evidence": "High p53 IHC expression is common in basal-like breast cancer."
+        ],
+        [
+            "statement": "bp(GOBP:\"MAPK cascade\") increases path(MESHD:\"Basal-like breast cancer\")",
+            "evidence": "Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway."
+        ],
+        [
+            "statement": "bp(GOBP:\"Akt signaling pathway\") increases path(MESHD:\"Basal-like breast cancer\")",
+            "evidence": "Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the Akt pathway."
+        ],
+        [
+            "statement": "p(HGNC:PARP1) increases path(MESHD:\"Basal-like breast cancer\")",
+            "evidence": "Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the poly ADP-ribose polymerase1 (PARP1) pathway."
+        ]
+    ]
 """

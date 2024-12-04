@@ -53,19 +53,20 @@ def llm_processing(sentences):
 
 
 #extracting bel functions using llm
-def llm_bel_processing(sentences):
+def llm_bel_processing(paragraphs):
     llm_results = {"LLM_extractions": []}
     start_time = time.time()
 
     # Loop through the sentences dictionary directly
-    for index, sentence_info in sentences.items():
-        sentence = sentence_info['text']  # Assuming 'text' is the correct key for the sentence
+    for index, paragraph_info in paragraphs.items():
+        paragraph = paragraph_info['text']  # Assuming 'text' is the correct key for the sentence
         results = bel_extraction_chain.invoke({
-            "text": sentence
+            "text": paragraph
         })
+
         llm_results["LLM_extractions"].append({
             "Index": index,
-            "text": sentence,
+            "text": paragraph,
             "Results": results
         })
 
