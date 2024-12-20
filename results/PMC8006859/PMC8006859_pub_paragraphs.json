@@ -1,0 +1,3135 @@
+{
+    "0": {
+        "text": "Aberrant expression of nuclear transporters and deregulated subcellular localization of their cargo proteins are emerging as drivers and therapeutic targets of cancer. Here, we present evidence that the nuclear exporter exportin-6 and its cargo profilin-1 constitute a functionally important and frequently deregulated axis in cancer. Exportin-6 upregulation occurs in numerous cancer types and is associated with poor patient survival. Reducing exportin-6 level in breast cancer cells triggers antitumor effects by accumulating nuclear profilin-1. Mechanistically, nuclear profilin-1 interacts with eleven-nineteen-leukemia protein (ENL) within the super elongation complex (SEC) and inhibits the ability of the SEC to drive transcription of numerous pro-cancer genes including MYC. XPO6 and MYC are positively correlated across diverse cancer types including breast cancer. Therapeutically, exportin-6 loss sensitizes breast cancer cells to the bromodomain and extra-terminal (BET) inhibitor JQ1. Thus, exportin-6 upregulation is a previously unrecognized cancer driver event by spatially inhibiting nuclear profilin-1 as a tumor suppressor.",
+        "annotations": [
+            {
+                "entity_text": "exportin-6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "profilin-1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "Exportin-6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "eleven-nineteen-leukemia protein",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "BET",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "26722"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "1": {
+        "text": "By defining the moonlighting function of the small actin-binding protein profilin-1 in the nucleus as a transcriptional repressor and the prevalent upregulation of its nuclear exporter exportin-6 in diverse cancer types, Zhu et al. show that deregulation of protein subcellular localization is an important non-oncogene addiction with strong therapeutic potential.",
+        "annotations": [
+            {
+                "entity_text": "profilin-1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "exportin-6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "2": {
+        "text": "In eukaryotic cells, the nuclear membrane compartmentalizes cellular contents into the cytoplasm and nucleus. For large macromolecules such as proteins and RNAs that exceed the diffusion limit of the nuclear pore complexes (NPCs), trafficking across the nuclear membrane is mediated by the importin and exportin proteins in the karyopherin beta family. This evolutionarily conserved mechanism ensures the presence of the cargo molecules within their destined subcellular compartments at the levels appropriate for the specific cellular state. However, the physiological balance of many proteins across the nuclear membrane becomes dysregulated in cancer via different mechanisms, including altered expression of nucleocytoplasmic transporters. For instance, tumor-suppressor proteins such as p53, FOXO2, p27, and pRb undergo nuclear exclusion and spatial inactivation in certain cancer cells due to upregulation of their nuclear exporter XPO1/CRM1, which shuttles hundreds of nuclear proteins containing leucine-rich nuclear export sequences (NESs). XPO1 is a marker of poor cancer prognosis, and its inhibition showed anticancer benefits in various preclinical and clinical studies. The XPO1-selective inhibitor Selinexor was recently approved to treat adult patients with relapsed or refractory multiple myeloma and diffuse large B cell lymphoma (DLBCL).",
+        "annotations": [
+            {
+                "entity_text": "p53",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "460"
+            },
+            {
+                "entity_text": "FOXO2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31039"
+            },
+            {
+                "entity_text": "p27",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4792"
+            },
+            {
+                "entity_text": "pRb",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "272"
+            },
+            {
+                "entity_text": "XPO1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2554"
+            },
+            {
+                "entity_text": "CRM1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2554"
+            },
+            {
+                "entity_text": "Selinexor",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C585161"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "diffuse large B cell lymphoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D016403"
+            },
+            {
+                "entity_text": "multiple myeloma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009101"
+            },
+            {
+                "entity_text": "DLBCL",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D016403"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "3": {
+        "text": "XPO6 is the most recently discovered member of the exportin family and is specific to the dimeric complex of nuclear actin and profilin (Pfn). Though capable of recognizing actin alone, the affinity and export activity of XPO6 toward the actin/Pfn complex are significantly higher. Evolutionarily conserved from insects to mammals, XPO6 is essential for Drosophila embryonic development yet transiently silenced in the amphibian Xenopus oocytes prior to meiotic maturation to increase the levels of nuclear filamentous actin that physically stabilize their giant nuclei. In addition, nuclear actin in its monomeric form regulates diverse processes including chromatin remodeling, RNA transcription, and DNA damage response. The consensus from these studies is that nuclear actin positively regulates gene expression and cell proliferation. Consistent with this, nuclear actin depletion occurs in growth-arrested normal breast epithelial cells but not their malignant counterparts, indicating a potentially pro-cancer effect of nuclear actin at least in the context of breast cancer.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "profilin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1974"
+            },
+            {
+                "entity_text": "Pfn",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1974"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "4": {
+        "text": "In contrast, the biological function of nuclear Pfn remains poorly understood, despite its presence in the nucleoplasm, nuclear speckles, and Cajal bodies. As the first actin-binding protein identified decades ago, the role of Pfn1, the ubiquitously expressed Pfn isoform, has been well demonstrated in cytoplasmic actin polymerization and underlies its essentiality for many eukaryotic organisms. Paradoxically, Pfn1 also shows tumor-inhibitory activities in breast, bladder, and pancreatic cancer models. Our prior study suggested that the anticancer activity of Pfn1 stems from its poorly understood nuclear functions that are spatially separate from its essential cytoplasmic functions and requires interaction with at least one nuclear protein containing the poly-L-proline (PLP) motif (XP >= 5; X = G, A, I, S, L). However, our current knowledge of PLP-containing binding partners of nuclear Pfn1 is limited to p42POP and SMN1, neither of which has clear functional relevance to cancer.",
+        "annotations": [
+            {
+                "entity_text": "Pfn",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1974"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "p42POP",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "17083"
+            },
+            {
+                "entity_text": "SMN1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "292"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "PLP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011732"
+            },
+            {
+                "entity_text": "breast, bladder, and pancreatic cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "poly-L-proline",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C011083"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "5": {
+        "text": "As an essential protein rarely mutated, both the cancer relevance and underlying mechanism of Pfn1 remain unclear. Though largely unexplored in cancer, XPO6 mRNA level is a poor prognostic marker for prostate cancer. XPO6 downregulation was detected in senescent human fibroblasts, positively linking it to proliferation. Here, we report that XPO6 upregulation is a prevalent cancer-associated event that serves to indirectly reduce the anticancer function of Pfn1 in the nucleus as a transcriptional repressor while preserving its essential function in the cytoplasm.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "prostate cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011471"
+            }
+        ]
+    },
+    "6": {
+        "text": "XPO6 upregulation occurs in cancer and associates with poor patient survival",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "7": {
+        "text": "To investigate the cancer relevance of XPO6, we first examined The Cancer Genome Atlas (TCGA) datasets. XPO6 mRNA is significantly upregulated in 19 cancer types compared to normal controls (~1.2-1.9-fold), with thyroid carcinoma being the only cancer type showing downregulation (Figure 1A; Table S1A). In breast cancer, the average upregulation of XPO6 mRNA is ~1.5-fold. To increase the numbers of normal samples in our analysis, we used the combined RNA sequencing (RNA-seq) data from TCGA and The Genotype-Tissue Expression (GTEx) project. Statistically significant upregulation of XPO6 mRNA levels was confirmed in all 16 cancer types for which processed data are available (Table S1B). Further analysis of matched tumor versus adjacent normal tissues in the TCGA dataset confirmed statistically significant XPO6 mRNA upregulation in 13 cancer types (Table S1C). For breast cancer, 86.6% of the 112 cases with adjacent normal tissues overexpress XPO6 by a median 1.36-fold (Figure 1B). The XPO6 mRNA upregulation occurs independently of breast cancer subtype and stage (Figures S1A-S1C). We next examined the proteomic data of a cohort of 125 breast tumors and 18 normal breast tissue samples in the Clinical Proteomic Tumor Analysis Consortium (CPTAC) database. Unlike the other nuclear exportins (XPO1, 2, 4, 5, and 7), XPO6 peptides are detected in all tumor samples but none of the normal samples (Figure S1D), indicating their lower protein abundance in normal breast tissues below the detection limit.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "Tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "breast tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "Cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "thyroid carcinoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013964"
+            }
+        ]
+    },
+    "8": {
+        "text": "We next examined a panel of breast cancer cell lines and two untransformed breast epithelial cell lines (HuMEC and MCF10A). Quantitative reverse transcriptase PCR (qRT-PCR) and western blot showed that both mRNA and protein levels of XPO6 are significantly higher in cancer versus normal cell lines. Similar to patient samples, XPO6 upregulation is independent of breast cancer subtype and occurs in both estrogen receptor (ER)-positive (MCF-7, T47D, CAMA-1) and ER-negative (MDA-MB-231, BT-549, HCC70) cells (Figures 1C and 1D).",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "estrogen receptor",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "47906"
+            },
+            {
+                "entity_text": "ER",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "47906"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "9": {
+        "text": "We next examined the correlation between XPO6 and cancer patient survival. Using Kaplan-Meier (KM) Plotter, we first performed pan-cancer Kaplan-Meier analysis between XPO6 mRNA levels and overall survival (OS) using the TCGA RNA-seq data. We observed a statistically significant association between high XPO6 mRNA levels and worse OS for bladder, kidney renal clear cell, and liver hepatocellular carcinomas (Figure 1E). For breast cancer, the correlation followed a similar trend, with the median OS of the low XPO6 group nearly doubling the high XPO6 group despite being statistically insignificant (p = 0.22) (Figure 1E). However, statistical significance (p = 0.031) was reached among stage II patients (~60% of the dataset) (Figure 1F) but not patients at other stages (Figure S2A). Though not statistically significant, the association between XPO6 mRNA levels and OS was preferentially detected in lymph-node-positive patients with no clear dependence on ER status (Figures S2B and S2C). No association between XPO6 mRNA and progression-free survival (PFS) was observed, regardless of lymph node status (Figure S2D).",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "ER",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "47906"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "hepatocellular carcinomas",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006528"
+            },
+            {
+                "entity_text": "bladder, kidney renal clear cell",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002292"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "10": {
+        "text": "Next, we analyzed breast cancer microarray data using the Gene Expression Omnibus (GEO) and European Genome-phenome Archive (EGA) datasets available at KM Plotter. In the combined datasets, we observed nearly significant correlation (p = 0.066) between high XPO6 mRNA levels and worse relapse-free survival (RFS) in lymph-node-positive, but not lymph-node-negative, patients (Figure S2E), and this was confirmed using an individual dataset (GSE21653) (Figure S2F). Statistically significant correlations between XPO6 mRNA and RFS were detected for both ER-negative (GSE21653) and ER-positive (GSE9195) patients in a dataset-dependent fashion (Figures S2G and S2H). In addition, we observed statistically significant association between high XPO6 protein levels and worse OS of a cohort of 65 breast cancer patients ( Figure 1G), the only proteomic dataset available at KM Plotter for outcome analysis. Taken together, our findings demonstrate that XPO6 upregulation occurs in a large number of tumor types including breast cancer, and this is associated with poor patient survival.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "ER",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "47906"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "11": {
+        "text": "XPO6 is required for cancer cell growth",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "12": {
+        "text": "Hypothesizing that cancer cells may be addicted to XPO6, we silenced it in three breast cancer cell lines expressing high levels of XPO6 (MCF-7, T47D, MDA-MB-231; Figures 1C and 1D) and the non-cancer MCF10A cells. Two XPO6 short hairpin RNAs (shRNAs) significantly inhibited the growth of all three cancer cell lines (Figures 2A-2C). XPO6 knockdown also inhibited the growth of human soft tissue sarcoma SK-UT-1 and SK-LM-1 cell lines (Figures S3A and S3B). Interestingly, it showed no growth effect on MCF10A cells, suggesting that normal epithelial cells without XPO6 upregulation may be more tolerant of its loss. Conversely, overexpressing XPO6 in MCF10A cells increased their growth (Figure 2D), supporting the positive impact of XPO6 on cell growth.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "soft tissue sarcoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012509"
+            }
+        ]
+    },
+    "13": {
+        "text": "To confirm that the growth phenotype of XPO6 knockdown was due to on-target effects, we stably expressed wild-type (WT) and RNA-inhibitor-resistant (RNAi-Res) XPO6 in MCF-7 cells (Figure S3C). While shXPO6 #3 inhibited the growth of XPO6(WT) MCF-7 cells, this effect was significantly rescued by XPO6(RNAi-Res) (Figure 2E). Multiple G1/S transition markers were downregulated by XPO6 knockdown in the XPO6(WT) cells, including p-Rb(Ser795), E2F1, and cyclin D1, which were rescued by XPO6(RNAi-Res) (Figure 2E). Bromodeoxyuridine (BrdU) labeling of MCF-7 cells was reduced by XPO6 knockdown (Figure 2F). DNA content analysis of synchronized MCF-7 cells further confirmed the inhibitory effect of XPO6 knockdown on S-phase entry (Figure 2G).",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "E2F1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3828"
+            },
+            {
+                "entity_text": "cyclin D1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1334"
+            },
+            {
+                "entity_text": "p-Rb",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "272"
+            },
+            {
+                "entity_text": "BrdU",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001973"
+            },
+            {
+                "entity_text": "Bromodeoxyuridine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001973"
+            }
+        ]
+    },
+    "14": {
+        "text": "Next, we implanted shLUC- and shXPO6-#3-infected MCF-7 cells expressing XPO6(WT) or XPO6(RNAi-Res) into the mammary fat pads of female nude mice supplemented with estrogen pellets. XPO6 knockdown in the XPO6(WT) cells significantly reduced tumor growth rate (Figure 3A), which was confirmed by endpoint tumor weights (Figure 3B). This effect was markedly attenuated in the XPO6(RNAi-Res) cells, and the difference in tumor volumes and weights between shXPO6 #3 and shLUC groups was non-significant (Figures 3A and 3B). Despite the incomplete rescue, presumably due to off-target effects of shXPO6 #3, our data sufficiently demonstrate the tumor-inhibitory effect of XPO6 loss. Staining the tumors for Ki67 and p-Rb(Ser795) revealed that XPO6 knockdown in XPO6(WT) but not XPO6(RNAi-Res) cells reduced proliferation (Figures 3C and 3D), confirming the in vitro findings.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Ki67",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1814"
+            },
+            {
+                "entity_text": "Rb",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "272"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "15": {
+        "text": "For further validation, we used CRISPR/Cas9 to knock out XPO6 in MDA-MB-231 cells. We chose Cas9(D10A) nickase (Cas9n) to increase editing specificity and designed four pairs of single guide RNAs (sgRNAs) targeting XPO6. All four pairs reduced XPO6 protein level (Figure S4A). Compared to controls, XPO6 knockout (KO) MDA-MB-231 cells grew significantly slower, phenocopying XPO6 knockdown in MCF-7 cells (Figure S4A). Single clones showed even stronger effects (Figures S4B and S4C). BrdU labeling and DNA content analysis displayed evidence of G1/S arrest and cell-cycle inhibition, similar to XPO6 knockdown effects in MCF-7 cells (Figures S4D and S4E). Thus, our data suggest a strong reliance of breast cancer cells on XPO6 function, which manifests at least partially through an effect on cell-cycle progression.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "BrdU",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001973"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "16": {
+        "text": "Nuclear Pfn1 is required for the growth-inhibitory effect of XPO6 loss",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            }
+        ]
+    },
+    "17": {
+        "text": "XPO6 is a specific nuclear exporter for the Pfn/actin complex. XPO6 knockdown and KO caused significant nuclear accumulation of endogenous Pfn1 (Figures 4A and S5A). Nuclear accumulation of exogenous yellow fluorescent protein (YFP)-tagged Pfn1 was similarly induced by XPO6 loss (Figures S5B-S5D). Pfn1 is a poorly understood tumor suppressor that is paradoxically essential for eukaryotic cells. Restricting Pfn1 expression to the nucleus versus cytoplasm in our prior study indicated that the tumor-suppressive activity of Pfn1 stems at least in part from its nuclear functions, spatially separate from its essential role in the cytoplasm. To test whether the anticancer effect of XPO6 loss is caused by nuclear Pfn1 buildup, we asked whether this effect can be abolished by removing cellular Pfn1. Thus, we performed single or double knockdown of Pfn1 and XPO6 in the MCF-7 cells (Figure 4B). Consistent with the prior report that XPO6 can export nuclear actin independently of Pfn1, nuclear YFP-actin accumulated upon XPO6 knockdown in Pfn1-silenced cells (Figure S5E). However, unlike in the control cells, XPO6 knockdown in the Pfn1-silenced MCF-7 cells caused no growth inhibition (Figures 4B and S5F), suggesting that nuclear Pfn1 buildup underlies the anticancer effect of XPO6 loss.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1974"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "18": {
+        "text": "To confirm this finding, we next exploited the Pfn1-null chondrocytes derived from the cartilage-specific Pfn1 KO mice. Though displaying various abnormalities, these cells are viable in part due to the compensation from Pfn2. We previously showed that the morphological and growth defects of Pfn1 null chondrocytes can be rescued by Pfn1 that is untagged or fused to a NES but not a nuclear localization sequence (NLS). XPO6 knockdown caused no growth inhibition of Pfn1-null chondrocytes infected with an empty vector or YFP (Figures 4C and 4D). Re-expressing untagged or YFP-tagged Pfn1 restored growth inhibition by XPO6 knockdown (Figures 4C, 4D, S5G, and S5H). However, YFP-Pfn1 tagged with an NES, which converts it to a cargo of XPO1 and prevents its nuclear buildup by XPO6 loss, could not restore the shXPO6-induced growth inhibition (Figures 4D and S5H). Together, these data suggest that nuclear Pfn1 accumulation is the underlying cause for cell growth inhibition by XPO6 loss. Notably, the growth inhibition caused by XPO6 knockdown in the mouse chondrocytes differs from its lack of effect in the human mammary epithelial MCF-10A cells. This suggests that non-cancer cells, depending on tissue origin and cellular contexts, may have different sensitivity to nuclear Pfn1 accumulation.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "Pfn2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1974"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "XPO1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2554"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "19": {
+        "text": "Unlike the near-uniform XPO6 upregulation in cancer, Pfn1 shows mixed patterns of dysregulation. Out of the 12 TCGA cancer types in which Pfn1 mRNA is significantly altered, seven show upregulation and five show downregulation (Figure S6A; Table S1D). In TCGA breast tumors, Pfn1 mRNA is significantly upregulated (Figures S6A and S6B), and its protein level is markedly higher in the same panel of breast cancer cell lines overexpressing XPO6 (Figure S6C). However, in the CPTAC dataset, Pfn1 protein is significantly downregulated in the breast tumors (Figure S6D). Mixed associations between Pfn1 levels and breast cancer survival were also observed. While high Pfn1 mRNA levels correlate with better survival of stage II (Figure S6E) and lymph-node-negative (Figure S6F; p = 0.12, statistically insignificant) TCGA patients, an opposite trend was observed in the combined GEO and EGA datasets where high Pfn1 mRNA levels correlate with worse survival of lymph-node-negative patients (Figure S6G). Further testing of an individual GEO dataset (GSE21653, showing negative correlation between XPO6 and survival of lymph-node-positive patients in Figure S2F) revealed positive versus negative associations between Pfn1 mRNA levels and the survival of lymph-node-negative and lymph-node-positive patients, respectively (Figure S6H). Nevertheless, no association between Pfn1 protein levels and survival was observed in the same proteomic dataset (Figure S6I) that showed significant association between high XPO6 and worse survival (Figure 1G). These variable results regarding Pfn1 expression and outcome associations, in clear contrast to XPO6, are consistent with the pleiotropic functions of Pfn1 and suggest that its tumor-supportive versus inhibitory activities are balanced in cancer cells stochastically. Therefore, total Pfn1 levels do not accurately reflect its anticancer activities.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "breast tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "20": {
+        "text": "In addition to nuclear entry, our prior study suggested that Pfn1's ability to bind PLP motifs is also important for its anticancer activity. Although PLPs mediate the direct interaction of Pfn1 with a multitude of cytoplasmic proteins, few nuclear-binding partners of Pfn1 are known. Thus, we performed immunoprecipitation (IP) of NLS-tagged YFP-Pfn1 from MDA-MB-231 nuclear extracts followed by mass spectrometry (MS) analysis to identify associated proteins. We used YFP as a non-specific binding control and a mutant NLS-Pfn1(S137D) unable to bind PLPs to exclude PLP-independent interactions (Figure 5A). Based on a 1% peptide false discovery rate and a relative protein expression ratio of >1.5 in the NLS-Pfn1(WT) versus YFP and NLS-Pfn1 S137D, we identified 37 proteins interacting with NLS-Pfn1(WT) in a PLP-dependent fashion (Table S2).",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "PLPs",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011732"
+            },
+            {
+                "entity_text": "PLP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011732"
+            }
+        ]
+    },
+    "21": {
+        "text": "Three proteins contain the canonical Pfn1-interacting PLP motifs. They are BOD1L1, SFPQ, and MLLT1/ENL. BOD1L1 is a limitedly characterized protein with a role in DNA replication fork stability. SFPQ is a multi-functional protein involved in pre-mRNA splicing and context-dependent transcriptional regulation. ENL is an acetyl-lysine-binding transcriptional activator functioning primarily within the multi-component SEC. The SEC is a positive regulator of transcriptional elongation by phosphorylating Ser2 of the Rpb1 subunit of RNA polymerase II (RNA Pol II) via the associated p-TEFb dimeric complex comprising Cdk9 and cyclin T1 or T2. This releases RNA Pol II from the \"paused\" state at the promoter proximal regions of many active genes and leads to their productive elongation. Notably, in addition to ENL, we detected three SEC components by MS including AFF4, ELL, and cyclin T1, all of which preferentially bound NLS-Pfn1(WT) over NLS-Pfn1(S137D) and YFP (Figure 5B).",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "BOD1L1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "45109"
+            },
+            {
+                "entity_text": "SFPQ",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3714"
+            },
+            {
+                "entity_text": "MLLT1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "RNA Pol II",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "7178"
+            },
+            {
+                "entity_text": "Cdk9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55566"
+            },
+            {
+                "entity_text": "AFF4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "8683"
+            },
+            {
+                "entity_text": "ELL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4762"
+            },
+            {
+                "entity_text": "cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            }
+        ]
+    },
+    "22": {
+        "text": "Focusing on SEC, we confirmed the MS data by co-IP and western blot using MCF-7 cells. In addition to ENL and Cyclin T1, we detected interactions of Cdk9 and Rbp1 with NLS-Pfn1(WT) but not NLS-Pfn1(S137D) or YFP (Figure 5C). We could not validate AFF4 interaction due to the performance issue of the antibody. To confirm the interaction of the SEC with endogenous Pfn1, we performed reciprocal IPs of ENL and cyclin T1. We detected specific co-precipitation of endogenous Pfn1 by ENL antibody and, to a much lesser extent, cyclin T1 antibody (Figure 5D). While similar amounts of Cdk9 were coprecipitated by ENL and cyclin T1, less ENL was pulled down indirectly by cyclin T1 than directly by ENL antibody. This is consistent with the fact that p-TEFb (cyclin T1/Cdk9) associates with different partners besides SEC (e.g., BET domain proteins), and further implicates that the Pfn1/SEC interaction is mediated directly by the PLP motif in ENL. Consistent with this, cyclin T1/Pfn1 interaction was significantly reduced by ENL knockdown (Figure 5E). In addition, we performed size-exclusion chromatography using MDA-MB-231 nuclear extracts. We detected partially overlapping distribution of p-TEFb and ENL, consistent with a prior report. Importantly, endogenous Pfn1 showed a narrow size distribution that overlaps with both ENL and p-TEFb (Figure 5F). Collectively, our data revealed a previously unknown interaction between nuclear Pfn1 and the SEC via the direct binding of Pfn1 to the PLP motif within ENL.",
+        "annotations": [
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "Cdk9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55566"
+            },
+            {
+                "entity_text": "Rbp1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "2175"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "AFF4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "8683"
+            },
+            {
+                "entity_text": "cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            }
+        ]
+    },
+    "23": {
+        "text": "The role of the SEC in transcriptional checkpoint regulation is well known for developmental and stimulus-induced genes. In the context of cancer, the best-characterized SEC target gene is MYC. To determine if the interaction of nuclear Pfn1 with the SEC is functionally relevant to its anticancer activity, we examined the effect of NLS- or NES-tagged YFP-Pfn1 on MYC expression by qRT-PCR (Figures 6A, 6B, S7A, and S7B). NLS-Pfn1(WT), but not NES-Pfn1(WT), significantly decreased MYC mRNA levels in both breast cancer cell lines and untransformed MCF-10A cells. The PLP-binding defective NLS-Pfn1(S137D) did not inhibit MYC expression, instead slightly increasing its levels (Figures 6B and S7B). Similarly, MYC mRNA levels were decreased by XPO6 knockdown, and the effect was rescuable by XPO6(RNAi-Res) (Figures 6C and S7C). Analyzing tumors from the MCF-7 xenograft experiment (Figure 3) showed that MYC mRNA downregulation by XPO6 knockdown also occurred in vivo (Figure 6D).",
+        "annotations": [
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "24": {
+        "text": "To causally link Pfn1 to MYC reduction by XPO6 knockdown, we used the Pfn1-null mouse chondrocytes described in Figures 4C and 4D. Consistent with nuclear Pfn1 mediating the effect of XPO6 knockdown, we observed no inhibition of MYC expression by XPO6 knockdown in the absence of Pfn1. However, MYC was inhibited when Pfn1 was re-expressed (Figure 6E). Conversely, Pfn1 knockdown significantly increased MYC mRNA levels (Figure 6F).",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            }
+        ]
+    },
+    "25": {
+        "text": "We next sought for clinical evidence in the TCGA datasets for transcriptional inhibition of MYC by nuclear Pfn1. We found a positive correlation between MYC and XPO6 mRNA levels (Spearman correlation coefficient rho > 0) in 25 out of 32 cancer types, with 15 (including breast cancer) being statistically significant (Figure 6G; Table S3). Among the 15 cancer types, rho values forXPO6 and MYC range from 0.1 to 0.46. The rho for breast cancer is 0.15, ranking XPO6 within the top 16% of all genes positively correlated with MYC (Figure S7D). As a control, we detected positive correlations between MYC and BRD4 (positive regulator of MYC) in 28 out of 32 tumor types, with 15 being statistically significant (Figure 6G). Correlation coefficients for MYC and BRD4 range from 0.1 to 0.41, comparable to those for MYC andXPO6 (Table S3). As an additional control, we detected positive correlations between MYC and its target gene NCL in all 32 tumor types, with 30 being statistically significant (rho, 0.04-0.67) (Figure 6G; Table S3).",
+        "annotations": [
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "BRD4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "137685"
+            },
+            {
+                "entity_text": "NCL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136488"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "26": {
+        "text": "Next, we performed chromatin IP (ChIP) using MCF-7 cells to determine whether the inhibitory effect of nuclear Pfn1 on MYC transcription was due to decreased chromatin occupancy of SEC. Using antibodies for ENL, Cdk9, and cyclin T1 and MYC-specific primers, we detected significant inhibition of chromatin occupancy of the SEC by both NLS-Pfn1(WT) and XPO6 knockdown (Figures 6H and 6I). Consistent with the importance of PLP binding in Pfn1/SEC interaction, NLS-Pfn1(S137D) failed to inhibit SEC chromatin occupancy. Instead, it increased SEC occupancy at the MYC gene locus, mirroring its effect on MYC mRNA levels and indicating a dominant-negative effect. Since the SEC promotes gene transcription by phosphorylating Ser2 of Rpb1, we performed ChIP for p-Rpb1(Ser2). Reduced p-Rpb1(Ser2) levels were observed at the MYC locus by NLS-Pfn1(WT) expression and XPO6 knockdown (Figures 6H and 6I). The inhibitory effect of nuclear Pfn1 on MYC occupancy of the SEC and p-Rpb1(Ser2) was similarly induced by untagged Pfn1 in a PLP-binding dependent fashion (Figure S7E). Conversely, Pfn1 knockdown increased MYC occupancy of the SEC and p-Rpb1(Ser2) (Figure S7F). Further, H3K36me3, a positive transcriptional marker depending on transcriptional elongation by p-Rpb1(Ser2), was significantly decreased at the MYC locus by NLS-Pfn1(WT) and XPO6 knockdown (Figures 6H and 6I). These data suggest that nuclear Pfn1, increased by XPO6 loss, inhibits the transcription of MYC by blocking chromatin recruitment of SEC and the consequent Ser2 phosphorylation of RNA Pol II necessary for transcription elongation.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Cdk9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55566"
+            },
+            {
+                "entity_text": "cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Rpb1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "721"
+            },
+            {
+                "entity_text": "RNA Pol II",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "7178"
+            },
+            {
+                "entity_text": "PLP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011732"
+            }
+        ]
+    },
+    "27": {
+        "text": "XPO6 loss triggers anticancer transcriptomic changes and sensitization to BET inhibition",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "BET",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "26722"
+            }
+        ]
+    },
+    "28": {
+        "text": "To understand the broader transcriptional impact of nuclear Pfn1, we performed RNA-seq using XPO6 knockdown/rescue MCF-7 cells. We first performed gene set enrichment analysis (GSEA) using the differential expression values (fold change of shXPO6 versus shLUC) of all detected genes in XPO6(WT) or XPO6(RNAi-Res) cells. Using the well-annotated hallmark gene sets in the Molecular Signatures Database (MSigDB), we observed significant enrichment in nine gene sets (Figures 7A, S8A, and S9; Table S4A). Notably, all nine gene sets are negatively enriched by XPO6 knockdown, reflecting gene downregulation, and insignificant in the XPO6(RNAi-Res) cells (Figures 7A, S8A, and S9; Table S4A), confirming that the effects are due to XPO6 loss. Among them, the first and third highest-ranked gene sets by normalized enrichment score are MYC targets V1 and V2. We further confirmed this by examining the transcript levels of NCL, a known MYC-activated gene, and HMOX1, a known MYC-repressed gene, which were inhibited and promoted by XPO6 knockdown, respectively (Figure 7B). In addition to MYC targets, reduced expression of multiple known SEC target genes as a result of XPO6 knockdown in XPO6(WT) but not XPO6(RNAi-Res) cells was detected by RNA-seq and validated by qRT-PCR (Figure 7C). The additional hallmark gene sets in which shXPO6-induced differentially expressed (DE) genes were negatively enriched include E2F targets, epithelial mesenchymal transition, unfolded protein response, MTORC1 signaling, oxidative phosphorylation, reactive oxygen species pathways, and adipogenesis, all of which were rescued by XPO6(RNAi-Res) (Figures S8A and S9; Table S4A). This indicates that XPO6 loss inhibits a multitude of cancer-driving processes related to proliferation, metastasis, and metabolism.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "NCL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136488"
+            },
+            {
+                "entity_text": "HMOX1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31075"
+            },
+            {
+                "entity_text": "MTORC1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31221"
+            },
+            {
+                "entity_text": "metastasis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009362"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "reactive oxygen species",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017382"
+            }
+        ]
+    },
+    "29": {
+        "text": "To investigate this further, we performed pathway analyses for statistically significant shXPO6-induced DE genes (adjusted p value < 0.05). Using Gene Ontology (GO) and several MSigDB gene sets, we detected, specifically in the XPO6(WT) cells, statistically significant downregulation of five additional MYC target gene sets besides the two hallmark MYC targets V1 and V2 (Figure 7D). Consistent with the GSEA results, we also detected significant downregulation of multiple gene sets related to proliferation, metastasis, transcription, and translation (Figure 7D; Table S4B). In addition, we detected significant downregulation of multiple stem-cell-related gene sets and EZH2-stimulated genes, accompanied by the upregulation of EZH2-repressed genes bearing the H3K27me3 mark (Figure S8B). Thus, XPO6 loss triggers transcriptomic changes indicative of the suppression of multiple phenotypic aspects of cancer.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "EZH2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "37926"
+            },
+            {
+                "entity_text": "metastasis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009362"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "30": {
+        "text": "The SEC and BET families of bromodomain-containing proteins have similar functions in promoting oncogenic transcription by independently binding p-TEFb and phosphorylating Ser2 of RNA Pol II. It was recently reported that SEC inhibition via ENL deletion sensitizes leukemia cells to the BET inhibitor JQ1. Since nuclear Pfn1 inhibits SEC function, we asked whether it could sensitize cancer cells to JQ1. Indeed, XPO6 knockdown (Figure S10A) and KO (Cas9n, Figure S10B; Cas9, Figure 7E) both rendered the triple-negative MDA-MB-231 cells, known to depend on Brd4 function, more sensitive to JQ1 in vitro. To confirm this in vivo, we orthotopically injected MDA-MB-231 cells infected with control or two different sgXPO6 viruses in female nude mice. When the average tumor volumes in each group reached ~70 mm3, we randomly divided and treated them daily with vehicle or JQ1 for 3 weeks. Control cells formed tumors significantly faster (by 2 weeks) at a higher frequency (90% versus 50% of injection sites) than the XPO6 KO cells (Figure 7F). Because of the low tumor take rate of XPO6 KO cells, the two sgXPO6 groups were combined for data analysis to increase statistical power. Statistically significant tumor inhibition by JQ1 was observed at multiple time points post-treatment in the sgXPO6 group but not the control group (Figure 7F), and the relative difference in tumor volumes between JQ1 and vehicle-treated mice was significantly larger in the sgXPO6 group than the control group (Figure 7G). Notably, XPO6 protein levels remained low in the resected tumors of the sgXPO6 groups but visibly higher than the levels prior to mouse inoculation (Figures S10C and S10D). This indicates a selection pressure during in vivo expansion to restore XPO6 expression or the amplification of a small fraction of tumor cells with inefficient XPO6 KO. Regardless, our data demonstrate that in addition to being a therapeutic target on its own, XPO6 may be inhibited to enhance the anticancer efficacy of BET inhibitors.",
+        "annotations": [
+            {
+                "entity_text": "BET",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "26722"
+            },
+            {
+                "entity_text": "RNA Pol II",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "7178"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Brd4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "137685"
+            },
+            {
+                "entity_text": "tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "leukemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007938"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "31": {
+        "text": "An emerging paradigm of non-oncogene addiction in cancer is altered nucleocytoplasmic protein trafficking caused by aberrant expression of nuclear transporters. Here, we focused on the highly selective nuclear exporter XPO6, whose only known cargo is the dimeric actin/Pfn complex. Despite the largely unexplored role of XPO6 in cancer, we were intrigued by the long-standing paradox regarding the opposing cellular functions of its cargo Pfn1. Although the essentiality of Pfn1 explains the extreme rarity of its loss-of-function mutations in cancer, both its clinical relevance and anticancer mechanism remain poorly defined. Adding to the complexity are the inconsistent patterns of Pfn1 expression changes in cancer. Our earlier report indicated that cell nucleus might be the spatial origin of Pfn1's anticancer function. Work in this paper supports this theory and suggests that Pfn1 is deregulated in cancer primarily on the protein level through nuclear exclusion caused by XPO6 upregulation. This model not only reconciles the paradoxical Pfn1 functions that co-exist in normal cells, but also explains how cancer cells can specifically inhibit the anticancer activity of Pfn1 without compromising its essential cytoplasmic function.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1974"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "32": {
+        "text": "By analyzing publicly available human cancer data, we detected widespread upregulation of XPO6 mRNA within numerous tumor types. For breast cancer, this does not depend on stage or subtype, indicating that XPO6 upregulation may be an early and prevalent cancer-associated event. High levels of XPO6 mRNA and protein correlate with poor breast cancer survival. Interestingly, our analyses suggested that XPO6 level is preferentially associated with the survival of lymph-node-positive breast cancer patients. While this implies a greater impact of XPO6 on invasive breast cancer, we did not observe a correlation between XPO6 and breast cancer progression using the TCGA dataset. Nonetheless, this possibility may be further tested in the future using independent datasets.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "invasive breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "lymph-node-",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000072717"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "33": {
+        "text": "In support of patient data, we showed that XPO6 loss caused growth inhibition of multiple breast cancer cell lines, regardless of subtype, and two sarcoma cell lines in vitro. This was confirmed in vivo using orthotopically implanted MCF-7 cells. In our experimental systems, cell-cycle inhibition appears to be a major factor underlying the anticancer effect of XPO6 loss. This supports prior findings that Pfn1, the cargo of XPO6, causes cell-cycle arrest in breast cancer cells. Intriguingly, XPO6 loss did not trigger detectable growth inhibition of the untransformed mammary epithelial MCF10A cells. However, the growth inhibition by XPO6 knockdown in the mouse chondrocytes indicates that tolerability of XPO6 inhibition by healthy cells may depend on their tissue origins and contexts. This will be an important question to address in future studies.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "sarcoma",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012509"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "34": {
+        "text": "By discovering the interaction between Pfn1 and the SEC, we defined a molecular function of nuclear Pfn1 and linked it directly to cancer. The SEC has been extensively studied for its role in productive transcriptional elongation. Its cancer relevance has long been implicated by the frequent fusion between its different components and the MLL oncogene in childhood leukemia. A recent study showed that MLLT1 (encoding ENL) mutations are causally linked to Wilms tumors. Even in the absence of genetic aberrations, the SEC is important for cancer due to its positive regulation of processive transcription of various pro-cancer genes, most notably MYC. ENL was recently identified as an acetyl-lysine-binding protein, joining the BET family proteins as an epigenetic reader. This supports the idea that the SEC and BET proteins play similar, albeit non-identical, roles in recruiting p-TEFb to acetylated chromatin regions to drive transcription. This is consistent with the finding that ENL depletion in leukemia cells inhibited Cdk9 chromatin recruitment. As for negative regulators of p-TEFb, for nearly two decades the 7SK small nuclear ribonucleoprotein (snRNP) complex remains its only known inhibitor. However, it is unknown whether p-TEFb can be inhibited outside of 7SK snRNP, especially when it is bound with positive regulators. We show that nuclear Pfn1 interacts with the SEC, via direct binding to the PLP motif in ENL, and reduces SEC chromatin occupancy at the MYC locus. This is associated with decreased levels of p-Rpb1(Ser2) (indicative of lower p-TEFb activity) at the MYC gene locus and downregulation of its expression. Interestingly, separate SECs exist containing either ENL or AF9 that occupy the same region in the scaffold protein AFF4. The absence of a PLP motif in AF9 may explain why it was not detected as a binding partner of nuclear Pfn1. Thus, we have identified nuclear Pfn1 as a negative regulator of p-TEFb in the context of ENL-containing SEC.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "MLL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4338"
+            },
+            {
+                "entity_text": "MLLT1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "BET",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "26722"
+            },
+            {
+                "entity_text": "Cdk9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55566"
+            },
+            {
+                "entity_text": "Rpb1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "721"
+            },
+            {
+                "entity_text": "AF9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "37933"
+            },
+            {
+                "entity_text": "AFF4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "8683"
+            },
+            {
+                "entity_text": "PLP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011732"
+            },
+            {
+                "entity_text": "leukemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007938"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Wilms tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009396"
+            }
+        ]
+    },
+    "35": {
+        "text": "Consistent with our hypothesis that the pro-cancer effect of XPO6 stems from its ability to reduce nuclear Pfn1 level, XPO6 loss causes a similar inhibition of SEC occupancy at the MYC gene locus and MYC expression. Importantly, both the inhibitory effects of XPO6 loss on MYC expression and cancer cell growth are abolished when Pfn1 is absent, suggesting that it is the nuclear accumulation of Pfn1, rather than actin, that underlies these effects. This is consistent with the positive regulation of general transcription by nuclear actin. In fact, in Pfn1-null mouse chondrocytes, XPO6 loss causes a small, but reproducible, increase in MYC expression and cell growth. Since actin can be exported by XPO6, albeit less efficiently, in the absence of Pfn1, this functionally separates nuclear Pfn1 and actin with regard to their roles in gene regulation. The inhibitory effect of XPO6 loss on the SEC was further confirmed by genome-wide transcriptomic analysis, which showed significant downregulation of multiple MYC target gene sets and known SEC target genes. Since the SEC both promotes MYC expression as a target gene and functionally collaborates with MYC as a transcription factor, the mechanism behind the inhibition of MYC target genes by nuclear Pfn1 could be 2-fold. The significant downregulation of genes involved in proliferation (e.g., E2F targets) and metastasis (e.g., EMT) by XPO6 loss is consistent with the known anti-proliferative and anti-metastatic effects of Pfn1 in different tumor models and suggests that these effects originate, at least partially, from its nuclear function as an inhibitor of SEC-dependent transcription. It was intriguing to observe the significant downregulation of additional gene sets, as a result of XPO6 loss, that are functionally associated with diverse cellular processes including protein translation, oxidative phosphorylation, and adipogenesis as well as those associated with reactive oxygen species pathways and stem cell signatures, all of which have been positively linked to MYC activation. Consistent with the role of the SEC as a transcriptional activator, nearly all the significantly enriched gene sets and biological pathways represent downregulated genes due to XPO6 loss. The only notable exception was an upregulation of two H3K27me3 gene sets representing repressed target genes of the oncogenic histone methyltransferase EZH2, which coincide with a downregulation of its activated target genes. It was previously shown that MYC stimulates EZH2 expression both transcriptionally as a target gene and post-transcriptionally by repressing its negative regulator miR-26. Thus, the effect of XPO6 loss on EZH2 function may be similarly, and at least partially, caused by MYC repression due to SEC inhibition.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "EZH2",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "37926"
+            },
+            {
+                "entity_text": "reactive oxygen species",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017382"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "metastasis",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009362"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "36": {
+        "text": "The diverse transcriptional effects and robust antitumor effects triggered by XPO6 loss provide orthogonal validation of recent findings that targeting the SEC, either by ENL deletion or by disrupting AFF4/CycT1 interaction, achieved significant anticancer effects. Among various therapeutic implications, the parallel functions of ENL (in the context of the SEC) and BET proteins as acetyllysine-specific epigenetic readers motivated us to test the influence of XPO6 loss on the anticancer effects of JQ1. Consistent with a recent report that ENL depletion sensitizes leukemia cells to JQ1, we observed increased growth inhibition by JQ1 of the triple-negative breast cancer cell line MDA-MB-231 with XPO6 loss. Given the intensive efforts to find synthetic lethal partners of BET proteins to more effectively treat cancer, our data provide important proof-of-concept that XPO6 may be a potentially useful target in this regard.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "AFF4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "8683"
+            },
+            {
+                "entity_text": "CycT1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "BET",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "26722"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "leukemia",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007938"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "37": {
+        "text": "In summary, we discovered that XPO6 upregulation is a previously unrecognized cancer driver event. By finding that nuclear Pfn1, the cargo of XPO6, is a physical binding partner and functional inhibitor of the SEC, we defined a moonlighting function of nuclear Pfn1 in transcriptional repression that is mechanistically linked to its poorly understood anticancer function. Our work highlights the importance of subcellular localization in protein function and the oncogenic effects of protein spatial deregulation that may arise due to aberrant expression of nucleocytoplasmic transporters. Future studies to expand our knowledge of spatially dynamic, multi-functional proteins such as Pfn1 are warranted and will likely unveil hidden biology, as well as therapeutic opportunities to treat cancer.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "38": {
+        "text": "All cell lines except for mouse chondrocytes were purchased from ATCC and authenticated and tested for mycoplasma. MCF-10A cells were grown in DMEM/F12 plus 5% or 10% horse serum and supplements (50 mug/mL gentamycin, 20 ng/mL EGF, 0.5 mg/mL hydrocortisone, 100 ng/mL cholera toxin, and 10 mug/mL insulin). HuMEC cells were cultured using the MammaryLife Medium complete kit (Lifeline Cell Technology, CA, cat #LL-0061). MCF-7 and T47D cells were grown in RPMI 1640 plus 5% or 10% fetal bovine serum (FBS) and supplements (50 mug/mL gentamycin, 1mM sodium pyruvate, 10 mM HEPES and glucose to 4.5 g/L). MDA-MB-231, BT-549, CAMA-1, HCC70, HEK293T, and mouse chondrocytes were grown in high glucose DMEM plus 5% or 10% fetal bovine serum and 50 mug/mL gentamycin. SK-UT-1 and SK-LM-1 were grown in MEM plus 10% fetal bovine serum and 50 mug/mL gentamicin.",
+        "annotations": [
+            {
+                "entity_text": "EGF",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1483"
+            },
+            {
+                "entity_text": "HEPES",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006531"
+            },
+            {
+                "entity_text": "gentamycin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005839"
+            },
+            {
+                "entity_text": "gentamicin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005839"
+            },
+            {
+                "entity_text": "hydrocortisone",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006854"
+            },
+            {
+                "entity_text": "glucose",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005947"
+            },
+            {
+                "entity_text": "F12",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C007782"
+            }
+        ]
+    },
+    "39": {
+        "text": "All animal experiments were performed in accordance with the guidelines recommended by the National Institutes of Health. 4-week old female NU/NU nude mice were purchased from Charles River and kept for one week under standard institutional care. For ER-positive MCF-7 cells, estrogen pellets (17beta estradiol, 0.75 mg/pellet, 90 days release; Innovative Research of America, Sarasota, FL) were implanted subcutaneously a day before tumor cell implantation. MCF-7 cells stably expressing XPO6(WT) and XPO6 (RNAi-Res) and infected with shLUC or shXPO6#3, were trypsinized, washed with and re-suspended in Hank's balanced salt solution (HBSS), and mixed at a 1:1 ratio with Matrigel (356237, BD Biosciences). 5 x 106 (in 75 mul) cells were injected bilaterally into the 4th mammary glands of each mouse (6 mice/group). For ER-MDA-MB-231 cells stably infected with lentiCRISPRv2.0 lacking (control) or containing sgXPO6 #1 or #3, 1.7 x 106 in 75 mul were injected bilaterally into the 4th mammary fad pads of female nude mice without estrogen pellets (10 mice per group). Tumor volumes were measured bi-weekly by Caliper. Tumor volumes were calculated using the formula: tumor volume [mm3] = 1/2 x (tumor length) x (tumor width)2 . For MCF-7 cells, the experiment was terminated at 11 weeks post injection when the largest tumors reached around 1.5cm in diameter. For MDA-MB-231 cells, mice in each group were randomly divided into vehicle and JQ1 treatment groups (3-5 mice per group depending on the numbers of tumor-bearing mice) when the average tumor volume reached approximately 70mm3. JQ1 (S7110, Selleckchem) was freshly prepared each day by diluting 10x stock solution (0.5 mg/6 mul, 83.3mg/ml, in DMSO) into 1x working solution (0.05 mg/6 mul) using vehicle (10% hydroxypropyl beta cyclodextrin in 0.9% sodium chloride). Mice received intraperitoneal injection of equal volume of vehicle or JQ1 at a daily dose of 50mg/kg for three weeks, during which tumors were measured semiweekly. Mice were euthanized and tumors were resected, weighed, and saved for further analyses.",
+        "annotations": [
+            {
+                "entity_text": "ER",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "47906"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "17beta estradiol",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004958"
+            },
+            {
+                "entity_text": "hydroxypropyl beta cyclodextrin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000073738"
+            },
+            {
+                "entity_text": "DMSO",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004121"
+            },
+            {
+                "entity_text": "sodium chloride",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012965"
+            }
+        ]
+    },
+    "40": {
+        "text": "Primary antibodies used for western blot are as follows: rabbit anti-XPO6 (Thermo Fisher, #PA5-31813), mouse anti-RPb1(CTD) (Cell Signaling, #2629), rabbit anti-Cdk9 (Cell Signaling, #2316), rabbit anti-cyclin T1 (Cell Signaling, #81464), rabbit anti-GFP (Cell Signaling, #2956), rabbit anti-Histone H3 (Cell signaling, #4499), rabbit anti-Pfn1 (Cell signaling, #3237; Abcam, ab124904, Sigma, P7624), rat anti-GFP (Biolegend, 338002), rabbit anti-ENL (Bethyl lab, A302-268A), mouse anti-GAPDH (Santa cruz, sc-47724), rabbit anti-GAPDH (Cell Signaling, # 5174), mouse anti-alpha-tubulin (Santa Cruz, sc-5286). mouse anti-beta-actin (Santa Cruz, sc-47778), rabbit anti-p-Rb(Ser795) (Cell Signaling, #9301), mouse anti-E2F-1 (Santa Cruz, sc-56661), rabbit anti-Cyclin D1 (Cell Signaling, #2978) antibodies. Primary antibodies for ChIP include rabbit anti- p-Rpb1(Ser2) (CTD) (Cell Signaling, #13499), rabbit anti-Cdk9 (Cell Signaling, #2316), rabbit anti-cyclin T1 (Cell Signaling, #81464), rabbit anti-ENL (Bethyl lab, A302-268A), rabbit anti-H3K36me3 (Cell Signaling, #4909) antibodies. Primary antibodies used for immunoprecipitation are as follows: mouse anti-GFP (DSHB, #12E6), GFP-Trap agarose (Chromotek, Cat # gta-20), rabbit anti-ENL (Bethyl lab, A302-267A), mouse anti-cyclin T1 (Santa Cruz, sc-271575), control IgG (Santa Cruz, sc-2027 and sc-2025). Mouse anti-BrdU antibody for immunofluorescence staining (B2531) was purchased from Sigma. Primary antibodies for immunofluorescence staining include rabbit anti-Pfn1 (Abcam, ab124904). Antibodies for immunohistochemistry include rabbit anti-Ki67 (Santa Cruz, sc-15402), rabbit anti-p-Rb(Ser795) (Cell Signaling, #9301) antibodies. Secondary antibodies for western blots are horseradish peroxidase-conjugated anti-rabbit (Cell Signaling, #7074), anti-mouse (Cell Signaling, #7076), and anti-rat (Cell Signaling, #7077) antibodies. Secondary antibodies for immunofluorescence are Alexa Fluor 488-conjugated goat anti-mouse or rabbit IgG (H+L) (Invitrogen, A-11029 and A-11008). Secondary antibodies for immunohistochemistry are SignalStain Boost IHC Detection Reagents (Cell Signaling, #8114 and #8125).",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "RPb1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "721"
+            },
+            {
+                "entity_text": "Cdk9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55566"
+            },
+            {
+                "entity_text": "cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "Histone H3",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "133885"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "GAPDH",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "107053"
+            },
+            {
+                "entity_text": "beta-actin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "110648"
+            },
+            {
+                "entity_text": "p-Rb",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "272"
+            },
+            {
+                "entity_text": "E2F-1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3828"
+            },
+            {
+                "entity_text": "Cyclin D1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1334"
+            },
+            {
+                "entity_text": "Rpb1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "721"
+            },
+            {
+                "entity_text": "Ki67",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1814"
+            },
+            {
+                "entity_text": "Alexa Fluor 488",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C000711379"
+            },
+            {
+                "entity_text": "BrdU",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001973"
+            }
+        ]
+    },
+    "41": {
+        "text": "Three shRNAs targeting human XPO6, a shRNA targeting luciferase (Zhu et al., 2020), and a shRNA targeting human ENL in the lentiviral pLKO.1 vector were purchased from Sigma. XPO6 cDNAin the lentiviral vector pEZ-Lv151 was purchased from GeneCopoeia (# EX-W2830-Lv151). Silent mutations resistant to shXPO6 #3 (GGAAAGGTTGGTC to AGAGCGCCTCGTG) were introduced by Genewiz between nucleotides 1861-1877 in theXPO6 cDNA (numbering after ATG). Two shRNAs targeting human Pfn1 and a scrambled shCTRL were cloned in the lentiviral pFLRu-FH vector. Silent mutations resistant to shPFN1 #1 and #2 were introduced in human Pfn1 cDNA by QuickChange: AGC to TCG (nucleotide 253-255) and TTG to CTC (nucleotide 367-369). Paired guide RNAs specific for human XPO6 gene used with Cas9 (D10A) nickase (Cas9n) were designed using E-CRISP (http://www.e-crisp.org/E-CRISP/). Oligonucleotides for four pairs of sgRNAs were synthesized, each pair consisting of two annealed oligonucleotides whose target sequences in XPO6 are <= 20 base pairs apart. Following oligo annealing, they were inserted into the BbsI sites of the pSpCas9n(BB)-2A-Puro vector (PX462, Addgene 48141). Single guide RNAs for human XPO6 used with wild-type Cas9 were similarly designed, and cloned into the BsmBI site in the lentiCRISPRv2.0 vector (Addgene #52961).",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "oligonucleotides",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009841"
+            },
+            {
+                "entity_text": "Oligonucleotides",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009841"
+            }
+        ]
+    },
+    "42": {
+        "text": "For gene editing with the Cas9(D10A) nickase, MDA-MB-231 cells were transfected at 80%-90% confluence in 24-well plates with 1.0mug pSpCas9n(BB)-2A-Puro (expressing Cas9n) alone or individual pairs of XPO6-targeting gRNAs (#1-4) in the same vector (0.5/0.5mug) with 3mul lipofectamine 2000. Transfected cells were treated with 1 mug/ml puromycin for 3-4 days till the untransfected cells died off. To obtain single clones, pooled cells were diluted to less than 1 cell per 100mul, and 100mul were plated in each well in a 96-well plate to minimize the likelihood of having > 1 cell per well. Visually confirmed single cells were expanded, confirmed for XPO6 loss, and used for further experiments. For gene editing with wild-type Cas9, MDA-MB-231 and MCF-7 cells were infected with lentiviral particles consisting of empty lentiCRISPRv2 or the same vector with individual XPO6-targeting sgRNAs. Viral production has been described previously.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "lipofectamine 2000",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C086724"
+            },
+            {
+                "entity_text": "puromycin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011691"
+            }
+        ]
+    },
+    "43": {
+        "text": "Proliferation assays were performed by seeding approximately 500 cells/well in 96-well plates, followed by quantification by Alamar blue assay on a fluorescence plate reader on day 1 and subsequent time points as indicated in the specific experiments. Relative effects of shXPO6 knockdown were expressed as % decrease in the growth rates (day n/day 1) of shXPO6-infeceted cells relative to shLUC-infected cells. Colony formation assays were performed by seeding approximately 500 cells/well in 6-well plates (or proportionally in 12-well or 24-well plates) and cultured for 9-12 days in the absence or presence of different drugs. Cells were quantified by Alamar blue prior to fixation with 4% paraformaldehyde for 15min and staining with 0.005% crystal violet for 2h. Colonies were imaged and quantified for percentages of occupied areas in the wells by ImageJ.",
+        "annotations": [
+            {
+                "entity_text": "crystal violet",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005840"
+            },
+            {
+                "entity_text": "Alamar blue",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C005843"
+            },
+            {
+                "entity_text": "paraformaldehyde",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C003043"
+            }
+        ]
+    },
+    "44": {
+        "text": "Standard double thymidine block (2mM thymidine, 18hr first block, 9hr release, 16hr second block) and DNA content analysis by propidium iodide staining and flow cytometry were conducted. Cell cycle analysis was performed using the univariate Watson model of FlowJo.",
+        "annotations": [
+            {
+                "entity_text": "thymidine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013936"
+            },
+            {
+                "entity_text": "propidium iodide",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011419"
+            }
+        ]
+    },
+    "45": {
+        "text": "Nuclear lysates of approximately 20 x 106 MDA-MB-231 cells were prepared using the NE-PER Nuclear and Cytoplasmic Extraction kit (Thermo Scientific, PI78833) according to the manufacturer's protocol. Nuclear lysates were diluted 2x with 10mM Tris-HCl, pH 7.4 in 0.5% Triton X-100,1x protease (#A32955, ThermoFisher) and phosphatase (#A32957, ThermoFisher) inhibitors, quantified by the Bradford assay, and equal amounts were mixed with ~50mul GFP-Trap agarose beads (Cat # gta-20, Chromotek) to capture YFP and YFP-tagged NLS-Pfn1(WT versus S137D). After binding at 4 C for 4 hr, beads were washed four times with 10mM Tris-HCl, pH 7.4,150mM NaCl, 0.5% Triton X-100. Proteins were eluted by SDS sample buffer and subjected to filter-aided sample preparation (FASP) and trypsin digestion. Briefly, 30 mul samples were mixed with 200 mul UA buffer consisting of 8M urea (Sigma, U5128) in 0.1M Tris-HCl, pH 8.5, and added to Microcon YM-30 filter units (Millipore, MRCF0R030). Samples were spun for 15 min at 14,000 x g and washed twice with 100 mul UA buffer by centrifugation at the same speed for the same length of time. 100 muL of 50 mM iodoacetamide (freshly dissolved in UA buffer) were added, incubated for 20 min at 20 C in the dark. Samples were centrifuged at 14,000 x g for 10 min, washed twice with 100 mul UA buffer, and 60 muL of sequencing-grade trypsin (Sigma, #11418025001) (200-400 ng total) in 50mM ammonium bicarbonate was added to the filter units. Following overnight digestion at 37 C, samples were collected by centrifugation at 14,000 x g for 10 min. 50 mul of 0.5M NaCl was added to the filters, centrifuged at 14,000 x g for 10 min. Pooled eluates were acidified to 5% formic acid (FA), cleaned up by C18 zip-tips (# ZTC18S096, Millipore, and resuspended in 15 mul 1% formic acid/1% acetonitrile.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "NaCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012965"
+            },
+            {
+                "entity_text": "HCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006851"
+            },
+            {
+                "entity_text": "formic acid",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C030544"
+            },
+            {
+                "entity_text": "SDS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012967"
+            },
+            {
+                "entity_text": "agarose",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012685"
+            },
+            {
+                "entity_text": "ammonium bicarbonate",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C027043"
+            },
+            {
+                "entity_text": "iodoacetamide",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007460"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            },
+            {
+                "entity_text": "FA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005492"
+            },
+            {
+                "entity_text": "acetonitrile",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C032159"
+            },
+            {
+                "entity_text": "urea",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D014508"
+            }
+        ]
+    },
+    "46": {
+        "text": "Samples were analyzed by reverse-phase liquid chromatography-electrospray ionization-MS/MS using an Eksigent cHiPLC Nanoflex microchip system connected to a quadrupole time-of-flight TripleTOF 5600 mass spectrometer (ABSCIEX). The Nanoflex system uses replaceable microfluidic traps and columns packed with ChromXP C18(200um ID x 15cm, 3 mum particle, 120 A) for online trapping, desalting, and analytical separations. Solvents composed of water/acetonitrile/formic acid (A, 100/0/0.1%; B, 0/100/0.1%). A 200 ng to 1mug portion of sample was loaded (typically, 2-10 mul of sample was injected) into column with 98% mobile phase A. After online trapping, peptide mixtures were eluted into analytical column at a flow rate of 800 nL/min using the following gradient: (1) starting at 2% solvent B; (2) 2%-5% solvent B from 0 to 12 min; (3) 5%-22% solvent B from 12 to 120 min; (4) 22%-30% solvent B from 120 to 150 min; (5) 30%-80% solvent from 150 to 165 min; and finally 80%(vol/vol) solvent from 165 to 169 min with a total run time of 180 min including mobile phase equilibration. The LC column was maintained at 35 C during the run. For Data dependent acquisitions, mass spectra and tandem mass spectra were recorded in positive-ion and high-sensitivity mode. The nanospray needle voltage was typically 3,800 V. After acquisition of each sample, TOF MS spectra and TOF MS/MS spectra were automatically calibrated during dynamic LC-MS and MS/MS auto calibration acquisitions by injecting 50 fmol beta-galactosidase. For collision-induced dissociation tandem MS (CID-MS/MS), the mass window for precursor ion selection of the quadrupole mass analyzer was set to +- 1 m/z. The precursor ions were fragmented in a collision cell using nitrogen as the collision gas. Advanced information-dependent acquisition (IDA) was used for MS/MS collection on the TripleTOF 5600 to obtain MS/MS spectra for the 20 most abundant parent ions following each survey MS1 scan (allowing typically for 80 ms acquisition time per each MS/MS). Dynamic exclusion features were set to an exclusion mass width of 50 mDa and an exclusion duration of 30 s.",
+        "annotations": [
+            {
+                "entity_text": "beta-galactosidase",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "47922"
+            },
+            {
+                "entity_text": "water",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D014867"
+            },
+            {
+                "entity_text": "nitrogen",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009584"
+            },
+            {
+                "entity_text": "formic acid",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C030544"
+            },
+            {
+                "entity_text": "acetonitrile",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C032159"
+            }
+        ]
+    },
+    "47": {
+        "text": "For MCF-7 cells expressing YFP and NLS-YFP-Pfn1(WT and S137D), nuclear extracts were prepared using a modified Stillman protocol. Briefly, approximately 5 x 106 cells were lysed with 200 mul hypotonic buffer A (10 mM HEPES, pH 7.9,10 mM KCl, 1.5 mM MgCl2, 0.34 M Sucrose, 10% Glycerol, 1 mM DTT, 0.1% Triton X-100, Protease and phosphatase inhibitor cocktails) for 15min on ice, and centrifuged at 1,300 g for 5 min. After removing cytosol, nuclei were washed once with buffer A without Triton X-100, and lysed with 200 mul nuclear buffer (10mM HEPES, pH 7.0, 200mM NaCl, 1mM EDTA, 0.5% NP-40, and protease-inhibitor cocktail) for 10 min on ice followed by centrifugation at 13,000 g for 10 min. Clarified nuclear lysates were incubated with 2 mug of the GFP antibody (DSHB, #12E6) overnight at 4 C with rotation and mixed with 30 muL of the protein G beads (CST, #9007S) at 4 C for 1-2 hr. The beads were then washed 3-5 times with IP buffer (40 mM Tris-Cl, pH 7.5, 150 mM NaCl, 2mM EDTA, 0.5% Triton X-100,10% glycerol, and 1 mM DTT), and heated at 95 C in SDS sample buffer for 5 min. For parental and shLUC or shENL-infected MCF-7 cells, approximately 5 x 106 cells were lysed with 800mul RIPA buffer (EMD Millpore, 20-188) and centrifuged at > 15,000 g for 10 min. 350 mul of clarified lysates were incubated for 3 hr at 4 C with 20 muL of protein G magnetic Dynabeads (Thermo Fisher, 10004D), and 3 mug of normal IgG, ENL, or Cyclin T1 antibodies. Beads were washed 6 times with cold PBS + 0.02% Tween-20, followed by heating in SDS sample buffer. All samples were subsequently analyzed by SDS-PAGE and western blot analysis.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "glycerol",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005990"
+            },
+            {
+                "entity_text": "MgCl2",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D015636"
+            },
+            {
+                "entity_text": "NP-40",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C010615"
+            },
+            {
+                "entity_text": "Glycerol",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005990"
+            },
+            {
+                "entity_text": "Sucrose",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013395"
+            },
+            {
+                "entity_text": "Tween-20",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011136"
+            },
+            {
+                "entity_text": "SDS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012967"
+            },
+            {
+                "entity_text": "DTT",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004229"
+            },
+            {
+                "entity_text": "IP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C041508"
+            },
+            {
+                "entity_text": "HEPES",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006531"
+            },
+            {
+                "entity_text": "KCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011189"
+            },
+            {
+                "entity_text": "EDTA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004492"
+            },
+            {
+                "entity_text": "NaCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012965"
+            },
+            {
+                "entity_text": "PBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007854"
+            },
+            {
+                "entity_text": "A",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001151"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            }
+        ]
+    },
+    "48": {
+        "text": "For analyzing proteins in cell lysates by western blot, lysates were prepared using RIPA buffer (CST, #9806) supplemented with protease and phosphatase inhibitors and clarified by centrifugation at 15,000 g for 10min. After normalization using the Quick Start Bradford 1x Dye Reagent (Bio-Rad, #5000205), 1-10 mug denatured proteins were analyzed by SDS-PAGE and transferred to nitrocellulose membrane (Santa Cruz, sc-3718). Primary antibodies were incubated overnight at 4 C in TBS/0.1% Tween-20 containing 5% bovine serum albumin. Secondary antibodies were incubated at room temperature for 1-2 hr. Proteins were developed using the SuperSignal West Dura Extended Duration Substrate (34075, ThermoFisher) or West Femto Maximum Sensitivity Substrate (34096, ThermoFisher), and imaged on a Gel Doc XR imaging system (Bio-Rad). Band intensities were quantified by ImageLab.",
+        "annotations": [
+            {
+                "entity_text": "Tween-20",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011136"
+            },
+            {
+                "entity_text": "SDS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012967"
+            },
+            {
+                "entity_text": "TBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013725"
+            }
+        ]
+    },
+    "49": {
+        "text": "MCF-7 and MDA-MB-231 cells were incubated with growth media containing 10 muM BrdU for 1 hr and 30 min respectively at 37 C in the CO2 incubator. Cells were permeabilized by PBS/0.1% Triton X-100, denatured by 2M HCl for 30 min and neutralized by 0.1M sodium tetraborate for 2 min. Primary anti-Brdu antibody (1:200) and Alexa 488-conjugated secondary anti-mouse IgG (1:1000) were used for the immunofluorescence staining. Propidium Iodide (PI) (20 mug/ml) was used for nuclear staining.",
+        "annotations": [
+            {
+                "entity_text": "BrdU",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001973"
+            },
+            {
+                "entity_text": "Propidium Iodide",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011419"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            },
+            {
+                "entity_text": "PI",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010716"
+            },
+            {
+                "entity_text": "sodium tetraborate",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C010634"
+            },
+            {
+                "entity_text": "PBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007854"
+            },
+            {
+                "entity_text": "CO2",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002245"
+            },
+            {
+                "entity_text": "HCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006851"
+            }
+        ]
+    },
+    "50": {
+        "text": "1x 104 MCF-7 and MDA-MB-231 cells were seeded in 96-well plates, fixed with 4% para-formaldehyde for 15min, washed with PBS, permeabilized by PBS/0.1% Triton X-100 for 10 min, blocked for 30 min in 2% BSA/2% normal goat serum in PBS/0.1% Tween-20, and incubated with rabbit anti-Pfn1 antibody (1:1000) in the blocking buffer overnight at 4 C. Cells were washed three times with PBS/0.1% Tween-20, incubated with Alexa 488-conjugated goat anti-rabbit secondary antibody (Invitrogen #A-11008, 1:1000) and DAPI for 1hr at room temperature, and washed three times with PBS.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "DAPI",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C007293"
+            },
+            {
+                "entity_text": "PBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007854"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            },
+            {
+                "entity_text": "Tween-20",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011136"
+            },
+            {
+                "entity_text": "para-formaldehyde",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C003043"
+            }
+        ]
+    },
+    "51": {
+        "text": "Cell lines expressing YFP-Pfn1 or YFP-actin were grown in 96-well plates, fixed for 15min by 4% para-formaldehyde, washed and permeabilized as above, counterstained with DAPI, followed by PBS wash.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "DAPI",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C007293"
+            },
+            {
+                "entity_text": "PBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007854"
+            },
+            {
+                "entity_text": "para-formaldehyde",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C003043"
+            }
+        ]
+    },
+    "52": {
+        "text": "5 mum formalin-fixed and paraffin-embedded tumor tissues were subjected to standard IHC protocols. Briefly, tissues were rehydrated through serial washes with xylene and ethanol (100%, 95%, 80%, and 70%). Antigen was retrieved by heating tissues in Target Retrieval Solution Citrate pH 6.0 (Dako, #S2369) for 20 min followed by quenching with 3mM hydrogen peroxide for 10 min. After washing with TBST (TBS/0.1% Tween-20) and blocking with 5% normal goat serum in TBST for 1 hr at room temperature, tissues were incubated with primary antibodies (Ki67, 1:500; p-Rb(Ser795), 1:500) in blocking buffer at 4 C overnight, washed with TBST, incubated with HRP-conjugated secondary antibodies for 2 hr at room temperature, washed with TBST, and developed using the DAB peroxidase substrate kit (Vector Laboratories, #SK-4105).",
+        "annotations": [
+            {
+                "entity_text": "Ki67",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1814"
+            },
+            {
+                "entity_text": "p-Rb",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "272"
+            },
+            {
+                "entity_text": "Tween-20",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D011136"
+            },
+            {
+                "entity_text": "hydrogen peroxide",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006861"
+            },
+            {
+                "entity_text": "ethanol",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000431"
+            },
+            {
+                "entity_text": "TBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013725"
+            },
+            {
+                "entity_text": "paraffin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D010232"
+            },
+            {
+                "entity_text": "Citrate",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D019343"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "DAB",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C000469"
+            },
+            {
+                "entity_text": "formalin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005557"
+            },
+            {
+                "entity_text": "xylene",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D014992"
+            }
+        ]
+    },
+    "53": {
+        "text": "Total RNAs of cells grown in 12-well or 6-well plates were isolated using 250 or 500 mul TRIzol (Invitrogen) according to manufacturer's instruction. Total RNAs from tumor samples stored in RNAlater solution was isolated the same way. Residual DNA was digested with RNase-free DNase I (1 mug RNA/1 U enzyme) (ThermoFisher) for 37 C for 30 min. Complementary DNAs were synthesized from 2 mug RNA using the high capacity reverse transcription kit (4368814, ThermoFisher), and quantitative PCR was performed using the PowerUP SYBR Green Master Mix (A25743, Fisher Scientific) in accordance with the manufacturer's instruction on a CFX96 Touch Real-Time PCR Detection System (Bio-Rad). Relative mRNA levels for each gene of interest were obtained by normalizing to GAPDH mRNA levels using the comparative cycle threshold (Ct) method. Primers were designed using Primer-Blast at NCBI or based on published papers.",
+        "annotations": [
+            {
+                "entity_text": "GAPDH",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "107053"
+            },
+            {
+                "entity_text": "SYBR Green",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C098022"
+            },
+            {
+                "entity_text": "TRIzol",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C411644"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "54": {
+        "text": "1-2 x 107 cells were cross-linked with 1% formaldehyde for 10 min, quenched with 125mM glycine for 5 min, washed twice with cold PBS, and collected by scraping and centrifugation at 1,000 g for 5 min. Cells were resuspended in 750 mul lysis buffer (50mM Tris-HCl, pH 8.0, 10mM EDTA, 1% SDS, protease inhibitors), and sonicated using a Bioruptor Sonicator (Diagenode). Samples were centrifuged at 12,000 rpm for 10 min at 4 C, and supernatants containing ~25 mug total DNA were diluted 10 times with IP buffer (16.7 mM Tris-HCl pH 8.0, 167 mM NaCl, 1.2 mM EDTA, 0.01% SDS, 1.1% Triton X-100) and mixed with 2-4 mug antibodies overnight at 4 C. 20-60 mul protein G-conjugated dynabeads (10003D, Thermo Fisher) were added and incubated for 2 hr at 4 C, washed three times with 20mM Tris-HCl pH 8.0, 150 mM NaCl, 2mM EDTA, 1% Triton X-100, 0.1% SDS, followed by one final wash with the same buffer with 500mM NaCl. DNAs were eluted from beads twice with 200 mul elution buffer (100mM NaHCO3, 1% SDS) each time for 15 min at room temperature, and the eluates were combined. NaCl was added to the DNAs at a final concentration of 0.3M, and samples were incubated at 65 C overnight to de-crosslink. 20 mg/ml proteinase K was added and incubated at 45 C for 2 hr. DNAs were extracted by phenol/chloroform (PI17909, Fisher Scientific), washed with 70% ethanol, dried, and resuspended in ~40 mul water. Quantitative PCR was performed as described for qRT-PCR. The comparative cycle threshold (Ct) method was used to determine enrichment relative to the level of input DNA (2%) or non-specific IgG control.",
+        "annotations": [
+            {
+                "entity_text": "SDS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012967"
+            },
+            {
+                "entity_text": "NaCl",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012965"
+            },
+            {
+                "entity_text": "IP",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C041508"
+            },
+            {
+                "entity_text": "chloroform",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D002725"
+            },
+            {
+                "entity_text": "formaldehyde",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D005557"
+            },
+            {
+                "entity_text": "Triton X-100",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017830"
+            },
+            {
+                "entity_text": "PBS",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D007854"
+            },
+            {
+                "entity_text": "EDTA",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D004492"
+            },
+            {
+                "entity_text": "phenol",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D019800"
+            },
+            {
+                "entity_text": "NaHCO3",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D017693"
+            },
+            {
+                "entity_text": "ethanol",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D000431"
+            },
+            {
+                "entity_text": "water",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D014867"
+            }
+        ]
+    },
+    "55": {
+        "text": "TCGA RNA-seq data (rnaseqv2_unc_edu_Level_3_RSEM_genes_normalized_data for all cancer types) were downloaded from Fire-Browse. These gene-level data had been previously quantified and normalized by TCGA with the RNASeqV2 pipeline using RNA-Seq by Expectation Maximization (RSEM). Data were analyzed by Python 3.8 for statistical significance with the Scipy, Pingouin, and Scikit Posthocs packages. Graphs were generated by GraphPad Prism 7.0. For Figures 1A and S6A and Tables S1A, S1B, and S1D, Mann-Whitney U non-parametric tests were used to calculate the statistical significance of the difference in XPO6 and Pfn1 mRNA levels between unmatched tumor and normal tissue samples. For Figures 1B and S6B and Table S1C, Wilcoxon Signed Rank non-parametric tests were used to calculate the statistical significance of the difference in XPO6and Pfn1 mRNA levels between paired tumor and adjacent normal samples. For Figure S1A, a non-parametric one-way ANOVA (Kruskal-Wallis) with Dunn's multiple comparison test was performed to analyze the difference in XPO6 mRNA levels among breast cancer PAM50 subtypes and normal tissues. For Figure 6G and Table S3, correlations between MYC mRNA level and those of XPO6, BRD4, and NCL in the various TCGA datasets were analyzed using Spearman's rank correlation coefficient. For hypothesis testing involving multiple comparisons, false discovery rate was controlled by using the Benjamini-Hochberg method. P and q values less than 0.05 were considered significant.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "BRD4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "137685"
+            },
+            {
+                "entity_text": "NCL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136488"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "56": {
+        "text": "Normalized, batch effect-corrected RNA-seq data from a study combining TCGA and GTEx datasets were retrieved from Figshare (https://figshare.com/articles/dataset/Data_record_3/5330593). For each of the 17 cancer types in Table S1B, RNA expression from TCGA tumor samples was compared to expression from a combined set of TCGA adjacent healthy samples and tissue-matching GTEx normal samples using Mann-Whitney U non-parametric tests. The Benjamini-Hochberg method was used to adjust p values. Data processing and hypothesis testing were performed using Python.",
+        "annotations": [
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "57": {
+        "text": "For Figures S1D and S6D, processed mass spectrometry data of 125 tumors and 18 normal samples in the Clinical Proteomic Tumor Analysis Consortium (CPTAC) Breast Cancer Confirmatory Study were downloaded from the CPTAC Data Portal (https://cptac-data-portal.georgetown.edu/). Raw data had been processed through the CPTAC Common Data Analysis Pipeline (CDAP) and provided as log2 transformed normalized values against a common pool of reference samples. Statistical significance of the difference in protein abundance between tumor and normal samples were calculated using the Mann-Whitney U or Wilcoxon Signed Rank non-parametric tests for unpaired or paired samples by GraphPad Prism 7.0. P values less than 0.05 were considered significant.",
+        "annotations": [
+            {
+                "entity_text": "tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "Breast Cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "58": {
+        "text": "Kaplan-Meier survival outcome analysis was performed using KM plotter (http://kmplot.com). For overall survival analysis of various TCGA datasets as undivided cohorts (Figures 1E and S6E) or stage-defined sub-cohorts (Figures 1F, 2A, and S6E), RNA-seq data and clinical information hosted by KM plotter were used. For overall and progression-free survival analysis of TCGA breast cancer patients divided based on lymph node and ER status (Figures S2B-S2D and S6F), RNA-seq data were downloaded from FireBrowse and curated clinical data were downloaded from the UCSC Xena Browser, and then imported into KM plotter for statistical analysis and graph generation using the web-based custom plotting function. For relapse-free survival of breast cancer patients in the GEO and EGA datasets (Figures S2E-S2H, S6G, and S6H), gene chip data and clinical information hosted at KM plotter were used. For overall survival analysis against proteomic data (Figures 1G and S6I), a published study consisting of mass spectrometry data and clinical information of 65 breast cancer patients available at KM plotter was used. For all analyses, median cutoff was chosen to split cohorts evenly into subgroups with high versus low mRNA or protein levels of XPO6 and Pfn1. For analyses using gene chip data, JetSet best probe sets for XPO6 and Pfn1 (Affimetrix ID 211982 and 200634) were selected. Log-rank tests were used to calculate p values.",
+        "annotations": [
+            {
+                "entity_text": "ER",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "47906"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "59": {
+        "text": "XPO6 upregulation occurs in cancer and associates with poor patient survival",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "60": {
+        "text": "(A) Pan-cancer XPO6 mRNA levels in the TCGA cohorts. Whiskers represent min-max. Mann-Whitney U non-parametric test was used to compare between normal and tumor samples for each cancer type. RSEM, RNA-seq by expectation maximization.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "61": {
+        "text": "(C) qRT-PCR of XPO6 mRNA levels in breast epithelial cell lines. One-way ANOVA and Dunnett's multiple comparisons tests were used to compare between MCF-10A and breast cancer cell lines. Data are mean +- SEM. **p < 0.01; ***p < 0.001; ****p < 0.0001.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "62": {
+        "text": "XPO6 is required for breast cancer cell growth in vitro",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "63": {
+        "text": "(E) MCF-7 cells expressing WT or RNAi-Res XPO6 were infected with shLUC or shXPO6 #3 and subjected to Western blot analysis. Lanes for the E2F1 blot were cropped and rearranged from the same blot (indicated by the black line). Relative growth effects of XPO6 knockdown were calculated by normalizing colony areas of shXPO6 versus shLUC cells. Data are mean +- SD of one representative experiment (triplicates per condition).",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "E2F1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3828"
+            }
+        ]
+    },
+    "64": {
+        "text": "XPO6 loss inhibits breast cancer growth in vivo",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "breast cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001943"
+            }
+        ]
+    },
+    "65": {
+        "text": "(A) MCF-7 cells expressing XPO6(WT) or XPO6(RNAi-Res) were infected with shLUC or shXPO6 #3 and inoculated in female nude mice (n = 6). Caliper measurement of tumors began at day 15. Two-way ANOVA and Sidak's multiple comparison tests were used to compare tumor volumes between shLUC and shXPO6 groups.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "tumors",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "66": {
+        "text": "(C and D) Three randomly selected tumors per group were immunostained for p-Rb(Ser795) (C) and Ki67 (D). Positive tumor cells from random fields of each image were normalized against total tumor cells stained by hematoxylin. Each dot represents 300-450 tumor cells. Scale bars, 100 mum.",
+        "annotations": [
+            {
+                "entity_text": "p-Rb",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "272"
+            },
+            {
+                "entity_text": "Ki67",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1814"
+            },
+            {
+                "entity_text": "tumor",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            },
+            {
+                "entity_text": "hematoxylin",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D006416"
+            }
+        ]
+    },
+    "67": {
+        "text": "Nuclear Pfn1 is required for the growth inhibitory effect of XPO6 loss",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            }
+        ]
+    },
+    "68": {
+        "text": "(A) MCF-7 cells expressing XPO6(WT) or XPO6(RNAi-Res) were infected with shLUC or shXPO6 #3 and subjected to immunofluorescence staining for endogenous Pfn1 and nuclear staining by DAPI. Representative images and quantitative analysis of nuclear versus cytoplasmic fluorescence intensity are shown. Over 500 cells per condition were analyzed. Data are mean +- SEM. p values were based on unpaired t tests. Scale bars, 20 mum.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            }
+        ]
+    },
+    "69": {
+        "text": "(C and D) Pfn1-null mouse chondrocytes were first infected with untagged Pfn1 (controlled by empty vector; C) or YFP-Pfn1 with or without an NES tag (controlled by YFP; D), followed by further infection with shLUC or shXPO6 #2 (recognizing mouse XPO6). Cells were subjected to western blot (Pfn1 antibody [C] and GFP antibody [D]) and growth analyses as described in (B).",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            }
+        ]
+    },
+    "70": {
+        "text": "(D) Interaction between the SEC and endogenous Pfn1 in MCF-7 cells. ENL and cyclin T1 were pulled down followed by western blot.",
+        "annotations": [
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            }
+        ]
+    },
+    "71": {
+        "text": "(E) Cyclin T1 pulldown from shLUC- versus shENL-infected MCF-7 cells, followed by western blot for endogenous Pfn1 and other proteins. In total, 50-fold-less input was used for the Pfn1 blot given the small fraction of nuclear Pfn1 (most in the cytoplasm) interacting with the SEC.",
+        "annotations": [
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "Cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            }
+        ]
+    },
+    "72": {
+        "text": "(C) qRT-PCR of XPO6 and MYC in MCF-7 cells expressing XPO6(WT) or XPO6(RNAi-Res) and infected with shLUC or shXPO6 (#3). p values were based on unpaired t test by comparing shLUC versus shXPO6 #3.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            }
+        ]
+    },
+    "73": {
+        "text": "(D) qRT-PCR of MYC in XPO6 KD/rescue MCF-7 xenograft samples (10 tumors/group, 2 technical replicates/tumor) from Figure 3. p values were based on unpaired t test.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            }
+        ]
+    },
+    "74": {
+        "text": "(E) qRT-PCR of MYC in Pfn1-null chondrocytes infected first with vector or Pfn1 and subsequently with shLUC or shXPO6 #2 (recognizing mouse XPO6). p values were based on unpaired t test.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            }
+        ]
+    },
+    "75": {
+        "text": "(F) qRT-PCR of MYC and Pfn1 in MCF-7 cells expressing Pfn1(WT) or Pfn1(RNAi-Res) and infected with scrambled shCTRL or shPFN1 #1 or #2. p values were based on unpaired t test by comparing shCTRL versus shPFN1.",
+        "annotations": [
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            }
+        ]
+    },
+    "76": {
+        "text": "(G) Correlations of MYC mRNA levels with XPO6, BRD4, and NCL in different TCGA datasets. The y axis represents Spearman's correlation coefficients (rho). Fifteen cancer types in which statistically significant positive correlations between XPO6 and MYC expression are shown (rho > 0; FDR q values < 0.05).",
+        "annotations": [
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "BRD4",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "137685"
+            },
+            {
+                "entity_text": "NCL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136488"
+            },
+            {
+                "entity_text": "cancer",
+                "type": "Disease",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D009369"
+            }
+        ]
+    },
+    "77": {
+        "text": "(H) ChIP using antibodies for ENL, cyclin T1, Cdk9, p-Rpb1(Ser2), and H3K36me3 from MCF-7 cells expressing YFP or YFP-NLS-Pfn1(WT or S137D) followed by MYC qPCR. p values were based on unpaired t test.",
+        "annotations": [
+            {
+                "entity_text": "cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "Cdk9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55566"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Rpb1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "721"
+            }
+        ]
+    },
+    "78": {
+        "text": "(I) ChIP using antibodies for ENL, p-Rpb1(Ser2), and H3K36me3 from MCF-7 cells infected with shLUC or shXPO6 #3 followed by MYC qPCR.",
+        "annotations": [
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Rpb1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "721"
+            }
+        ]
+    },
+    "79": {
+        "text": "XPO6 loss triggers anticancer transcriptomic effects and sensitization to BET inhibitor JQ1",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "BET",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "26722"
+            }
+        ]
+    },
+    "80": {
+        "text": "(A) RNA-seq using shLUC- or shXPO6-#3-infected MCF-7 cells expressing XPO6(WT) or XPO6(RNAi-Res). GSEA evaluating changes in the 50 hallmark gene sets induced by XPO6 knockdown. Shown are MYC targets V1 and V2 gene sets.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            }
+        ]
+    },
+    "81": {
+        "text": "(B and C) qRT-PCR validation of DE genes induced by XPO6 knockdown specifically in MCF-7 cells expressing XPO6(WT) but not XPO6(RNAi-Res). (B) XPO6 and MYC target genes NCL (activated) and HMOX1 (repressed) were analyzed. (C) Various known SEC target genes were analyzed. p values were based on unpaired t test by comparing shLUC versus shXPO6 for each gene.",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "MYC",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31092"
+            },
+            {
+                "entity_text": "NCL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "136488"
+            },
+            {
+                "entity_text": "HMOX1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "31075"
+            }
+        ]
+    },
+    "82": {
+        "text": "REAGENT or RESOURCE SOURCE IDENTIFIER   Antibodies   rabbit anti-XPO6 Thermo Fisher Scientific Cat#: PA5-31813; RRID:AB_2549286   mouse anti-RPb1(CTD) Cell Signaling Technology Cat#: 2629; RRID:AB_2167468   rabbit anti-cyclin T1 Cell Signaling Technology Cat#: 81464; RRID:AB_2799973   rabbit anti-Cdk9 Cell Signaling Technology Cat#: 2316; RRID:AB_2291505   rabbit anti-GFP Cell Signaling Technology Cat#: 2956; RRID:AB_1196615   rabbit anti-Histone H3 Cell Signaling Technology Cat#: 4499; RRID:AB_10544537   rabbit anti-Pfn1 Cell Signaling Technology Cat#: 3237; RRID:AB_2236990   rabbit anti-Pfn1 Abcam Cat#: ab124904; RRID:AB_10975882   rabbit anti-Pfn1 Sigma-Aldrich Cat#: P7624; RRID:AB_1079598   rat anti-GFP BioLegend Cat#: 338002; RRID:AB_1279414   rabbit anti-ENL Bethyl Cat#: A302-268A; RRID:AB_1731006   mouse anti-GAPDH Santa Cruz Biotechnology Cat#: sc-47724; RRID:AB_627678   rabbit anti-GAPDH Cell Signaling Technology Cat#: 5174; RRID:AB_10622025   mouse anti-alpha-tubulin Santa Cruz Biotechnology Cat#: sc-5286; RRID:AB_628411   mouse anti-beta-actin Santa Cruz Biotechnology Cat#: sc-47778 HRP; RRID:AB_2714189   rabbit anti-pSer795-Rb Cell Signaling Technology Cat#: 9301; RRID:AB_330013   mouse anti-E2F-1 Santa Cruz Biotechnology Cat#: sc-56661; RRID:AB_783154   rabbit anti-Cyclin D1 Cell Signaling Technology Cat#: 2978; RRID:AB_2259616   rabbit anti-pSer2-RPb1(CTD) Cell Signaling Technology Cat#: 13499; RRID:AB_2798238   rabbit anti-H3K36me3 Cell Signaling Technology Cat#: 4909; RRID:AB_1950412   mouse anti-GFP DSHB Cat#: DSHB-GFP-12E6; RRID:AB_2617418   rabbit anti-ENL Bethyl Cat#: A302-267A; RRID:AB_1730821   mouse anti-cyclin T1 Santa Cruz Biotechnology Cat#: sc-271575; RRID:AB_10650141   control mouse IgG Santa Cruz Biotechnology Cat#: sc-2025; RRID:AB_737182   control rabbit IgG Santa Cruz Biotechnology Cat#: sc-2027; RRID:AB_737197   mouse anti-BrdU Sigma-Aldrich Cat#: B2531; RRID:AB_476793   rabbit anti-Ki67 Santa Cruz Biotechnology Cat#: sc-15402; RRID:AB_2250495   HRP-conjugated anti-rabbit Cell Signaling Technology Cat#: 7074; RRID:AB_2099233   HRP-conjugated anti-mouse Cell Signaling Technology Cat#: 7076; RRID:AB_330924   HRP-conjugated anti-rat Cell Signaling Technology Cat#: 7077; RRID:AB_10694715   Alexa Fluor 488-conjugated goat anti-mouse IgG (H+L) Molecular Probes (invitrogen) Cat#: A-11029; RRID:AB_138404   Alexa Fluor 488-conjugated goat anti-rabbit IgG (H+L) Molecular Probes (invitrogen) Cat#: A-11008; RRID:AB_143165   Bacterial and virus strains   Stbl2 competent cells Thermo Fisher Cat#: 10268019   Stbl3 competent cells Thermo Fisher Cat#: C737303   DH5 alpha competent cells Thermo Fisher Cat#: 18258012   XL10-Gold ultracompetent cells Agilent Cat#: 200314   Chemicals, peptides, and recombinant proteins   Urea Sigma-Aldrich Cat#: U5128   BrdU (5-bromo-2'-deoxyuridine) Sigma-Aldrich Cat#: B5002   Thymidine Sigma-Aldrich Cat#: T1895   JQ1 Selleckchem Cat#: S7110   Propidium Iodide Invitrogen Cat#: P3566   Phenol/chloroform Fisher Scientific Cat#: PI17909   para-formaldehyde Sigma-Aldrich Cat#: P6148   Xylene Fisher Scientific Cat#: HC7001GAL   Hydrogen Peroxide Fisher Scientific Cat#: H325-500   Critical commercial assays   NE-PER Nuclear and Cytoplasmic Extraction kit Thermo Scientific Cat#: PI78833   DAB peroxidase substrate kit Vector Laboratories Cat#: SK-4105   high capacity reverse transcription kit ThermoFisher Cat#: 4368814   Mammary Life Medium complete kit Lifeline Cell Technology, CA, Cat#: LL-0061   PowerUP SYBR Green Master Mix Fisher Scientific Cat#: A25743   Deposited data   TCGA RNA-seq and outcome data FireBrowse and UCSC Xena Browser http://firebrowse.org/; https://xenabrowser.net/datapages/   CPTAC proteomic and outcome data CPTAC Data Portal https://cptac-data-portal.georgetown.edu/   GEO and EGA microarray and outcome KM plotter http://kmplot.com   RNA-seq data (MCF-7 cells) This paper GEO: GSE144372   Combined TCGA and GTEx RNA-seq data  https://figshare.com/articles/dataset/Data_record_3/5330593   Experimental models: cell lines   MCF-10A ATCC CRL-10317   HuMEC ATCC CRL-3243   MDA-MB-231 ATCC HTB-26   T47D ATCC HTB-133   MCF-7 ATCC HTB-22   BT549 ATCC HTB-122   HEK293T ATCC CRL-11268   CAMA-1 ATCC HTB-21   HCC70 ATCC CRL-2315   SK-UT-1 ATCC HTB-114   SK-LMS-1 ATCC HTB-88   Experimental models: organisms/strains   Female NU/NU Nude mouse Charles River Laboratories Strain code #088   Oligonucleotides   Oligonucleotides for shRNA and sgRNA See Table S5A N/A   Primers for RT-qPCR and ChIP-qPCR See Tables S5B and S5C N/A   Recombinant DNA   PFN1(RNAi-Res #2) This Paper N/A   YFP  N/A   YFP-NLS-PFN1(WT)  N/A   YFP-NLS-PFN1(S137D)  N/A   YFP-NES-PFN1(WT)  N/A   YFP-PFN1(WT) This Paper N/A   XPO6(WT) GeneCopoeia Cat#: EX-W2830-Lv151   XPO6(RNAi-Res) This Paper N/A   PFN1(RNAi-Res #1) This Paper N/A   PFN1(WT) This Paper N/A   PFN1(S137D) This Paper N/A   Software and algorithms   GSEA software 4.0  N/A   Integrated Genome Viewer  https://igv.org/   RStudio / ggplot2 The R foundation N/A   Cellsens software Olympus Lifescience N/A   ImageJ with Intensity Ratio Nuclei Cytoplasm Tool macros ImageJ Intensity_Ratio_Nuclei_Cytoplasm.ijm   Python 3.8 Python Software Foundation N/A   FlowJo 10 FlowJo LLC N/A   GraphPad Prism 7.0 GraphPad software N/A   Other   RIPA buffer Cell Signaling Technology; EMD Millpore Cat#: 9806; Cat#: 20-188   Dynabeads Protein G ThermoFisher Cat#: 10004D   ChIP-Grade Protein G Agarose Beads Cell Signaling Technology Cat#: 9007   GFP-Trap  Agarose Beads Chromotek Cat#: gta-20   Target Retrieval Solution Citrate pH 6.0 Dako Cat#: S2369   SuperSignal West Dura Extended Duration Substrate ThermoFisher Cat#: 34075   West Femto Maximum Sensitivity Substrate ThermoFisher Cat#: 34096",
+        "annotations": [
+            {
+                "entity_text": "XPO6",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "12544"
+            },
+            {
+                "entity_text": "RPb1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "721"
+            },
+            {
+                "entity_text": "cyclin T1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "947"
+            },
+            {
+                "entity_text": "Cdk9",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "55566"
+            },
+            {
+                "entity_text": "Histone H3",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "133885"
+            },
+            {
+                "entity_text": "Pfn1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "PFN1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3684"
+            },
+            {
+                "entity_text": "GAPDH",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "107053"
+            },
+            {
+                "entity_text": "Cyclin D1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1334"
+            },
+            {
+                "entity_text": "Ki67",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "1814"
+            },
+            {
+                "entity_text": "beta-actin",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "110648"
+            },
+            {
+                "entity_text": "E2F-1",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "3828"
+            },
+            {
+                "entity_text": "ENL",
+                "type": "Gene",
+                "identifier_type": "NCBI Homologene",
+                "identifier": "4339"
+            },
+            {
+                "entity_text": "Citrate",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D019343"
+            },
+            {
+                "entity_text": "Alexa Fluor 488",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C000711379"
+            },
+            {
+                "entity_text": "Thymidine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D013936"
+            },
+            {
+                "entity_text": "5-bromo-2'-deoxyuridine",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D001973"
+            },
+            {
+                "entity_text": "Green",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:C024537"
+            },
+            {
+                "entity_text": "Agarose",
+                "type": "Chemical",
+                "identifier_type": "MESH",
+                "identifier": "MESH:D012685"
+            }
+        ]
+    }
+}
