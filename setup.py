@@ -17,11 +17,11 @@ setup(
         "langchain_core==0.3.27",
         "langchain_openai==0.2.13",
         "lxml==5.2.1",
-        "ndex2==3.8.0",
-        "pandas==1.2.5",
+        "ndex2>=3.8.0,<4.0.0",
+        "pandas",
         "pydantic==2.10.4",
         "python-dotenv==1.0.1",
-        "Requests==2.32.3",
+        "Requests==2.32.3"
     ],
     entry_points={
         "console_scripts": [
