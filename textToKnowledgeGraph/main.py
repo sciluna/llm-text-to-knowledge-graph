@@ -93,7 +93,7 @@ def main(pmc_ids, api_key, ndex_email, ndex_password, style_path=None):
 
     for pmc_id in pmc_ids:
         logging.info(f"Starting processing for PMC ID: {pmc_id}")
-        if process_paper(pmc_id, ndex_email, ndex_password, style_path):
+        if process_paper(pmc_id, api_key, ndex_email, ndex_password, style_path):
             success_count += 1
         else:
             failure_count += 1
