@@ -20,11 +20,12 @@ def validate_pmc_id(pmc_id):
         raise ValueError("Invalid PMC ID format. It should start with 'PMC' followed by digits.")
 
 
-def process_paper(pmc_id, ndex_email, ndex_password, style_path=None):
+def process_paper(pmc_id, api_key, ndex_email, ndex_password, style_path=None):
     """
     Process a single PMC ID to generate BEL statements and CX2 network.
 
     Args:
+        api_key(str): OpenAI API key for processing.
         pmc_id (str): The PubMed Central ID of the article to process.
         ndex_email (str): The NDEx email for authentication.
         ndex_password (str): The NDEx password for authentication.
@@ -49,7 +50,7 @@ def process_paper(pmc_id, ndex_email, ndex_password, style_path=None):
         save_to_json(paragraphs, paragraphs_filename, output_dir)
 
         logging.info("Processing paragraphs with LLM-BEL model")
-        llm_results = llm_bel_processing(paragraphs)
+        llm_results = llm_bel_processing(paragraphs, api_key)
         llm_filename = 'llm_results.json'
         save_to_json(llm_results, llm_filename, output_dir)
 
@@ -64,21 +65,25 @@ def process_paper(pmc_id, ndex_email, ndex_password, style_path=None):
         client.save_new_cx2_network(cx2_network.to_cx2())
 
         logging.info(f"Processing completed successfully for {pmc_id}.")
+        return True
 
     except ValueError as ve:
         logging.error(ve)
         sys.exit(1)
+        return False
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
         sys.exit(1)
+        return False
 
 
-def main(pmc_ids, ndex_email, ndex_password, style_path=None):
+def main(pmc_ids, api_key, ndex_email, ndex_password, style_path=None):
     """
     Main function to process a list of PMC IDs.
 
     Args:
         pmc_ids (list of str): A list of PubMed Central IDs to process.
+        api_key (str): OpenAI API key for processing.
         ndex_email (str): The NDEx email for authentication.
         ndex_password (str): The NDEx password for authentication.
         style_path (str, optional): Path to the style JSON file for network styling.
@@ -98,6 +103,12 @@ def main(pmc_ids, ndex_email, ndex_password, style_path=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process a list of PMC articles and extract interaction data.")
+    parser.add_argument(
+        "--api_key",
+        type=str,
+        required=True,  # Defaults to None if no key is provided
+        help="OpenAI API key for processing"
+    )
     parser.add_argument(
         "pmc_ids",
         type=str,
