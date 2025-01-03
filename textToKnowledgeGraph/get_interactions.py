@@ -1,8 +1,8 @@
 import warnings
 import os
 from langchain_core.prompts import ChatPromptTemplate
-from langchain.output_parsers.openai_functions import JsonKeyOutputFunctionsParser
-from .bel_model import bel_extraction_model
+from langchain.output_parsers.openai_functions import JsonKeyOutputFunctionsParser 
+from .bel_model import get_bel_extraction_model
 warnings.filterwarnings("ignore")
 
 
@@ -41,6 +41,10 @@ filepath = 'prompt_file_v5.txt'
 prompt_identifier = 'general prompt'
 prompt = get_prompt(prompt_identifier, filepath)
 
+# prompt = ChatPromptTemplate.from_messages([
+#     ("system", prompt),
+#     ("human", "{text} | Annotations: {annotations}")
+# ])
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", prompt),
@@ -48,4 +52,9 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 
-bel_extraction_chain = prompt | bel_extraction_model | JsonKeyOutputFunctionsParser(key_name="interactions")
+def initialize_chains(api_key):
+    """Initialize extraction chains with the provided API key."""
+    bel_extraction_model = get_bel_extraction_model(api_key)
+
+    bel_extraction_chain = prompt | bel_extraction_model | JsonKeyOutputFunctionsParser(key_name="interactions")
+    return bel_extraction_chain
