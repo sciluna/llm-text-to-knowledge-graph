@@ -1,6 +1,7 @@
 import json
-from .get_interactions import bel_extraction_chain
+from .get_interactions import initialize_chains
 import time
+import logging
 
 
 def load_json_data(filepath):
@@ -14,7 +15,9 @@ llm_results = {}
 
 
 #extracting bel functions using llm
-def llm_bel_processing(paragraphs):
+def llm_bel_processing(paragraphs, api_key):
+    bel_extraction_chain = initialize_chains(api_key)
+    
     llm_results = {"LLM_extractions": []}
     start_time = time.time()
 
@@ -34,9 +37,8 @@ def llm_bel_processing(paragraphs):
     end_time = time.time()
     elapsed_time = end_time - start_time
     elapsed_minutes = elapsed_time / 60
-    print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+    logger.info(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
     return llm_results
-
 
 #function to create sub-interaction type-obj
 def combine_interaction(interaction):
