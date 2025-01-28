@@ -13,28 +13,16 @@
                     "evidence": "This region also carries frequent amplifications of the PVT1 gene, a non-protein coding gene that encodes a cluster of microRNAs including, microRNA-1205 (miR-1205), which are largely understudied."
                 },
                 {
-                    "bel_statement": "a(HGNC:\"miR-1205\") decreases path(MESHD:\"Prostate Cancer\")",
-                    "evidence": "Herein, we demonstrate that miR-1205 is underexpressed in PCa cells and tissues and suppresses CRPC tumors in vivo."
-                },
-                {
-                    "bel_statement": "a(HGNC:\"miR-1205\") increases p(HGNC:\"FRYL\")",
+                    "bel_statement": "a(HGNC:\"miR-1205\") decreases p(HGNC:\"FRYL\")",
                     "evidence": "we identified and validated fry-like (FRYL) as a direct molecular target of miR-1205 and observed its overexpression in PCa cells and tissues."
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"dendritic branching\") increases p(HGNC:\"FRYL\")",
-                    "evidence": "FRYL is predicted to regulate dendritic branching."
-                },
-                {
-                    "bel_statement": "a(HGNC:\"miR-1205\") decreases bp(GOBP:\"neuroendocrine differentiation\")",
+                    "bel_statement": "bp(GOBP:\"neuroendocrine differentiation\") increases a(HGNC:\"miR-1205\")",
                     "evidence": "Underexpression of miR-1205 is observed when NED is induced in vitro and inhibition of miR-1205 leads to increased expression of NED markers."
                 },
                 {
-                    "bel_statement": "p(HGNC:\"FRYL\") increases bp(GOBP:\"neuroendocrine differentiation\")",
-                    "evidence": "However, while FRYL is overexpressed during NED."
-                },
-                {
-                    "bel_statement": "a(HGNC:\"miR-1205\") decreases bp(GOBP:\"neuroendocrine differentiation\")",
-                    "evidence": "therefore revealing that miR-1205 induces NED independently of FRYL."
+                    "bel_statement": "a(HGNC:\"FRYL\") increases bp(GOBP:\"neuroendocrine differentiation\")",
+                    "evidence": "However, while FRYL is overexpressed during NED, FRYL knockdown did not reduce NED, therefore revealing that miR-1205 induces NED independently of FRYL."
                 }
             ]
         },
@@ -43,32 +31,24 @@
             "text": "Prostate cancer (PCa) was the second most diagnosed and deadliest cancer in 2020 with an estimate of 209,512 cases and 32,438 deaths in the United States according to GLOBOCAN2020. Although men diagnosed with local and regional PCa have 100% 5-years period survival rate, patients diagnosed with PCa at the distant stage have a relative 30% 5-years survival rate, indicating that the spread of the disease is extremely lethal. Although the androgen receptor (AR) is not the only driver of prostate carcinogenesis, almost 80-90% of prostate cancers are dependent on androgenic activity via AR signaling. Therefore, androgen deprivation therapy is critical for patients that display indications of high-risk localized or metastatic PCa and is currently the most effective treatment that significantly improves survival rates. However, 10-20% of patients develop castration resistant PCa (CRPC) due to failure of tumor regression upon treatment, in which 33% with CRPC develop metastatic CRPC (mCRPC) within 2 years of diagnosis. While several next generation hormone treatments, such as abiraterone acetate and enzalutamide, enhances survival rates for men diagnosed with mCRPC, approximately 20-40% of patients do not respond to treatments and those who initially respond to treatments may acquire secondary resistance. Moreover, as PCa is a very heterogeneous disease, some patients also acquire rare PCa subtypes after ADT relapse, such as neuroendocrine prostate cancer (NEPC), that are characterized as AR-negative and survive with complete independence of AR signaling. More recently, NEPC has been observed in 15-20% of patients with prostate adenocarcinoma who received chemotherapy, including treatments with abiraterone and enzalutamide. The transformation from prostate adenocarcinoma to NEPC as a consequence of androgen deprivation therapies is clinically termed treatment-related NEPC (t-NEPC). Although NEPC is rare (< 2% incidence in the United States), men who develop NEPC or t-NEPC have very poor prognosis because of lack of targeted therapies and insufficiently identified biomarkers. Resistance toward ADTs creates a new challenge for treating men with CRPC and better understanding of these mechanisms will provide knowledge on how to address PCa heterogeneity.",
             "Results": [
                 {
-                    "bel_statement": "bp(GOBP:\"prostate cancer\") increases path(MESHD:\"Prostate cancer\")",
-                    "evidence": "Prostate cancer (PCa) was the second most diagnosed and deadliest cancer in 2020 with an estimate of 209,512 cases and 32,438 deaths in the United States according to GLOBOCAN2020."
+                    "bel_statement": "bp(GOBP:\"prostate cancer\") increases bp(GOBP:\"castration resistant prostate cancer\")",
+                    "evidence": "However, 10-20% of patients develop castration resistant PCa (CRPC) due to failure of tumor regression upon treatment."
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"androgen receptor signaling pathway\") increases bp(GOBP:\"prostate carcinogenesis\")",
-                    "evidence": "Although the androgen receptor (AR) is not the only driver of prostate carcinogenesis, almost 80-90% of prostate cancers are dependent on androgenic activity via AR signaling."
-                },
-                {
-                    "bel_statement": "bp(GOBP:\"androgen deprivation therapy\") increases bp(GOBP:\"survival rate\")",
-                    "evidence": "Therefore, androgen deprivation therapy is critical for patients that display indications of high-risk localized or metastatic PCa and is currently the most effective treatment that significantly improves survival rates."
-                },
-                {
-                    "bel_statement": "bp(GOBP:\"castration resistant prostate cancer\") increases bp(GOBP:\"metastatic castration resistant prostate cancer\")",
-                    "evidence": "However, 10-20% of patients develop castration resistant PCa (CRPC) due to failure of tumor regression upon treatment, in which 33% with CRPC develop metastatic CRPC (mCRPC) within 2 years of diagnosis."
-                },
-                {
-                    "bel_statement": "bp(GOBP:\"neuroendocrine prostate cancer\") increases bp(GOBP:\"androgen deprivation therapy\")",
+                    "bel_statement": "bp(GOBP:\"prostate cancer\") increases bp(GOBP:\"neuroendocrine prostate cancer\")",
                     "evidence": "some patients also acquire rare PCa subtypes after ADT relapse, such as neuroendocrine prostate cancer (NEPC), that are characterized as AR-negative and survive with complete independence of AR signaling."
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"transformation from prostate adenocarcinoma to neuroendocrine prostate cancer\") increases bp(GOBP:\"treatment-related neuroendocrine prostate cancer\")",
-                    "evidence": "The transformation from prostate adenocarcinoma to NEPC as a consequence of androgen deprivation therapies is clinically termed treatment-related NEPC (t-NEPC)."
+                    "bel_statement": "bp(GOBP:\"prostate adenocarcinoma\") increases bp(GOBP:\"treatment-related neuroendocrine prostate cancer\")",
+                    "evidence": "The transformation from prostate adenocarcinoma to NEPC as a consequence of androgen deprivation therapies is clinically termed treatment-related NEPC."
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"neuroendocrine prostate cancer\") increases path(MESHD:\"poor prognosis\")",
-                    "evidence": "Although NEPC is rare (< 2% incidence in the United States), men who develop NEPC or t-NEPC have very poor prognosis because of lack of targeted therapies and insufficiently identified biomarkers."
+                    "bel_statement": "bp(GOBP:\"androgen deprivation therapy\") increases bp(GOBP:\"prostate cancer\")",
+                    "evidence": "androgen deprivation therapy is critical for patients that display indications of high-risk localized or metastatic PCa and is currently the most effective treatment that significantly improves survival rates."
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"androgen receptor signaling\") increases bp(GOBP:\"prostate cancer\")",
+                    "evidence": "almost 80-90% of prostate cancers are dependent on androgenic activity via AR signaling."
                 }
             ]
         },
@@ -89,8 +69,12 @@
                     "evidence": "our lab has established the clinical significance of microRNA-1207-3p as a biomarker and putative therapeutic option via a novel regulatory pathway in prostate cancer."
                 },
                 {
-                    "bel_statement": "g(NCBI Gene:PVT1) increases m(HGNC:MIR1207-3p)",
-                    "evidence": "Within the 8q24 chromosomal region lies the PVT1 gene, which encodes a series of alternatively spliced transcripts along with a cluster of microRNAs (-1204, -1205, -1206, -1207-5p, -1207-3p, and -1208)."
+                    "bel_statement": "g(NCBI Gene:PVT1) increases bp(GOBP:\"cell proliferation\")",
+                    "evidence": "PVT1 is amplified in many cancers and has been reported to function as a microRNA sponge ultimately inducing proliferation and suppressing apoptosis in cancer cells."
+                },
+                {
+                    "bel_statement": "m(HGNC:MIR1207-3p) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "PVT1 is amplified in many cancers and has been reported to function as a microRNA sponge ultimately inducing proliferation and suppressing apoptosis in cancer cells."
                 }
             ]
         },
@@ -107,12 +91,8 @@
                     "evidence": "we generated novel synthetic analogs of miR-1205 and discovered that miR-1205 can inhibit castration-resistant prostate cancer growth in mice."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) hasActivity(GO:\"direct binding\")",
-                    "evidence": "Further investigation of miR-1205 tumor suppressive pathway confirmed direct miR-1205:FRYL binding."
-                },
-                {
-                    "bel_statement": "bp(GOBP:\"neuroendocrine differentiation\") increases bp(GOBP:\"prostate cancer\")",
-                    "evidence": "putative role of this pathway in PCa neuroendocrine differentiation (NED), a phenomenon occurring in resistant PCa subtypes."
+                    "bel_statement": "m(HGNC:MIR1205) hasActivity(bp(GOBP:\"tumor suppressive pathway\"))",
+                    "evidence": "Further investigation of miR-1205 tumor suppressive pathway confirmed direct miR-1205:FRYL binding and putative role of this pathway in PCa neuroendocrine differentiation (NED)."
                 }
             ]
         },
@@ -141,19 +121,36 @@
             "text": "Lastly, we looked at the expression levels of FRYL in a Weill Cornell Medicine (WCM) cohort of 29 benign prostate samples, 66 localized prostate cancer (PCa), 73 castration resistance adenocarcinomas (CRPC), and 36 neuroendocrine prostate cancer (NEPC) samples whose transcriptome was profiled by RNA-seq). Similarly to the original analysis, we aligned all reads against the human genome sequence build hg192 with STAR_2.4.0f1 ( and used SAMTOOLS v0.1.19 for sorting and indexing reads. We estimated expression values (FPMKs:fragments per million reads per kilobase of exons) with Cufflinks (2.0.2) based on GENCODE v19 gene annotation. Since the sequenced samples from the published datasets were processed using different library preps, i.e., poly-A selection or ribosomal depletion, we normalized FPKMs via ComBat from sva bioconductor package. This way the differences due to the library preparation methods are reduced.",
             "Results": [
                 {
-                    "bel_statement": "g(NCBI Gene:FRYL) increases a(NCBI Gene:FRYL)",
-                    "evidence": "Lastly, we looked at the expression levels of FRYL in a Weill Cornell Medicine (WCM) cohort of 29 benign prostate samples, 66 localized prostate cancer (PCa), 73 castration resistance adenocarcinomas (CRPC), and 36 neuroendocrine prostate cancer (NEPC) samples whose transcriptome was profiled by RNA-seq."
+                    "bel_statement": "g(NCBI Gene:FRYL) increases a(NCBI Gene:benign prostate samples)",
+                    "evidence": "Lastly, we looked at the expression levels of FRYL in a Weill Cornell Medicine (WCM) cohort of 29 benign prostate samples."
                 },
                 {
-                    "bel_statement": "a(NCBI Gene:FRYL) increases bp(GOBP:\"gene expression\")",
-                    "evidence": "We estimated expression values (FPMKs:fragments per million reads per kilobase of exons) with Cufflinks (2.0.2) based on GENCODE v19 gene annotation."
+                    "bel_statement": "g(NCBI Gene:FRYL) increases a(NCBI Gene:localized prostate cancer)",
+                    "evidence": "Lastly, we looked at the expression levels of FRYL in a Weill Cornell Medicine (WCM) cohort of 66 localized prostate cancer (PCa) samples."
+                },
+                {
+                    "bel_statement": "g(NCBI Gene:FRYL) increases a(NCBI Gene:castration resistance adenocarcinomas)",
+                    "evidence": "Lastly, we looked at the expression levels of FRYL in a Weill Cornell Medicine (WCM) cohort of 73 castration resistance adenocarcinomas (CRPC) samples."
+                },
+                {
+                    "bel_statement": "g(NCBI Gene:FRYL) increases a(NCBI Gene:neuroendocrine prostate cancer)",
+                    "evidence": "Lastly, we looked at the expression levels of FRYL in a Weill Cornell Medicine (WCM) cohort of 36 neuroendocrine prostate cancer (NEPC) samples."
                 }
             ]
         },
         {
             "Index": "7",
             "text": "Cell culture of human RWPE-1 (normal prostate epithelial cells), WPE1-NA22 (indolent PCa epithelial cells), MDA PCa 2b (metastatic PCa adenocarcinoma epithelial cells), PC-3 (androgen-independent metastatic PCa cells) and LNCaP (androgen-sensitive PCa cells) were performed as previously described. 22Rv1 (human androgen-insensitive PCa cells) was purchased from the American Type Culture Collection and cultured in RPMI 1640 supplemented with 10% heat inactivated FBS, and 1% penicillin/streptomycin. C4-2B (human androgen-insensitive PCa cells) was cultured in DMEM supplemented with 200 ml Ham's F12, 10% heat-inactivated FBS, 1% penicillin/streptomycin, insulin (5 mug/ml), triiodothyronine (13.65 pg/ml), human apo-transferrin (4.4 mug/ml), d-biotin (0.244 mug/ml), and adenin (12.5 mug/ml). The C4-2B cell line is a well validated and widely recognized model of CRPC obtained from MD Anderson Cancer Center under a materials transfer agreement with Hunter College of The City University of New York.",
-            "Results": []
+            "Results": [
+                {
+                    "bel_statement": "a(NCBI Taxonomy:\"Homo sapiens\") increases a(CHEBI:\"RPMI 1640\")",
+                    "evidence": "22Rv1 (human androgen-insensitive PCa cells) was purchased from the American Type Culture Collection and cultured in RPMI 1640 supplemented with 10% heat inactivated FBS, and 1% penicillin/streptomycin."
+                },
+                {
+                    "bel_statement": "a(NCBI Taxonomy:\"Homo sapiens\") increases a(CHEBI:\"DMEM\")",
+                    "evidence": "C4-2B (human androgen-insensitive PCa cells) was cultured in DMEM supplemented with 200 ml Ham's F12, 10% heat-inactivated FBS, 1% penicillin/streptomycin, insulin (5 mug/ml), triiodothyronine (13.65 pg/ml), human apo-transferrin (4.4 mug/ml), d-biotin (0.244 mug/ml), and adenin (12.5 mug/ml)."
+                }
+            ]
         },
         {
             "Index": "8",
@@ -227,11 +224,11 @@
             "text": "We evaluated the effect of NB1205 and NB1 on in vivo tumor growth. All animal studies were approved by the Institutional Animal Care and Use Committee at Weill Cornell Medicine and were performed in accordance with relevant guidelines and regulations. Male NOD/SCID gamma NSG) mice were implanted subcutaneously into the right flank with 1 x 106 C4-2B CRPC cells. Tumors were allowed to grow and mice were randomized into two groups of three mice per group on day 61. Both groups were administered with daily subcutaneous injections of 100 mul of either 100 nM of control scramble duplex (NB1) or miR-1205 duplex (NB1205) for 10 days. Tumor volume (length, width, height) was determined using a vernier caliper and a scale was used to measure mouse body weight daily. All tumor-bearing mice were euthanized at day 70.",
             "Results": [
                 {
-                    "bel_statement": "a(CHEMBL:\"NB1205\") decreases bp(GOBP:\"tumor growth\")",
+                    "bel_statement": "a(CHEMBL:NB1205) decreases a(CHEMBL:\"tumor volume\")",
                     "evidence": "We evaluated the effect of NB1205 and NB1 on in vivo tumor growth."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:\"NB1\") decreases bp(GOBP:\"tumor growth\")",
+                    "bel_statement": "a(CHEMBL:NB1) decreases a(CHEMBL:\"tumor volume\")",
                     "evidence": "We evaluated the effect of NB1205 and NB1 on in vivo tumor growth."
                 }
             ]
@@ -246,15 +243,11 @@
             "text": "Annexin V-FITC and propidium iodide staining assay was performed as previously described. LNCaP and C4-2B cells were transfected with either the control scramble oligonucleotide or miR-1205 mimic and after 48 h the cells were harvested, stained and examined through flow cytometry.",
             "Results": [
                 {
-                    "bel_statement": "a(CHEMBL:\"Annexin V-FITC\") increases bp(GOBP:\"cell death\")",
+                    "bel_statement": "a(CHEMBL:\"Annexin V-FITC\") increases a(CHEMBL:\"propidium iodide\")",
                     "evidence": "Annexin V-FITC and propidium iodide staining assay was performed as previously described."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:\"propidium iodide\") increases bp(GOBP:\"cell death\")",
-                    "evidence": "Annexin V-FITC and propidium iodide staining assay was performed as previously described."
-                },
-                {
-                    "bel_statement": "g(NCBI Gene:\"miR-1205\") increases bp(GOBP:\"cell death\")",
+                    "bel_statement": "g(NCBI Gene:\"miR-1205\") increases a(CHEMBL:\"propidium iodide\")",
                     "evidence": "LNCaP and C4-2B cells were transfected with either the control scramble oligonucleotide or miR-1205 mimic."
                 }
             ]
@@ -282,15 +275,15 @@
                     "evidence": "Overexpression of miR-1205 led to an increase in apoptosis in LNCaP and C4-2B cells when compared to cells transfected with a negative control scramble."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) increases act(p(HGNC:CASP7))",
+                    "bel_statement": "p(HGNC:CASP7) increases bp(GOBP:\"apoptotic process\")",
                     "evidence": "LNCaP and C4-2B cells transfected with microRNA-1205 mimic lead to an increased activation of the executioner caspase 7."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) increases act(p(HGNC:PARP))",
+                    "bel_statement": "p(HGNC:PARP) increases bp(GOBP:\"apoptotic process\")",
                     "evidence": "LNCaP and C4-2B cells transfected with microRNA-1205 mimic lead to an increased activation of the executioner caspase 7 and PARP cleavage."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) decreases bp(GOBP:\"tumor growth\")",
+                    "bel_statement": "a(CHEBI:\"NB1205\") decreases bp(GOBP:\"tumor growth\")",
                     "evidence": "Inhibition of tumor growth was observed in mice treated with NB1205."
                 }
             ]
@@ -310,20 +303,12 @@
             "text": "FRYL is overexpressed in PCa and is regulated by miR-1205. (A) FRYL was significantly overexpressed in PCa tissues when compared to normal tissues {ANOVA [F(1, 22) = 4.3, p = 0.009]. (B) Using thesame cohort of tissues in Figure 1A, FRYL overexpression was observed in PCa tissues when compared to normal prostatic tissues. (C) Western blot analysis of FRYL in CRPC C4-2B, small cell prostate carcinoma PC-3 cells and androgen-sensitive LNCaP cells. (D) FRYL protein levels in PC-3 cells after inhibition of miR-1205 with NB1205. Data is presented as +- SD.",
             "Results": [
                 {
-                    "bel_statement": "g(HGNC:FRYL) increases bp(MESHD:\"Prostate Cancer\")",
+                    "bel_statement": "g(HGNC:FRYL) increases bp(GOBP:\"prostate cancer\")",
                     "evidence": "FRYL is overexpressed in PCa and is regulated by miR-1205."
                 },
                 {
                     "bel_statement": "m(HGNC:MIR1205) decreases g(HGNC:FRYL)",
                     "evidence": "FRYL is regulated by miR-1205."
-                },
-                {
-                    "bel_statement": "a(HGNC:FRYL) increases a(HGNC:FRYL)",
-                    "evidence": "FRYL was significantly overexpressed in PCa tissues when compared to normal tissues."
-                },
-                {
-                    "bel_statement": "a(HGNC:FRYL) increases a(HGNC:FRYL)",
-                    "evidence": "FRYL overexpression was observed in PCa tissues when compared to normal prostatic tissues."
                 }
             ]
         },
@@ -350,7 +335,7 @@
             "text": "MicroRNA-1205 Synthetic Analog, NB1205, Suppresses Tumor Growth in Xenograft CRPC Mouse Model",
             "Results": [
                 {
-                    "bel_statement": "m(CHEMBL:NB1205) directlyDecreases bp(GOBP:\"tumor growth\")",
+                    "bel_statement": "m(CHEMBL:NB1205) decreases bp(GOBP:\"tumor growth\")",
                     "evidence": "MicroRNA-1205 Synthetic Analog, NB1205, Suppresses Tumor Growth in Xenograft CRPC Mouse Model"
                 }
             ]
@@ -364,8 +349,8 @@
                     "evidence": "However, when examining apoptotic markers we observed an increase in cleaved caspase 7 and cleaved PARP in cells overexpressing miR-1205, indicating that exogenous delivery of miR-1205 induces DNA damage and activates the apoptotic pathway."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) decreases bp(GOBP:\"cell proliferation\")",
-                    "evidence": "MTT assays revealed that C4-2B cells transfected with NB1205 did not significantly affect cell proliferation when compared to cells transfected with NB1, suggesting that miR-1205 is not involved in the proliferation PCa."
+                    "bel_statement": "m(HGNC:MIR1205) increases bp(GOBP:\"apoptosis\")",
+                    "evidence": "We observed an increase of apoptosis occurrence in LNCaP and C4-2B cells overexpressing miR-1205 when compared to cells transfected with a negative control scramble oligonucleotide."
                 },
                 {
                     "bel_statement": "m(HGNC:MIR1205) decreases bp(GOBP:\"tumorigenesis\")",
@@ -378,7 +363,7 @@
             "text": "To further investigate the tumor suppressive effects of miR-1205 in PCa, putative targets of miR-1205 were determined using miRNA molecular target predication algorithms (such as miRBase and miRDB). Each target was screened using the galaxy web platform (see text footnote 1) for differential expression patterns in PCa. Consequently, Fry-like (FRYL) was identified as a putative target of miR-1205. Very little is known about FRYL, however, the c-terminus of FRYL is often observed to be fused to the mixed lineage leukemia (MLL) gene associated with treatment related acute lymphoblastic leukemia (ALL). FRYL has almost identical functional domains to the well characterized Fry protein, which functions as protein involved in many processes including cell polarization during morphogenesis, dendritic branching and tiling, spindle organization during division and gene expression. However, the function of FRYL as a target of miR-1205 has never been characterized, and FRYL's relevance in PCa remains unknown.",
             "Results": [
                 {
-                    "bel_statement": "m(HGNC:MIR1205) directlyIncreases g(NCBI Gene:FRYL)",
+                    "bel_statement": "m(HGNC:MIR1205) increases g(NCBI Gene:FRYL)",
                     "evidence": "Consequently, Fry-like (FRYL) was identified as a putative target of miR-1205."
                 },
                 {
@@ -405,22 +390,18 @@
             "Results": [
                 {
                     "bel_statement": "g(HGNC:FRYL) increases a(r(HGNC:FRYL))",
-                    "evidence": "we first evaluated the mRNA expression of FRYL by RNAseq in a subset of prostate cancers."
-                },
-                {
-                    "bel_statement": "a(r(HGNC:FRYL)) increases bp(GOBP:\"prostate cancer\")",
                     "evidence": "FRYL expression is significantly higher in CRPC and NEPC patient tumor samples when compared to prostate benign tumors."
                 },
                 {
-                    "bel_statement": "a(r(HGNC:FRYL)) increases a(r(HGNC:FRYL))",
+                    "bel_statement": "g(HGNC:FRYL) increases a(r(HGNC:FRYL))",
                     "evidence": "FRYL overexpression was observed in PCa tissue when compared to normal tissue."
                 },
                 {
-                    "bel_statement": "a(r(HGNC:FRYL)) increases a(r(HGNC:FRYL))",
+                    "bel_statement": "g(HGNC:FRYL) increases a(r(HGNC:FRYL))",
                     "evidence": "FRYL overexpression was observed in PCa tissues when compared to normal prostatic tissues."
                 },
                 {
-                    "bel_statement": "a(r(HGNC:FRYL)) increases p(HGNC:FRYL)",
+                    "bel_statement": "p(HGNC:FRYL) increases p(HGNC:FRYL)",
                     "evidence": "we observed an overexpression of FRYL at mRNA and protein levels in CRPC C4-2B and small cell prostate adenocarcinoma PC-3 cells when compared to androgen-sensitive LNCaP cells."
                 }
             ]
@@ -430,19 +411,19 @@
             "text": "To identify miR-1205 targeting of FRYL, PC-3 cells and LNCaP cells were transfected with a synthetic analog of miR-1205, NB1205, and a miR-1205 inhibitor, respectively (Figure 4D and Supplementary Figure 2). We observed a downregulation of FRYL in response to exogenous NB1205 transfected into PC-3 cells which was not observed after treatments with the synthetic scramble analog, NB1 in PC-3 cells. To determine whether miR-1205 regulates FRYL, LNCaP cells were transfected with a miR-1205 inhibitor and FRYL expression was studied. Interestingly, data showed that FRYL levels increased after inhibition of miR-1205. Moreover, miR-1205 underexpression moderately correlates with FRYL overexpression in PCa tissue (Supplementary Figure 1). Altogether, these results suggest that miR-1205 may be regulating FRYL by targeting FRYL mRNA, leading to its degradation.",
             "Results": [
                 {
-                    "bel_statement": "m(HGNC:MIR1205) directlyDecreases g(NCBI Gene:FRYL)",
+                    "bel_statement": "a(HGNC:FRYL) directlyDecreases a(HGNC:miR-1205)",
                     "evidence": "We observed a downregulation of FRYL in response to exogenous NB1205 transfected into PC-3 cells."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) directlyIncreases g(NCBI Gene:FRYL)",
+                    "bel_statement": "a(HGNC:miR-1205) directlyDecreases a(HGNC:FRYL)",
                     "evidence": "Interestingly, data showed that FRYL levels increased after inhibition of miR-1205."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) negativeCorrelation g(NCBI Gene:FRYL)",
+                    "bel_statement": "a(HGNC:miR-1205) negativelyCorrelation a(HGNC:FRYL)",
                     "evidence": "Moreover, miR-1205 underexpression moderately correlates with FRYL overexpression in PCa tissue."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) regulates g(NCBI Gene:FRYL)",
+                    "bel_statement": "a(HGNC:miR-1205) regulates a(HGNC:FRYL)",
                     "evidence": "Altogether, these results suggest that miR-1205 may be regulating FRYL by targeting FRYL mRNA, leading to its degradation."
                 }
             ]
@@ -476,8 +457,12 @@
                     "evidence": "FRYL is predicted to regulate dendritic branching leading to our hypothesis that FRYL plays a role in the progression of PCa NED."
                 },
                 {
-                    "bel_statement": "g(HGNC:FRYL) increases a(HGNC:miR-1205)",
-                    "evidence": "After LNCaP-NED was induced, we observed an overexpression of FRYL mRNA whereas miR-1205 was significantly underexpressed when compared to undifferentiated LNCaP cells, indicating a putative role of miR-1205 regulation of FRYL in PCa NED."
+                    "bel_statement": "g(HGNC:FRYL) increases a(HGNC:FRYL)",
+                    "evidence": "After LNCaP-NED was induced, we observed an overexpression of FRYL mRNA."
+                },
+                {
+                    "bel_statement": "m(HGNC:MIR1205) decreases g(HGNC:FRYL)",
+                    "evidence": "miR-1205 was significantly underexpressed when compared to undifferentiated LNCaP cells, indicating a putative role of miR-1205 regulation of FRYL in PCa NED."
                 }
             ]
         },
@@ -490,11 +475,11 @@
                     "evidence": "miR-1205 regulation of FRYL mRNA may play a role in PCa NED development."
                 },
                 {
-                    "bel_statement": "a(HGNC:FRYL) directlyDecreases a(HGNC:NSE)",
+                    "bel_statement": "a(HGNC:FRYL) decreases a(HGNC:NSE)",
                     "evidence": "MiR-1205 overexpression led to a decrease in neuroendocrine markers, NSE and Aurora A protein expression."
                 },
                 {
-                    "bel_statement": "a(HGNC:FRYL) directlyDecreases a(HGNC:AURKA)",
+                    "bel_statement": "a(HGNC:FRYL) decreases a(HGNC:AURKA)",
                     "evidence": "MiR-1205 overexpression led to a decrease in neuroendocrine markers, NSE and Aurora A protein expression."
                 },
                 {
@@ -512,24 +497,28 @@
             "text": "To determine whether the miR-1205/FRYL regulatory pathway is important in PCa NED, miR-1205 was overexpressed in LNCaP cells and neuroendocrine marker expression was assessed. When NB1205 (miR-1205 mimic) was transfected into LNCaP cells, we observed a decrease in expression of neuroendocrine markers NSE and Aurora A when compared to LNCaP cells transfected with NB1 (scramble oligonucleotide) (Figure 6B and Supplementary Figure 5B). This observation suggests that miR-1205 may be involved in NED. We additionally observed induction of NED by inhibiting miR-1205 in LNCaP cells (Supplementary Figure 5D). To determine whether miR-1205 regulation of FRYL is involved in NED, FRYL was silenced in PC-3 small cell prostatic carcinoma cells. Interestingly, we observed no changes in NSE expression and only a 20% decrease in aurora A expression, suggesting that miR-1205 regulation of FRYL may not significantly regulate NED in PCa cells (Figure 6C and Supplementary Figure 5).",
             "Results": [
                 {
-                    "bel_statement": "a(HGNC:MIR1205) increases p(HGNC:NSE)",
+                    "bel_statement": "g(HGNC:MIR1205) increases p(HGNC:NSE)",
                     "evidence": "When NB1205 (miR-1205 mimic) was transfected into LNCaP cells, we observed a decrease in expression of neuroendocrine markers NSE and Aurora A."
                 },
                 {
-                    "bel_statement": "a(HGNC:MIR1205) increases p(HGNC:AURKA)",
+                    "bel_statement": "g(HGNC:MIR1205) increases p(HGNC:AURKA)",
                     "evidence": "When NB1205 (miR-1205 mimic) was transfected into LNCaP cells, we observed a decrease in expression of neuroendocrine markers NSE and Aurora A."
                 },
                 {
-                    "bel_statement": "a(HGNC:MIR1205) decreases bp(GOBP:\"neuroendocrine differentiation\")",
+                    "bel_statement": "g(HGNC:MIR1205) decreases p(HGNC:FRYL)",
+                    "evidence": "To determine whether miR-1205 regulation of FRYL is involved in NED, FRYL was silenced in PC-3 small cell prostatic carcinoma cells."
+                },
+                {
+                    "bel_statement": "g(HGNC:MIR1205) decreases bp(GOBP:\"neuroendocrine differentiation\")",
                     "evidence": "This observation suggests that miR-1205 may be involved in NED."
                 },
                 {
-                    "bel_statement": "a(HGNC:FRYL) decreases p(HGNC:NSE)",
-                    "evidence": "Interestingly, we observed no changes in NSE expression and only a 20% decrease in aurora A expression, suggesting that miR-1205 regulation of FRYL may not significantly regulate NED in PCa cells."
+                    "bel_statement": "p(HGNC:FRYL) decreases p(HGNC:NSE)",
+                    "evidence": "Interestingly, we observed no changes in NSE expression and only a 20% decrease in aurora A expression."
                 },
                 {
-                    "bel_statement": "a(HGNC:FRYL) decreases p(HGNC:AURKA)",
-                    "evidence": "Interestingly, we observed no changes in NSE expression and only a 20% decrease in aurora A expression, suggesting that miR-1205 regulation of FRYL may not significantly regulate NED in PCa cells."
+                    "bel_statement": "p(HGNC:FRYL) decreases p(HGNC:AURKA)",
+                    "evidence": "Interestingly, we observed no changes in NSE expression and only a 20% decrease in aurora A expression."
                 }
             ]
         },
@@ -538,16 +527,24 @@
             "text": "This study demonstrates novel findings into the molecular mechanisms of PVT1-encoded miR-1205 in PCa. We discovered that miR-1205 was underexpressed in histologically confirmed PCa tissue when compared to normal prostatic tissue. This underexpression was further observed among a large panel of PCa cell lines when compared to normal prostate epithelial cells. While miR-1205 does not affect cell proliferation of PCa cells, we discovered that overexpression of miR-1205 induces apoptosis and suppresses PCa tumor growth. We further describe the molecular actions of miR-1205 through regulation of its validated target, FRYL. FRYL is overexpressed in PCa tissues and aggressive PCa cell line models. Moreover, miR-1205 expression leads to the FRYL protein inhibition through direct targeting of the 3'UTR of FRYL. Lastly, we discovered that miR-1205 may be involved in neuroendocrine differentiation of androgen-dependent PCa cells, suggesting a role in aggressive PCa.",
             "Results": [
                 {
-                    "bel_statement": "m(HGNC:MIR1205) decreases p(HGNC:FRYL)",
-                    "evidence": "miR-1205 expression leads to the FRYL protein inhibition through direct targeting of the 3'UTR of FRYL."
+                    "bel_statement": "g(HGNC:PVT1) decreases a(HGNC:MIR1205)",
+                    "evidence": "miR-1205 was underexpressed in histologically confirmed PCa tissue when compared to normal prostatic tissue."
                 },
                 {
-                    "bel_statement": "p(HGNC:FRYL) increases bp(GOBP:\"apoptotic process\")",
+                    "bel_statement": "a(HGNC:MIR1205) increases bp(GOBP:\"apoptotic process\")",
                     "evidence": "overexpression of miR-1205 induces apoptosis and suppresses PCa tumor growth."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) increases bp(GOBP:\"neuroendocrine differentiation\")",
-                    "evidence": "we discovered that miR-1205 may be involved in neuroendocrine differentiation of androgen-dependent PCa cells."
+                    "bel_statement": "a(HGNC:MIR1205) directlyDecreases p(HGNC:FRYL)",
+                    "evidence": "miR-1205 expression leads to the FRYL protein inhibition through direct targeting of the 3'UTR of FRYL."
+                },
+                {
+                    "bel_statement": "p(HGNC:FRYL) increases path(MESHD:\"Prostate Cancer\")",
+                    "evidence": "FRYL is overexpressed in PCa tissues and aggressive PCa cell line models."
+                },
+                {
+                    "bel_statement": "a(HGNC:MIR1205) increases bp(GOBP:\"neuroendocrine differentiation\")",
+                    "evidence": "miR-1205 may be involved in neuroendocrine differentiation of androgen-dependent PCa cells."
                 }
             ]
         },
@@ -564,7 +561,7 @@
                     "evidence": "we first showed that while miR-1205 does not regulate cell proliferation, it does induce apoptosis through caspase and PARP cleavage."
                 },
                 {
-                    "bel_statement": "m(HGNC:MIR1205) decreases p(HGNC:PARP)",
+                    "bel_statement": "m(HGNC:MIR1205) decreases p(HGNC:PARP1)",
                     "evidence": "we first showed that while miR-1205 does not regulate cell proliferation, it does induce apoptosis through caspase and PARP cleavage."
                 },
                 {
@@ -572,11 +569,15 @@
                     "evidence": "this data suggests that miR-1205 has tumor suppressive functions by inducing apoptosis of aggressive PCa cells."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:\"biotinylated synthetic analog of miR-1205\") decreases bp(GOBP:\"tumorigenesis\")",
-                    "evidence": "we present the development of a novel tool and demonstrate its use for in vitro and in vivo techniques."
+                    "bel_statement": "a(CHEBI:\"biotin\") increases p(HGNC:MIR1205)",
+                    "evidence": "A biotinylated synthetic analog of miR-1205 (NB1205) and a control biotinylated synthetic scramble duplex (NB1) was generated in effort to test our hypothesis that miR-1205 is a tumor suppressor."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:\"biotinylated synthetic analog of miR-1205\") decreases bp(GOBP:\"apoptotic process\")",
+                    "bel_statement": "p(HGNC:MIR1205) increases bp(GOBP:\"apoptotic process\")",
+                    "evidence": "this data suggests that miR-1205 has tumor suppressive functions by inducing apoptosis of aggressive PCa cells."
+                },
+                {
+                    "bel_statement": "p(HGNC:MIR1205) increases bp(GOBP:\"tumor suppression\")",
                     "evidence": "this data suggests that miR-1205 has tumor suppressive functions by inducing apoptosis of aggressive PCa cells."
                 }
             ]
@@ -590,12 +591,20 @@
                     "evidence": "we examined the putative targets of miR-1205 where FRYL was identified and validated as a target of miR-1205."
                 },
                 {
-                    "bel_statement": "g(NCBI Gene:FRYL) increases p(NCBI Gene:FRYL)",
-                    "evidence": "We established for the first time the overexpression FRYL mRNA and protein in PCa, CRPC, and NEPC cell lines and tissues, further implicating FRYL as a putative oncogenic factor in cancers such as PCa and ALL."
+                    "bel_statement": "g(NCBI Gene:MLL) hasMember g(NCBI Gene:FRYL)",
+                    "evidence": "FRYL was first identified as a novel fusion partner of the mixed lineage leukemia (MLL) gene."
                 },
                 {
-                    "bel_statement": "p(NCBI Gene:FRYL) hasActivity(bp(GOBP:\"transcriptional activation\"))",
+                    "bel_statement": "p(NCBI Gene:FRYL) increases bp(GOBP:\"transcriptional activation\")",
                     "evidence": "the c-terminus of FRYL exhibits transcriptional activation properties, indicating that FRYL is a transcriptional activator."
+                },
+                {
+                    "bel_statement": "p(NCBI Gene:FRYL) increases path(MESHD:\"acute lymphoblastic leukemia\")",
+                    "evidence": "FRYL was first identified as a novel fusion partner of the mixed lineage leukemia (MLL) gene that was reported in patients who developed treatment-related acute lymphoblastic leukemia (ALL)."
+                },
+                {
+                    "bel_statement": "p(NCBI Gene:FRYL) increases path(MESHD:\"prostate cancer\")",
+                    "evidence": "we established for the first time the overexpression FRYL mRNA and protein in PCa, CRPC, and NEPC cell lines and tissues, further implicating FRYL as a putative oncogenic factor in cancers such as PCa and ALL."
                 }
             ]
         },
@@ -619,23 +628,27 @@
             "Results": [
                 {
                     "bel_statement": "a(HGNC:FRYL) increases bp(GOBP:\"neuroendocrine differentiation\")",
-                    "evidence": "These results led us to hypothesize that miR-1205 regulation of FRYL is involved in NED in aggressive PCa."
+                    "evidence": "Our data showed that overexpression of miR-1205 in androgen sensitive cells increased the expression levels of neuroendocrine markers (NSE and aurora A) and FRYL suggesting that miR-1205 regulation of FRYL may be involved in NED."
                 },
                 {
                     "bel_statement": "a(HGNC:miR-1205) decreases a(HGNC:FRYL)",
                     "evidence": "we observed a significant decrease in miR-1205 expression and an increase in FRYL RNA expression."
                 },
                 {
-                    "bel_statement": "a(HGNC:FRYL) increases a(HGNC:NSE)",
-                    "evidence": "overexpression of miR-1205 in androgen sensitive cells increased the expression levels of neuroendocrine markers (NSE and aurora A) and FRYL suggesting that miR-1205 regulation of FRYL may be involved in NED."
+                    "bel_statement": "p(HGNC:AURKA) hasActivity(bp(GOBP:\"spindle formation\"))",
+                    "evidence": "aurora A binds to the c-terminal region of the mammalian fry protein and induces phosphorylation to promote proper spindle formation during mitosis."
                 },
                 {
-                    "bel_statement": "a(HGNC:FRYL) increases a(HGNC:aurora A)",
-                    "evidence": "overexpression of miR-1205 in androgen sensitive cells increased the expression levels of neuroendocrine markers (NSE and aurora A) and FRYL suggesting that miR-1205 regulation of FRYL may be involved in NED."
+                    "bel_statement": "bp(GOBP:\"neuroendocrine differentiation\") increases a(HGNC:miR-1205)",
+                    "evidence": "our data ultimately suggests that miR-1205 regulates NED."
                 },
                 {
-                    "bel_statement": "p(HGNC:aurora A) decreases a(HGNC:FRYL)",
-                    "evidence": "While loss of FRYL may not significantly affect the transcriptional regulation of aurora A, loss of aurora A could interfere with post-translational modifications within the c-terminal domain of FRYL that may overall contribute to regulation of NED."
+                    "bel_statement": "p(HGNC:FRYL) hasActivity(bp(GOBP:\"transcriptional regulation\"))",
+                    "evidence": "Fry and FRYL contain very similar structures within their c-terminal domains, which contains transcriptional activation properties."
+                },
+                {
+                    "bel_statement": "p(HGNC:AURKA) decreases a(HGNC:FRYL)",
+                    "evidence": "loss of aurora A could interfere with post-translational modifications within the c-terminal domain of FRYL that may overall contribute to regulation of NED."
                 }
             ]
         },

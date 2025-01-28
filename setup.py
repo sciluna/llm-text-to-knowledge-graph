@@ -3,15 +3,16 @@ from setuptools import setup, find_packages
 
 setup(
     name="textToKnowledgeGraph",
-    version="0.1.0",
+    version="0.2.2",
+    packages=find_packages(),
+    include_package_data=True,
     author="Favour James",
     author_email="favour.ujames196@gmail.com",
     description="A Python package to generate BEL statements and CX2 networks.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ndexbio/llm-text-to-knowledge-graph",  
-    packages=find_packages(),
-    python_requires=">=3.7",
+    python_requires=">=3.11",  # requires python version 3.11 or higher
     install_requires=[
         "langchain==0.3.13",
         "langchain_core==0.3.27",

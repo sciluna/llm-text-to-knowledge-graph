@@ -1,6 +1,5 @@
 import pandas as pd
 import re
-import json
 from ndex2.cx2 import PandasDataFrameToCX2NetworkFactory
 
 
@@ -20,7 +19,7 @@ def extract_type(bel_expression):
     return match.group(1) if match else "unknown"  # Default to "unknown" if no match
 
 
-def convert_to_cx2(extracted_results, style_path=None):
+def convert_to_cx2(extracted_results):
     # Initialize lists to store extracted data
     source_list = []
     target_list = []
@@ -82,19 +81,6 @@ def convert_to_cx2(extracted_results, style_path=None):
     # Retrieve nodes from the CX2 structure
     cx2_structure = cx2_network.to_cx2()
 
-    # Add style from JSON if provided
-    if style_path:
-        with open(style_path, 'r') as style_file:
-            style_data = json.load(style_file)
-
-        # Append the style aspects to the CX2 structure
-        cx2_structure.append({
-            "visualEditorProperties": style_data[0]["visualEditorProperties"]
-        })
-        cx2_structure.append({
-            "visualProperties": style_data[1]["visualProperties"]
-        })
-
     nodes_aspect = next((aspect for aspect in cx2_structure if isinstance(aspect, dict) and "nodes" in aspect), None)
     existing_node_ids = {node['id'] for node in nodes_aspect["nodes"]} if nodes_aspect else set()
 
@@ -122,11 +108,3 @@ def convert_to_cx2(extracted_results, style_path=None):
     cx2_network._cx2 = cx2_structure
 
     return cx2_network
-
-# cx2_network = convert_to_cx2(json_data)
-# cx2_network.set_name('Indra_50_sentences_network')
-# net_cx = cx2_network.to_cx2()
-
-# Create an NDEx client instance with your credentials
-# client = Ndex2(username='favour.ujames196@gmail.com', password='Fujames17')
-# client.save_new_cx2_network(net_cx)
