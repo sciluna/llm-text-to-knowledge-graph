@@ -63,6 +63,7 @@ def process_paper(pmc_id, ndex_email, ndex_password, style_path=None):
         client = Ndex2(username=ndex_email, password=ndex_password)
         client.save_new_cx2_network(cx2_network.to_cx2())
 
+
         logging.info(f"Processing completed successfully for {pmc_id}.")
         return True
 

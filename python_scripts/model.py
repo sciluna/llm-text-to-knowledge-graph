@@ -1,7 +1,7 @@
 import os
 import warnings
 import time
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from typing import List
 from pydantic import BaseModel, Field
 from langchain_core.utils.function_calling import convert_pydantic_to_openai_function
@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI
 # from langchain_anthropic import ChatAnthropic
 warnings.filterwarnings("ignore")
 
-load_dotenv()
+#load_dotenv()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
