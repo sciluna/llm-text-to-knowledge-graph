@@ -10,7 +10,7 @@ def get_prompt(identifier, filepath):
     # Determine the directory of the package
     package_dir = files('textToKnowledgeGraph')
 
-    # 
+    # Get the absolute path of the file
     absolute_filepath = package_dir / filepath
 
     with open(absolute_filepath, 'rb') as file:
