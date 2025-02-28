@@ -1,0 +1,676 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 1,
+                "name": "networkAttributes"
+            },
+            {
+                "elementCount": 37,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 26,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "id": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                },
+                "networkAttributes": {
+                    "name": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "name": "LLM Text to Knowledge Graph for publication: PMID9171350"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "ITGA6_ITGB4",
+                    "name": "p(FPLX:ITGA6_ITGB4)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "cell cycle progression",
+                    "name": "bp(GO:\"cell cycle progression\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "cell survival",
+                    "name": "bp(GO:\"cell survival\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "ITGB4",
+                    "name": "p(FPLX:ITGB4)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "SHC1, pmod(Ph, Tyr",
+                    "name": "p(HGNC:SHC1, pmod(Ph, Tyr)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "laminin 5",
+                    "name": "a(EFO:\"laminin 5\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "HRAS",
+                    "name": "act(p(HGNC:HRAS)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "anti-\u03b24 Mab",
+                    "name": "a(EFO:\"anti-\u03b24 Mab\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "epidermal growth factor",
+                    "name": "a(EFO:\"epidermal growth factor\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "\u03b16\u03b24-mediated cell adhesion",
+                    "name": "a(EFO:\"\u03b16\u03b24-mediated cell adhesion\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "EGF",
+                    "name": "a(EFO:EGF)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:3229"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "MAPK1",
+                    "name": "act(p(HGNC:MAPK1)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:6871"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "laminin 5",
+                    "name": "a(EFO:laminin 5)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "Laminin-5",
+                    "name": "a(MESH:\"Laminin-5\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "JNK",
+                    "name": "act(p(HGNC:JNK)",
+                    "type": "act",
+                    "id": "https://identifiers.org/FPLX:JNK"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "ITGA6_ITGB4",
+                    "name": "a(FPLX:ITGA6_ITGB4)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "Fos SRE-dependent transcription",
+                    "name": "bp(GO:\"Fos SRE-dependent transcription\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "ITGA3_ITGB1",
+                    "name": "a(FPLX:ITGA3_ITGB1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "ITGA5_ITGB1",
+                    "name": "a(FPLX:ITGA5_ITGB1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "phosphatidylinositol 4,5-bisphosphate",
+                    "name": "a(CHEBI:\"phosphatidylinositol 4,5-bisphosphate\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "RAS",
+                    "name": "act(p(HGNC:RAS)",
+                    "type": "act",
+                    "id": "https://identifiers.org/FPLX:RAS"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "RHOA",
+                    "name": "p(HGNC:RHOA)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:667"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "ERK1",
+                    "name": "act(p(HGNC:ERK1)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "PIK3CA",
+                    "name": "p(HGNC:PIK3CA)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "JNK1",
+                    "name": "act(p(HGNC:JNK1)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "ERK",
+                    "name": "p(HGNC:ERK)",
+                    "type": "p",
+                    "id": "https://identifiers.org/FPLX:ERK"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "FOS",
+                    "name": "r(HGNC:FOS)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "ITGA6_ITGB4",
+                    "name": "complex(FPLX:ITGA6_ITGB4)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "G1/S transition of mitotic cell cycle",
+                    "name": "bp(GO:\"G1/S transition of mitotic cell cycle\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "ITGA2_ITGB1",
+                    "name": "complex(FPLX:ITGA2_ITGB1)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "S phase of mitotic cell cycle",
+                    "name": "bp(GO:\"S phase of mitotic cell cycle\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "ITGA1_ITGB1",
+                    "name": "complex(FPLX:ITGA1_ITGB1)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "Ras protein signal transduction",
+                    "name": "bp(GO:\"Ras protein signal transduction\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "ITGA5_ITGB1",
+                    "name": "complex(FPLX:ITGA5_ITGB1)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "ITGAV_ITGB3",
+                    "name": "complex(FPLX:ITGAV_ITGB3)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "SHC1",
+                    "name": "p(HGNC:SHC1)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "label": "neoplastic transformation",
+                    "name": "bp(GO:\"neoplastic transformation\")",
+                    "type": "bp"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(FPLX:ITGA6_ITGB4) increases bp(GO:\"cell cycle progression\")",
+                    "text": "In the epidermis and other stratified epithelia, the expression of \u03b16\u03b24 is restricted to the basal cell layer which contains cells endowed with proliferative capacity. It is known that keratinocytes exit the cell cycle and begin their differentiation program when they detach from the basement membrane to migrate to the upper epidermal layers. In fact, this process can be replicated in vitro by depriving cultured keratinocytes of anchorage to their endogenously produced extracellular matrix, which is particularly rich in laminin 5. Furthermore, squamous carcinoma cells endowed with high proliferative potential often express elevated levels of \u03b16\u03b24. Finally, the basal keratinocytes of \u03b24 knock-out mice display signs of degeneration even in areas of epidermis where no significant detachment from the basement membrane is observed. These observations suggest that \u03b16\u03b24 may provide epithelial cells with a signal important for cell survival and cell cycle progression.",
+                    "evidence": "These observations suggest that \u03b16\u03b24 may provide epithelial cells with a signal important for cell survival and cell cycle progression."
+                }
+            },
+            {
+                "id": 1,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(FPLX:ITGA6_ITGB4) increases bp(GO:\"cell survival\")",
+                    "text": "In the epidermis and other stratified epithelia, the expression of \u03b16\u03b24 is restricted to the basal cell layer which contains cells endowed with proliferative capacity. It is known that keratinocytes exit the cell cycle and begin their differentiation program when they detach from the basement membrane to migrate to the upper epidermal layers. In fact, this process can be replicated in vitro by depriving cultured keratinocytes of anchorage to their endogenously produced extracellular matrix, which is particularly rich in laminin 5. Furthermore, squamous carcinoma cells endowed with high proliferative potential often express elevated levels of \u03b16\u03b24. Finally, the basal keratinocytes of \u03b24 knock-out mice display signs of degeneration even in areas of epidermis where no significant detachment from the basement membrane is observed. These observations suggest that \u03b16\u03b24 may provide epithelial cells with a signal important for cell survival and cell cycle progression.",
+                    "evidence": "These observations suggest that \u03b16\u03b24 may provide epithelial cells with a signal important for cell survival and cell cycle progression."
+                }
+            },
+            {
+                "id": 2,
+                "s": 3,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(FPLX:ITGB4) increases p(HGNC:SHC1, pmod(Ph, Tyr)",
+                    "text": "We next examined the role of cytoplasmic domain of \u03b24 in the recruitment and tyrosine phosphorylation of Shc. Rat bladder 804G cells expressing either a recombinant full-length human \u03b24 subunit (clone A) or a tail-less version (clone L) were cross-linked in suspension with the anti-\u03b24 Mab 3E1 or the control anti-MHC Mab W6.32. Immunoprecipitation with the 3E1 Mab followed by immunoblotting with anti-Shc antibodies revealed that the recruitment of all three isoforms of Shc by \u03b16\u03b24 requires the cytoplasmic domain of the \u03b24 subunit. To examine if recruitment to \u03b16\u03b24 was a prerequisite for tyrosine phosphorylation of Shc, clone A and clone L were either cross-linked in suspension with the 3E1 or the W6.32 Mab or plated onto dishes coated with the same antibodies. Immunoprecipitation with anti-Shc antibodies followed by immunoblotting with anti-P-Tyr antibodies indicated that ligation of wild-type \u03b16\u03b24 induces tyrosine phosphorylation of the 52 kDa isoform of Shc (the major isoform recruited to activated \u03b16\u03b24 in these cells). In contrast, ligation of tail-less \u03b16\u03b24 did not cause efficient tyrosine phosphorylation of Shc. These results are consistent with the hypothesis that the recruitment of Shc to activated \u03b16\u03b24 is mediated by tyrosine phosphorylation of the cytoplasmic domain of \u03b24. They also suggest that this event is necessary for subsequent tyrosine phosphorylation of the adaptor protein. Since in a number of experiments tail-less \u03b16\u03b24 was able to induce a modest level of tyrosine phosphorylation of Shc, it is possible that an additional indirect mechanism contributes to the activation of Shc by \u03b16\u03b24.",
+                    "evidence": "These results are consistent with the hypothesis that the recruitment of Shc to activated \u03b16\u03b24 is mediated by tyrosine phosphorylation of the cytoplasmic domain of \u03b24."
+                }
+            },
+            {
+                "id": 3,
+                "s": 5,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:\"laminin 5\") increases act(p(HGNC:HRAS)",
+                    "text": "Since Grb2 is stably associated with the Ras-GTP exchange factor mSOS, the recruitment of Grb2 to the plasma membrane mediated by Shc is likely to bring mSOS in close proximity to its target Ras. Ras-GTP loading experiments were therefore performed to examine if ligation of \u03b16\u03b24 resulted in activation of Ras. After growth factor starvation and in vivo labeling with [32P]orthophosphate, primary human keratinocytes were detached and either incubated in suspension with anti-\u03b24 or anti-MHC beads or replated on dishes coated with laminin 5 or anti-\u03b24 Mab. As a control, adherent keratinocytes were either left untreated or were stimulated with epidermal growth factor (EGF). Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF. In suspended cells, however, antibody-mediated ligation of \u03b16\u03b24 did not cause activation of Ras. The results of this experiment indicate that \u03b16\u03b24-mediated cell adhesion causes activation of Ras. They also suggest that, in contrast to the sequential recruitment of Shc and Grb2 which can occur in suspended cells treated with anti-\u03b24 beads, optimal activation of Ras by \u03b16\u03b24 requires adhesion and/or spreading on a substratum coated with \u03b16\u03b24 ligands.",
+                    "evidence": "Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF."
+                }
+            },
+            {
+                "id": 4,
+                "s": 7,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:\"anti-\u03b24 Mab\") increases act(p(HGNC:HRAS)",
+                    "text": "Since Grb2 is stably associated with the Ras-GTP exchange factor mSOS, the recruitment of Grb2 to the plasma membrane mediated by Shc is likely to bring mSOS in close proximity to its target Ras. Ras-GTP loading experiments were therefore performed to examine if ligation of \u03b16\u03b24 resulted in activation of Ras. After growth factor starvation and in vivo labeling with [32P]orthophosphate, primary human keratinocytes were detached and either incubated in suspension with anti-\u03b24 or anti-MHC beads or replated on dishes coated with laminin 5 or anti-\u03b24 Mab. As a control, adherent keratinocytes were either left untreated or were stimulated with epidermal growth factor (EGF). Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF. In suspended cells, however, antibody-mediated ligation of \u03b16\u03b24 did not cause activation of Ras. The results of this experiment indicate that \u03b16\u03b24-mediated cell adhesion causes activation of Ras. They also suggest that, in contrast to the sequential recruitment of Shc and Grb2 which can occur in suspended cells treated with anti-\u03b24 beads, optimal activation of Ras by \u03b16\u03b24 requires adhesion and/or spreading on a substratum coated with \u03b16\u03b24 ligands.",
+                    "evidence": "Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF."
+                }
+            },
+            {
+                "id": 5,
+                "s": 8,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:\"epidermal growth factor\") increases act(p(HGNC:HRAS)",
+                    "text": "Since Grb2 is stably associated with the Ras-GTP exchange factor mSOS, the recruitment of Grb2 to the plasma membrane mediated by Shc is likely to bring mSOS in close proximity to its target Ras. Ras-GTP loading experiments were therefore performed to examine if ligation of \u03b16\u03b24 resulted in activation of Ras. After growth factor starvation and in vivo labeling with [32P]orthophosphate, primary human keratinocytes were detached and either incubated in suspension with anti-\u03b24 or anti-MHC beads or replated on dishes coated with laminin 5 or anti-\u03b24 Mab. As a control, adherent keratinocytes were either left untreated or were stimulated with epidermal growth factor (EGF). Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF. In suspended cells, however, antibody-mediated ligation of \u03b16\u03b24 did not cause activation of Ras. The results of this experiment indicate that \u03b16\u03b24-mediated cell adhesion causes activation of Ras. They also suggest that, in contrast to the sequential recruitment of Shc and Grb2 which can occur in suspended cells treated with anti-\u03b24 beads, optimal activation of Ras by \u03b16\u03b24 requires adhesion and/or spreading on a substratum coated with \u03b16\u03b24 ligands.",
+                    "evidence": "Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF."
+                }
+            },
+            {
+                "id": 6,
+                "s": 9,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:\"\u03b16\u03b24-mediated cell adhesion\") increases act(p(HGNC:HRAS)",
+                    "text": "Since Grb2 is stably associated with the Ras-GTP exchange factor mSOS, the recruitment of Grb2 to the plasma membrane mediated by Shc is likely to bring mSOS in close proximity to its target Ras. Ras-GTP loading experiments were therefore performed to examine if ligation of \u03b16\u03b24 resulted in activation of Ras. After growth factor starvation and in vivo labeling with [32P]orthophosphate, primary human keratinocytes were detached and either incubated in suspension with anti-\u03b24 or anti-MHC beads or replated on dishes coated with laminin 5 or anti-\u03b24 Mab. As a control, adherent keratinocytes were either left untreated or were stimulated with epidermal growth factor (EGF). Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF. In suspended cells, however, antibody-mediated ligation of \u03b16\u03b24 did not cause activation of Ras. The results of this experiment indicate that \u03b16\u03b24-mediated cell adhesion causes activation of Ras. They also suggest that, in contrast to the sequential recruitment of Shc and Grb2 which can occur in suspended cells treated with anti-\u03b24 beads, optimal activation of Ras by \u03b16\u03b24 requires adhesion and/or spreading on a substratum coated with \u03b16\u03b24 ligands.",
+                    "evidence": "The results of this experiment indicate that \u03b16\u03b24-mediated cell adhesion causes activation of Ras."
+                }
+            },
+            {
+                "id": 7,
+                "s": 10,
+                "t": 11,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:EGF) increases act(p(HGNC:MAPK1)",
+                    "text": "We next examined if ligation of \u03b16\u03b24 resulted in activation of the MAP kinase Erk. Growth factor-starved keratinocytes were detached and either kept in suspension or plated on dishes coated with the anti-\u03b24 Mab 3E1, the anti-MHC Mab W6.32, laminin 5, collagen I or poly-L-lysine. As a control, adherent keratinocytes were treated with EGF. Immunoprecipitation and in vitro kinase assays indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes causes activation of Erk to a level similar to that induced by EGF. In contrast, adhesion to collagen I, poly-L-lysine or anti-MHC Mab did not result in significant activation of Erk. Adhesion to anti-\u03b13 Mab-coated dishes also did not cause Erk activation. To examine the kinetics of Erk activation by \u03b16\u03b24, keratinocytes were plated on laminin 5 for various times and subjected to Erk immunoprecipitation and kinase assay. We detected a significant activation of Erk as early as 5 min after plating the keratinocytes on laminin 5. The level of Erk activity peaked at 30 min of adhesion and declined thereafter. These results indicate that ligation of \u03b16\u03b24 causes a significant and relatively persistent activation of the MAP kinase Erk and are in agreement with the observation that ligation of the laminin- and collagen-binding integrins \u03b13\u03b21 and \u03b12\u03b21 does not induce this event. Since adhesion mediated by \u03b13\u03b21 and \u03b12\u03b21 is known to cause activation of focal adhesion kinase (FAK), these findings are also consistent with the notion that activation of FAK is not sufficient for stimulation of Erk in response to integrin ligation.",
+                    "evidence": "As a control, adherent keratinocytes were treated with EGF. Immunoprecipitation and in vitro kinase assays indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes causes activation of Erk to a level similar to that induced by EGF."
+                }
+            },
+            {
+                "id": 8,
+                "s": 12,
+                "t": 11,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:laminin 5) increases act(p(HGNC:MAPK1)",
+                    "text": "We next examined if ligation of \u03b16\u03b24 resulted in activation of the MAP kinase Erk. Growth factor-starved keratinocytes were detached and either kept in suspension or plated on dishes coated with the anti-\u03b24 Mab 3E1, the anti-MHC Mab W6.32, laminin 5, collagen I or poly-L-lysine. As a control, adherent keratinocytes were treated with EGF. Immunoprecipitation and in vitro kinase assays indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes causes activation of Erk to a level similar to that induced by EGF. In contrast, adhesion to collagen I, poly-L-lysine or anti-MHC Mab did not result in significant activation of Erk. Adhesion to anti-\u03b13 Mab-coated dishes also did not cause Erk activation. To examine the kinetics of Erk activation by \u03b16\u03b24, keratinocytes were plated on laminin 5 for various times and subjected to Erk immunoprecipitation and kinase assay. We detected a significant activation of Erk as early as 5 min after plating the keratinocytes on laminin 5. The level of Erk activity peaked at 30 min of adhesion and declined thereafter. These results indicate that ligation of \u03b16\u03b24 causes a significant and relatively persistent activation of the MAP kinase Erk and are in agreement with the observation that ligation of the laminin- and collagen-binding integrins \u03b13\u03b21 and \u03b12\u03b21 does not induce this event. Since adhesion mediated by \u03b13\u03b21 and \u03b12\u03b21 is known to cause activation of focal adhesion kinase (FAK), these findings are also consistent with the notion that activation of FAK is not sufficient for stimulation of Erk in response to integrin ligation.",
+                    "evidence": "Immunoprecipitation and in vitro kinase assays indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes causes activation of Erk to a level similar to that induced by EGF."
+                }
+            },
+            {
+                "id": 9,
+                "s": 13,
+                "t": 14,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(MESH:\"Laminin-5\") increases act(p(HGNC:JNK)",
+                    "text": "Ligation of \u03b16\u03b24 causes activation of the Rac\u2013Jnk signaling pathway. We next examined if ligation of \u03b16\u03b24 stimulated the MAP kinase Jnk. Growth factor-starved primary keratinocytes were detached and either kept in suspension or plated on dishes coated with anti-\u03b24 Mab, anti-MHC Mab, laminin 5, collagen I or poly-L-lysine. As a control, adherent keratinocytes were exposed to UV light. Jnk was precipitated by using a GST\u2013Jun fusion protein and its activity examined by in vitro kinase assay. The binding of Mab 3E1 or laminin 5 to \u03b16\u03b24 caused an activation of Jnk comparable with that induced by UV stimulation. In contrast, adhesion to dishes coated with collagen I, poly-L-lysine, the control Mab W6.32 or the anti-\u03b13\u03b21 Mab P1B5 did not result in significant activation of Jnk. Time-course experiments indicated that the kinetics of activation of Jnk in response to laminin 5 were similar to those observed for Erk. These results indicate that ligation of \u03b16\u03b24 causes activation of Jnk, and suggest that ligation of the collagen-binding integrin \u03b12\u03b21 does not induce this event.",
+                    "evidence": "The binding of Mab 3E1 or laminin 5 to \u03b16\u03b24 caused an activation of Jnk comparable with that induced by UV stimulation."
+                }
+            },
+            {
+                "id": 10,
+                "s": 15,
+                "t": 16,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(FPLX:ITGA6_ITGB4) increases bp(GO:\"Fos SRE-dependent transcription\")",
+                    "text": "To analyze Fos SRE-dependent transcription in response to laminin 5, control and \u03b24-transfected NIH 3T3 cells were transiently transfected with the Fos-SRE\u2013Luc plasmid. Upon plating on dishes coated with poly-L-lysine or laminin 5, the cells were either left untreated or exposed to basic fibroblast growth factor (bFGF), insulin and platelet-derived growth factor (PDGF). The results of luciferase assays indicated that adhesion to laminin 5 causes elevation of Fos SRE-dependent transcription in the \u03b24 transfectants even in the absence of mitogens and this induction is potentiated by mitogen treatment. The ability of laminin 5 to induce Fos SRE-dependent transcription was dependent on \u03b16\u03b24 expression, because adhesion to laminin 5 did not cause this effect in control cells even after mitogen treatment. These results indicate that ligation of \u03b16\u03b24, but not \u03b13\u03b21, is sufficient to induce Fos SRE-dependent transcription, and confirm that \u03b16\u03b24 cooperates with mitogens to cause optimal induction of this activity.",
+                    "evidence": "The ability of laminin 5 to induce Fos SRE-dependent transcription was dependent on \u03b16\u03b24 expression, because adhesion to laminin 5 did not cause this effect in control cells even after mitogen treatment."
+                }
+            },
+            {
+                "id": 11,
+                "s": 15,
+                "t": 16,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(FPLX:ITGA6_ITGB4) increases bp(GO:\"Fos SRE-dependent transcription\")",
+                    "text": "To analyze Fos SRE-dependent transcription in response to laminin 5, control and \u03b24-transfected NIH 3T3 cells were transiently transfected with the Fos-SRE\u2013Luc plasmid. Upon plating on dishes coated with poly-L-lysine or laminin 5, the cells were either left untreated or exposed to basic fibroblast growth factor (bFGF), insulin and platelet-derived growth factor (PDGF). The results of luciferase assays indicated that adhesion to laminin 5 causes elevation of Fos SRE-dependent transcription in the \u03b24 transfectants even in the absence of mitogens and this induction is potentiated by mitogen treatment. The ability of laminin 5 to induce Fos SRE-dependent transcription was dependent on \u03b16\u03b24 expression, because adhesion to laminin 5 did not cause this effect in control cells even after mitogen treatment. These results indicate that ligation of \u03b16\u03b24, but not \u03b13\u03b21, is sufficient to induce Fos SRE-dependent transcription, and confirm that \u03b16\u03b24 cooperates with mitogens to cause optimal induction of this activity.",
+                    "evidence": "These results indicate that ligation of \u03b16\u03b24, but not \u03b13\u03b21, is sufficient to induce Fos SRE-dependent transcription, and confirm that \u03b16\u03b24 cooperates with mitogens to cause optimal induction of this activity."
+                }
+            },
+            {
+                "id": 12,
+                "s": 15,
+                "t": 1,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(FPLX:ITGA6_ITGB4) increases bp(GO:\"cell cycle progression\")",
+                    "text": "To examine the relative roles of \u03b16\u03b24 and \u03b13\u03b21 in keratinocyte proliferation, we tested the effect of inhibitory anti-\u03b24 and anti-\u03b21 antibodies. Growth factor-starved keratinocytes were plated on laminin 5 and exposed to EGF in the presence of the inhibitory anti-\u03b21 Mab 4B4, the inhibitory anti-\u03b24 Mab A9 or the control anti-MHC Mab W6.32. Exposure to the anti-\u03b24 Mab completely suppressed keratinocyte entry into S. In contrast, treatment with the anti-\u03b21 or anti-MHC Mab did not inhibit keratinocyte proliferation on laminin 5. To control the efficacy of the anti-\u03b21 Mab 4B4, G0 synchronized primary human fibroblasts were plated on a mixed substrate consisting of poly-L-lysine and fibronectin and exposed to mitogens in the presence of the 4B4 or W6.32 Mab. In accordance with the recent observation that a class of \u03b21 integrins, which include the \u03b15\u03b21 fibronectin receptor, is linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc, plating of the primary fibroblasts on fibronectin/poly-L-lysine promoted cell cycle progression, and exposure to anti-\u03b21 Mab 4B4 blocked this process without inducing detachment. These results suggest that the ability of laminin 5 to promote keratinocyte cell cycle progression is mediated by \u03b16\u03b24, and not by \u03b13\u03b21.",
+                    "evidence": "These results suggest that the ability of laminin 5 to promote keratinocyte cell cycle progression is mediated by \u03b16\u03b24, and not by \u03b13\u03b21."
+                }
+            },
+            {
+                "id": 13,
+                "s": 17,
+                "t": 1,
+                "v": {
+                    "interaction": "causesNoChange",
+                    "bel_expression": "a(FPLX:ITGA3_ITGB1) causesNoChange bp(GO:\"cell cycle progression\")",
+                    "text": "To examine the relative roles of \u03b16\u03b24 and \u03b13\u03b21 in keratinocyte proliferation, we tested the effect of inhibitory anti-\u03b24 and anti-\u03b21 antibodies. Growth factor-starved keratinocytes were plated on laminin 5 and exposed to EGF in the presence of the inhibitory anti-\u03b21 Mab 4B4, the inhibitory anti-\u03b24 Mab A9 or the control anti-MHC Mab W6.32. Exposure to the anti-\u03b24 Mab completely suppressed keratinocyte entry into S. In contrast, treatment with the anti-\u03b21 or anti-MHC Mab did not inhibit keratinocyte proliferation on laminin 5. To control the efficacy of the anti-\u03b21 Mab 4B4, G0 synchronized primary human fibroblasts were plated on a mixed substrate consisting of poly-L-lysine and fibronectin and exposed to mitogens in the presence of the 4B4 or W6.32 Mab. In accordance with the recent observation that a class of \u03b21 integrins, which include the \u03b15\u03b21 fibronectin receptor, is linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc, plating of the primary fibroblasts on fibronectin/poly-L-lysine promoted cell cycle progression, and exposure to anti-\u03b21 Mab 4B4 blocked this process without inducing detachment. These results suggest that the ability of laminin 5 to promote keratinocyte cell cycle progression is mediated by \u03b16\u03b24, and not by \u03b13\u03b21.",
+                    "evidence": "These results suggest that the ability of laminin 5 to promote keratinocyte cell cycle progression is mediated by \u03b16\u03b24, and not by \u03b13\u03b21."
+                }
+            },
+            {
+                "id": 14,
+                "s": 18,
+                "t": 1,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(FPLX:ITGA5_ITGB1) increases bp(GO:\"cell cycle progression\")",
+                    "text": "To examine the relative roles of \u03b16\u03b24 and \u03b13\u03b21 in keratinocyte proliferation, we tested the effect of inhibitory anti-\u03b24 and anti-\u03b21 antibodies. Growth factor-starved keratinocytes were plated on laminin 5 and exposed to EGF in the presence of the inhibitory anti-\u03b21 Mab 4B4, the inhibitory anti-\u03b24 Mab A9 or the control anti-MHC Mab W6.32. Exposure to the anti-\u03b24 Mab completely suppressed keratinocyte entry into S. In contrast, treatment with the anti-\u03b21 or anti-MHC Mab did not inhibit keratinocyte proliferation on laminin 5. To control the efficacy of the anti-\u03b21 Mab 4B4, G0 synchronized primary human fibroblasts were plated on a mixed substrate consisting of poly-L-lysine and fibronectin and exposed to mitogens in the presence of the 4B4 or W6.32 Mab. In accordance with the recent observation that a class of \u03b21 integrins, which include the \u03b15\u03b21 fibronectin receptor, is linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc, plating of the primary fibroblasts on fibronectin/poly-L-lysine promoted cell cycle progression, and exposure to anti-\u03b21 Mab 4B4 blocked this process without inducing detachment. These results suggest that the ability of laminin 5 to promote keratinocyte cell cycle progression is mediated by \u03b16\u03b24, and not by \u03b13\u03b21.",
+                    "evidence": "In accordance with the recent observation that a class of \u03b21 integrins, which include the \u03b15\u03b21 fibronectin receptor, is linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc, plating of the primary fibroblasts on fibronectin/poly-L-lysine promoted cell cycle progression, and exposure to anti-\u03b21 Mab 4B4 blocked this process without inducing detachment."
+                }
+            },
+            {
+                "id": 15,
+                "s": 18,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(FPLX:ITGA5_ITGB1) directlyDecreases bp(GO:\"cell cycle progression\")",
+                    "text": "To examine the relative roles of \u03b16\u03b24 and \u03b13\u03b21 in keratinocyte proliferation, we tested the effect of inhibitory anti-\u03b24 and anti-\u03b21 antibodies. Growth factor-starved keratinocytes were plated on laminin 5 and exposed to EGF in the presence of the inhibitory anti-\u03b21 Mab 4B4, the inhibitory anti-\u03b24 Mab A9 or the control anti-MHC Mab W6.32. Exposure to the anti-\u03b24 Mab completely suppressed keratinocyte entry into S. In contrast, treatment with the anti-\u03b21 or anti-MHC Mab did not inhibit keratinocyte proliferation on laminin 5. To control the efficacy of the anti-\u03b21 Mab 4B4, G0 synchronized primary human fibroblasts were plated on a mixed substrate consisting of poly-L-lysine and fibronectin and exposed to mitogens in the presence of the 4B4 or W6.32 Mab. In accordance with the recent observation that a class of \u03b21 integrins, which include the \u03b15\u03b21 fibronectin receptor, is linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc, plating of the primary fibroblasts on fibronectin/poly-L-lysine promoted cell cycle progression, and exposure to anti-\u03b21 Mab 4B4 blocked this process without inducing detachment. These results suggest that the ability of laminin 5 to promote keratinocyte cell cycle progression is mediated by \u03b16\u03b24, and not by \u03b13\u03b21.",
+                    "evidence": "In accordance with the recent observation that a class of \u03b21 integrins, which include the \u03b15\u03b21 fibronectin receptor, is linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc, plating of the primary fibroblasts on fibronectin/poly-L-lysine promoted cell cycle progression, and exposure to anti-\u03b21 Mab 4B4 blocked this process without inducing detachment."
+                }
+            },
+            {
+                "id": 16,
+                "s": 19,
+                "t": 20,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"phosphatidylinositol 4,5-bisphosphate\") increases act(p(HGNC:RAS)",
+                    "text": "In contrast to the recruitment of Shc and Grb2 which could be observed in suspended keratinocytes cross-linked with anti-\u03b16\u03b24 antibodies, full activation of Ras required physical attachment and/or spreading on a substratum coated with \u03b16\u03b24 ligands. Since it has been suggested that proper targeting of the Grb2\u2013mSOS complex to Ras may require an interaction of the Grb2 SH3 domains with the cortical cytoskeleton, it is possible that such targeting is defective in suspended keratinocytes cross-linked with anti-\u03b16\u03b24 antibodies. Alternatively, since the pleckstrin homology domain of mSOS may bind to phosphatidylinositol(4,5)bisphosphate (PtdInsP2) in the plasma membrane and it is known that PtdInsP2 levels decline in suspended cells, it is possible that Ras activation by \u03b16\u03b24 requires a threshold concentration of PtdInsP2 in the plasma membrane which is not available in suspended keratinocytes. Future studies will be required to resolve this issue.",
+                    "evidence": "Alternatively, since the pleckstrin homology domain of mSOS may bind to phosphatidylinositol(4,5)bisphosphate (PtdInsP2) in the plasma membrane and it is known that PtdInsP2 levels decline in suspended cells, it is possible that Ras activation by \u03b16\u03b24 requires a threshold concentration of PtdInsP2 in the plasma membrane which is not available in suspended keratinocytes."
+                }
+            },
+            {
+                "id": 17,
+                "s": 21,
+                "t": 22,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:RHOA) increases act(p(HGNC:ERK1)",
+                    "text": "The results of this study indicate that ligation of \u03b16\u03b24 results in the stimulation of both Ras\u2013Erk and Rac\u2013Jnk MAP kinase signaling pathways. The activation of Erk by \u03b16\u03b24 was suppressed by dominant-negative versions of both Shc and Ras, indicating that the coupling to Ras mediated by Shc is the major mechanism by which \u03b16\u03b24 controls Erk activation. Interestingly, Erk activation was also inhibited by dominant-negative RhoA. This result, which is in agreement with the recent observation that Rho activity is required for full activation of Erk in response to various extracellular stimuli, suggests that this G protein also participates in signaling by \u03b16\u03b24. The activation of Jnk by \u03b16\u03b24 was inhibited by dominant-negative Ras and Rac1, but not by dominant-negative RhoA and Cdc42. In addition, it was suppressed by nanomolar concentrations of the PI-3K inhibitor Wortmannin. Since there is evidence that PI-3K is a downstream target effector of Ras and is involved in the activation of Rac, it is likely that \u03b16\u03b24 stimulates the Rac\u2013Jnk pathway via Ras. Thus, the coupling of \u03b16\u03b24 to Ras mediated by Shc leads to the activation of both Ras\u2013Erk and Rac\u2013Jnk signaling pathways.",
+                    "evidence": "Erk activation was also inhibited by dominant-negative RhoA. This result, which is in agreement with the recent observation that Rho activity is required for full activation of Erk in response to various extracellular stimuli, suggests that this G protein also participates in signaling by \u03b16\u03b24."
+                }
+            },
+            {
+                "id": 18,
+                "s": 23,
+                "t": 24,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:PIK3CA) increases act(p(HGNC:JNK1)",
+                    "text": "The results of this study indicate that ligation of \u03b16\u03b24 results in the stimulation of both Ras\u2013Erk and Rac\u2013Jnk MAP kinase signaling pathways. The activation of Erk by \u03b16\u03b24 was suppressed by dominant-negative versions of both Shc and Ras, indicating that the coupling to Ras mediated by Shc is the major mechanism by which \u03b16\u03b24 controls Erk activation. Interestingly, Erk activation was also inhibited by dominant-negative RhoA. This result, which is in agreement with the recent observation that Rho activity is required for full activation of Erk in response to various extracellular stimuli, suggests that this G protein also participates in signaling by \u03b16\u03b24. The activation of Jnk by \u03b16\u03b24 was inhibited by dominant-negative Ras and Rac1, but not by dominant-negative RhoA and Cdc42. In addition, it was suppressed by nanomolar concentrations of the PI-3K inhibitor Wortmannin. Since there is evidence that PI-3K is a downstream target effector of Ras and is involved in the activation of Rac, it is likely that \u03b16\u03b24 stimulates the Rac\u2013Jnk pathway via Ras. Thus, the coupling of \u03b16\u03b24 to Ras mediated by Shc leads to the activation of both Ras\u2013Erk and Rac\u2013Jnk signaling pathways.",
+                    "evidence": "In addition, it was suppressed by nanomolar concentrations of the PI-3K inhibitor Wortmannin. Since there is evidence that PI-3K is a downstream target effector of Ras and is involved in the activation of Rac, it is likely that \u03b16\u03b24 stimulates the Rac\u2013Jnk pathway via Ras."
+                }
+            },
+            {
+                "id": 19,
+                "s": 25,
+                "t": 26,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:ERK) increases r(HGNC:FOS)",
+                    "text": "In accordance with the observation that Erk stimulates transcription of the immediate-early gene fos, the results of our study indicate that adhesion mediated by \u03b16\u03b24 is sufficient to promote transcription from the Fos SRE. Interestingly, while treatment with mitogens caused a significant elevation of Fos SRE activity in cells plated on the \u03b16\u03b24 ligand laminin 5, it was ineffective in cells adhering to the \u03b12\u03b21 ligand collagen I, indicating that the expression of Fos in response to mitogens requires ligation of a specific integrin, such as \u03b16\u03b24. Future studies will be required to examine further the mechanism by which \u03b16\u03b24 controls immediate-early gene expression. For example, it is known that Rho family proteins can activate the Fos promoter by stimulating the serum response factor. The ability of \u03b16\u03b24 to stimulate Rac may thus contribute to the activation of Fos promoter in response to laminin 5. In addition, since it is well established that Jnk controls the activity of the Jun promoter, it is likely that \u03b16\u03b24 also regulates the expression of the immediate-early expression gene Jun. Taken together, these observations suggest that \u03b16\u03b24 is a crucial regulator of immediate-early gene expression.",
+                    "evidence": "In accordance with the observation that Erk stimulates transcription of the immediate-early gene fos."
+                }
+            },
+            {
+                "id": 20,
+                "s": 27,
+                "t": 28,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "complex(FPLX:ITGA6_ITGB4) increases bp(GO:\"G1/S transition of mitotic cell cycle\")",
+                    "text": "What is the biological significance of \u03b16\u03b24 signaling? The results of our cell proliferation analysis indicate that \u03b16\u03b24 signaling promotes transit through G1 in keratinocytes and other \u03b16\u03b24-expressing cells exposed to mitogens. In this respect, \u03b16\u03b24 appears to be functionally distinct from other integrins, such as \u03b13\u03b21 and \u03b12\u03b21, which do not appear to be able to do so. In fact, it is quite remarkable that keratinocytes plated on the \u03b12\u03b21 ligand collagen I adhere and spread but do not enter into the S phase despite being exposed to otherwise mitogenic concentrations of EGF. We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc. Taken together, these observations suggest that the ability of extracellular matrix to control cell proliferation, thereby mediating anchorage-dependent cell growth, depends on its composition and the repertoire of integrins on the responding cell.",
+                    "evidence": "The results of our cell proliferation analysis indicate that \u03b16\u03b24 signaling promotes transit through G1 in keratinocytes and other \u03b16\u03b24-expressing cells exposed to mitogens."
+                }
+            },
+            {
+                "id": 21,
+                "s": 29,
+                "t": 30,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "complex(FPLX:ITGA2_ITGB1) decreases bp(GO:\"S phase of mitotic cell cycle\")",
+                    "text": "What is the biological significance of \u03b16\u03b24 signaling? The results of our cell proliferation analysis indicate that \u03b16\u03b24 signaling promotes transit through G1 in keratinocytes and other \u03b16\u03b24-expressing cells exposed to mitogens. In this respect, \u03b16\u03b24 appears to be functionally distinct from other integrins, such as \u03b13\u03b21 and \u03b12\u03b21, which do not appear to be able to do so. In fact, it is quite remarkable that keratinocytes plated on the \u03b12\u03b21 ligand collagen I adhere and spread but do not enter into the S phase despite being exposed to otherwise mitogenic concentrations of EGF. We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc. Taken together, these observations suggest that the ability of extracellular matrix to control cell proliferation, thereby mediating anchorage-dependent cell growth, depends on its composition and the repertoire of integrins on the responding cell.",
+                    "evidence": "In fact, it is quite remarkable that keratinocytes plated on the \u03b12\u03b21 ligand collagen I adhere and spread but do not enter into the S phase despite being exposed to otherwise mitogenic concentrations of EGF."
+                }
+            },
+            {
+                "id": 22,
+                "s": 31,
+                "t": 32,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "complex(FPLX:ITGA1_ITGB1) increases bp(GO:\"Ras protein signal transduction\")",
+                    "text": "What is the biological significance of \u03b16\u03b24 signaling? The results of our cell proliferation analysis indicate that \u03b16\u03b24 signaling promotes transit through G1 in keratinocytes and other \u03b16\u03b24-expressing cells exposed to mitogens. In this respect, \u03b16\u03b24 appears to be functionally distinct from other integrins, such as \u03b13\u03b21 and \u03b12\u03b21, which do not appear to be able to do so. In fact, it is quite remarkable that keratinocytes plated on the \u03b12\u03b21 ligand collagen I adhere and spread but do not enter into the S phase despite being exposed to otherwise mitogenic concentrations of EGF. We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc. Taken together, these observations suggest that the ability of extracellular matrix to control cell proliferation, thereby mediating anchorage-dependent cell growth, depends on its composition and the repertoire of integrins on the responding cell.",
+                    "evidence": "We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc."
+                }
+            },
+            {
+                "id": 23,
+                "s": 33,
+                "t": 32,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "complex(FPLX:ITGA5_ITGB1) increases bp(GO:\"Ras protein signal transduction\")",
+                    "text": "What is the biological significance of \u03b16\u03b24 signaling? The results of our cell proliferation analysis indicate that \u03b16\u03b24 signaling promotes transit through G1 in keratinocytes and other \u03b16\u03b24-expressing cells exposed to mitogens. In this respect, \u03b16\u03b24 appears to be functionally distinct from other integrins, such as \u03b13\u03b21 and \u03b12\u03b21, which do not appear to be able to do so. In fact, it is quite remarkable that keratinocytes plated on the \u03b12\u03b21 ligand collagen I adhere and spread but do not enter into the S phase despite being exposed to otherwise mitogenic concentrations of EGF. We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc. Taken together, these observations suggest that the ability of extracellular matrix to control cell proliferation, thereby mediating anchorage-dependent cell growth, depends on its composition and the repertoire of integrins on the responding cell.",
+                    "evidence": "We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc."
+                }
+            },
+            {
+                "id": 24,
+                "s": 34,
+                "t": 32,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "complex(FPLX:ITGAV_ITGB3) increases bp(GO:\"Ras protein signal transduction\")",
+                    "text": "What is the biological significance of \u03b16\u03b24 signaling? The results of our cell proliferation analysis indicate that \u03b16\u03b24 signaling promotes transit through G1 in keratinocytes and other \u03b16\u03b24-expressing cells exposed to mitogens. In this respect, \u03b16\u03b24 appears to be functionally distinct from other integrins, such as \u03b13\u03b21 and \u03b12\u03b21, which do not appear to be able to do so. In fact, it is quite remarkable that keratinocytes plated on the \u03b12\u03b21 ligand collagen I adhere and spread but do not enter into the S phase despite being exposed to otherwise mitogenic concentrations of EGF. We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc. Taken together, these observations suggest that the ability of extracellular matrix to control cell proliferation, thereby mediating anchorage-dependent cell growth, depends on its composition and the repertoire of integrins on the responding cell.",
+                    "evidence": "We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc."
+                }
+            },
+            {
+                "id": 25,
+                "s": 35,
+                "t": 36,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:SHC1) increases bp(GO:\"neoplastic transformation\")",
+                    "text": "What is the mechanism by which \u03b16\u03b24 signaling regulates cell proliferation? Previous studies have indicated that the cell cycle of normal cells contains an anchorage-dependent transition in early\u2013mid G1. In fact, adhesion to the extracellular matrix is required for translation of cyclin D1 in cells exposed to mitogens, suggesting that integrin- and growth factor-dependent signals converge prior to the induction of cyclin D1 to control progression through G1. Our results suggest that these signals are integrated before the induction of immediate-early gene expression. The simplest hypothesis is that in normal cells growth factor receptors and specific integrins cooperate to activate MAP kinase beyond the threshold level required for immediate-early gene expression. Since most dominant oncogenes, including Shc, induce neoplastic transformation by constitutively activating the Ras\u2013MAP kinase pathway, this model also explains why neoplastic cells usually display anchorage-independent growth.",
+                    "evidence": "Since most dominant oncogenes, including Shc, induce neoplastic transformation by constitutively activating the Ras\u2013MAP kinase pathway, this model also explains why neoplastic cells usually display anchorage-independent growth."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

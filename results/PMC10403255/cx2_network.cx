@@ -1,0 +1,926 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 1,
+                "name": "networkAttributes"
+            },
+            {
+                "elementCount": 42,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 44,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "id": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                },
+                "networkAttributes": {
+                    "name": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "name": "LLM Text to Knowledge Graph for publication: PMC10403255"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "MIR223",
+                    "name": "m(HGNC:MIR223)",
+                    "type": "m",
+                    "id": "https://identifiers.org/HGNC:31603"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "YBX1",
+                    "name": "p(HGNC:YBX1)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:8014"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "MIR190",
+                    "name": "m(HGNC:MIR190)",
+                    "type": "m"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "COX4I1",
+                    "name": "p(HGNC:COX4I1)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "CS",
+                    "name": "p(HGNC:CS)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:2422"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "TOMM20",
+                    "name": "p(HGNC:TOMM20)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:20947"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "COX1",
+                    "name": "r(HGNC:COX1)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "MIR223",
+                    "name": "r(HGNC:MIR223)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:31603"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "MIR190",
+                    "name": "r(HGNC:MIR190)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "TIMM23",
+                    "name": "p(HGNC:TIMM23)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:17312"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "vesicle-mediated transport",
+                    "name": "bp(GO:\"vesicle-mediated transport\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "YBAP1",
+                    "name": "p(HGNC:YBAP1)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "Tom20",
+                    "name": "p(HGNC:Tom20)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "HEK_293T",
+                    "name": "a(EFO:HEK_293T)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "exosomes",
+                    "name": "a(EFO:exosomes)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "4-aminobenzamidine",
+                    "name": "a(ChEBI:4-aminobenzamidine)",
+                    "type": "a",
+                    "id": "https://identifiers.org/MESH:C006500"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "CTSB",
+                    "name": "act(p(HGNC:CTSB)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "antipain",
+                    "name": "a(ChEBI:antipain)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "aprotinin",
+                    "name": "a(ChEBI:aprotinin)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "leupeptin",
+                    "name": "a(ChEBI:leupeptin)",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:6426"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "chymostatin",
+                    "name": "a(ChEBI:chymostatin)",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:41470"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "phenylmethylsulphonyl fluoride",
+                    "name": "a(ChEBI:phenylmethylsulphonyl fluoride)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "N-tosyl-L-phenylalanine chloromethyl ketone",
+                    "name": "a(ChEBI:N-tosyl-L-phenylalanine chloromethyl ketone)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "pepstatin",
+                    "name": "a(ChEBI:pepstatin)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "HEPES",
+                    "name": "a(CHEBI:HEPES)",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:46756"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "mitoplast",
+                    "name": "a(GO:mitoplast)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "proteinase K",
+                    "name": "a(CHEBI:\"proteinase K\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "PMSF",
+                    "name": "a(CHEBI:PMSF)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "RNase ONE",
+                    "name": "a(CHEBI:\"RNase ONE\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "MIR223",
+                    "name": "a(HGNC:MIR223)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:31603"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "ATP",
+                    "name": "a(CHEBI:\"ATP\")",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:15422"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "CANX",
+                    "name": "p(HGNC:CANX)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:1473"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "ACTB",
+                    "name": "p(HGNC:ACTB)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "TUBB",
+                    "name": "p(HGNC:TUBB)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "P67809",
+                    "name": "p(UniProt:P67809)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "SF9",
+                    "name": "a(EFO:SF9)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "label": "6xHis-MBP hybrid protein",
+                    "name": "a(FPLX:\"6xHis-MBP hybrid protein\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 37,
+                "v": {
+                    "label": "YBX1",
+                    "name": "g(HGNC:YBX1)",
+                    "type": "g",
+                    "id": "https://identifiers.org/HGNC:8014"
+                }
+            },
+            {
+                "id": 38,
+                "v": {
+                    "label": "YBX1",
+                    "name": "r(HGNC:YBX1)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:8014"
+                }
+            },
+            {
+                "id": 39,
+                "v": {
+                    "label": "CCCP",
+                    "name": "a(EFO:CCCP)",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:3259"
+                }
+            },
+            {
+                "id": 40,
+                "v": {
+                    "label": "mitochondrion",
+                    "name": "a(GO:mitochondrion)",
+                    "type": "a",
+                    "id": "https://identifiers.org/GO:0005739"
+                }
+            },
+            {
+                "id": 41,
+                "v": {
+                    "label": "cytosol",
+                    "name": "a(GO:cytosol)",
+                    "type": "a",
+                    "id": "https://identifiers.org/GO:0005829"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "binds",
+                    "bel_expression": "m(HGNC:MIR223) binds p(HGNC:YBX1)",
+                    "text": "(a) RNA oligonucleotides corresponding to miR223, miR190 and versions with mutated sorting motif (miR223mut) or mutation to introduce the sorting motif (miR190sort). (b) EMSA assays using 1 nM 5' fluorescently labeled miR223 WT or miR223mut or miR190 WT or miR190sort and purified YBX1. Purified YBX1 was titrated from 500pM to 1 microM. In gel fluorescence was detected. (c) Binding affinity curves as calculated by EMSA data from (b) (d) Schematic shows exosome purification with buoyant density flotation in a sucrose step gradient from 293T cells overexpressing miR223 WT or mutant or miR190 WT or miR190sort. (e) RT-qPCR analysis of relative abundance of miR223 or miR223mut detected in exosomes compared to cellular level in 293T cells overexpressing miR223 WT or miR223mut. Data are plotted from three independent experiments and error bars represent standard deviations. (f) RT-qPCR analysis of relative abundance of miR190 or miR190sort detected in exosomes compared to cellular level in 293T cells overexpressing miR190 WT or miR190sort. Data are plotted from three independent experiments and error bars represent standard derivations. (g) In vitro packaging assay using 32P 5'end-labeled miR223 and miR223mut. Cell-free packaging of miR223 and miR223mut measured as protected radioactive signal from 32P labeled miR223 and miR223mut. Reactions with or without membrane, cytosol, and 1% Triton X-100, and incubated at 4 or 30  C are indicated. For the samples containing only cytosol plus membrane at 4  C, only one-third of the samples were loaded. Each sample was supplemented with 300 mM urea to reduce the background signal. (h) Data quantification showed protected fraction of miR223 and miR223mut as calculated from in vitro packaging data shown in (g).",
+                    "evidence": "EMSA assays using 1 nM 5' fluorescently labeled miR223 WT or miR223mut or miR190 WT or miR190sort and purified YBX1. Purified YBX1 was titrated from 500pM to 1 microM. In gel fluorescence was detected."
+                }
+            },
+            {
+                "id": 1,
+                "s": 2,
+                "t": 1,
+                "v": {
+                    "interaction": "binds",
+                    "bel_expression": "m(HGNC:MIR190) binds p(HGNC:YBX1)",
+                    "text": "(a) RNA oligonucleotides corresponding to miR223, miR190 and versions with mutated sorting motif (miR223mut) or mutation to introduce the sorting motif (miR190sort). (b) EMSA assays using 1 nM 5' fluorescently labeled miR223 WT or miR223mut or miR190 WT or miR190sort and purified YBX1. Purified YBX1 was titrated from 500pM to 1 microM. In gel fluorescence was detected. (c) Binding affinity curves as calculated by EMSA data from (b) (d) Schematic shows exosome purification with buoyant density flotation in a sucrose step gradient from 293T cells overexpressing miR223 WT or mutant or miR190 WT or miR190sort. (e) RT-qPCR analysis of relative abundance of miR223 or miR223mut detected in exosomes compared to cellular level in 293T cells overexpressing miR223 WT or miR223mut. Data are plotted from three independent experiments and error bars represent standard deviations. (f) RT-qPCR analysis of relative abundance of miR190 or miR190sort detected in exosomes compared to cellular level in 293T cells overexpressing miR190 WT or miR190sort. Data are plotted from three independent experiments and error bars represent standard derivations. (g) In vitro packaging assay using 32P 5'end-labeled miR223 and miR223mut. Cell-free packaging of miR223 and miR223mut measured as protected radioactive signal from 32P labeled miR223 and miR223mut. Reactions with or without membrane, cytosol, and 1% Triton X-100, and incubated at 4 or 30  C are indicated. For the samples containing only cytosol plus membrane at 4  C, only one-third of the samples were loaded. Each sample was supplemented with 300 mM urea to reduce the background signal. (h) Data quantification showed protected fraction of miR223 and miR223mut as calculated from in vitro packaging data shown in (g).",
+                    "evidence": "EMSA assays using 1 nM 5' fluorescently labeled miR223 WT or miR223mut or miR190 WT or miR190sort and purified YBX1. Purified YBX1 was titrated from 500pM to 1 microM. In gel fluorescence was detected."
+                }
+            },
+            {
+                "id": 2,
+                "s": 3,
+                "t": 4,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "p(HGNC:COX4I1) hasComponent p(HGNC:CS)",
+                    "text": "(a) RT-qPCR analysis of miR190 fold changes in subcellular fractions isolated from 293T cells relative to cell lysate. Data are plotted from three independent experiments and error bars represent standard deviations. (b) Mitochondria immunoprecipitation. Mitochondria purified from 293 T WT or 3xHA-EGFP-OMP25 overexpressing cell line using anti-HA magnetic beads. Immunoblot detection of inner membrane marker COX IV, outer membrane marker TOM20 and mitochondrial matrix protein citrate synthase (CS) but not of the early endosome marker RAB5, lysosome marker LAMP1, cytosol marker GAPDH and ER marker GRP78. (c) Purified mitochondria from (b) were treated with 1% Triton X-100 or freeze/thaw using liquid-nitrogen and the supernatant and pellet fractions were collected after centrifugation. Immunoblot analysis of the mitochondrial protein distribution of outer membrane protein TOM20, inner membrane protein COX IV and matrix protein citrate synthase. (d) and (e) RT-qPCR analysis of the distribution of COX1 mRNA and miR223 from (c) Data are plotted from two independent experiments and error bars represent standard deviations.",
+                    "evidence": "Immunoblot detection of inner membrane marker COX IV, outer membrane marker TOM20 and mitochondrial matrix protein citrate synthase (CS) but not of the early endosome marker RAB5, lysosome marker LAMP1, cytosol marker GAPDH and ER marker GRP78."
+                }
+            },
+            {
+                "id": 3,
+                "s": 3,
+                "t": 5,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "p(HGNC:COX4I1) hasComponent p(HGNC:TOMM20)",
+                    "text": "(a) RT-qPCR analysis of miR190 fold changes in subcellular fractions isolated from 293T cells relative to cell lysate. Data are plotted from three independent experiments and error bars represent standard deviations. (b) Mitochondria immunoprecipitation. Mitochondria purified from 293 T WT or 3xHA-EGFP-OMP25 overexpressing cell line using anti-HA magnetic beads. Immunoblot detection of inner membrane marker COX IV, outer membrane marker TOM20 and mitochondrial matrix protein citrate synthase (CS) but not of the early endosome marker RAB5, lysosome marker LAMP1, cytosol marker GAPDH and ER marker GRP78. (c) Purified mitochondria from (b) were treated with 1% Triton X-100 or freeze/thaw using liquid-nitrogen and the supernatant and pellet fractions were collected after centrifugation. Immunoblot analysis of the mitochondrial protein distribution of outer membrane protein TOM20, inner membrane protein COX IV and matrix protein citrate synthase. (d) and (e) RT-qPCR analysis of the distribution of COX1 mRNA and miR223 from (c) Data are plotted from two independent experiments and error bars represent standard deviations.",
+                    "evidence": "Immunoblot detection of inner membrane marker COX IV, outer membrane marker TOM20 and mitochondrial matrix protein citrate synthase (CS) but not of the early endosome marker RAB5, lysosome marker LAMP1, cytosol marker GAPDH and ER marker GRP78."
+                }
+            },
+            {
+                "id": 4,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "r(HGNC:COX1) increases r(HGNC:MIR223)",
+                    "text": "(a) Immunoblot analysis of protein markers for different subcellular fractions isolated from 293T cells. (b) RT-qPCR analysis of miR223 fold changes of different subcellular fractions isolated from 293T cells relative to cell lysate. (c) Immunoblot analysis of protein markers for mitoplasts purified from 293T cells by Percoll gradient fractionation (MT: mitochondria; MP: mitoplast). (d) RT-analysis of COX1 mRNA, miR223 and U6 snRNA fold changes for mitoplasts purified from 293T cells relative to cell lysate. (e) Immunoblot analysis of protein markers for immunoprecipitated mitochondria and osmotic shock generated mitoplasts. Mitochondria were purified from a 293T 3xHA-EGFP-OMP25 overexpressing cell line using anti-HA magnetic beads. Mitoplasts were purified following mitochondrial immunoprecipitation by osmotic shock, proteinase K and RNase treatment (IP-MT: immunoprecipitated mitochondria; IP-MP: immunoprecipitated mitoplasts). (f) RT-analysis of COX1 mRNA, miR223, miR190 and U6 snRNA fold changes for immunoprecipitaed mitochondria and mitoplasts purified from the 293T 3xHA-EGFP-OMP25 overexpressing cell line. Data are plotted from three independent experiments and error bars represent standard deviations. (g) RT-qPCR analysis of mitochondrial mRNA COX1 in U2OS cells expressing GFP-Parkin treated with or without CCCP. Data are plotted from three independent experiments and error bars represent standard deviations. (h) Immunoblot analysis of mitochondrial marker Tim23 in U2OS cells expressing GFP-Parkin treated with or without CCCP. (i) Schematic of exosome purification from mitochondria depleted GFP-Parkin expressing U2OS cells. (j) RT-qPCR analysis of fold change of miR-223 and miR-190 in cells and purified exosomes from U2OS cells expressing GFP-Parkin which were treated with or without CCCP. Data are plotted from three independent experiments and error bars represent standard deviations.",
+                    "evidence": "RT-analysis of COX1 mRNA, miR223 and U6 snRNA fold changes for mitoplasts purified from 293T cells relative to cell lysate."
+                }
+            },
+            {
+                "id": 5,
+                "s": 6,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "r(HGNC:COX1) increases r(HGNC:MIR190)",
+                    "text": "(a) Immunoblot analysis of protein markers for different subcellular fractions isolated from 293T cells. (b) RT-qPCR analysis of miR223 fold changes of different subcellular fractions isolated from 293T cells relative to cell lysate. (c) Immunoblot analysis of protein markers for mitoplasts purified from 293T cells by Percoll gradient fractionation (MT: mitochondria; MP: mitoplast). (d) RT-analysis of COX1 mRNA, miR223 and U6 snRNA fold changes for mitoplasts purified from 293T cells relative to cell lysate. (e) Immunoblot analysis of protein markers for immunoprecipitated mitochondria and osmotic shock generated mitoplasts. Mitochondria were purified from a 293T 3xHA-EGFP-OMP25 overexpressing cell line using anti-HA magnetic beads. Mitoplasts were purified following mitochondrial immunoprecipitation by osmotic shock, proteinase K and RNase treatment (IP-MT: immunoprecipitated mitochondria; IP-MP: immunoprecipitated mitoplasts). (f) RT-analysis of COX1 mRNA, miR223, miR190 and U6 snRNA fold changes for immunoprecipitaed mitochondria and mitoplasts purified from the 293T 3xHA-EGFP-OMP25 overexpressing cell line. Data are plotted from three independent experiments and error bars represent standard deviations. (g) RT-qPCR analysis of mitochondrial mRNA COX1 in U2OS cells expressing GFP-Parkin treated with or without CCCP. Data are plotted from three independent experiments and error bars represent standard deviations. (h) Immunoblot analysis of mitochondrial marker Tim23 in U2OS cells expressing GFP-Parkin treated with or without CCCP. (i) Schematic of exosome purification from mitochondria depleted GFP-Parkin expressing U2OS cells. (j) RT-qPCR analysis of fold change of miR-223 and miR-190 in cells and purified exosomes from U2OS cells expressing GFP-Parkin which were treated with or without CCCP. Data are plotted from three independent experiments and error bars represent standard deviations.",
+                    "evidence": "RT-analysis of COX1 mRNA, miR223, miR190 and U6 snRNA fold changes for immunoprecipitated mitochondria and mitoplasts purified from the 293T 3xHA-EGFP-OMP25 overexpressing cell line."
+                }
+            },
+            {
+                "id": 6,
+                "s": 9,
+                "t": 6,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIMM23) increases r(HGNC:COX1)",
+                    "text": "(a) Immunoblot analysis of protein markers for different subcellular fractions isolated from 293T cells. (b) RT-qPCR analysis of miR223 fold changes of different subcellular fractions isolated from 293T cells relative to cell lysate. (c) Immunoblot analysis of protein markers for mitoplasts purified from 293T cells by Percoll gradient fractionation (MT: mitochondria; MP: mitoplast). (d) RT-analysis of COX1 mRNA, miR223 and U6 snRNA fold changes for mitoplasts purified from 293T cells relative to cell lysate. (e) Immunoblot analysis of protein markers for immunoprecipitated mitochondria and osmotic shock generated mitoplasts. Mitochondria were purified from a 293T 3xHA-EGFP-OMP25 overexpressing cell line using anti-HA magnetic beads. Mitoplasts were purified following mitochondrial immunoprecipitation by osmotic shock, proteinase K and RNase treatment (IP-MT: immunoprecipitated mitochondria; IP-MP: immunoprecipitated mitoplasts). (f) RT-analysis of COX1 mRNA, miR223, miR190 and U6 snRNA fold changes for immunoprecipitaed mitochondria and mitoplasts purified from the 293T 3xHA-EGFP-OMP25 overexpressing cell line. Data are plotted from three independent experiments and error bars represent standard deviations. (g) RT-qPCR analysis of mitochondrial mRNA COX1 in U2OS cells expressing GFP-Parkin treated with or without CCCP. Data are plotted from three independent experiments and error bars represent standard deviations. (h) Immunoblot analysis of mitochondrial marker Tim23 in U2OS cells expressing GFP-Parkin treated with or without CCCP. (i) Schematic of exosome purification from mitochondria depleted GFP-Parkin expressing U2OS cells. (j) RT-qPCR analysis of fold change of miR-223 and miR-190 in cells and purified exosomes from U2OS cells expressing GFP-Parkin which were treated with or without CCCP. Data are plotted from three independent experiments and error bars represent standard deviations.",
+                    "evidence": "Immunoblot analysis of mitochondrial marker Tim23 in U2OS cells expressing GFP-Parkin treated with or without CCCP."
+                }
+            },
+            {
+                "id": 7,
+                "s": 0,
+                "t": 10,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "m(HGNC:MIR223) increases bp(GO:\"vesicle-mediated transport\")",
+                    "text": "We refined this assay to measure the incorporation of 32P-5' end-labeled wt and mutant miR223 into vesicles formed in vitro. Isolated membranes and cytosol were incubated with 32P-labled wt or mutant miR223 at 30  C for 20 min, after which RNase I was added to digest any unpackaged miRNA. Controls including 1% Triton X-100 were used to measure background RNase resistant radiolabel. Samples were resolved on a gel for visual and quantitative evaluation of membrane sequestered RNA (Figure 2g and h). The results suggested that the UCAGU motif is critical for miR223 packaging into vesicles in the cell-free reaction.",
+                    "evidence": "The results suggested that the UCAGU motif is critical for miR223 packaging into vesicles in the cell-free reaction."
+                }
+            },
+            {
+                "id": 8,
+                "s": 1,
+                "t": 11,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "p(HGNC:YBX1) hasComponent p(HGNC:YBAP1)",
+                    "text": "(a) Strep II-YBX1 was overexpressed in HEK293T cells. Coomassie blue detection of unknown band copurified with YBX1 from 293T cells. (b) Immunoblot identified unknown band was YBAP1. (c) Tom22-mCherry expressing U2OS was transfected with a YBAP1-GFP-expressing plasmid, cultured for 12 hr and observed by confocal microscopy. Scale bar, 10 mum. (d) Quantification of the fluorescence intensity of the different channels indicated by the solid white line of (c). (e) YBAP1 resides in mitochondria. Proteinase K protection assay for YBAP1 using purified mitochondria from 293T cells. Samples were treated with or without proteinase K (10 mug/ml) and or Triton X-100 (0.5%). Immunoblots for Tim23, Tom20, and YBAP1 are shown. (f) Mitochondria were purified for immunoprecipitation with YBAP1 antibody. Immunoblot detection of YBAP1 and Tom20. (g) RT-qPCR analysis of miR223 fold changes of YBAP1 IP samples. Data are plotted from three independent experiments and error bars represent standard deviations. (h-i) EMSA assays using 1 nM 5' fluorescently labeled miR223 or miR190. Purified YBAP1 was titrated from 500pM to 1 muM. In gel fluorescence was detected. Quantification of (j) shown the calculated Kd.",
+                    "evidence": "Immunoblot identified unknown band was YBAP1."
+                }
+            },
+            {
+                "id": 9,
+                "s": 11,
+                "t": 9,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "p(HGNC:YBAP1) hasComponent p(HGNC:TIMM23)",
+                    "text": "(a) Strep II-YBX1 was overexpressed in HEK293T cells. Coomassie blue detection of unknown band copurified with YBX1 from 293T cells. (b) Immunoblot identified unknown band was YBAP1. (c) Tom22-mCherry expressing U2OS was transfected with a YBAP1-GFP-expressing plasmid, cultured for 12 hr and observed by confocal microscopy. Scale bar, 10 mum. (d) Quantification of the fluorescence intensity of the different channels indicated by the solid white line of (c). (e) YBAP1 resides in mitochondria. Proteinase K protection assay for YBAP1 using purified mitochondria from 293T cells. Samples were treated with or without proteinase K (10 mug/ml) and or Triton X-100 (0.5%). Immunoblots for Tim23, Tom20, and YBAP1 are shown. (f) Mitochondria were purified for immunoprecipitation with YBAP1 antibody. Immunoblot detection of YBAP1 and Tom20. (g) RT-qPCR analysis of miR223 fold changes of YBAP1 IP samples. Data are plotted from three independent experiments and error bars represent standard deviations. (h-i) EMSA assays using 1 nM 5' fluorescently labeled miR223 or miR190. Purified YBAP1 was titrated from 500pM to 1 muM. In gel fluorescence was detected. Quantification of (j) shown the calculated Kd.",
+                    "evidence": "Immunoblots for Tim23, Tom20, and YBAP1 are shown."
+                }
+            },
+            {
+                "id": 10,
+                "s": 11,
+                "t": 12,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "p(HGNC:YBAP1) hasComponent p(HGNC:Tom20)",
+                    "text": "(a) Strep II-YBX1 was overexpressed in HEK293T cells. Coomassie blue detection of unknown band copurified with YBX1 from 293T cells. (b) Immunoblot identified unknown band was YBAP1. (c) Tom22-mCherry expressing U2OS was transfected with a YBAP1-GFP-expressing plasmid, cultured for 12 hr and observed by confocal microscopy. Scale bar, 10 mum. (d) Quantification of the fluorescence intensity of the different channels indicated by the solid white line of (c). (e) YBAP1 resides in mitochondria. Proteinase K protection assay for YBAP1 using purified mitochondria from 293T cells. Samples were treated with or without proteinase K (10 mug/ml) and or Triton X-100 (0.5%). Immunoblots for Tim23, Tom20, and YBAP1 are shown. (f) Mitochondria were purified for immunoprecipitation with YBAP1 antibody. Immunoblot detection of YBAP1 and Tom20. (g) RT-qPCR analysis of miR223 fold changes of YBAP1 IP samples. Data are plotted from three independent experiments and error bars represent standard deviations. (h-i) EMSA assays using 1 nM 5' fluorescently labeled miR223 or miR190. Purified YBAP1 was titrated from 500pM to 1 muM. In gel fluorescence was detected. Quantification of (j) shown the calculated Kd.",
+                    "evidence": "Immunoblots for Tim23, Tom20, and YBAP1 are shown."
+                }
+            },
+            {
+                "id": 11,
+                "s": 11,
+                "t": 7,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:YBAP1) increases r(HGNC:MIR223)",
+                    "text": "(a) Strep II-YBX1 was overexpressed in HEK293T cells. Coomassie blue detection of unknown band copurified with YBX1 from 293T cells. (b) Immunoblot identified unknown band was YBAP1. (c) Tom22-mCherry expressing U2OS was transfected with a YBAP1-GFP-expressing plasmid, cultured for 12 hr and observed by confocal microscopy. Scale bar, 10 mum. (d) Quantification of the fluorescence intensity of the different channels indicated by the solid white line of (c). (e) YBAP1 resides in mitochondria. Proteinase K protection assay for YBAP1 using purified mitochondria from 293T cells. Samples were treated with or without proteinase K (10 mug/ml) and or Triton X-100 (0.5%). Immunoblots for Tim23, Tom20, and YBAP1 are shown. (f) Mitochondria were purified for immunoprecipitation with YBAP1 antibody. Immunoblot detection of YBAP1 and Tom20. (g) RT-qPCR analysis of miR223 fold changes of YBAP1 IP samples. Data are plotted from three independent experiments and error bars represent standard deviations. (h-i) EMSA assays using 1 nM 5' fluorescently labeled miR223 or miR190. Purified YBAP1 was titrated from 500pM to 1 muM. In gel fluorescence was detected. Quantification of (j) shown the calculated Kd.",
+                    "evidence": "RT-qPCR analysis of miR223 fold changes of YBAP1 IP samples."
+                }
+            },
+            {
+                "id": 12,
+                "s": 11,
+                "t": 7,
+                "v": {
+                    "interaction": "directlyIncreases",
+                    "bel_expression": "p(HGNC:YBAP1) directlyIncreases r(HGNC:MIR223)",
+                    "text": "(a) Strep II-YBX1 was overexpressed in HEK293T cells. Coomassie blue detection of unknown band copurified with YBX1 from 293T cells. (b) Immunoblot identified unknown band was YBAP1. (c) Tom22-mCherry expressing U2OS was transfected with a YBAP1-GFP-expressing plasmid, cultured for 12 hr and observed by confocal microscopy. Scale bar, 10 mum. (d) Quantification of the fluorescence intensity of the different channels indicated by the solid white line of (c). (e) YBAP1 resides in mitochondria. Proteinase K protection assay for YBAP1 using purified mitochondria from 293T cells. Samples were treated with or without proteinase K (10 mug/ml) and or Triton X-100 (0.5%). Immunoblots for Tim23, Tom20, and YBAP1 are shown. (f) Mitochondria were purified for immunoprecipitation with YBAP1 antibody. Immunoblot detection of YBAP1 and Tom20. (g) RT-qPCR analysis of miR223 fold changes of YBAP1 IP samples. Data are plotted from three independent experiments and error bars represent standard deviations. (h-i) EMSA assays using 1 nM 5' fluorescently labeled miR223 or miR190. Purified YBAP1 was titrated from 500pM to 1 muM. In gel fluorescence was detected. Quantification of (j) shown the calculated Kd.",
+                    "evidence": "EMSA assays using 1 nM 5' fluorescently labeled miR223 or miR190. Purified YBAP1 was titrated from 500pM to 1 muM."
+                }
+            },
+            {
+                "id": 13,
+                "s": 13,
+                "t": 14,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:HEK_293T) increases a(EFO:exosomes)",
+                    "text": "Conditioned medium was harvested from 80% to 90% confluent HEK 293T cultured cells. All procedures were performed at 4 C. Cells and large debris were removed by centrifugation in a Sorvall R6 +centrifuge at 1000xg for 15 min followed by 10,000xg for 15 min using a FIBERlite F14-6x500 y rotor. The supernatant fraction was then centrifuged onto a 60% sucrose cushion in a buffer with 10 mM HEPES (pH 7.4) and 0.85% w/v NaCl at ~100,000 x g (28,000 RPM) for 1.5 h in a SW32Ti rotor. The interface over the sucrose cushion was collected and pooled for an additional centrifugation onto a 2 ml 60% sucrose cushion at ~120,000 x g (31,500 RPM) for 15 h using an SW41Ti rotor. The first collected interface was measured by refractometry and adjusted a sucrose concentration not exceeding 21%. For bulk purification, the EVs collected from the interface over the sucrose cushion after the first SW41Ti centrifugation were mixed with 60% sucrose to a final volume of 10 ml (the concentration of sucrose ~50%). One ml of 40% and 1 ml of 10% sucrose were sequentially overlaid and the samples were centrifuged at ~150,000 x g (36,500 rpm) for 15 h in an SW41Ti rotor. The exosomes were located at the 10%/40% interface and collected for RNA extraction or immunoblot.",
+                    "evidence": "The exosomes were located at the 10%/40% interface and collected for RNA extraction or immunoblot."
+                }
+            },
+            {
+                "id": 14,
+                "s": 15,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:4-aminobenzamidine) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 15,
+                "s": 17,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:antipain) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 16,
+                "s": 18,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:aprotinin) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 17,
+                "s": 19,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:leupeptin) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 18,
+                "s": 20,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:chymostatin) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 19,
+                "s": 21,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:phenylmethylsulphonyl fluoride) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 20,
+                "s": 22,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:N-tosyl-L-phenylalanine chloromethyl ketone) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 21,
+                "s": 23,
+                "t": 16,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(ChEBI:pepstatin) decreases act(p(HGNC:CTSB)",
+                    "text": "After the Percoll gradient purification, the enriched mitochondria were diluted 2 x into MRB buffer and centrifuged at 12,000 g for 10 min. The mitochondrial pellet was lysed in 0.5 ml RIPA buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 2 mM EDTA, 1% DDM, 1 mM PMSF) containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors, followed by centrifugation at 12,000 g for 10 min. Supernatant fractions were incubated with 10 microl washed protein A Dynabeads (ThermoFisher Scientific, Catalog number: 10001D) and 0.5 microg mouse monoclonal IgG antibody and rotated at 4 C for 1 h. A magnetic rack was used to remove protein A beads and the resulting supernatant fractions were incubated with 40 microl washed protein A Dynabeads and 4 microg YBAP1 antibody or mouse IgG antibody and rotated at 4 C overnight. The beads were collected using a magnetic rack, washed 3 x with 1 ml of RIPA buffer, and collected for immunoblot and RNA extraction.",
+                    "evidence": "The mitochondrial pellet was lysed in 0.5 ml RIPA buffer containing protease inhibitors (1 mM 4-aminobenzamidine dihydrochloride, 1 microg/ml antipain dihydrochloride, 1 microg/ml aprotinin, 1 microg/ml leupeptin, 1 microg/ml chymostatin, 1 mM phenylmethylsulphonyl fluoride, 50 microM N-tosyl-L-phenylalanine chloromethyl ketone and 1 microg/ml pepstatin) and RNase inhibitors."
+                }
+            },
+            {
+                "id": 22,
+                "s": 24,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:HEPES) increases a(GO:mitoplast)",
+                    "text": "For mitoplast purification by osmotic shock, the supernatant was discarded after the final wash of the mito-IP sample, and the beads were gently resuspended in 200 microl of hypotonic osmotic shock buffer (OSB) containing 20 mM HEPES at pH 7.4. The resuspended sample was incubated on ice for 30 min and then the beads were centrifuged at 15,000 g for 15 min to sediment mitochondria/mitoplasts. Beads were then resuspended in 100 microl of KPBS and proteinase K was added to achieve a final concentration of 10 microg/ml and samples were incubated on a rotating mixer at 4  C for 15 min. Subsequently, PMSF was added to a final concentration of 1 mM, along with a protease inhibitor cocktail, and the sample was incubated on ice for 5 min. Next, 2.5 units of RNase ONE (Promega) was added to the sample, which was further incubated on a rotating mixer at room temperature for 15 min. For protein analysis, the sample was eluted directly in the SDS loading buffer. Alternatively, Trizol was added to the sample to stop the reaction for RNA purification.",
+                    "evidence": "The resuspended sample was incubated on ice for 30 min and then the beads were centrifuged at 15,000 g for 15 min to sediment mitochondria/mitoplasts."
+                }
+            },
+            {
+                "id": 23,
+                "s": 26,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"proteinase K\") increases a(GO:mitoplast)",
+                    "text": "For mitoplast purification by osmotic shock, the supernatant was discarded after the final wash of the mito-IP sample, and the beads were gently resuspended in 200 microl of hypotonic osmotic shock buffer (OSB) containing 20 mM HEPES at pH 7.4. The resuspended sample was incubated on ice for 30 min and then the beads were centrifuged at 15,000 g for 15 min to sediment mitochondria/mitoplasts. Beads were then resuspended in 100 microl of KPBS and proteinase K was added to achieve a final concentration of 10 microg/ml and samples were incubated on a rotating mixer at 4  C for 15 min. Subsequently, PMSF was added to a final concentration of 1 mM, along with a protease inhibitor cocktail, and the sample was incubated on ice for 5 min. Next, 2.5 units of RNase ONE (Promega) was added to the sample, which was further incubated on a rotating mixer at room temperature for 15 min. For protein analysis, the sample was eluted directly in the SDS loading buffer. Alternatively, Trizol was added to the sample to stop the reaction for RNA purification.",
+                    "evidence": "Beads were then resuspended in 100 microl of KPBS and proteinase K was added to achieve a final concentration of 10 microg/ml and samples were incubated on a rotating mixer at 4 C for 15 min."
+                }
+            },
+            {
+                "id": 24,
+                "s": 27,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:PMSF) increases a(GO:mitoplast)",
+                    "text": "For mitoplast purification by osmotic shock, the supernatant was discarded after the final wash of the mito-IP sample, and the beads were gently resuspended in 200 microl of hypotonic osmotic shock buffer (OSB) containing 20 mM HEPES at pH 7.4. The resuspended sample was incubated on ice for 30 min and then the beads were centrifuged at 15,000 g for 15 min to sediment mitochondria/mitoplasts. Beads were then resuspended in 100 microl of KPBS and proteinase K was added to achieve a final concentration of 10 microg/ml and samples were incubated on a rotating mixer at 4  C for 15 min. Subsequently, PMSF was added to a final concentration of 1 mM, along with a protease inhibitor cocktail, and the sample was incubated on ice for 5 min. Next, 2.5 units of RNase ONE (Promega) was added to the sample, which was further incubated on a rotating mixer at room temperature for 15 min. For protein analysis, the sample was eluted directly in the SDS loading buffer. Alternatively, Trizol was added to the sample to stop the reaction for RNA purification.",
+                    "evidence": "Subsequently, PMSF was added to a final concentration of 1 mM, along with a protease inhibitor cocktail, and the sample was incubated on ice for 5 min."
+                }
+            },
+            {
+                "id": 25,
+                "s": 28,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"RNase ONE\") increases a(GO:mitoplast)",
+                    "text": "For mitoplast purification by osmotic shock, the supernatant was discarded after the final wash of the mito-IP sample, and the beads were gently resuspended in 200 microl of hypotonic osmotic shock buffer (OSB) containing 20 mM HEPES at pH 7.4. The resuspended sample was incubated on ice for 30 min and then the beads were centrifuged at 15,000 g for 15 min to sediment mitochondria/mitoplasts. Beads were then resuspended in 100 microl of KPBS and proteinase K was added to achieve a final concentration of 10 microg/ml and samples were incubated on a rotating mixer at 4  C for 15 min. Subsequently, PMSF was added to a final concentration of 1 mM, along with a protease inhibitor cocktail, and the sample was incubated on ice for 5 min. Next, 2.5 units of RNase ONE (Promega) was added to the sample, which was further incubated on a rotating mixer at room temperature for 15 min. For protein analysis, the sample was eluted directly in the SDS loading buffer. Alternatively, Trizol was added to the sample to stop the reaction for RNA purification.",
+                    "evidence": "Next, 2.5 units of RNase ONE (Promega) was added to the sample, which was further incubated on a rotating mixer at room temperature for 15 min."
+                }
+            },
+            {
+                "id": 26,
+                "s": 29,
+                "t": 30,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MIR223) increases a(CHEBI:\"ATP\")",
+                    "text": "HPLC purified miR223 and miR223mut oligos were obtained from IDT. A stock solution of these oligos (1 mul of a 10 muM) was 5'-end-labeled using T4PNK (NEB) and 5 mul of ATP, [gamma-32P]- 6000 Ci/mmol 10mCi/ml EasyTide (PerkinElmer BLU502Z250UC) as per manufacturer's recommendations in a 50 mul reaction volume. T4PNK was heat-inactivated at 70  C for 15 min. Unincorporated radionucleotides were removed by passing through PerformaTM spin columns (EdgeBio). The flow-through (radiolabeled substrate) was collected and stored at -20  C until further use.",
+                    "evidence": "A stock solution of these oligos (1 mul of a 10 muM) was 5'-end-labeled using T4PNK (NEB) and 5 mul of ATP, [gamma-32P]- 6000 Ci/mmol 10mCi/ml EasyTide (PerkinElmer BLU502Z250UC) as per manufacturer's recommendations in a 50 mul reaction volume."
+                }
+            },
+            {
+                "id": 27,
+                "s": 9,
+                "t": 31,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:TIMM23) association p(HGNC:CANX)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 28,
+                "s": 9,
+                "t": 32,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:TIMM23) association p(HGNC:ACTB)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 29,
+                "s": 9,
+                "t": 33,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:TIMM23) association p(HGNC:TUBB)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 30,
+                "s": 9,
+                "t": 1,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:TIMM23) association p(HGNC:YBX1)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 31,
+                "s": 31,
+                "t": 32,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:CANX) association p(HGNC:ACTB)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 32,
+                "s": 31,
+                "t": 33,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:CANX) association p(HGNC:TUBB)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 33,
+                "s": 31,
+                "t": 1,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:CANX) association p(HGNC:YBX1)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 34,
+                "s": 32,
+                "t": 33,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:ACTB) association p(HGNC:TUBB)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 35,
+                "s": 32,
+                "t": 1,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:ACTB) association p(HGNC:YBX1)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 36,
+                "s": 33,
+                "t": 1,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:TUBB) association p(HGNC:YBX1)",
+                    "text": "Cell lysates and other samples were prepared by adding 2% SDS and heated at 95 C for 10 min. Protein was quantified using a BCA Protein Assay Kit (Thermo Fisher Scientific) and appropriate amounts were mixed with 5 x SDS loading buffer. Samples were heated at 95C for 10 min and separated on 4-20% acrylamide Tris-glycine gradient gels (Life Technologies). Proteins were transferred to PVDF membranes (EMD Millipore, Darmstadt, Germany) and the membrane was blocked with 5% fat-free milk powder in TBST and incubated for 1 h at room temperature or overnight at 4  C with primary antibodies. Blots were then washed in three washes of TBST for 10 min each. Membranes were incubated with anti-rabbit or anti-mouse secondary antibodies (GE Healthcare Life Sciences, Pittsburgh, PA) for 1 hr at room temperature and rinsed in three washes of TBST for 10 min each. Blots were developed with ECL-2 reagent (Thermo Fisher Scientific). Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200).",
+                    "evidence": "Primary antibodies used in this study were as follows: anti-Tim23 (BD, 611222), Calnexin (Abcam, ab22595), Actin (Abcam, ab8224), Tubulin (Abcam, ab7291), YBAP1 (Santa Cruz Biotechnology, sc-271200)."
+                }
+            },
+            {
+                "id": 37,
+                "s": 34,
+                "t": 34,
+                "v": {
+                    "interaction": "translatedTo",
+                    "bel_expression": "p(UniProt:P67809) translatedTo p(UniProt:P67809)",
+                    "text": "Twin Strep tag hybrid YBX1 was expressed and the protein was isolated 48 hr after PEI-mediated transfection of 293T cells. Cells were resuspended in PBS and collected by centrifugation for 5 min at 600 g. Pellet fractions were resuspended in 35 ml lysis buffer (50 mM Tris-HCl (pH 8),150mM NaCl,1mM EDTA, 2 mM DTT, 1 mM PMSF and 1 x protease inhibitor cocktail). After sonication of the cell suspension the crude lysate was centrifuged for 60 min at 20,000 rpm at 4  C. The resulting supernatant fraction was incubated with 2 ml Strep-Tactin Sepharose resin (IBA, 2-1201-010) for 1 h. Strep-Tactin Sepharose resin samples were transferred to columns (18 ml) and protein-bound beads were washed with 60 ml wash buffer (50 mM Tris-HCl (pH 8), 500 mM NaCl, 1 mM EDTA, 2 mM DTT) until no protein was eluted as monitored by the Bio-Rad protein assay (Bio-Rad, Catalog #5000006). Proteins were eluted with 10 ml elution buffer (50 mM Tris-HCl (PH = 8),150mM NaCl, 10 mM desthiobiotin, 1 mM EDTA, 2 mM DTT) and concentrated using an Amicon Ultra Centrifugal Filter Unit (50 kDa, 4 ml) (Fisher Scientific, EMD Millipore). Proteins were further purified by gel filtration chromatography (Superdex-200, GE Healthcare) with columns equilibrated in storage buffer (50 mM Tris-HCl 7.4, 500 mM KCl, 5% glycerol, 1 mM DTT). Peak fractions corresponding to the appropriate fusion protein were pooled, concentrated, and distributed in 10 microl aliquots in PCR tubes, flash-frozen in liquid nitrogen and stored at -80  C. Protein concentration was determined by known concentrations of BSA assessed by Coomassie Blue staining.",
+                    "evidence": "Twin Strep tag hybrid YBX1 was expressed and the protein was isolated 48 hr after PEI-mediated transfection of 293T cells."
+                }
+            },
+            {
+                "id": 38,
+                "s": 35,
+                "t": 36,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:SF9) increases a(FPLX:\"6xHis-MBP hybrid protein\")",
+                    "text": "Tagged (6xHis) and maltose-binding protein hybrid genes were expressed in baculovirus-infected SF9 insect cells. Insect cell cultures (1 l, 1x106 cells/ml) were harvested 48 h after viral infection and collected by centrifugation for 20 min at 2000 rpm. The pellet fractions were resuspended in 35 ml lysis buffer (50 mM Tris-HCl 7.4, 0.5 M KCl, 5% glycerol, 10 mM imidazole, 0.5 microl/ml Benzonase nuclease (Sigma, 70746-3), 1 mM DTT, 1 mM PMSF and 1 x protease inhibitor cocktail). Cells were lysed by sonication and the crude lysate was centrifuged for 60 min at 20,000 rpm at 4  C. After centrifugation, the supernatant fraction was incubated with 2 ml Ni-NTA His-Pur resin (Thermo Fisher, PI88222) for 1 hr. Ni-NTA resin samples were transferred to columns (18 ml) and protein-bound beads were washed with 60 ml lysis buffer until no protein was eluted as monitored by the Bio-Rad protein assay (Bio-Rad, Catalog #5000006). Proteins were eluted with 10 ml elution buffer (50 mM Tris-HCl 7.4, 0.5 M KCl, 5% glycerol, 500 mM imidazole). The eluted sample was incubated with 2 ml amylose resin (New England Biolabs, E8021L) for 1 hr at 4  C. Amylose resin samples were transferred to columns and protein-bound beads were washed with 60 ml lysis buffer until no protein was eluted as monitored by the Bio-Rad protein assay. Proteins were eluted with 10 ml elution buffer (50 mM Tris-HCl 7.4, 500 mM KCl, 5% glycerol, 50 mM maltose) and were concentrated using an Amicon Ultra Centrifugal Filter Unit (50 kDa, 4 ml) (Thermo Fisher Scientific, EMD Millipore). Proteins were further purified by gel filtration chromatography (Superdex-200, GE Healthcare) with columns equilibrated in storage buffer (50 mM Tris-HCl 7.4, 500 mM KCl, 5% glycerol, 1 mM DTT). Peak fractions corresponding to the appropriate fusion protein were pooled, concentrated, and distributed in 10 microl aliquots in PCR tubes, flash-frozen in liquid nitrogen and stored at -80  C. Protein concentration was determined by known concentrations of BSA based on Coomassie blue staining.",
+                    "evidence": "Tagged (6xHis) and maltose-binding protein hybrid genes were expressed in baculovirus-infected SF9 insect cells."
+                }
+            },
+            {
+                "id": 39,
+                "s": 37,
+                "t": 38,
+                "v": {
+                    "interaction": "transcribedTo",
+                    "bel_expression": "g(HGNC:YBX1) transcribedTo r(HGNC:YBX1)",
+                    "text": "A pX330-based plasmid expressing Venus fluorescent protein was used to clone the gRNAs targeting YBAP1. A CRISPR guide RNA targeting the first exon of the YBAP1 open reading frame was designed following the CRISPR design website (http://crispor.tefor.net/crispor.py): CGCTGCGTGCCCCGTGTGCT. Oligonucleotides encoding gRNAs were annealed and cloned into pX330-Venus as described. HEK293T cells were transfected by Lipofectamine 2000 for 48 hr at low passage number, trypsinized and sorted for single, Venus positive cells in 96-well plates by a BD Influx cell sorter. YBAP1 knockout candidates were confirmed by immunoblot. HEK 293T YBX1 knockout cells were generously provided by Dr. Xiaoman Liu.",
+                    "evidence": "A CRISPR guide RNA targeting the first exon of the YBAP1 open reading frame was designed following the CRISPR design website (http://crispor.tefor.net/crispor.py): CGCTGCGTGCCCCGTGTGCT."
+                }
+            },
+            {
+                "id": 40,
+                "s": 39,
+                "t": 40,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(EFO:CCCP) directlyDecreases a(GO:mitochondrion)",
+                    "text": "In the parkin-GFP cells, is miR223 also accumulated in mitochondria, and how does the CCCP treatment affect this localization? I would have expected the disappearance (degradation) of miR223 together with the disappearance of mitochondria in the CCCP condition, but the miR223 quantification in cells suggests instead an accumulation in the cytosol: can the authors document this hypothesis by immunofluorescence as in Figure 3A? Concerning the EV/exosome release, I would expect the mitochondrial absence to globally prevent the release of EVs (because of lack of energy), rather than specifically controlling miR223 targeting EVs.",
+                    "evidence": "I would have expected the disappearance (degradation) of miR223 together with the disappearance of mitochondria in the CCCP condition."
+                }
+            },
+            {
+                "id": 41,
+                "s": 39,
+                "t": 41,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:CCCP) increases a(GO:cytosol)",
+                    "text": "In the parkin-GFP cells, is miR223 also accumulated in mitochondria, and how does the CCCP treatment affect this localization? I would have expected the disappearance (degradation) of miR223 together with the disappearance of mitochondria in the CCCP condition, but the miR223 quantification in cells suggests instead an accumulation in the cytosol: can the authors document this hypothesis by immunofluorescence as in Figure 3A? Concerning the EV/exosome release, I would expect the mitochondrial absence to globally prevent the release of EVs (because of lack of energy), rather than specifically controlling miR223 targeting EVs.",
+                    "evidence": "but the miR223 quantification in cells suggests instead an accumulation in the cytosol."
+                }
+            },
+            {
+                "id": 42,
+                "s": 39,
+                "t": 40,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(EFO:CCCP) directlyDecreases a(GO:mitochondrion)",
+                    "text": "In the parkin-GFP cells, is miR223 also accumulated in mitochondria, and how does the CCCP treatment affect this localization? I would have expected the disappearance (degradation) of miR223 together with the disappearance of mitochondria in the CCCP condition, but the miR223 quantification in cells suggests instead an accumulation in the cytosol: can the authors document this hypothesis by immunofluorescence as in Figure 3A? Concerning the EV/exosome release, I would expect the mitochondrial absence to globally prevent the release of EVs (because of lack of energy), rather than specifically controlling miR223 targeting EVs.",
+                    "evidence": "I would have expected the disappearance (degradation) of miR223 together with the disappearance of mitochondria in the CCCP condition."
+                }
+            },
+            {
+                "id": 43,
+                "s": 39,
+                "t": 41,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:CCCP) increases a(GO:cytosol)",
+                    "text": "In the parkin-GFP cells, is miR223 also accumulated in mitochondria, and how does the CCCP treatment affect this localization? I would have expected the disappearance (degradation) of miR223 together with the disappearance of mitochondria in the CCCP condition, but the miR223 quantification in cells suggests instead an accumulation in the cytosol: can the authors document this hypothesis by immunofluorescence as in Figure 3A? Concerning the EV/exosome release, I would expect the mitochondrial absence to globally prevent the release of EVs (because of lack of energy), rather than specifically controlling miR223 targeting EVs.",
+                    "evidence": "The miR223 quantification in cells suggests instead an accumulation in the cytosol."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

@@ -38,7 +38,7 @@ def get_prompt(identifier, filepath):
     return ''.join(prompt)
 
 
-filepath = 'prompt_file_v5.txt'
+filepath = 'prompt_file_v6.txt'
 prompt_identifier = 'general prompt'
 prompt = get_prompt(prompt_identifier, filepath)
 

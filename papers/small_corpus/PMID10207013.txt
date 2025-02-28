@@ -1,0 +1,540 @@
+Inflammatory Cytokines and Oxidized Low Density Lipoproteins Increase Endothelial Cell Expression of Membrane Type 1-Matrix Metalloproteinase* [[title]]
+
+(Received for publication, August 12, 1998, and in revised form, February 3, 1999)
+
+Tripathi B. Rajavashisth#§1|, James K. Liao1, Zorina S. Galis1, Sangeetika Tripathi§, Ulrich Laufs1, Jagannath Tripathi§, Ning-Ning Chait, Xiao-Ping Xu *** , Stefan Jovinge# #*, Prediman K. Shah, and Peter Libby1
+
+From the #Atherosclerosis Research Center, Division of Cardiology, Cedars-Sinai Medical Center, UCLA School of Medicine, Los Angeles, California 90048, the §Harbor-UCLA Medical Center, Torrance, California 90502, and the 1Vascular Medicine and Atherosclerosis Unit, Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts 02115
+
+We investigated whether inflammatory cytokines or oxidized low density lipoproteins (Ox-LDL) present in human atheroma modulate extracellular matrix degra- dation by inducing membrane type 1-matrix metallopro- teinase (MT1-MMP) expression. Cultured human endo- thelial cells (EC) constitutively expressed MT1-MMP mRNA and protein with enzymatic activity. Tumor ne- crosis factor-a (TNF-a), interleukin-la, or interleu- kin-1ß caused a time-dependent increase in the steady- state MT1-MMP mRNA levels within 4 h of exposure, peaking about 4-fold by 6 h, and remaining elevated for 12 h. Increased MT1-MMP mRNA correlated with a 2.5- fold increase in MT1-MMP protein in EC membranes. Ox-LDL also increased MT1-MMP mRNA levels that var- ied with the duration of exposure and degree of LDL oxidation. The increase in MT1-MMP mRNA occurred within 6 h of exposure to Ox-LDL and peaked over 3-fold by 6 h. Ox-LDL, but not native LDL, increased MT1-MMP protein by 2-fold in EC membranes. A combination of TNF-a and Ox-LDL was additive in increasing MT1- MMP expression. Nuclear run-on assays showed that TNF-a or Ox-LDL augmented steady-state mRNA levels by increased transcription of the MT1-MMP gene. These findings indicate that activation of EC by inflammatory cytokines and/or Ox-LDL increase MT1-MMP expres- sion. Since MT1-MMP promotes matrix degradation by activating pro-MMP-2, these results suggest a novel mechanism whereby cytokines or Ox-LDL may influ- ence extracellular matrix remodeling.
+
+The early events in the initiation of atherosclerosis include the migration of blood-borne cells into the subendothelial space
+
+and the migration of medial smooth muscle cells into intimal layer of arteries (1, 2). Localized degradation of extracellular matrix components by matrix metalloproteinases (MMPs)1 of endothelial cells (EC) may facilitate the migration of cells ob- served in early as well as late stages of atherosclerosis. In addition, many episodes of coronary thrombosis, particularly in women and diabetics, occur when endothelial cells slough from the surface of plaques, causing a superficial erosion (3). Sever- ing the tethers of endothelial cells to the underlying extracel- lular matrix may favor endothelial desquamation and acute coronary syndromes. Indeed, accumulating evidence indicates that matrix degradation mediated by locally produced MMPs may contribute to the genesis and progression of atheroscle- rotic lesions (4, 5) and to the development of intimal lesions in experimental arterial injury (6, 7).
+
+Matrix metalloproteinases require activation from a latent zymogen form to attain their enzymatic activity. Cultured EC constitutively secrete precursor MMP-2 (8), which when acti- vated can participate in the degradation of interstitial collagen, an important constituent of the vascular extracellular matrix. Collagenolysis by endothelial cells may contribute to infiltra- tion of inflammatory cells and angiogenesis during evolution of the atherosclerotic plaque. Importantly, MMP-2 (also known as collagenase IV) can degrade type IV collagen, an important component of the basement membrane to which endothelial cells attach. The mechanism underlying the activation of MMP-2 remains uncertain. The recently discovered MT1-MMP (9) seems an important candidate because it can activate latent MMP-2 in vitro. In addition, as a membrane-bound rather than -soluble molecule, MT1-MMP might participate in activation of precursor MMP-2 in a localized manner. EC covering athero- sclerotic lesions are exposed to both inflammatory cytokines and oxidized low density lipoproteins (10, 11). To understand the nature and regulation of the factor(s) that promote activa- tion of MMP-2 from its precursor, this study investigated whether cytokines and Ox-LDL regulate expression of MT1- MMP by cultured vascular EC and whether they endow EC with the capacity to activate pro-MMP-2.
+
+EXPERIMENTAL PROCEDURES [[sectionHeading]]
+
+Materials-All tissue culture medium and supplements were pur- chased from Life Technologies, Inc. Fetal calf serum was from Hyclone
+
+Laboratories (Logan, UT). Human cytokines TNF-a and interleukin-1a or interleukin-1ß were purchased from R & D Systems (Minneapolis, MN) or provided by Hoffmann-La Roche. Purified human native and oxidized low density lipoprotein (Ox-LDL) were kindly provided by Dr. Judith Berliner (UCLA). The endothelial cell marker von Willebrand factor antibody was purchased from Dako (Carpenteria, CA). Nylon transfer membranes were purchased from Oncor (Gaithersburg, MD). Radioisotopes were purchased either from NEN Life Science Products or Amersham Pharmacia Biotech. Purified mouse monoclonal antibod- ies to human MT1-MMP were purchased from Oncogene Research Products (Cambridge, MA). The peroxidase-conjugated rabbit anti- mouse IgG was obtained from Zymed Laboratories Inc. (San Francisco, CA). Goat IgG used to block unspecific binding in the flow cytometric analysis was purchased from Santa Cruz Biotechnology, Inc. (Santa Cruz, CA). Phycoerythrin-conjugated anti-mouse goat IgG was pur- chased from Caltag Laboratories (Burlingame, CA).
+
+Cell Culture-Human EC (HSVEC) were harvested enzymatically from saphenous vein using type II collagenase as described (12). Cells were grown in Medium 199 containing 20 mM HEPES, 50 µg/ml endo- thelial cell growth factor, 5 mM glutamine, 5% fetal calf serum, and an antibiotic mixture of penicillin (100 units/ml), streptomycin (100 µg/ ml), and fungizone (1.25 µg/ml). Primary cultures of human aortic EC were kindly provided to us by Dr. Mahamad Navab (Division of Cardi- ology, UCLA). The isolation and characterization of human aortic EC were previously described (13). EC were routinely characterized by phase contrast microscopy (Zeiss ICM 405, × 40 objective) and expres- sion of von Willebrand factor antigen (12). EC within three passages were used throughout the experiments. Cells were studied at conflu- ence in all treatment conditions. Cellular viability was assessed by Trypan blue exclusion. Treatment of EC with cytokines was performed essentially as described (14). Preparation and treatment of Ox-LDL were performed essentially as described (14, 15). The amount of Ox- LDL to which EC were exposed in certain experiments was reduced from 100 to 50 µg/ml when treating EC for 24 h to avoid toxicity to the cells. All reagents in our tissue culture studies were verified for the absence of endotoxin by a commercially available assay kit (BioWhit- taker, Walkersville, MD) that has a sensitivity detection level of 1 pg/ml. The final concentration of endotoxin in lipoprotein preparations was less than 20 pg/ml of the culture medium used.
+
+Amplification of Human MT1-MMP-specific cDNA Sequence-Two primers (MT-2, TCGATGGTGAGGGCGGCTTCCTGGCCCATGC (nu- cleotides 686-716); MT-3, GCTCGAGCCCCAGGGCATGGCCCAGCT- CGTG (nucleotides 826-856)), each 31 nucleotides long, were syn- thesized corresponding to the published cDNA sequence of human MT1- MMP (9). Reverse transcriptase-polymerase chain reaction was performed to amplify a 171-nucleotide-long cDNA sequence using total RNA prepared from EC as substrate (16). A diagnostic restriction en- zyme digestion was performed. The amplified product was subcloned in pCRII vector (Invitrogen, San Diego, CA) and sequenced by following standard sequencing protocol (17) using Sequenase (U.S. Biochemical Corp./Amersham Pharmacia Biotech).
+
+Preparation of RNA and Northern Blot Analyses-Total cellular RNA was isolated by lysis of EC in guanidinium isothiocyanate, phenol- chloroform extraction and ethanol precipitation (18). Each RNA prep- aration (20 µg) was denatured and electrophoresed through a 1.2% formaldehyde agarose gel followed by blotting onto nylon filters and ultraviolet (UV) cross-linking. Filters were hybridized with isolated and radiolabeled MT1-MMP-specific cDNA probe (19, 20). The blots were washed, autoradiographed, and then rehybridized with either tubulin or actin cDNA probe as an internal control. Quantitative results of the assays were obtained by densitometry of autoradiograms.
+
+Ribonuclease Protection Assays-The linearized plasmids containing human MT1-MMP or B-actin cDNA (0.5 µg, 0.2 pM) were used as template to synthesize radiolabeled antisense MT1-MMP and ß-actin sequences using the MAXIscript in vitro transcription kit (Ambion, Austin, TX). Briefly, template DNA was incubated in a total volume of 10 ul containing 1× transcription buffer. Radiolabeled probes corre- sponding to MT1-MMP and B-actin were gel-purified and used in the ribonuclease protection assays. Hybridization of probes to 10 µg of total RNA, prepared from unstimulated EC or EC stimulated with cytokines or Ox-LDL, was performed essentially as described in the ribonuclease protection manual of Ambion, Inc. RNase digestion of hybridized probe was carried out using a mixture of RNase A and RNase T1. Protected fragments were ethanol-precipitated and recovered by centrifugation. Pellets were dissolved in gel loading buffer and electrophoresed through a 5% polyacrylamide, 8 M urea gel. The gel was dried and autoradio- graphed. Quantitative results of the assays were obtained by densitom- etry of autoradiograms.
+
+Nuclear Run-on Assays-The nuclear run-on transcription assays were performed according to a published procedure (21). Nuclei from untreated and cytokine or Ox-LDL-treated cells were incubated in a reaction mixture containing 10 mM Tris, pH 8.0, 20% glycerol, 0.15 M KCI, 1.5 mm MgCl2, 5 mM dithiothreitol, and 250 units RNAsin (Pro- mega, Madison, WI) supplemented with 0.5 mM each of CTP, ATP, and GTP and 0.250 mCi of a-[32PJUTP (NEN Life Science Products). Radio- labeled nuclear RNA was purified by DNase I and proteinase K diges- tion, phenol-chloroform extraction, and ethanol precipitation. Relative amounts of incorporation of label into specific RNAs were estimated by DNA-excess filter hybridization. Linearized and denatured plasmids carrying human MT1-MMP and -tubulin DNAs and their correspond- ing vectors were slot-blotted onto nylon filters. Filters were probed with an equal amount of radiolabeled RNA probes as described (15, 19). The blots were washed and autoradiographed. Quantitative results of the assays were obtained both by counting of individual hybridized slots and densitometry of autoradiograms.
+
+SDS-Polyacrylamide Gel Electrophoresis and Immunoblotting-Ex- tracts of partially purified plasma membrane fractions of EC treated with TNF-a and/or Ox-LDL were isolated as described (22). Proteins of EC membranes (50 µg) and known molecular weight markers were separated by SDS-polyacrylamide gel electrophoresis. Proteins were electrophoretically transferred onto Western polyvinylidene difluoride membranes and incubated overnight at 4 ℃ with blocking solution (5% skimmed milk in PBS). Affinity-purified mouse monoclonal antibodies (10 µg of IgG/ml) to human MT1-MMP were incubated with the blots overnight at 4 ℃ in PBS buffer containing 0.1% Tween 20 (23). The blots were washed twice with PBS buffer and then treated with rabbit anti-mouse antibody (1:4000 dilution) coupled to horseradish peroxi- dase. Immunodetection was accomplished using the Enhance Chemilu- minescence Kit (Amersham Pharmacia Biotech)
+
+Flow Cytometry-HSVEC grown in absence or presence of TNF-a and/or Ox-LDL were harvested by treating the culture with Hanks' solution containing 3 mM EDTA for 30 min on ice and then scraping the cells from the wells. The cells were pelleted by centrifugation and incubated with 20 µg of goat IgG in PBS containing 1% fetal calf serum and 0.1% sodium azide on ice for 15 min. Primary mouse monoclonal antibodies to human MT1-MMP were added to cells, 0.5 µg/sample, to a total volume of 50 ul and incubated on ice for 30 min. After two washes with PBS containing 1% fetal calf serum and 0.1% sodium azide, cells were incubated with saturating concentrations of phyco- erythrin-conjugated goat anti-mouse IgG for 30 min on ice. After two more washes, cells were fixed with 1% paraformaldehyde in PBS. Anal- ysis was performed using FACScan (Becton Dickinson, Mountain View, CA). Cell populations were gated according to forward and side scattering.
+
+Immunoprecipitation and Gelatin Zymography-The immunopre- cipitation of the MT1-MMP was performed in the presence of a mixture of protease inhibitors (Roche Molecular Biochemicals) using a standard protocol as described previously (23). Equal amounts of extracts of partially purified plasma membrane fractions of EC untreated or treated with TNF-a, interleukin-18, or Ox-LDL were incubated with the purified monoclonal antibodies to either human MT1-MMP or mem- brane associated human c-FMS protein. Antigen-antibody complexes were precipitated with protein G- and protein A-coupled agarose beads (Oncogene Research Products, Cambridge, MA) by centrifugation. Equal amounts of the supernatants were added to culture media har- vested from human smooth muscle cells containing pro-MMP-2 and assayed for gelatinolytic activity essentially as described by Galis et al. (24). Proteins were electrophoresed in the presence of SDS in discon- tinuous 10% SDS-polyacrylamide gels containing 1 mg/ml gelatin (Novex, San Diego, CA). Gels were processed to renature the protein by exchanging SDS to Triton X-100 (two changes of 2.5% Triton X-100 for a total of 30 min). Gels were subsequently incubated for 18 h at 37 ℃ in 50 mM Tris-HCl, pH 7.4, containing 10 mM CaCl2 and 0.05% Brij 3 and stained with Colloidal Brilliant Blue G (Sigma) followed by destaining in 5% methanol and 7% acetic acid.
+
+Data Analysis-Intensities of experimental bands from the RNA and protein assays were measured by computer-assisted densitometry. Re- sults are expressed as mean + S.E. Statistical analyses were performed by Student's t test to determine the significance of change in the densitometric measurements. A significance difference was considered for p values equal to or less than 0.05.
+
+RESULTS [[sectionHeading]]
+
+Cultured Human EC Constitutively Express MT1-MMP-To assess whether EC express MT1-MMP mRNA or a related
+
+A
+
+A
+
+(10 ng/ml)
+
+HSVEC
+
+6 h treatment
+
+TNF-a
+
+-
+
+-
+
+-
+
++
+
+-
+
+IL-1
+
+-
+
++
+
+-
+
+-
+
+-
+
+IL-1a
+
+-
+
+-
+
+-
+
+-
+
++
+
+4.5 kb
+
+MT1-MMP
+
++ 28 S
+
++ 18 S
+
+1
+
+2
+
+3
+
+4
+
+5
+
+B
+
+HAEC
+
+TNF-a (6 h)
+
+0
+
+0.1
+
+1
+
+5
+
+10
+
+(ng/ml)
+
+MT1-MMP-
+
+a-Tubulin
+
+FIG. 1. A, Northern analysis showing the induction of MT1-MMP mRNA in human saphenous vein EC in response to treatment with TNF-a and interleukin-1a or interleukin-18. Primary cultures of EC were treated for 6 h with TNF-a (10 ng/ml) or interleukin-la or inter- leukin-18 (10 ng/ml). B, dose-dependent effect of TNF-a on the expres- sion of MT1-MMP in human aortic endothelial cells (HAEC).
+
+sequence, we performed reverse transcriptase-polymerase chain reaction on total RNA prepared from cultured but un- stimulated EC using a primer set designed on the basis of the human MT1-MMP sequence published by Sato et al. (9). A polymerase chain reaction product of the expected size (171 base pairs) was identified and cloned into the pCRII vector. The DNA sequence of the amplified fragment revealed a complete identity to the human MT1-MMP cDNA sequence (GenBank™M accession number D26512) and showed homologies to other published MT-MMP cDNA sequences (25-28). Northern blot- ting assays using this cloned cDNA fragment as a probe showed that EC contain a single mRNA species of 4.5 kb (Figs. 1 and 2), a size similar to that of MT1-MMP mRNA observed in normal lung tissue and tumor cells.
+
+Inflammatory Cytokines or Ox-LDL Increase Expression of MT1-MMP mRNA in EC-Northern analyses and RNase pro- tection assays revealed that exposure of cultured EC to TNF-a, interleukin-1, or Ox-LDL results in the accumulation of MT1- MMP mRNA (Figs. 1-4). Both cytokines and Ox-LDL caused a time-dependent progressive increase in the steady state levels of MT1-MMP mRNA in stimulated EC (Figs. 2 and 4). MT1- MMP mRNA levels increased within 4 h of exposure to TNF-a, reached a peak level of about 4-fold above control by 6 h, and remained elevated for at least 12 h (Fig. 2, A and B). The effect of Ox-LDL on the levels of MT1-MMP mRNA depended on the degree of LDL oxidation as measured by presence of the thio- barbituric acid-reactive substances (TBARS). Ox-LDL with TBARS ranging from 2.6 to 13.4 nmol/mg of LDL protein caused increase in steady-state MT1-MMP mRNA levels as compared with native LDL (TBARS = 0.2 nmol/mg). Ox-LDL with higher TBARS up to 24.2 nmol/mg LDL protein also increased the levels of MT1-MMP mRNA in EC, although to a lesser extent than Ox-LDL with 7.3 TBARS (Fig. 3B). The time course for the induction of MT1-MMP mRNA in response to
+
+B
+
+TNF-a
+
+(10 ng/ml)
+
+Treatment (h)
+
+0 2 6 12 24
+
+MT1-MMP
+
+171 nt
+
+3000
+
+N=3
+
+*
+
+MT1-MMP mRNA Level (Densitometric Units)
+
+2000
+
+1000
+
+0
+
+0
+
+2
+
+6
+
+12
+
+24
+
+(h)
+
+TNF-a (10 ng/ml)
+
+FIG. 2. A, RNase protection assays showing the time-dependent ef- fects of TNF-a on the induction of MT1-MMP mRNA. B, quantitative results of MT1-MMP mRNA were obtained by densitometry of the autoradiograms. Results represent the mean ± S.E. of three separate RNase protection assays. * , p < 0.05 compared with untreated control.
+
+Ox-LDL appeared similar to TNF-a. MT1-MMP mRNA levels increased and peaked at 6 h of exposure and remained elevated for at least 24 h (Fig. 4, A and B). Treatment of EC for 8 h with a combination of TNF-a (10 ng/ml) and Ox-LDL (100 µg/ml) increased the levels of MT1-MMP mRNA in an additive man- ner (data not shown).
+
+Effects of TNF-a or Ox-LDL on MT1-MMP Gene Transcrip- tion-Increased levels of MT1-MMP mRNA in TNF-a or Ox- LDL-stimulated EC could result from enhanced transcription and RNA processing or reduced degradation. To examine whether an increase in steady state levels of MT1-MMP mRNA in response to TNF-a or Ox-LDL was associated with the in- creased rate of MT1-MMP gene transcription, we performed run-on assays on isolated nuclei. As shown in Fig. 5A, the basal level of MT1-MMP gene transcription in EC increased about 2-3-fold when cells were stimulated with TNF-« (10 ng/ml). Ox-LDL (100 µg/ml, TBARS = 7.3 nmol/mg) also caused about similar increase in the rate of MT1-MMP gene transcription (Fig. 5B). The transcription of ß-tubulin, a constitutively ex- pressed cytoskeletal protein gene, remained unchanged in re- sponse to either TNF-a or Ox-LDL.
+
+Stimulated EC Show Increased Immunoreactive MT1- MMP-To determine whether the mRNA levels corresponded to the amount of translated MT1-MMP protein and to assess whether this protein was membrane-bound, we performed im- munoblot analysis on the protein lysates of the plasma mem- brane extracts of EC stimulated with TNF-a and/or Ox-LDL. TNF-a-mediated increase in MT1-MMP mRNA correlated with a 2.5-fold increase in MT1-MMP protein levels in EC mem- branes (Fig. 6A). Treatment of cells with Ox-LDL also in- creased (2.0-fold) the levels of MT1-MMP proteins in EC mem- branes. The levels of MT1-MMP immunoreactive protein were increased about 3.1-fold in EC treated with a combination of TNF-a and Ox-LDL (Fig. 6A).
+
+To establish that HSVEC expressed membrane-anchored im- munoreactive MT1-MMP protein, we performed flow cytomet- ric analysis on the HSVEC grown in the absence and presence
+
+A
+
+LDL (100 µg/ml)
+
+HSVEC
+
+6 h treatment
+
+Native
+
+-
+
+-
+
++
+
+-
+
+-
+
+Fe++-oxidized
+
+-
+
+-
+
+-
+
++
+
+-
+
+Cu++-oxidized
+
+-
+
++
+
+-
+
+-
+
++
+
+4.5 kb -
+
++ MT1-MMP
+
++ 28 S
+
+1
+
+2
+
+3
+
+4
+
+5
+
+B
+
+3000
+
+N=3
+
+MT1-MMP mRNA Level (Densitometric Units)
+
+2000
+
+*
+
+1000
+
+0
+
+-
+
+0.2
+
+2.6
+
+7.3
+
+13.4
+
+24.2
+
+TBARS
+
+TNF-a n-LDL
+
+Ox-LDL
+
+FIG. 3. A, Northern analysis showing the induction of MT1-MMP mRNA in human saphenous vein EC in response to treatment with Ox-LDL. Primary cultures of EC were treated for 6 h with various LDL preparations (100 µg/ml) as indicated. B, densitometric analysis of Northern blots showing the effects of native LDL (n-LDL) and Ox-LDL (50 µg/ml) on MT1-MMP expression at 24 h with respect to oxidative modification (TBARS). The effect of TNF-a on MT1-MMP expression at 6 h is shown for comparison. Results represent the mean ± S.E. of three independent experiments. * , p < 0.05 compared with untreated control.
+
+of TNF-a and/or Ox-LDL. HSVEC expressed constitutively a membrane-associated protein that reacted with human MT1- MMP-specific antibody. In untreated cells, 60% of the popula- tion showed binding of the primary MT1-MMP antibody (data not shown). The background level, as determined when no primary antibody was included, had 2% of cells positive. Stim- ulation of EC with TNF-a and/or Ox-LDL for 24 h increased the number of MT1-MMP-bearing cells to about 1.8-fold (Ox-LDL), 1.7-fold (TNF-a), or 2.5-fold (TNF-a and Ox-LDL together) as compared with unstimulated cells (Fig. 6B).
+
+Stimulated EC Show Increased MMP-2 Activation-To ex- amine whether increased levels of MT1-MMP mRNA and im- munoreactive protein correspond to augmented enzymatic ac- tivity, we analyzed plasma membrane extracts of EC stimulated with TNF-a, interleukin-18, or Ox-LDL by SDS- polyacrylamide gel electrophoresis gelatin zymography. Incu-
+
+A
+
+B
+
+Ox-LDL
+
+(100 µg/ml)
+
+Treatment (h)
+
+0
+
+6
+
+12
+
+24
+
+ß-actin
+
+245 nt
+
+MT1-MMP
+
+171 nt
+
+1500
+
+N=3
+
+MT1-MMP mRNA Level (Densitometric Units)
+
+1000
+
+*
+
+500
+
+00
+
+0
+
+6
+
+12
+
+24
+
+(h)
+
+Ox-LDL (100 µg/ml)
+
+FIG. 4. A, RNase protection assays showing the time-dependent ef- fects of Ox-LDL on the induction of MT1-MMP mRNA. B, quantitative results of MT1-MMP mRNA were obtained by densitometry of the autoradiograms. Results represent the mean ± S.E. of three separate RNase protection assays. * , p < 0.05 compared with untreated control.
+
+bation of medium conditioned by human smooth muscle cells that contained pro-MMP-2, with plasma membrane extracts prepared from EC treated with TNF-a, interleukin-18, or Ox- LDL, increased the proteolytic conversion of 72-kDa pro- MMP-2 to new gelatinolytic bands of 70- and 68-kDa corre- sponding to the processed active MMP-2 (Fig. 7A). Purified mouse monoclonal antibody to human MT1-MMP immunopre- cipitated a 64-kDa protein of the size of MT1-MMP (not shown). Proteolytic processing of pro-MMP-2 was reduced in membrane extracts incubated with anti-MT1-MMP antibody (Fig. 7A and B).
+
+DISCUSSION [[sectionHeading]]
+
+This study showed that cultured human EC constitutively express MT1-MMP, a membrane-anchored MMP that activates the zymogen form of MMP-2. We found that exposure of EC to Ox-LDL appreciably increases the steady-state levels of MT1- MMP mRNA. Cytokines released by inflammatory cells or in- duced in vascular cells by Ox-LDL (1, 29-32), mediators rele- vant to vascular pathology, progressively increased MT1-MMP transcription by cultured EC. The augmented MT1-MMP mRNA correlated with increased plasma membrane-associated immunoreactive protein and catalytic function of precursor MMP-2, an activity ascribed to this enzyme. Since endothelial cells also secrete latent MMP-2 (8), the pathways described here in vitro probably operate in vivo.
+
+Recent work has shown that the MT-MMP family includes at least four members (9, 25-28). Our reverse transcriptase-po- lymerase chain reaction fragment corresponds to MT1-MMP, and the affinity-purified anti-MT1-MMP antibody specifically blocked a substantial portion of the membrane-associated pro- teolytic activity that catalyzed the conversion of 72-kDa pro- MMP-2 to MMP-2. Since MT1-MMP belongs to a family of enzymes containing at least four members, the residual activ-
+
+A
+
+B
+
+B-tubulin Vector MT1-MMP
+
+Vector
+
+ß-tubulin
+
+Vector MT1-MMP
+
+Unstimulated
+
+Stimulated
+
+TNF-a
+
+Ox-LDL
+
+n-LDL
+
+FIG. 5. Induction of MT1-MMP gene transcription by TNF-& (A) and Ox-LDL (B). Nuclei from EC grown in absence or presence of TNF-a (10 ng/ml) for 6 h or Ox-LDL (100 µg/ml) for 6 h were isolated for preparation of radiolabeled nuclear RNA. Equal amounts of linearized plasmids carrying vector DNA, B-tubulin DNA, and human MT1-MMP cDNA were slot-blotted onto nylon filters. Filters were then probed with equal amounts of 32P-labeled nuclear RNA.
+
+A
+
+MT1-MMP -+
+
+4- 64 kDa
+
+3000
+
+MT1-MMP Surface Expression (Densitometric Units)
+
+N=3
+
+**
+
+4000
+
+*
+
+*
+
+2000
+
+0
+
+Control Ox-LDL TNF-a
+
+TNF-a +
+
+Ox-LDL
+
+B
+
+MT1-MMP Surface Expression (Mean Fluorescence, Arbitrary Units)
+
+70
+
+N=3
+
+**
+
+60
+
+50
+
+*
+
+*
+
+40
+
+30
+
+20
+
+10
+
+0
+
+Control
+
+Ox-LDL
+
+TNF-a
+
+TNF-a +
+
+Ox-LDL
+
+FIG. 6. A, densitometric analyses of immunoblots showing increases in MT1-MMP protein levels (mean + S.E.) by TNF-a or Ox-LDL alone or in combination (*, p < 0.05; ** , p < 0.02; n = 3). The blot on top represents three separate immunoblotting experiments of partially pu- rified EC membrane extracts (50 µg) using MT1-MMP antibody from untreated cells (control) and cells treated with Ox-LDL (50 µg/ml, TBARS = 7.3 nmol/mg), TNF-a (10 ng/ml), or Ox-LDL (50 µg/ml) and TNF-a (10 ng/ml) together for 24 h. B, flow cytometric analysis of HSVEC using purified mouse monoclonal antibody to human MT1- MMP. Plots represent the distribution of fluorescence arbitrary units (mean ± S.E.) in untreated HSVEC (control) or treated with TNF-& or Ox-LDL alone or in combination as indicated on the abscissas (*, p < 0.05; ** , p < 0.02; n = 4).
+
+A
+
+Control
+
+TNF-a
+
+IL-1B
+
+Ox-LDL
+
+kDa
+
+72
+
+Pro-MMP-2 -+
+
+70
+
+68
+
+- + - + - + - +
+
+a-MT-MMP-1 antibody
+
+B
+
+0.4
+
+Activated MMP-2 (Densitometric Units)
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+Untreated TNF-a IL-18 Ox-LDL
+
+FIG. 7. Increased processing of pro-MMP-2 by plasma mem- brane preparations of EC stimulated with TNF-« (10 ng/ml), interleukin-18 (10 ng/ml), or Ox-LDL (50 µg/ml) for 24 h. Proteo- lytic processing of 72-kDa pro-MMP-2 from media conditioned by un- stimulated human smooth muscle cells. Note that immunodepletion of MT1-MMP by specific antibody reduces the processing of pro-MMP-2. Positions of molecular mass markers are indicated in kDa. B, densito- metric analyses of gelatin zymogram showing increased levels of acti- vated MMP-2 in response to TNF-a, interleukin-18, or Ox-LDL. Immu- nodepletion of MT1-MMP from the EC membrane preparations reduces the proteolytic conversion of pro-MMP-2 to MMP-2. Bars indicate the levels of activated MMP-2 before :unselected: and after
+
+:selected: immunodepletion of MT1-MMP.
+
+ity that partially converts pro-MMP-2 to MMP-2 after immu- nodepletion of MT1-MMP in our assays may derive from other members of the family or from related enzymes present in endothelial membrane extracts.
+
+Activated MT1-MMP acts on several substrates of potential
+
+relevance to vascular pathobiology (33-37). The catalytic do- main of MT1-MMP activates pro-MMP-2 and pro-MMP-2·tis- sue inhibitor of metalloproteinase-2 complex (34). The tri- molecular complex of MT1-MMP·tissue inhibitor of metallopro- teinase-2·pro-MMP-2 functions as an activated form of MT1- MMP and thus provides a mechanism for spatially regulated matrix degradation (35, 36). MT1-MMP can also process pro- MMP-13 (procollagenase-3) to the fully active enzyme (37). Precursor MMP-2 potentiates activation of pro-MMP-13 by MT1-MMP, and active MMP-13 can in turn activate MMP-2 and MMP-g zymogens (38), thereby indicating an activation cascade of three members of the MMP family (33, 37-39). Thus, increased expression of MT1-MMP can favor digestion of native interstitial collagens by MMP-13, continued degradation of partially degraded collagens due to gelatinase activity of MMP-2, and proteolysis of basement membrane collagen (type IV) and elastin by active MMP-2.
+
+The ability of endothelial cells to produce MT1-MMP, and hence activate the spectrum of proteases described above may have several important functional consequences in vascular pathophysiology, including angiogenesis, leukocyte transmi- gration, and plaque disruptions that cause thrombosis, the dreaded complication of atherosclerotic vascular diseases. Pro- teolysis plays an important role in migration of EC inside tissues during vasculogenesis and angiogenesis (40, 41). Trans- migration of leukocytes through the endothelium and subja- cent basement membrane is a key process in normal host defenses, in inflammatory conditions, and in many vascular diseases including atherosclerosis (1, 2, 42). Activation of MMP-2 by endothelial MT1-MMP may promote these pro- cesses, since MMP-2 degrades basement membrane collagen type IV (29, 39). In addition, active MMP-2 may promote local endothelial desquamation by lysing contacts with the base- ment membrane, causing superficial erosion of atherosclerotic plaques, now thought often to provoke coronary thrombosis and sudden death, particularly in women and diabetics (3, 43). Indeed, areas of such superficial erosion of atheroma exhibit augmented expression of MMP-2 and tissue inhibitor of metal- loproteinase-2, which combine with MT1-MMP to form the active ternary complex (4). Another common pathway of ath- erosclerotic plaque disruption and thrombosis involves rupture of the atheroma's cap which depends on interstitial collagen for its tensile strength (44). Activation of pro-MMP-13 by endothe- lial MT1-MMP may contribute to this mechanism of plaque disruption and consequent thrombosis.
+
+In conclusion, the ability of endothelial cells to express MT1- MMP and its augmented expression in response to pathobio- logically relevant stimuli such as inflammatory cytokines and Ox-LDL highlight a novel proteolytic pathway. This mecha- nism may contribute to normal host defenses and to important pathological conditions including atherosclerosis.
+
+Acknowledgments-We thank Drs. Judith Berliner and Mahamad Navab for providing native and oxidized LDL preparations and for human aortic endothelial cells and Aatish Kumar for expert technical assistance. We thank Dr. Maria Muszynski, DVM, for help with human saphenous vein endothelial cell cultures.
+
+REFERENCES [[sectionHeading]]
+
+2. Ross, R. (1993) Nature 362, 801-809
+
+4. Henney, A. M., Wakeley, P. R., Davies, M. J., Foster, K., Hembry, T., Murphy, G., and Humphries, S. (1991) Proc. Natl. Acad. Sci. U. S. A. 88, 8154-8158
+
+7. Zempo, N., Kenagy, R. D., Au, Y. P., Bendeck, M. P., Clowes, M. M., Reidy, M. A., and Clowes, A. W. (1994) J. Vasc. Surg. 20, 209-217
+
+9. Sato, H., Takino, T., Okada, Y., Cao, J., Shinagawa, A., Yamamoto, E., and Seiki, M. (1994) Nature 37, 61-65
+
+10. Tipping, P. G., and Hancock, W. W. (1993) Am. J. Pathol. 142, 1721-1728
+
+11. Yla-Hertualla, S., Palinski, W., Rosenfeld, M. E., Parthsarsthy, S., Carew, T. E., Butler, S., Witztum, J. L., and Steinberg, D. (1989) J. Clin. Invest. 84, 1086-1095
+
+13. Navab, M., Hough, G. P., Stevenson, L. W., Drinkwater, D. C., Laks, H., and Fogelman, A. M. (1988) J. Clin. Invest. 82, 1853-1863
+
+14. Peng, H-B., Rajavashisth, T. B., Libby, P., and Liao, J. K. (1995) J. Biol. Chem. 270, 17050-17055
+
+17. Sambrook, J., Fritsch, E. F., and Maniatis, T. (1989) Molecular Cloning: A Laboratory Manual, 2nd Ed., Cold Spring Harbor Laboratory, Cold Spring Harbor, NY
+
+18. Chomzynski, P., and Sacchi, N. (1987) Anal. Biochem. 162, 156-159
+
+19. Rajavashisth, T. B., Eng, R., Shadduck, R. K., Waheed, A., Ben-Avram, C. M., Shively, J. E., and Lusis, A. J. (1987) Proc. Natl. Acad. Sci. U. S. A. 84, 1157-1161
+
+20. Feinberg, A. P., and Vogelstein, B. (1983) Anal. Biochem. 132, 6-13
+
+21. Marzluff, W. F., and Huang, R. C. C. (1985) in Transcription and Translation: A Practical Approach (Hames, B. D., and Higgins, S. J., eds) pp. 89-129, IRL Press, Oxford
+
+22. Liao, J. K., and Homcy, C. J. (1992) Circ. Res. 70, 1018-1026
+
+24. Galis, Z. S., Muszynski, M., Sukhova, G. K., Simon-Morrissey, E., Unemori, E. N., Lark, M. W., Amento, E., and Libby, P. (1994) Circ. Res. 75, 181-189 25. Takino, T., Sato, H., Shinagawa, A., and Seiki, M. (1995) J. Biol. Chem. 270, 23013-23020
+
+29. Libby, P. (1995) Circulation 91, 2844-2850
+
+38. Knauper, V., Smith, B., Lopez-Otin, C., Murphy, G. (1997) Eur. J. Biochem. 248, 369-373
+
+42. Springer, T. A., and Cybulsky, M. I. (1996) in Atherosclerosis and Coronary Artery Disease (Fuster, V., Ross, R., and Topol, E. J., eds) Vol. 1, p. 511, Lippincott-Raven, Philadelphia, PA
+
+44. Falk, E., Shah, P. K., and Fuster, V. (1995) Circulation 92, 657-671
+

@@ -1,0 +1,2747 @@
+{
+    "1": {
+        "text": "Rin1 is a Rab5 guanine nucleotide exchange factor that plays an important role in Ras-activated endocytosis and growth factor receptor trafficking in fibroblasts. In this study, we show that Rin1 is expressed at high levels in a large number of non-small cell lung adenocarcinoma cell lines, including Hop62, H650, HCC4006, HCC827, EKVX, HCC2935, and A549. Rin1 depletion from A549 cells resulted in a decrease in cell proliferation that was correlated to a decrease in epidermal growth factor receptor (EGFR) signaling. Expression of wild type Rin1 but not the Rab5 guanine nucleotide exchange factor-deficient Rin1 (Rin1\u25a1) complemented the Rin1 depletion effects, and overexpression of Rin1\u25a1 had a dominant negative effect on cell proliferation. Rin1 depletion stabilized the cell surface levels of EGFR, suggesting that internalization was necessary for robust signaling in A549 cells. In support of this conclusion, introduction of either dominant negative Rab5 or dominant negative dynamin decreased A549 proliferation and EGFR signaling. These data demonstrate that proper internalization and endocytic trafficking are critical for EGFR-mediated signaling in A549 cells and suggest that up-regulation of Rin1 in A549 cell lines may contribute to their proliferative nature.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0032045",
+                "entry_name": "guanyl-nucleotide exchange factor complex"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006897",
+                "entry_name": "endocytosis"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "6511",
+                "entry_name": "LARGE1"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "EFO",
+                "id": "0006439",
+                "entry_name": "HOP62"
+            },
+            {
+                "db": "EFO",
+                "id": "0003132",
+                "entry_name": "HCC4006"
+            },
+            {
+                "db": "EFO",
+                "id": "0003137",
+                "entry_name": "HCC827"
+            },
+            {
+                "db": "EFO",
+                "id": "0006786",
+                "entry_name": "EKVX"
+            },
+            {
+                "db": "EFO",
+                "id": "0005375",
+                "entry_name": "HCC2935"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:61292",
+                "entry_name": "guanyl nucleotide"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "FPLX",
+                "id": "DNM",
+                "entry_name": "DNM"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019368",
+                "entry_name": "Nature"
+            }
+        ]
+    },
+    "2": {
+        "text": "Internalization of epidermal growth factor receptors (EGFR) and their subsequent delivery to lysosomes play key roles in attenuating EGF-mediated signaling cascades. The proper delivery of EGFR into lysosomes for degradation requires a series of highly regulated targeting and delivery events. Following ligand binding, EGFR is internalized via endocytic vesicles that are subsequently targeted to early endosomes. This targeting event is mediated by the small GTPase, Rab5. Once delivered to the early endosome, receptors that are destined for degradation are incorporated into vesicles that bud into the lumen of the endosome, forming the multivesicular body. Sequestration of the activated cytoplasmic domain of EGFR into the intralumenal vesicles of the multivesicular body effectively terminates receptor signaling. Subsequent fusion of the multivesicular body with lysosomes delivers the intralumenal vesicles and their contents into the lumen of the lysosome where they are degraded. Inactivating mutations in Rab5 disrupt the delivery of cell surface receptors, such as EGFR, to early endosomes, thereby inhibiting receptor trafficking to the lysosome and receptor degradation. Therefore, activation of Rab5 is a key point of regulation for EGFR signaling.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005764",
+                "entry_name": "lysosome"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:50906",
+                "entry_name": "role"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005764",
+                "entry_name": "lysosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0009056",
+                "entry_name": "catabolic process"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030139",
+                "entry_name": "endocytic vesicle"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005769",
+                "entry_name": "early endosome"
+            },
+            {
+                "db": "EFO",
+                "id": "0009629",
+                "entry_name": "event"
+            },
+            {
+                "db": "HGNC",
+                "id": "9802",
+                "entry_name": "RAC2"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005769",
+                "entry_name": "early endosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0009056",
+                "entry_name": "catabolic process"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005768",
+                "entry_name": "endosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005771",
+                "entry_name": "multivesicular body"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005771",
+                "entry_name": "multivesicular body"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005771",
+                "entry_name": "multivesicular body"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005764",
+                "entry_name": "lysosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005764",
+                "entry_name": "lysosome"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005769",
+                "entry_name": "early endosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005764",
+                "entry_name": "lysosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0032801",
+                "entry_name": "receptor catabolic process"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            }
+        ]
+    },
+    "3": {
+        "text": "Rab5 cycles between an inactive GDP-bound state and an active GTP-bound state, and Rab5 activation requires the exchange of GDP to GTP. This exchange is catalyzed by guanine nucleotide exchange factors (GEFs) that are specific to the Rab5 family of proteins. Rab5 family GEFs all contain a catalytic vacuolar protein sorting 9 (Vps9) domain that facilitates the GDP to GTP exchange. Many Rab5 GEFs contain other functional domains that are involved in cell signaling events. Rin1 is a good example of a multidomain Rab5 GEF. In addition to the Vps9 domain, Rin1 also contains an Src homology 2 domain, a proline-rich domain, and a Ras association domain. Rin1 was originally identified through its ability to interact with active Ras, and a role for Rin1 in a number of cell signaling systems has been established, including EGF-mediated signaling. Rin1 directly interacts with the activated EGFR through its Src homology 2 domain. Furthermore, Ras occupation of the Rin1 Ras association domain positively impacts the Rab5 GEF activity of Rin1, which promotes EGFR internalization and attenuation in fibroblasts. However, Rin1 expression is up-regulated in several types of cancers, including squamous cell carcinoma, colorectal cancer, and cervical cancer, through duplications or rearrangements of the RIN1 locus. These studies suggest that Rin1 may also play a role in enhancing cell proliferation.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:17552",
+                "entry_name": "GDP"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15996",
+                "entry_name": "GTP"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0032045",
+                "entry_name": "guanyl-nucleotide exchange factor complex"
+            },
+            {
+                "db": "FPLX",
+                "id": "GEF",
+                "entry_name": "GEF"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "FPLX",
+                "id": "GEF",
+                "entry_name": "GEF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006623",
+                "entry_name": "protein targeting to vacuole"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:17552",
+                "entry_name": "GDP"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15996",
+                "entry_name": "GTP"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "FPLX",
+                "id": "GEF",
+                "entry_name": "GEF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "FPLX",
+                "id": "GEF",
+                "entry_name": "GEF"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "11283",
+                "entry_name": "SRC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "11283",
+                "entry_name": "SRC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "MESH",
+                "id": "D009790",
+                "entry_name": "Occupations"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "FPLX",
+                "id": "GEF",
+                "entry_name": "GEF"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D002294",
+                "entry_name": "Carcinoma, Squamous Cell"
+            },
+            {
+                "db": "MESH",
+                "id": "D015179",
+                "entry_name": "Colorectal Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D002583",
+                "entry_name": "Uterine Cervical Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            }
+        ]
+    },
+    "4": {
+        "text": "It is well established that a large percentage of non-small cell lung adenocarcinomas exhibit up-regulation of EGFR and aberrant signaling through the Ras/MAPK pathway. In addition, a recent study examining 188 human lung adenocarcinomas identified that 132 of 188 tumor samples exhibited mutations relating to the Ras/MAPK signaling pathway. Accordingly, the role of Rin1 in non-small cell lung adenocarcinoma was addressed. Examination of a panel of non-small cell lung adenocarcinoma lines (including A549) revealed enhanced Rin1 expression relative to a nontransformed lung epithelial cell line (BEAS-2B). Depletion of Rin1 from A549 cells resulted in decreased proliferation. This decrease correlated with a reduction in EGF-activated ERK phosphorylation and the stabilization of cell surface EGFR. These defects were complemented by wild type Rin1 expression but not by mutant Rin1 lacking a functional Vps9 domain, suggesting that the GEF activity of Rin1 is necessary for proper EGFR signaling in A549 cells. In addition, overexpression of Rin1\u25a1, dominant negative Rab5, and dynamin resulted in similar defects in cell proliferation and EGFR signaling as Rin1 depletion. These data indicate that proper EGFR internalization and trafficking are critical for robust EGFR-mediated signaling and cell proliferation in A549 cells and offer evidence that Rin1 positively regulates cell proliferation in non-small cell lung adenocarcinoma.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "6511",
+                "entry_name": "LARGE1"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D020476",
+                "entry_name": "Exhibition"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D000077192",
+                "entry_name": "Adenocarcinoma of Lung"
+            },
+            {
+                "db": "EFO",
+                "id": "0009656",
+                "entry_name": "neoplastic sample"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D008168",
+                "entry_name": "Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0001089",
+                "entry_name": "BEAS-2B"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "FPLX",
+                "id": "GEF",
+                "entry_name": "GEF"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "FPLX",
+                "id": "DNM",
+                "entry_name": "DNM"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            }
+        ]
+    },
+    "5": {
+        "text": "Non-small Cell Lung Adenocarcinomas Cell Lines Overexpress Rin1\u2014To better understand Rin1 function in cell proliferation, a panel of lung adenocarcinoma cell lines was probed for Rin1 expression. Western blot analysis of cell lysates derived from seven non-small cell lung adenocarcinoma cell lines (A549, Hop62, H650, HCC4006, HCC827, EKVX, and HCC2935) revealed that all seven cell lines exhibit enhanced Rin1 levels compared with an immortalized but nontransformed lung epithelial cell line (BEAS-B2). Quantification of Rin1 expression levels (normalized to GAPDH expression levels) revealed a 2\u201312-fold increase in Rin1 protein levels in these cell lines. A549 cells overexpressed a modest level (\u223c3-fold) of Rin1 and are well characterized in terms of their EGFR expression levels and signaling. Therefore, the role of Rin1 in EGF signaling was further examined in the A549 cell line.",
+        "annotations": [
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000077192",
+                "entry_name": "Adenocarcinoma of Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0006439",
+                "entry_name": "HOP62"
+            },
+            {
+                "db": "EFO",
+                "id": "0003132",
+                "entry_name": "HCC4006"
+            },
+            {
+                "db": "EFO",
+                "id": "0003137",
+                "entry_name": "HCC827"
+            },
+            {
+                "db": "EFO",
+                "id": "0006786",
+                "entry_name": "EKVX"
+            },
+            {
+                "db": "EFO",
+                "id": "0005375",
+                "entry_name": "HCC2935"
+            },
+            {
+                "db": "MESH",
+                "id": "D020476",
+                "entry_name": "Exhibition"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D008168",
+                "entry_name": "Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "4141",
+                "entry_name": "GAPDH"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            }
+        ]
+    },
+    "6": {
+        "text": "Rin1 Depletion Negatively Impacts A549 Proliferation and EGFR Signaling\u2014To assess the functional significance of Rin1 overexpression in A549 cells, Rin1 was depleted using translation-blocking morpholinos that targeted the 5\u2032-UTR of RIN1. Morpholinos can generate very stable knockdown because of their resistance to nuclease degradation and were easily introduced into A549 cells (electroporation of 2 million cells with 5 nmol of morpholino resulted in a greater than 80% transfection efficiency; data not shown). Rin1 was previously shown to participate in EGFR signaling and trafficking in mouse fibroblasts. In this study, Rin1 depletion was used to analyze the impact of Rin1 on non-small cell lung adenocarcinoma proliferation. A549 cells transfected with either Rin1 5\u2032-UTR targeting morpholinos or control morpholinos were subjected to colony formation assays in the presence of complete media. Rin1 depletion resulted in a dramatic (over 4-fold) decrease in colony formation. To exclude off target effects, morpholinos that targeted other portions of RIN1 were also tested and had similar impacts on colony formation.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "MESH",
+                "id": "D020121",
+                "entry_name": "5' Untranslated Regions"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0031915",
+                "entry_name": "Stable"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0009056",
+                "entry_name": "catabolic process"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D018274",
+                "entry_name": "Electroporation"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "MESH",
+                "id": "D004526",
+                "entry_name": "Efficiency"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D020121",
+                "entry_name": "5' Untranslated Regions"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            }
+        ]
+    },
+    "7": {
+        "text": "To test whether the cell proliferation defect observed with Rin1 depletion was because of altered EGFR signaling, A549 cells were transfected with control or Rin1-specific morpholinos, serum-starved, and then stimulated with EGF. The levels of phosphorylated ERK1/2 (pERK) were used to assess EGF signaling. Depletion of Rin1 from A549 cells resulted in at least a 2-fold decrease in pERK levels, but not total ERK levels, indicating that the decrease in cell proliferation correlated with a decrease in EGF signaling. Additional cell proliferation assays were used to support this conclusion. An equal number of A549 cells were transfected with control or Rin1 morpholinos, allowed to recover for 24 h in complete media, and then switched to growth media containing only 100 ng/ml EGF for 24 and 72 h. 3-(4,5-Dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) uptake assays were then performed to assess the proliferative state of these cells. Rin1 depletion resulted in a decrease in cell proliferation as measured by the percent change in proliferation between 24 and 72 h. This decrease in cell proliferation was not because of any initial morpholino toxicity because 24 h after electroporation cells receiving control or Rin1 targeting morpholinos showed no difference in proliferation. These data confirmed a participatory role of Rin1 in EGF-mediated cell proliferation.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "3255",
+                "entry_name": "EIF2AK3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "3255",
+                "entry_name": "EIF2AK3"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53233",
+                "entry_name": "3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53233",
+                "entry_name": "3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "EFO",
+                "id": "0011061",
+                "entry_name": "toxicity"
+            },
+            {
+                "db": "MESH",
+                "id": "D018274",
+                "entry_name": "Electroporation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            }
+        ]
+    },
+    "8": {
+        "text": "To test the possibility that Rin1 depletion may have caused a delay in EGFR signaling as opposed to a general decrease in signaling, ERK1/2 activation was monitored for an extended period of time. Rin1 depletion resulted in a consistent, long term decrease in pERK levels up to 60 min without any apparent delay. In addition, re-expression of GFP-tagged full-length Rin1 (GFP-Rin1FL, resistant to the RIN1 5\u2032-UTR morpholino) but not GFP alone complemented this signaling defect, indicating that the EGF signaling defect was because of the loss of Rin1 function. To confirm Rin1 expression, Western analysis was performed.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3255",
+                "entry_name": "EIF2AK3"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D020121",
+                "entry_name": "5' Untranslated Regions"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            }
+        ]
+    },
+    "9": {
+        "text": "To further examine the impact of Rin1 on cell proliferation, A549 cells were transfected with either control or Rin1 morpholinos and then transfected with constructs encoding either GFP-Rin1 or the natural splice variant of Rin1 that lacks a functional Vps9 domain (Rin1\u25a1). After 24 h of recovery, cells were re-plated, and the ability of these transformants to proliferate was determined using the colony formation assay. Although GFP-Rin1 re-expression levels were low, this construct complemented the proliferation defect associated with the Rin1 depletion, although at a reduced level; this partial complementation may be attributed to less than complete transfection efficiency. However, Rin1\u25a1 expression did not complement Rin1 knockdown defects but instead caused further inhibition of cell proliferation. These results suggest that a functional Vps9 domain is critical for Rin1 activity in EGFR-mediated cell proliferation. To verify that the Rin1 Vps9 domain was important for A549 cell proliferation, Rin1\u25a1 or wild type Rin1 expression constructs were transfected into A549 cells and assayed for colony formation. Only Rin1\u25a1 expression but not wild type Rin1 expression resulted in decreased cell proliferation. These results indicated that Rin1 lacking a functional Vps9 domain acted as a dominant negative, suggesting that the trafficking roles of Rin1 were mediating EGFR proliferative signaling in A549 cells.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D004526",
+                "entry_name": "Efficiency"
+            },
+            {
+                "db": "MESH",
+                "id": "D003165",
+                "entry_name": "Complement System Proteins"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:50906",
+                "entry_name": "role"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            }
+        ]
+    },
+    "10": {
+        "text": "Internalization and Endosomal Trafficking Is Necessary for Proper Potentiation of EGFR Signaling in A549 Cells\u2014Because the Rin1 Vps9 domain activates Rab5 and has been shown to mediate ligand-induced EGFR internalization and endosomal trafficking, it was necessary to test whether loss of Rin1 impacted EGFR receptor levels (both total levels and also levels at the cell surface). The total levels of EGFR were examined using Western analysis. A549 cells were treated with control or Rin1 morpholinos, and then stimulated with 100 ng/ml EGF. Cell lysates were generated 0, 5, 10, and 30 min after stimulation. After 10 min of EGF treatment, EGFR levels dropped \u223c2-fold in cells transfected with the control morpholino, whereas cells depleted of Rin1 showed very little receptor loss following EGF stimulation.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            }
+        ]
+    },
+    "11": {
+        "text": "Surface levels of EGFR were measured by 125I-labeled EGF labeling. A549 cells were transfected with either control or Rin1 morpholinos, and cells were allowed to recover for 24 h. After a serum starvation of 4 h, the cells were incubated with 125I-labeled EGF for 3.5 h at 4 \u00b0C. Cells were then shifted to 37 \u00b0C for 30 min, and the amount of 125I-labeled EGF present at the cell surface was determined. Both control morpholino and Rin1 morpholino-transfected A549 cells exhibit comparable surface 125I-labeled EGF levels following the initial binding incubation, suggesting that the number of EGFRs at the cell surface following serum starvation was the same in cells with or without Rin1 depletion. However, after 30 min only 7% of the 125I-labeled EGF was still present at the cell surface of Rin1-expressing cells, whereas 73% of the 125I-labeled EGF was at the cell surface in Rin1-depleted cells. These results indicated that Rin1 depletion disrupted uptake of the surface-bound EGF. In addition, Rin1 depletion did not impact EGFR phosphorylation. These observations suggest that the defect in EGF-stimulated ERK1/2 activation with Rin1 depletion is because of a defect in EGFR endocytosis.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "EFO",
+                "id": "0000562",
+                "entry_name": "labelling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "MESH",
+                "id": "D044967",
+                "entry_name": "Serum"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D060172",
+                "entry_name": "Morpholinos"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D020476",
+                "entry_name": "Exhibition"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D044967",
+                "entry_name": "Serum"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006897",
+                "entry_name": "endocytosis"
+            }
+        ]
+    },
+    "12": {
+        "text": "To confirm that EGFR internalization was critical for potentiating EGFR signaling, a GFP-tagged dominant negative dynamin (dn-dynamin) K44A expression construct was transiently transfected into A549 cells, and the impact of its expression on EGF-stimulated signaling was determined. The expression of dn-dynamin resulted in an \u223c2-fold decrease in ERK1/2 activation in response to EGF stimulation; this observation supports the conclusion that internalization of EGFR is critical for proper signaling in A549 cells.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "DNM",
+                "entry_name": "DNM"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            }
+        ]
+    },
+    "13": {
+        "text": "To test the role of Rab5 in these processes, A549 cells were transfected with a GFP-tagged dominant negative Rab5 S34N (GFP-dnRab5) expression construct. Similar to the results with Rin1 depletion, expression of GFP-dnRab5 resulted in an \u223c2-fold decrease in pERK levels when compared with control cells expressing GFP alone. Finally, to confirm that dnRab5 and dn-dynamin expression impacted cell proliferation in a manner similar to Rin1 depletion, A549 cells transiently transfected with expression constructs encoding GFP-dnRab5, GFP-dn-dynamin, or GFP alone were tested for their ability to form colonies. Cells transfected with GFP-dnRab5 or GFP-dn-dynamin expression constructs showed decreased cell proliferation, supporting the conclusion that proper EGFR internalization and Rab5-mediated endosomal trafficking of EGFR are critical for potentiating proliferative signaling in A549 cells.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3255",
+                "entry_name": "EIF2AK3"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            }
+        ]
+    },
+    "14": {
+        "text": "RIN1 mRNA Up-regulation in Human Lung Tumor Samples\u2014To determine whether Rin1 was up-regulated in human lung tumor specimens, the mRNA levels of RIN1 in a data base of gene expression profiles for human non-small cell lung cancer were analyzed. Gene expression from 186 human lung tumors with associated clinical information were surveyed for statistically significant variations in RIN1 mRNA levels. Of three Rin1 probe sets on the Affymetrix U95 array, one probe set (1777_at) was significantly up-regulated in adenocarcinoma, bronchioalveolar carcinoma, metastatic adenocarcinoma, and carcinoid and squamous cell carcinoma compared with normal lung. The other two probe sets demonstrated statistically significant up-regulation in both squamous cell carcinoma and metastatic adenocarcinoma of the lung. This analysis indicates that the up-regulation of Rin1 apparent in the lung adenocarcinoma cell lines is also evident in multiple human lung tumor specimens.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D019991",
+                "entry_name": "Database"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0000352",
+                "entry_name": "clinical history"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "32757",
+                "entry_name": "SNORD95"
+            },
+            {
+                "db": "EFO",
+                "id": "0002698",
+                "entry_name": "array"
+            },
+            {
+                "db": "MESH",
+                "id": "D000230",
+                "entry_name": "Adenocarcinoma"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:0050870",
+                "entry_name": "pulmonary adenocarcinoma in situ"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "MESH",
+                "id": "D000230",
+                "entry_name": "Adenocarcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D002276",
+                "entry_name": "Carcinoid Tumor"
+            },
+            {
+                "db": "MESH",
+                "id": "D002294",
+                "entry_name": "Carcinoma, Squamous Cell"
+            },
+            {
+                "db": "MESH",
+                "id": "D008168",
+                "entry_name": "Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "MESH",
+                "id": "D002294",
+                "entry_name": "Carcinoma, Squamous Cell"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "MESH",
+                "id": "D000077192",
+                "entry_name": "Adenocarcinoma of Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000077192",
+                "entry_name": "Adenocarcinoma of Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            }
+        ]
+    },
+    "15": {
+        "text": "Endocytosis plays an important role in regulating the signaling capacity of EGFR. Receptor internalization has been shown to play an important role in the attenuation of EGFR signaling. Interfering with receptor internalization can potentiate cell signaling cascades and can result in increased cell proliferation. However, EGFR internalization can also be an important factor in potentiating signaling. Internalized EGFRs have been shown to maintain their activated state and are capable of recruiting downstream signaling components to early endosomal structures. These and other studies indicate that EGFR signaling can occur at the cell surface as well as from endosomal structures. Receptor trafficking events can therefore have profoundly different effects on cell signaling and cell proliferation given the specific cellular context.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0006897",
+                "entry_name": "endocytosis"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031623",
+                "entry_name": "receptor internalization"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031623",
+                "entry_name": "receptor internalization"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            }
+        ]
+    },
+    "16": {
+        "text": "Analysis of Rin1 function in non-small cell lung adenocarcinoma cell lines supports a role for receptor trafficking in propagating EGFR signaling in this cell type. Because of the critical role Rab5 plays in trafficking EGFR to early endosomal structures, up-regulation of the Rab5 activator Rin1 was one of the first clues suggesting that early endosomal trafficking could positively impact EGFR-mediated cell proliferation in non-small cell lung adenocarcinoma cell lines. Consistent with this model, Rin1 depletion from one of these cell lines, A549, resulted in decreased EGF-mediated cell proliferation. In addition to A549 cells, Rin1 depletion in Hop62 cells (another non-small cell lung adenocarcinoma cell line that overexpressed Rin1) also resulted in decreased EGF-dependent signaling and cell proliferation, although the decrease was not as robust as A549 cells. A positive impact of Rin1 on EGFR signaling was not limited to non-small cell adenocarcinoma cell lines. Rin1 depletion from a human epithelial carcinoma cell line (A431) also displayed a dramatic decrease in cell proliferation and EGFR signaling upon Rin1 depletion. In addition, RIN1 mRNA levels were also elevated in human lung tumors samples. These observations suggest that Rin1 can promote EGF signaling in a manner important for proliferation of both non-small cell lung adenocarcinoma and epithelial carcinoma.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:195251",
+                "entry_name": "activator"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "EFO",
+                "id": "0006439",
+                "entry_name": "HOP62"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000077192",
+                "entry_name": "Adenocarcinoma of Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D002277",
+                "entry_name": "Carcinoma"
+            },
+            {
+                "db": "EFO",
+                "id": "0006268",
+                "entry_name": "A431"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:3910",
+                "entry_name": "lung adenocarcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D002277",
+                "entry_name": "Carcinoma"
+            }
+        ]
+    },
+    "17": {
+        "text": "This positive role of Rin1 function in cell signaling in these cell types was surprising, because previous work demonstrated that Rin1 played an important role in signal attenuation. In studies using mouse fibroblasts, overexpression of Rin1 resulted in the attenuation of EGFR signaling, but overexpression of Rin1\u25a1 (lacking the ability to activate Rab5) resulted in increased signaling. The differences between these previous studies and the current observations are likely the result of the cellular location from which the majority of EGFR signaling occurs. In fibroblast-derived cell lines, the majority of signaling likely occurs from the cell surface, whereas in non-small cell adenocarcinoma-derived cell lines tested, EGFR internalization is necessary for robust signaling. This model is supported by the following observations: 1) even though Rin1 depletion from A549 cells resulted in the stabilization of cell surface EGFR, signaling was depressed; 2) signaling was negatively impacted in a similar manner when dominant negative dynamin or Rab5 were expressed in these cells. Together these data support a model in which the proper internalization and subsequent endocytic trafficking is critical for the potentiation of EGFR-mediated proliferative signaling in A549 cells.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D014937",
+                "entry_name": "Work"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "DNM",
+                "entry_name": "DNM"
+            },
+            {
+                "db": "HGNC",
+                "id": "9783",
+                "entry_name": "RAB5A"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            }
+        ]
+    },
+    "18": {
+        "text": "The diverse impact Rin1 function has on cell signaling systems is further exemplified by the examination of its role in breast cancer cell lines. Rin1 expression is silenced by the transcription repressor Snail in several breast cancer cell lines. When Rin1 expression is up-regulated in these cell lines, transforming growth factor \u03b2 signaling is suppressed; cell growth in soft agar is inhibited, and breast cancer tumorigenesis is attenuated. These analyses and the data presented here strongly support the model that Rin1 can participate in the potentiation or attenuation of cell signaling processes through its modulation of endocytic trafficking events in a context-specific manner. Defining the impacts of Rin1 on receptor signaling and trafficking systems in different cell types has offered unique insights into how regulatory components of the endocytic pathway impact normal cellular functions and how these processes can be altered to enhance cell proliferation and tumorigenesis.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "EFO",
+                "id": "0002885",
+                "entry_name": "breast cancer cell line"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "HGNC",
+                "id": "11128",
+                "entry_name": "SNAI1"
+            },
+            {
+                "db": "EFO",
+                "id": "0002885",
+                "entry_name": "breast cancer cell line"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "FPLX",
+                "id": "TGFB",
+                "entry_name": "TGFB"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:2509",
+                "entry_name": "agar"
+            },
+            {
+                "db": "MESH",
+                "id": "D001943",
+                "entry_name": "Breast Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D063646",
+                "entry_name": "Carcinogenesis"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "18749",
+                "entry_name": "RIN1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D063646",
+                "entry_name": "Carcinogenesis"
+            }
+        ]
+    }
+}

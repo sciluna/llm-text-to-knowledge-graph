@@ -1,0 +1,2330 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": "1",
+            "text": "Inflammatory cytokines or oxidized low density lipoproteins (Ox-LDL) present in human atheroma modulate extracellular matrix degradation by inducing membrane type 1-matrix metalloproteinase (MT1-MMP) expression. Cultured human endothelial cells (EC) constitutively expressed MT1-MMP mRNA and protein with enzymatic activity. Tumor necrosis factor-a (TNF-a), interleukin-la, or interleukin-1\u00df caused a time-dependent increase in the steady-state MT1-MMP mRNA levels within 4 h of exposure, peaking about 4-fold by 6 h, and remaining elevated for 12 h. Increased MT1-MMP mRNA correlated with a 2.5-fold increase in MT1-MMP protein in EC membranes. Ox-LDL also increased MT1-MMP mRNA levels that varied with the duration of exposure and degree of LDL oxidation. The increase in MT1-MMP mRNA occurred within 6 h of exposure to Ox-LDL and peaked over 3-fold by 6 h. Ox-LDL, but not native LDL, increased MT1-MMP protein by 2-fold in EC membranes. A combination of TNF-a and Ox-LDL was additive in increasing MT1-MMP expression. Nuclear run-on assays showed that TNF-a or Ox-LDL augmented steady-state mRNA levels by increased transcription of the MT1-MMP gene. These findings indicate that activation of EC by inflammatory cytokines and/or Ox-LDL increase MT1-MMP expression. Since MT1-MMP promotes matrix degradation by activating pro-MMP-2, these results suggest a novel mechanism whereby cytokines or Ox-LDL may influence extracellular matrix remodeling.",
+            "Results": [
+                {
+                    "bel_statement": "a(MESH:\"Inflammatory cytokines\") increases r(HGNC:MMP14)",
+                    "evidence": "Inflammatory cytokines or oxidized low density lipoproteins (Ox-LDL) present in human atheroma modulate extracellular matrix degradation by inducing membrane type 1-matrix metalloproteinase (MT1-MMP) expression."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized low density lipoprotein\") increases r(HGNC:MMP14)",
+                    "evidence": "Inflammatory cytokines or oxidized low density lipoproteins (Ox-LDL) present in human atheroma modulate extracellular matrix degradation by inducing membrane type 1-matrix metalloproteinase (MT1-MMP) expression."
+                },
+                {
+                    "bel_statement": "p(HGNC:TNF) increases r(HGNC:MMP14)",
+                    "evidence": "Tumor necrosis factor-a (TNF-a), interleukin-la, or interleukin-1\u00df caused a time-dependent increase in the steady-state MT1-MMP mRNA levels within 4 h of exposure, peaking about 4-fold by 6 h, and remaining elevated for 12 h."
+                },
+                {
+                    "bel_statement": "p(HGNC:IL1A) increases r(HGNC:MMP14)",
+                    "evidence": "Tumor necrosis factor-a (TNF-a), interleukin-la, or interleukin-1\u00df caused a time-dependent increase in the steady-state MT1-MMP mRNA levels within 4 h of exposure, peaking about 4-fold by 6 h, and remaining elevated for 12 h."
+                },
+                {
+                    "bel_statement": "p(HGNC:IL1B) increases r(HGNC:MMP14)",
+                    "evidence": "Tumor necrosis factor-a (TNF-a), interleukin-la, or interleukin-1\u00df caused a time-dependent increase in the steady-state MT1-MMP mRNA levels within 4 h of exposure, peaking about 4-fold by 6 h, and remaining elevated for 12 h."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized low density lipoprotein\") increases p(HGNC:MMP14)",
+                    "evidence": "Ox-LDL, but not native LDL, increased MT1-MMP protein by 2-fold in EC membranes."
+                },
+                {
+                    "bel_statement": "p(HGNC:TNF) increases r(HGNC:MMP14)",
+                    "evidence": "Nuclear run-on assays showed that TNF-a or Ox-LDL augmented steady-state mRNA levels by increased transcription of the MT1-MMP gene."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized low density lipoprotein\") increases r(HGNC:MMP14)",
+                    "evidence": "Nuclear run-on assays showed that TNF-a or Ox-LDL augmented steady-state mRNA levels by increased transcription of the MT1-MMP gene."
+                },
+                {
+                    "bel_statement": "p(HGNC:MMP14) increases act(p(HGNC:MMP2))",
+                    "evidence": "Since MT1-MMP promotes matrix degradation by activating pro-MMP-2, these results suggest a novel mechanism whereby cytokines or Ox-LDL may influence extracellular matrix remodeling."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0031012",
+                    "entry_name": "extracellular matrix"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D045726",
+                    "entry_name": "Metalloproteases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009369",
+                    "entry_name": "Neoplasms"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0070265",
+                    "entry_name": null
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016020",
+                    "entry_name": "membrane"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:39026",
+                    "entry_name": "low-density lipoprotein"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:39026",
+                    "entry_name": "low-density lipoprotein"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016020",
+                    "entry_name": "membrane"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006351",
+                    "entry_name": "DNA-templated transcription"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0031012",
+                    "entry_name": "extracellular matrix"
+                }
+            ]
+        },
+        {
+            "Index": "2",
+            "text": "The early events in the initiation of atherosclerosis include the migration of blood-borne cells into the subendothelial space and the migration of medial smooth muscle cells into intimal layer of arteries. Localized degradation of extracellular matrix components by matrix metalloproteinases (MMPs) of endothelial cells (EC) may facilitate the migration of cells observed in early as well as late stages of atherosclerosis. In addition, many episodes of coronary thrombosis, particularly in women and diabetics, occur when endothelial cells slough from the surface of plaques, causing a superficial erosion. Severing the tethers of endothelial cells to the underlying extracellular matrix may favor endothelial desquamation and acute coronary syndromes. Indeed, accumulating evidence indicates that matrix degradation mediated by locally produced MMPs may contribute to the genesis and progression of atherosclerotic lesions and to the development of intimal lesions in experimental arterial injury.",
+            "Results": [
+                {
+                    "bel_statement": "a(FPLX:MMP) increases bp(GO:\"cell migration\")",
+                    "evidence": "Localized degradation of extracellular matrix components by matrix metalloproteinases (MMPs) of endothelial cells (EC) may facilitate the migration of cells observed in early as well as late stages of atherosclerosis."
+                },
+                {
+                    "bel_statement": "a(FPLX:MMP) increases path(MESH:\"Atherosclerosis\")",
+                    "evidence": "Accumulating evidence indicates that matrix degradation mediated by locally produced MMPs may contribute to the genesis and progression of atherosclerotic lesions."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D050197",
+                    "entry_name": "Atherosclerosis"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001660",
+                    "entry_name": "medial"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032389",
+                    "entry_name": "Myocytes, Smooth Muscle"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001158",
+                    "entry_name": "Arteries"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0012838",
+                    "entry_name": "Localized"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0031012",
+                    "entry_name": "extracellular matrix"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D045726",
+                    "entry_name": "Metalloproteases"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MMP",
+                    "entry_name": "MMP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D050197",
+                    "entry_name": "Atherosclerosis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003328",
+                    "entry_name": "Coronary Thrombosis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0031012",
+                    "entry_name": "extracellular matrix"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0040189",
+                    "entry_name": "Scaling skin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D054058",
+                    "entry_name": "Acute Coronary Syndrome"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MMP",
+                    "entry_name": "MMP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3804",
+                    "entry_name": "FOXD3"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0031678",
+                    "entry_name": "Atherosclerotic lesion"
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "text": "Matrix metalloproteinases require activation from a latent zymogen form to attain their enzymatic activity. Cultured EC constitutively secrete precursor MMP-2, which when activated can participate in the degradation of interstitial collagen, an important constituent of the vascular extracellular matrix. Collagenolysis by endothelial cells may contribute to infiltration of inflammatory cells and angiogenesis during evolution of the atherosclerotic plaque. Importantly, MMP-2 (also known as collagenase IV) can degrade type IV collagen, an important component of the basement membrane to which endothelial cells attach. The mechanism underlying the activation of MMP-2 remains uncertain. The recently discovered MT1-MMP seems an important candidate because it can activate latent MMP-2 in vitro. In addition, as a membrane-bound rather than -soluble molecule, MT1-MMP might participate in activation of precursor MMP-2 in a localized manner. EC covering atherosclerotic lesions are exposed to both inflammatory cytokines and oxidized low density lipoproteins. To understand the nature and regulation of the factor(s) that promote activation of MMP-2 from its precursor, this study investigated whether cytokines and Ox-LDL regulate expression of MT1-MMP by cultured vascular EC and whether they endow EC with the capacity to activate pro-MMP-2.",
+            "Results": [
+                {
+                    "bel_statement": "sec(p(HGNC:MMP2))",
+                    "evidence": "Cultured EC constitutively secrete precursor MMP-2, which when activated can participate in the degradation of interstitial collagen, an important constituent of the vascular extracellular matrix."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP2)) increases deg(a(ChEBI:collagen))",
+                    "evidence": "Cultured EC constitutively secrete precursor MMP-2, which when activated can participate in the degradation of interstitial collagen, an important constituent of the vascular extracellular matrix."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP2)) increases bp(GO:angiogenesis)",
+                    "evidence": "Collagenolysis by endothelial cells may contribute to infiltration of inflammatory cells and angiogenesis during evolution of the atherosclerotic plaque."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP2)) increases deg(a(ChEBI:\"type IV collagen\"))",
+                    "evidence": "Importantly, MMP-2 (also known as collagenase IV) can degrade type IV collagen, an important component of the basement membrane to which endothelial cells attach."
+                },
+                {
+                    "bel_statement": "p(HGNC:MMP14) increases act(p(HGNC:MMP2))",
+                    "evidence": "The recently discovered MT1-MMP seems an important candidate because it can activate latent MMP-2 in vitro."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Oxidized low density lipoprotein\") increases p(HGNC:MMP14)",
+                    "evidence": "EC covering atherosclerotic lesions are exposed to both inflammatory cytokines and oxidized low density lipoproteins."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Cytokines\") increases p(HGNC:MMP14)",
+                    "evidence": "EC covering atherosclerotic lesions are exposed to both inflammatory cytokines and oxidized low density lipoproteins."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D045726",
+                    "entry_name": "Metalloproteases"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004792",
+                    "entry_name": "Enzyme Precursors"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001651",
+                    "entry_name": "precursor"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Collagen",
+                    "entry_name": "Collagen"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0031012",
+                    "entry_name": "extracellular matrix"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009361",
+                    "entry_name": "Neoplasm Invasiveness"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0001525",
+                    "entry_name": "angiogenesis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D058226",
+                    "entry_name": "Plaque, Atherosclerotic"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017364",
+                    "entry_name": "Collagenases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6185",
+                    "entry_name": "IV"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6185",
+                    "entry_name": "IV"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Collagen",
+                    "entry_name": "Collagen"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005604",
+                    "entry_name": "basement membrane"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001651",
+                    "entry_name": "precursor"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0012838",
+                    "entry_name": "Localized"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0031678",
+                    "entry_name": "Atherosclerotic lesion"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019368",
+                    "entry_name": "Nature"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001651",
+                    "entry_name": "precursor"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "text": "We investigated whether EC express MT1-MMP mRNA or a related sequence, we performed reverse transcriptase-polymerase chain reaction on total RNA prepared from cultured but unstimulated EC using a primer set designed on the basis of the human MT1-MMP sequence published by Sato et al. A polymerase chain reaction product of the expected size (171 base pairs) was identified and cloned into the pCRII vector. The DNA sequence of the amplified fragment revealed a complete identity to the human MT1-MMP cDNA sequence and showed homologies to other published MT-MMP cDNA sequences. Northern blotting assays using this cloned cDNA fragment as a probe showed that EC contain a single mRNA species of 4.5 kb, a size similar to that of MT1-MMP mRNA observed in normal lung tissue and tumor cells.",
+            "Results": [
+                {
+                    "bel_statement": "r(HGNC:MMP14) transcribedTo r(HGNC:MMP14)",
+                    "evidence": "We investigated whether EC express MT1-MMP mRNA or a related sequence, we performed reverse transcriptase-polymerase chain reaction on total RNA prepared from cultured but unstimulated EC using a primer set designed on the basis of the human MT1-MMP sequence published by Sato et al."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020133",
+                    "entry_name": "Reverse Transcriptase Polymerase Chain Reaction"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004964",
+                    "entry_name": "total RNA"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0010192",
+                    "entry_name": "primer"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001796",
+                    "entry_name": "published"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28984",
+                    "entry_name": "aluminium atom"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016133",
+                    "entry_name": "Polymerase Chain Reaction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020029",
+                    "entry_name": "Base Pairing"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16991",
+                    "entry_name": "deoxyribonucleic acid"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0008481",
+                    "entry_name": "cDNA"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001796",
+                    "entry_name": "published"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0008481",
+                    "entry_name": "cDNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015152",
+                    "entry_name": "Blotting, Northern"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0008481",
+                    "entry_name": "cDNA"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008168",
+                    "entry_name": "Lung"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009369",
+                    "entry_name": "Neoplasms"
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "text": "Inflammatory Cytokines or Ox-LDL Increase Expression of MT1-MMP mRNA in EC-Northern analyses and RNase protection assays revealed that exposure of cultured EC to TNF-a, interleukin-1, or Ox-LDL results in the accumulation of MT1-MMP mRNA. Both cytokines and Ox-LDL caused a time-dependent progressive increase in the steady state levels of MT1-MMP mRNA in stimulated EC. MT1-MMP mRNA levels increased within 4 h of exposure to TNF-a, reached a peak level of about 4-fold above control by 6 h, and remained elevated for at least 12 h. The effect of Ox-LDL on the levels of MT1-MMP mRNA depended on the degree of LDL oxidation as measured by presence of the thiobarbituric acid-reactive substances (TBARS). Ox-LDL with TBARS ranging from 2.6 to 13.4 nmol/mg of LDL protein caused increase in steady-state MT1-MMP mRNA levels as compared with native LDL (TBARS = 0.2 nmol/mg). Ox-LDL with higher TBARS up to 24.2 nmol/mg LDL protein also increased the levels of MT1-MMP mRNA in EC, although to a lesser extent than Ox-LDL with 7.3 TBARS. The time course for the induction of MT1-MMP mRNA in response to Ox-LDL appeared similar to TNF-a. MT1-MMP mRNA levels increased and peaked at 6 h of exposure and remained elevated for at least 24 h. Treatment of EC for 8 h with a combination of TNF-a (10 ng/ml) and Ox-LDL (100 \u00b5g/ml) increased the levels of MT1-MMP mRNA in an additive manner.",
+            "Results": [
+                {
+                    "bel_statement": "a(MESH:\"Tumor Necrosis Factor-alpha\") increases r(HGNC:MMP14)",
+                    "evidence": "Inflammatory Cytokines or Ox-LDL Increase Expression of MT1-MMP mRNA in EC-Northern analyses and RNase protection assays revealed that exposure of cultured EC to TNF-a, interleukin-1, or Ox-LDL results in the accumulation of MT1-MMP mRNA."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Interleukin-1\") increases r(HGNC:MMP14)",
+                    "evidence": "Inflammatory Cytokines or Ox-LDL Increase Expression of MT1-MMP mRNA in EC-Northern analyses and RNase protection assays revealed that exposure of cultured EC to TNF-a, interleukin-1, or Ox-LDL results in the accumulation of MT1-MMP mRNA."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized low-density lipoprotein\") increases r(HGNC:MMP14)",
+                    "evidence": "Inflammatory Cytokines or Ox-LDL Increase Expression of MT1-MMP mRNA in EC-Northern analyses and RNase protection assays revealed that exposure of cultured EC to TNF-a, interleukin-1, or Ox-LDL results in the accumulation of MT1-MMP mRNA."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized low-density lipoprotein\") increases r(HGNC:MMP14)",
+                    "evidence": "The effect of Ox-LDL on the levels of MT1-MMP mRNA depended on the degree of LDL oxidation as measured by presence of the thiobarbituric acid-reactive substances (TBARS)."
+                },
+                {
+                    "bel_statement": "composite(a(MESH:\"Tumor Necrosis Factor-alpha\"), a(CHEBI:\"oxidized low-density lipoprotein\")) increases r(HGNC:MMP14)",
+                    "evidence": "Treatment of EC for 8 h with a combination of TNF-a (10 ng/ml) and Ox-LDL (100 \u00b5g/ml) increased the levels of MT1-MMP mRNA in an additive manner."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012260",
+                    "entry_name": "Ribonucleases"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0003676",
+                    "entry_name": "Progressive"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:39026",
+                    "entry_name": "low-density lipoprotein"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017392",
+                    "entry_name": "Thiobarbituric Acid Reactive Substances"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017392",
+                    "entry_name": "Thiobarbituric Acid Reactive Substances"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:39026",
+                    "entry_name": "low-density lipoprotein"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:39026",
+                    "entry_name": "low-density lipoprotein"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017392",
+                    "entry_name": "Thiobarbituric Acid Reactive Substances"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017392",
+                    "entry_name": "Thiobarbituric Acid Reactive Substances"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:39026",
+                    "entry_name": "low-density lipoprotein"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017392",
+                    "entry_name": "Thiobarbituric Acid Reactive Substances"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "text": "Effects of TNF-a or Ox-LDL on MT1-MMP Gene Transcription-Increased levels of MT1-MMP mRNA in TNF-a or Ox-LDL-stimulated EC could result from enhanced transcription and RNA processing or reduced degradation. To examine whether an increase in steady state levels of MT1-MMP mRNA in response to TNF-a or Ox-LDL was associated with the increased rate of MT1-MMP gene transcription, we performed run-on assays on isolated nuclei. The basal level of MT1-MMP gene transcription in EC increased about 2-3-fold when cells were stimulated with TNF-a. Ox-LDL also caused about similar increase in the rate of MT1-MMP gene transcription. The transcription of \u00df-tubulin, a constitutively expressed cytoskeletal protein gene, remained unchanged in response to either TNF-a or Ox-LDL.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"TNF-alpha\") increases r(HGNC:MMP14)",
+                    "evidence": "The basal level of MT1-MMP gene transcription in EC increased about 2-3-fold when cells were stimulated with TNF-a."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized LDL\") increases r(HGNC:MMP14)",
+                    "evidence": "Ox-LDL also caused about similar increase in the rate of MT1-MMP gene transcription."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006351",
+                    "entry_name": "DNA-templated transcription"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006396",
+                    "entry_name": "RNA processing"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006351",
+                    "entry_name": "DNA-templated transcription"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33252",
+                    "entry_name": "atomic nucleus"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006351",
+                    "entry_name": "DNA-templated transcription"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006351",
+                    "entry_name": "DNA-templated transcription"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006351",
+                    "entry_name": "DNA-templated transcription"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "2974",
+                    "entry_name": "DNM2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                }
+            ]
+        },
+        {
+            "Index": "7",
+            "text": "Stimulated EC Show Increased Immunoreactive MT1-MMP-To determine whether the mRNA levels corresponded to the amount of translated MT1-MMP protein and to assess whether this protein was membrane-bound, we performed immunoblot analysis on the protein lysates of the plasma membrane extracts of EC stimulated with TNF-a and/or Ox-LDL. TNF-a-mediated increase in MT1-MMP mRNA correlated with a 2.5-fold increase in MT1-MMP protein levels in EC membranes. Treatment of cells with Ox-LDL also increased (2.0-fold) the levels of MT1-MMP proteins in EC membranes. The levels of MT1-MMP immunoreactive protein were increased about 3.1-fold in EC treated with a combination of TNF-a and Ox-LDL.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"TNF-alpha\") increases p(HGNC:MMP14)",
+                    "evidence": "TNF-a-mediated increase in MT1-MMP mRNA correlated with a 2.5-fold increase in MT1-MMP protein levels in EC membranes."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized LDL\") increases p(HGNC:MMP14)",
+                    "evidence": "Treatment of cells with Ox-LDL also increased (2.0-fold) the levels of MT1-MMP proteins in EC membranes."
+                },
+                {
+                    "bel_statement": "composite(a(CHEBI:\"TNF-alpha\"), a(CHEBI:\"oxidized LDL\")) increases p(HGNC:MMP14)",
+                    "evidence": "The levels of MT1-MMP immunoreactive protein were increased about 3.1-fold in EC treated with a combination of TNF-a and Ox-LDL."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005886",
+                    "entry_name": "plasma membrane"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016020",
+                    "entry_name": "membrane"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016020",
+                    "entry_name": "membrane"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                }
+            ]
+        },
+        {
+            "Index": "8",
+            "text": "To establish that HSVEC expressed membrane-anchored immunoreactive MT1-MMP protein, we performed flow cytometric analysis on the HSVEC grown in the absence and presence of TNF-a and/or Ox-LDL. HSVEC expressed constitutively a membrane-associated protein that reacted with human MT1-MMP-specific antibody. In untreated cells, 60% of the population showed binding of the primary MT1-MMP antibody. The background level, as determined when no primary antibody was included, had 2% of cells positive. Stimulation of EC with TNF-a and/or Ox-LDL for 24 h increased the number of MT1-MMP-bearing cells to about 1.8-fold (Ox-LDL), 1.7-fold (TNF-a), or 2.5-fold (TNF-a and Ox-LDL together) as compared with unstimulated cells.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"oxidized low-density lipoprotein\") increases p(HGNC:MMP14)",
+                    "evidence": "Stimulation of EC with TNF-a and/or Ox-LDL for 24 h increased the number of MT1-MMP-bearing cells to about 1.8-fold (Ox-LDL), 1.7-fold (TNF-a), or 2.5-fold (TNF-a and Ox-LDL together) as compared with unstimulated cells."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"tumor necrosis factor-alpha\") increases p(HGNC:MMP14)",
+                    "evidence": "Stimulation of EC with TNF-a and/or Ox-LDL for 24 h increased the number of MT1-MMP-bearing cells to about 1.8-fold (Ox-LDL), 1.7-fold (TNF-a), or 2.5-fold (TNF-a and Ox-LDL together) as compared with unstimulated cells."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008565",
+                    "entry_name": "Membrane Proteins"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D011153",
+                    "entry_name": "Population"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "text": "Stimulated EC Show Increased MMP-2 Activation-To examine whether increased levels of MT1-MMP mRNA and immunoreactive protein correspond to augmented enzymatic activity, we analyzed plasma membrane extracts of EC stimulated with TNF-a, interleukin-18, or Ox-LDL by SDS-polyacrylamide gel electrophoresis gelatin zymography. Incubation of medium conditioned by human smooth muscle cells that contained pro-MMP-2, with plasma membrane extracts prepared from EC treated with TNF-a, interleukin-18, or Ox-LDL, increased the proteolytic conversion of 72-kDa pro-MMP-2 to new gelatinolytic bands of 70- and 68-kDa corresponding to the processed active MMP-2. Purified mouse monoclonal antibody to human MT1-MMP immunoprecipitated a 64-kDa protein of the size of MT1-MMP. Proteolytic processing of pro-MMP-2 was reduced in membrane extracts incubated with anti-MT1-MMP antibody.",
+            "Results": [
+                {
+                    "bel_statement": "a(EFO:TNF-a) increases act(p(HGNC:MMP2))",
+                    "evidence": "Incubation of medium conditioned by human smooth muscle cells that contained pro-MMP-2, with plasma membrane extracts prepared from EC treated with TNF-a, interleukin-18, or Ox-LDL, increased the proteolytic conversion of 72-kDa pro-MMP-2 to new gelatinolytic bands of 70- and 68-kDa corresponding to the processed active MMP-2."
+                },
+                {
+                    "bel_statement": "a(EFO:interleukin-18) increases act(p(HGNC:MMP2))",
+                    "evidence": "Incubation of medium conditioned by human smooth muscle cells that contained pro-MMP-2, with plasma membrane extracts prepared from EC treated with TNF-a, interleukin-18, or Ox-LDL, increased the proteolytic conversion of 72-kDa pro-MMP-2 to new gelatinolytic bands of 70- and 68-kDa corresponding to the processed active MMP-2."
+                },
+                {
+                    "bel_statement": "a(EFO:Ox-LDL) increases act(p(HGNC:MMP2))",
+                    "evidence": "Incubation of medium conditioned by human smooth muscle cells that contained pro-MMP-2, with plasma membrane extracts prepared from EC treated with TNF-a, interleukin-18, or Ox-LDL, increased the proteolytic conversion of 72-kDa pro-MMP-2 to new gelatinolytic bands of 70- and 68-kDa corresponding to the processed active MMP-2."
+                },
+                {
+                    "bel_statement": "p(HGNC:MMP14) increases act(p(HGNC:MMP2))",
+                    "evidence": "Proteolytic processing of pro-MMP-2 was reduced in membrane extracts incubated with anti-MT1-MMP antibody."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005886",
+                    "entry_name": "plasma membrane"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "5986",
+                    "entry_name": "IL18"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004586",
+                    "entry_name": "Electrophoresis"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:5291",
+                    "entry_name": "gelatin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032389",
+                    "entry_name": "Myocytes, Smooth Muscle"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005886",
+                    "entry_name": "plasma membrane"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "5986",
+                    "entry_name": "IL18"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D051379",
+                    "entry_name": "Mice"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000911",
+                    "entry_name": "Antibodies, Monoclonal"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "text": "This study showed that cultured human EC constitutively express MT1-MMP, a membrane-anchored MMP that activates the zymogen form of MMP-2. We found that exposure of EC to Ox-LDL appreciably increases the steady-state levels of MT1-MMP mRNA. Cytokines released by inflammatory cells or induced in vascular cells by Ox-LDL, mediators relevant to vascular pathology, progressively increased MT1-MMP transcription by cultured EC. The augmented MT1-MMP mRNA correlated with increased plasma membrane-associated immunoreactive protein and catalytic function of precursor MMP-2, an activity ascribed to this enzyme. Since endothelial cells also secrete latent MMP-2, the pathways described here in vitro probably operate in vivo.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MMP14) increases r(HGNC:MMP2)",
+                    "evidence": "This study showed that cultured human EC constitutively express MT1-MMP, a membrane-anchored MMP that activates the zymogen form of MMP-2."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Oxidized LDL\") increases r(HGNC:MMP14)",
+                    "evidence": "We found that exposure of EC to Ox-LDL appreciably increases the steady-state levels of MT1-MMP mRNA."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Cytokines\") increases r(HGNC:MMP14)",
+                    "evidence": "Cytokines released by inflammatory cells or induced in vascular cells by Ox-LDL, mediators relevant to vascular pathology, progressively increased MT1-MMP transcription by cultured EC."
+                },
+                {
+                    "bel_statement": "r(HGNC:MMP14) positiveCorrelation p(HGNC:MMP2)",
+                    "evidence": "The augmented MT1-MMP mRNA correlated with increased plasma membrane-associated immunoreactive protein and catalytic function of precursor MMP-2, an activity ascribed to this enzyme."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MMP",
+                    "entry_name": "MMP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004792",
+                    "entry_name": "Enzyme Precursors"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010336",
+                    "entry_name": "Pathology"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006351",
+                    "entry_name": "DNA-templated transcription"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33699",
+                    "entry_name": "messenger RNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010949",
+                    "entry_name": "Plasma"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001651",
+                    "entry_name": "precursor"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004798",
+                    "entry_name": "Enzymes"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "text": "Recent work has shown that the MT-MMP family includes at least four members. Our reverse transcriptase-polymerase chain reaction fragment corresponds to MT1-MMP, and the affinity-purified anti-MT1-MMP antibody specifically blocked a substantial portion of the membrane-associated proteolytic activity that catalyzed the conversion of 72-kDa pro-MMP-2 to MMP-2. Since MT1-MMP belongs to a family of enzymes containing at least four members, the residual activity that partially converts pro-MMP-2 to MMP-2 after immunodepletion of MT1-MMP in our assays may derive from other members of the family or from related enzymes present in endothelial membrane extracts.",
+            "Results": [
+                {
+                    "bel_statement": "p(FPLX:MT1-MMP) increases p(HGNC:MMP2)",
+                    "evidence": "Our reverse transcriptase-polymerase chain reaction fragment corresponds to MT1-MMP, and the affinity-purified anti-MT1-MMP antibody specifically blocked a substantial portion of the membrane-associated proteolytic activity that catalyzed the conversion of 72-kDa pro-MMP-2 to MMP-2."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D014937",
+                    "entry_name": "Work"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020133",
+                    "entry_name": "Reverse Transcriptase Polymerase Chain Reaction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004798",
+                    "entry_name": "Enzymes"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004798",
+                    "entry_name": "Enzymes"
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "text": "Activated MT1-MMP acts on several substrates of potential relevance to vascular pathobiology. The catalytic domain of MT1-MMP activates pro-MMP-2 and pro-MMP-2\u00b7tissue inhibitor of metalloproteinase-2 complex. The trimolecular complex of MT1-MMP\u00b7tissue inhibitor of metalloproteinase-2\u00b7pro-MMP-2 functions as an activated form of MT1-MMP and thus provides a mechanism for spatially regulated matrix degradation. MT1-MMP can also process pro-MMP-13 (procollagenase-3) to the fully active enzyme. Precursor MMP-2 potentiates activation of pro-MMP-13 by MT1-MMP, and active MMP-13 can in turn activate MMP-2 and MMP-g zymogens, thereby indicating an activation cascade of three members of the MMP family. Thus, increased expression of MT1-MMP can favor digestion of native interstitial collagens by MMP-13, continued degradation of partially degraded collagens due to gelatinase activity of MMP-2, and proteolysis of basement membrane collagen (type IV) and elastin by active MMP-2.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:MMP14)) directlyIncreases act(p(HGNC:MMP2))",
+                    "evidence": "The catalytic domain of MT1-MMP activates pro-MMP-2 and pro-MMP-2\u00b7tissue inhibitor of metalloproteinase-2 complex."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:MMP14), p(HGNC:TIMP2), p(HGNC:MMP2)) hasActivity act(p(HGNC:MMP14))",
+                    "evidence": "The trimolecular complex of MT1-MMP\u00b7tissue inhibitor of metalloproteinase-2\u00b7pro-MMP-2 functions as an activated form of MT1-MMP and thus provides a mechanism for spatially regulated matrix degradation."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP14)) directlyIncreases act(p(HGNC:MMP13))",
+                    "evidence": "MT1-MMP can also process pro-MMP-13 (procollagenase-3) to the fully active enzyme."
+                },
+                {
+                    "bel_statement": "p(HGNC:MMP2) increases act(p(HGNC:MMP13))",
+                    "evidence": "Precursor MMP-2 potentiates activation of pro-MMP-13 by MT1-MMP."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP13)) directlyIncreases act(p(HGNC:MMP2))",
+                    "evidence": "Active MMP-13 can in turn activate MMP-2 and MMP-g zymogens, thereby indicating an activation cascade of three members of the MMP family."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Collagen\") decreases act(p(HGNC:MMP13))",
+                    "evidence": "Thus, increased expression of MT1-MMP can favor digestion of native interstitial collagens by MMP-13."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Collagen\") decreases act(p(HGNC:MMP2))",
+                    "evidence": "Continued degradation of partially degraded collagens due to gelatinase activity of MMP-2."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Collagen, Type IV\") decreases act(p(HGNC:MMP2))",
+                    "evidence": "Proteolysis of basement membrane collagen (type IV) and elastin by active MMP-2."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020134",
+                    "entry_name": "Catalytic Domain"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004798",
+                    "entry_name": "Enzymes"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001651",
+                    "entry_name": "precursor"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7159",
+                    "entry_name": "MMP13"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004792",
+                    "entry_name": "Enzyme Precursors"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MMP",
+                    "entry_name": "MMP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007586",
+                    "entry_name": "digestion"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7159",
+                    "entry_name": "MMP13"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018093",
+                    "entry_name": "Gelatinases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006508",
+                    "entry_name": "proteolysis"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005604",
+                    "entry_name": "basement membrane"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Collagen",
+                    "entry_name": "Collagen"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6185",
+                    "entry_name": "IV"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3327",
+                    "entry_name": "ELN"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "text": "The ability of endothelial cells to produce MT1-MMP, and hence activate the spectrum of proteases described above may have several important functional consequences in vascular pathophysiology, including angiogenesis, leukocyte transmigration, and plaque disruptions that cause thrombosis, the dreaded complication of atherosclerotic vascular diseases. Proteolysis plays an important role in migration of EC inside tissues during vasculogenesis and angiogenesis. Transmigration of leukocytes through the endothelium and subjacent basement membrane is a key process in normal host defenses, in inflammatory conditions, and in many vascular diseases including atherosclerosis. Activation of MMP-2 by endothelial MT1-MMP may promote these processes, since MMP-2 degrades basement membrane collagen type IV. In addition, active MMP-2 may promote local endothelial desquamation by lysing contacts with the basement membrane, causing superficial erosion of atherosclerotic plaques, now thought often to provoke coronary thrombosis and sudden death, particularly in women and diabetics. Indeed, areas of such superficial erosion of atheroma exhibit augmented expression of MMP-2 and tissue inhibitor of metalloproteinase-2, which combine with MT1-MMP to form the active ternary complex. Another common pathway of atherosclerotic plaque disruption and thrombosis involves rupture of the atheroma's cap which depends on interstitial collagen for its tensile strength. Activation of pro-MMP-13 by endothelial MT1-MMP may contribute to this mechanism of plaque disruption and consequent thrombosis.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MMP14) increases act(p(HGNC:MMP2))",
+                    "evidence": "Activation of MMP-2 by endothelial MT1-MMP may promote these processes, since MMP-2 degrades basement membrane collagen type IV."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP2)) increases bp(GO:\"leukocyte migration\")",
+                    "evidence": "Activation of MMP-2 by endothelial MT1-MMP may promote these processes, since MMP-2 degrades basement membrane collagen type IV."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP2)) increases bp(GO:angiogenesis)",
+                    "evidence": "Activation of MMP-2 by endothelial MT1-MMP may promote these processes, since MMP-2 degrades basement membrane collagen type IV."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP2)) increases bp(GO:\"endothelial cell migration\")",
+                    "evidence": "Activation of MMP-2 by endothelial MT1-MMP may promote these processes, since MMP-2 degrades basement membrane collagen type IV."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:MMP2)) increases path(MESH:\"Atherosclerosis\")",
+                    "evidence": "In addition, active MMP-2 may promote local endothelial desquamation by lysing contacts with the basement membrane, causing superficial erosion of atherosclerotic plaques, now thought often to provoke coronary thrombosis and sudden death, particularly in women and diabetics."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:MMP2), p(HGNC:TIMP2), p(HGNC:MMP14)) increases path(MESH:\"Atherosclerosis\")",
+                    "evidence": "Indeed, areas of such superficial erosion of atheroma exhibit augmented expression of MMP-2 and tissue inhibitor of metalloproteinase-2, which combine with MT1-MMP to form the active ternary complex."
+                },
+                {
+                    "bel_statement": "p(HGNC:MMP14) increases act(p(HGNC:MMP13))",
+                    "evidence": "Activation of pro-MMP-13 by endothelial MT1-MMP may contribute to this mechanism of plaque disruption and consequent thrombosis."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Protease",
+                    "entry_name": "Protease"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0001525",
+                    "entry_name": "angiogenesis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007962",
+                    "entry_name": "Leukocytes"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013927",
+                    "entry_name": "Thrombosis"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009518",
+                    "entry_name": "complication"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014652",
+                    "entry_name": "Vascular Diseases"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006508",
+                    "entry_name": "proteolysis"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Cadherin",
+                    "entry_name": "Cadherin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014024",
+                    "entry_name": "Tissues"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0001570",
+                    "entry_name": "vasculogenesis"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0001525",
+                    "entry_name": "angiogenesis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007962",
+                    "entry_name": "Leukocytes"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004727",
+                    "entry_name": "Endothelium"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005604",
+                    "entry_name": "basement membrane"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000532",
+                    "entry_name": "host"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014652",
+                    "entry_name": "Vascular Diseases"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D050197",
+                    "entry_name": "Atherosclerosis"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005604",
+                    "entry_name": "basement membrane"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "COL4",
+                    "entry_name": "COL4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0040189",
+                    "entry_name": "Scaling skin"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005604",
+                    "entry_name": "basement membrane"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D058226",
+                    "entry_name": "Plaque, Atherosclerotic"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003328",
+                    "entry_name": "Coronary Thrombosis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003645",
+                    "entry_name": "Death, Sudden"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020476",
+                    "entry_name": "Exhibition"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7166",
+                    "entry_name": "MMP2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D058226",
+                    "entry_name": "Plaque, Atherosclerotic"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013927",
+                    "entry_name": "Thrombosis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012421",
+                    "entry_name": "Rupture"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Adaptor_protein",
+                    "entry_name": "Adaptor_protein"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Collagen",
+                    "entry_name": "Collagen"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013718",
+                    "entry_name": "Tensile Strength"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013927",
+                    "entry_name": "Thrombosis"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "text": "In conclusion, the ability of endothelial cells to express MT1-MMP and its augmented expression in response to pathobiologically relevant stimuli such as inflammatory cytokines and Ox-LDL highlight a novel proteolytic pathway. This mechanism may contribute to normal host defenses and to important pathological conditions including atherosclerosis.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MMP14) increases path(MESH:\"Atherosclerosis\")",
+                    "evidence": "The ability of endothelial cells to express MT1-MMP and its augmented expression in response to pathobiologically relevant stimuli such as inflammatory cytokines and Ox-LDL highlight a novel proteolytic pathway. This mechanism may contribute to normal host defenses and to important pathological conditions including atherosclerosis."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D042783",
+                    "entry_name": "Endothelial Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7160",
+                    "entry_name": "MMP14"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60151",
+                    "entry_name": "oxidised LDL"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000532",
+                    "entry_name": "host"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D050197",
+                    "entry_name": "Atherosclerosis"
+                }
+            ]
+        }
+    ]
+}

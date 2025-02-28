@@ -1,7 +1,11 @@
 import pandas as pd
 import re
-import json
+import os
 from ndex2.cx2 import PandasDataFrameToCX2NetworkFactory
+from ndex2.cx2 import RawCX2NetworkFactory
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def extract_label(bel_expression):
@@ -20,6 +24,18 @@ def extract_type(bel_expression):
     return match.group(1) if match else "unknown"  # Default to "unknown" if no match
 
 
+def add_style_to_network(cx2_network=None, style_path=None):
+    """
+    Adds ctyle from CX2Network set in **style_path** to
+    **cx2network**
+    """
+    if style_path is not None and os.path.isfile(style_path):
+        logger.info('Setting visual style properties')
+        cx2netfac = RawCX2NetworkFactory()
+        style_cx_net = cx2netfac.get_cx2network(style_path)
+        cx2_network.set_visual_properties(style_cx_net.get_visual_properties())
+
+
 def convert_to_cx2(extracted_results, style_path=None):
     # Initialize lists to store extracted data
     source_list = []
@@ -34,6 +50,13 @@ def convert_to_cx2(extracted_results, style_path=None):
     # Create mappings for node names to unique integer IDs
     node_name_to_id = {}
     node_id_counter = 0  # Start counter for unique node IDs
+
+    annotation_map = {}
+    for entry in extracted_results:
+        if "entry_name" in entry and "url" in entry:
+            name = entry["entry_name"]
+            if name not in annotation_map:
+                annotation_map[name] = entry["url"]
 
     # Extract data and build node mappings
     for entry in extracted_results:
@@ -79,21 +102,12 @@ def convert_to_cx2(extracted_results, style_path=None):
     cx2_network = factory.get_cx2network(df, source_field='source', 
                                          target_field='target', edge_interaction='interaction')
 
+    # Add visual properties style to network
+    add_style_to_network(cx2_network=cx2_network,
+                         style_path=style_path)
+
     # Retrieve nodes from the CX2 structure
     cx2_structure = cx2_network.to_cx2()
-
-    # Add style from JSON if provided
-    if style_path:
-        with open(style_path, 'r') as style_file:
-            style_data = json.load(style_file)
-
-        # Append the style aspects to the CX2 structure
-        cx2_structure.append({
-            "visualEditorProperties": style_data[0]["visualEditorProperties"]
-        })
-        cx2_structure.append({
-            "visualProperties": style_data[1]["visualProperties"]
-        })
 
     nodes_aspect = next((aspect for aspect in cx2_structure if isinstance(aspect, dict) and "nodes" in aspect), None)
     existing_node_ids = {node['id'] for node in nodes_aspect["nodes"]} if nodes_aspect else set()
@@ -104,28 +118,21 @@ def convert_to_cx2(extracted_results, style_path=None):
         if node_id not in existing_node_ids:
             cx2_network.add_node(node_id)
 
-        # Find the first row where the node is a source or target for details
-        row_data = df[(df['source'] == node_name) | (df['target'] == node_name)].iloc[0]
+        # Extract label and type from the node name
         label = extract_label(node_name)
-        bel_expression = row_data['bel_expression']
-        evidence = row_data['evidence']
-        text = row_data['text']
-        node_type = extract_type(node_name)  # Get the type from the BEL expression
+        node_type = extract_type(node_name)
+        node_url = annotation_map.get(node_name, annotation_map.get(label))
 
-        # Set node attributes, including type
+        # Set node attributes: only name, label, and type.
+        cx2_network.set_node_attribute(node_id, 'name', node_name)
         cx2_network.set_node_attribute(node_id, 'label', label)
-        cx2_network.set_node_attribute(node_id, 'bel_expression', bel_expression)
-        cx2_network.set_node_attribute(node_id, 'evidence', evidence)
         cx2_network.set_node_attribute(node_id, 'type', node_type)
-        cx2_network.set_node_attribute(node_id, 'text', text)
+        if node_url:
+            cx2_network.set_node_attribute(node_id, 'id', node_url)
 
     cx2_network._cx2 = cx2_structure
 
     return cx2_network
-
-# cx2_network = convert_to_cx2(json_data)
-# cx2_network.set_name('Indra_50_sentences_network')
-# net_cx = cx2_network.to_cx2()
 
 # Create an NDEx client instance with your credentials
 # client = Ndex2(username='favour.ujames196@gmail.com', password='Fujames17')

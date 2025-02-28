@@ -1,0 +1,3897 @@
+{
+    "1": {
+        "text": "The signaling pathways linking integrins to nuclear events are incompletely understood. We have examined intracellular signaling by the \u03b16\u03b24 integrin, a laminin receptor expressed in basal keratinocytes and other cells. Ligation of \u03b16\u03b24 in primary human keratinocytes caused tyrosine phosphorylation of Shc, recruitment of Grb2, activation of Ras and stimulation of the MAP kinases Erk and Jnk. In contrast, ligation of the laminin- and collagen-binding integrins \u03b13\u03b21 and \u03b12\u03b21 did not cause these events. While the stimulation of Erk by \u03b16\u03b24 was suppressed by dominant-negative Shc, Ras and RhoA, the activation of Jnk was inhibited by dominant-negative Ras and Rac1 and by the phosphoinositide 3-kinase inhibitor Wortmannin. Adhesion mediated by \u03b16\u03b24 induced transcription from the Fos serum response element and promoted cell cycle progression in response to mitogens. In contrast, \u03b13\u03b21- and \u03b12\u03b21-dependent adhesion did not induce these events. These findings suggest that the coupling of \u03b16\u03b24 integrin to the control of cell cycle progression mediated by Shc regulates the proliferation of basal keratinocytes and possibly other cells which are in contact with the basement membrane in vivo.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005622",
+                "entry_name": "intracellular anatomical structure"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "MESH",
+                "id": "D017474",
+                "entry_name": "Receptors, Laminin"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D007797",
+                "entry_name": "Laminin"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "9801",
+                "entry_name": "RAC1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:50914",
+                "entry_name": "EC 2.7.1.137 (phosphatidylinositol 3-kinase) inhibitor"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52289",
+                "entry_name": "wortmannin"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "MESH",
+                "id": "D027602",
+                "entry_name": "Serum Response Element"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005604",
+                "entry_name": "basement membrane"
+            }
+        ]
+    },
+    "2": {
+        "text": "In addition to promoting cell adhesion and contributing to the organization of tissues and organs, basement membranes exert complex and often divergent effects on the survival, proliferation and differentiation of epithelial cells. The influences of basement membranes on epithelial cells are likely to be mediated by the ability of laminin-binding integrins to induce intracellular signaling, but the mechanisms involved are incompletely understood.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009938",
+                "entry_name": "Organizations"
+            },
+            {
+                "db": "MESH",
+                "id": "D014024",
+                "entry_name": "Tissues"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005604",
+                "entry_name": "basement membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D013534",
+                "entry_name": "Survival"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005604",
+                "entry_name": "basement membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005622",
+                "entry_name": "intracellular anatomical structure"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            }
+        ]
+    },
+    "3": {
+        "text": "To elucidate the effects of laminins on epithelial cells, we have focused on the \u03b16\u03b24 integrin. Cell adhesion assays with \u03b16\u03b24-transfected K562 cells and radioligand binding studies with purified recombinant \u03b16\u03b24 have indicated that this integrin is a receptor for various laminin isoforms and binds with the highest apparent affinity to laminins 5 and 4. In accordance with its role as a basement membrane receptor, \u03b16\u03b24 is expressed in epithelial cells, Schwann cells and a subset of endothelial cells and thymocytes.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D020014",
+                "entry_name": "K562 Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D007797",
+                "entry_name": "Laminin"
+            },
+            {
+                "db": "MESH",
+                "id": "D020033",
+                "entry_name": "Protein Isoforms"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005604",
+                "entry_name": "basement membrane"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D012583",
+                "entry_name": "Schwann Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D060168",
+                "entry_name": "Thymocytes"
+            }
+        ]
+    },
+    "4": {
+        "text": "The \u03b16\u03b24 integrin has a distinctive structure and subcellular localization. The large cytoplasmic domain of the \u03b24 subunit, which is characterized by two pairs of type III fibronectin (Fn)-like domains separated by a 142 amino acid sequence (connecting segment), does not contain any region of homology with the cytoplasmic domains of other known integrin \u03b2 subunits. Furthermore, while \u03b21 and \u03b1v integrins are concentrated in focal adhesions and linked to the actin filament system, the \u03b16\u03b24 integrin is found in hemidesmosomes both in vivo and in cultured cells. These observations suggest that the unique cytoplasmic domain of \u03b24 interacts with cytoskeletal elements of hemidesmosomes, thereby linking \u03b16\u03b24 to the keratin filament system.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "HGNC",
+                "id": "6511",
+                "entry_name": "LARGE1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3778",
+                "entry_name": "FN1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3778",
+                "entry_name": "FN1"
+            },
+            {
+                "db": "MESH",
+                "id": "D000595",
+                "entry_name": "Amino Acid Sequence"
+            },
+            {
+                "db": "MESH",
+                "id": "D039641",
+                "entry_name": "Integrin beta Chains"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005925",
+                "entry_name": "focal adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "F_actin",
+                "entry_name": "F_actin"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030056",
+                "entry_name": "hemidesmosome"
+            },
+            {
+                "db": "MESH",
+                "id": "D002478",
+                "entry_name": "Cells, Cultured"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33250",
+                "entry_name": "atom"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030056",
+                "entry_name": "hemidesmosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045095",
+                "entry_name": "keratin filament"
+            }
+        ]
+    },
+    "5": {
+        "text": "Our previous studies have indicated that the association of \u03b16\u03b24 with the hemidesmosomal cytoskeleton is mediated by the cytoplasmic domain of \u03b24 and specifically by a region which includes the first pair of type III Fn-like repeats and the connecting segment. In accordance with the hypothesis that \u03b16\u03b24 plays a crucial role in the assembly of hemidesmosomes and their linkage to the keratin filament system, we have observed that the introduction of a truncated tail-less \u03b24 subunit into cells possessing endogenous \u03b16\u03b24 integrins and hemidesmosomes results in a dominant-negative effect on hemidesmosome assembly. Since the tail-less integrin binds efficiently to extracellular ligand, its dominant-negative effect is likely to result from its ability to co-cluster with the endogenous wild-type receptor and block a signal necessary for hemidesmosome assembly. In accordance with this hypothesis, recent studies have revealed that \u03b16\u03b24 is associated with an intracellular tyrosine kinase. Mutagenesis experiments have provided evidence that the phosphorylation of a tyrosine activation motif (TAM) located in the connecting segment controls the association of \u03b16\u03b24 with the hemidesmosomal cytoskeleton, presumably via the recruitment of a signaling molecule containing two tandem Src homology 2 (SH2) domains.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005856",
+                "entry_name": "cytoskeleton"
+            },
+            {
+                "db": "EFO",
+                "id": "0008841",
+                "entry_name": "PAIR"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030056",
+                "entry_name": "hemidesmosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045095",
+                "entry_name": "keratin filament"
+            },
+            {
+                "db": "HGNC",
+                "id": "7973",
+                "entry_name": "NR2E1"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030056",
+                "entry_name": "hemidesmosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031581",
+                "entry_name": "hemidesmosome assembly"
+            },
+            {
+                "db": "HGNC",
+                "id": "7973",
+                "entry_name": "NR2E1"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005576",
+                "entry_name": "extracellular region"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "EFO",
+                "id": "0005067",
+                "entry_name": "block"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031581",
+                "entry_name": "hemidesmosome assembly"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005622",
+                "entry_name": "intracellular anatomical structure"
+            },
+            {
+                "db": "HGNC",
+                "id": "6906",
+                "entry_name": "MATK"
+            },
+            {
+                "db": "MESH",
+                "id": "D016296",
+                "entry_name": "Mutagenesis"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "MESH",
+                "id": "C563551",
+                "entry_name": "Myeloproliferative Syndrome, Transient"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005856",
+                "entry_name": "cytoskeleton"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:62488",
+                "entry_name": "signalling molecule"
+            },
+            {
+                "db": "HGNC",
+                "id": "11283",
+                "entry_name": "SRC"
+            }
+        ]
+    },
+    "6": {
+        "text": "In the epidermis and other stratified epithelia, the expression of \u03b16\u03b24 is restricted to the basal cell layer which contains cells endowed with proliferative capacity. It is known that keratinocytes exit the cell cycle and begin their differentiation program when they detach from the basement membrane to migrate to the upper epidermal layers. In fact, this process can be replicated in vitro by depriving cultured keratinocytes of anchorage to their endogenously produced extracellular matrix, which is particularly rich in laminin 5. Furthermore, squamous carcinoma cells endowed with high proliferative potential often express elevated levels of \u03b16\u03b24. Finally, the basal keratinocytes of \u03b24 knock-out mice display signs of degeneration even in areas of epidermis where no significant detachment from the basement membrane is observed. These observations suggest that \u03b16\u03b24 may provide epithelial cells with a signal important for cell survival and cell cycle progression.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D004817",
+                "entry_name": "Epidermis"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D019542",
+                "entry_name": "Program"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005604",
+                "entry_name": "basement membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031012",
+                "entry_name": "extracellular matrix"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D002294",
+                "entry_name": "Carcinoma, Squamous Cell"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D018345",
+                "entry_name": "Mice, Knockout"
+            },
+            {
+                "db": "MESH",
+                "id": "D004817",
+                "entry_name": "Epidermis"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005604",
+                "entry_name": "basement membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D013534",
+                "entry_name": "Survival"
+            }
+        ]
+    },
+    "7": {
+        "text": "What is the mechanism by which the \u03b16\u03b24 integrin transduces biochemical signals capable of affecting cell proliferation? Immunoprecipitation and GST fusion protein binding experiments have indicated that ligation of \u03b16\u03b24 results in the association of the adaptor protein Shc with tyrosine-phosphorylated \u03b24. Shc is then phosphorylated on tyrosine residues, presumably by the integrin-associated kinase, and combines with the other adaptor protein Grb2. These observations raise two key questions. First, what are the biochemical consequences of the recruitment of Shc and Grb2 to \u03b16\u03b24? Second, what is the biological significance of \u03b16\u03b24 signaling in epithelial cells?",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "FPLX",
+                "id": "GST",
+                "entry_name": "GST"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:32789",
+                "entry_name": "tyrosine residue"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            }
+        ]
+    },
+    "8": {
+        "text": "In this study, we provide evidence that the \u03b16\u03b24 integrin stimulates the Ras\u2013Erk and Rac\u2013Jnk mitogen-activated protein kinase (MAP kinase) signaling pathways via Shc and thereby controls immediate-early gene expression and keratinocyte proliferation in response to laminin.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0043616",
+                "entry_name": "keratinocyte proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D007797",
+                "entry_name": "Laminin"
+            }
+        ]
+    },
+    "9": {
+        "text": "Ligation of \u03b16\u03b24 causes activation of the Ras\u2013Erk signaling pathway. To examine the intracellular signaling pathways activated by the \u03b16\u03b24 integrin in a physiologically relevant cellular context, we elected to use primary human keratinocytes. These cells express high levels of \u03b16\u03b24, \u03b12\u03b21 and \u03b13\u03b21 and adhere to laminin 5 through \u03b16\u03b24 and \u03b13\u03b21 and to collagen I through \u03b12\u03b21. Incubation of suspended keratinocytes with polystyrene beads coated with the anti-\u03b24 monoclonal antibody (Mab) 3E1 as well as adhesion to laminin 5-coated dishes caused tyrosine phosphorylation of the 52 and 46 kDa mol. wt isoforms of Shc (the 66 kDa isoform of Shc is expressed at very low levels in keratinocytes) and thereby recruitment of Grb2. No significant tyrosine phosphorylation of Shc and recruitment of Grb2 was observed in keratinocytes treated with beads coated with the anti-\u03b13\u03b21 Mab P1B5 or the control anti-MHC Mab W6.32 and in keratinocytes adhering to collagen I or poly-L-lysine-coated dishes. The inability of collagen I to induce tyrosine phosphorylation of Shc and recruitment of Grb2 was not a consequence of insufficient adhesion because the keratinocytes spread equally well on laminin 5 and collagen I under our experimental conditions. Furthermore, we observed that antibody-mediated cross-linking of \u03b12\u03b21 does not induce tyrosine phosphorylation of Shc and recruitment of Grb2. These findings, which are consistent with previous results, indicate that ligation of \u03b16\u03b24, but not \u03b12\u03b21 and \u03b13\u03b21, can promote signaling mediated by Shc in primary keratinocytes.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035556",
+                "entry_name": "intracellular signal transduction"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53276",
+                "entry_name": "poly(styrene)"
+            },
+            {
+                "db": "MESH",
+                "id": "D000911",
+                "entry_name": "Antibodies, Monoclonal"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D007797",
+                "entry_name": "Laminin"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "HGNC",
+                "id": "32567",
+                "entry_name": "SCARNA10"
+            },
+            {
+                "db": "HGNC",
+                "id": "26507",
+                "entry_name": "DUOXA1"
+            },
+            {
+                "db": "MESH",
+                "id": "D020033",
+                "entry_name": "Protein Isoforms"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D020033",
+                "entry_name": "Protein Isoforms"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            }
+        ]
+    },
+    "10": {
+        "text": "We next examined the role of cytoplasmic domain of \u03b24 in the recruitment and tyrosine phosphorylation of Shc. Rat bladder 804G cells expressing either a recombinant full-length human \u03b24 subunit (clone A) or a tail-less version (clone L) were cross-linked in suspension with the anti-\u03b24 Mab 3E1 or the control anti-MHC Mab W6.32. Immunoprecipitation with the 3E1 Mab followed by immunoblotting with anti-Shc antibodies revealed that the recruitment of all three isoforms of Shc by \u03b16\u03b24 requires the cytoplasmic domain of the \u03b24 subunit. To examine if recruitment to \u03b16\u03b24 was a prerequisite for tyrosine phosphorylation of Shc, clone A and clone L were either cross-linked in suspension with the 3E1 or the W6.32 Mab or plated onto dishes coated with the same antibodies. Immunoprecipitation with anti-Shc antibodies followed by immunoblotting with anti-P-Tyr antibodies indicated that ligation of wild-type \u03b16\u03b24 induces tyrosine phosphorylation of the 52 kDa isoform of Shc (the major isoform recruited to activated \u03b16\u03b24 in these cells). In contrast, ligation of tail-less \u03b16\u03b24 did not cause efficient tyrosine phosphorylation of Shc. These results are consistent with the hypothesis that the recruitment of Shc to activated \u03b16\u03b24 is mediated by tyrosine phosphorylation of the cytoplasmic domain of \u03b24. They also suggest that this event is necessary for subsequent tyrosine phosphorylation of the adaptor protein. Since in a number of experiments tail-less \u03b16\u03b24 was able to induce a modest level of tyrosine phosphorylation of Shc, it is possible that an additional indirect mechanism contributes to the activation of Shc by \u03b16\u03b24.",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D051381",
+                "entry_name": "Rats"
+            },
+            {
+                "db": "MESH",
+                "id": "D001743",
+                "entry_name": "Urinary Bladder"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D002999",
+                "entry_name": "Clone Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "7973",
+                "entry_name": "NR2E1"
+            },
+            {
+                "db": "MESH",
+                "id": "D002999",
+                "entry_name": "Clone Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D013535",
+                "entry_name": "Suspensions"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "MESH",
+                "id": "D020033",
+                "entry_name": "Protein Isoforms"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D002999",
+                "entry_name": "Clone Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D002999",
+                "entry_name": "Clone Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D013535",
+                "entry_name": "Suspensions"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "HGNC",
+                "id": "32567",
+                "entry_name": "SCARNA10"
+            },
+            {
+                "db": "MESH",
+                "id": "D020033",
+                "entry_name": "Protein Isoforms"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D020033",
+                "entry_name": "Protein Isoforms"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "HGNC",
+                "id": "7973",
+                "entry_name": "NR2E1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "EFO",
+                "id": "0009629",
+                "entry_name": "event"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "HGNC",
+                "id": "7973",
+                "entry_name": "NR2E1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            }
+        ]
+    },
+    "11": {
+        "text": "Since Grb2 is stably associated with the Ras-GTP exchange factor mSOS, the recruitment of Grb2 to the plasma membrane mediated by Shc is likely to bring mSOS in close proximity to its target Ras. Ras-GTP loading experiments were therefore performed to examine if ligation of \u03b16\u03b24 resulted in activation of Ras. After growth factor starvation and in vivo labeling with [32P]orthophosphate, primary human keratinocytes were detached and either incubated in suspension with anti-\u03b24 or anti-MHC beads or replated on dishes coated with laminin 5 or anti-\u03b24 Mab. As a control, adherent keratinocytes were either left untreated or were stimulated with epidermal growth factor (EGF). Chromatographic analysis of nucleotides bound to Ras indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes results in an accumulation of GTP on Ras comparable with that caused by EGF. In suspended cells, however, antibody-mediated ligation of \u03b16\u03b24 did not cause activation of Ras. The results of this experiment indicate that \u03b16\u03b24-mediated cell adhesion causes activation of Ras. They also suggest that, in contrast to the sequential recruitment of Shc and Grb2 which can occur in suspended cells treated with anti-\u03b24 beads, optimal activation of Ras by \u03b16\u03b24 requires adhesion and/or spreading on a substratum coated with \u03b16\u03b24 ligands.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005886",
+                "entry_name": "plasma membrane"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "EFO",
+                "id": "0000562",
+                "entry_name": "labelling"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18367",
+                "entry_name": "phosphate(3-)"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D013535",
+                "entry_name": "Suspensions"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:36976",
+                "entry_name": "nucleotide"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15996",
+                "entry_name": "GTP"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            }
+        ]
+    },
+    "12": {
+        "text": "We next examined if ligation of \u03b16\u03b24 resulted in activation of the MAP kinase Erk. Growth factor-starved keratinocytes were detached and either kept in suspension or plated on dishes coated with the anti-\u03b24 Mab 3E1, the anti-MHC Mab W6.32, laminin 5, collagen I or poly-L-lysine. As a control, adherent keratinocytes were treated with EGF. Immunoprecipitation and in vitro kinase assays indicated that adhesion to laminin 5- or anti-\u03b24 Mab-coated dishes causes activation of Erk to a level similar to that induced by EGF. In contrast, adhesion to collagen I, poly-L-lysine or anti-MHC Mab did not result in significant activation of Erk. Adhesion to anti-\u03b13 Mab-coated dishes also did not cause Erk activation. To examine the kinetics of Erk activation by \u03b16\u03b24, keratinocytes were plated on laminin 5 for various times and subjected to Erk immunoprecipitation and kinase assay. We detected a significant activation of Erk as early as 5 min after plating the keratinocytes on laminin 5. The level of Erk activity peaked at 30 min of adhesion and declined thereafter. These results indicate that ligation of \u03b16\u03b24 causes a significant and relatively persistent activation of the MAP kinase Erk and are in agreement with the observation that ligation of the laminin- and collagen-binding integrins \u03b13\u03b21 and \u03b12\u03b21 does not induce this event. Since adhesion mediated by \u03b13\u03b21 and \u03b12\u03b21 is known to cause activation of focal adhesion kinase (FAK), these findings are also consistent with the notion that activation of FAK is not sufficient for stimulation of Erk in response to integrin ligation.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D013535",
+                "entry_name": "Suspensions"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D007700",
+                "entry_name": "Kinetics"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D007797",
+                "entry_name": "Laminin"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "EFO",
+                "id": "0009629",
+                "entry_name": "event"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D051416",
+                "entry_name": "Focal Adhesion Protein-Tyrosine Kinases"
+            },
+            {
+                "db": "HGNC",
+                "id": "9611",
+                "entry_name": "PTK2"
+            },
+            {
+                "db": "HGNC",
+                "id": "9611",
+                "entry_name": "PTK2"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            }
+        ]
+    },
+    "13": {
+        "text": "The activation of Erk mediated by \u03b16\u03b24 requires Shc, Ras and Rho. The mechanism of Erk activation in response to \u03b16\u03b24 ligation was examined by testing the effect of various dominant-interfering mutant proteins. Since transient transfection of primary keratinocytes is very inefficient, we elected to use HeLa cells which express levels of \u03b16\u03b24, \u03b13\u03b21 and \u03b12\u03b21 comparable with those of primary keratinocytes. HeLa cells were transfected with a hemagglutinin (HA)-tagged Erk2 vector in combination with different concentrations of cDNAs encoding dominant-negative Shc (317F), Ras (N17), RhoA (N19), CDC42 (N17) and Rac1 (N17). Immunoprecipitation of HA-Erk2 followed by in vitro kinase assay indicated that the activation of Erk in response to \u03b16\u03b24 ligation is suppressed by dominant-negative Shc, Ras and RhoA, but not by dominant-negative Cdc42 and Rac1. Although at the highest concentration tested dominant-negative Shc, Ras and RhoA completely inhibited the activation of Erk by \u03b16\u03b24, at the intermediate and lowest concentration tested the inhibitory activity of the three dominant-negative mutants differed, perhaps as a consequence of the different relative abundance of their target protein or their different mechanism of action. These results indicate that Shc couples the \u03b16\u03b24 integrin to the Ras\u2013Erk signaling pathway and suggest that full activation of Erk in response to \u03b16\u03b24 ligation requires the activity of both Ras and Rho.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D050505",
+                "entry_name": "Mutant Proteins"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0025153",
+                "entry_name": "Transient"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D006388",
+                "entry_name": "Hemagglutinins"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:13193",
+                "entry_name": "hydrogen acceptor"
+            },
+            {
+                "db": "HGNC",
+                "id": "6871",
+                "entry_name": "MAPK1"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "HGNC",
+                "id": "1736",
+                "entry_name": "CDC42"
+            },
+            {
+                "db": "HGNC",
+                "id": "9801",
+                "entry_name": "RAC1"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "HGNC",
+                "id": "1736",
+                "entry_name": "CDC42"
+            },
+            {
+                "db": "HGNC",
+                "id": "9801",
+                "entry_name": "RAC1"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:5133",
+                "entry_name": "fluthiacet-methyl"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "HGNC",
+                "id": "26808",
+                "entry_name": "DYNAP"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            }
+        ]
+    },
+    "14": {
+        "text": "Ligation of \u03b16\u03b24 causes activation of the Rac\u2013Jnk signaling pathway. We next examined if ligation of \u03b16\u03b24 stimulated the MAP kinase Jnk. Growth factor-starved primary keratinocytes were detached and either kept in suspension or plated on dishes coated with anti-\u03b24 Mab, anti-MHC Mab, laminin 5, collagen I or poly-L-lysine. As a control, adherent keratinocytes were exposed to UV light. Jnk was precipitated by using a GST\u2013Jun fusion protein and its activity examined by in vitro kinase assay. The binding of Mab 3E1 or laminin 5 to \u03b16\u03b24 caused an activation of Jnk comparable with that induced by UV stimulation. In contrast, adhesion to dishes coated with collagen I, poly-L-lysine, the control Mab W6.32 or the anti-\u03b13\u03b21 Mab P1B5 did not result in significant activation of Jnk. Time-course experiments indicated that the kinetics of activation of Jnk in response to laminin 5 were similar to those observed for Erk. These results indicate that ligation of \u03b16\u03b24 causes activation of Jnk, and suggest that ligation of the collagen-binding integrin \u03b12\u03b21 does not induce this event.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D013535",
+                "entry_name": "Suspensions"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D014466",
+                "entry_name": "Ultraviolet Rays"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D007700",
+                "entry_name": "Kinetics"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D038982",
+                "entry_name": "Integrin alpha2beta1"
+            },
+            {
+                "db": "EFO",
+                "id": "0009629",
+                "entry_name": "event"
+            }
+        ]
+    },
+    "15": {
+        "text": "The activation of Jnk mediated by \u03b16\u03b24 requires Ras, PI-3K and Rac. The mechanism of Jnk activation in response to \u03b16\u03b24 ligation was examined by testing the effect of various dominant-interfering mutant proteins and the phosphoinositide 3-kinase (PI-3K) inhibitor Wortmannin. HeLa cells were transfected with a Flag-tagged Jnk1 vector in combination with different concentrations of cDNAs encoding dominant-negative Ras (N17), Rac1 (N17), Cdc42 (N17) and RhoA (N19). Precipitation of Flag-Jnk1 followed by in vitro kinase assay indicated that the activation of Jnk in response to \u03b16\u03b24 ligation is suppressed by dominant-negative Ras and Rac1, but not by dominant-negative RhoA, and very modestly by dominant-negative Cdc42. These results indicate that the activation of Jnk by \u03b16\u03b24 requires the activity of both Ras and Rac. Although it has been suggested that Raf can activate Jnk by acting on the MAP kinase kinase kinase MEKK1, recent results indicate that the predominant mechanism by which Ras activates Jnk involves Rac, and not Raf. The requirement for Rac in our system is consistent with this hypothesis. Since PI-3K is a downstream target effector of Ras and has been implicated in the activation of Rac, we tested if inhibition of PI-3K interfered with the activation of Jnk by \u03b16\u03b24. The activation of Jnk in response to ligation of \u03b16\u03b24 was completely suppressed by as little as 50 nM Wortmannin, a concentration at which the inhibitor has very little effect on signaling molecules other than PI-3-K. Taken together, the results of these experiments suggest that \u03b16\u03b24 activates the Rac\u2013Jnk signaling pathway via Ras and PI-3K.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAC",
+                "entry_name": "RAC"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D050505",
+                "entry_name": "Mutant Proteins"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52289",
+                "entry_name": "wortmannin"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "6881",
+                "entry_name": "MAPK8"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "9801",
+                "entry_name": "RAC1"
+            },
+            {
+                "db": "HGNC",
+                "id": "1736",
+                "entry_name": "CDC42"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "9801",
+                "entry_name": "RAC1"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "HGNC",
+                "id": "1736",
+                "entry_name": "CDC42"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAC",
+                "entry_name": "RAC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAF",
+                "entry_name": "RAF"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAP3K",
+                "entry_name": "MAP3K"
+            },
+            {
+                "db": "HGNC",
+                "id": "6848",
+                "entry_name": "MAP3K1"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAC",
+                "entry_name": "RAC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAF",
+                "entry_name": "RAF"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAC",
+                "entry_name": "RAC"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35224",
+                "entry_name": "effector"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAC",
+                "entry_name": "RAC"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52289",
+                "entry_name": "wortmannin"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:62488",
+                "entry_name": "signalling molecule"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            }
+        ]
+    },
+    "16": {
+        "text": "Induction of Fos SRE-dependent transcription by \u03b16\u03b24. We next examined if the coupling of \u03b16\u03b24 to Shc played a role in the control of immediate-early gene expression. Since Erk regulates transcription from the Fos serum response element (SRE) by phosphorylating the ternary complex factors Elk-1 and SAP-1, and Rho family proteins cooperate with this Erk function by acting on the serum response factor, we examined the effect of \u03b16\u03b24 ligation on the Fos SRE. HeLa cells were transiently transfected with the Fos-SRE\u2013Luc vector, which contains the Fos SRE promoter element linked to the luciferase reporter gene. Upon plating on dishes coated with poly-L-lysine, collagen I or laminin 5, the cells were either left untreated or exposed to EGF. They were then subjected to luciferase assay. While adhesion to laminin 5 in the absence of EGF caused elevation of Fos SRE-dependent transcription, adhesion to poly-L-lysine or collagen I under the same conditions did not induce this activity. This suggests that ligation of \u03b16\u03b24, but not \u03b12\u03b21, is sufficient to promote transcription from the Fos SRE in the absence of mitogens. Treatment with EGF induced a significant elevation of Fos SRE activity in HeLa cells adhering to laminin 5, but caused a remarkably modest effect in cells attaching to poly-L-lysine or collagen I. This result suggests that ligation of \u03b16\u03b24 is required for optimal induction of Fos SRE-dependent transcription in response to EGF.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "MESH",
+                "id": "D027602",
+                "entry_name": "Serum Response Element"
+            },
+            {
+                "db": "MESH",
+                "id": "D050801",
+                "entry_name": "Ternary Complex Factors"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "HGNC",
+                "id": "9498",
+                "entry_name": "PSAP"
+            },
+            {
+                "db": "FPLX",
+                "id": "RHO",
+                "entry_name": "RHO"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33250",
+                "entry_name": "atom"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "MESH",
+                "id": "D017930",
+                "entry_name": "Genes, Reporter"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            }
+        ]
+    },
+    "17": {
+        "text": "To examine if laminin 5 is able to induce transcription from the Fos SRE in normal untransformed cells and to demonstrate the role of \u03b16\u03b24 in this process, we transfected NIH 3T3 fibroblasts with a retroviral vector encoding human \u03b24 and isolated stable cell lines. Immunoprecipitation and fluorescence-activated cell sorting (FACS) analysis indicated that the recombinant \u03b24 subunit associated with endogenous \u03b16 and was regularly exported to the cell surface. Clones 8 and 18 displayed the highest levels of recombinant \u03b24 on the cell surface and were examined further. FACS analysis indicated that the level of expression of recombinant \u03b24 in these two clones approximated 40% of that of endogenous \u03b24 in primary keratinocytes. Since the NIH 3T3 cells do not express \u03b16\u03b24 and adhere to laminin 5 through \u03b13\u03b21, we examined the function of recombinant \u03b16\u03b24 by comparing the kinetics by which the \u03b24 transfectants and control cells adhered to laminin 5-coated dishes. The results showed that the \u03b24 transfectants adhered to laminin 5 with faster kinetics than the controls. However, both types of cells became equally spread by 30 min of plating.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0031915",
+                "entry_name": "Stable"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "EFO",
+                "id": "0009108",
+                "entry_name": "fluorescence-activated cell sorting"
+            },
+            {
+                "db": "EFO",
+                "id": "0009108",
+                "entry_name": "fluorescence-activated cell sorting"
+            },
+            {
+                "db": "EFO",
+                "id": "0009108",
+                "entry_name": "fluorescence-activated cell sorting"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D041681",
+                "entry_name": "NIH 3T3 Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D007700",
+                "entry_name": "Kinetics"
+            },
+            {
+                "db": "MESH",
+                "id": "D007797",
+                "entry_name": "Laminin"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D007700",
+                "entry_name": "Kinetics"
+            }
+        ]
+    },
+    "18": {
+        "text": "To analyze Fos SRE-dependent transcription in response to laminin 5, control and \u03b24-transfected NIH 3T3 cells were transiently transfected with the Fos-SRE\u2013Luc plasmid. Upon plating on dishes coated with poly-L-lysine or laminin 5, the cells were either left untreated or exposed to basic fibroblast growth factor (bFGF), insulin and platelet-derived growth factor (PDGF). The results of luciferase assays indicated that adhesion to laminin 5 causes elevation of Fos SRE-dependent transcription in the \u03b24 transfectants even in the absence of mitogens and this induction is potentiated by mitogen treatment. The ability of laminin 5 to induce Fos SRE-dependent transcription was dependent on \u03b16\u03b24 expression, because adhesion to laminin 5 did not cause this effect in control cells even after mitogen treatment. These results indicate that ligation of \u03b16\u03b24, but not \u03b13\u03b21, is sufficient to induce Fos SRE-dependent transcription, and confirm that \u03b16\u03b24 cooperates with mitogens to cause optimal induction of this activity.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D041681",
+                "entry_name": "NIH 3T3 Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "EFO",
+                "id": "0003316",
+                "entry_name": "basic fibroblast growth factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "3676",
+                "entry_name": "FGF2"
+            },
+            {
+                "db": "HGNC",
+                "id": "6081",
+                "entry_name": "INS"
+            },
+            {
+                "db": "MESH",
+                "id": "D010982",
+                "entry_name": "Platelet-Derived Growth Factor"
+            },
+            {
+                "db": "FPLX",
+                "id": "PDGF",
+                "entry_name": "PDGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            }
+        ]
+    },
+    "19": {
+        "text": "Adhesion mediated by \u03b16\u03b24 promotes cell cycle progression. To examine if \u03b16\u03b24 signaling played a role in cell cycle progression, primary keratinocytes were growth factor starved and then plated in the presence of EGF on plastic wells coated with laminin 5, collagen I or poly-L-lysine. Entry into the S phase was examined by 5-bromo-2-deoxyuridine (BrdU) incorporation and anti-BrdU staining. A significant fraction of keratinocytes plated on laminin 5 entered into the S phase during the 22 h of the assay. In contrast, only a modest percentage of cells plated on collagen I or poly-L-lysine entered into S during the assay. In the absence of mitogens, a similarly small percentage of cells plated on collagen I or poly-L-lysine entered into S phase. This fraction may consist of unsynchronized cells, which have already passed the G1\u2013S boundary at the time of plating. In addition, because the keratinocytes acquired and maintained a well-spread morphology on collagen I, their inability to enter into S on this substratum is not the result of insufficient spreading. The results of these experiments indicate that physical attachment and spreading on the extracellular matrix is not sufficient for progression of keratinocytes through G1 in response to EGF, and suggest that this process requires ligation of a specific integrin, such as \u03b16\u03b24.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D010969",
+                "entry_name": "Plastics"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:472552",
+                "entry_name": "5-bromo-2'-deoxyuridine"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031012",
+                "entry_name": "extracellular matrix"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            }
+        ]
+    },
+    "20": {
+        "text": "To examine the relative roles of \u03b16\u03b24 and \u03b13\u03b21 in keratinocyte proliferation, we tested the effect of inhibitory anti-\u03b24 and anti-\u03b21 antibodies. Growth factor-starved keratinocytes were plated on laminin 5 and exposed to EGF in the presence of the inhibitory anti-\u03b21 Mab 4B4, the inhibitory anti-\u03b24 Mab A9 or the control anti-MHC Mab W6.32. Exposure to the anti-\u03b24 Mab completely suppressed keratinocyte entry into S. In contrast, treatment with the anti-\u03b21 or anti-MHC Mab did not inhibit keratinocyte proliferation on laminin 5. To control the efficacy of the anti-\u03b21 Mab 4B4, G0 synchronized primary human fibroblasts were plated on a mixed substrate consisting of poly-L-lysine and fibronectin and exposed to mitogens in the presence of the 4B4 or W6.32 Mab. In accordance with the recent observation that a class of \u03b21 integrins, which include the \u03b15\u03b21 fibronectin receptor, is linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc, plating of the primary fibroblasts on fibronectin/poly-L-lysine promoted cell cycle progression, and exposure to anti-\u03b21 Mab 4B4 blocked this process without inducing detachment. These results suggest that the ability of laminin 5 to promote keratinocyte cell cycle progression is mediated by \u03b16\u03b24, and not by \u03b13\u03b21.",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:50906",
+                "entry_name": "role"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0043616",
+                "entry_name": "keratinocyte proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "EFO",
+                "id": "0000487",
+                "entry_name": "exposure"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0043616",
+                "entry_name": "keratinocyte proliferation"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "EFO",
+                "id": "0005061",
+                "entry_name": "substrate"
+            },
+            {
+                "db": "HGNC",
+                "id": "3778",
+                "entry_name": "FN1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "FNR",
+                "entry_name": "FNR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "EFO",
+                "id": "0000487",
+                "entry_name": "exposure"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            }
+        ]
+    },
+    "21": {
+        "text": "We next examined the ability of control and \u03b24-expressing NIH 3T3 cells to progress through G1 on laminin 5. While only a modest percentage of control cells progressed through G1 when plated on laminin 5 for 22 h, a significant fraction of \u03b24 expressors entered into S under the same conditions, suggesting that ligation of \u03b16\u03b24 is sufficient to promote progression through G1 in response to mitogens. Taken together, the results of these assays indicate that ligation of \u03b16\u03b24 is required and sufficient to promote keratinocyte proliferation in response to laminin 5.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D041681",
+                "entry_name": "NIH 3T3 Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0043616",
+                "entry_name": "keratinocyte proliferation"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            }
+        ]
+    },
+    "22": {
+        "text": "Although the notion that cell adhesion to the extracellular matrix regulates gene expression is supported by considerable experimental evidence, the signaling pathways linking integrins to nuclear events are not well known. In particular, the mechanisms by which integrin-dependent signals regulate cell cycle progression in normal epithelial cells are not fully understood. The results of recent studies have defined the membrane-proximal events induced by ligation of the \u03b16\u03b24 integrin, a laminin receptor involved in various morphogenetic processes. Upon binding to extracellular ligand, \u03b16\u03b24 becomes phosphorylated on tyrosine residues by the action of an integrin-associated kinase and thereby combines sequentially with the adaptor proteins Shc and Grb2. The results of the present study provide clear evidence that these receptor-proximal events result in the activation of Ras and of two distinct MAP kinase signaling pathways which regulate immediate-early gene expression. In contrast, other integrins, such as the \u03b12\u03b21 and \u03b13\u03b21 collagen and laminin receptors, do not induce these events. Since \u03b16\u03b24-mediated adhesion promotes keratinocyte progression through G1 in response to growth factor treatment, while \u03b12\u03b21- and \u03b13\u03b21-mediated adhesion does not, we propose that the linkage of \u03b16\u03b24 to Ras signaling mediated by Shc participates in the control of cell cycle progression in normal epithelial cells.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031012",
+                "entry_name": "extracellular matrix"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "MESH",
+                "id": "D017474",
+                "entry_name": "Receptors, Laminin"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005576",
+                "entry_name": "extracellular region"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:32789",
+                "entry_name": "tyrosine residue"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:5133",
+                "entry_name": "fluthiacet-methyl"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "MESH",
+                "id": "D017474",
+                "entry_name": "Receptors, Laminin"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0070848",
+                "entry_name": "response to growth factor"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            }
+        ]
+    },
+    "23": {
+        "text": "The adaptor protein Shc contains two separate domains involved in the recognition of tyrosine-phosphorylated sequence motifs: an N-terminal phosphotyrosine-binding (PTB) domain and a C-terminal Src homology 2 (SH2) domain. GST fusion protein binding experiments have suggested that both domains can interact with the tyrosine-phosphorylated \u03b24 tail. The results of this study are in accordance with the notion that the recruitment of Shc to \u03b16\u03b24 is mediated by the cytoplasmic domain of \u03b24 and suggest that this event is important for the subsequent tyrosine phosphorylation of Shc, which is presumably mediated by the integrin-associated kinase. Upon phosphorylation, Shc combines with the other adaptor protein Grb2. Since Grb2 is constitutively associated with the Ras-GTP exchange factor mSOS, the recruitment of Grb2 to the plasma membrane potentially links \u03b16\u03b24 to Ras. In accordance with this hypothesis, our current results show that ligation of \u03b16\u03b24 results in a significant activation of Ras.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "17662",
+                "entry_name": "PTBP2"
+            },
+            {
+                "db": "HGNC",
+                "id": "11283",
+                "entry_name": "SRC"
+            },
+            {
+                "db": "FPLX",
+                "id": "GST",
+                "entry_name": "GST"
+            },
+            {
+                "db": "MESH",
+                "id": "D013623",
+                "entry_name": "Tail"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "EFO",
+                "id": "0009629",
+                "entry_name": "event"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005886",
+                "entry_name": "plasma membrane"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            }
+        ]
+    },
+    "24": {
+        "text": "In contrast to the recruitment of Shc and Grb2 which could be observed in suspended keratinocytes cross-linked with anti-\u03b16\u03b24 antibodies, full activation of Ras required physical attachment and/or spreading on a substratum coated with \u03b16\u03b24 ligands. Since it has been suggested that proper targeting of the Grb2\u2013mSOS complex to Ras may require an interaction of the Grb2 SH3 domains with the cortical cytoskeleton, it is possible that such targeting is defective in suspended keratinocytes cross-linked with anti-\u03b16\u03b24 antibodies. Alternatively, since the pleckstrin homology domain of mSOS may bind to phosphatidylinositol(4,5)bisphosphate (PtdInsP2) in the plasma membrane and it is known that PtdInsP2 levels decline in suspended cells, it is possible that Ras activation by \u03b16\u03b24 requires a threshold concentration of PtdInsP2 in the plasma membrane which is not available in suspended keratinocytes. Future studies will be required to resolve this issue.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "HGNC",
+                "id": "26808",
+                "entry_name": "DYNAP"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "4566",
+                "entry_name": "GRB2"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030863",
+                "entry_name": "cortical cytoskeleton"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D000070539",
+                "entry_name": "Pleckstrin Homology Domains"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:28874",
+                "entry_name": "phosphatidylinositol"
+            },
+            {
+                "db": "MESH",
+                "id": "D019269",
+                "entry_name": "Phosphatidylinositol 4,5-Diphosphate"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005886",
+                "entry_name": "plasma membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D019269",
+                "entry_name": "Phosphatidylinositol 4,5-Diphosphate"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "MESH",
+                "id": "D019269",
+                "entry_name": "Phosphatidylinositol 4,5-Diphosphate"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005886",
+                "entry_name": "plasma membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            }
+        ]
+    },
+    "25": {
+        "text": "The results of this study indicate that ligation of \u03b16\u03b24 results in the stimulation of both Ras\u2013Erk and Rac\u2013Jnk MAP kinase signaling pathways. The activation of Erk by \u03b16\u03b24 was suppressed by dominant-negative versions of both Shc and Ras, indicating that the coupling to Ras mediated by Shc is the major mechanism by which \u03b16\u03b24 controls Erk activation. Interestingly, Erk activation was also inhibited by dominant-negative RhoA. This result, which is in agreement with the recent observation that Rho activity is required for full activation of Erk in response to various extracellular stimuli, suggests that this G protein also participates in signaling by \u03b16\u03b24. The activation of Jnk by \u03b16\u03b24 was inhibited by dominant-negative Ras and Rac1, but not by dominant-negative RhoA and Cdc42. In addition, it was suppressed by nanomolar concentrations of the PI-3K inhibitor Wortmannin. Since there is evidence that PI-3K is a downstream target effector of Ras and is involved in the activation of Rac, it is likely that \u03b16\u03b24 stimulates the Rac\u2013Jnk pathway via Ras. Thus, the coupling of \u03b16\u03b24 to Ras mediated by Shc leads to the activation of both Ras\u2013Erk and Rac\u2013Jnk signaling pathways.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "HGNC",
+                "id": "26808",
+                "entry_name": "DYNAP"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005576",
+                "entry_name": "extracellular region"
+            },
+            {
+                "db": "FPLX",
+                "id": "G_protein",
+                "entry_name": "G_protein"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "9801",
+                "entry_name": "RAC1"
+            },
+            {
+                "db": "HGNC",
+                "id": "667",
+                "entry_name": "RHOA"
+            },
+            {
+                "db": "HGNC",
+                "id": "1736",
+                "entry_name": "CDC42"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:84801",
+                "entry_name": "EC 2.7.1.127 (inositol-trisphosphate 3-kinase) inhibitor"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52289",
+                "entry_name": "wortmannin"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35224",
+                "entry_name": "effector"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAC",
+                "entry_name": "RAC"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAS",
+                "entry_name": "RAS"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            }
+        ]
+    },
+    "26": {
+        "text": "In accordance with the observation that Erk stimulates transcription of the immediate-early gene fos, the results of our study indicate that adhesion mediated by \u03b16\u03b24 is sufficient to promote transcription from the Fos SRE. Interestingly, while treatment with mitogens caused a significant elevation of Fos SRE activity in cells plated on the \u03b16\u03b24 ligand laminin 5, it was ineffective in cells adhering to the \u03b12\u03b21 ligand collagen I, indicating that the expression of Fos in response to mitogens requires ligation of a specific integrin, such as \u03b16\u03b24. Future studies will be required to examine further the mechanism by which \u03b16\u03b24 controls immediate-early gene expression. For example, it is known that Rho family proteins can activate the Fos promoter by stimulating the serum response factor. The ability of \u03b16\u03b24 to stimulate Rac may thus contribute to the activation of Fos promoter in response to laminin 5. In addition, since it is well established that Jnk controls the activity of the Jun promoter, it is likely that \u03b16\u03b24 also regulates the expression of the immediate-early expression gene Jun. Taken together, these observations suggest that \u03b16\u03b24 is a crucial regulator of immediate-early gene expression.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERK",
+                "entry_name": "ERK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "FPLX",
+                "id": "RHO",
+                "entry_name": "RHO"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "FPLX",
+                "id": "RAC",
+                "entry_name": "RAC"
+            },
+            {
+                "db": "FPLX",
+                "id": "FOS_family",
+                "entry_name": "FOS_family"
+            },
+            {
+                "db": "FPLX",
+                "id": "Laminin_332",
+                "entry_name": "Laminin_332"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "FPLX",
+                "id": "JUN_family",
+                "entry_name": "JUN_family"
+            },
+            {
+                "db": "FPLX",
+                "id": "JUN_family",
+                "entry_name": "JUN_family"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            }
+        ]
+    },
+    "27": {
+        "text": "What is the biological significance of \u03b16\u03b24 signaling? The results of our cell proliferation analysis indicate that \u03b16\u03b24 signaling promotes transit through G1 in keratinocytes and other \u03b16\u03b24-expressing cells exposed to mitogens. In this respect, \u03b16\u03b24 appears to be functionally distinct from other integrins, such as \u03b13\u03b21 and \u03b12\u03b21, which do not appear to be able to do so. In fact, it is quite remarkable that keratinocytes plated on the \u03b12\u03b21 ligand collagen I adhere and spread but do not enter into the S phase despite being exposed to otherwise mitogenic concentrations of EGF. We have observed recently that a class of \u03b21 and \u03b1v integrins, which include \u03b11\u03b21, \u03b15\u03b21 and \u03b1v\u03b23, but not \u03b12\u03b21, \u03b13\u03b21 and \u03b16\u03b21, are also linked to the Ras\u2013Erk pathway and the control of cell cycle progression by Shc. Taken together, these observations suggest that the ability of extracellular matrix to control cell proliferation, thereby mediating anchorage-dependent cell growth, depends on its composition and the repertoire of integrins on the responding cell.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "MESH",
+                "id": "D000078682",
+                "entry_name": "Respect"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031012",
+                "entry_name": "extracellular matrix"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            }
+        ]
+    },
+    "28": {
+        "text": "What is the mechanism by which \u03b16\u03b24 signaling regulates cell proliferation? Previous studies have indicated that the cell cycle of normal cells contains an anchorage-dependent transition in early\u2013mid G1. In fact, adhesion to the extracellular matrix is required for translation of cyclin D1 in cells exposed to mitogens, suggesting that integrin- and growth factor-dependent signals converge prior to the induction of cyclin D1 to control progression through G1. Our results suggest that these signals are integrated before the induction of immediate-early gene expression. The simplest hypothesis is that in normal cells growth factor receptors and specific integrins cooperate to activate MAP kinase beyond the threshold level required for immediate-early gene expression. Since most dominant oncogenes, including Shc, induce neoplastic transformation by constitutively activating the Ras\u2013MAP kinase pathway, this model also explains why neoplastic cells usually display anchorage-independent growth.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0031012",
+                "entry_name": "extracellular matrix"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006412",
+                "entry_name": "translation"
+            },
+            {
+                "db": "HGNC",
+                "id": "1582",
+                "entry_name": "CCND1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "HGNC",
+                "id": "1582",
+                "entry_name": "CCND1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:133232",
+                "entry_name": "imazamox-ammonium"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "MESH",
+                "id": "D009857",
+                "entry_name": "Oncogenes"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            }
+        ]
+    },
+    "29": {
+        "text": "In conclusion, the results of this study indicate that the coupling of \u03b16\u03b24 integrin to Ras\u2013Erk and Rac\u2013Jnk pathways mediated by Shc regulates immediate-early gene expression and cell cycle progression in response to mitogens. Since the major keratinocyte integrins, in addition to \u03b16\u03b24, are \u03b12\u03b21 and \u03b13\u03b21, which are not coupled to Shc, the signaling function of \u03b16\u03b24 may explain why cell proliferation is restricted to the basal layer in the epidermis and other stratified epithelia. In addition, since exit from the cell cycle is a prerequisite for differentiation, our results may also explain why the onset of keratinocyte differentiation is coupled to the detachment from the basement membrane. Finally, the ability of \u03b16\u03b24 to stimulate cell growth suggests that its overexpression in squamous carcinoma may contribute to tumor progression.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "MESH",
+                "id": "D017781",
+                "entry_name": "Genes, Immediate-Early"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52290",
+                "entry_name": "mitogen"
+            },
+            {
+                "db": "MESH",
+                "id": "D015603",
+                "entry_name": "Keratinocytes"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "SHC",
+                "entry_name": "SHC"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D004817",
+                "entry_name": "Epidermis"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D017668",
+                "entry_name": "Age of Onset"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030216",
+                "entry_name": "keratinocyte differentiation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005604",
+                "entry_name": "basement membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D002294",
+                "entry_name": "Carcinoma, Squamous Cell"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            }
+        ]
+    }
+}

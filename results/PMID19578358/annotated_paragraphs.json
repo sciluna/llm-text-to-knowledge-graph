@@ -1,0 +1,2687 @@
+{
+    "1": {
+        "text": "microRNAs are regulators of myriad cellular events, but evidence for a single microRNA that can efficiently differentiate multipotent cells into a specific lineage or regulate direct reprogramming of cells into an alternate cell fate has been elusive. Here, we show that miR-145 and miR-143 are co-transcribed in multipotent cardiac progenitors before becoming localized to smooth muscle cells, including neural crest stem cell-derived vascular smooth muscle cells. miR-145 and miR-143 were direct transcriptional targets of serum response factor, myocardin and Nkx2.5, and were downregulated in injured or atherosclerotic vessels containing proliferating, less differentiated smooth muscle cells. miR-145 was necessary for myocardin-induced reprogramming of adult fibroblasts into smooth muscle cells and sufficient to induce differentiation of multipotent neural crest stem cells into vascular smooth muscle. Furthermore, miR-145 and miR-143 cooperatively targeted a network of transcription factors, including Klf4, myocardin, and Elk-1 to promote differentiation and repress proliferation of smooth muscle cells. These findings demonstrate that miR-145 can direct the smooth muscle fate and that miR-145 and miR-143 function to regulate the quiescent versus proliferative phenotype of smooth muscle cells.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0012838",
+                "entry_name": "Localized"
+            },
+            {
+                "db": "MESH",
+                "id": "D032389",
+                "entry_name": "Myocytes, Smooth Muscle"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D017348",
+                "entry_name": "Microscopy, Electron, Scanning Transmission"
+            },
+            {
+                "db": "MESH",
+                "id": "D009131",
+                "entry_name": "Muscle, Smooth, Vascular"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "2488",
+                "entry_name": "NKX2-5"
+            },
+            {
+                "db": "EFO",
+                "id": "0002954",
+                "entry_name": "differentiated"
+            },
+            {
+                "db": "MESH",
+                "id": "D032389",
+                "entry_name": "Myocytes, Smooth Muscle"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "EFO",
+                "id": "0001272",
+                "entry_name": "adult"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "MESH",
+                "id": "D032389",
+                "entry_name": "Myocytes, Smooth Muscle"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D013234",
+                "entry_name": "Stem Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009131",
+                "entry_name": "Muscle, Smooth, Vascular"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D014157",
+                "entry_name": "Transcription Factors"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D032389",
+                "entry_name": "Myocytes, Smooth Muscle"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D010641",
+                "entry_name": "Phenotype"
+            },
+            {
+                "db": "MESH",
+                "id": "D032389",
+                "entry_name": "Myocytes, Smooth Muscle"
+            }
+        ]
+    },
+    "2": {
+        "text": "MicroRNAs (miRNAs) represent a class of small (20-25 nucleotides), non-coding RNAs that are key regulators of many cellular events, including the balance between proliferation and differentiation during tumorigenesis and organ development. miRNAs are initially transcribed as longer primary transcripts (pri-miRNAs) and processed first by the ribonuclease enzyme complex, Drosha/DGCR8, and then by Dicer, leading to incorporation of a single strand into the RNA-induced silencing complex (RISC). Each of the ~650 human miRNAs is predicted to interact with over one hundred target mRNAs in a sequence-specific fashion involving Watson-Crick base-pairing among nucleotides 2-8 of the miRNA. miRNAs generally inhibit target mRNAs by repressing translation or reducing mRNA stability. miRNAs may also activate mRNA translation under certain cellular conditions.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:36976",
+                "entry_name": "nucleotide"
+            },
+            {
+                "db": "MESH",
+                "id": "D022661",
+                "entry_name": "RNA, Untranslated"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:141213",
+                "entry_name": "isoxaflutole"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D063646",
+                "entry_name": "Carcinogenesis"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D012260",
+                "entry_name": "Ribonucleases"
+            },
+            {
+                "db": "GO",
+                "id": "GO:1902494",
+                "entry_name": "catalytic complex"
+            },
+            {
+                "db": "HGNC",
+                "id": "17098",
+                "entry_name": "DICER1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016442",
+                "entry_name": "RISC complex"
+            },
+            {
+                "db": "HGNC",
+                "id": "29507",
+                "entry_name": "SCPEP1"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:36976",
+                "entry_name": "nucleotide"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006412",
+                "entry_name": "translation"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006412",
+                "entry_name": "translation"
+            }
+        ]
+    },
+    "3": {
+        "text": "Regulation of cardiovascular cell fate decisions by miRNAs and control of proliferation and differentiation in cardiac progenitors has been reported, but remains inefficient. A multipotent cardiac progenitor pool that can differentiate into cardiac myocytes, vascular smooth muscle cells (VSMCs) and endothelial cells exist, as do multipotent neural crest stem cells that can also give rise to VSMCs, as well as melanocytes, chondrocytes and neurons. Among these cell types, VSMCs are uniquely plastic, as they can oscillate between a proliferative or quiescent, more differentiated state. This plasticity contributes to many human vascular diseases, including atherosclerosis. The transcriptional control of this oscillation has been described, but whether VSMC-enriched miRNAs exist or participate in this process is unknown. Here, we demonstrate that miR-145 and miR-143 are tightly integrated into a core transcriptional network involved in smooth muscle differentiation and proliferation, and that miR-145 functions as a critical switch in promoting smooth muscle differentiation.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "EFO",
+                "id": "0000663",
+                "entry_name": "pool"
+            },
+            {
+                "db": "MESH",
+                "id": "D032383",
+                "entry_name": "Myocytes, Cardiac"
+            },
+            {
+                "db": "MESH",
+                "id": "D009131",
+                "entry_name": "Muscle, Smooth, Vascular"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D013234",
+                "entry_name": "Stem Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D008544",
+                "entry_name": "Melanocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D019902",
+                "entry_name": "Chondrocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D010969",
+                "entry_name": "Plastics"
+            },
+            {
+                "db": "EFO",
+                "id": "0002954",
+                "entry_name": "differentiated"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D014652",
+                "entry_name": "Vascular Diseases"
+            },
+            {
+                "db": "MESH",
+                "id": "D050197",
+                "entry_name": "Atherosclerosis"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D053263",
+                "entry_name": "Gene Regulatory Networks"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            }
+        ]
+    },
+    "4": {
+        "text": "We reported that miR-143 is the most enriched miRNA during differentiation of mouse embryonic stem (mES) cells into multipotent cardiac progenitors. miR-143 is highly conserved and lies within 1.7 kilobases of another conserved miRNA, miR-145, on mouse chromosome 18. Both miRNAs are downregulated in various cancer cell lines, colon cancers, and lung cancers. Given their genomic organization and proximity, miR-143 and miR-145 may be contained in a bicistronic primary transcript, but we were unable to amplify a common transcript from RNA, possibly because pri-miRNA transcripts are rapidly processed into their mature forms. DGCR8-null ES cells lack nuclear miRNA processing activity and have a defect in differentiation, but can form mesoderm. Using primers for each miRNA and RNA from DGCR8-null embryoid bodies (EBs), we generated an amplicon that encompassed both miRNAs, suggesting that miR-143 and miR-145 were transcribed as a bicistronic unit and therefore share common regulatory elements that control their expression.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D017348",
+                "entry_name": "Microscopy, Electron, Scanning Transmission"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:39010",
+                "entry_name": "MES"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D002887",
+                "entry_name": "Chromosomes, Human, Pair 18"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "EFO",
+                "id": "0001639",
+                "entry_name": "cancer cell line"
+            },
+            {
+                "db": "MESH",
+                "id": "D003110",
+                "entry_name": "Colonic Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D009938",
+                "entry_name": "Organizations"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:145669",
+                "entry_name": "2,6-diisopropylnaphthalene"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "MESH",
+                "id": "D020478",
+                "entry_name": "Form"
+            },
+            {
+                "db": "MESH",
+                "id": "D004541",
+                "entry_name": "Eisenmenger Complex"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035196",
+                "entry_name": "miRNA processing"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D008648",
+                "entry_name": "Mesoderm"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "MESH",
+                "id": "D058732",
+                "entry_name": "Embryoid Bodies"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53197",
+                "entry_name": "emeraldine macromolecule"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33250",
+                "entry_name": "atom"
+            }
+        ]
+    },
+    "5": {
+        "text": "To determine if these two miRNAs were also enriched in multipotent cardiac progenitors in vivo, we bred transgenic mice containing Cre recombinase in the Islet1 locus with Rosa26-EYFP mice and isolated YFP+ cardiac progenitor cells at E9.5 by fluorescence-activated cell sorting (FACS). The Islet1-Cre mice mark early multipotent cardiac progenitor cells that can differentiate into cardiac muscle, smooth muscle and endothelial cells. Quantitative RT-PCR (qPCR) revealed that miR-143 and miR-145 were enriched in YFP+ cells. qPCR with RNA from mouse hearts or whole embryos at varying stages of development also revealed enrichment of both miRNAs throughout cardiogenesis, before being downregulated in the adult heart.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D008822",
+                "entry_name": "Mice, Transgenic"
+            },
+            {
+                "db": "MESH",
+                "id": "C045073",
+                "entry_name": "Cre recombinase"
+            },
+            {
+                "db": "HGNC",
+                "id": "6132",
+                "entry_name": "ISL1"
+            },
+            {
+                "db": "HGNC",
+                "id": "7094",
+                "entry_name": "MICE"
+            },
+            {
+                "db": "MESH",
+                "id": "D013234",
+                "entry_name": "Stem Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0009108",
+                "entry_name": "fluorescence-activated cell sorting"
+            },
+            {
+                "db": "EFO",
+                "id": "0009108",
+                "entry_name": "fluorescence-activated cell sorting"
+            },
+            {
+                "db": "HGNC",
+                "id": "7094",
+                "entry_name": "MICE"
+            },
+            {
+                "db": "MESH",
+                "id": "D013234",
+                "entry_name": "Stem Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009206",
+                "entry_name": "Myocardium"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D006321",
+                "entry_name": "Heart"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0060914",
+                "entry_name": "heart formation"
+            },
+            {
+                "db": "EFO",
+                "id": "0001272",
+                "entry_name": "adult"
+            },
+            {
+                "db": "MESH",
+                "id": "D006321",
+                "entry_name": "Heart"
+            }
+        ]
+    },
+    "6": {
+        "text": "To identify the tissue-specific expression and regulation of miR-143/miR-145 during mouse development, we searched for upstream regulatory regions. Comparison of genomic sequences across species revealed a 4.2-kilobase (kb) genomic region upstream of miR-143/miR-145 that was highly conserved between human and mouse and directed LacZ expression specifically in multipotent cardiac mesodermal progenitors of transgenic mice as early as embryonic day (E) 7.5. By E9.5, LacZ expression was more robust and uniform in the heart and outflow tract and in cardiac progenitors of the pharyngeal mesoderm; expression was also present in the aorta just as smooth muscle differentiation began, but was absent in the cardinal vein. LacZ expression was robust in the endocardium and myocardium. During later cardiogenesis, expression became restricted to the ventricles and atria, but was notably absent in the aorta and pulmonary arteries. Postnatally, the pattern was reversed, with high transcript levels in smooth muscle of the aorta, pulmonary artery, and coronary vessels but undetectable levels in the ventricular myocardium. This enhancer was also active in the smooth muscle of the intestines. The enhancer recapitulated the endogenous miR-145 expression, with transcripts in the smooth muscle of the adult aorta and coronary artery, but not ventricular myocardium, as shown by section in situ hybridization.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D012045",
+                "entry_name": "Regulatory Sequences, Nucleic Acid"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D008822",
+                "entry_name": "Mice, Transgenic"
+            },
+            {
+                "db": "MESH",
+                "id": "D006321",
+                "entry_name": "Heart"
+            },
+            {
+                "db": "MESH",
+                "id": "D008648",
+                "entry_name": "Mesoderm"
+            },
+            {
+                "db": "MESH",
+                "id": "D001011",
+                "entry_name": "Aorta"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "C000729071",
+                "entry_name": "cardinal veins"
+            },
+            {
+                "db": "MESH",
+                "id": "D004699",
+                "entry_name": "Endocardium"
+            },
+            {
+                "db": "MESH",
+                "id": "D009206",
+                "entry_name": "Myocardium"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0060914",
+                "entry_name": "heart formation"
+            },
+            {
+                "db": "MESH",
+                "id": "D001011",
+                "entry_name": "Aorta"
+            },
+            {
+                "db": "MESH",
+                "id": "D011651",
+                "entry_name": "Pulmonary Artery"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "MESH",
+                "id": "D001011",
+                "entry_name": "Aorta"
+            },
+            {
+                "db": "MESH",
+                "id": "D011651",
+                "entry_name": "Pulmonary Artery"
+            },
+            {
+                "db": "MESH",
+                "id": "D003331",
+                "entry_name": "Coronary Vessels"
+            },
+            {
+                "db": "MESH",
+                "id": "D009206",
+                "entry_name": "Myocardium"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "MESH",
+                "id": "D007422",
+                "entry_name": "Intestines"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "EFO",
+                "id": "0001272",
+                "entry_name": "adult"
+            },
+            {
+                "db": "MESH",
+                "id": "D001011",
+                "entry_name": "Aorta"
+            },
+            {
+                "db": "MESH",
+                "id": "D001158",
+                "entry_name": "Arteries"
+            },
+            {
+                "db": "MESH",
+                "id": "D009206",
+                "entry_name": "Myocardium"
+            }
+        ]
+    },
+    "7": {
+        "text": "Deletions of the 4.2-kb miR-143/145 enhancer revealed that a 0.9-kb region was sufficient for miR-143/145 cardiac and smooth muscle expression. Within this regulatory region, we observed cis elements highly conserved between human, mouse, and zebrafish that represented potential binding sites for the essential cardiac transcription factors, serum response factor (SRF) and Nkx2.5. SRF plays a dual role in cardiac and SMC development, influencing both proliferation and differentiation depending on the types of co-activators or repressors present at specific developmental or cellular stages. The potent SRF co-activator, myocardin (Myocd), is a component of a molecular switch for the VSMC fate and is sufficient to effect both structural and physiological attributes of this cell type. SRF weakly activated the miR-143/145 enhancer upstream of a luciferase reporter, but co-transfection of Myocd synergistically and robustly activated luciferase activity in Cos cells. Mutation of the highly conserved CArG box in the SRF binding site decreased Myocd-dependent luciferase activity. Nkx2.5 could also independently activate this enhancer, and the combination of SRF, Myocd, and Nkx2.5, which also interacts with SRF, had additive effects on luciferase activity. Mutation of each binding site progressively decreased luciferase activity.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "MESH",
+                "id": "D012045",
+                "entry_name": "Regulatory Sequences, Nucleic Acid"
+            },
+            {
+                "db": "HGNC",
+                "id": "1984",
+                "entry_name": "CISH"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33250",
+                "entry_name": "atom"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D015027",
+                "entry_name": "Zebrafish"
+            },
+            {
+                "db": "MESH",
+                "id": "D014157",
+                "entry_name": "Transcription Factors"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "2488",
+                "entry_name": "NKX2-5"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "21317",
+                "entry_name": "DYM"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D019556",
+                "entry_name": "COS Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "HGNC",
+                "id": "2488",
+                "entry_name": "NKX2-5"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "2488",
+                "entry_name": "NKX2-5"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            }
+        ]
+    },
+    "8": {
+        "text": "In vivo, mutation of the SRF binding site disrupted lacZ expression in the outflow tract and aorta, while disruption of the Nkx2.5 binding site diminished expression in the ventricles and atria, suggesting modular regulation by the enhancer. Mutation of both the SRF and Nkx2.5 binding sites abolished all activity of the enhancer within the heart. VSMC and atrial expression postnatally was also dependent upon the SRF-binding cis element. Electromobility shift assay confirmed SRF could specifically bind to the putative binding site in the miR-143/145 enhancer. Furthermore, miR-143 and miR-145 were each expressed at lower levels in SRF-null embryoid bodies (EBs) compared to wildtype EBs derived from the respective ES cells. The levels were also reduced in mesoderm-rescued SRF-null EBs, confirming that the decreases did not reflect the absence of mesoderm. Similarly, miR-143 and miR-145 expression was also decreased in hearts of Nkx2.5 mutant mouse embryos in a dose-dependent fashion.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "MESH",
+                "id": "D001011",
+                "entry_name": "Aorta"
+            },
+            {
+                "db": "HGNC",
+                "id": "2488",
+                "entry_name": "NKX2-5"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "2488",
+                "entry_name": "NKX2-5"
+            },
+            {
+                "db": "MESH",
+                "id": "D006321",
+                "entry_name": "Heart"
+            },
+            {
+                "db": "HGNC",
+                "id": "1984",
+                "entry_name": "CISH"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33250",
+                "entry_name": "atom"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D058732",
+                "entry_name": "Embryoid Bodies"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53197",
+                "entry_name": "emeraldine macromolecule"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53197",
+                "entry_name": "emeraldine macromolecule"
+            },
+            {
+                "db": "MESH",
+                "id": "D004541",
+                "entry_name": "Eisenmenger Complex"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53197",
+                "entry_name": "emeraldine macromolecule"
+            },
+            {
+                "db": "MESH",
+                "id": "D008648",
+                "entry_name": "Mesoderm"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D006321",
+                "entry_name": "Heart"
+            },
+            {
+                "db": "HGNC",
+                "id": "2488",
+                "entry_name": "NKX2-5"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            }
+        ]
+    },
+    "9": {
+        "text": "The dynamic stage-dependent expression of miR-143 and miR-145 raised the possibility that their expression may also vary with the oscillation of VSMCs between differentiated and proliferative phenotypes. In a mouse model of this proliferative switch, ligation of the carotid arteries typically results in narrowing of the vascular lumen as a result of phenotypic modulation and proliferation of VSMCs. qPCR revealed marked decreases in miR-143 and miR-145 expression in injured carotid arteries compared to contralateral control vessels. miR-21 expression was increased as expected, and miR-16 was unchanged, demonstrating the presence of intact small RNAs. In situ hybridization of injured and control carotid arteries also revealed marked downregulation of miR-143 and miR-145 expression in the thickened vascular wall, coincident with decreased expression of the differentiation marker, smooth muscle a-actin (Sm-a-actin). As a control, miR-143 and miR-145 levels were unchanged in cardiac muscle after injury. Interestingly, transcripts of miR-145 were also downregulated to nearly undetectable levels in atherosclerotic lesions containing neointimal hyperplasia.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "EFO",
+                "id": "0002954",
+                "entry_name": "differentiated"
+            },
+            {
+                "db": "MESH",
+                "id": "D010641",
+                "entry_name": "Phenotype"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D008026",
+                "entry_name": "Ligation"
+            },
+            {
+                "db": "MESH",
+                "id": "D002339",
+                "entry_name": "Carotid Arteries"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D002339",
+                "entry_name": "Carotid Arteries"
+            },
+            {
+                "db": "HGNC",
+                "id": "31586",
+                "entry_name": "MIR21"
+            },
+            {
+                "db": "HGNC",
+                "id": "29644",
+                "entry_name": "GDE1"
+            },
+            {
+                "db": "EFO",
+                "id": "0010037",
+                "entry_name": "INTACT"
+            },
+            {
+                "db": "MESH",
+                "id": "D002339",
+                "entry_name": "Carotid Arteries"
+            },
+            {
+                "db": "MESH",
+                "id": "D015536",
+                "entry_name": "Down-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D000943",
+                "entry_name": "Antigens, Differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D009206",
+                "entry_name": "Myocardium"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0031678",
+                "entry_name": "Atherosclerotic lesion"
+            },
+            {
+                "db": "EFO",
+                "id": "0009652",
+                "entry_name": "neointimal hyperplasia"
+            }
+        ]
+    },
+    "10": {
+        "text": "The bimodal expression of miR-143 and miR-145 early during VSMC induction, and subsequently during the maturation into a non-proliferating, differentiated phenotype, led us to investigate their potential function in these settings. Since miR-145 and -143 expression was directly activated by SRF-Myocd, we first investigated whether either miRNA's expression was necessary for Myocd-induced reprogramming of fibroblasts into VSMCs. Introduction of 1-2 ug of Myocd into fibroblasts reliably resulted in >50% conversion to VSMCs. Inhibition of miR-145 using cholesterol-modified antisense oligonucleotides (antagomiRs) blocked Myocd's ability to convert fibroblasts into VSMCs as illustrated by Sm-a-actin immunostaining and expression of multiple smooth muscle markers assessed by qPCR and western blot. The knockdown of miR-143 had little effect on Myocd-induced smooth muscle conversion. Neither miRNA was sufficient to reprogram fibroblast cells. However, miR-145 potentiated Myocd's reprogramming effects. Although 50 ng of Myocd was insufficient to induce VSMC gene expression, simultaneous addition of miR-145, but not miR-143, resulted in robust VSMC differentiation, equivalent to that observed with 1-2 ug of Myocd. Thus, miR-145 activity was required for Myocd-dependent conversion of fibroblasts into VSMCs, and miR-145 robustly potentiated Myocd's effects.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "EFO",
+                "id": "0002954",
+                "entry_name": "differentiated"
+            },
+            {
+                "db": "MESH",
+                "id": "D010641",
+                "entry_name": "Phenotype"
+            },
+            {
+                "db": "HGNC",
+                "id": "34499",
+                "entry_name": "SMIM10L2A"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:76720",
+                "entry_name": "antisense oligonucleotide"
+            },
+            {
+                "db": "MESH",
+                "id": "D000070416",
+                "entry_name": "Antagomirs"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "8000",
+                "entry_name": "NRGN"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            }
+        ]
+    },
+    "11": {
+        "text": "To test an alternative cell type in which miR-145 may be sufficient for VSMC differentiation, we used a multipotent neural crest stem cell line that can differentiate into numerous cell types (e.g., melanocytes, chondrocytes, neurons), including VSMCs, upon exposure to 5 days of TGF-B. Remarkably, introduction of miR-145, but not miR-143, into neural crest stem cells was sufficient to guide ~75% of cells into the VSMC lineage within only twenty-four hours, as determined by immunocytochemistry with multiple markers. qPCR and western blot revealed upregulation of numerous markers of VSMC differentiation, including Sm-a-actin, Sm-22a, and smooth muscle myosin heavy chain (Sm-MHC) with miR-145 but not -143. The neural crest stem cell-derived SMCs exhibited calcium flux measurements similar to cultured VSMCs in response to endothelin-1 stimulation, indicating the differentiation of functionally mature smooth muscle. Thus, miR-145 was sufficient for directing the VSMC fate from multipotent neural crest stem cells that normally populate the aortic smooth muscle tissue, where miR-145 is expressed.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D013234",
+                "entry_name": "Stem Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D008544",
+                "entry_name": "Melanocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D019902",
+                "entry_name": "Chondrocytes"
+            },
+            {
+                "db": "EFO",
+                "id": "0000487",
+                "entry_name": "exposure"
+            },
+            {
+                "db": "FPLX",
+                "id": "TGFB",
+                "entry_name": "TGFB"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D013234",
+                "entry_name": "Stem Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "FPLX",
+                "id": "MYH",
+                "entry_name": "MYH"
+            },
+            {
+                "db": "HGNC",
+                "id": "7569",
+                "entry_name": "MYH11"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D017348",
+                "entry_name": "Microscopy, Electron, Scanning Transmission"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:29108",
+                "entry_name": "calcium(2+)"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:80240",
+                "entry_name": "Endothelin-1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D013234",
+                "entry_name": "Stem Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0002775",
+                "entry_name": "aorta smooth muscle"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            }
+        ]
+    },
+    "12": {
+        "text": "The mechanism by which this family of miRNAs regulates VSMCs is dependent upon their mRNA targets. A bioinformatics approach incorporating sequence matching and mRNA secondary structure to predict mRNA targets revealed multiple highly conserved binding sites for miR-143 in the 3' UTR of Elk-1 and for miR-145 in the 3' UTR of Myocd. Growth signals repress smooth muscle gene expression by displacing Myocd from SRF with Elk-1, a ternary complex factor that acts as a myogenic repressor and an activator of VSMC proliferation. In this system, SRF serves as a platform for myogenic coactivators or corepressors that compete for a common docking site, thereby mediating VSMC phenotypic switching.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:195251",
+                "entry_name": "activator"
+            },
+            {
+                "db": "GO",
+                "id": "GO:1990874",
+                "entry_name": "vascular associated smooth muscle cell proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "11291",
+                "entry_name": "SRF"
+            },
+            {
+                "db": "MESH",
+                "id": "D056970",
+                "entry_name": "Co-Repressor Proteins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0036166",
+                "entry_name": "phenotypic switching"
+            }
+        ]
+    },
+    "13": {
+        "text": "To determine whether Elk-1 and Myocd are direct targets of miR-143 or miR-145, respectively, we cloned the 3' UTR of Elk-1 or Myocd into the 3' UTR of a CMV-driven luciferase reporter. In the presence of the Elk-1 3' UTR, miR-143 repressed luciferase activity; this repression was diminished upon mutation of one of the two miR-143 binding sites. The addition of an antagomiR to inhibit miR-143 in the A10 rat aortic VSMC line resulted in upregulation of Elk-1 protein, but not mRNA, consistent with translational repression of Elk-1 by miR-143. Furthermore, inhibition of miR-143 caused a doubling of the proliferative rate of VSMCs, demonstrating miR-143's function in negatively regulating VSMC proliferation.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D012094",
+                "entry_name": "Repression, Psychology"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D000070416",
+                "entry_name": "Antagomirs"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "5837",
+                "entry_name": "IGKV6D-21"
+            },
+            {
+                "db": "MESH",
+                "id": "D051381",
+                "entry_name": "Rats"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D012094",
+                "entry_name": "Repression, Psychology"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "GO",
+                "id": "GO:1990874",
+                "entry_name": "vascular associated smooth muscle cell proliferation"
+            }
+        ]
+    },
+    "14": {
+        "text": "The presence of putative miR-145 binding sites in the Myocd 3' UTR seemed counter to the observed effects of miR-145 in potentiating Myocd's reprogramming effects. When we cloned the Myocd 3' UTR into a CMV-driven luciferase vector and introduced this into Cos cells, the constitutive luciferase activity decreased greater than 100-fold. Surprisingly, introduction of miR-145, but not miR-143, with the luciferase vector in Cos cells resulted in relief of the repression and an ~150-fold increase in luciferase activity compared to the CMV-luciferase-Myocd 3' UTR-luciferase vector alone. The increase in luciferase activity was largely lost upon mutation of the miR-145 binding site in the Myocd 3' UTR. In contrast, introduction of the same CMV-luciferase-Myocd 3' UTR reporter did not cause a decrease in baseline luciferase activity in 293T cells. However, even in these cells, miR-145 consistently increased luciferase activity by ~1.5 fold. Although antibodies to detect endogenous Myocd levels by western blot are not available, these findings are consistent with the recent observation that miRNAs can act as translational activators or repressors based upon the state of the cell cycle. While the mechanism for this remains unclear, it will be interesting to determine if miR-145 prevents binding of a repressive RNA-binding protein enriched in Cos cells.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:38960",
+                "entry_name": "terbufos"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "MESH",
+                "id": "D019556",
+                "entry_name": "COS Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "MESH",
+                "id": "D019556",
+                "entry_name": "COS Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D012094",
+                "entry_name": "Repression, Psychology"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25434",
+                "entry_name": "bis(2-chloroethyl) sulfide"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D057809",
+                "entry_name": "HEK293 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0045289",
+                "entry_name": "luciferin monooxygenase activity"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "HGNC",
+                "id": "16",
+                "entry_name": "SERPINA3"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "13427",
+                "entry_name": "RBMS3"
+            },
+            {
+                "db": "MESH",
+                "id": "D019556",
+                "entry_name": "COS Cells"
+            }
+        ]
+    },
+    "15": {
+        "text": "While miR-145 may result in increased Myocd protein, its effects in potentiating Myocd-induced reprogramming of fibroblasts did not require presence of its binding site in Myocd's 3' UTR. miR-145's potentiating effects could, however, be through effects on translation of endogenous Myocd mRNAs induced by the transfected Myocd protein; alternatively, miR-145 may promote differentiation through targets independent of Myocd. Indeed, our bioinformatics approach identified potential miR-145 binding sites in several other positive regulators of smooth muscle proliferation, including Kruppel-like factor 4 (Klf4) and Calmodulin kinase II-delta (CamkII8). Klf4 is a transcription factor involved in pluripotency that is also rapidly induced in post-injury proliferating VSMCs, where it interacts with enhancers in smooth muscle growth genes, inhibits smooth muscle differentiation genes, and represses Myocd expression. The miR-145 binding site in the 3' UTR of Klf4 specifically mediated miR-145-dependent repression in luciferase assays. Furthermore, knockdown of miR-145 in rat A10 VSMCs resulted in an increase in Klf4 protein levels, but no change in Klf4 mRNA levels. Similarly, a putative binding site in CamkII-8, involved in multiple events including neointimal proliferation, was validated as a miR-145-repressed target by luciferase and western analysis in VSMCs. Numerous predicted targets for both miRNAs that were not validated in luciferase assays are shown.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006412",
+                "entry_name": "translation"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000090062",
+                "entry_name": "Kruppel-Like Factor 4"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "MESH",
+                "id": "D017871",
+                "entry_name": "Calcium-Calmodulin-Dependent Protein Kinases"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "MESH",
+                "id": "D014157",
+                "entry_name": "Transcription Factors"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "MESH",
+                "id": "D009130",
+                "entry_name": "Muscle, Smooth"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D020413",
+                "entry_name": "3' Untranslated Regions"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "MESH",
+                "id": "D012094",
+                "entry_name": "Repression, Psychology"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D051381",
+                "entry_name": "Rats"
+            },
+            {
+                "db": "HGNC",
+                "id": "5837",
+                "entry_name": "IGKV6D-21"
+            },
+            {
+                "db": "MESH",
+                "id": "D000090062",
+                "entry_name": "Kruppel-Like Factor 4"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "EFO",
+                "id": "0009652",
+                "entry_name": "neointimal hyperplasia"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D008156",
+                "entry_name": "Luciferases"
+            }
+        ]
+    },
+    "16": {
+        "text": "Consistent with miR-145 repression of genes involved in VSMC proliferation, introduction of miR-145 was sufficient to suppress the proliferative response normally induced by platelet-derived growth factor (Pdgf-\u00df) in cultured VSMCs. In addition, lentiviral-mediated introduction of miR-145 into ligated mouse carotid arteries in vivo increased expression of markers of VSMC differentiation (e.g., Calponin and Sm-a-actin), as well as Myocd, compared to control-infected injured carotid arteries. These findings suggest that miR-145 may promote VSMC differentiation by directly repressing numerous transcription factors that promote the proliferative state while stabilizing factors that promote the differentiated state of VSMCs.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D012094",
+                "entry_name": "Repression, Psychology"
+            },
+            {
+                "db": "GO",
+                "id": "GO:1990874",
+                "entry_name": "vascular associated smooth muscle cell proliferation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D010982",
+                "entry_name": "Platelet-Derived Growth Factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D002339",
+                "entry_name": "Carotid Arteries"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000096985",
+                "entry_name": "Calponins"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "MESH",
+                "id": "D002339",
+                "entry_name": "Carotid Arteries"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D014157",
+                "entry_name": "Transcription Factors"
+            },
+            {
+                "db": "EFO",
+                "id": "0002954",
+                "entry_name": "differentiated"
+            }
+        ]
+    },
+    "17": {
+        "text": "The ability of miR-145 to efficiently direct VSMC differentiation from multipotent stem cells is the first evidence, to our knowledge, of a miRNA capable of directing the VSMC fate. This is consistent with its early expression in the aorta of developing embryos as VSMC differentiation is initiated from neural crest and mesodermal progenitors. Once VSMC identity is established in the embryo, the downregulation of miR-143 and miR-145 in the developing embryo may allow necessary proliferation. Subsequent upregulation postnatally (coincident with the more differentiated VSMC state) and downregulation during neointimal hyperplasia indicate dynamic regulation that may contribute to the oscillating state of VSMCs. The observation that miR-145 is necessary and sufficient for VSMC differentiation raises the possibility that restoration of this miRNA could suppress the smooth muscle hyperplasia observed in vascular injury and atherosclerosis. Furthermore, the multiple targets we identified for miR-143 and miR-145 reveal an elegant mechanism by which this family of miRNAs promotes differentiation and simultaneously represses proliferation of VSMCs by converging on SRF-dependent co-activators and co-repressors. Our findings suggest miR-145 may promote VSMC differentiation in part by increasing Myocd protein and functioning in a feed-forward reinforcement of its own expression by the SRF-Myocd complex, while miR-143 represses Myocd's competitor, Elk-1. Given the potent effects on differentiation shown here, future studies will determine if restoration of normal levels of miR-143 and miR-145 holds therapeutic value in the setting of disease.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D039902",
+                "entry_name": "Multipotent Stem Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019359",
+                "entry_name": "Knowledge"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D001011",
+                "entry_name": "Aorta"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009432",
+                "entry_name": "Neural Crest"
+            },
+            {
+                "db": "MESH",
+                "id": "D015536",
+                "entry_name": "Down-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D015854",
+                "entry_name": "Up-Regulation"
+            },
+            {
+                "db": "EFO",
+                "id": "0002954",
+                "entry_name": "differentiated"
+            },
+            {
+                "db": "MESH",
+                "id": "D015536",
+                "entry_name": "Down-Regulation"
+            },
+            {
+                "db": "EFO",
+                "id": "0009652",
+                "entry_name": "neointimal hyperplasia"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0014806",
+                "entry_name": "smooth muscle hyperplasia"
+            },
+            {
+                "db": "MESH",
+                "id": "D057772",
+                "entry_name": "Vascular System Injuries"
+            },
+            {
+                "db": "MESH",
+                "id": "D050197",
+                "entry_name": "Atherosclerosis"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D056970",
+                "entry_name": "Co-Repressor Proteins"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035886",
+                "entry_name": "vascular associated smooth muscle cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "16067",
+                "entry_name": "MYOCD"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31530",
+                "entry_name": "MIR143"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "MESH",
+                "id": "D004194",
+                "entry_name": "Disease"
+            }
+        ]
+    },
+    "18": {
+        "text": "The downregulation of miR-145 in numerous cancers and our findings that it promotes differentiation raises the possibility that miR-145 functions as a pro-differentiation factor in a lineage-specific fashion depending on the cellular context. The targeting of Klf4 supports this notion, as Klf4 is expressed in undifferentiated embryonic stem cells and in other less differentiated cell types. Recent evidence indicates that miR-145 represses Klf4 in human embryonic stem cells as they begin to differentiate and is required for normal differentiation. Since Klf4 is one of four factors described by Yamanaka and colleagues that together are sufficient to reprogram human fibroblasts into a pluripotent state (induced pluripotent stem (iPS) cells), it will be interesting to determine whether inhibition of miR-145 can enhance generation of iPS cells.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D015536",
+                "entry_name": "Down-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "MESH",
+                "id": "D053595",
+                "entry_name": "Embryonic Stem Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0002954",
+                "entry_name": "differentiated"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "MESH",
+                "id": "D000066449",
+                "entry_name": "Human Embryonic Stem Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030154",
+                "entry_name": "cell differentiation"
+            },
+            {
+                "db": "HGNC",
+                "id": "6348",
+                "entry_name": "KLF4"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "EFO",
+                "id": "0002967",
+                "entry_name": "pluripotent"
+            },
+            {
+                "db": "EFO",
+                "id": "0002967",
+                "entry_name": "pluripotent"
+            },
+            {
+                "db": "MESH",
+                "id": "D017348",
+                "entry_name": "Microscopy, Electron, Scanning Transmission"
+            },
+            {
+                "db": "HGNC",
+                "id": "29821",
+                "entry_name": "ISYNA1"
+            },
+            {
+                "db": "HGNC",
+                "id": "31532",
+                "entry_name": "MIR145"
+            },
+            {
+                "db": "EFO",
+                "id": "0000507",
+                "entry_name": "generation"
+            },
+            {
+                "db": "MESH",
+                "id": "D057026",
+                "entry_name": "Induced Pluripotent Stem Cells"
+            }
+        ]
+    }
+}

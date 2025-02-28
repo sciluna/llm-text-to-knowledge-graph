@@ -5,7 +5,7 @@
             "text": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare. Here we report a case of a patient with primary GSCC, presenting as linitis plastic, who was diagnosed using endoscopic ultrasound (EUS)-guided biopsy. With undiagnosed linitis plastica, an 80-year-old woman was referred to our institution. Abdominal computed tomography revealed irregular wall thickening extending from the gastric body to the antrum. Endoscopy suspected to have Borrmann type IV advanced gastric cancer. EUS of the stomach showed diffuse submucosal thickening of the gastric wall, mainly the antrum. EUS-guided bite-on-bite biopsy confirmed the diagnosis of GSCC. In general, GSCC is difficult to diagnose and careful examination is necessary to determine the therapeutic strategy; however, EUS is particularly helpful in the differential diagnosis of a lesion presenting as linitis plastica.",
             "Results": [
                 {
-                    "bel_statement": "path(MESHD:\"Gastric small cell carcinoma\") isA path(MESHD:\"Small cell carcinoma\")",
+                    "bel_statement": "path(MESHD:\"Gastric small cell carcinoma\") isA path(MESHD:\"Neuroendocrine Tumors\")",
                     "evidence": "Small cell carcinomas are the most aggressive, highly malignant neuroendocrine tumors; among these, gastric small cell carcinoma (GSCC) is extremely rare."
                 }
             ]
@@ -20,11 +20,11 @@
             "text": "An 80-year-old female with undiagnosed linitis plastica was referred to our institution for epigastric pain. Before visiting our hospital, she had undergone endoscopy at another hospital and was suspected of having Borrmann type IV advanced gastric cancer; however, histological examination had not confirm the malignancy. She showed epigastric tenderness after eating, which had gradually aggravated in the last month. Results of her initial physical examination were unremarkable except for epigastric pain. Her family health history was negative, whereas her medical history included medications for hypertension and diabetes mellitus over the last 10 years. Laboratory values for the serum levels of carcinoembryonic antigen and carbohydrate antigen 19-9 were within normal limits. Abdominal computed tomography of the patient revealed irregular wall thickening extending from the gastric body to the antrum, with no remarkable findings such as metastasis and infiltration of the lymph nodes or peripheral tissues (Fig. 1). No additional information was obtained from positron emission tomography-computed tomography (Fig. 2). Upper endoscopy showed severe mucosal fold thickening with a narrow gastric lumen and normal mucosa (Fig. 3), raising a suspicion for Borrmann type IV advanced gastric cancer. Multiple biopsies were performed; however, results of pathologic examination with endoscopic biopsy were negative. EUS (TGF-ME1; Olympus Optical Co., Tokyo, Japan) showed normal mucosal and muscular layers and diffuse, homogeneous, and slightly hypoechoic submucosal thickening (approximately 12 mm thick) of the gastric wall. Although enlargement of lymph node was not observed, a small amount of ascites was detected in perigastric area (Fig. 4). Using EUS-guided biteon-bite biopsy, multiple biopsies were performed over the thickest lesion at the antrum (eight bites per lesion) to acquire the submucosal tissues. Histopathologic examination showed small, dense, uniform tumor cells with hyperchromatic nuclei and scant cytoplasm. Immunohistochemically, the tumor cells were found to be positive for cytokeratin and CD56 and negative for thyroid transcription factor-1. Ki-67 immunostaining, which reflects the proportion of highly proliferating tumor cells, revealed that 100% of tumor cells were Ki-67 positive (Fig. 5). After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks. After the first cycle of chemotherapy, the patient was no longer able to tolerate chemotherapy owing to its adverse side effects and died due to cancer progression 3 months post-diagnosis.",
             "Results": [
                 {
-                    "bel_statement": "a(CHEMBL:etoposide) increases path(MESHD:\"Gastric Cancer\")",
+                    "bel_statement": "a(CHEMBL:etoposide) decreases path(MESHD:\"Gastric Cancer\")",
                     "evidence": "After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:cisplatin) increases path(MESHD:\"Gastric Cancer\")",
+                    "bel_statement": "a(CHEMBL:cisplatin) decreases path(MESHD:\"Gastric Cancer\")",
                     "evidence": "After the diagnosis, the patient underwent systemic chemotherapy with etoposide in combination with cisplatin, administered intravenously every 3 weeks."
                 }
             ]
@@ -62,7 +62,7 @@
                     "evidence": "Furthermore, EUS is known to be helpful in diagnosing gastric linitis plastica."
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"biopsy site selection\")",
+                    "bel_statement": "bp(GOBP:\"endoscopic ultrasound\") increases bp(GOBP:\"biopsy accuracy\")",
                     "evidence": "For accurate biopsy, EUS is effective for select the optimal biopsy site."
                 },
                 {
@@ -76,11 +76,31 @@
             "text": "Immunohistochemical examination is remarkably valuable for the pathological diagnosis of GSCC. GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules. In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:NCAM1) increases path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "bel_statement": "p(HGNC:SYP) increases path(MESHD:\"Giant cell carcinoma of the lung\")",
                     "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules."
                 },
                 {
-                    "bel_statement": "p(HGNC:KRT) increases path(MESHD:\"Gastric Small Cell Carcinoma\")",
+                    "bel_statement": "p(HGNC:CHGA) increases path(MESHD:\"Giant cell carcinoma of the lung\")",
+                    "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules."
+                },
+                {
+                    "bel_statement": "p(HGNC:ENO2) increases path(MESHD:\"Giant cell carcinoma of the lung\")",
+                    "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules."
+                },
+                {
+                    "bel_statement": "p(HGNC:NCAM1) increases path(MESHD:\"Giant cell carcinoma of the lung\")",
+                    "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules."
+                },
+                {
+                    "bel_statement": "p(HGNC:S100B) increases path(MESHD:\"Giant cell carcinoma of the lung\")",
+                    "evidence": "GSCC has an immunohistochemical presentation similar to that of lung small cell carcinoma, but it is unique in its positive reactions to synaptophysin, chromogranin A, neuron-specific enolase, CD56, and S-100 protein, indicating the presence of neurosecretory granules."
+                },
+                {
+                    "bel_statement": "p(HGNC:KRT) increases path(MESHD:\"Giant cell carcinoma of the lung\")",
+                    "evidence": "In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56."
+                },
+                {
+                    "bel_statement": "p(HGNC:NCAM1) increases path(MESHD:\"Giant cell carcinoma of the lung\")",
                     "evidence": "In the current case, immunohistochemical examination showed positive expression of cytokeratin and the neuroendocrine marker CD56."
                 }
             ]
@@ -100,15 +120,15 @@
             "text": "Microscopic findings of the gastric tissue. Hematoxylin and eosin stained biopsy specimens show small tumor cells with irregular nuclei and scant cytoplasm (A). Tumor cells stained positive for cytokeratin (B) and CD56 (C), while they were negative for thyroid transcription factor-1 staining (D). Detection of a strong Ki-67 reactivity was observed (E). All the images were captured at x200 magnification.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:KRT) increases path(MESHD:\"Gastric tumor\")",
+                    "bel_statement": "p(HGNC:KRT) positiveCorrelation path(MESHD:\"Gastric Neoplasms\")",
                     "evidence": "Tumor cells stained positive for cytokeratin (B)."
                 },
                 {
-                    "bel_statement": "p(HGNC:NCAM1) increases path(MESHD:\"Gastric tumor\")",
+                    "bel_statement": "p(HGNC:CD56) positiveCorrelation path(MESHD:\"Gastric Neoplasms\")",
                     "evidence": "Tumor cells stained positive for CD56 (C)."
                 },
                 {
-                    "bel_statement": "p(HGNC:MKI67) increases path(MESHD:\"Gastric tumor\")",
+                    "bel_statement": "p(HGNC:MKI67) positiveCorrelation path(MESHD:\"Gastric Neoplasms\")",
                     "evidence": "Detection of a strong Ki-67 reactivity was observed (E)."
                 }
             ]

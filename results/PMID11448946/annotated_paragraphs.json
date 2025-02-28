@@ -1,0 +1,2772 @@
+{
+    "1": {
+        "text": "Adhesion and migration of tumor cells on and through the vascular endothelium are critical steps of the metastatic invasion. We investigated the roles of E-selectin and of stress-activated protein kinase-2 (SAPK2/p38) in modulating endothelial adhesion and transendothelial migration of HT-29 colon carcinoma cells. Tumor necrosis factor (TNF) strongly increased the expression of E-selectin in human umbilical vein endothelial cells (HUVEC). This effect was independent of the activation of SAPK2/p38 induced by TNF. Adhesion of HT-29 cells on a monolayer of HUVEC pretreated with TNF was dependent on E-selectin expression but was independent of SAPK2/p38 activity of both HUVEC and tumor cells. The adhesion of HT-29 cells to E-selectin-expressing HUVEC led to the activation of SAPK2/p38 in the tumor cells as reflected by the increased phosphorylation of the actin-polymerizing factor HSP27 by mitogen-activated protein kinase 2/3, a direct target of SAPK2/p38. Moreover, a recombinant E-selectin/Fc chimera quickly increased the activation of SAPK2/p38 in HT-29 cells. Blocking the increased activity of SAPK2/p38 of HT-29 cells by SB203580 or by expressing a dominant negative form of SAPK2/p38 inhibited their transendothelial migration. Similarly, HeLa cells stably expressing a kinase-inactive mutant of SAPK2/p38 showed a decreased capacity to cross a layer of HUVEC. Overall, our results suggest that the regulation of transendothelial migration of tumor cells involves two essential steps as follows: adhesion to the endothelium through adhesion molecules, such as E-selectin, and increased motogenic potential through adhesion-mediated activation of the SAPK2/p38 pathway.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D004730",
+                "entry_name": "Endothelium, Vascular"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "MESH",
+                "id": "D009361",
+                "entry_name": "Neoplasm Invasiveness"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:50906",
+                "entry_name": "role"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "6873",
+                "entry_name": "MAPK11"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "EFO",
+                "id": "0001193",
+                "entry_name": "HT-29"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:1520",
+                "entry_name": "colon carcinoma"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "34499",
+                "entry_name": "SMIM10L2A"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "MESH",
+                "id": "D002678",
+                "entry_name": "Chimera"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D016424",
+                "entry_name": "Overall"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            }
+        ]
+    },
+    "2": {
+        "text": "Circulating tumor cells attach to adhesive endothelial molecules, and these interactions are pivotal during the metastatic process. E-selectin, whose expression is induced by cytokines and growth factors released by tumor cells, promotes the endothelial adhesion of tumor cells from various origins, and this correlates with metastatic dissemination of tumor cells, e.g. to liver, lung, and bones. The ability of colon tumor cell clones to bind E-selectin on endothelial cells is even directly proportional to their metastatic potential. Moreover, inhibiting the expression of E-selectin with drugs such as cimetidine prevents metastasis. Metastatic colonization also correlates with the expression of other types of endothelial adhesion molecules such as P-selectin and ICAM1. Furthermore, the metastatic potential is associated with the circulating levels of soluble endothelial adhesion molecules shed by activated endothelial cells of cancer patients. The increased metastatic potential associated with adhesion of tumor cells to the endothelium might result from two distinctive processes as follows: local intravascular proliferation of the attached tumor cells or extravasation of these cells following their transendothelial migration into the sub-vascular tissues. In both cases, the underlying biochemical mechanisms remain ill-defined.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D009360",
+                "entry_name": "Neoplastic Cells, Circulating"
+            },
+            {
+                "db": "MESH",
+                "id": "D000269",
+                "entry_name": "Adhesives"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25367",
+                "entry_name": "molecule"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D016207",
+                "entry_name": "Cytokines"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D008099",
+                "entry_name": "Liver"
+            },
+            {
+                "db": "MESH",
+                "id": "D008168",
+                "entry_name": "Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D003110",
+                "entry_name": "Colonic Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:23888",
+                "entry_name": "drug"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:3699",
+                "entry_name": "cimetidine"
+            },
+            {
+                "db": "EFO",
+                "id": "0009708",
+                "entry_name": "metastasis"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "10721",
+                "entry_name": "SELP"
+            },
+            {
+                "db": "HGNC",
+                "id": "5344",
+                "entry_name": "ICAM1"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D014024",
+                "entry_name": "Tissues"
+            }
+        ]
+    },
+    "3": {
+        "text": "Stress-activated protein kinase-2 (SAPK2/p38), a member of the MAP kinase cascade family, transduces the signals generated by stress and growth factors. Like other MAP kinase signaling pathways, the SAPK2/p38 pathway consists of the MAP kinase module, the MAP kinase itself (SAPK2/p38), the MAP kinase kinases (e.g. MKK3, MKK4, and MKK6), and the MAP kinase kinase kinases (e.g. ASK1 and TAK1). Activation of SAPK2/p38 is involved in the synthesis of pro-inflammatory cytokines and activates a number of transcription factors such as MEF2C, ELK-1, and ATF2. It also regulates the activation of cytoplasmic kinases such as MAPKAP kinases 2/3 which leads to phosphorylation of the actin-polymerizing factor HSP27. In endothelial cells, a cell type that expresses high levels of HSP27, SAPK2/p38-mediated phosphorylation of HSP27 triggers actin polymerization and reorganization into stress fibers in response to oxidative stress and VEGF. In the case of VEGF, activation of SAPK2/p38, downstream of VEGFR2, is accompanied by an HSP90-dependent tyrosine phosphorylation of FAK, a key protein kinase involved in the assembly of focal adhesions. SAPK2/38-mediated actin polymerization with FAK-dependent assembly of focal adhesions allow the actin reorganization required for cell migration in various cellular systems.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "6873",
+                "entry_name": "MAPK11"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0000165",
+                "entry_name": "MAPK cascade"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007165",
+                "entry_name": "signal transduction"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAP2K",
+                "entry_name": "MAP2K"
+            },
+            {
+                "db": "HGNC",
+                "id": "6843",
+                "entry_name": "MAP2K3"
+            },
+            {
+                "db": "HGNC",
+                "id": "6844",
+                "entry_name": "MAP2K4"
+            },
+            {
+                "db": "HGNC",
+                "id": "6846",
+                "entry_name": "MAP2K6"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAP3K",
+                "entry_name": "MAP3K"
+            },
+            {
+                "db": "HGNC",
+                "id": "6857",
+                "entry_name": "MAP3K5"
+            },
+            {
+                "db": "HGNC",
+                "id": "6859",
+                "entry_name": "MAP3K7"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0009058",
+                "entry_name": "biosynthetic process"
+            },
+            {
+                "db": "MESH",
+                "id": "D016207",
+                "entry_name": "Cytokines"
+            },
+            {
+                "db": "MESH",
+                "id": "D014157",
+                "entry_name": "Transcription Factors"
+            },
+            {
+                "db": "HGNC",
+                "id": "6996",
+                "entry_name": "MEF2C"
+            },
+            {
+                "db": "HGNC",
+                "id": "3321",
+                "entry_name": "ELK1"
+            },
+            {
+                "db": "HGNC",
+                "id": "784",
+                "entry_name": "ATF2"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030041",
+                "entry_name": "actin filament polymerization"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0001725",
+                "entry_name": "stress fiber"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006979",
+                "entry_name": "response to oxidative stress"
+            },
+            {
+                "db": "FPLX",
+                "id": "VEGF",
+                "entry_name": "VEGF"
+            },
+            {
+                "db": "FPLX",
+                "id": "VEGF",
+                "entry_name": "VEGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "6307",
+                "entry_name": "KDR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "HGNC",
+                "id": "9611",
+                "entry_name": "PTK2"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005925",
+                "entry_name": "focal adhesion"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030041",
+                "entry_name": "actin filament polymerization"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005925",
+                "entry_name": "focal adhesion"
+            },
+            {
+                "db": "FPLX",
+                "id": "Actin",
+                "entry_name": "Actin"
+            }
+        ]
+    },
+    "4": {
+        "text": "In the present study, we show that E-selectin mediates adhesion of colon carcinoma HT-29 cells to endothelial cells. This contributes to activate the SAPK2/p38 pathway in the tumor cells and enhances their motogenic potential and transendothelial migration.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:1520",
+                "entry_name": "colon carcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            }
+        ]
+    },
+    "5": {
+        "text": "E-Selectin-dependent Adhesion of Tumor Cells to Endothelial Cells Is Independent of SAPK2/p38 Activity\u2014In primary cultures of HUVEC, TNF induced a strong activation of the expression of endothelial adhesion proteins that include E-selectin and ICAM. This induction was maximal after 4 h and required de novo protein synthesis being inhibited by cycloheximide. The expression of E-selectin correlated with an increased adhesion of both colon carcinoma HT-29 cells and HL-60 leukemia cells to a monolayer of HUVEC. After 30 min, the number of HT-29 cells that adhered to HUVEC-expressing E-selectin, following activation with TNF, was 5-fold higher than when adhering to inactivated HUVEC. Similarly, HT-29 cells quickly adhered to immobilized recombinant human E-selectin/Fc chimera. An anti-E-selectin neutralizing antibody, but not a matched isotype antibody, decreased the adhesion of both cancer cell types to the activated endothelium. Cycloheximide also inhibited the adhesion of HT-29 cells, which is consistent with the fact that adhesion required de novo E-selectin synthesis. These results indicate that E-selectin expression is a major determinant in the adhesion of tumor cells to HUVEC.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "FPLX",
+                "id": "ICAM",
+                "entry_name": "ICAM"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0009058",
+                "entry_name": "biosynthetic process"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27641",
+                "entry_name": "cycloheximide"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "DOID",
+                "id": "DOID:1520",
+                "entry_name": "colon carcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D018922",
+                "entry_name": "HL-60 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D007938",
+                "entry_name": "Leukemia"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D002678",
+                "entry_name": "Chimera"
+            },
+            {
+                "db": "MESH",
+                "id": "D057134",
+                "entry_name": "Antibodies, Neutralizing"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27641",
+                "entry_name": "cycloheximide"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0009058",
+                "entry_name": "biosynthetic process"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            }
+        ]
+    },
+    "6": {
+        "text": "TNF also induced in HUVEC, a marked time- and dose-dependent stimulation of SAPK2/p38 that is characterized by an increased activity of MAPKAP K2/3, a direct physiological target of SAPK2/p38. Maximal stimulation was obtained after a 10-min exposure to concentrations of TNF equal to or higher than 5 ng/ml. The pyridinylimidazole derivative SB203580, in concentrations of 1\u20135 \u00b5M, completely inhibited the TNF-induced increase in SAPK2/p38 activity as reflected by the inhibition of MAPKAP K2/3 activation in cells exposed to TNF. In contrast, SB203580 had no effect on the activity of SAPK1/JNK that was co-activated with SAPK2/p38 in the presence of TNF. Inhibiting the TNF-induced increase in SAPK2/p38 activity by SB203580 did not impair the expression of E-selectin, which suggested that activation of SAPK2/p38 was not required for the expression of this adhesion molecule. Accordingly, blocking the SAPK2/p38 activity of HUVEC with SB203580 did not inhibit the adhesion of HT-29 cells to HUVEC.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0000487",
+                "entry_name": "exposure"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:19227",
+                "entry_name": "2'-O-methyluridine"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            }
+        ]
+    },
+    "7": {
+        "text": "Overall, these results indicate that activation of SAPK2/p38 is not necessary for the expression of E-selectin by endothelial cells nor for the adhesion of tumor cells to endothelial cells.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D016424",
+                "entry_name": "Overall"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            }
+        ]
+    },
+    "8": {
+        "text": "E-Selectin Expression by Endothelial Cells and Activation of SAPK2/p38 in the Tumor Cells Are Both Required for the Transendothelial Migration of Tumor Cells\u2014E-selectin-dependent adhesion of leukocytes to the endothelium is a prerequisite to their transendothelial migration during the inflammatory process. We thus verified whether E-selectin-mediated adhesion was required for the migration of tumor cells across an endothelial layer separating the upper and lower compartments of a Boyden-modified chamber. HT-29 cells have by themselves a very low motogenic potential, being unable to traverse a polycarbonate membrane, even following the addition of FBS in the lower chamber. However, HT-29 cells migrated across an endothelial layer of HUVEC, and this migration was enhanced by pretreating HUVEC with TNF. This increase in cell migration was reduced down to control levels by pretreating HUVEC with the anti-E-selectin antibody indicating the requirement of E-selectin expression and E-selectin-dependent adhesion for HT-29 cell migration across an endothelial cell layer.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D007962",
+                "entry_name": "Leukocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53201",
+                "entry_name": "polycarbonate macromolecule"
+            },
+            {
+                "db": "HGNC",
+                "id": "20442",
+                "entry_name": "FBRS"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            }
+        ]
+    },
+    "9": {
+        "text": "We recently reported that activation of SAPK2/p38, by leading to the phosphorylation of the actin-polymerizing factor HSP27, is importantly involved in transducing the motogenic signal elicited by VEGF in endothelial cells. Moreover, SAPK2/p38 was highly reactive in HT-29 cells being activated by cytokines, such as TNF, that are associated with the neoplastic process. SB203580 inhibited this increased SAPK2/p38 activity in response to TNF. From these observations, we hypothesized that E-selectin-mediated adhesion could activate the SAPK2/p38-HSP27 pathway in the tumor cells and that this could trigger their transendothelial migration.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "FPLX",
+                "id": "VEGF",
+                "entry_name": "VEGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D016207",
+                "entry_name": "Cytokines"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0034612",
+                "entry_name": "response to tumor necrosis factor"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            }
+        ]
+    },
+    "10": {
+        "text": "We then examined whether E-selectin-mediated adhesion could activate the SAPK2/p38/HSP27 pathway. HT-29 cells were transiently transfected with Myc-tagged human HSP27 and LT-tagged MAPKAP K2 and then were put in suspension and added to plastic only (Petri dish), to control HUVEC or to HUVEC-expressing E-selectin following activation with TNF. Thirty minutes after adhesion, cell extracts were prepared from adhering cells, and phosphorylation of HSP27 was evaluated by IEF electrophoresis to separate the four major isoforms of HSP27, A\u2014D, that represent unphosphorylated, monophosphorylated, biphosphorylated, and triphosphorylated variants of the protein. Results showed that adhesion of HT-29 cells to HUVEC-expressing E-selectin was associated with a 3.5-fold increase in the proportion of phosphorylated C form in comparison with the proportion of C form found in HT-29 cells that have adhered to plastic or to untreated HUVEC. This was associated with a proportionally significant decrease in the amount of the unphosphorylated A form in the HT-29 cells adhering to E-selectin-expressing HUVEC. Phosphorylated B form was present in any of the adhering conditions, but its proportion did not vary. Expression of E-selectin in HUVEC has been induced by pretreating the cells for 90 min with 10 ng/ml TNF followed by a medium change and a further 2.5-h incubation in fresh medium. Hence, it is possible that a fraction of TNF exogenously added to HUVEC to trigger synthesis of E-selectin remained bound to HUVEC or in solution in the fresh culture medium at the time of adding HT-29 cells to activated HUVEC. Since TNF activated SAPK2/p38 in HT-29 cells, we thus considered the eventuality that residual TNF contributed to increase the phosphorylation of HSP27 in the adherent HT-29 cells. To exclude this possibility, enzyme-linked immunosorbent assays (Quantikine from R & D Systems) were performed to detect TNF bound to HUVEC as well as remaining in the fresh culture medium. We found that only trace amounts of TNF (4.2 pg/5 x 10^5 cells) were associated with HUVEC, whereas 0.25 ng/ml were found in the fresh culture medium. In both cases, these concentrations were below the minimal concentration of TNF (0.5 \u00b5g/ml) that was required to activate SAPK2/p38 in HT-29 cells. We thus concluded that was unlikely that residual TNF was involved in activating SAPK2/p38 in HT-29 cells adhering to HUVEC. Accordingly, addition of a neutralizing anti-TNF, in concentration (0.5 \u00b5g/ml) that totally inhibited the activation of SAPK2/p38 by 1 ng/ml TNF, did not impair the increased phosphorylation of HSP27 in HT-29 adhering to HUVEC. These results support the hypothesis that the E-selectin-dependent adhesion of HT-29 tumor cells to endothelial cells activates the SAPK2/p38-HSP27 pathway in the tumor cells. In fact, the activity of SAPK2/p38 of HT-29 cells was quickly increased by adhesion of the cells to immobilized recombinant human E-selectin/Fc chimera. Reciprocally, addition of recombinant human E-selectin/Fc chimera, in concentrations (1 \u00b5g/ml) that increased adhesion of HT-29 by 10-fold in comparison to bovine serum albumin controls, activated in these cells the SAPK2/38 in a time-dependent manner with a peak of activation of 6.5-fold after 5 min. Together, these findings indicate that E-selectin did not only mediate the adhesion of HT-29 cells to HUVEC but that it could also act as agonistic ligand that activated the SAPK2/p38-HSP27 motogenic pathway in the tumor cells.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "HGNC",
+                "id": "13686",
+                "entry_name": "RBPJP3"
+            },
+            {
+                "db": "MESH",
+                "id": "D013535",
+                "entry_name": "Suspensions"
+            },
+            {
+                "db": "MESH",
+                "id": "D010969",
+                "entry_name": "Plastics"
+            },
+            {
+                "db": "MESH",
+                "id": "D004057",
+                "entry_name": "Hyperostosis, Diffuse Idiopathic Skeletal"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "MESH",
+                "id": "D004586",
+                "entry_name": "Electrophoresis"
+            },
+            {
+                "db": "MESH",
+                "id": "D020033",
+                "entry_name": "Protein Isoforms"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "HGNC",
+                "id": "13633",
+                "entry_name": "ADIPOQ"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D010969",
+                "entry_name": "Plastics"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0009058",
+                "entry_name": "biosynthetic process"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:75958",
+                "entry_name": "solution"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D004797",
+                "entry_name": "Enzyme-Linked Immunosorbent Assay"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "EFO",
+                "id": "0001193",
+                "entry_name": "HT-29"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "EFO",
+                "id": "0001193",
+                "entry_name": "HT-29"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D002678",
+                "entry_name": "Chimera"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D002678",
+                "entry_name": "Chimera"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "EFO",
+                "id": "0001193",
+                "entry_name": "HT-29"
+            },
+            {
+                "db": "MESH",
+                "id": "D012710",
+                "entry_name": "Serum Albumin, Bovine"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "16",
+                "entry_name": "SERPINA3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            }
+        ]
+    },
+    "11": {
+        "text": "Impairing E-selectin-mediated activation of SAPK2p38 and HSP27 phosphorylation of HT-29 cells with SB203580 or by expressing a dominant negative form of SAPK2/p38 inhibited their migration across activated HUVEC. This supports the hypothesis that E-selectin-mediated activation of the SAPK2/p38-HSP27 pathway in HT-29 cells is determinantly involved in triggering the transendothelial migration of these cells. The role of SAPK2/p38 as a motogenic pathway in tumor cells was further supported by the finding that HeLa cells stably expressing a kinase-inactive mutant form of SAPK2/p38 had a lower capacity than the parental cells to migrate across a monolayer of HUVEC. Intriguingly, the adhesion of both types of HeLa cells was not increased when added to HUVEC stimulated with TNF. These findings confirmed the results that SAPK2/p38 was not involved in mediating adhesion of cancer cells to HUVEC, and they indicated that, conversely to HT-29 cells, adhesion of HeLa cells to HUVEC did not require the expression of E-selectin or of other adhesion molecules that depend on TNF exposure. This raises the interesting possibility that activation of SAPK2/p38 of the cancer cells may be a common motogenic event that involves different types of adhesive interactions that may differ from tumor cells to tumor cells and from endothelial cells from different origins.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D012816",
+                "entry_name": "Signs and Symptoms"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "EFO",
+                "id": "0000487",
+                "entry_name": "exposure"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0009629",
+                "entry_name": "event"
+            },
+            {
+                "db": "MESH",
+                "id": "D000269",
+                "entry_name": "Adhesives"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            }
+        ]
+    },
+    "12": {
+        "text": "Adhesion of circulating tumor cells to vascular endothelium and their subsequent transendothelial migration are two important steps associated with extravasation of tumor cells and metastatic spreading. Here, we obtained results that suggest that E-selectin adhesion of tumor cells to endothelial cells contributes to activate the motogenic SAPK2/p38 pathway in the tumor cells, which triggers their transendothelial migration.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009360",
+                "entry_name": "Neoplastic Cells, Circulating"
+            },
+            {
+                "db": "MESH",
+                "id": "D004730",
+                "entry_name": "Endothelium, Vascular"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            }
+        ]
+    },
+    "13": {
+        "text": "E-selectin is not expressed in unstimulated endothelial cells. However, its expression is quickly and transiently turned on following activation of endothelial cells with TNF. The induction of E-selectin expression results from the transcriptional activation of the E-selectin gene. Three pathways converge on the activation of the E-selectin gene promoter following stimulation of endothelial cells with TNF, the NF-\u03baB pathway, and the SAPK1/JNK and SAPK2/p38 MAP kinase pathways. Both the SAPK1/JNK and SAPK2/p38 pathways mediate increases in E-selectin gene promoter activity through activation of the transcription factors ATF2 and c-Jun. Activation of the NF-\u03baB and SAPK1/JNK pathways are required for full activation of the E-selectin gene. In contrast, the SAPK2/p38-mediated activation of the E-selectin gene is ancillary and dispensable for full expression of the protein since we found that inhibiting SAPK2/p38 with SB203580 did not inhibit the expression of E-selectin. This suggests that activation of ATF2 and c-Jun by JNK can rescue the inhibition that results from exposure of cells to SB203580.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D015533",
+                "entry_name": "Transcriptional Activation"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "FPLX",
+                "id": "NFkappaB",
+                "entry_name": "NFkappaB"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "FPLX",
+                "id": "MAPK",
+                "entry_name": "MAPK"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D014157",
+                "entry_name": "Transcription Factors"
+            },
+            {
+                "db": "HGNC",
+                "id": "784",
+                "entry_name": "ATF2"
+            },
+            {
+                "db": "HGNC",
+                "id": "6204",
+                "entry_name": "JUN"
+            },
+            {
+                "db": "FPLX",
+                "id": "NFkappaB",
+                "entry_name": "NFkappaB"
+            },
+            {
+                "db": "HGNC",
+                "id": "26808",
+                "entry_name": "DYNAP"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "26808",
+                "entry_name": "DYNAP"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "784",
+                "entry_name": "ATF2"
+            },
+            {
+                "db": "HGNC",
+                "id": "6204",
+                "entry_name": "JUN"
+            },
+            {
+                "db": "FPLX",
+                "id": "JNK",
+                "entry_name": "JNK"
+            },
+            {
+                "db": "EFO",
+                "id": "0000487",
+                "entry_name": "exposure"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            }
+        ]
+    },
+    "14": {
+        "text": "The best characterized physiological role for selectins is their involvement in the adhesion of leukocytes to activated endothelial cells during the inflammatory process. This adhesion is the first step that underlies the transendothelial migration of leukocytes to the inflammatory sites and to the subsequent destruction of the invading pathogens. Numerous studies have also implicated endothelial adhesion molecules and especially E-selectin in adhesion of carcinoma cells to vascular endothelial cells. The necessity of E-selectin expression for the adhesion of tumor cells from solid (HT-29) and hematological tumors (HL-60) is supported by our observation that pretreating endothelial cells with an anti-E-selectin neutralizing antibody, but not a matched isotype antibody, inhibited in a dose-dependent manner the adhesion of both tumor cell lines to HUVEC. The binding of tumor cells to endothelial cells is clinically significant, being associated with metastasis. Notably, the ability of colon tumor cell clones to bind E-selectin expressed by activated endothelial cells is directly proportional to their metastatic potential. Moreover, drugs like cimetidine, which inhibit the expression of E-selectin, prevent metastasis.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "12703",
+                "entry_name": "BEST1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52211",
+                "entry_name": "physiological role"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030246",
+                "entry_name": "carbohydrate binding"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D007962",
+                "entry_name": "Leukocytes"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "HGNC",
+                "id": "9657",
+                "entry_name": "PTPN5"
+            },
+            {
+                "db": "MESH",
+                "id": "D007962",
+                "entry_name": "Leukocytes"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D002277",
+                "entry_name": "Carcinoma"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0001193",
+                "entry_name": "HT-29"
+            },
+            {
+                "db": "MESH",
+                "id": "D019337",
+                "entry_name": "Hematologic Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D018922",
+                "entry_name": "HL-60 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D057134",
+                "entry_name": "Antibodies, Neutralizing"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D045744",
+                "entry_name": "Cell Line, Tumor"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0009708",
+                "entry_name": "metastasis"
+            },
+            {
+                "db": "MESH",
+                "id": "D003110",
+                "entry_name": "Colonic Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:23888",
+                "entry_name": "drug"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:3699",
+                "entry_name": "cimetidine"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "EFO",
+                "id": "0009708",
+                "entry_name": "metastasis"
+            }
+        ]
+    },
+    "15": {
+        "text": "Two mechanisms may underlie the metastatic development in response to adhesion of tumor cells to the endothelium as follows: intravascular proliferation of attached tumor cells or extravasation of these cells. In the latter case, this implicates numerous factors that may work separately or in combination. This implies among others that circulating tumor cells have a higher intrinsic motogenic potential, that they respond to circulating motogenic signals, or that contact of tumor cells with endothelial cells activates the motogenic potential of the tumor cells. A major conclusion of our study is to provide evidence that E-selectin-mediated adhesion of HT-29 tumor cells to HUVEC increased the activity of the motogenic SAPK2/p38 pathway of the tumor cells enabling their transendothelial migration. Two lines of evidence support this conclusion. First, addition of HT-29 cells to HUVEC-expressing E-selectin led to an increased phosphorylation of HSP27, as indicated by the significantly enhanced amount of HSP27-phosphorylated C form in the HT-29 cells that adhered to TNF-treated HUVEC in comparison to those that adhered only to plastic or to untreated HUVEC. HSP27 is an actin-polymerizing factor whose phosphorylation downstream of the SAPK2/p38 pathway contributes with FAK phosphorylation to induce the actin reorganization that is required for cell migration. Second, inhibiting SAPK2/p38 activity and phosphorylation of HSP27 of HT-29 cells with SB203580 or with an inactive kinase mutant of SAPK2/p38 resulted in an inhibition of the transendothelial migration of the tumor cells. The finding that recombinant human E-selectin/Fc chimera activates SAPK2/p38 indicates that E-selectin acts as an agonist that binds to counter-receptors at the surface of tumor cells to initiate a cascade of events leading to SAPK2/p38 activation. The tumor cells binding to E-selectin involves oligosaccharides such as sialyl Lewis a and x presented by counter-receptors for E-selectin. Binding of E-selectin to these receptors initiates signaling events involving tyrosine phosphorylation of various proteins. One such potential E-selectin receptor on HT-29 cells might be E-selectin ligand-1, a member of the fibroblast growth factor tyrosine kinase receptor family that is expressed by various tumor cell lines including myeloid cells. SAPK2/p38 is strongly activated by VEGF binding to VEGFR2, another tyrosine kinase receptor. E-selectin ligand-1 is thus possibly implicated as a counter-receptor responsible for binding of E-selectin and for transmitting the signal that triggers activation of SAPK2/p38. The capacity of selectins to activate SAPK2/p38 has recently been reported in a study that showed that clustering of L-selectin in neutrophils activates SAPK2/p38, which triggers neutrophil degranulation. It remains possible that a secondary adhesion molecule could contribute with E-selectin to trigger adhesion-mediated signaling to SAPK2/p38. In this context, the role of ICAM that is co-expressed with E-selectin in endothelial cells activated by TNF remains to be investigated. Integrins are importantly involved in transducing signals initiated by cell-cell adhesion. For example, tumor cell-bound \u03b14 integrin strengthens adhesion of tumor cells to the endothelium and promotes transendothelial migration. Moreover, activation of SAPK2/p38 by adhesion of osteosarcoma cells onto collagen is mediated by \u03b12\u03b21 integrin. Thus, integrins may act jointly with selectins to regulate the SAPK2/p38-mediated motogenic signal elicited in tumor cells when they adhere to endothelial cells.",
+        "annotations": [
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0008283",
+                "entry_name": "cell population proliferation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D014937",
+                "entry_name": "Work"
+            },
+            {
+                "db": "MESH",
+                "id": "D009360",
+                "entry_name": "Neoplastic Cells, Circulating"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "EFO",
+                "id": "0001193",
+                "entry_name": "HT-29"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "34499",
+                "entry_name": "SMIM10L2A"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D010969",
+                "entry_name": "Plastics"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "HGNC",
+                "id": "9611",
+                "entry_name": "PTK2"
+            },
+            {
+                "db": "FPLX",
+                "id": "Actin",
+                "entry_name": "Actin"
+            },
+            {
+                "db": "HGNC",
+                "id": "5246",
+                "entry_name": "HSPB1"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:90705",
+                "entry_name": "SB 203580"
+            },
+            {
+                "db": "MESH",
+                "id": "D010770",
+                "entry_name": "Phosphotransferases"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D012816",
+                "entry_name": "Signs and Symptoms"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D002678",
+                "entry_name": "Chimera"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:48705",
+                "entry_name": "agonist"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:50699",
+                "entry_name": "oligosaccharide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:61793",
+                "entry_name": "alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-[alpha-L-Fuc-(1->4)]-D-GlcNAc"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "MESH",
+                "id": "D019073",
+                "entry_name": "HT29 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "4316",
+                "entry_name": "GLG1"
+            },
+            {
+                "db": "MESH",
+                "id": "D005346",
+                "entry_name": "Fibroblast Growth Factors"
+            },
+            {
+                "db": "MESH",
+                "id": "D020794",
+                "entry_name": "Receptor Protein-Tyrosine Kinases"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "MESH",
+                "id": "D045744",
+                "entry_name": "Cell Line, Tumor"
+            },
+            {
+                "db": "MESH",
+                "id": "D022423",
+                "entry_name": "Myeloid Cells"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038085",
+                "entry_name": "vascular endothelial growth factor binding"
+            },
+            {
+                "db": "HGNC",
+                "id": "6307",
+                "entry_name": "KDR"
+            },
+            {
+                "db": "MESH",
+                "id": "D020794",
+                "entry_name": "Receptor Protein-Tyrosine Kinases"
+            },
+            {
+                "db": "HGNC",
+                "id": "4316",
+                "entry_name": "GLG1"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030246",
+                "entry_name": "carbohydrate binding"
+            },
+            {
+                "db": "MESH",
+                "id": "D016000",
+                "entry_name": "Cluster Analysis"
+            },
+            {
+                "db": "MESH",
+                "id": "D019041",
+                "entry_name": "L-Selectin"
+            },
+            {
+                "db": "MESH",
+                "id": "D009504",
+                "entry_name": "Neutrophils"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0043312",
+                "entry_name": "neutrophil degranulation"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "FPLX",
+                "id": "ICAM",
+                "entry_name": "ICAM"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0098609",
+                "entry_name": "cell-cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "5461",
+                "entry_name": "IGBP1"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D012516",
+                "entry_name": "Osteosarcoma"
+            },
+            {
+                "db": "FPLX",
+                "id": "Collagen",
+                "entry_name": "Collagen"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "FPLX",
+                "id": "Integrins",
+                "entry_name": "Integrins"
+            },
+            {
+                "db": "HGNC",
+                "id": "16",
+                "entry_name": "SERPINA3"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0030246",
+                "entry_name": "carbohydrate binding"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            }
+        ]
+    },
+    "16": {
+        "text": "Interestingly, adhesion of HeLa cells to HUVEC is not markedly increased following treatment of endothelial cells with TNF suggesting that E-selectin does not have a major role in the process. Nevertheless, transendothelial migration of HeLa cells also required SAPK2/p38 activity since HeLa cells stably expressing a kinase-inactive mutant of SAPK2/p38 showed a decreased capacity to cross the endothelial layer compared with the parental cells. These observations suggest the following: first, activation of SAPK2/p38 might be a common mechanism that triggers transendothelial migration of tumor cells following their adhesion to the endothelium, and second, different endothelial adhesive molecules may contribute to activate this pathway. Endothelial adhesive molecules differ between endothelial cells from different origins, and the specificity of the cancer cell-endothelial cell interactions may well constitute the basis for the organ specificity of metastatic colonization. Notably, hepatic colonization by metastatic cells requires the expression of E-selectin by liver sinusoidal endothelial cells, whereas pulmonary metastasis rather requires the expression of the lung endothelial cell adhesion molecule, LuECAM.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D061307",
+                "entry_name": "Human Umbilical Vein Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "11892",
+                "entry_name": "TNF"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D006367",
+                "entry_name": "HeLa Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "MESH",
+                "id": "D000269",
+                "entry_name": "Adhesives"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25367",
+                "entry_name": "molecule"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D000269",
+                "entry_name": "Adhesives"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25367",
+                "entry_name": "molecule"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D009928",
+                "entry_name": "Organ Specificity"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D008099",
+                "entry_name": "Liver"
+            },
+            {
+                "db": "MESH",
+                "id": "D042783",
+                "entry_name": "Endothelial Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0009708",
+                "entry_name": "metastasis"
+            },
+            {
+                "db": "MESH",
+                "id": "D008168",
+                "entry_name": "Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "17474",
+                "entry_name": "ESAM"
+            }
+        ]
+    },
+    "17": {
+        "text": "In summary, we have shown here that transendothelial migration of tumor cells requires the expression of endothelial adhesion molecules such as E-selectin, which are necessary to enable tumor cells to adhere to the endothelium adhesion and which contribute to activate the motogenic pathway SAPK2/p38-HSP27 in the tumor cells. This might represent a pivotal and insidious paracrine mechanism of metastatic spreading since tumor cells may activate the expression of E-selectin.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0004521",
+                "entry_name": "adhesion factor"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D004727",
+                "entry_name": "Endothelium"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0007155",
+                "entry_name": "cell adhesion"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "HGNC",
+                "id": "10718",
+                "entry_name": "SELE"
+            }
+        ]
+    }
+}
