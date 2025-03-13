@@ -1,0 +1,388 @@
+Akt2 Negatively Regulates Assembly of the POSH-MLK-JNK Signaling Complex* [[title]]
+
+Received for publication, July 9, 2003, and in revised form, September 11, 2003 Published, JBC Papers in Press, September 21, 2003, DOI 10.1074/jbc.M307357200
+
+Claudia Figueroa, Samantha Tarras, Jennifer Taylor, and Anne B. Vojtek# From the Department of Biological Chemistry, University of Michigan, Ann Arbor, Michigan 48109
+
+We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2. A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced- binding to MLK3, and this increase in binding is accom- panied by increased activation of the JNK signaling pathway. In addition, we show that the association of MLK3 with POSH is increased upon inhibition of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway. Thus, the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Fur- ther, the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phospho- rylates MLK3; phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.
+
+The Akt/protein kinase B serine/threonine kinases regulate cell growth, differentiation, survival, and metabolism (1-3). The three family members, Akt1, Akt2, and Akt3, contain an N-terminal pleckstrin homology (PH)1 domain, a central kinase domain, and a C-terminal regulatory domain. Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1 and T309 and S474 of Akt2. Multiple substrates for the Akt kinases have been identified and include glycogen synthase kinase a/B (4), Raf-1, and B-Raf (5-7), mixed lineage kinase 3 (MLK3) (8), mitogen-activated protein kinase kinase 4 (MKK4, also SEK1) (9), apoptosis signal-regulated kinase 1 (ASK1) (10), and fork- head transcription factors (11).
+
+The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK (12, 13). MAPKKKs for the JNK signaling pathway include mixed-lineage
+
+kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phospho- rylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress (12, 13). In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade (12, 14).
+
+Akt regulates the JNK signaling pathway by multiple mech- anisms. First, Akt can phosphorylate and negatively regulate the MAPKKKs MLK3 and ASK1 (8, 10). Second, Akt phospho- rylates and negatively regulates the MAPKK MKK4 (9). In addition, Akt interacts with the JNK interacting protein 1 (JIP1) scaffold and inhibits the ability of JIP1 to form active JNK signaling complexes (15). The binding of Akt to JIP1 is isoform specific; Akt1 but not Akt2 interacts with JIP1 (15). Thus, Akt can inhibit one or more steps within the JNK sig- naling pathway, depending on the complement of components that form the functional JNK signaling module.
+
+In addition to JIP1, POSH (Plenty of SH3s) acts as a scaffold for the JNK pathway. POSH was identified on the basis of its ability to bind activated Rac in a yeast two-hybrid screen (16). Studies in mammalian cells demonstrated that ectopic expres- sion of POSH activated the JNK pathway and promoted nu- clear translocation of NF-KB. POSH has four SH3 domains. The first two SH3 domains activate the JNK pathway; the second two SH3 domains promote NF-KB translocation. The translo- cation of NF-KB was observed in POSH injected cells as well as in adjacent, uninjected cells, suggesting that POSH regulates NF-KB translocation indirectly. A subsequent study demon- strated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2 (17). Thus POSH links activated Rac with the JNK kinase cascade and facilitates the formation of a functional JNK signaling module.
+
+In this report, we demonstrate that POSH binds Akt2, but not Akt1, in yeast and that POSH preferentially binds Akt2 in mammalian cells. Akt2 interacts with the third SH3 domain of POSH. A POSH mutant that is unable to bind Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK sig- naling pathway. Consistent with this observation, we find that the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002. These results indicate that the assembly of an ac- tive JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, these results support a model in which the functional consequence of Akt2 binding to the POSH scaffold is to promote the disassembly of the complex, in part, through Akt-mediated phosphorylation of the MAPKKK MLK3.
+
+EXPERIMENTAL PROCEDURES [[sectionHeading]]
+
+Plasmids-The yeast expression vectors pLex-APHAkt2 and pLex- APHAkt1 express the LexA DNA binding domain fused to murine Akt2 (amino acids 132-481) or human Akt1 (amino acids 130-480) in pLex- Ade2 (18). pVP16-Akt2 expresses a nuclear localized (NLS) VP16 acti- vation domain fused to Akt2 (full-length) in pVP16 (18). Proline mu- tants of pVP16-Akt2 were generated using the QuikChange mutagenesis strategy (Stratagene) and gene-specific oligonucleotides. The mammalian expression vectors pCS2+MT-Akt1 and pCS2+MT- Akt2 express six copies of the Myc epitope tag fused in-frame to full- length Akt1 or Akt2 proteins. pCS2+HA-Akt2 expresses three copies of the HA epitope fused to full-length Akt2. The pCS2+RacV12 expression vector was constructed by PCR amplification of the RacV12 cDNA (from pKH3, Ian Macara) with Expand (Roche Applied Science) and gene- specific oligonucleotide primers. The CS2+ expression vectors have been described (19). Mutations in the POSH SH3 domain (E470Q and W489A) were generated using the QuikChange strategy and gene spe- cific oligonucleotides. The template for the mutagenesis reaction was PVP16-POSH 447-550, which expresses amino acids 447-550 of POSH fused to the NLS-VP16 activation domain. Wild-type and mutant POSH proteins were expressed as fusion proteins in HEK293 cells to GST in the expression vector pEBG-3XHV (provided by KunLiang Guan). Full- length POSH, wild-type or W489A, was subcloned into pCS2+MT for expression studies in mammalian cells. pRK5-MT-POSH was provided by Alan Hall (16). pRK5N-Flag-MLK3 expression vectors were obtained from Kathy Gallo and Channing Der (20, 21).
+
+Yeast Two-hybrid Assays-A yeast two-hybrid screen of a 9.5/10.5 day mouse embryo cDNA library with Lex-APHAkt2 as bait was per- formed as described (18). Among the isolates was ST33 (pVP16-POSH 447-550), which interacted with Akt2 but not Akt1 or Lamin (negative control). To assess protein-protein interactions by yeast two-hybrid analysis, the L40 yeast strain was transformed with plasmids express- ing fusions to the LexA DNA binding domain (in pBTM116, pLex-Ade or pLex-Ade-Not) together with plasmids expressing fusions to a nuclear localized VP16 activation domain (pVP16). Transactivation of the HIS3 reporter was determined by plating 10-fold serial dilutions of yeast (from an OD600 of 0.1), grown overnight in medium selective for trans- formed plasmids (YC-WL), to YC-WHULK and YC-WL plates. For all yeast experiments using Lex-APHAkt2, 2 mM 3-AT was added to -WHULK plates to abolish bait specific transactivation of the reporter. Figs. 1A, 3B, and 4C show representative experiments. Each experi- ment was repeated twice, and two independent transformants were tested in each experiment.
+
+Co-association Assays-HEK293 cells were plated to 2.2 × 105 cells per 35-mm dish and transiently transfected using calcium phosphate with expression vectors for wild-type or mutant GST-POSH-(447-550) or GST (0.5 µg) and expression vectors for MT-Akt1, MT-Akt2, or MT-PRA1 (1 µg). Cells were lysed in Triton immunoprecipitation buffer (10 mM HEPES, pH 7.4, 150 mM NaCl, 1% Triton X-100, 2 mM EDTA, 0.1% ß-mercaptoethanol, 1% aprotinin, 50 mM NaF, 1 mM phenylmeth- ylsulfonyl fluoride) 24 h after transfection. GST or GST-POSH and co-associated proteins were captured on glutathione-Sepharose resin (Amersham Biosciences). Proteins were resolved by SDS-PAGE and analyzed by Western blot analysis with antibodies directed against the epitope tags on the fusion proteins, «-GST (gift of Jonathan Cooper) and a-Myc 9E10 (harvested from hybridoma cells). Figs. 1B and 3C were performed three and two times, respectively. The POSH/MLK3 co- association assays were performed essentially as described with the following exceptions: 1) HEK 293 cells were plated to a density of 1 × 106 cells per 60-mm dish and transfected 6-7 h later with pRK5.1N- Flag-MLK3 (3 µg) and CS2+MT-POSH (3 µg) or CS2+MT vector con- trol; 2) Myc epitope-tagged proteins were recovered from lysates by immunoprecipitation using an anti-Myc monoclonal antibody (CST); and, 3) cells were starved overnight in 0.1% fetal bovine serum and, as noted, treated with 25 AM LY294002 for two hours prior to insulin treatment (20 µg/ml) for 10 min. In Fig. 6, HEK293 cells were trans- fected with expression vectors for GST-POSH 447-550 (in A, 0.6 µg or 1.8 µg; in B, 0.23 µg), Flag-MLK3 (in A, 0.6 µg; in B, 0.23 µg), and eGFP (control, in A, 0.6 µg). Antibodies for Western analysis were a-Myc (BabCo, CST), a-FLAG (Sigma), «-phospho-c-Jun (CST), and @-phos- pho-(Ser/Thr) Akt substrate antibody (CST). Representative data are shown in Figs. 5B (which was repeated three times), 5A, 5C, 6B (two times each), and 6A (four times).
+
+Indirect Immunofluorescence-COS cells were plated to a density of 0.8-1.5 × 105 cells on polylysine-coated coverslips and transiently transfected using FuGENE 6 (Roche Applied Science) ~24 h after plating. Cells were transfected with 0.7 µg of pEBG-3XHV-GST-POSH
+
+(447-550), CS2+MT-Akt2, and HA-RacV12 (Fig. 2A) or with 1 µg pRK5-MT-POSH-(1-892), CS2+HA-Akt2, and RacV12 (no tag) (Fig. 2B). The caspase inhibitor Z-VAD-FMK (1 µM, Calbiochem) was added to cells transfected with full-length POSH. Cells were starved overnight in Dulbecco's modified Eagle's medium-0.1% fetal bovine serum and treated with insulin (20 µg/ml) prior to fixation. Cells were fixed with 3.7% paraformaldehyde in phosphate-buffered saline (PBS), permeabi- lized with 0.1% Triton X-100, blocked with 10% goat serum, and then incubated with appropriate primary and secondary antibodies. Primary antibodies: «-Myc (CST), a-HA (BabCo), and @-GST. Secondary anti- bodies: Cy3 (Jackson ImmunoResesarch Laboratories, Inc) or Alexa488 (Molecular Probes) conjugated antibodies. The cells were viewed on a Nikon Eclipse E800 microscope and photographed with a Hamamatsu Orca II digital camera. The figures were prepared using Photoshop 7.0 (Adobe); relative intensities were adjusted to visualize spatial overlap.
+
+RESULTS [[sectionHeading]]
+
+A yeast two-hybrid screen of a mouse embryo cDNA library was performed to identify proteins that interact with APHAkt2. APHAkt2 contains a deletion of the N-terminal 131 amino acids of Akt2, which includes the pleckstrin homology (PH) domain. The Akt2 PH domain was deleted because PH domains have the potential to dimerize (22) and could create a bias in the screen for the selection of PH domain-containing molecules. Isolates that interacted with APHAkt2 were tested for their ability to interact with Lamin (specificity control). ST-33 interacted with Akt2, but not with Lamin. ST-33 encodes amino acids 447-550 of POSH (Plenty of SH3s), which includes the third SH3 domain of POSH (amino acids 457-511) and 5'- and 3'-flanking regions.
+
+To determine if POSH-(447-550) specifically interacted with Akt2 or could also interact with Akt1, yeast two-hybrid analy- sis was performed. Expression vectors for Lex-APHAkt2, Lex- APHAkt1 and Lex-Lamin were introduced into the yeast re- porter strain L40 together with expression vectors for VP16-46, VP16-POSH-(447-550), or VP16. VP16-46 is a two hybrid iso- late recovered in the screen that interacts with both Akt1 and Akt2. It serves as a positive control to demonstrate adequate expression and correct subcellular compartmentalization of the Lex-Akt fusion proteins. In this assay, protein-protein interac- tions lead to transactivation of the HIS3 reporter in the L40 strain and growth in the absence of histidine (-WHULK me- dium). As shown in Fig. 1A, POSH-(447-550) interacts with APHAkt2 but not with Lamin or APHAkt1.
+
+To confirm the yeast two-hybrid result, we examined the association of POSH-(447-550) and full-length Akt2 or Akt1 in mammalian cells. HEK293 cells were transiently transfected with expression vectors for GST or GST-POSH-(447-550) fu- sion protein and full-length Myc epitope-tagged (MT) Akt2, Akt1, or PRA1 (negative control). GST or GST-POSH-(447- 550) was isolated from cells and co-associated Myc epitope- tagged proteins detected by Western blot analysis after SDS- PAGE. GST-POSH-(447-550) associates with full-length MT- Akt2 but not with MT-PRA1 (negative control) (Fig. 1B). Upon prolonged exposure of the Western blot, a very low level of MT-Akt1 is present in the GST-POSH pull-down (data not shown). We conclude that POSH-(447-550) preferentially as- sociates with Akt2.
+
+To address whether POSH and Akt2 co-localize, indirect im- munofluorescence was performed on COS cells transiently trans- fected with epitope-tagged expression vectors for POSH-(447- 550) or POSH-(1-892) (full-length), Akt2, and RacV12. POSH interacts with activated Rac and has been suggested to function as a scaffold protein for Rac-mediated signaling events (16, 17). Therefore, co-localization was assessed in cells in the presence of activated Rac. Because ectopic expression of full-length POSH in COS cells is accompanied by increased cell death (16, 17), z-VAD- FMK, a cell permeable caspase 3 inhibitor, was added to cells transfected with the full-length POSH expression vector. POSH
+
+A
+
+Lex-APHAKT2 + VP16-46
+
+VP16-POSH 447-550
+
+VP16
+
+Lex-APHAKT1 + VP16-46
+
+VP16-POSH 447-550 VP16
+
+Lex-Lamin
+
++ VP16-46
+
+VP16-POSH 447-550 VP16
+
+-WL
+
+-WHULK
+
+MT-AKT1 MT-AKT2
+
+B
+
+MT-PRA1
+
+MT-AKT1 MT-AKT2
+
+MT-PRA1
+
+GST
+
+GST-POSH 447-550
+
+WB: a-Myc
+
+WB: a-GST
+
+PD: GST
+
+Extracts
+
+WB: a-Myc
+
+FIG. 1. POSH interacts with Akt2. A, the L40 reporter strain was transformed with a plasmid that expresses APHAkt2, APHAkt1, or Lamin (negative control) fused to the LexA DNA binding domain (Lex- APHAkt2, Lex-APHAkt1, Lex-Lamin) and plasmids that express the VP16 activation domain alone (VP16), VP16 fused to POSH-(447-550) (VP16-POSH-(447-550)), or VP16 fused to isolate 46 (VP16-46, posi- tive control). Dilutions of cultures of yeast transformants were plated to YC-WL or YC-WHULK plates to assess activation of the HIS3 reporter. A positive interaction leads to growth in the absence of histidine (YC- WHULK plates). POSH-(447-550) associates with APHAkt2 but not with APHAkt1. B, GST or GST-POSH fusion proteins were purified from lysates prepared from HEK293 cells transfected with the indi- cated GST and Myc epitope (MT) Akt1/2 or PRA1 (negative control) expression constructs. The proteins in the pull-downs were separated by SDS-PAGE and detected by Western blot (WB) analysis with anti- bodies that recognize the epitope tags on the expressed proteins. MT- Akt2 associates with GST-POSH-(447-550).
+
+and Akt co-localize in lamellipodia (Fig. 2).
+
+An alignment between the POSH SH3-3 (third SH3) domain and related SH3 domains is shown in Fig. 3A. SH3 domains often contain an acidic residue at a position analogous to Asp-99 of Src (23). Mutation of this residue disrupts a salt bridge with an Arg of the ligand and also disorders the ligand- binding pocket of the SH3 domain (24). Another highly con- served residue within the ligand-binding pocket of the SH3 domain is a Trp that forms a hydrogen bond with a Pro in the Pro-X-X-Pro motif common to many ligands recognized by SH3 domains (25). To determine if these residues, which are con-
+
+served in POSH, mediate the association of POSH with Akt2, two mutated SH3-3 domains, POSH E470Q and POSH W489A, were generated for protein-protein interaction studies. POSH E470Q and POSH W489A exhibit greatly diminished binding to Akt2 in yeast two-hybrid assays (Fig. 3B), and in pull-down assays in HEK293 cells (Fig. 3C). These results indicate that Glu-470 and Trp-489 are key residues in POSH that facilitate binding of POSH to Akt2.
+
+In general, SH3 domains recognize proline-rich sequences, with the consensus core sequence Pro-X-X-Pro (26, 27). Akt2 contains two motifs that could mediate binding to the third SH3 domain within POSH, KERPEAP (amino acids 39-45, site 1) and LLPPFKP (amino acids 422-428, site 2). Site 1, with a basic residue at position -3, would be a class I SH3 ligand (consensus, R/KXXPXXP). In class I SH3 ligands, the basic residue forms a salt bridge with an acidic residue in the SH3 domain. Two N-terminal lysines are located upstream of site 2 (Lys-420, Lys-421) but neither is in the position of the basic residue in a consensus class I SH3 ligand. In addition, site 2 does not meet the consensus for a class II SH3 ligand (consen- sus, PXXPXR/K) because it lacks a basic residue C-terminal to the Pro-X-X-Pro motif. Examples of SH3 domains that prefer ligands without basic residues adjacent to the Pro-X-X-Pro motif include the Abl SH3 domain (which binds to YPPPPIP) and the P5 (third) SH3 domain of p68 (which binds to PLPP- PAP) (23).
+
+Both prolines within the site 2 motif were mutated to alanine and the interaction of the APHAkt2 mutant (APHAkt2 Pro425/ 428Ala) with POSH-(447-550) assessed by yeast two-hybrid analysis. APHAkt2 P425/428A does not interact with POSH- (447-550) (Fig. 4B). However, APHAkt2 P425/428A interacts with isolate 46, indicating that the mutant Akt2 protein is stably expressed and localized appropriately. This result indi- cates that POSH SH3-3 can bind to the Akt2 site 2 PXXP motif.
+
+APHAkt2 lacks site 1. To ascertain if site 1 in Akt2 could also mediate binding to POSH, site 1 was mutated alone (Akt2 P42/45A) and in combination with site 2. Both single mutants, Akt2 P42/45A and Akt P425/428A, interact with POSH-(447- 892), which contains the two C-terminal SH3 domains of POSH, SH3-3 and SH3-4 (Fig. 4C). When both sites are mu- tated in Akt2, the interaction of POSH with the double Akt2 mutant, Akt2 P42/45A P425/428A, is reduced (Fig. 4C). This result indicates that both Pro-X-X-Pro motifs contribute to the interaction between POSH and Akt2. However, the interaction of the double Akt2 mutant with POSH is not abolished by mutating all four prolines within the Pro-X-X-Pro motif, sug- gesting that residues in addition to the four prolines are needed for high affinity binding of POSH to Akt2.
+
+Previous studies have demonstrated that POSH binds Rac and MLKs and thus acts as a scaffold to facilitate the activation of the JNK pathway (16, 17). Recently, Barthwal et al. (8) reported that Akt1 phosphorylates MLK3 and negatively reg- ulates its enzymatic activity (8). We have shown here that POSH binds Akt2. So, POSH may act not just as a scaffold to facilitate activation of the JNK signaling pathway but also to facilitate its inactivation by Akt2.
+
+To determine whether the interaction of Akt2 with POSH negatively regulates JNK complex formation and/or activation of the JNK signaling pathway, the ability of a POSH mutant that cannot bind Akt2, POSH W489A, to scaffold and activate the JNK signaling pathway was determined. HEK293 cells were transiently transfected with expression vectors for Flag- MLK3 and full-length MT-POSH, MT-POSH W489A, or MT vector control. POSH was immunoprecipitated from cells and co-associated MLK3 detected by Western blot analysis after SDS-PAGE. The level of MLK3 associated with POSH W489A,
+
+A
+
+GST-POSH 447-550
+
+MT-AKT2
+
+Overlap
+
+B
+
+MT-POSH full length
+
+HA-AKT2
+
+Overlap
+
+FIG. 2. POSH and Akt2 co-localize in cells. COS1 cells were transiently transfected with expression vectors for GST-POSH-(447-550), MT-Akt2, and HA-RacV12 (A) or MT-POSH 1-892 (full-length), HA-Akt2, and RacV12 (no tag) (B). The caspase inhibitor z-VAD-FMK was added to cells in B. Epitope-tagged proteins were detected by indirect immunofluorescence. POSH and Akt2 co-localize in lamellipodia.
+
+FIG. 3. Binding of Akt2 to wild-type and mutant POSH SH3 domains. A, alignment of SH3 domains. SH3 domains homologous to the third SH3 domain of POSH were identified by BLAST and aligned by ClustalW (MacVector). A con- served acidic residue (equivalent of Asp-99 of c-Src) and Trp residue (*) were mutated for binding studies. Interaction between POSH and Akt2 is dependent on Glu-470 and Trp-489 in yeast two-hybrid assays (B) and in cells (C).
+
+A
+
+*
+
+*
+
+YVAIYPYTPRKEDELELRK GEMFL V FER CQDGWYK GTSMHTSKI GVFPGNYVA PV YRAMY QYRPONEDELEL REGDRV DVMQQCDDG WFV GV SRRTOKF GT F PG NYVA PV FVALYDYEARTEDDLSFHKGEK FQILNSSEGDWWEARSLTTGET GYIPSNYVAPV
+
+FIALYDYEARTEDDLTFTKGEKFHILNNTEGDWWEARSLSSGKTGCIPSNYVAPV
+
+POSH SH3-3 Vinexin Fyn Fgr Nck-1 FNYMAEREDELSLIKGTKVIVMEKCSDGWWRGS -- YNGQVGWFPSNYV Src FVALYDYESRTETDLSFKKGERLQIVNNTEGDWWLAHSLSTGQTGYIPSNYVAP
+
+B
+
+Lex-ΔΡΗΑΚΤ2 +
+
+VP16 POSH 447-550 WT VP16 POSH 447-550 E470Q
+
+VP16 POSH 447-550 W489A
+
+VP16
+
+C
+
+MT-AKT2 +
+
+GST-POSH
+
+€
+
+447-550
+
+%
+
+WT
+
+E470Q
+
+W489A
+
+"
+
+GST
+
+-
+
+-WL
+
+-WHULK
+
+WB: a-AKT
+
++ 2mM 3-AT
+
+WB: a .- GST
+
+PD: GST
+
+the mutant POSH that is unable to bind Akt2, is increased relative to the wild type POSH control (Fig. 5A, lanes 3 versus 2, upper panel). This increase in the MLK-POSH complex is accompanied by an increase in phospho-c-Jun, a measure of JNK pathway activation (Fig. 5B). Taken together, these re- sults suggest that Akt2 binding to POSH inhibits the ability of POSH to act as a JNK signaling scaffold.
+
+Next, we examined whether the association of MLK3 with POSH is sensitive to the activation status of the endogenous PI3K/Akt signaling pathway. Transiently transfected HEK293
+
+cells were starved and then stimulated with insulin to activate the endogenous Akt kinases prior to harvest and immunopre- cipitation of the POSH-MLK3 complex. As noted, cells were pretreated with the PI3K/Akt inhibitor LY294002, prior to insulin stimulation. The association of MLK3 with POSH is substantially increased by LY294002 treatment (Fig. 5C). Thus, inhibition of endogenous Akt kinases enhances the abil- ity of POSH to scaffold MLK3.
+
+We introduced the Akt2 binding domain of POSH (POSH- (447-550)) into cells together with MLK3 to determine whether
+
+PH
+
+CAT C
+
+*
+
+*
+
+P42-X-x-P45
+
+P425-X-x-P428
+
+Site 1
+
+Site 2
+
+A
+
+B
+
+Lex-APHAKT2 + VP16-46
+
+d %
+
+® *
+
+VP16-POSH 447-550
+
+4
+
+Lex-APHAKT2+ VP16-46 P425/428A
+
+.
+
+"
+
+VP16-POSH 447-550
+
+«
+
+-WL
+
+-WHULK
+
+C
+
+Lex-POSH447-892 + VP16-AKT2
+
+VP16-AKT2 P425/428A VP16-AKT2 P42/45A
+
+V
+
+&
+
+VP16-AKT2 P425/428A, P42/45A VP16
+
+€
+
+Lex-46 + VP16-AKT2
+
+"
+
+"
+
+VP16-AKT2 P425/428A VP16-AKT2 P42/45A
+
+-
+
+·
+
+VP16-AKT2 P425/428A, P42/45A VP16
+
+$$
+
+%
+
+-WL
+
+-WHULK
+
+FIG. 4. Binding of POSH to wild-type and mutant Akt2 pro- teins. A, Akt2 contains two Pro-X-X-Pro motifs. Site 1 (Pro 42-x-x-Pro 45) is located in the PH domain. Site 2 (Pro425-x-x-Pro428) is in the C- terminal regulatory domain. B, the Pro-X-X-Pro motif in APHAkt2 was mutated to Ala-X-X-Ala (APHAkt2 P425/428A) and the interaction of wild-type or mutant APHAkt2 with POSH-(447-550) or isolate 46 (con- trol) determined by yeast two-hybrid analysis. C, the Pro-X-X-Pro mo- tifs in full-length Akt2 were mutated to Ala-X-X-Ala and the require- ment for the sites determined singly and in combination by yeast two-hybrid analysis. The interaction of POSH with Akt2 is dependent on both Pro-X-X-Pro sites of Akt2.
+
+it could function in a dominant negative fashion. Introduction of MLK3 into cells alone activates the JNK signaling pathway, as assessed by Western blot analysis of phospho-c-Jun levels (Fig. 6A). The level of MLK3-activated phospho-Jun is in- creased by ectopic expression of the Akt2 binding domain of POSH. This increase in phospho-c-Jun suggests that the Akt2 binding domain of POSH acts to dominantly interfere with endogenous POSH, by titrating Akt2 away from the cellular JNK signaling modules.
+
+Akt1 phosphorylates MLK3 at S674 and negatively regulates its enzymatic activity (8). If Akt2 bound to POSH regulates the phosphorylation status of MLK3 at S674, then ectopic expression of the dominant negative SH3-3 domain should reduce Akt-me- diated phosphorylation of MLK3. HEK293 cells were transfected with expression vectors for Flag-MLK3 and vector control or POSH SH3-3. Flag-MLK3 was isolated from extracts and its phosphorylation status at Ser-674 determined by Western blot analysis with a phospho-(Ser/Thr)-Akt substrate antibody. This antibody recognizes Akt substrates when phosphorylated. The level of Akt-phosphorylated MLK3 is decreased in cells trans- fected with the POSH SH3-3 domain (Fig. 6B). Taken together, these results suggest that Akt2 negatively regulates the POSH/ JNK signaling complex by phosphorylating MLK3 and promot- ing the disassembly of the JNK signaling complex.
+
+DISCUSSION [[sectionHeading]]
+
+POSH interacts with multiple components of the JNK sig- naling pathway, including members of the MLK group of MAP- KKKs, the MAPKKs MKK4/7, and the JNK MAPKs (17). POSH also interacts with Rac (16). Activated Rac binds MLKs and relieves the negative regulation of the SH3 domain on the MLK catalytic domain (12). This complex, POSH-Rac-MLK- MKK4/7-JNK, activates the JNK signaling pathway. In this report, we demonstrate that Akt2 interacts with POSH and
+
+A
+
+Flag-MLK3+
+
+MT-Vector
+
+MT-POSH WT
+
+MT-POSH W489A
+
++
+
+WB: a-Flag
+
+WB: a-Myc
+
+IP: a .- Myc
+
+B
+
+Flag-MLK3+
+
+MT-Vector
+
+MT-POSH WT
+
++
+
+MT-POSH W489A
+
+WB: a .- (p)-c-Jun
+
+Extracts
+
+C
+
+Flag-MLK3+
+
+MT-Vector
+
+MT-POSH WT
+
+LY294002
+
+WB: a-Flag
+
+WB: a-Myc
+
+IP: a-Myc
+
+FIG. 5. Akt2 regulates the POSH-MLK3 complex. A, HEK293 cells were transiently transfected with expression vectors for Flag- MLK3 and full-length MT-POSH, either wild-type or mutated in the Akt2 binding domain (W489A), or MT vector control. MT-POSH was immunoprecipitated from lysates and the immunoprecipitates (IP) were subjected to SDS-PAGE. MT-POSH and co-associated MLK3 were de- tected by Western blot (WB) analysis with antibodies that recognize the epitope tags on the expressed proteins. MLK3 exhibits enhanced bind- ing to POSH W489A. B, cell lysates were analyzed by Western blotting for levels of phospho-Jun. Increased MLK3-POSH W489A complex for- mation is accompanied by increased activation of downstream signaling events. C, HEK293 cells were transfected with expression vectors for Flag-MLK3 and MT-POSH WT or MT (vector control). Cells were se- rum-starved then treated with insulin and, as noted, 25 AM LY294002, prior to harvest. MT-POSH was immunoprecipitated from lysates and co-associated MLK3 detected by Western blot analysis after SDS- PAGE. Inhibition of endogenous Akt kinases with LY294002 results in increased binding of MLK3 to the POSH scaffold.
+
+negatively regulates the JNK signaling complex.
+
+POSH is a multi-SH3 domain protein and we show that Akt2 interacts with the third SH3 domain of POSH. We have iden- tified key residues in POSH that are required for its interaction with Akt2, Glu-470 and Trp-489. Mutation of Glu-470 to Gln is predicted to cause substantial structural deformation of the binding cleft of the SH3 domain (24). The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2. In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by con- tacting the Arg positioned before the Pro-X-X-Pro motif (23). In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif (25). The decrease in binding of Akt2 to POSH W489A emphasizes the importance of this potential contact between the ligand and the POSH SH3 domain.
+
+We have also identified key residues in Akt2 that mediate the POSH/Akt2 co-association, Pro-42/45 and Pro-425/428. Pro- 42/45 are located adjacent to a short «-helix in variable loop (VL) 2 in the PH domain. In the structure for the Akt1 PH domain, VL2 points away from the membrane and Thomas et
+
+A
+
+GST-POSH 447-550
+
+Flag-MLK3
+
+eGFP
+
+WB: a-P-c-Jun
+
+WB: a-Flag
+
+WB: a-GFP
+
+Extracts
+
+B
+
+GST-POSH 447-550 Flag-MLK3
+
+WB: a-Flag
+
+WB: a-P-AKT
+
+substrate
+
+PD: Flag
+
+FIG. 6. Akt-mediated phosphorylation of MLK3 is reduced by expression of the dominant interfering, Akt2 binding domain of POSH. A, HEK293 cells were transfected with expression vectors for Flag-MLK3, enhanced green fluorescent protein (eGFP), and increasing concentrations of the Akt2 binding domain of POSH, POSH-(447-550). The levels of phospho-Jun and eGFP (internal control) in extracts were assessed by Western blot analysis. Phospho-Jun levels increase in a dose-dependent fashion upon ectopic expression of the Akt2 binding domain of POSH, indicating that this domain acts as a dominant interfering protein to titrate Akt2 from the endogenous POSH complex. B, Flag-MLK3 was immunoprecipitated from lysates prepared from HEK293 cells transfected with expression vectors for Flag-MLK3 and either vector control or POSH-(447-550). The level of Flag-MLK3 in the immunoprecipitates (B, upper panel) and its phosphorylation status at S674 (B, lower panel) were detected by Western blot analysis after SDS-PAGE with anti-FLAG or anti-phospho-Akt (S/T)-substrate anti- body. Phosphorylation of MLK3 at the Akt consensus phosphorylation site, Ser-674, is reduced in cells expressing the dominant-interfering Akt2 binding domain of POSH, POSH-(447-550).
+
+al. (28) speculated that the negative charges in VL2 might interact with the Akt catalytic domain to maintain the enzyme in an inactive, closed conformation. Three of four basic residues found in the Akt1 VL2 are conserved in Akt2. So, binding of Akt2 to POSH may prolong or sustain the active, open confor- mation of Akt2 to facilitate the phosphorylation of kinase sub- strates complexed with POSH. Kim et al. recently reported that JIP1, which acts as an Akt1 scaffold, regulates the enzymatic activity of Akt1 (29). Experiments are in progress to determine whether the levels of active Akt2 are increased by ectopic expression of POSH.
+
+In contrast to Pro-42/45, Pro-425/428 are conserved with Akt1. Pro-425/428 are located within the C-terminal regulatory domain. Jiang and Qiu (30) recently reported that this proline rich region in Akt1 could mediate binding of Akt1 to the SH3 domain of c-Src. Mutation of this motif resulted in an Akt1 mutant protein that failed to bind to Src and could not be phosphorylated on Y315, suggesting that the interaction be- tween the SH3 domain of Src and this proline-rich motif in Akt1 is required for tyrosine phosphorylation and subsequent activation of Akt1 catalytic activity. We have shown here that Akt1 does not interact with POSH. The selection of SH3 do- main (POSH versus Src) is likely to be mediated by non-con- served residues adjacent to the Pro-X-X-Pro motif.
+
+What is the functional consequence of the Akt2/POSH asso- ciation? Our results demonstrate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. We have shown that a POSH mutant that is unable to bind to Akt2 exhibits increased binding to MLK3. This in- creased binding of MLK3 to POSH is accompanied by increased
+
+activation of the JNK signaling pathway. Further, we observe increased binding of MLK3 to POSH when we inhibit the endogenous PI3K/Akt signaling pathway with LY294002. These results suggest that Akt2 inhibits the ability of POSH to act as a JNK scaffold. Because POSH itself does not contain a consensus Akt phosphorylation site, Akt2 is likely to act through a protein bound to POSH to inhibit this JNK scaffold, such as MLK3. We have shown that the SH3-3 domain of POSH acts to dominantly interfere with endogenous POSH, by titrating endogenous Akt2 away from POSH, and that ectopic expression of this dominant interfering protein both increases activation of the JNK signaling pathway and decreases the level of Akt-phosphorylated MLK3. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt leads to the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.
+
+It is intriguing that cells have evolved different JNK scaf- folds for the Akt isoforms, JIP1 for Akt1 and POSH for Akt2. JIP1 seems to be devoted exclusively to regulation of JNK signaling (15). POSH, however, might play multiple cellular roles. Functional analysis of the POSH SH3 domains by Tapon et al. (16) is consistent with the idea that POSH coordinately regulates an additional signaling pathway together with the JNK pathway. Future studies will be directed toward identify- ing this pathway.
+
+Acknowledgments-We thank Alan Hall for providing POSH expres- sion constructs and Kathy Gallo and Channing Der for providing MLK3 expression constructs.
+
+REFERENCES [[sectionHeading]]
+
+26. Kay, B. K., Williamson, M. P., and Sudol, M. (2000) FASEB J. 14, 231-241 27. Mayer, B. J. (2001) J. Cell Sci. 114, 1253-1263
+
+30. Jiang, T., and Qiu, Y. (2003) J. Biol. Chem. 278, 15789-15793
+

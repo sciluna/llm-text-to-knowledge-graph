@@ -1,12 +1,13 @@
-from .main import process_paper, main
+from .main import main, process_pmc_document, process_file_document
 from .get_interactions import initialize_chains
-from .sentence_level_extraction import llm_bel_processing
+from .sentence_level_extraction import llm_ann_processing
 from .convert_to_cx2 import convert_to_cx2
 
 __all__ = [
-    "process_paper",
     "main",
+    "process_pmc_document",
+    "process_file_document",
     "initialize_chains",
-    "llm_bel_processing",
+    "llm_ann_processing",
     "convert_to_cx2",
 ]

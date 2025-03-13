@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import os
 from ndex2.cx2 import PandasDataFrameToCX2NetworkFactory
 from ndex2.cx2 import RawCX2NetworkFactory
 import logging

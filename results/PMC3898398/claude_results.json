@@ -5,36 +5,44 @@
             "text": "An intricate network regulates the activities of SIRT1 and PARP1 proteins and continues to be uncovered. Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms. We review this complex network using an interactive Molecular Interaction Map (MIM) to explore the interplay between these two proteins. Here we discuss how NAD + competition and post-transcriptional/translational feedback mechanisms create a regulatory network sensitive to environmental cues, such as genotoxic stress and metabolic states, and examine the role of those interactions in DNA repair and ultimately, cell fate decisions.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) hasComponent p(HGNC:PARP1)",
-                    "evidence": "An intricate network regulates the activities of SIRT1 and PARP1 proteins and continues to be uncovered."
+                    "bel_statement": "complex(p(HGNC:SIRT1), a(CHEBI:\"NAD(+)\")) hasComponent a(CHEBI:\"NAD(+)\")",
+                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+)"
                 },
                 {
-                    "bel_statement": "a(CHEBI:NAD(+)) increases p(HGNC:SIRT1)",
-                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms."
+                    "bel_statement": "complex(p(HGNC:PARP1), a(CHEBI:\"NAD(+)\")) hasComponent a(CHEBI:\"NAD(+)\")",
+                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+)"
                 },
                 {
-                    "bel_statement": "a(CHEBI:NAD(+)) increases p(HGNC:PARP1)",
-                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms."
+                    "bel_statement": "p(HGNC:SIRT1) reg bp(GO:\"DNA damage response\")",
+                    "evidence": "Both SIRT1 and PARP1 share several common substrates, including regulators of DNA damage response"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:\"DNA damage response\")",
-                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms."
+                    "bel_statement": "p(HGNC:PARP1) reg bp(GO:\"DNA damage response\")",
+                    "evidence": "Both SIRT1 and PARP1 share several common substrates, including regulators of DNA damage response"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"DNA damage response\")",
-                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms."
+                    "bel_statement": "p(HGNC:SIRT1) reg bp(GO:\"circadian rhythm\")",
+                    "evidence": "Both SIRT1 and PARP1 share several common substrates, including regulators of circadian rhythms"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:\"circadian rhythm\")",
-                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms."
+                    "bel_statement": "p(HGNC:PARP1) reg bp(GO:\"circadian rhythm\")",
+                    "evidence": "Both SIRT1 and PARP1 share several common substrates, including regulators of circadian rhythms"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"circadian rhythm\")",
-                    "evidence": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms."
+                    "bel_statement": "a(CHEBI:\"NAD(+)\") decreases act(p(HGNC:SIRT1))",
+                    "evidence": "NAD+ competition and post-transcriptional/translational feedback mechanisms create a regulatory network"
                 },
                 {
-                    "bel_statement": "a(CHEBI:NAD(+)) regulates bp(GO:\"DNA repair\")",
-                    "evidence": "Here we discuss how NAD + competition and post-transcriptional/translational feedback mechanisms create a regulatory network sensitive to environmental cues, such as genotoxic stress and metabolic states, and examine the role of those interactions in DNA repair and ultimately, cell fate decisions."
+                    "bel_statement": "a(CHEBI:\"NAD(+)\") decreases act(p(HGNC:PARP1))",
+                    "evidence": "NAD+ competition and post-transcriptional/translational feedback mechanisms create a regulatory network"
+                },
+                {
+                    "bel_statement": "p(HGNC:SIRT1) reg bp(GO:\"DNA repair\")",
+                    "evidence": "examine the role of those interactions in DNA repair and ultimately, cell fate decisions"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) reg bp(GO:\"DNA repair\")",
+                    "evidence": "examine the role of those interactions in DNA repair and ultimately, cell fate decisions"
                 }
             ],
             "annotations": [
@@ -125,44 +133,28 @@
             "text": "SIRT1 and PARP1 are enzymes that affect two key post-translational modifications: acetylation and ADP-ribosylation, respectively, for a diverse group of proteins. These enzymes are functionally connected due to their use of a common substrate, nicotinamide adenine dinucleotide (NAD+) . Recent studies suggest that these proteins participate in common pathways providing cells with a mechanism for balancing cell survival and death. A well-developed understanding of activity overlap of these proteins may provide insights into the biology of these two proteins as they are actively being pursued as therapeutic targets in a range of conditions, including cancer and metabolic disorders .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases a(MESH:Acetylation)",
+                    "bel_statement": "p(HGNC:SIRT1) hasActivity ma(MESH:Acetylation)",
                     "evidence": "SIRT1 and PARP1 are enzymes that affect two key post-translational modifications: acetylation and ADP-ribosylation, respectively, for a diverse group of proteins."
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases a(MESH:ADP-Ribosylation)",
+                    "bel_statement": "p(HGNC:PARP1) hasActivity ma(MESH:\"ADP-Ribosylation\")",
                     "evidence": "SIRT1 and PARP1 are enzymes that affect two key post-translational modifications: acetylation and ADP-ribosylation, respectively, for a diverse group of proteins."
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases a(CHEBI:\"NAD(+)\")",
+                    "bel_statement": "p(HGNC:SIRT1) regulates a(CHEBI:\"NAD(+)\")",
                     "evidence": "These enzymes are functionally connected due to their use of a common substrate, nicotinamide adenine dinucleotide (NAD+)."
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases a(CHEBI:\"NAD(+)\")",
+                    "bel_statement": "p(HGNC:PARP1) regulates a(CHEBI:\"NAD(+)\")",
                     "evidence": "These enzymes are functionally connected due to their use of a common substrate, nicotinamide adenine dinucleotide (NAD+)."
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:\"cell death\")",
+                    "bel_statement": "composite(p(HGNC:SIRT1), p(HGNC:PARP1)) regulates bp(GO:\"cell survival\")",
                     "evidence": "Recent studies suggest that these proteins participate in common pathways providing cells with a mechanism for balancing cell survival and death."
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"cell death\")",
+                    "bel_statement": "composite(p(HGNC:SIRT1), p(HGNC:PARP1)) regulates bp(GO:\"cell death\")",
                     "evidence": "Recent studies suggest that these proteins participate in common pathways providing cells with a mechanism for balancing cell survival and death."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:Neoplasms)",
-                    "evidence": "A well-developed understanding of activity overlap of these proteins may provide insights into the biology of these two proteins as they are actively being pursued as therapeutic targets in a range of conditions, including cancer and metabolic disorders."
-                },
-                {
-                    "bel_statement": "p(HGNC:PARP1) increases path(MESH:Neoplasms)",
-                    "evidence": "A well-developed understanding of activity overlap of these proteins may provide insights into the biology of these two proteins as they are actively being pursued as therapeutic targets in a range of conditions, including cancer and metabolic disorders."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:\"Metabolic Diseases\")",
-                    "evidence": "A well-developed understanding of activity overlap of these proteins may provide insights into the biology of these two proteins as they are actively being pursued as therapeutic targets in a range of conditions, including cancer and metabolic disorders."
-                },
-                {
-                    "bel_statement": "p(HGNC:PARP1) increases path(MESH:\"Metabolic Diseases\")",
-                    "evidence": "A well-developed understanding of activity overlap of these proteins may provide insights into the biology of these two proteins as they are actively being pursued as therapeutic targets in a range of conditions, including cancer and metabolic disorders."
                 }
             ],
             "annotations": [
@@ -263,8 +255,8 @@
             "text": "In this review, we look at the role of each of these two proteins using a Molecular Interaction Map (MIM) that visually integrates the experimental findings of the regulatory pathways that surround these proteins, shown in Figure  1. The MIM helps free readers from a linear view of events and gain a better understanding of control loops involved in these pathways . A machine-readable version of the MIM is provided as Additional file 1 viewable using PathVisio-MIM ( http://discover.nci.nih.gov/mim/mim_pathvisio.html) . Additionally, the MIM covers in greater detail the interactions surrounding SIRT1 and PARP1; a complete list of annotations is also provided as Additional file 2.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) regulates p(HGNC:PARP1)",
-                    "evidence": "Additionally, the MIM covers in greater detail the interactions surrounding SIRT1 and PARP1; a complete list of annotations is also provided as Additional file 2."
+                    "bel_statement": "complex(p(HGNC:SIRT1), p(HGNC:PARP1)) reg bp(GO:\"cellular process\")",
+                    "evidence": "The MIM covers in greater detail the interactions surrounding SIRT1 and PARP1"
                 }
             ],
             "annotations": [
@@ -320,12 +312,16 @@
             "text": "SIRT1 and PARP1 Molecular Interaction Map. Blue: Post-translational modifications, Red: Inhibition and cleavage, Green: Stimulation and catalysis.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:0043687)",
-                    "evidence": "SIRT1 and PARP1 Molecular Interaction Map. Blue: Post-translational modifications, Red: Inhibition and cleavage, Green: Stimulation and catalysis."
+                    "bel_statement": "p(HGNC:SIRT1) reg p(HGNC:PARP1, pmod(Ub))",
+                    "evidence": "Blue: Post-translational modifications"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases a(MESH:D002384)",
-                    "evidence": "SIRT1 and PARP1 Molecular Interaction Map. Blue: Post-translational modifications, Red: Inhibition and cleavage, Green: Stimulation and catalysis."
+                    "bel_statement": "p(HGNC:PARP1) directlyDecreases p(HGNC:SIRT1)",
+                    "evidence": "Red: Inhibition and cleavage"
+                },
+                {
+                    "bel_statement": "p(HGNC:SIRT1) increases act(p(HGNC:PARP1))",
+                    "evidence": "Green: Stimulation and catalysis"
                 }
             ],
             "annotations": [
@@ -361,16 +357,20 @@
             "text": "Figure  2 shows a modular overview of how the SIRT1 and PARP1 interactions are laid out (an arrow indicates that a molecule or process from the source module has an interaction with a molecule or process in the target module) and Figure  3 provides a legend for reading the MIM notation. Throughout this review readers will see annotation labels in double square brackets and prefixed with a letter that refer to specific interactions in the MIM shown in Figure  1 and Additional file 2. We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD + competition and co-regulated targets. Additionally, we discuss outstanding questions that would more accurately describe the relationship between these proteins.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:PARP1)",
-                    "evidence": "We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD + competition and co-regulated targets."
+                    "bel_statement": "p(HGNC:SIRT1) reg p(HGNC:PARP1)",
+                    "evidence": "We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD+ competition and co-regulated targets."
                 },
                 {
-                    "bel_statement": "a(CHEBI:NAD) decreases act(p(HGNC:PARP1))",
-                    "evidence": "We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD + competition and co-regulated targets."
+                    "bel_statement": "a(CHEBI:NAD) reg complex(p(HGNC:SIRT1), p(HGNC:PARP1))",
+                    "evidence": "We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD+ competition and co-regulated targets."
                 },
                 {
-                    "bel_statement": "bp(GO:\"post-translational protein modification\") regulates act(p(HGNC:SIRT1))",
-                    "evidence": "We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD + competition and co-regulated targets."
+                    "bel_statement": "bp(GO:\"post-translational protein modification\") reg p(HGNC:SIRT1)",
+                    "evidence": "We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD+ competition and co-regulated targets."
+                },
+                {
+                    "bel_statement": "bp(GO:\"post-translational protein modification\") reg p(HGNC:PARP1)",
+                    "evidence": "We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD+ competition and co-regulated targets."
                 }
             ],
             "annotations": [
@@ -436,8 +436,12 @@
             "text": "Modular layout diagram of SIRT1 and PARP1 MIM. Arrows connecting modules indicate that a node starting in a module connects to a node in the target module.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) association p(HGNC:PARP1)",
-                    "evidence": "Arrows connecting modules indicate that a node starting in a module connects to a node in the target module."
+                    "bel_statement": "p(HGNC:SIRT1) reg p(HGNC:PARP1)",
+                    "evidence": "Modular layout diagram of SIRT1 and PARP1 MIM indicates potential regulatory interaction"
+                },
+                {
+                    "bel_statement": "p(HGNC:MTSS1) reg p(HGNC:SIRT1)",
+                    "evidence": "Modular layout diagram suggests potential regulatory interaction involving MTSS1"
                 }
             ],
             "annotations": [
@@ -473,36 +477,7 @@
         {
             "Index": "7",
             "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci . The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria . The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT 7 . The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions . This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD + -dependent protein deacetylase . SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity .",
-            "Results": [
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:0007165)",
-                    "evidence": "SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:D003920)",
-                    "evidence": "SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:D002318)",
-                    "evidence": "SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:D019636)",
-                    "evidence": "SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:D009369)",
-                    "evidence": "SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:D000375)",
-                    "evidence": "SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases path(MESH:D009765)",
-                    "evidence": "SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity."
-                }
-            ],
+            "Results": [],
             "annotations": [
                 {
                     "db": "MESH",
@@ -766,16 +741,40 @@
             "text": "PARP1 (EC 2.4.2.30) is an NAD + -dependent nuclear ADP-ribosyltransferase with three domains: a DNA binding domain (DBD), an auto-modification domain (AD), and a catalytic domain [[A1]] . The PARP family of proteins are involved in many processes, including: DNA damage response, cell death, cell cycle regulation, and telomere regulation . The main function of PARP1 is the formation of poly(ADP-ribose) (PAR) chains on itself and other proteins [[A2]] . PARP1 is a transcriptional co-activator where PAR acts as a signal helping to regulate transcription . PAR is quickly cleaved by poly (ADP-ribose) glycohydrolase (PARG) [[A3]] . PARP1 becomes highly activated by DNA strand breaks; electrostatic repulsion between the poly (ADP)-ribose (PAR) chains and DNA eventually leads to its catalytic inactivation .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases a(CHEBI:\"Poly(ADPribose)\")",
-                    "evidence": "The main function of PARP1 is the formation of poly(ADP-ribose) (PAR) chains on itself and other proteins."
+                    "bel_statement": "p(HGNC:PARP1, ma(GO:\"DNA binding\")) hasActivity ma(GO:\"DNA binding\")",
+                    "evidence": "PARP1 (EC 2.4.2.30) is an NAD + -dependent nuclear ADP-ribosyltransferase with three domains: a DNA binding domain (DBD), an auto-modification domain (AD), and a catalytic domain"
                 },
                 {
-                    "bel_statement": "a(CHEBI:\"Poly(ADPribose)\") increases bp(GO:\"DNA-templated transcription\")",
-                    "evidence": "PARP1 is a transcriptional co-activator where PAR acts as a signal helping to regulate transcription."
+                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"DNA damage response\")",
+                    "evidence": "The PARP family of proteins are involved in many processes, including: DNA damage response, cell death, cell cycle regulation, and telomere regulation"
                 },
                 {
-                    "bel_statement": "a(CHEBI:\"Poly(ADPribose)\") directlyDecreases p(HGNC:PARG)",
-                    "evidence": "PAR is quickly cleaved by poly (ADP-ribose) glycohydrolase (PARG)."
+                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"cell death\")",
+                    "evidence": "The PARP family of proteins are involved in many processes, including: DNA damage response, cell death, cell cycle regulation, and telomere regulation"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"cell cycle regulation\")",
+                    "evidence": "The PARP family of proteins are involved in many processes, including: DNA damage response, cell death, cell cycle regulation, and telomere regulation"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"telomere regulation\")",
+                    "evidence": "The PARP family of proteins are involved in many processes, including: DNA damage response, cell death, cell cycle regulation, and telomere regulation"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) hasActivity rxn(reactants(a(CHEBI:NAD)), products(a(CHEBI:\"Poly(ADPribose)\")))",
+                    "evidence": "The main function of PARP1 is the formation of poly(ADP-ribose) (PAR) chains on itself and other proteins"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"DNA-templated transcription\")",
+                    "evidence": "PARP1 is a transcriptional co-activator where PAR acts as a signal helping to regulate transcription"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARG) decreases a(CHEBI:\"Poly(ADPribose)\")",
+                    "evidence": "PAR is quickly cleaved by poly (ADP-ribose) glycohydrolase (PARG)"
+                },
+                {
+                    "bel_statement": "bp(GO:\"DNA damage\") increases act(p(HGNC:PARP1))",
+                    "evidence": "PARP1 becomes highly activated by DNA strand breaks"
                 }
             ],
             "annotations": [
@@ -941,7 +940,7 @@
             "text": "Post-transcriptional regulation of SIRT1 and PARP1",
             "Results": [
                 {
-                    "bel_statement": "r(HGNC:SIRT1) regulates r(HGNC:PARP1)",
+                    "bel_statement": "r(HGNC:SIRT1) regulates p(HGNC:PARP1)",
                     "evidence": "Post-transcriptional regulation of SIRT1 and PARP1"
                 }
             ],
@@ -963,11 +962,11 @@
             "text": "Here we review post-translational modifications that affect the activities of SIRT1 and PARP1.",
             "Results": [
                 {
-                    "bel_statement": "bp(GO:0043687) affects act(p(HGNC:14929))",
+                    "bel_statement": "bp(GO:\"post-translational protein modification\") regulates act(p(HGNC:SIRT1))",
                     "evidence": "Here we review post-translational modifications that affect the activities of SIRT1 and PARP1."
                 },
                 {
-                    "bel_statement": "bp(GO:0043687) affects act(p(HGNC:270))",
+                    "bel_statement": "bp(GO:\"post-translational protein modification\") regulates act(p(HGNC:PARP1))",
                     "evidence": "Here we review post-translational modifications that affect the activities of SIRT1 and PARP1."
                 }
             ],
@@ -1004,8 +1003,8 @@
             "text": "For a comprehensive review of sirtuin modifications, see Flick and Luscher . Below we describe several of these modifications for SIRT1 and augment this list with additional modifications.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) isA a(MESH:D037761)",
-                    "evidence": "Below we describe several of these modifications for SIRT1 and augment this list with additional modifications."
+                    "bel_statement": "p(HGNC:SIRT1) hasActivity ma(GO:\"protein deacetylase activity\")",
+                    "evidence": "Below we describe several of these modifications for SIRT1"
                 }
             ],
             "annotations": [
@@ -1031,20 +1030,28 @@
             "text": "SIRT1 phosphorylation results in both stimulatory and inhibitory effects. Phosphorylation of SIRT1 by JNK occurs at three sites: S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity [[A4]] . In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 [[A5]] suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity . CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] . These two phosphorylation sites exist in a region of SIRT1 that are essential for SIRT1 activity both for its catalytic activity and ability to bind to substrates . Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]]. Phosphorylation at these two sites decreases the activity of SIRT1 and disrupts progress of the cell cycle . Similar to the case with mTOR and S47, T530 is a site phosphorylated by JNK and may also function as a part of a combinatorial modification program.",
             "Results": [
                 {
-                    "bel_statement": "act(p(HGNC:14929), ma(GO:\"deacetylase activity\")) increases act(p(FPLX:JNK), ma(GO:\"kinase activity\"))",
-                    "evidence": "Phosphorylation of SIRT1 by JNK occurs at three sites: S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity."
+                    "bel_statement": "p(FPLX:JNK, pmod(Ph, Ser, 27)) increases act(p(HGNC:SIRT1))",
+                    "evidence": "Phosphorylation of SIRT1 by JNK occurs at three sites: S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity"
                 },
                 {
-                    "bel_statement": "act(p(HGNC:14929), ma(GO:\"deacetylase activity\")) decreases act(p(HGNC:3942), ma(GO:\"kinase activity\"))",
-                    "evidence": "mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1."
+                    "bel_statement": "p(FPLX:JNK, pmod(Ph, Ser, 47)) increases act(p(HGNC:SIRT1))",
+                    "evidence": "Phosphorylation of SIRT1 by JNK occurs at three sites: S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity"
                 },
                 {
-                    "bel_statement": "act(p(HGNC:14929), ma(GO:\"deacetylase activity\")) increases act(p(FPLX:CK2), ma(GO:\"kinase activity\"))",
-                    "evidence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity."
+                    "bel_statement": "p(HGNC:MTOR, pmod(Ph, Ser, 47)) decreases act(p(HGNC:SIRT1))",
+                    "evidence": "mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1"
                 },
                 {
-                    "bel_statement": "act(p(HGNC:14929), ma(GO:\"deacetylase activity\")) decreases act(p(FPLX:Cyclin), ma(GO:\"kinase activity\"))",
-                    "evidence": "Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540. Phosphorylation at these two sites decreases the activity of SIRT1 and disrupts progress of the cell cycle."
+                    "bel_statement": "p(FPLX:CK2, pmod(Ph, Ser, 659)) increases act(p(HGNC:SIRT1))",
+                    "evidence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity"
+                },
+                {
+                    "bel_statement": "p(FPLX:CK2, pmod(Ph, Ser, 661)) increases act(p(HGNC:SIRT1))",
+                    "evidence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity"
+                },
+                {
+                    "bel_statement": "complex(FPLX:Cyclin, p(MESH:Phosphotransferases)) decreases act(p(HGNC:SIRT1))",
+                    "evidence": "Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540"
                 }
             ],
             "annotations": [
@@ -1183,52 +1190,7 @@
         {
             "Index": "13",
             "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1[[A7]]; phosphorylation at this site increases the rate of product release by SIRT1 . AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1 [[A8]] . In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage [[A9]] . Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress [[A10]] . In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival. Additionally, transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1alpha transcriptional activity; PGC1alpha is an important regulator of metabolism and mitochondrial function [[A11]] .",
-            "Results": [
-                {
-                    "bel_statement": "p(HGNC:DYRK1A) increases p(HGNC:SIRT1, pmod(Ph, Thr, 522))",
-                    "evidence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1."
-                },
-                {
-                    "bel_statement": "p(HGNC:DYRK3) increases p(HGNC:SIRT1, pmod(Ph, Thr, 522))",
-                    "evidence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1, pmod(Ph, Thr, 522)) increases act(p(HGNC:SIRT1))",
-                    "evidence": "Phosphorylation at this site increases the rate of product release by SIRT1."
-                },
-                {
-                    "bel_statement": "p(FPLX:AMPK) increases p(HGNC:SIRT1, pmod(Ph, Thr, 344))",
-                    "evidence": "AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1, pmod(Ph, Thr, 344)) decreases act(p(HGNC:SIRT1))",
-                    "evidence": "AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1."
-                },
-                {
-                    "bel_statement": "bp(GO:0032259) decreases act(p(HGNC:SIRT1))",
-                    "evidence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage."
-                },
-                {
-                    "bel_statement": "p(HGNC:SETD7) increases bp(GO:0032259)",
-                    "evidence": "Methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage."
-                },
-                {
-                    "bel_statement": "p(HGNC:SUMO1) increases act(p(HGNC:SIRT1))",
-                    "evidence": "Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress."
-                },
-                {
-                    "bel_statement": "p(HGNC:SENP1) decreases act(p(HGNC:SIRT1))",
-                    "evidence": "Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress."
-                },
-                {
-                    "bel_statement": "p(HGNC:GAPDH) decreases act(p(HGNC:SIRT1))",
-                    "evidence": "Transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1alpha transcriptional activity."
-                },
-                {
-                    "bel_statement": "act(p(HGNC:SIRT1)) decreases r(HGNC:PPARGC1A)",
-                    "evidence": "Transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1alpha transcriptional activity."
-                }
-            ],
+            "Results": [],
             "annotations": [
                 {
                     "db": "MESH",
@@ -1427,40 +1389,40 @@
             "text": "The activity of PARP1 can be modulated via post-translational modifications, including phosphorylation, sumoylation, and acetylation. DNA-PK phosphorylates PARP1 though its effect is unknown [[A12]] . Phosphorylation of PARP1 by AMPK has been shown to enhance its activity [[A13]] . This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage. ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage; inhibition of ERK1/2 results in the inhibition of PARP1-mediated cell death . PARP1 is acetylated by p300/CBP; this acetylation is involved in the activation of NF-kappaB by PARP1 [[A14]] . PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain. This modification inhibits the ability of p300 to acetylate PARP1 and inhibits the expression of genes that are transcriptionally targeted by PARP1 [[A15]] .",
             "Results": [
                 {
-                    "bel_statement": "act(p(HGNC:PRKDC), ma(GO:\"kinase activity\")) increases p(HGNC:PARP1, pmod(Ph))",
-                    "evidence": "DNA-PK phosphorylates PARP1 though its effect is unknown."
+                    "bel_statement": "p(HGNC:PRKDC) reg p(HGNC:PARP1, pmod(Ph))",
+                    "evidence": "DNA-PK phosphorylates PARP1 though its effect is unknown"
                 },
                 {
-                    "bel_statement": "act(p(FPLX:AMPK), ma(GO:\"kinase activity\")) directlyIncreases act(p(HGNC:PARP1))",
-                    "evidence": "Phosphorylation of PARP1 by AMPK has been shown to enhance its activity."
+                    "bel_statement": "p(FPLX:AMPK) increases act(p(HGNC:PARP1))",
+                    "evidence": "Phosphorylation of PARP1 by AMPK has been shown to enhance its activity"
                 },
                 {
-                    "bel_statement": "act(p(FPLX:AMPK), ma(GO:\"kinase activity\")) directlyDecreases act(p(HGNC:SIRT1))",
-                    "evidence": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1."
+                    "bel_statement": "p(FPLX:AMPK) decreases act(p(HGNC:SIRT1))",
+                    "evidence": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1"
                 },
                 {
-                    "bel_statement": "act(p(FPLX:ERK), ma(GO:\"kinase activity\")) directlyIncreases act(p(HGNC:PARP1))",
-                    "evidence": "ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage."
+                    "bel_statement": "p(FPLX:ERK) increases act(p(HGNC:PARP1))",
+                    "evidence": "ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage"
                 },
                 {
-                    "bel_statement": "act(p(FPLX:ERK), ma(GO:\"kinase activity\")) directlyIncreases bp(GO:\"cell death\")",
-                    "evidence": "Inhibition of ERK1/2 results in the inhibition of PARP1-mediated cell death."
+                    "bel_statement": "p(HGNC:EP300) increases p(HGNC:PARP1, pmod(Ac))",
+                    "evidence": "PARP1 is acetylated by p300/CBP"
                 },
                 {
-                    "bel_statement": "p(HGNC:EP300) directlyIncreases p(HGNC:PARP1, pmod(Ac))",
-                    "evidence": "PARP1 is acetylated by p300/CBP; this acetylation is involved in the activation of NF-kappaB by PARP1."
+                    "bel_statement": "p(HGNC:EP300) increases act(complex(p(FPLX:NFkappaB)))",
+                    "evidence": "This acetylation is involved in the activation of NF-kappaB by PARP1"
                 },
                 {
-                    "bel_statement": "p(HGNC:SUMO1) directlyIncreases p(HGNC:PARP1, pmod(Sumo))",
-                    "evidence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain."
+                    "bel_statement": "p(HGNC:SUMO1, pmod(Sumo)) reg p(HGNC:PARP1)",
+                    "evidence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain"
                 },
                 {
-                    "bel_statement": "p(HGNC:SUMO3) directlyIncreases p(HGNC:PARP1, pmod(Sumo))",
-                    "evidence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain."
+                    "bel_statement": "p(HGNC:SUMO3, pmod(Sumo)) reg p(HGNC:PARP1)",
+                    "evidence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1, pmod(Sumo)) directlyDecreases p(HGNC:PARP1, pmod(Ac))",
-                    "evidence": "This modification inhibits the ability of p300 to acetylate PARP1."
+                    "bel_statement": "p(HGNC:PARP1, pmod(Sumo)) decreases act(p(HGNC:EP300))",
+                    "evidence": "This modification inhibits the ability of p300 to acetylate PARP1"
                 }
             ],
             "annotations": [
@@ -1656,7 +1618,7 @@
             "text": "Co-regulation of SIRT1 and PARP1",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) regulates p(HGNC:PARP1)",
+                    "bel_statement": "p(HGNC:SIRT1) reg p(HGNC:PARP1)",
                     "evidence": "Co-regulation of SIRT1 and PARP1"
                 }
             ],
@@ -1684,16 +1646,16 @@
             "text": "SIRT1 and PARP1 are transcriptionally and functionally interconnected . In SIRT1-deficient mouse cardiomyocytes, Rajamohan et al. in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1 [[A16]] . Whether this interaction occurs during genotoxic stress or other types of stresses remains an open question. No similar modification reaction has been seen on SIRT1 by PARP1 in response to DNA damage. However, SIRT1 is able to negatively regulate the PARP1 promoter, and the SIRT1 promoter has been shown to be under the influence of PARP2 .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:PARP1, pmod(Ac))",
-                    "evidence": "In SIRT1-deficient mouse cardiomyocytes, Rajamohan et al. in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1."
+                    "bel_statement": "p(HGNC:SIRT1) decreases pmod(Ac, p(HGNC:PARP1))",
+                    "evidence": "In SIRT1-deficient mouse cardiomyocytes, Rajamohan et al. in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases g(HGNC:PARP1)",
-                    "evidence": "SIRT1 is able to negatively regulate the PARP1 promoter."
+                    "bel_statement": "p(HGNC:SIRT1) negativeCorrelation g(HGNC:PARP1)",
+                    "evidence": "SIRT1 is able to negatively regulate the PARP1 promoter"
                 },
                 {
-                    "bel_statement": "g(HGNC:PARP2) directlyIncreases g(HGNC:SIRT1)",
-                    "evidence": "The SIRT1 promoter has been shown to be under the influence of PARP2."
+                    "bel_statement": "p(HGNC:PARP2) regulates g(HGNC:SIRT1)",
+                    "evidence": "the SIRT1 promoter has been shown to be under the influence of PARP2"
                 }
             ],
             "annotations": [
@@ -1789,28 +1751,24 @@
             "text": "Another key co-regulatory mechanism between these two proteins is the utilization of nicotinamide adenine dinucleotide (NAD+). It has been suggested by several studies that activation of PARP1 causes a depletion in NAD + levels, which inhibits SIRT1 activity . In mammals, NAD + is mainly generated through the salvage pathway; this pathway involves nicotinamide (NAM) as the major precursor in this multi-step process that involves the conversion of NAM into nicotinamide mononucleotide (NMN) and then NMN into NAD+. The rate-limiting protein in the NAM-NMN-NAD + conversion is nicotinamide phosphoribosyltransferase (NAMPT) [[A17]]. PARP1 was shown to have a greater effect on NAD + depletion than SIRT1 in response to the NAMPT inhibitor, FK866 . In a related study, the inhibition of NAMPT by FK866 was shown to produce an effect similar to SIRT1 depletion .",
             "Results": [
                 {
-                    "bel_statement": "act(p(HGNC:PARP1)) directlyDecreases a(CHEBI:15846)",
-                    "evidence": "It has been suggested by several studies that activation of PARP1 causes a depletion in NAD + levels, which inhibits SIRT1 activity."
+                    "bel_statement": "p(HGNC:PARP1) decreases a(CHEBI:\"NAD(+)\")",
+                    "evidence": "activation of PARP1 causes a depletion in NAD + levels"
                 },
                 {
-                    "bel_statement": "a(CHEBI:15846) directlyDecreases act(p(HGNC:SIRT1))",
-                    "evidence": "It has been suggested by several studies that activation of PARP1 causes a depletion in NAD + levels, which inhibits SIRT1 activity."
+                    "bel_statement": "p(HGNC:PARP1) decreases act(p(HGNC:SIRT1))",
+                    "evidence": "activation of PARP1 causes a depletion in NAD + levels, which inhibits SIRT1 activity"
                 },
                 {
-                    "bel_statement": "act(p(HGNC:PARP1)) directlyDecreases a(CHEBI:13389)",
-                    "evidence": "PARP1 was shown to have a greater effect on NAD + depletion than SIRT1 in response to the NAMPT inhibitor, FK866."
+                    "bel_statement": "p(HGNC:NAMPT) rateLimitingStepOf rxn(reactants(a(CHEBI:nicotinamide)), products(a(CHEBI:\"nicotinamide mononucleotide\")))",
+                    "evidence": "The rate-limiting protein in the NAM-NMN-NAD + conversion is nicotinamide phosphoribosyltransferase (NAMPT)"
                 },
                 {
-                    "bel_statement": "act(p(HGNC:SIRT1)) directlyDecreases a(CHEBI:13389)",
-                    "evidence": "PARP1 was shown to have a greater effect on NAD + depletion than SIRT1 in response to the NAMPT inhibitor, FK866."
+                    "bel_statement": "a(CHEBI:FK-866) decreases act(p(HGNC:NAMPT))",
+                    "evidence": "the inhibition of NAMPT by FK866"
                 },
                 {
-                    "bel_statement": "a(CHEBI:187413) directlyDecreases act(p(HGNC:NAMPT))",
-                    "evidence": "PARP1 was shown to have a greater effect on NAD + depletion than SIRT1 in response to the NAMPT inhibitor, FK866."
-                },
-                {
-                    "bel_statement": "a(CHEBI:187413) directlyDecreases act(p(HGNC:SIRT1))",
-                    "evidence": "In a related study, the inhibition of NAMPT by FK866 was shown to produce an effect similar to SIRT1 depletion."
+                    "bel_statement": "a(CHEBI:FK-866) causesNoChange act(p(HGNC:SIRT1))",
+                    "evidence": "the inhibition of NAMPT by FK866 was shown to produce an effect similar to SIRT1 depletion"
                 }
             ],
             "annotations": [
@@ -1951,28 +1909,24 @@
             "text": "Recent evidence suggests that local supplies of NAD + may be important for the enzymatic activities of these two proteins, shown in Figure  4. Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] . A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] . PARP1 activity leads to increased NAM concentrations at DNA damage sites, potentially leading to local inhibition of SIRT1 histone deacetylase activity . Further work is needed to understand the function of these two proteins around chromatin sites occupied beforehand by one of them.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:NMNAT1) binds a(CHEBI:\"ADP-D-ribose\")",
-                    "evidence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity."
+                    "bel_statement": "p(HGNC:NMNAT1) hasActivity ma(GO:\"adenylyltransferase activity\")",
+                    "evidence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway"
                 },
                 {
-                    "bel_statement": "p(HGNC:NMNAT1) increases act(p(HGNC:PARP1))",
-                    "evidence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity."
+                    "bel_statement": "p(HGNC:NMNAT1, pmod(Ph, Ser, 136)) decreases act(p(HGNC:PARP1))",
+                    "evidence": "NMNAT1 can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC)"
                 },
                 {
-                    "bel_statement": "p(HGNC:NMNAT1, pmod(Ph, S, 136)) directlyDecreases act(p(HGNC:PARP1))",
-                    "evidence": "This effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC)."
+                    "bel_statement": "complex(p(HGNC:NMNAT1), p(HGNC:SIRT1)) increases act(p(HGNC:SIRT1))",
+                    "evidence": "SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) binds p(HGNC:NMNAT1)",
-                    "evidence": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity."
+                    "bel_statement": "act(p(HGNC:PARP1)) increases a(CHEBI:nicotinamide)",
+                    "evidence": "PARP1 activity leads to increased NAM concentrations at DNA damage sites"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases a(CHEBI:\"Nicotinamide-Nucleotide Adenylyltransferase\")",
-                    "evidence": "PARP1 activity leads to increased NAM concentrations at DNA damage sites, potentially leading to local inhibition of SIRT1 histone deacetylase activity."
-                },
-                {
-                    "bel_statement": "p(HGNC:PARP1) decreases act(p(HGNC:SIRT1), ma(GO:\"histone deacetylase activity\"))",
-                    "evidence": "PARP1 activity leads to increased NAM concentrations at DNA damage sites, potentially leading to local inhibition of SIRT1 histone deacetylase activity."
+                    "bel_statement": "a(CHEBI:nicotinamide) decreases act(p(HGNC:SIRT1), ma(GO:\"histone deacetylase activity\"))",
+                    "evidence": "potentially leading to local inhibition of SIRT1 histone deacetylase activity"
                 }
             ],
             "annotations": [
@@ -2113,7 +2067,7 @@
             "text": "The effect of NMNAT1 binding on SIRT1 and PARP1 activity. Zhang et al. proposed that NMNAT1 may stimulate SIRT1 activity; indicated by the dashed line.",
             "Results": [
                 {
-                    "bel_statement": "complex(p(HGNC:NMNAT1), p(HGNC:SIRT1)) increases act(p(HGNC:SIRT1))",
+                    "bel_statement": "p(HGNC:NMNAT1) increases act(p(HGNC:SIRT1))",
                     "evidence": "Zhang et al. proposed that NMNAT1 may stimulate SIRT1 activity; indicated by the dashed line."
                 }
             ],
@@ -2175,7 +2129,16 @@
         {
             "Index": "22",
             "text": "SIRT1/PARP1 response to DNA damage",
-            "Results": [],
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:SIRT1) reg bp(MESH:\"DNA Damage\")",
+                    "evidence": "SIRT1/PARP1 response to DNA damage"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) reg bp(MESH:\"DNA Damage\")",
+                    "evidence": "SIRT1/PARP1 response to DNA damage"
+                }
+            ],
             "annotations": [
                 {
                     "db": "MESH",
@@ -2189,12 +2152,16 @@
             "text": "DNA damage response to both endogenous and exogenous sources is an intricate process that is not fully understood due to the complexity of the potential lesions, the number of proteins involved in both surveillance and repair, the interconnected regulation of proteins involved in the detection and repair of damage, stoppage of the cell cycle, and the potential induction of cell death; reviewed by . SIRT1 and PARP1 play several roles throughout the response to DNA damage from the initial response to final cell fate decisions.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:0006974)",
+                    "bel_statement": "p(HGNC:SIRT1) reg bp(GO:\"DNA damage response\")",
                     "evidence": "SIRT1 and PARP1 play several roles throughout the response to DNA damage from the initial response to final cell fate decisions."
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:0006974)",
+                    "bel_statement": "p(HGNC:PARP1) reg bp(GO:\"DNA damage response\")",
                     "evidence": "SIRT1 and PARP1 play several roles throughout the response to DNA damage from the initial response to final cell fate decisions."
+                },
+                {
+                    "bel_statement": "bp(GO:\"DNA damage response\") reg bp(GO:\"cell death\")",
+                    "evidence": "DNA damage response is an intricate process that may potentially induce cell death"
                 }
             ],
             "annotations": [
@@ -2235,28 +2202,32 @@
             "text": "Both SIRT1 and PARP1 are known to modify histones; deacetylation of histones triggers chromatin compaction and the inhibition of transcription, whereas poly (ADP-ribose) polymers help to relax chromatin. SIRT1 is capable of deacetylating several histone amino acid residues, including H1K26, H3K9, H3K14, and H4K16 [[A20]] , while PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription [[A21]] . It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA . Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4 [[A22]] . Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP-ribosylation activity on H4K16. Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]]. Deacetylation of these two proteins promotes their ubiquitin-dependent degradation affecting DNA double-strand break (DSB) repair either through the repression of repair or affecting the choice of repair mechanism (i.e. homologous recombination or non-homologous end joining (NHEJ)) . TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining [[A24]] . Further studies are needed to understand how DNA damage might affect modifications on the various histones though it is known that genotoxic stress causes a random redistribution of SIRT1 across the genome with a correlated increase in levels of H1K26 acetylation . However, while PARP1 does localize to DNA strand breaks, it is also not known whether there is any further global redistribution PARP1 or a relationship to the redistribution of SIRT1.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) decreases bp(GO:0006351)",
-                    "evidence": "deacetylation of histones triggers chromatin compaction and the inhibition of transcription"
+                    "bel_statement": "p(HGNC:SIRT1) decreases pmod(Ac, complex(FPLX:Histone))",
+                    "evidence": "SIRT1 is capable of deacetylating several histone amino acid residues, including H1K26, H3K9, H3K14, and H4K16"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:0006351)",
-                    "evidence": "poly (ADP-ribose) polymers help to relax chromatin"
+                    "bel_statement": "p(HGNC:PARP1) increases pmod(ADPRib, complex(FPLX:Histone))",
+                    "evidence": "PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases p(HGNC:PARP1)",
-                    "evidence": "SIRT1 deacetylation activity could potentially help drive the PARP1 ADP-ribosylation activity on H4K16"
+                    "bel_statement": "pmod(ADPRib, complex(FPLX:Histone_H1)) increases bp(GO:\"DNA-templated transcription\")",
+                    "evidence": "ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA"
+                },
+                {
+                    "bel_statement": "pmod(Ac, p(FPLX:Histone_H4), \"K16\") decreases pmod(ADPRib, p(FPLX:Histone_H4), \"K16\")",
+                    "evidence": "A competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4"
                 },
                 {
                     "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:KAT5)",
-                    "evidence": "SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF"
+                    "evidence": "SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the histone acetyltransferase TIP60"
                 },
                 {
                     "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:KAT8)",
-                    "evidence": "SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF"
+                    "evidence": "SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the histone acetyltransferase MOF"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:0000785)",
-                    "evidence": "genotoxic stress causes a random redistribution of SIRT1 across the genome with a correlated increase in levels of H1K26 acetylation"
+                    "bel_statement": "p(HGNC:KAT5, pmod(Ac, p(FPLX:Histone_H4), \"K16\")) decreases bp(GO:\"double-strand break repair via nonhomologous end joining\")",
+                    "evidence": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining"
                 }
             ],
             "annotations": [
@@ -2572,7 +2543,7 @@
             "text": "DNA damage signaling pathway",
             "Results": [
                 {
-                    "bel_statement": "bp(MESH:D004249) increases bp(GO:0007165)",
+                    "bel_statement": "bp(GO:\"signal transduction\") regulates bp(MESH:\"DNA Damage\")",
                     "evidence": "DNA damage signaling pathway"
                 }
             ],
@@ -2594,16 +2565,24 @@
             "text": "Both SIRT1 and PARP1 are DNA damage responders and the absence of either of these proteins may lead to DNA damage sensitization . PARP1 begins to localize to DNA breaks rapidly and becomes activated by binding to DNA breaks. The ADP-ribosylation activity of PARP1 increases 10-500 fold as a result of binding to DNA breaks [[A25]] . Once activated, PARP1 may help repair single strand DNA breaks, preventing their conversion to double-stranded breaks [[A26]] . In addition, PARP1 is involved in DNA repair through its associations with base excision repair (BER) enzymes such as polymerase beta, XRCC1 and DNA ligase III by helping these proteins localize to sites of DNA damage [[A27]] .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases a(MESH:D000074744)",
+                    "bel_statement": "p(HGNC:SIRT1) reg bp(GO:\"DNA repair\")",
+                    "evidence": "Both SIRT1 and PARP1 are DNA damage responders and the absence of either of these proteins may lead to DNA damage sensitization."
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) reg bp(GO:\"DNA repair\")",
+                    "evidence": "Both SIRT1 and PARP1 are DNA damage responders and the absence of either of these proteins may lead to DNA damage sensitization."
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) increases act(p(HGNC:PARP1), ma(ADP-ribosylation))",
                     "evidence": "The ADP-ribosylation activity of PARP1 increases 10-500 fold as a result of binding to DNA breaks."
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:0006281)",
+                    "bel_statement": "p(HGNC:PARP1) decreases bp(MESH:\"DNA Breaks, Single-Stranded\")",
                     "evidence": "Once activated, PARP1 may help repair single strand DNA breaks, preventing their conversion to double-stranded breaks."
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:0006284)",
-                    "evidence": "In addition, PARP1 is involved in DNA repair through its associations with base excision repair (BER) enzymes such as polymerase beta, XRCC1 and DNA ligase III by helping these proteins localize to sites of DNA damage."
+                    "bel_statement": "p(HGNC:PARP1) hasActivity ma(GO:\"base-excision repair\")",
+                    "evidence": "PARP1 is involved in DNA repair through its associations with base excision repair (BER) enzymes such as polymerase beta, XRCC1 and DNA ligase III by helping these proteins localize to sites of DNA damage."
                 }
             ],
             "annotations": [
@@ -2734,16 +2713,12 @@
             "text": "Two early responders of DNA damage linked to SIRT1 and PARP1 regulation are ATM (ataxia telangiectasia, mutated) and CHK2 (checkpoint kinase 2) . The activation of ATM by DNA breaks requires the activation of the MRE11-RAD50-NBS1 (MRN) complex [[A28-A30]]. It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]] .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:PARP1) binds p(HGNC:ATM)",
-                    "evidence": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage."
+                    "bel_statement": "complex(p(HGNC:MRE11), p(HGNC:RAD50), p(HGNC:NBS1)) increases act(p(HGNC:ATM))",
+                    "evidence": "The activation of ATM by DNA breaks requires the activation of the MRE11-RAD50-NBS1 (MRN) complex"
                 },
                 {
-                    "bel_statement": "a(MESH:D004249) increases p(HGNC:PARP1) binds p(HGNC:ATM)",
-                    "evidence": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage."
-                },
-                {
-                    "bel_statement": "p(HGNC:PARP1) increases p(HGNC:ATM)",
-                    "evidence": "The automodification of PARP1 leads to ATM activation."
+                    "bel_statement": "p(HGNC:PARP1) increases act(p(HGNC:ATM))",
+                    "evidence": "PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation"
                 }
             ],
             "annotations": [
@@ -2824,28 +2799,32 @@
             "text": "An extended feedback loop has been proposed by Gorospe and de Cabo involving SIRT1 and several key DNA damage repair proteins . In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] . CHK2 is activated when T68 is phosphorylated by ATM. CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA [[A34]] . It has been suggested that in repairable DNA damage situations SIRT1 levels are elevated leading to a survival response, but during lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR that can ultimately result in cell death .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:ATM) directlyIncreases p(HGNC:NBN, pmod(Ph, Ser, 343))",
-                    "evidence": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1."
+                    "bel_statement": "p(HGNC:ATM) increases p(HGNC:NBN, pmod(Ph, Ser, 343))",
+                    "evidence": "NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:NBN, pmod(Ac))",
-                    "evidence": "To be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1."
+                    "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:NBN, pmod(Ac))",
+                    "evidence": "SIRT1 helps to maintain NBS1 in a hypoacetylated state by deacetylating NBS1"
                 },
                 {
-                    "bel_statement": "p(HGNC:ATM) directlyIncreases p(HGNC:CHEK2, pmod(Ph, Thr, 68))",
-                    "evidence": "CHK2 is activated when T68 is phosphorylated by ATM."
+                    "bel_statement": "p(HGNC:ATM) increases p(HGNC:CHEK2, pmod(Ph, Thr, 68))",
+                    "evidence": "CHK2 is activated when T68 is phosphorylated by ATM"
                 },
                 {
-                    "bel_statement": "p(HGNC:CHEK2) directlyIncreases p(HGNC:ELAVL1, pmod(Ph))",
-                    "evidence": "CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA."
+                    "bel_statement": "p(HGNC:CHEK2) decreases r(HGNC:SIRT1)",
+                    "evidence": "CHK2 can phosphorylate HuR causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA"
                 },
                 {
-                    "bel_statement": "p(HGNC:ELAVL1) directlyDecreases r(HGNC:SIRT1)",
-                    "evidence": "CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA."
+                    "bel_statement": "bp(GO:\"DNA damage response\") increases p(HGNC:SIRT1)",
+                    "evidence": "In repairable DNA damage situations SIRT1 levels are elevated leading to a survival response"
                 },
                 {
-                    "bel_statement": "p(HGNC:CHEK2) increases bp(GO:0008219)",
-                    "evidence": "During lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR that can ultimately result in cell death."
+                    "bel_statement": "p(HGNC:CHEK2) decreases p(HGNC:SIRT1)",
+                    "evidence": "During lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR"
+                },
+                {
+                    "bel_statement": "p(HGNC:CHEK2) increases bp(GO:\"cell death\")",
+                    "evidence": "During lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR that can ultimately result in cell death"
                 }
             ],
             "annotations": [
@@ -2991,32 +2970,36 @@
             "text": "SIRT1 is also regulated by c-MYC and E2F1, two proteins involved in cell proliferation, differentiation and apoptosis, through negative feedback loops shown in Figure  5. E2F1, a transcription factor, induces the transcription of SIRT1 [[A35]]. Conversely, E2F1 has been suggested to be a target for SIRT1 deacetylation, which inhibits E2F1 activity [[A36-A37]] . Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]] . Two studies have examined the interactions between SIRT1 and c-MYC producing contradictory results. In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC [[A39]] . In the second publication, neither the induction of SIRT1 expression nor the destabilization of c-MYC was seen following c-MYC activation. Instead, a stabilizing effect on c-MYC due to deacetylation by SIRT1 was found. Also in the second study, Menssen et al. found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1 [[A40]] . Another line of evidence suggesting that SIRT1 may affect NAMPT through a second mechanism involving the circadian clock will be discussed later. There is evidence that PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC [[A41]] . This presents the possibility that both SIRT1 and PARP1 may be capable of influencing the regulation of NAMPT to affect NAD + levels through c-MYC.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:E2F1) increases r(HGNC:SIRT1)",
-                    "evidence": "E2F1, a transcription factor, induces the transcription of SIRT1."
+                    "bel_statement": "p(HGNC:E2F1) increases g(HGNC:SIRT1)",
+                    "evidence": "E2F1, a transcription factor, induces the transcription of SIRT1"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases act(p(HGNC:E2F1))",
-                    "evidence": "Conversely, E2F1 has been suggested to be a target for SIRT1 deacetylation, which inhibits E2F1 activity."
+                    "bel_statement": "p(HGNC:SIRT1) decreases act(p(HGNC:E2F1))",
+                    "evidence": "E2F1 has been suggested to be a target for SIRT1 deacetylation, which inhibits E2F1 activity"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:RB1)",
-                    "evidence": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation."
+                    "bel_statement": "p(HGNC:RB1) decreases act(p(HGNC:E2F1))",
+                    "evidence": "The transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb)"
                 },
                 {
-                    "bel_statement": "p(HGNC:MYC) increases r(HGNC:SIRT1)",
-                    "evidence": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression."
+                    "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:RB1, pmod(Ac))",
+                    "evidence": "Rb is another substrate of SIRT1 deacetylation"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:MYC)",
-                    "evidence": "Deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC."
+                    "bel_statement": "p(HGNC:MYC) increases g(HGNC:SIRT1)",
+                    "evidence": "c-MYC over-expression leads to an increase in SIRT1 expression"
                 },
                 {
-                    "bel_statement": "p(HGNC:MYC) increases r(HGNC:NAMPT)",
-                    "evidence": "Menssen et al. found that c-MYC can induce the transcription of NAMPT."
+                    "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:MYC)",
+                    "evidence": "Deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases r(HGNC:MYC)",
-                    "evidence": "There is evidence that PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC."
+                    "bel_statement": "p(HGNC:MYC) increases g(HGNC:NAMPT)",
+                    "evidence": "c-MYC can induce the transcription of NAMPT"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) increases act(p(HGNC:E2F1), ma(GO:\"DNA-templated transcription\"))",
+                    "evidence": "PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC"
                 }
             ],
             "annotations": [
@@ -3312,12 +3295,12 @@
             "text": "Interactions between SIRT1 and transcription factors c-MYC and E2F1. Solid lines between SIRT1 and c-MYC indicated are interactions from Yuan, Minter-Dykhouse et al. 2009 forming a negative feedback loop, while dashed lines are findings related to SIRT1 and c-MYC from Menssen, Hydbring et al. 2012.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:14929) decreases p(HGNC:7553)",
-                    "evidence": "Solid lines between SIRT1 and c-MYC indicated are interactions from Yuan, Minter-Dykhouse et al. 2009 forming a negative feedback loop."
+                    "bel_statement": "p(HGNC:SIRT1) negativeCorrelation p(HGNC:MYC)",
+                    "evidence": "Solid lines between SIRT1 and c-MYC indicated are interactions from Yuan, Minter-Dykhouse et al. 2009 forming a negative feedback loop"
                 },
                 {
-                    "bel_statement": "p(HGNC:7553) decreases p(HGNC:14929)",
-                    "evidence": "Solid lines between SIRT1 and c-MYC indicated are interactions from Yuan, Minter-Dykhouse et al. 2009 forming a negative feedback loop."
+                    "bel_statement": "p(HGNC:SIRT1) reg p(HGNC:E2F1)",
+                    "evidence": "Interactions between SIRT1 and transcription factors c-MYC and E2F1"
                 }
             ],
             "annotations": [
@@ -3383,12 +3366,16 @@
             "text": "Another co-regulated protein is NF-kappaB, a regulator of cellular response, including inflammation, to stress. In the case of NF-kappaB, the effects of SIRT1 and PARP1 are opposing. SIRT1 can deacetylate the RelA/p65 subunit of NF-kappaB at K310 to inhibit NF-kappaB transactivation activity [[A42]] . PARP1 is an activator of NF-kappaB through its direct binding to NF-kappaB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-kappaB [[A43]] .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases act(p(FPLX:NFkappaB))",
-                    "evidence": "SIRT1 can deacetylate the RelA/p65 subunit of NF-kappaB at K310 to inhibit NF-kappaB transactivation activity."
+                    "bel_statement": "p(HGNC:SIRT1) decreases act(complex(FPLX:NFkappaB), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+                    "evidence": "SIRT1 can deacetylate the RelA/p65 subunit of NF-kappaB at K310 to inhibit NF-kappaB transactivation activity"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) directlyIncreases act(p(FPLX:NFkappaB))",
-                    "evidence": "PARP1 is an activator of NF-kappaB through its direct binding to NF-kappaB."
+                    "bel_statement": "p(HGNC:PARP1) increases act(complex(FPLX:NFkappaB), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+                    "evidence": "PARP1 is an activator of NF-kappaB through its direct binding to NF-kappaB"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1, pmod(Ac)) increases complex(FPLX:NFkappaB)",
+                    "evidence": "Acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-kappaB"
                 }
             ],
             "annotations": [
@@ -3489,28 +3476,28 @@
             "text": "Given the importance of p53 to apoptotic response, a number of studies have focused on the regulation of p53 by SIRT1. p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation [[A44]] . SIRT1 has the capability of deacetylating p53 at several sites in mouse embryonic fibroblasts (MEFs) and SIRT1-deficient cells possess hyperacetylated p53; the precise role of p53 acetylation is unclear [[A45]] . Several proteins help to modify the interactions of SIRT1 with p53, including p53 (itself), DBC1, AROS, and HIC1, suggesting that it is a cellular imperative to control the inhibition of p53 by SIRT1 under certain conditions. p53 can repress SIRT1 expression during nutrient abundance via p53-binding sites on the SIRT1 promoter. This effect is countered by the transcription factor FOXO3A, which interacts with p53 in an inhibitory fashion during nutrient deprivation [[A46-A47]] . Hypermethylated in cancer-1 (HIC1) is a transcriptional repressor of the SIRT1 promoter [[A48]] that helps prevent age-dependent cancers in mice. If HIC1 is inhibited, SIRT1 expression increases, allowing for more efficient inactivation of p53; p53 over-expression leads to the transactivation of HIC1, thus creating a negative feedback loop .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:TP53) increases bp(GO:0006915)",
-                    "evidence": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation."
+                    "bel_statement": "p(HGNC:SIRT1) decreases act(p(HGNC:TP53), ma(GO:\"transcription factor activity\"))",
+                    "evidence": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation"
                 },
                 {
                     "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:TP53, pmod(Ac))",
-                    "evidence": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation."
+                    "evidence": "SIRT1 has the capability of deacetylating p53 at several sites in mouse embryonic fibroblasts (MEFs) and SIRT1-deficient cells possess hyperacetylated p53"
                 },
                 {
-                    "bel_statement": "p(HGNC:TP53) decreases a(HGNC:SIRT1)",
-                    "evidence": "p53 can repress SIRT1 expression during nutrient abundance via p53-binding sites on the SIRT1 promoter."
+                    "bel_statement": "p(HGNC:TP53) decreases g(HGNC:SIRT1)",
+                    "evidence": "p53 can repress SIRT1 expression during nutrient abundance via p53-binding sites on the SIRT1 promoter"
                 },
                 {
-                    "bel_statement": "p(HGNC:FOXO3) decreases p(HGNC:TP53)",
-                    "evidence": "This effect is countered by the transcription factor FOXO3A, which interacts with p53 in an inhibitory fashion during nutrient deprivation."
+                    "bel_statement": "p(HGNC:FOXO3) decreases act(p(HGNC:TP53), ma(GO:\"transcription factor activity\"))",
+                    "evidence": "This effect is countered by the transcription factor FOXO3A, which interacts with p53 in an inhibitory fashion during nutrient deprivation"
                 },
                 {
-                    "bel_statement": "p(HGNC:HIC1) decreases a(HGNC:SIRT1)",
-                    "evidence": "Hypermethylated in cancer-1 (HIC1) is a transcriptional repressor of the SIRT1 promoter that helps prevent age-dependent cancers in mice."
+                    "bel_statement": "p(HGNC:HIC1) decreases g(HGNC:SIRT1)",
+                    "evidence": "Hypermethylated in cancer-1 (HIC1) is a transcriptional repressor of the SIRT1 promoter"
                 },
                 {
-                    "bel_statement": "p(HGNC:TP53) increases bp(GO:2000144)",
-                    "evidence": "p53 over-expression leads to the transactivation of HIC1, thus creating a negative feedback loop."
+                    "bel_statement": "p(HGNC:TP53) increases g(HGNC:HIC1)",
+                    "evidence": "p53 over-expression leads to the transactivation of HIC1, thus creating a negative feedback loop"
                 }
             ],
             "annotations": [
@@ -3721,24 +3708,24 @@
             "text": "Micro-RNAs have also been shown to downregulate SIRT1-dependent deacetylation of p53. p53 can stimulate the expression of miRNA-34 [[A49]], which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53. Over 15 micro-RNAs affect the expression of SIRT1 either directly or by decreasing the expression of HuR, which stabilizes SIRT1 mRNA [[A50]] .",
             "Results": [
                 {
-                    "bel_statement": "m(MESH:D035683) decreases act(p(HGNC:TP53), ma(GO:\"deacetylase activity\"))",
+                    "bel_statement": "m(MESH:D035683) decreases p(HGNC:SIRT1)",
                     "evidence": "Micro-RNAs have also been shown to downregulate SIRT1-dependent deacetylation of p53."
                 },
                 {
-                    "bel_statement": "p(HGNC:TP53) increases m(MESH:D035683)",
-                    "evidence": "p53 can stimulate the expression of miRNA-34, which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53."
+                    "bel_statement": "p(HGNC:TP53) increases m(HGNC:MIR34A)",
+                    "evidence": "p53 can stimulate the expression of miRNA-34"
                 },
                 {
-                    "bel_statement": "m(MESH:D035683) decreases p(HGNC:SIRT1)",
-                    "evidence": "p53 can stimulate the expression of miRNA-34, which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53."
-                },
-                {
-                    "bel_statement": "m(MESH:D035683) decreases p(HGNC:SIRT1)",
-                    "evidence": "Over 15 micro-RNAs affect the expression of SIRT1 either directly or by decreasing the expression of HuR, which stabilizes SIRT1 mRNA."
+                    "bel_statement": "m(HGNC:MIR34A) decreases p(HGNC:SIRT1)",
+                    "evidence": "p53 can stimulate the expression of miRNA-34 which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53"
                 },
                 {
                     "bel_statement": "m(MESH:D035683) decreases p(HGNC:ELAVL1)",
-                    "evidence": "Over 15 micro-RNAs affect the expression of SIRT1 either directly or by decreasing the expression of HuR, which stabilizes SIRT1 mRNA."
+                    "evidence": "Over 15 micro-RNAs affect the expression of HuR"
+                },
+                {
+                    "bel_statement": "p(HGNC:ELAVL1) increases r(HGNC:SIRT1)",
+                    "evidence": "HuR stabilizes SIRT1 mRNA"
                 }
             ],
             "annotations": [
@@ -3814,12 +3801,24 @@
             "text": "Given the well-studied nature of p53 as a SIRT1 substrate, p53 has been used to characterize SIRT1 inhibitors and activators. In humans, deleted in breast cancer 1 (DBC1) acts as an inhibitor of SIRT1 (an inhibitory effect increased by the phosphorylation of DBC1) and whose effect has been shown to lead to p53 hypoacetylation [[A51-A52]] . Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] . Further studies are needed to understand if the effects on p53 acetylation states are specific to the activities of DBC1 and AROS on SIRT1 or if other substrates of these two proteins are involved.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:CCAR2) directlyDecreases p(HGNC:SIRT1)",
-                    "evidence": "In humans, deleted in breast cancer 1 (DBC1) acts as an inhibitor of SIRT1 (an inhibitory effect increased by the phosphorylation of DBC1) and whose effect has been shown to lead to p53 hypoacetylation."
+                    "bel_statement": "p(HGNC:CCAR2) decreases act(p(HGNC:SIRT1))",
+                    "evidence": "In humans, deleted in breast cancer 1 (DBC1) acts as an inhibitor of SIRT1"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:TP53, pmod(Ac))",
-                    "evidence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1."
+                    "bel_statement": "p(HGNC:CCAR2, pmod(Ph)) directlyDecreases act(p(HGNC:SIRT1))",
+                    "evidence": "an inhibitory effect increased by the phosphorylation of DBC1"
+                },
+                {
+                    "bel_statement": "p(HGNC:CCAR2) decreases pmod(p(HGNC:TP53), Ac)",
+                    "evidence": "whose effect has been shown to lead to p53 hypoacetylation"
+                },
+                {
+                    "bel_statement": "p(HGNC:RPS19BP1) increases act(p(HGNC:SIRT1), ma(GO:\"protein deacetylase activity\"))",
+                    "evidence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1"
+                },
+                {
+                    "bel_statement": "p(HGNC:RPS19BP1) increases deg(pmod(p(HGNC:TP53), Ac))",
+                    "evidence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1"
                 }
             ],
             "annotations": [
@@ -3940,16 +3939,12 @@
             "text": "Much less is known about the interaction between PARP1 and p53. PARP1 helps p53 accumulate in the nucleus by (ADP-ribosyl)ating p53, which prevents p53 nuclear export , and there is evidence to suggest that SIRT1 deacetylation activity is capable of blocking p53 nuclear translocation .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases p(HGNC:TP53, pmod(ADPRib))",
-                    "evidence": "PARP1 helps p53 accumulate in the nucleus by (ADP-ribosyl)ating p53, which prevents p53 nuclear export."
+                    "bel_statement": "p(HGNC:PARP1) increases tloc(p(HGNC:TP53), fromLoc(GO:\"nuclear export\"), toLoc(GO:nucleus))",
+                    "evidence": "PARP1 helps p53 accumulate in the nucleus by (ADP-ribosyl)ating p53, which prevents p53 nuclear export"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) directlyIncreases tloc(p(HGNC:TP53), fromLoc(GO:GO:0005634), toLoc(GO:GO:0051168))",
-                    "evidence": "PARP1 helps p53 accumulate in the nucleus by (ADP-ribosyl)ating p53, which prevents p53 nuclear export."
-                },
-                {
-                    "bel_statement": "act(p(HGNC:SIRT1)) directlyDecreases tloc(p(HGNC:TP53), fromLoc(GO:GO:0051170), toLoc(GO:GO:0005634))",
-                    "evidence": "SIRT1 deacetylation activity is capable of blocking p53 nuclear translocation."
+                    "bel_statement": "p(HGNC:SIRT1) decreases tloc(p(HGNC:TP53), fromLoc(GO:\"nuclear export\"), toLoc(GO:nucleus))",
+                    "evidence": "there is evidence to suggest that SIRT1 deacetylation activity is capable of blocking p53 nuclear translocation"
                 }
             ],
             "annotations": [
@@ -4020,24 +4015,28 @@
             "text": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70 [[A54-A55]] . NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70 [[A56]] . The exact conditions leading to a differential role of SIRT1 on the Ku70 and Bax complex remains to be uncovered.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:TP53)",
-                    "evidence": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70."
+                    "bel_statement": "p(HGNC:SIRT1) decreases act(p(HGNC:TP53))",
+                    "evidence": "In addition to the role that SIRT1 plays in the inhibition of p53"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:XRCC6, pmod(Ac, K, 539))",
-                    "evidence": "SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70."
+                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases pmod(p(HGNC:XRCC6), Ac, K539)",
+                    "evidence": "SIRT1 is capable of deacetylating Ku70 at K539 and K542"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:XRCC6, pmod(Ac, K, 542))",
-                    "evidence": "SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70."
+                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases pmod(p(HGNC:XRCC6), Ac, K542)",
+                    "evidence": "SIRT1 is capable of deacetylating Ku70 at K539 and K542"
                 },
                 {
-                    "bel_statement": "p(HGNC:XRCC6, pmod(Ac)) directlyIncreases bp(GO:0006915)",
-                    "evidence": "The acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70."
+                    "bel_statement": "pmod(p(HGNC:XRCC6), Ac) increases complex(p(HGNC:XRCC6), p(HGNC:BAX))",
+                    "evidence": "the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis"
                 },
                 {
-                    "bel_statement": "p(HGNC:NBN) directlyIncreases p(HGNC:XRCC6, pmod(Ac))",
-                    "evidence": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70."
+                    "bel_statement": "complex(p(HGNC:XRCC6), p(HGNC:BAX)) decreases bp(GO:\"apoptotic process\")",
+                    "evidence": "Bax is a pro-apoptotic factor that is sequestered by Ku70"
+                },
+                {
+                    "bel_statement": "p(HGNC:NBN) increases pmod(p(HGNC:XRCC6), Ac)",
+                    "evidence": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70"
                 }
             ],
             "annotations": [
@@ -4153,28 +4152,32 @@
             "text": "PARP1 plays a role in cell death pathways (apoptosis or necrosis) in the course of responding to DNA damage. ATP is required for optimal caspase activation, and the depletion of ATP can direct cells between apoptotic and necrotic pathways . During normal apoptosis, PARP1 is cleaved by caspases; the role of these cleaved fragments play is not fully understood [[A57]]. PARP1 cleavage helps prevent energy depletion (NAD + and ATP) in response to severe DNA damage; the extreme loss of NAD + triggers necrosis by reducing cellular ability to synthesize ATP [[A58]] . Cells with severe DNA damage die from necrosis because they are not able to switch away from the necrotic pathway since the kinetics of NAD + depletion are faster than those of PARP1 cleavage . Rapid depletion of NAD + levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress . PARP1 has also been implicated in caspase-independent apoptosis, where its activation leads to apoptosis-inducing factor (AIF) release from the mitochondria, which induces nuclear chromatin fragmentation [[A59]] .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:0008219)",
+                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"cell death\")",
                     "evidence": "PARP1 plays a role in cell death pathways (apoptosis or necrosis) in the course of responding to DNA damage."
                 },
                 {
-                    "bel_statement": "a(CHEBI:15422) increases act(FPLX:Caspase)",
-                    "evidence": "ATP is required for optimal caspase activation."
+                    "bel_statement": "a(CHEBI:ATP) increases act(complex(FPLX:Caspase))",
+                    "evidence": "ATP is required for optimal caspase activation"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) directlyIncreases bp(GO:0006915)",
-                    "evidence": "During normal apoptosis, PARP1 is cleaved by caspases."
+                    "bel_statement": "bp(GO:\"DNA damage\") increases bp(GO:\"cell death\")",
+                    "evidence": "Cells with severe DNA damage die from necrosis because they are not able to switch away from the necrotic pathway"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) decreases a(CHEBI:13389)",
-                    "evidence": "Rapid depletion of NAD + levels by PARP1 reduces SIRT1 activity."
+                    "bel_statement": "p(HGNC:PARP1) decreases a(CHEBI:NAD)",
+                    "evidence": "Rapid depletion of NAD+ levels by PARP1 reduces SIRT1 activity"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) decreases act(HGNC:SIRT1)",
-                    "evidence": "Rapid depletion of NAD + levels by PARP1 reduces SIRT1 activity."
+                    "bel_statement": "p(HGNC:PARP1) decreases act(p(HGNC:SIRT1))",
+                    "evidence": "Rapid depletion of NAD+ levels by PARP1 reduces SIRT1 activity"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases p(HGNC:AIFM1)",
-                    "evidence": "PARP1 has also been implicated in caspase-independent apoptosis, where its activation leads to apoptosis-inducing factor (AIF) release from the mitochondria."
+                    "bel_statement": "p(HGNC:PARP1) increases bp(GO:\"apoptotic process\")",
+                    "evidence": "PARP1 has been implicated in caspase-independent apoptosis"
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) increases sec(p(MESH:\"Apoptosis Inducing Factor\"), fromLoc(GO:mitochondrion))",
+                    "evidence": "PARP1 activation leads to apoptosis-inducing factor (AIF) release from the mitochondria"
                 }
             ],
             "annotations": [
@@ -4365,16 +4368,32 @@
             "text": "Recent SIRT1 and PARP1 research has uncovered roles for the two proteins in circadian rhythms creating the possibility for novel interconnections between metabolism, DNA repair, and circadian rhythms (Figure  6). The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription [[A60-A62]]. Several studies have shown that disruptions in core circadian interactions can lead to alterations in DDR; reviewed in .",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) association bp(GO:\"circadian rhythm\")",
-                    "evidence": "Recent SIRT1 and PARP1 research has uncovered roles for the two proteins in circadian rhythms creating the possibility for novel interconnections between metabolism, DNA repair, and circadian rhythms (Figure 6)."
+                    "bel_statement": "complex(p(HGNC:CLOCK), p(HGNC:LARGE1)) increases bp(GO:\"DNA-templated transcription\")",
+                    "evidence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) association bp(GO:\"circadian rhythm\")",
-                    "evidence": "Recent SIRT1 and PARP1 research has uncovered roles for the two proteins in circadian rhythms creating the possibility for novel interconnections between metabolism, DNA repair, and circadian rhythms (Figure 6)."
+                    "bel_statement": "complex(p(HGNC:CLOCK), p(HGNC:LARGE1)) increases g(HGNC:CRY1)",
+                    "evidence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2)"
                 },
                 {
-                    "bel_statement": "complex(p(HGNC:CRY1), p(HGNC:CRY2), p(HGNC:PER1), p(HGNC:PER2), p(HGNC:PER3)) decreases bp(GO:\"DNA-templated transcription\")",
-                    "evidence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription [[A60-A62]]."
+                    "bel_statement": "complex(p(HGNC:CLOCK), p(HGNC:LARGE1)) increases g(HGNC:CRY2)",
+                    "evidence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2)"
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CLOCK), p(HGNC:LARGE1)) increases g(HGNC:PER1)",
+                    "evidence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the period (PER1, PER2, PER3) genes"
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CLOCK), p(HGNC:LARGE1)) increases g(HGNC:PER2)",
+                    "evidence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the period (PER1, PER2, PER3) genes"
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CLOCK), p(HGNC:LARGE1)) increases g(HGNC:PER3)",
+                    "evidence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the period (PER1, PER2, PER3) genes"
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:CRY1), p(HGNC:PER1), p(HGNC:PER2), p(HGNC:PER3)) decreases bp(GO:\"DNA-templated transcription\")",
+                    "evidence": "CRY and PER genes form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription"
                 }
             ],
             "annotations": [
@@ -4480,11 +4499,11 @@
             "text": "Interactions of SIRT1 and PARP1 with circadian clock components.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) association a(MESH:D057906)",
+                    "bel_statement": "p(HGNC:SIRT1) regulates bp(MESH:\"Circadian Clocks\")",
                     "evidence": "Interactions of SIRT1 and PARP1 with circadian clock components."
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) association a(MESH:D057906)",
+                    "bel_statement": "p(HGNC:PARP1) regulates bp(MESH:\"Circadian Clocks\")",
                     "evidence": "Interactions of SIRT1 and PARP1 with circadian clock components."
                 }
             ],
@@ -4511,36 +4530,24 @@
             "text": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] . CLOCK possesses acetyltransferase activity that regulates the transcriptional activity of CLOCK/BMAL1  and is capable of acetylating some of the same locations that SIRT1 deacetylates: H3K9, H3K14, and BMAL1 at K537 [[A64]] . SIRT1 has also been shown to deacetylate PER2 destabilizing the protein [[A65]]; it has been hypothesized that acetylation of PER2 at lysine residues prevents their ubiquitination . This presents a dual control mechanism for SIRT1 in the circadian clock where it is capable of balancing transcription through chromatin condensation, but also by disrupting the ability for CRY and PER2 to repress CLOCK/BMAL1 activity. SIRT1 is involved in NAMPT transcriptional regulation, which is under circadian control causing NAD + levels to oscillate as a consequence of NAMPT level oscillation . Additionally, it has been shown that PARP1 has rhythmic activity influenced by feeding patterns though further work is necessary to understand the underlying molecular mechanism. PARP1 is capable of ADP-ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1/CLOCK heterodimer and its targets [[A66]] . It remains to be determined whether a regulatory effect exists between SIRT1 or PARP1 and the circadian components during DNA damage.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:BMAL1)",
-                    "evidence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1."
+                    "bel_statement": "p(HGNC:SIRT1, pmod(Ac)) directlyDecreases complex(p(HGNC:BMAL1), p(HGNC:CRYL1))",
+                    "evidence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1"
                 },
                 {
                     "bel_statement": "p(HGNC:CLOCK) hasActivity ma(GO:0016407)",
-                    "evidence": "CLOCK possesses acetyltransferase activity that regulates the transcriptional activity of CLOCK/BMAL1."
+                    "evidence": "CLOCK possesses acetyltransferase activity that regulates the transcriptional activity of CLOCK/BMAL1"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) directlyDecreases p(HGNC:PER2)",
-                    "evidence": "SIRT1 has also been shown to deacetylate PER2 destabilizing the protein."
+                    "bel_statement": "p(HGNC:CLOCK) increases act(complex(p(HGNC:CLOCK), p(HGNC:BMAL1)))",
+                    "evidence": "CLOCK possesses acetyltransferase activity that regulates the transcriptional activity of CLOCK/BMAL1"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) increases bp(GO:0006351)",
-                    "evidence": "This presents a dual control mechanism for SIRT1 in the circadian clock where it is capable of balancing transcription through chromatin condensation."
+                    "bel_statement": "p(HGNC:SIRT1, pmod(Ac)) directlyDecreases p(HGNC:PER2)",
+                    "evidence": "SIRT1 has also been shown to deacetylate PER2 destabilizing the protein"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:CRYL1)",
-                    "evidence": "SIRT1 is capable of balancing transcription through chromatin condensation, but also by disrupting the ability for CRY and PER2 to repress CLOCK/BMAL1 activity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) decreases p(HGNC:PER2)",
-                    "evidence": "SIRT1 is capable of balancing transcription through chromatin condensation, but also by disrupting the ability for CRY and PER2 to repress CLOCK/BMAL1 activity."
-                },
-                {
-                    "bel_statement": "p(HGNC:SIRT1) increases r(HGNC:NAMPT)",
-                    "evidence": "SIRT1 is involved in NAMPT transcriptional regulation, which is under circadian control causing NAD + levels to oscillate as a consequence of NAMPT level oscillation."
-                },
-                {
-                    "bel_statement": "p(HGNC:PARP1) directlyIncreases p(HGNC:CLOCK)",
-                    "evidence": "PARP1 is capable of ADP-ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1/CLOCK heterodimer and its targets."
+                    "bel_statement": "p(HGNC:PARP1) decreases complex(p(HGNC:BMAL1), p(HGNC:CLOCK))",
+                    "evidence": "PARP1 is capable of ADP-ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1/CLOCK heterodimer and its targets"
                 }
             ],
             "annotations": [
@@ -4723,16 +4730,16 @@
             "text": "While the focus of this review has been on the inter-relationships that exist between SIRT1 and PARP1, there is growing evidence that SIRT1 has the capability of interacting with other members of the PARP family of proteins and similarly that PARP1 is capable of interacting with multiple sirtuins. Here we present three cases of these interactions; these interactions range include both direct modifications, as well as transcriptional regulation. First, SIRT6, one of the nuclear sirtuins, plays a role in promoting DNA damage repair by binding and activating PARP1 by mono-ADP-ribosylating PARP1 triggering its auto-ADP-ribosylation activity [[A67]] . Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD + levels directly [[A68]] . This finding indicates that inhibitors of PARP proteins may be capable of increasing SIRT1 activity not only via the inhibition of NAD + consumption by PARP family members, but also through the removal of transcriptional inhibition. Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD + levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD + are depleted by PARP1 . This study by Kim et al., did not observe a similar change in SIRT1 protein levels or the expression levels of the other mitochondrial sirtuins, SIRT4 and SIRT5.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:SIRT6) directlyIncreases act(p(HGNC:PARP1))",
-                    "evidence": "SIRT6, one of the nuclear sirtuins, plays a role in promoting DNA damage repair by binding and activating PARP1 by mono-ADP-ribosylating PARP1 triggering its auto-ADP-ribosylation activity."
+                    "bel_statement": "p(HGNC:SIRT6) increases act(p(HGNC:PARP1))",
+                    "evidence": "SIRT6, one of the nuclear sirtuins, plays a role in promoting DNA damage repair by binding and activating PARP1 by mono-ADP-ribosylating PARP1 triggering its auto-ADP-ribosylation activity"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP2) directlyDecreases r(HGNC:SIRT1)",
-                    "evidence": "PARP2 has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD + levels directly."
+                    "bel_statement": "p(HGNC:PARP2) decreases r(HGNC:SIRT1)",
+                    "evidence": "PARP2 has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD+ levels directly"
                 },
                 {
                     "bel_statement": "p(HGNC:PARP1) increases p(HGNC:SIRT3)",
-                    "evidence": "PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD + levels are maintained."
+                    "evidence": "PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD+ levels are maintained"
                 }
             ],
             "annotations": [
@@ -4968,16 +4975,24 @@
             "text": "Cells respond to DNA damage through coordinated pathways that arrest the cell cycle and repair the damage, and in the presence of severe damage trigger cell death. Both SIRT1 and PARP1 play an intimate role in the regulation of genomic stability, and continued work is necessary for the understanding of the specific contexts in which modulators of SIRT1 and PARP1 activity may be appropriate as therapeutics for cancer and metabolic disorders. The regulation of SIRT1 and PARP1 is controlled by a variety of stimuli, including metabolic, circadian, and genotoxic. Understanding how each of these stimuli affects the regulatory network of these two proteins is vital.",
             "Results": [
                 {
-                    "bel_statement": "a(MESH:D004249) increases bp(GO:0008219)",
+                    "bel_statement": "bp(MESH:\"DNA Damage\") increases bp(GO:\"cell death\")",
                     "evidence": "Cells respond to DNA damage through coordinated pathways that arrest the cell cycle and repair the damage, and in the presence of severe damage trigger cell death."
                 },
                 {
-                    "bel_statement": "p(HGNC:14929) increases a(MESH:D004249)",
-                    "evidence": "Both SIRT1 and PARP1 play an intimate role in the regulation of genomic stability."
+                    "bel_statement": "p(HGNC:SIRT1) regulates bp(MESH:\"DNA Damage\")",
+                    "evidence": "Both SIRT1 and PARP1 play an intimate role in the regulation of genomic stability"
                 },
                 {
-                    "bel_statement": "p(HGNC:270) increases a(MESH:D004249)",
-                    "evidence": "Both SIRT1 and PARP1 play an intimate role in the regulation of genomic stability."
+                    "bel_statement": "p(HGNC:PARP1) regulates bp(MESH:\"DNA Damage\")",
+                    "evidence": "Both SIRT1 and PARP1 play an intimate role in the regulation of genomic stability"
+                },
+                {
+                    "bel_statement": "composite(p(HGNC:SIRT1), p(HGNC:PARP1)) regulates path(MESH:Neoplasms)",
+                    "evidence": "continued work is necessary for the understanding of the specific contexts in which modulators of SIRT1 and PARP1 activity may be appropriate as therapeutics for cancer and metabolic disorders"
+                },
+                {
+                    "bel_statement": "composite(p(HGNC:SIRT1), p(HGNC:PARP1)) regulates path(MESH:\"Metabolic Diseases\")",
+                    "evidence": "continued work is necessary for the understanding of the specific contexts in which modulators of SIRT1 and PARP1 activity may be appropriate as therapeutics for cancer and metabolic disorders"
                 }
             ],
             "annotations": [
@@ -5073,20 +5088,28 @@
             "text": "The work of the past several years has trended towards an understanding of the diverse regulatory network surrounding these two proteins, the effects of local levels of their common substrate, NAD+, and the co-regulation of and by the two proteins. There continue to be several unexplored areas. For example, understanding the nature of competitive regulation of acetylation and PAR at a single substrate residue on a single molecule, since both can target lysine residues, remains an open area of research. Another interesting avenue of research remaining to be thoroughly explored is the alteration of the reviewed pathways as an organism ages. Studies have shown age-dependent increases in DNA damage can lead to NAD + depletion . In human tissue samples, Massudi et al. found an age-related positive correlation in PARP1 activity in males and negative correlations with SIRT1 activity in males and NAD + levels in both males and females that starts to shed light on the role of these two proteins in the presence of accumulating DNA damage with age . In a related study, Chang et al. showed a reduction in SIRT1 levels over time resulting in alterations in circadian oscillations in mice as they age . Studies such as these suggest that the regulatory network surrounding SIRT1 and PARP1 may undergo large-scale changes over an organism's lifespan; currently, we do not know the extent of these changes. Additionally, there is a deficit in our knowledge with respect to the influence that DNA damage response may have on circadian regulation and vice versa and the roles that SIRT1 and PARP1 may play. And while this review has focused on evidence of the interactions between the better studied members of their respective protein families, SIRT1 and PARP1, additional work is necessary in our understanding of the roles of the other members of the two protein families and their unique properties and interactions that may play integral roles in the progression of DDR, as well as other processes.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:PARP1) positiveCorrelation act(p(HGNC:SIRT1))",
-                    "evidence": "In human tissue samples, Massudi et al. found an age-related positive correlation in PARP1 activity in males and negative correlations with SIRT1 activity in males and NAD + levels in both males and females that starts to shed light on the role of these two proteins in the presence of accumulating DNA damage with age."
+                    "bel_statement": "bp(GO:\"DNA damage response\") negativeCorrelation p(HGNC:SIRT1)",
+                    "evidence": "Studies have shown age-dependent increases in DNA damage can lead to NAD + depletion"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) negativeCorrelation a(CHEBI:13389)",
-                    "evidence": "In human tissue samples, Massudi et al. found an age-related positive correlation in PARP1 activity in males and negative correlations with SIRT1 activity in males and NAD + levels in both males and females that starts to shed light on the role of these two proteins in the presence of accumulating DNA damage with age."
+                    "bel_statement": "bp(GO:\"DNA damage response\") decreases a(CHEBI:\"NAD(+)\")",
+                    "evidence": "Studies have shown age-dependent increases in DNA damage can lead to NAD + depletion"
                 },
                 {
-                    "bel_statement": "act(p(HGNC:SIRT1)) negativeCorrelation a(CHEBI:13389)",
-                    "evidence": "In human tissue samples, Massudi et al. found an age-related positive correlation in PARP1 activity in males and negative correlations with SIRT1 activity in males and NAD + levels in both males and females that starts to shed light on the role of these two proteins in the presence of accumulating DNA damage with age."
+                    "bel_statement": "bp(GO:\"DNA damage response\") positiveCorrelation p(HGNC:PARP1)",
+                    "evidence": "In human tissue samples, Massudi et al. found an age-related positive correlation in PARP1 activity in males"
                 },
                 {
-                    "bel_statement": "p(HGNC:SIRT1) decreases bp(GO:0042769)",
-                    "evidence": "In a related study, Chang et al. showed a reduction in SIRT1 levels over time resulting in alterations in circadian oscillations in mice as they age."
+                    "bel_statement": "bp(GO:\"DNA damage response\") negativeCorrelation p(HGNC:SIRT1)",
+                    "evidence": "In human tissue samples, Massudi et al. found negative correlations with SIRT1 activity in males"
+                },
+                {
+                    "bel_statement": "bp(GO:\"DNA damage response\") decreases a(CHEBI:\"NAD(+)\")",
+                    "evidence": "In human tissue samples, Massudi et al. found negative correlations with NAD + levels in both males and females"
+                },
+                {
+                    "bel_statement": "p(HGNC:SIRT1) regulates bp(GO:\"circadian rhythm\")",
+                    "evidence": "Chang et al. showed a reduction in SIRT1 levels over time resulting in alterations in circadian oscillations in mice as they age"
                 }
             ],
             "annotations": [
@@ -5347,7 +5370,16 @@
         {
             "Index": "47",
             "text": "AL wrote the manuscript and drew and annotated the supplemental MIM. MIA and KWK edited the manuscript and MIM. All authors have read and approved the final manuscript.",
-            "Results": [],
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MTSS1) hasActivity bp(EFO:'axial length measurement')",
+                    "evidence": "AL wrote the manuscript and drew and annotated the supplemental MIM."
+                },
+                {
+                    "bel_statement": "p(HGNC:MIA) hasActivity bp(MESH:Manuscript)",
+                    "evidence": "MIA and KWK edited the manuscript and MIM."
+                }
+            ],
             "annotations": [
                 {
                     "db": "EFO",
@@ -5406,7 +5438,12 @@
         {
             "Index": "49",
             "text": "We would like to acknowledge helpful discussions with Paolo Sassone-Corsi and Myriam Gorospe. This project was supported by the Ford Foundation and the Intramural Research Program of the NIH, Center for Cancer Research, National Cancer Institute.",
-            "Results": [],
+            "Results": [
+                {
+                    "bel_statement": "path(MESHD:Neoplasms) supports bp(MESHD:Research)",
+                    "evidence": "This project was supported by the Ford Foundation and the Intramural Research Program of the NIH, Center for Cancer Research, National Cancer Institute."
+                }
+            ],
             "annotations": [
                 {
                     "db": "MESH",

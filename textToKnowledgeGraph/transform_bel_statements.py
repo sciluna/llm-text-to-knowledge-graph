@@ -28,5 +28,12 @@ def process_llm_results(llm_data):
                     "text": text,
                     "evidence": evidence
                 })
+        for annots in entry["annotations"]:
+            entry_name = annots["entry_name"]
+            url = annots["url"]
+            extracted_results.append({
+                "entry_name": entry_name,
+                "url": url
+            })  
     # Debugging: Print extracted results
     return extracted_results
