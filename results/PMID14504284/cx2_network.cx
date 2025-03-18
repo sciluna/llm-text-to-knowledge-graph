@@ -1,0 +1,874 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 1,
+                "name": "networkAttributes"
+            },
+            {
+                "elementCount": 38,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 43,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "id": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                },
+                "networkAttributes": {
+                    "name": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "name": "LLM Text to Knowledge Graph for publication: PMID14504284"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "AKT2",
+                    "name": "p(HGNC:AKT2)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:392"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "POSH",
+                    "name": "complex(p(HGNC:POSH)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "POSH_W489A",
+                    "name": "p(UNI:POSH_W489A)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "MLK3",
+                    "name": "p(UNI:MLK3)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "JNK signaling pathway",
+                    "name": "bp(GO:\"JNK signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "AKT2",
+                    "name": "p(UNI:AKT2)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:392"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "PtdIns 3,4,5-P3",
+                    "name": "a(CHEBI:\"PtdIns 3,4,5-P3\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "AKT1",
+                    "name": "act(p(HGNC:AKT1)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:391"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "AKT2",
+                    "name": "act(p(HGNC:AKT2)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:392"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "JUN",
+                    "name": "act(p(HGNC:JUN)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:6204"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "MLK1",
+                    "name": "a(HGNC:MLK1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "MLK2",
+                    "name": "a(HGNC:MLK2)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "MLK3",
+                    "name": "a(HGNC:MLK3)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "MEKK1",
+                    "name": "a(HGNC:MEKK1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "ASK1",
+                    "name": "a(HGNC:ASK1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "MKK4",
+                    "name": "a(HGNC:MKK4)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "JNK1",
+                    "name": "act(p(HGNC:JNK1)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "JNK2",
+                    "name": "act(p(HGNC:JNK2)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "JNK3",
+                    "name": "act(p(HGNC:JNK3)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "MKK7",
+                    "name": "a(HGNC:MKK7)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "RHOA",
+                    "name": "a(HGNC:RHOA)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:667"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "RAC1",
+                    "name": "a(HGNC:RAC1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "CDC42",
+                    "name": "a(HGNC:CDC42)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:1736"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "MLK3",
+                    "name": "p(HGNC:MLK3)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "JNK signaling pathway",
+                    "name": "bp(GOBP:\"JNK signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "LY294002",
+                    "name": "a(CHEBI:\"LY294002\")",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:65329"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "MLK3, pmod(Ph, S, 473",
+                    "name": "p(HGNC:MLK3, pmod(Ph, S, 473)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "Q9JH68",
+                    "name": "p(UniProt:Q9JH68)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "Q9JH67",
+                    "name": "p(UniProt:Q9JH67)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "POSH",
+                    "name": "p(UniProt:POSH)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "Akt2",
+                    "name": "p(UniProt:Akt2)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "Akt2 binding domain of POSH",
+                    "name": "a(UniProt:Akt2 binding domain of POSH)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "phospho-c-Jun",
+                    "name": "a(UniProt:phospho-c-Jun)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "POSH",
+                    "name": "act(p(UniProt:POSH)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "MLK3",
+                    "name": "act(p(HGNC:MLK3)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "POSH",
+                    "name": "complex(p(UniProt:POSH)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "label": "POSH",
+                    "name": "p(HGNC:POSH)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 37,
+                "v": {
+                    "label": "CSK",
+                    "name": "p(HGNC:CSK)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:2444"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH)",
+                    "text": "Akt2 Negatively Regulates Assembly of the POSH-MLK-JNK Signaling Complex*",
+                    "evidence": "Akt2 Negatively Regulates Assembly of the POSH-MLK-JNK Signaling Complex*"
+                }
+            },
+            {
+                "id": 1,
+                "s": 2,
+                "t": 3,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UNI:POSH_W489A) increases p(UNI:MLK3)",
+                    "text": "We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2. A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3, and this increase in binding is accompanied by increased activation of the JNK signaling pathway. In addition, we show that the association of MLK3 with POSH is increased upon inhibition of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway. Thus, the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3."
+                }
+            },
+            {
+                "id": 2,
+                "s": 4,
+                "t": 3,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"JNK signaling pathway\") increases p(UNI:MLK3)",
+                    "text": "We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2. A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3, and this increase in binding is accompanied by increased activation of the JNK signaling pathway. In addition, we show that the association of MLK3 with POSH is increased upon inhibition of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway. Thus, the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "this increase in binding is accompanied by increased activation of the JNK signaling pathway."
+                }
+            },
+            {
+                "id": 3,
+                "s": 3,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UNI:MLK3) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2. A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3, and this increase in binding is accompanied by increased activation of the JNK signaling pathway. In addition, we show that the association of MLK3 with POSH is increased upon inhibition of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway. Thus, the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "this increase in binding is accompanied by increased activation of the JNK signaling pathway."
+                }
+            },
+            {
+                "id": 4,
+                "s": 5,
+                "t": 4,
+                "v": {
+                    "interaction": "negativelyRegulates",
+                    "bel_expression": "p(UNI:AKT2) negativelyRegulates bp(GO:\"JNK signaling pathway\")",
+                    "text": "We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2. A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3, and this increase in binding is accompanied by increased activation of the JNK signaling pathway. In addition, we show that the association of MLK3 with POSH is increased upon inhibition of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway. Thus, the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2."
+                }
+            },
+            {
+                "id": 5,
+                "s": 5,
+                "t": 3,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(UNI:AKT2) directlyDecreases p(UNI:MLK3)",
+                    "text": "We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2. A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3, and this increase in binding is accompanied by increased activation of the JNK signaling pathway. In addition, we show that the association of MLK3 with POSH is increased upon inhibition of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway. Thus, the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH."
+                }
+            },
+            {
+                "id": 6,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"PtdIns 3,4,5-P3\") increases act(p(HGNC:AKT1)",
+                    "text": "The Akt/protein kinase B serine/threonine kinases regulate cell growth, differentiation, survival, and metabolism. The three family members, Akt1, Akt2, and Akt3, contain an N-terminal pleckstrin homology (PH) domain, a central kinase domain, and a C-terminal regulatory domain. Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1 and T309 and S474 of Akt2. Multiple substrates for the Akt kinases have been identified and include glycogen synthase kinase a/B, Raf-1, and B-Raf, mixed lineage kinase 3 (MLK3), mitogen-activated protein kinase kinase 4 (MKK4, also SEK1), apoptosis signal-regulated kinase 1 (ASK1), and forkhead transcription factors.",
+                    "evidence": "Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1."
+                }
+            },
+            {
+                "id": 7,
+                "s": 6,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"PtdIns 3,4,5-P3\") increases act(p(HGNC:AKT2)",
+                    "text": "The Akt/protein kinase B serine/threonine kinases regulate cell growth, differentiation, survival, and metabolism. The three family members, Akt1, Akt2, and Akt3, contain an N-terminal pleckstrin homology (PH) domain, a central kinase domain, and a C-terminal regulatory domain. Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1 and T309 and S474 of Akt2. Multiple substrates for the Akt kinases have been identified and include glycogen synthase kinase a/B, Raf-1, and B-Raf, mixed lineage kinase 3 (MLK3), mitogen-activated protein kinase kinase 4 (MKK4, also SEK1), apoptosis signal-regulated kinase 1 (ASK1), and forkhead transcription factors.",
+                    "evidence": "Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1 and T309 and S474 of Akt2."
+                }
+            },
+            {
+                "id": 8,
+                "s": 4,
+                "t": 9,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"JNK signaling pathway\") increases act(p(HGNC:JUN)",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "JNKs phosphorylate and activate the transcriptional activity of c-Jun."
+                }
+            },
+            {
+                "id": 9,
+                "s": 10,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MLK1) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK)."
+                }
+            },
+            {
+                "id": 10,
+                "s": 11,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MLK2) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK)."
+                }
+            },
+            {
+                "id": 11,
+                "s": 12,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MLK3) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK)."
+                }
+            },
+            {
+                "id": 12,
+                "s": 13,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MEKK1) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include MEK kinase 1."
+                }
+            },
+            {
+                "id": 13,
+                "s": 14,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:ASK1) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include ASK1."
+                }
+            },
+            {
+                "id": 14,
+                "s": 15,
+                "t": 16,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MKK4) increases act(p(HGNC:JNK1)",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                }
+            },
+            {
+                "id": 15,
+                "s": 15,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MKK4) increases act(p(HGNC:JNK2)",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                }
+            },
+            {
+                "id": 16,
+                "s": 15,
+                "t": 18,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MKK4) increases act(p(HGNC:JNK3)",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                }
+            },
+            {
+                "id": 17,
+                "s": 19,
+                "t": 16,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MKK7) increases act(p(HGNC:JNK1)",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                }
+            },
+            {
+                "id": 18,
+                "s": 19,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MKK7) increases act(p(HGNC:JNK2)",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                }
+            },
+            {
+                "id": 19,
+                "s": 19,
+                "t": 18,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:MKK7) increases act(p(HGNC:JNK3)",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                }
+            },
+            {
+                "id": 20,
+                "s": 20,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:RHOA) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade."
+                }
+            },
+            {
+                "id": 21,
+                "s": 21,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:RAC1) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade."
+                }
+            },
+            {
+                "id": 22,
+                "s": 22,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:CDC42) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+                    "evidence": "In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade."
+                }
+            },
+            {
+                "id": 23,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH)",
+                    "text": "In this report, we demonstrate that POSH binds Akt2, but not Akt1, in yeast and that POSH preferentially binds Akt2 in mammalian cells. Akt2 interacts with the third SH3 domain of POSH. A POSH mutant that is unable to bind Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Consistent with this observation, we find that the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002. These results indicate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, these results support a model in which the functional consequence of Akt2 binding to the POSH scaffold is to promote the disassembly of the complex, in part, through Akt-mediated phosphorylation of the MAPKKK MLK3.",
+                    "evidence": "These results indicate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2."
+                }
+            },
+            {
+                "id": 24,
+                "s": 23,
+                "t": 24,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:MLK3) increases bp(GOBP:\"JNK signaling pathway\")",
+                    "text": "In this report, we demonstrate that POSH binds Akt2, but not Akt1, in yeast and that POSH preferentially binds Akt2 in mammalian cells. Akt2 interacts with the third SH3 domain of POSH. A POSH mutant that is unable to bind Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Consistent with this observation, we find that the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002. These results indicate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, these results support a model in which the functional consequence of Akt2 binding to the POSH scaffold is to promote the disassembly of the complex, in part, through Akt-mediated phosphorylation of the MAPKKK MLK3.",
+                    "evidence": "This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway."
+                }
+            },
+            {
+                "id": 25,
+                "s": 25,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyIncreases",
+                    "bel_expression": "a(CHEBI:\"LY294002\") directlyIncreases complex(p(HGNC:POSH)",
+                    "text": "In this report, we demonstrate that POSH binds Akt2, but not Akt1, in yeast and that POSH preferentially binds Akt2 in mammalian cells. Akt2 interacts with the third SH3 domain of POSH. A POSH mutant that is unable to bind Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Consistent with this observation, we find that the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002. These results indicate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, these results support a model in which the functional consequence of Akt2 binding to the POSH scaffold is to promote the disassembly of the complex, in part, through Akt-mediated phosphorylation of the MAPKKK MLK3.",
+                    "evidence": "the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002."
+                }
+            },
+            {
+                "id": 26,
+                "s": 0,
+                "t": 26,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:AKT2) directlyDecreases p(HGNC:MLK3, pmod(Ph, S, 473)",
+                    "text": "In this report, we demonstrate that POSH binds Akt2, but not Akt1, in yeast and that POSH preferentially binds Akt2 in mammalian cells. Akt2 interacts with the third SH3 domain of POSH. A POSH mutant that is unable to bind Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Consistent with this observation, we find that the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002. These results indicate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, these results support a model in which the functional consequence of Akt2 binding to the POSH scaffold is to promote the disassembly of the complex, in part, through Akt-mediated phosphorylation of the MAPKKK MLK3.",
+                    "evidence": "the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH."
+                }
+            },
+            {
+                "id": 27,
+                "s": 27,
+                "t": 28,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "p(UniProt:Q9JH68) hasComponent p(UniProt:Q9JH67)",
+                    "text": "A yeast two-hybrid screen of a mouse embryo cDNA library was performed to identify proteins that interact with APHAkt2. APHAkt2 contains a deletion of the N-terminal 131 amino acids of Akt2, which includes the pleckstrin homology (PH) domain. The Akt2 PH domain was deleted because PH domains have the potential to dimerize and could create a bias in the screen for the selection of PH domain-containing molecules. Isolates that interacted with APHAkt2 were tested for their ability to interact with Lamin (specificity control). ST-33 interacted with Akt2, but not with Lamin. ST-33 encodes amino acids 447-550 of POSH (Plenty of SH3s), which includes the third SH3 domain of POSH (amino acids 457-511) and 5'- and 3'-flanking regions.",
+                    "evidence": "ST-33 interacted with Akt2, but not with Lamin."
+                }
+            },
+            {
+                "id": 28,
+                "s": 29,
+                "t": 30,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(UniProt:POSH) directlyDecreases p(UniProt:Akt2)",
+                    "text": "An alignment between the POSH SH3-3 (third SH3) domain and related SH3 domains is shown. SH3 domains often contain an acidic residue at a position analogous to Asp-99 of Src. Mutation of this residue disrupts a salt bridge with an Arg of the ligand and also disorders the ligand-binding pocket of the SH3 domain. Another highly conserved residue within the ligand-binding pocket of the SH3 domain is a Trp that forms a hydrogen bond with a Pro in the Pro-X-X-Pro motif common to many ligands recognized by SH3 domains. To determine if these residues, which are conserved in POSH, mediate the association of POSH with Akt2, two mutated SH3-3 domains, POSH E470Q and POSH W489A, were generated for protein-protein interaction studies. POSH E470Q and POSH W489A exhibit greatly diminished binding to Akt2 in yeast two-hybrid assays, and in pull-down assays in HEK293 cells. These results indicate that Glu-470 and Trp-489 are key residues in POSH that facilitate binding of POSH to Akt2.",
+                    "evidence": "POSH E470Q and POSH W489A exhibit greatly diminished binding to Akt2 in yeast two-hybrid assays, and in pull-down assays in HEK293 cells."
+                }
+            },
+            {
+                "id": 29,
+                "s": 29,
+                "t": 30,
+                "v": {
+                    "interaction": "directlyIncreases",
+                    "bel_expression": "p(UniProt:POSH) directlyIncreases p(UniProt:Akt2)",
+                    "text": "An alignment between the POSH SH3-3 (third SH3) domain and related SH3 domains is shown. SH3 domains often contain an acidic residue at a position analogous to Asp-99 of Src. Mutation of this residue disrupts a salt bridge with an Arg of the ligand and also disorders the ligand-binding pocket of the SH3 domain. Another highly conserved residue within the ligand-binding pocket of the SH3 domain is a Trp that forms a hydrogen bond with a Pro in the Pro-X-X-Pro motif common to many ligands recognized by SH3 domains. To determine if these residues, which are conserved in POSH, mediate the association of POSH with Akt2, two mutated SH3-3 domains, POSH E470Q and POSH W489A, were generated for protein-protein interaction studies. POSH E470Q and POSH W489A exhibit greatly diminished binding to Akt2 in yeast two-hybrid assays, and in pull-down assays in HEK293 cells. These results indicate that Glu-470 and Trp-489 are key residues in POSH that facilitate binding of POSH to Akt2.",
+                    "evidence": "These results indicate that Glu-470 and Trp-489 are key residues in POSH that facilitate binding of POSH to Akt2."
+                }
+            },
+            {
+                "id": 30,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH)",
+                    "text": "To determine whether the interaction of Akt2 with POSH negatively regulates JNK complex formation and/or activation of the JNK signaling pathway, the ability of a POSH mutant that cannot bind Akt2, POSH W489A, to scaffold and activate the JNK signaling pathway was determined. HEK293 cells were transiently transfected with expression vectors for Flag-MLK3 and full-length MT-POSH, MT-POSH W489A, or MT vector control. POSH was immunoprecipitated from cells and co-associated MLK3 detected by Western blot analysis after SDS-PAGE. The level of MLK3 associated with POSH W489A, the mutant POSH that is unable to bind Akt2, is increased relative to the wild type POSH control. This increase in the MLK-POSH complex is accompanied by an increase in phospho-c-Jun, a measure of JNK pathway activation. Taken together, these results suggest that Akt2 binding to POSH inhibits the ability of POSH to act as a JNK signaling scaffold.",
+                    "evidence": "The level of MLK3 associated with POSH W489A, the mutant POSH that is unable to bind Akt2, is increased relative to the wild type POSH control."
+                }
+            },
+            {
+                "id": 31,
+                "s": 31,
+                "t": 32,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:Akt2 binding domain of POSH) increases a(UniProt:phospho-c-Jun)",
+                    "text": "We introduced the Akt2 binding domain of POSH (POSH-(447-550)) into cells together with MLK3 to determine whether it could function in a dominant negative fashion. Introduction of MLK3 into cells alone activates the JNK signaling pathway, as assessed by Western blot analysis of phospho-c-Jun levels. The level of MLK3-activated phospho-Jun is increased by ectopic expression of the Akt2 binding domain of POSH. This increase in phospho-c-Jun suggests that the Akt2 binding domain of POSH acts to dominantly interfere with endogenous POSH, by titrating Akt2 away from the cellular JNK signaling modules.",
+                    "evidence": "The level of MLK3-activated phospho-Jun is increased by ectopic expression of the Akt2 binding domain of POSH."
+                }
+            },
+            {
+                "id": 32,
+                "s": 31,
+                "t": 33,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(UniProt:Akt2 binding domain of POSH) decreases act(p(UniProt:POSH)",
+                    "text": "We introduced the Akt2 binding domain of POSH (POSH-(447-550)) into cells together with MLK3 to determine whether it could function in a dominant negative fashion. Introduction of MLK3 into cells alone activates the JNK signaling pathway, as assessed by Western blot analysis of phospho-c-Jun levels. The level of MLK3-activated phospho-Jun is increased by ectopic expression of the Akt2 binding domain of POSH. This increase in phospho-c-Jun suggests that the Akt2 binding domain of POSH acts to dominantly interfere with endogenous POSH, by titrating Akt2 away from the cellular JNK signaling modules.",
+                    "evidence": "This increase in phospho-c-Jun suggests that the Akt2 binding domain of POSH acts to dominantly interfere with endogenous POSH, by titrating Akt2 away from the cellular JNK signaling modules."
+                }
+            },
+            {
+                "id": 33,
+                "s": 0,
+                "t": 34,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:AKT2) decreases act(p(HGNC:MLK3)",
+                    "text": "Akt1 phosphorylates MLK3 at S674 and negatively regulates its enzymatic activity. If Akt2 bound to POSH regulates the phosphorylation status of MLK3 at S674, then ectopic expression of the dominant negative SH3-3 domain should reduce Akt-mediated phosphorylation of MLK3. HEK293 cells were transfected with expression vectors for Flag-MLK3 and vector control or POSH SH3-3. Flag-MLK3 was isolated from extracts and its phosphorylation status at Ser-674 determined by Western blot analysis with a phospho-(Ser/Thr)-Akt substrate antibody. This antibody recognizes Akt substrates when phosphorylated. The level of Akt-phosphorylated MLK3 is decreased in cells transfected with the POSH SH3-3 domain. Taken together, these results suggest that Akt2 negatively regulates the POSH/JNK signaling complex by phosphorylating MLK3 and promoting the disassembly of the JNK signaling complex.",
+                    "evidence": "The level of Akt-phosphorylated MLK3 is decreased in cells transfected with the POSH SH3-3 domain."
+                }
+            },
+            {
+                "id": 34,
+                "s": 0,
+                "t": 4,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:AKT2) decreases bp(GO:\"JNK signaling pathway\")",
+                    "text": "Akt1 phosphorylates MLK3 at S674 and negatively regulates its enzymatic activity. If Akt2 bound to POSH regulates the phosphorylation status of MLK3 at S674, then ectopic expression of the dominant negative SH3-3 domain should reduce Akt-mediated phosphorylation of MLK3. HEK293 cells were transfected with expression vectors for Flag-MLK3 and vector control or POSH SH3-3. Flag-MLK3 was isolated from extracts and its phosphorylation status at Ser-674 determined by Western blot analysis with a phospho-(Ser/Thr)-Akt substrate antibody. This antibody recognizes Akt substrates when phosphorylated. The level of Akt-phosphorylated MLK3 is decreased in cells transfected with the POSH SH3-3 domain. Taken together, these results suggest that Akt2 negatively regulates the POSH/JNK signaling complex by phosphorylating MLK3 and promoting the disassembly of the JNK signaling complex.",
+                    "evidence": "These results suggest that Akt2 negatively regulates the POSH/JNK signaling complex by phosphorylating MLK3 and promoting the disassembly of the JNK signaling complex."
+                }
+            },
+            {
+                "id": 35,
+                "s": 0,
+                "t": 35,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:AKT2) decreases complex(p(UniProt:POSH)",
+                    "text": "POSH interacts with multiple components of the JNK signaling pathway, including members of the MLK group of MAP-KKKs, the MAPKKs MKK4/7, and the JNK MAPKs. POSH also interacts with Rac. Activated Rac binds MLKs and relieves the negative regulation of the SH3 domain on the MLK catalytic domain. This complex, POSH-Rac-MLK-MKK4/7-JNK, activates the JNK signaling pathway. In this report, we demonstrate that Akt2 interacts with POSH and negatively regulates the JNK signaling complex.",
+                    "evidence": "we demonstrate that Akt2 interacts with POSH and negatively regulates the JNK signaling complex."
+                }
+            },
+            {
+                "id": 36,
+                "s": 36,
+                "t": 0,
+                "v": {
+                    "interaction": "hasMember",
+                    "bel_expression": "p(HGNC:POSH) hasMember p(HGNC:AKT2)",
+                    "text": "POSH is a multi-SH3 domain protein and we show that Akt2 interacts with the third SH3 domain of POSH. We have identified key residues in POSH that are required for its interaction with Akt2, Glu-470 and Trp-489. Mutation of Glu-470 to Gln is predicted to cause substantial structural deformation of the binding cleft of the SH3 domain. The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2. In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by contacting the Arg positioned before the Pro-X-X-Pro motif. In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif. The decrease in binding of Akt2 to POSH W489A emphasizes the importance of this potential contact between the ligand and the POSH SH3 domain.",
+                    "evidence": "We have identified key residues in POSH that are required for its interaction with Akt2."
+                }
+            },
+            {
+                "id": 37,
+                "s": 36,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:POSH) increases act(p(HGNC:AKT2)",
+                    "text": "POSH is a multi-SH3 domain protein and we show that Akt2 interacts with the third SH3 domain of POSH. We have identified key residues in POSH that are required for its interaction with Akt2, Glu-470 and Trp-489. Mutation of Glu-470 to Gln is predicted to cause substantial structural deformation of the binding cleft of the SH3 domain. The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2. In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by contacting the Arg positioned before the Pro-X-X-Pro motif. In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif. The decrease in binding of Akt2 to POSH W489A emphasizes the importance of this potential contact between the ligand and the POSH SH3 domain.",
+                    "evidence": "The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2."
+                }
+            },
+            {
+                "id": 38,
+                "s": 36,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:POSH) increases act(p(HGNC:AKT2)",
+                    "text": "POSH is a multi-SH3 domain protein and we show that Akt2 interacts with the third SH3 domain of POSH. We have identified key residues in POSH that are required for its interaction with Akt2, Glu-470 and Trp-489. Mutation of Glu-470 to Gln is predicted to cause substantial structural deformation of the binding cleft of the SH3 domain. The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2. In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by contacting the Arg positioned before the Pro-X-X-Pro motif. In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif. The decrease in binding of Akt2 to POSH W489A emphasizes the importance of this potential contact between the ligand and the POSH SH3 domain.",
+                    "evidence": "In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by contacting the Arg positioned before the Pro-X-X-Pro motif."
+                }
+            },
+            {
+                "id": 39,
+                "s": 37,
+                "t": 0,
+                "v": {
+                    "interaction": "hasMember",
+                    "bel_expression": "p(HGNC:CSK) hasMember p(HGNC:AKT2)",
+                    "text": "POSH is a multi-SH3 domain protein and we show that Akt2 interacts with the third SH3 domain of POSH. We have identified key residues in POSH that are required for its interaction with Akt2, Glu-470 and Trp-489. Mutation of Glu-470 to Gln is predicted to cause substantial structural deformation of the binding cleft of the SH3 domain. The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2. In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by contacting the Arg positioned before the Pro-X-X-Pro motif. In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif. The decrease in binding of Akt2 to POSH W489A emphasizes the importance of this potential contact between the ligand and the POSH SH3 domain.",
+                    "evidence": "In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif."
+                }
+            },
+            {
+                "id": 40,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH)",
+                    "text": "What is the functional consequence of the Akt2/POSH association? Our results demonstrate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. We have shown that a POSH mutant that is unable to bind to Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Further, we observe increased binding of MLK3 to POSH when we inhibit the endogenous PI3K/Akt signaling pathway with LY294002. These results suggest that Akt2 inhibits the ability of POSH to act as a JNK scaffold. Because POSH itself does not contain a consensus Akt phosphorylation site, Akt2 is likely to act through a protein bound to POSH to inhibit this JNK scaffold, such as MLK3. We have shown that the SH3-3 domain of POSH acts to dominantly interfere with endogenous POSH, by titrating endogenous Akt2 away from POSH, and that ectopic expression of this dominant interfering protein both increases activation of the JNK signaling pathway and decreases the level of Akt-phosphorylated MLK3. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt leads to the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "Our results demonstrate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2."
+                }
+            },
+            {
+                "id": 41,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH)",
+                    "text": "What is the functional consequence of the Akt2/POSH association? Our results demonstrate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. We have shown that a POSH mutant that is unable to bind to Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Further, we observe increased binding of MLK3 to POSH when we inhibit the endogenous PI3K/Akt signaling pathway with LY294002. These results suggest that Akt2 inhibits the ability of POSH to act as a JNK scaffold. Because POSH itself does not contain a consensus Akt phosphorylation site, Akt2 is likely to act through a protein bound to POSH to inhibit this JNK scaffold, such as MLK3. We have shown that the SH3-3 domain of POSH acts to dominantly interfere with endogenous POSH, by titrating endogenous Akt2 away from POSH, and that ectopic expression of this dominant interfering protein both increases activation of the JNK signaling pathway and decreases the level of Akt-phosphorylated MLK3. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt leads to the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "These results suggest that Akt2 inhibits the ability of POSH to act as a JNK scaffold."
+                }
+            },
+            {
+                "id": 42,
+                "s": 23,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:MLK3) directlyDecreases complex(p(HGNC:POSH)",
+                    "text": "What is the functional consequence of the Akt2/POSH association? Our results demonstrate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. We have shown that a POSH mutant that is unable to bind to Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Further, we observe increased binding of MLK3 to POSH when we inhibit the endogenous PI3K/Akt signaling pathway with LY294002. These results suggest that Akt2 inhibits the ability of POSH to act as a JNK scaffold. Because POSH itself does not contain a consensus Akt phosphorylation site, Akt2 is likely to act through a protein bound to POSH to inhibit this JNK scaffold, such as MLK3. We have shown that the SH3-3 domain of POSH acts to dominantly interfere with endogenous POSH, by titrating endogenous Akt2 away from POSH, and that ectopic expression of this dominant interfering protein both increases activation of the JNK signaling pathway and decreases the level of Akt-phosphorylated MLK3. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt leads to the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+                    "evidence": "phosphorylation of MLK3 by Akt leads to the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

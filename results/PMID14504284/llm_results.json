@@ -1,0 +1,3508 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": "1",
+            "text": "Akt2 Negatively Regulates Assembly of the POSH-MLK-JNK Signaling Complex*",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH), p(HGNC:MLK), p(HGNC:JNK))",
+                    "evidence": "Akt2 Negatively Regulates Assembly of the POSH-MLK-JNK Signaling Complex*"
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "2",
+            "text": "We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2. A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3, and this increase in binding is accompanied by increased activation of the JNK signaling pathway. In addition, we show that the association of MLK3 with POSH is increased upon inhibition of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway. Thus, the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+            "Results": [
+                {
+                    "bel_statement": "p(UNI:POSH) hasActivity(p(UNI:AKT2))",
+                    "evidence": "We demonstrate that POSH, a scaffold for the JNK signaling pathway, binds to Akt2."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH_W489A) increases p(UNI:MLK3)",
+                    "evidence": "A POSH mutant that is unable to bind Akt2 (POSH W489A) exhibits enhanced binding to MLK3."
+                },
+                {
+                    "bel_statement": "bp(GO:\"JNK signaling pathway\") increases p(UNI:MLK3)",
+                    "evidence": "this increase in binding is accompanied by increased activation of the JNK signaling pathway."
+                },
+                {
+                    "bel_statement": "p(UNI:MLK3) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "this increase in binding is accompanied by increased activation of the JNK signaling pathway."
+                },
+                {
+                    "bel_statement": "p(UNI:AKT2) negativelyRegulates bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2."
+                },
+                {
+                    "bel_statement": "p(UNI:AKT2) directlyDecreases p(UNI:MLK3)",
+                    "evidence": "the level of Akt-phosphorylated MLK3 is reduced in cells expressing the Akt2 binding domain of POSH."
+                },
+                {
+                    "bel_statement": "p(UNI:AKT2) hasActivity(p(UNI:MLK3))",
+                    "evidence": "phosphorylation of MLK3 by Akt2 results in the disassembly of the JNK complex bound to POSH."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28874",
+                    "entry_name": "phosphatidylinositol"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015536",
+                    "entry_name": "Down-Regulation"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "text": "The Akt/protein kinase B serine/threonine kinases regulate cell growth, differentiation, survival, and metabolism. The three family members, Akt1, Akt2, and Akt3, contain an N-terminal pleckstrin homology (PH) domain, a central kinase domain, and a C-terminal regulatory domain. Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1 and T309 and S474 of Akt2. Multiple substrates for the Akt kinases have been identified and include glycogen synthase kinase a/B, Raf-1, and B-Raf, mixed lineage kinase 3 (MLK3), mitogen-activated protein kinase kinase 4 (MKK4, also SEK1), apoptosis signal-regulated kinase 1 (ASK1), and forkhead transcription factors.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"PtdIns 3,4,5-P3\") increases act(p(HGNC:AKT1))",
+                    "evidence": "Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"PtdIns 3,4,5-P3\") increases act(p(HGNC:AKT2))",
+                    "evidence": "Binding of the phosphatidylinositol 3-kinase (PI3K) lipid product PtdIns 3,4,5-P3 to the PH domain leads to membrane localization and a conformational change that facilitates the phosphorylation of two key regulatory sites, T308 and S473 of Akt1 and T309 and S474 of Akt2."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3332",
+                    "entry_name": "MARK2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0030154",
+                    "entry_name": "cell differentiation"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013534",
+                    "entry_name": "Survival"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0008152",
+                    "entry_name": "metabolic process"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "393",
+                    "entry_name": "AKT3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "9070",
+                    "entry_name": "PLEK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8582",
+                    "entry_name": "PAH"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0030645",
+                    "entry_name": "Central"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:18059",
+                    "entry_name": "lipid"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16749",
+                    "entry_name": "1-phosphatidyl-1D-myo-inositol"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000070539",
+                    "entry_name": "Pleckstrin Homology Domains"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D038341",
+                    "entry_name": "Glycogen Synthase Kinases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "9829",
+                    "entry_name": "RAF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1097",
+                    "entry_name": "BRAF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6844",
+                    "entry_name": "MAP2K4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6844",
+                    "entry_name": "MAP2K4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6844",
+                    "entry_name": "MAP2K4"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006915",
+                    "entry_name": "apoptotic process"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6857",
+                    "entry_name": "MAP3K5"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D051858",
+                    "entry_name": "Forkhead Transcription Factors"
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "text": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway. The JNK signaling pathway is a mitogen activated protein kinase (MAPK) cascade in which a MAPKKK activates a MAPKK, which then activates a MAPK, JNK. MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK), MEK kinase 1, and ASK1. The MAPKKKs signal through MKK4 and MKK7. MKK4/7 phosphorylate and activate JNK1-3. JNKs phosphorylate and activate the transcriptional activity of c-Jun. The JNK signaling pathway is activated in response to cytokines and environmental stress. In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1)) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "The pro-survival effects of Akt are likely to be mediated in part through its regulation of the c-Jun N-terminal kinase (JNK) signaling pathway."
+                },
+                {
+                    "bel_statement": "bp(GO:\"JNK signaling pathway\") increases act(p(HGNC:JUN))",
+                    "evidence": "JNKs phosphorylate and activate the transcriptional activity of c-Jun."
+                },
+                {
+                    "bel_statement": "a(HGNC:MLK1) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK)."
+                },
+                {
+                    "bel_statement": "a(HGNC:MLK2) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK)."
+                },
+                {
+                    "bel_statement": "a(HGNC:MLK3) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include mixed-lineage kinases (MLKs; MLK1-3, DLK)."
+                },
+                {
+                    "bel_statement": "a(HGNC:MEKK1) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include MEK kinase 1."
+                },
+                {
+                    "bel_statement": "a(HGNC:ASK1) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "MAPKKKs for the JNK signaling pathway include ASK1."
+                },
+                {
+                    "bel_statement": "a(HGNC:MKK4) increases act(p(HGNC:JNK1))",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                },
+                {
+                    "bel_statement": "a(HGNC:MKK4) increases act(p(HGNC:JNK2))",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                },
+                {
+                    "bel_statement": "a(HGNC:MKK4) increases act(p(HGNC:JNK3))",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                },
+                {
+                    "bel_statement": "a(HGNC:MKK7) increases act(p(HGNC:JNK1))",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                },
+                {
+                    "bel_statement": "a(HGNC:MKK7) increases act(p(HGNC:JNK2))",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                },
+                {
+                    "bel_statement": "a(HGNC:MKK7) increases act(p(HGNC:JNK3))",
+                    "evidence": "MKK4/7 phosphorylate and activate JNK1-3."
+                },
+                {
+                    "bel_statement": "a(HGNC:RHOA) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade."
+                },
+                {
+                    "bel_statement": "a(HGNC:RAC1) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade."
+                },
+                {
+                    "bel_statement": "a(HGNC:CDC42) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "In addition, activated Rho, Rac, and Cdc42 can stimulate the JNK MAPK cascade."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "GO",
+                    "id": "GO:0043066",
+                    "entry_name": "negative regulation of apoptotic process"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP2K",
+                    "entry_name": "MAP2K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "2907",
+                    "entry_name": "DLK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6848",
+                    "entry_name": "MAP3K1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6857",
+                    "entry_name": "MAP3K5"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6844",
+                    "entry_name": "MAP2K4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6847",
+                    "entry_name": "MAP2K7"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6204",
+                    "entry_name": "JUN"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0034097",
+                    "entry_name": "response to cytokine"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000470",
+                    "entry_name": "environmental stress treatment"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "667",
+                    "entry_name": "RHOA"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1736",
+                    "entry_name": "CDC42"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "text": "Akt regulates the JNK signaling pathway by multiple mechanisms. First, Akt can phosphorylate and negatively regulate the MAPKKKs MLK3 and ASK1. Second, Akt phosphorylates and negatively regulates the MAPKK MKK4. In addition, Akt interacts with the JNK interacting protein 1 (JIP1) scaffold and inhibits the ability of JIP1 to form active JNK signaling complexes. The binding of Akt to JIP1 is isoform specific; Akt1 but not Akt2 interacts with JIP1. Thus, Akt can inhibit one or more steps within the JNK signaling pathway, depending on the complement of components that form the functional JNK signaling module.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyDecreases act(p(HGNC:MAP3K3))",
+                    "evidence": "First, Akt can phosphorylate and negatively regulate the MAPKKKs MLK3 and ASK1."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyDecreases act(p(HGNC:MKK4))",
+                    "evidence": "Second, Akt phosphorylates and negatively regulates the MAPKK MKK4."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:AKT1), p(HGNC:JIP1)) directlyDecreases act(p(HGNC:JNK))",
+                    "evidence": "In addition, Akt interacts with the JNK interacting protein 1 (JIP1) scaffold and inhibits the ability of JIP1 to form active JNK signaling complexes."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6857",
+                    "entry_name": "MAP3K5"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP2K",
+                    "entry_name": "MAP2K"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6844",
+                    "entry_name": "MAP2K4"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "14524",
+                    "entry_name": "SPAG9"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020033",
+                    "entry_name": "Protein Isoforms"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003165",
+                    "entry_name": "Complement System Proteins"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "text": "In addition to JIP1, POSH (Plenty of SH3s) acts as a scaffold for the JNK pathway. POSH was identified on the basis of its ability to bind activated Rac in a yeast two-hybrid screen. Studies in mammalian cells demonstrated that ectopic expression of POSH activated the JNK pathway and promoted nuclear translocation of NF-KB. POSH has four SH3 domains. The first two SH3 domains activate the JNK pathway; the second two SH3 domains promote NF-KB translocation. The translocation of NF-KB was observed in POSH injected cells as well as in adjacent, uninjected cells, suggesting that POSH regulates NF-KB translocation indirectly. A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2. Thus POSH links activated Rac with the JNK kinase cascade and facilitates the formation of a functional JNK signaling module.",
+            "Results": [
+                {
+                    "bel_statement": "p(UNI:POSH) hasActivity(bp(GO:\"JNK pathway\"))",
+                    "evidence": "Studies in mammalian cells demonstrated that ectopic expression of POSH activated the JNK pathway and promoted nuclear translocation of NF-KB."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasActivity(bp(GO:\"nuclear translocation of NF-kB\"))",
+                    "evidence": "Studies in mammalian cells demonstrated that ectopic expression of POSH activated the JNK pathway and promoted nuclear translocation of NF-KB."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasComponent(p(UNI:MLK1))",
+                    "evidence": "A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasComponent(p(UNI:MLK2))",
+                    "evidence": "A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasComponent(p(UNI:MLK3))",
+                    "evidence": "A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasComponent(p(UNI:MKK4))",
+                    "evidence": "A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasComponent(p(UNI:MKK7))",
+                    "evidence": "A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasComponent(p(UNI:JNK1))",
+                    "evidence": "A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2."
+                },
+                {
+                    "bel_statement": "p(UNI:POSH) hasComponent(p(UNI:JNK2))",
+                    "evidence": "A subsequent study demonstrated that POSH could bind MLKs (MLK1-3, DLK) and complex with MKK4/7 and JNK1/2."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000066630",
+                    "entry_name": "Ectopic Gene Expression"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0051170",
+                    "entry_name": "import into nucleus"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004024",
+                    "entry_name": "translocation"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004024",
+                    "entry_name": "translocation"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004024",
+                    "entry_name": "translocation"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "2907",
+                    "entry_name": "DLK1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6844",
+                    "entry_name": "MAP2K4"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "7",
+            "text": "In this report, we demonstrate that POSH binds Akt2, but not Akt1, in yeast and that POSH preferentially binds Akt2 in mammalian cells. Akt2 interacts with the third SH3 domain of POSH. A POSH mutant that is unable to bind Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Consistent with this observation, we find that the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002. These results indicate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. Further, the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH, which acts as a dominant interfering protein. Taken together, these results support a model in which the functional consequence of Akt2 binding to the POSH scaffold is to promote the disassembly of the complex, in part, through Akt-mediated phosphorylation of the MAPKKK MLK3.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:AKT2)) hasMember p(HGNC:MLK3)",
+                    "evidence": "In this report, we demonstrate that POSH binds Akt2, but not Akt1, in yeast and that POSH preferentially binds Akt2 in mammalian cells."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH), p(HGNC:MLK3))",
+                    "evidence": "These results indicate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2."
+                },
+                {
+                    "bel_statement": "p(HGNC:MLK3) increases bp(GOBP:\"JNK signaling pathway\")",
+                    "evidence": "This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"LY294002\") directlyIncreases complex(p(HGNC:POSH), p(HGNC:MLK3))",
+                    "evidence": "the association of MLK3 with POSH is increased when the endogenous PI3K/Akt signaling pathway is inhibited with LY294002."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT2) directlyDecreases p(HGNC:MLK3, pmod(Ph, S, 473))",
+                    "evidence": "the level of Akt-phosphorylated MLK3 is reduced in cells ectopically expressing the Akt2 binding domain of POSH."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019370",
+                    "entry_name": "Observation"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18549",
+                    "entry_name": "DCSTAMP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:65329",
+                    "entry_name": "LY294002"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                }
+            ]
+        },
+        {
+            "Index": "8",
+            "text": "A yeast two-hybrid screen of a mouse embryo cDNA library was performed to identify proteins that interact with APHAkt2. APHAkt2 contains a deletion of the N-terminal 131 amino acids of Akt2, which includes the pleckstrin homology (PH) domain. The Akt2 PH domain was deleted because PH domains have the potential to dimerize and could create a bias in the screen for the selection of PH domain-containing molecules. Isolates that interacted with APHAkt2 were tested for their ability to interact with Lamin (specificity control). ST-33 interacted with Akt2, but not with Lamin. ST-33 encodes amino acids 447-550 of POSH (Plenty of SH3s), which includes the third SH3 domain of POSH (amino acids 457-511) and 5'- and 3'-flanking regions.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(UniProt:Q9JH68)) hasActivity act(p(UniProt:Q9JH67))",
+                    "evidence": "ST-33 interacted with Akt2, but not with Lamin."
+                },
+                {
+                    "bel_statement": "p(UniProt:Q9JH68) hasComponent p(UniProt:Q9JH67)",
+                    "evidence": "ST-33 interacted with Akt2, but not with Lamin."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D051379",
+                    "entry_name": "Mice"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0008481",
+                    "entry_name": "cDNA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007990",
+                    "entry_name": "Libraries"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004014",
+                    "entry_name": "deletion"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "9070",
+                    "entry_name": "PLEK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8582",
+                    "entry_name": "PAH"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000070539",
+                    "entry_name": "Pleckstrin Homology Domains"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000070539",
+                    "entry_name": "Pleckstrin Homology Domains"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015982",
+                    "entry_name": "Bias"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8582",
+                    "entry_name": "PAH"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D034882",
+                    "entry_name": "Lamins"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D034882",
+                    "entry_name": "Lamins"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "text": "To determine if POSH-(447-550) specifically interacted with Akt2 or could also interact with Akt1, yeast two-hybrid analysis was performed. Expression vectors for Lex-APHAkt2, Lex-APHAkt1 and Lex-Lamin were introduced into the yeast reporter strain L40 together with expression vectors for VP16-46, VP16-POSH-(447-550), or VP16. VP16-46 is a two hybrid isolate recovered in the screen that interacts with both Akt1 and Akt2. It serves as a positive control to demonstrate adequate expression and correct subcellular compartmentalization of the Lex-Akt fusion proteins. In this assay, protein-protein interactions lead to transactivation of the HIS3 reporter in the L40 strain and growth in the absence of histidine (-WHULK medium). POSH-(447-550) interacts with APHAkt2 but not with Lamin or APHAkt1.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(UniProt:Q9Y243)) hasActivity act(p(UniProt:Q9Y226))",
+                    "evidence": "POSH-(447-550) interacts with APHAkt2 but not with Lamin or APHAkt1."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12458",
+                    "entry_name": "UBA52"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:4911",
+                    "entry_name": "etoposide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:2000144",
+                    "entry_name": "positive regulation of DNA-templated transcription initiation"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12458",
+                    "entry_name": "UBA52"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:27570",
+                    "entry_name": "histidine"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D034882",
+                    "entry_name": "Lamins"
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "text": "To confirm the yeast two-hybrid result, we examined the association of POSH-(447-550) and full-length Akt2 or Akt1 in mammalian cells. HEK293 cells were transiently transfected with expression vectors for GST or GST-POSH-(447-550) fusion protein and full-length Myc epitope-tagged (MT) Akt2, Akt1, or PRA1 (negative control). GST or GST-POSH-(447-550) was isolated from cells and co-associated Myc epitope-tagged proteins detected by Western blot analysis after SDS-PAGE. GST-POSH-(447-550) associates with full-length MT-Akt2 but not with MT-PRA1 (negative control). Upon prolonged exposure of the Western blot, a very low level of MT-Akt1 is present in the GST-POSH pull-down. We conclude that POSH-(447-550) preferentially associates with Akt2.",
+            "Results": [
+                {
+                    "bel_statement": "p(UniProt:Q9Y243) hasActivity(p(UniProt:Q9Y198))",
+                    "evidence": "GST-POSH-(447-550) associates with full-length MT-Akt2 but not with MT-PRA1 (negative control)."
+                },
+                {
+                    "bel_statement": "p(UniProt:Q9Y243) hasActivity(p(UniProt:Q9Y199))",
+                    "evidence": "Upon prolonged exposure of the Western blot, a very low level of MT-Akt1 is present in the GST-POSH pull-down."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D057809",
+                    "entry_name": "HEK293 Cells"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "GST",
+                    "entry_name": "GST"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7553",
+                    "entry_name": "MYC"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Metallothionein",
+                    "entry_name": "Metallothionein"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "9794",
+                    "entry_name": "RABAC1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "GST",
+                    "entry_name": "GST"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7553",
+                    "entry_name": "MYC"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0010936",
+                    "entry_name": "SDS-PAGE"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0025297",
+                    "entry_name": "Prolonged"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "text": "To address whether POSH and Akt2 co-localize, indirect immunofluorescence was performed on COS cells transiently transfected with epitope-tagged expression vectors for POSH-(447-550) or POSH-(1-892) (full-length), Akt2, and RacV12. POSH interacts with activated Rac and has been suggested to function as a scaffold protein for Rac-mediated signaling events. Therefore, co-localization was assessed in cells in the presence of activated Rac. Because ectopic expression of full-length POSH in COS cells is accompanied by increased cell death, z-VAD-FMK, a cell permeable caspase 3 inhibitor, was added to cells transfected with the full-length POSH expression vector. POSH and Akt co-localize in lamellipodia.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:AKT2))",
+                    "evidence": "POSH and Akt co-localize in lamellipodia."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D019484",
+                    "entry_name": "Address"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019556",
+                    "entry_name": "COS Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000066630",
+                    "entry_name": "Ectopic Gene Expression"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019556",
+                    "entry_name": "COS Cells"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0008219",
+                    "entry_name": "cell death"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:137045",
+                    "entry_name": "Z-Val-Ala-Asp(OMe)-CH2F"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1504",
+                    "entry_name": "CASP3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "text": "An alignment between the POSH SH3-3 (third SH3) domain and related SH3 domains is shown. SH3 domains often contain an acidic residue at a position analogous to Asp-99 of Src. Mutation of this residue disrupts a salt bridge with an Arg of the ligand and also disorders the ligand-binding pocket of the SH3 domain. Another highly conserved residue within the ligand-binding pocket of the SH3 domain is a Trp that forms a hydrogen bond with a Pro in the Pro-X-X-Pro motif common to many ligands recognized by SH3 domains. To determine if these residues, which are conserved in POSH, mediate the association of POSH with Akt2, two mutated SH3-3 domains, POSH E470Q and POSH W489A, were generated for protein-protein interaction studies. POSH E470Q and POSH W489A exhibit greatly diminished binding to Akt2 in yeast two-hybrid assays, and in pull-down assays in HEK293 cells. These results indicate that Glu-470 and Trp-489 are key residues in POSH that facilitate binding of POSH to Akt2.",
+            "Results": [
+                {
+                    "bel_statement": "p(UniProt:POSH) directlyDecreases p(UniProt:Akt2)",
+                    "evidence": "POSH E470Q and POSH W489A exhibit greatly diminished binding to Akt2 in yeast two-hybrid assays, and in pull-down assays in HEK293 cells."
+                },
+                {
+                    "bel_statement": "p(UniProt:POSH) directlyIncreases p(UniProt:Akt2)",
+                    "evidence": "These results indicate that Glu-470 and Trp-489 are key residues in POSH that facilitate binding of POSH to Akt2."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0012830",
+                    "entry_name": "Position"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11283",
+                    "entry_name": "SRC"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009154",
+                    "entry_name": "Mutation"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:24866",
+                    "entry_name": "salt"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16467",
+                    "entry_name": "L-arginine"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16828",
+                    "entry_name": "L-tryptophan"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020478",
+                    "entry_name": "Form"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006859",
+                    "entry_name": "Hydrogen"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:32865",
+                    "entry_name": "L-prolyl group"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020476",
+                    "entry_name": "Exhibition"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020798",
+                    "entry_name": "Two-Hybrid System Techniques"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D057809",
+                    "entry_name": "HEK293 Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "text": "In general, SH3 domains recognize proline-rich sequences, with the consensus core sequence Pro-X-X-Pro. Akt2 contains two motifs that could mediate binding to the third SH3 domain within POSH, KERPEAP (amino acids 39-45, site 1) and LLPPFKP (amino acids 422-428, site 2). Site 1, with a basic residue at position -3, would be a class I SH3 ligand (consensus, R/KXXPXXP). In class I SH3 ligands, the basic residue forms a salt bridge with an acidic residue in the SH3 domain. Two N-terminal lysines are located upstream of site 2 (Lys-420, Lys-421) but neither is in the position of the basic residue in a consensus class I SH3 ligand. In addition, site 2 does not meet the consensus for a class II SH3 ligand (consensus, PXXPXR/K) because it lacks a basic residue C-terminal to the Pro-X-X-Pro motif. Examples of SH3 domains that prefer ligands without basic residues adjacent to the Pro-X-X-Pro motif include the Abl SH3 domain (which binds to YPPPPIP) and the P5 (third) SH3 domain of p68 (which binds to PLPP-PAP).",
+            "Results": [
+                {
+                    "bel_statement": "act(p(UniProt:AKT2), ma(GO:\"SH3 domain binding\"))",
+                    "evidence": "Akt2 contains two motifs that could mediate binding to the third SH3 domain within POSH, KERPEAP (amino acids 39-45, site 1) and LLPPFKP (amino acids 422-428, site 2)."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D032921",
+                    "entry_name": "Consensus"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0012830",
+                    "entry_name": "Position"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032921",
+                    "entry_name": "Consensus"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020478",
+                    "entry_name": "Form"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:24866",
+                    "entry_name": "salt"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0012830",
+                    "entry_name": "Position"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032921",
+                    "entry_name": "Consensus"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032921",
+                    "entry_name": "Consensus"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "4204",
+                    "entry_name": "GCNT2"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032921",
+                    "entry_name": "Consensus"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "76",
+                    "entry_name": "ABL1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "30168",
+                    "entry_name": "PDIA6"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18116",
+                    "entry_name": "KHDRBS1"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "text": "Both prolines within the site 2 motif were mutated to alanine and the interaction of the APHAkt2 mutant (APHAkt2 Pro425/428Ala) with POSH-(447-550) assessed by yeast two-hybrid analysis. APHAkt2 P425/428A does not interact with POSH-(447-550). However, APHAkt2 P425/428A interacts with isolate 46, indicating that the mutant Akt2 protein is stably expressed and localized appropriately. This result indicates that POSH SH3-3 can bind to the Akt2 site 2 PXXP motif.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(UniProt:Q9Y463), ma(GO:\"SH3 domain binding\"))",
+                    "evidence": "This result indicates that POSH SH3-3 can bind to the Akt2 site 2 PXXP motif."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16449",
+                    "entry_name": "alanine"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0012838",
+                    "entry_name": "Localized"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "text": "APHAkt2 lacks site 1. To ascertain if site 1 in Akt2 could also mediate binding to POSH, site 1 was mutated alone (Akt2 P42/45A) and in combination with site 2. Both single mutants, Akt2 P42/45A and Akt P425/428A, interact with POSH-(447-892), which contains the two C-terminal SH3 domains of POSH, SH3-3 and SH3-4. When both sites are mutated in Akt2, the interaction of POSH with the double Akt2 mutant, Akt2 P42/45A P425/428A, is reduced. This result indicates that both Pro-X-X-Pro motifs contribute to the interaction between POSH and Akt2. However, the interaction of the double Akt2 mutant with POSH is not abolished by mutating all four prolines within the Pro-X-X-Pro motif, suggesting that residues in addition to the four prolines are needed for high affinity binding of POSH to Akt2.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(UniProt:AKT2), ma(GO:\"binding\"))",
+                    "evidence": "Both single mutants, Akt2 P42/45A and Akt P425/428A, interact with POSH-(447-892), which contains the two C-terminal SH3 domains of POSH, SH3-3 and SH3-4."
+                },
+                {
+                    "bel_statement": "act(p(UniProt:AKT2), ma(GO:\"binding\")) decreases act(p(UniProt:AKT2), ma(GO:\"binding\"))",
+                    "evidence": "When both sites are mutated in Akt2, the interaction of POSH with the double Akt2 mutant, Akt2 P42/45A P425/428A, is reduced."
+                },
+                {
+                    "bel_statement": "act(p(UniProt:AKT2), ma(GO:\"binding\")) decreases act(p(UniProt:AKT2), ma(GO:\"binding\"))",
+                    "evidence": "However, the interaction of the double Akt2 mutant with POSH is not abolished by mutating all four prolines within the Pro-X-X-Pro motif, suggesting that residues in addition to the four prolines are needed for high affinity binding of POSH to Akt2."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                }
+            ]
+        },
+        {
+            "Index": "16",
+            "text": "Previous studies have demonstrated that POSH binds Rac and MLKs and thus acts as a scaffold to facilitate the activation of the JNK pathway. Recently, Barthwal et al. reported that Akt1 phosphorylates MLK3 and negatively regulates its enzymatic activity. We have shown here that POSH binds Akt2. So, POSH may act not just as a scaffold to facilitate activation of the JNK signaling pathway but also to facilitate its inactivation by Akt2.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:AKT2))",
+                    "evidence": "We have shown here that POSH binds Akt2."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\"))",
+                    "evidence": "Recently, Barthwal et al. reported that Akt1 phosphorylates MLK3 and negatively regulates its enzymatic activity."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:MLK3))",
+                    "evidence": "Previous studies have demonstrated that POSH binds Rac and MLKs and thus acts as a scaffold to facilitate the activation of the JNK pathway."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:RAC))",
+                    "evidence": "Previous studies have demonstrated that POSH binds Rac and MLKs and thus acts as a scaffold to facilitate the activation of the JNK pathway."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28984",
+                    "entry_name": "aluminium atom"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16",
+                    "entry_name": "SERPINA3"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                }
+            ]
+        },
+        {
+            "Index": "17",
+            "text": "To determine whether the interaction of Akt2 with POSH negatively regulates JNK complex formation and/or activation of the JNK signaling pathway, the ability of a POSH mutant that cannot bind Akt2, POSH W489A, to scaffold and activate the JNK signaling pathway was determined. HEK293 cells were transiently transfected with expression vectors for Flag-MLK3 and full-length MT-POSH, MT-POSH W489A, or MT vector control. POSH was immunoprecipitated from cells and co-associated MLK3 detected by Western blot analysis after SDS-PAGE. The level of MLK3 associated with POSH W489A, the mutant POSH that is unable to bind Akt2, is increased relative to the wild type POSH control. This increase in the MLK-POSH complex is accompanied by an increase in phospho-c-Jun, a measure of JNK pathway activation. Taken together, these results suggest that Akt2 binding to POSH inhibits the ability of POSH to act as a JNK signaling scaffold.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH), p(HGNC:MLK3))",
+                    "evidence": "The level of MLK3 associated with POSH W489A, the mutant POSH that is unable to bind Akt2, is increased relative to the wild type POSH control."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:MLK3)) directlyIncreases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "This increase in the MLK-POSH complex is accompanied by an increase in phospho-c-Jun, a measure of JNK pathway activation."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D057809",
+                    "entry_name": "HEK293 Cells"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Metallothionein",
+                    "entry_name": "Metallothionein"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0010936",
+                    "entry_name": "SDS-PAGE"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0030964",
+                    "entry_name": "NADH dehydrogenase complex"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16",
+                    "entry_name": "SERPINA3"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "18",
+            "text": "Next, we examined whether the association of MLK3 with POSH is sensitive to the activation status of the endogenous PI3K/Akt signaling pathway. Transiently transfected HEK293 cells were starved and then stimulated with insulin to activate the endogenous Akt kinases prior to harvest and immunoprecipitation of the POSH-MLK3 complex. As noted, cells were pretreated with the PI3K/Akt inhibitor LY294002, prior to insulin stimulation. The association of MLK3 with POSH is substantially increased by LY294002 treatment. Thus, inhibition of endogenous Akt kinases enhances the ability of POSH to scaffold MLK3.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:MLK3)) increases a(CHEBI:LY294002)",
+                    "evidence": "The association of MLK3 with POSH is substantially increased by LY294002 treatment."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D057809",
+                    "entry_name": "HEK293 Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6081",
+                    "entry_name": "INS"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D047468",
+                    "entry_name": "Immunoprecipitation"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:65329",
+                    "entry_name": "LY294002"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6081",
+                    "entry_name": "INS"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:65329",
+                    "entry_name": "LY294002"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "text": "We introduced the Akt2 binding domain of POSH (POSH-(447-550)) into cells together with MLK3 to determine whether it could function in a dominant negative fashion. Introduction of MLK3 into cells alone activates the JNK signaling pathway, as assessed by Western blot analysis of phospho-c-Jun levels. The level of MLK3-activated phospho-Jun is increased by ectopic expression of the Akt2 binding domain of POSH. This increase in phospho-c-Jun suggests that the Akt2 binding domain of POSH acts to dominantly interfere with endogenous POSH, by titrating Akt2 away from the cellular JNK signaling modules.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(UniProt:MLK3)) increases a(UniProt:phospho-c-Jun)",
+                    "evidence": "Introduction of MLK3 into cells alone activates the JNK signaling pathway, as assessed by Western blot analysis of phospho-c-Jun levels."
+                },
+                {
+                    "bel_statement": "a(UniProt:Akt2 binding domain of POSH) increases a(UniProt:phospho-c-Jun)",
+                    "evidence": "The level of MLK3-activated phospho-Jun is increased by ectopic expression of the Akt2 binding domain of POSH."
+                },
+                {
+                    "bel_statement": "a(UniProt:Akt2 binding domain of POSH) decreases act(p(UniProt:POSH))",
+                    "evidence": "This increase in phospho-c-Jun suggests that the Akt2 binding domain of POSH acts to dominantly interfere with endogenous POSH, by titrating Akt2 away from the cellular JNK signaling modules."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000066630",
+                    "entry_name": "Ectopic Gene Expression"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "20",
+            "text": "Akt1 phosphorylates MLK3 at S674 and negatively regulates its enzymatic activity. If Akt2 bound to POSH regulates the phosphorylation status of MLK3 at S674, then ectopic expression of the dominant negative SH3-3 domain should reduce Akt-mediated phosphorylation of MLK3. HEK293 cells were transfected with expression vectors for Flag-MLK3 and vector control or POSH SH3-3. Flag-MLK3 was isolated from extracts and its phosphorylation status at Ser-674 determined by Western blot analysis with a phospho-(Ser/Thr)-Akt substrate antibody. This antibody recognizes Akt substrates when phosphorylated. The level of Akt-phosphorylated MLK3 is decreased in cells transfected with the POSH SH3-3 domain. Taken together, these results suggest that Akt2 negatively regulates the POSH/JNK signaling complex by phosphorylating MLK3 and promoting the disassembly of the JNK signaling complex.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1), ma(Ph, S, 674))",
+                    "evidence": "Akt1 phosphorylates MLK3 at S674 and negatively regulates its enzymatic activity."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:AKT2), ma(Ph, S, 674))",
+                    "evidence": "If Akt2 bound to POSH regulates the phosphorylation status of MLK3 at S674."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT2) decreases act(p(HGNC:MLK3), ma(Ph, S, 674))",
+                    "evidence": "The level of Akt-phosphorylated MLK3 is decreased in cells transfected with the POSH SH3-3 domain."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT2) decreases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "These results suggest that Akt2 negatively regulates the POSH/JNK signaling complex by phosphorylating MLK3 and promoting the disassembly of the JNK signaling complex."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000066630",
+                    "entry_name": "Ectopic Gene Expression"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D057809",
+                    "entry_name": "HEK293 Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:48108",
+                    "entry_name": "phosphono group"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0005061",
+                    "entry_name": "substrate"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "21",
+            "text": "POSH interacts with multiple components of the JNK signaling pathway, including members of the MLK group of MAP-KKKs, the MAPKKs MKK4/7, and the JNK MAPKs. POSH also interacts with Rac. Activated Rac binds MLKs and relieves the negative regulation of the SH3 domain on the MLK catalytic domain. This complex, POSH-Rac-MLK-MKK4/7-JNK, activates the JNK signaling pathway. In this report, we demonstrate that Akt2 interacts with POSH and negatively regulates the JNK signaling complex.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(UniProt:POSH), p(UniProt:Rac), p(UniProt:MLK), p(UniProt:MKK4), p(UniProt:JNK)) increases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "This complex, POSH-Rac-MLK-MKK4/7-JNK, activates the JNK signaling pathway."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT2) decreases complex(p(UniProt:POSH), p(UniProt:Rac), p(UniProt:MLK), p(UniProt:MKK4), p(UniProt:JNK))",
+                    "evidence": "we demonstrate that Akt2 interacts with POSH and negatively regulates the JNK signaling complex."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6852",
+                    "entry_name": "MAP3K13"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP2K",
+                    "entry_name": "MAP2K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "RAC",
+                    "entry_name": "RAC"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6852",
+                    "entry_name": "MAP3K13"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020134",
+                    "entry_name": "Catalytic Domain"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "22",
+            "text": "POSH is a multi-SH3 domain protein and we show that Akt2 interacts with the third SH3 domain of POSH. We have identified key residues in POSH that are required for its interaction with Akt2, Glu-470 and Trp-489. Mutation of Glu-470 to Gln is predicted to cause substantial structural deformation of the binding cleft of the SH3 domain. The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2. In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by contacting the Arg positioned before the Pro-X-X-Pro motif. In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif. The decrease in binding of Akt2 to POSH W489A emphasizes the importance of this potential contact between the ligand and the POSH SH3 domain.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT2), ma(GO:\"SH3 domain binding\"))",
+                    "evidence": "POSH is a multi-SH3 domain protein and we show that Akt2 interacts with the third SH3 domain of POSH."
+                },
+                {
+                    "bel_statement": "p(HGNC:POSH) hasMember p(HGNC:AKT2)",
+                    "evidence": "We have identified key residues in POSH that are required for its interaction with Akt2."
+                },
+                {
+                    "bel_statement": "p(HGNC:POSH, pmod(GO:\"mutation\", \"Glu-470\", \"Gln\")) decreases act(p(HGNC:AKT2))",
+                    "evidence": "Mutation of Glu-470 to Gln is predicted to cause substantial structural deformation of the binding cleft of the SH3 domain."
+                },
+                {
+                    "bel_statement": "p(HGNC:POSH) increases act(p(HGNC:AKT2))",
+                    "evidence": "The requirement for Glu-470 underscores the importance of the ligand binding pocket of the POSH SH3 domain in interacting with Akt2."
+                },
+                {
+                    "bel_statement": "p(HGNC:POSH) increases act(p(HGNC:AKT2))",
+                    "evidence": "In addition, Glu-470 may also strengthen the interaction between POSH and the N-terminal Pro-X-X-Pro motif in Akt2 by contacting the Arg positioned before the Pro-X-X-Pro motif."
+                },
+                {
+                    "bel_statement": "p(HGNC:CSK) hasMember p(HGNC:AKT2)",
+                    "evidence": "In the CSK SH3 domain, Trp-47 (the equivalent of Trp-489 of POSH) is predicted to make a hydrogen bond contact with a Pro of the Pro-X-X-Pro motif."
+                },
+                {
+                    "bel_statement": "p(HGNC:POSH, pmod(GO:\"mutation\", \"W489\", \"A\")) decreases act(p(HGNC:AKT2))",
+                    "evidence": "The decrease in binding of Akt2 to POSH W489A emphasizes the importance of this potential contact between the ligand and the POSH SH3 domain."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009154",
+                    "entry_name": "Mutation"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:30011",
+                    "entry_name": "L-glutamine residue"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16467",
+                    "entry_name": "L-arginine"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "2444",
+                    "entry_name": "CSK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006859",
+                    "entry_name": "Hydrogen"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:32865",
+                    "entry_name": "L-prolyl group"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                }
+            ]
+        },
+        {
+            "Index": "23",
+            "text": "We have also identified key residues in Akt2 that mediate the POSH/Akt2 co-association, Pro-42/45 and Pro-425/428. Pro-42/45 are located adjacent to a short \u00ab-helix in variable loop (VL) 2 in the PH domain. In the structure for the Akt1 PH domain, VL2 points away from the membrane and Thomas et al. speculated that the negative charges in VL2 might interact with the Akt catalytic domain to maintain the enzyme in an inactive, closed conformation. Three of four basic residues found in the Akt1 VL2 are conserved in Akt2. So, binding of Akt2 to POSH may prolong or sustain the active, open conformation of Akt2 to facilitate the phosphorylation of kinase substrates complexed with POSH. Kim et al. recently reported that JIP1, which acts as an Akt1 scaffold, regulates the enzymatic activity of Akt1. Experiments are in progress to determine whether the levels of active Akt2 are increased by ectopic expression of POSH.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:AKT2), p(HGNC:POSH)) increases act(p(HGNC:AKT2))",
+                    "evidence": "So, binding of Akt2 to POSH may prolong or sustain the active, open conformation of Akt2 to facilitate the phosphorylation of kinase substrates complexed with POSH."
+                },
+                {
+                    "bel_statement": "p(HGNC:JIP1) hasActivity( act(p(HGNC:AKT1)))",
+                    "evidence": "Kim et al. recently reported that JIP1, which acts as an Akt1 scaffold, regulates the enzymatic activity of Akt1."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17082",
+                    "entry_name": "MLC1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000070539",
+                    "entry_name": "Pleckstrin Homology Domains"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000070539",
+                    "entry_name": "Pleckstrin Homology Domains"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28984",
+                    "entry_name": "aluminium atom"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020134",
+                    "entry_name": "Catalytic Domain"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004798",
+                    "entry_name": "Enzymes"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28984",
+                    "entry_name": "aluminium atom"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000066630",
+                    "entry_name": "Ectopic Gene Expression"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                }
+            ]
+        },
+        {
+            "Index": "24",
+            "text": "In contrast to Pro-42/45, Pro-425/428 are conserved with Akt1. Pro-425/428 are located within the C-terminal regulatory domain. Jiang and Qiu recently reported that this proline rich region in Akt1 could mediate binding of Akt1 to the SH3 domain of c-Src. Mutation of this motif resulted in an Akt1 mutant protein that failed to bind to Src and could not be phosphorylated on Y315, suggesting that the interaction between the SH3 domain of Src and this proline-rich motif in Akt1 is required for tyrosine phosphorylation and subsequent activation of Akt1 catalytic activity. We have shown here that Akt1 does not interact with POSH. The selection of SH3 domain (POSH versus Src) is likely to be mediated by non-conserved residues adjacent to the Pro-X-X-Pro motif.",
+            "Results": [
+                {
+                    "bel_statement": "act(p(HGNC:AKT1), ma(GO:\"tyrosine kinase activity\"))",
+                    "evidence": "Mutation of this motif resulted in an Akt1 mutant protein that failed to bind to Src and could not be phosphorylated on Y315, suggesting that the interaction between the SH3 domain of Src and this proline-rich motif in Akt1 is required for tyrosine phosphorylation and subsequent activation of Akt1 catalytic activity."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:AKT1), p(HGNC:CSK))",
+                    "evidence": "Jiang and Qiu recently reported that this proline rich region in Akt1 could mediate binding of Akt1 to the SH3 domain of c-Src."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:26271",
+                    "entry_name": "proline"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11283",
+                    "entry_name": "SRC"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009154",
+                    "entry_name": "Mutation"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D050505",
+                    "entry_name": "Mutant Proteins"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11283",
+                    "entry_name": "SRC"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11283",
+                    "entry_name": "SRC"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:18186",
+                    "entry_name": "tyrosine"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0003824",
+                    "entry_name": "catalytic activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11283",
+                    "entry_name": "SRC"
+                }
+            ]
+        },
+        {
+            "Index": "25",
+            "text": "What is the functional consequence of the Akt2/POSH association? Our results demonstrate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2. We have shown that a POSH mutant that is unable to bind to Akt2 exhibits increased binding to MLK3. This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway. Further, we observe increased binding of MLK3 to POSH when we inhibit the endogenous PI3K/Akt signaling pathway with LY294002. These results suggest that Akt2 inhibits the ability of POSH to act as a JNK scaffold. Because POSH itself does not contain a consensus Akt phosphorylation site, Akt2 is likely to act through a protein bound to POSH to inhibit this JNK scaffold, such as MLK3. We have shown that the SH3-3 domain of POSH acts to dominantly interfere with endogenous POSH, by titrating endogenous Akt2 away from POSH, and that ectopic expression of this dominant interfering protein both increases activation of the JNK signaling pathway and decreases the level of Akt-phosphorylated MLK3. Taken together, our results support a model in which Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3; phosphorylation of MLK3 by Akt leads to the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH), p(HGNC:MLK3), p(GO:\"MKK\"), p(GO:\"JNK\"))",
+                    "evidence": "Our results demonstrate that the assembly of an active JNK signaling complex by POSH is negatively regulated by Akt2."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:MLK3)) directlyIncreases bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "This increased binding of MLK3 to POSH is accompanied by increased activation of the JNK signaling pathway."
+                },
+                {
+                    "bel_statement": "p(HGNC:AKT2) directlyDecreases complex(p(HGNC:POSH), p(HGNC:MLK3))",
+                    "evidence": "These results suggest that Akt2 inhibits the ability of POSH to act as a JNK scaffold."
+                },
+                {
+                    "bel_statement": "p(HGNC:MLK3) directlyDecreases complex(p(HGNC:POSH), p(GO:\"MKK\"), p(GO:\"JNK\"))",
+                    "evidence": "phosphorylation of MLK3 by Akt leads to the disassembly of the JNK complex bound to POSH and down-regulation of the JNK signaling pathway."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:65329",
+                    "entry_name": "LY294002"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16",
+                    "entry_name": "SERPINA3"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032921",
+                    "entry_name": "Consensus"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16",
+                    "entry_name": "SERPINA3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000066630",
+                    "entry_name": "Ectopic Gene Expression"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6850",
+                    "entry_name": "MAP3K11"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015536",
+                    "entry_name": "Down-Regulation"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                }
+            ]
+        },
+        {
+            "Index": "26",
+            "text": "It is intriguing that cells have evolved different JNK scaffolds for the Akt isoforms, JIP1 for Akt1 and POSH for Akt2. JIP1 seems to be devoted exclusively to regulation of JNK signaling. POSH, however, might play multiple cellular roles. Functional analysis of the POSH SH3 domains by Tapon et al. is consistent with the idea that POSH coordinately regulates an additional signaling pathway together with the JNK pathway. Future studies will be directed toward identifying this pathway.",
+            "Results": [
+                {
+                    "bel_statement": "complex(p(HGNC:JIP1), p(HGNC:AKT1)) hasComponent bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "JIP1 seems to be devoted exclusively to regulation of JNK signaling."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:POSH), p(HGNC:AKT2)) hasComponent bp(GO:\"JNK signaling pathway\")",
+                    "evidence": "POSH, however, might play multiple cellular roles."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020033",
+                    "entry_name": "Protein Isoforms"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "391",
+                    "entry_name": "AKT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "392",
+                    "entry_name": "AKT2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6882",
+                    "entry_name": "MAPK8IP1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:50906",
+                    "entry_name": "role"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28984",
+                    "entry_name": "aluminium atom"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17650",
+                    "entry_name": "SH3RF1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                }
+            ]
+        }
+    ]
+}

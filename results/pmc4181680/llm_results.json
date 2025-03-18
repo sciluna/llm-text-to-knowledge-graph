@@ -5,247 +5,2265 @@
             "text": "Triple Negative Breast Cancer (TNBC) is a heterogeneous disease that based on immunohistochemistry (IHC) is estrogen receptor (ER) negative, progesterone receptor (PR) negative and human epidermal growth factor receptor 2 (HER2) negative. TNBC is typically observed in young AA women and Hispanic women who carry a mutation in the BRCA1 gene. TNBC is characterized by a distinct molecular profile, aggressive nature and lack of targeted therapies. The purpose of this article is to review the current and future novel signalling pathways as therapeutic approaches to TNBC. Recent Identification of a new BRCA1 trafficking pathway holds promise in the future for the development of targeted therapies for TNBC.",
             "Results": [
                 {
-                    "bel_statement": "g(HGNC:BRCA1) positiveCorrelation path(MESHD:\"Triple Negative Breast Neoplasms\")"
+                    "bel_statement": "g(HGNC:BRCA1) increases path(DOID:1612)",
+                    "evidence": "TNBC is typically observed in young AA women and Hispanic women who carry a mutation in the BRCA1 gene."
+                },
+                {
+                    "bel_statement": "g(HGNC:BRCA1) increases bp(GO:\"BRCA1 trafficking pathway\")",
+                    "evidence": "Recent Identification of a new BRCA1 trafficking pathway holds promise in the future for the development of targeted therapies for TNBC."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007150",
+                    "entry_name": "Immunohistochemistry"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3467",
+                    "entry_name": "ESR1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ESR",
+                    "entry_name": "ESR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8910",
+                    "entry_name": "PGR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8910",
+                    "entry_name": "PGR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "SAA",
+                    "entry_name": "SAA"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009154",
+                    "entry_name": "Mutation"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019398",
+                    "entry_name": "Genes, BRCA1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002752",
+                    "entry_name": "aggressive"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019368",
+                    "entry_name": "Nature"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016454",
+                    "entry_name": "Review"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
                 }
             ]
         },
         {
             "Index": "1",
             "text": "Triple Negative Breast Cancer (TNBC) is a subtype of breast cancer that based on immunohistochemistry (IHC) is estrogens receptor (ER) negative, progesterone receptor (PR) negative and human epidermal growth factor receptor 2 (HER2) negative. TNBC is characterized by its unique molecular profile, aggressive nature, distinct metastatic patterns and lack of targeted therapies. It is estimated that out of the worldwide breast cancer burden, approximately 170,000 cases are TNBC and account for ~10-20% of invasive breast cancers.",
-            "Results": []
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007150",
+                    "entry_name": "Immunohistochemistry"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:50114",
+                    "entry_name": "estrogen"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ESR",
+                    "entry_name": "ESR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8910",
+                    "entry_name": "PGR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8910",
+                    "entry_name": "PGR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002752",
+                    "entry_name": "aggressive"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019368",
+                    "entry_name": "Nature"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0006852",
+                    "entry_name": "metastatic"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009237",
+                    "entry_name": "Estimated Platelets Measurement"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "1000307",
+                    "entry_name": "Invasive Breast Carcinoma"
+                }
+            ]
         },
         {
             "Index": "2",
-            "text": "Breast cancers are typically classified into seven subtypes (3): luminal A (ER positive and histologic low grade), luminal B (ER positive and histologic high grade), HER2 overexpressing, basal-like (2 types - BL1 and BL2), immunomodulatory (IM), mesenchymal (M), mesenchymal stem-like (MSL) and normal breast-like tumours. Majority of the TNBC are the basal-like subtype, and many basal-like breast cancers are triple negative; they are not equivalent in terms of gene expression signatures and IHC analysis. Basal-like breast cancer is a classification based on gene expression profiling. Although they appear to be synonymous, there is up to 30% discordance between the two groups. In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component.",
-            "Results": [
+            "text": "Molecular Profile and IHC Phenotype",
+            "Results": [],
+            "annotations": [
                 {
-                    "bel_statement": "p(HGNC:EGFR) increases a(GOCC:\"mammary gland basal cell\")"
-                },
-                {
-                    "bel_statement": "p(HGNC:EGFR) increases a(GOCC:\"myoepithelial cell\")"
+                    "db": "MESH",
+                    "id": "D010641",
+                    "entry_name": "Phenotype"
                 }
             ]
         },
         {
             "Index": "3",
-            "text": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
+            "text": "Breast cancers are typically classified into seven subtypes (3): luminal A (ER positive and histologic low grade), luminal B (ER positive and histologic high grade), HER2 overexpressing, basal-like (2 types - BL1 and BL2), immunomodulatory (IM), mesenchymal (M), mesenchymal stem-like (MSL) and normal breast-like tumours. Majority of the TNBC are the basal-like subtype, and many basal-like breast cancers are triple negative; they are not equivalent in terms of gene expression signatures and IHC analysis. Basal-like breast cancer is a classification based on gene expression profiling. Although they appear to be synonymous, there is up to 30% discordance between the two groups. In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:TP53) increases path(MESHD:\"Basal-like breast cancer\")"
+                    "bel_statement": "p(HGNC:EGFR) increases path(DOID:1612)",
+                    "evidence": "In addition to low expression of ER, PR and HER2, basal-like breast cancers are characterized by a high expression of CK5, CK14, caveolin-1, caix, p63, EGFR (Epidermal Growth Factor Receptor)/HER1, which reflects on the mammary gland basal/myoepithelial cell component."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"MAPK cascade\") increases path(MESHD:\"Basal-like breast cancer\")"
+                    "db": "CHEBI",
+                    "id": "CHEBI:84603",
+                    "entry_name": "all-trans-tridecaprenyl diphosphate(3-)"
                 },
                 {
-                    "bel_statement": "bp(GOBP:\"Akt signaling pathway\") increases path(MESHD:\"Basal-like breast cancer\")"
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
                 },
                 {
-                    "bel_statement": "p(HGNC:PARP1) increases path(MESHD:\"Basal-like breast cancer\")"
+                    "db": "FPLX",
+                    "id": "ESR",
+                    "entry_name": "ESR"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ESR",
+                    "entry_name": "ESR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0005173",
+                    "entry_name": "Bl-1"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0005475",
+                    "entry_name": "BL-2"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:30366",
+                    "entry_name": "imidazolide"
+                },
+                {
+                    "db": "DOID",
+                    "id": "DOID:14116",
+                    "entry_name": "multiple symmetric lipomatosis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000281",
+                    "entry_name": "basal-like breast carcinoma"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000281",
+                    "entry_name": "basal-like breast carcinoma"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D002965",
+                    "entry_name": "Classification"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ESR",
+                    "entry_name": "ESR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8910",
+                    "entry_name": "PGR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000281",
+                    "entry_name": "basal-like breast carcinoma"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6442",
+                    "entry_name": "KRT5"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6416",
+                    "entry_name": "KRT14"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1527",
+                    "entry_name": "CAV1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1383",
+                    "entry_name": "CA9"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "15979",
+                    "entry_name": "TP63"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3236",
+                    "entry_name": "EGFR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3236",
+                    "entry_name": "EGFR"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D042361",
+                    "entry_name": "Mammary Glands, Human"
                 }
             ]
         },
         {
             "Index": "4",
-            "text": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers are triple negative and express a high proportion of basal like cytokeratins (CK5,14,17), as well as P-Cadherin and HER1/EGFR. Gene expression studies support this association among patients with BRCA1 mutations that breast tumours tend to cluster within the basal like category.",
+            "text": "Additionally, several proteins integrally involved in DNA repair are aberrantly expressed in TNBC, which may have implications on sensitivity to chemotherapeutic agents like, platinum-based drugs. High p53 IHC expression is common in basal-like breast cancer. Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway, the Akt pathway, and the poly ADP-ribose polymerase1 (PARP1) pathway.",
             "Results": [
                 {
-                    "bel_statement": "g(HGNC:BRCA1) positiveCorrelation path(MESHD:\"Breast Neoplasms\")"
+                    "bel_statement": "p(HGNC:TP53) increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "High p53 IHC expression is common in basal-like breast cancer."
                 },
                 {
-                    "bel_statement": "g(HGNC:BRCA1) positiveCorrelation a(HGNC:EGFR)"
+                    "bel_statement": "bp(GOBP:\"MAPK cascade\") increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the mutagen activated protein (MAP) kinase pathway."
+                },
+                {
+                    "bel_statement": "bp(GOBP:\"Akt signaling pathway\") increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the Akt pathway."
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) increases path(MESHD:\"Basal-like breast cancer\")",
+                    "evidence": "Several additional and targetable molecular pathways implicated in the pathogenesis of basal-like breast cancer include the poly ADP-ribose polymerase1 (PARP1) pathway."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "GO",
+                    "id": "GO:0006281",
+                    "entry_name": "DNA repair"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:23888",
+                    "entry_name": "drug"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11998",
+                    "entry_name": "TP53"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000281",
+                    "entry_name": "basal-like breast carcinoma"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0001897",
+                    "entry_name": "cytolysis by symbiont of host cells"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000281",
+                    "entry_name": "basal-like breast carcinoma"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25435",
+                    "entry_name": "mutagen"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019532",
+                    "entry_name": "Map"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AKT",
+                    "entry_name": "AKT"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8288",
+                    "entry_name": "Poly(ADPribose)"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "270",
+                    "entry_name": "PARP1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
                 }
             ]
         },
         {
             "Index": "5",
-            "text": "Several large scale population based studies indicate that TNBC are up to three times more likely to occur among pre-menopausal women of African-American descent. Certain epidemiologic studies like the Carolina Breast Cancer Study illustrated that as compared to the luminal a tumours, basal-like tumours were more likely to arise among women with early menarche, higher parity, younger age at full term pregnancy, and shorter duration of breast feeding, higher body mass index, and higher waist to hip ratio, especially among pre-menopausal patients. Another study done by Bauer et al. found that younger, non-Hispanic black and Hispanic women diagnosed with TNBC, had tumours that were more aggressive, and these women had poorer survival regardless of stage. In addition, non-Hispanic black women with late stage TNBC had the poorest survival of any comparable group.",
-            "Results": []
+            "text": "Association with BRCA1 Mutation status",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:BRCA1) association path(MESH:Mutation)",
+                    "evidence": "Association with BRCA1 Mutation status"
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0011021",
+                    "entry_name": "BRCA1 mutation carier status"
+                }
+            ]
         },
         {
             "Index": "6",
-            "text": "TNBC is well known for its aggressive behaviour and is characterized by onset at a younger age, high mean tumour size, higher grade tumours and sometimes, a higher rate of node positivity. Additionally, this group is also known for an early peak of recurrence between the first and third year after diagnosis, and more aggressive metastases which are more likely to occur in viscera particularly in the lungs and brain, and less likely to spread to the bone. Based upon histological findings the majority of the triple negative breast cancers are of ductal origin; however, several other aggressive phenotypes also appear to be over represented, including metaplastic, apocrine and adenoid cystic. A histological study of basal-like tumours, all being ER/HER2 negative, yielded marked increase in mitotic count, geographic necrosis, pushing borders of invasion and stromal lymphocytic response.",
-            "Results": []
+            "text": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers are triple negative and express a high proportion of basal like cytokeratins (CK5,14,17), as well as P-Cadherin and HER1/EGFR. Gene expression studies support this association among patients with BRCA1 mutations that breast tumours tend to cluster within the basal like category.",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:BRCA1) positiveCorrelation path(DOID:Triple-negative breast cancer)",
+                    "evidence": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers are triple negative."
+                },
+                {
+                    "bel_statement": "g(HGNC:BRCA1) positiveCorrelation a(HGNC:EGFR)",
+                    "evidence": "It has been observed that a high percentage of BRCA1- associated hereditary and sporadic breast cancers express a high proportion of HER1/EGFR."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "DOID",
+                    "id": "DOID:8029",
+                    "entry_name": "sporadic breast cancer"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1762",
+                    "entry_name": "CDH3"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009154",
+                    "entry_name": "Mutation"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33731",
+                    "entry_name": "cluster"
+                }
+            ]
         },
         {
             "Index": "7",
-            "text": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies. Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype.",
-            "Results": [
+            "text": "Epidemiology and Risk Factors",
+            "Results": [],
+            "annotations": [
                 {
-                    "bel_statement": "path(MESHD:\"Basal-like breast cancer\") negativeCorrelation path(MESHD:\"Luminal breast cancer\")"
+                    "db": "MESH",
+                    "id": "D004813",
+                    "entry_name": "Epidemiology"
                 },
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Cancer\") negativeCorrelation path(MESHD:\"Luminal breast cancer\")"
+                    "db": "MESH",
+                    "id": "D012307",
+                    "entry_name": "Risk Factors"
                 }
             ]
         },
         {
             "Index": "8",
-            "text": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone.",
+            "text": "Several large scale population based studies indicate that TNBC are up to three times more likely to occur among pre-menopausal women of African-American descent. Certain epidemiologic studies like the Carolina Breast Cancer Study illustrated that as compared to the luminal a tumours, basal-like tumours were more likely to arise among women with early menarche, higher parity, younger age at full term pregnancy, and shorter duration of breast feeding, higher body mass index, and higher waist to hip ratio, especially among pre-menopausal patients. Another study done by Bauer et al. found that younger, non-Hispanic black and Hispanic women diagnosed with TNBC, had tumours that were more aggressive, and these women had poorer survival regardless of stage. In addition, non-Hispanic black women with late stage TNBC had the poorest survival of any comparable group.",
             "Results": [
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") increases path(MESHD:\"Brain Neoplasms\")"
+                    "bel_statement": "path(DOID:1612) positiveCorrelation a(EFO:0000403)",
+                    "evidence": "Several large scale population based studies indicate that TNBC are up to three times more likely to occur among pre-menopausal women of African-American descent."
                 },
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") increases path(MESHD:\"Cerebral Metastasis\")"
+                    "bel_statement": "path(DOID:1612) positiveCorrelation a(EFO:0000403)",
+                    "evidence": "Another study done by Bauer et al. found that younger, non-Hispanic black and Hispanic women diagnosed with TNBC, had tumours that were more aggressive, and these women had poorer survival regardless of stage."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "6511",
+                    "entry_name": "LARGE1"
                 },
                 {
-                    "bel_statement": "path(MESHD:\"Breast Neoplasms\") increases path(MESHD:\"Brain Neoplasms\")"
+                    "db": "MESH",
+                    "id": "D011153",
+                    "entry_name": "Population"
                 },
                 {
-                    "bel_statement": "a(CHEBI:cisplatin) increases bp(GOBP:\"complete pathologic response\")"
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016021",
+                    "entry_name": "Epidemiologic Studies"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0042696",
+                    "entry_name": "menarche"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010298",
+                    "entry_name": "Parity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "26808",
+                    "entry_name": "DYNAP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D011247",
+                    "entry_name": "Pregnancy"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001942",
+                    "entry_name": "Breast Feeding"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015992",
+                    "entry_name": "Body Mass Index"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D049629",
+                    "entry_name": "Waist-Hip Ratio"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28984",
+                    "entry_name": "aluminium atom"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002752",
+                    "entry_name": "aggressive"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013534",
+                    "entry_name": "Survival"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013534",
+                    "entry_name": "Survival"
                 }
             ]
         },
         {
             "Index": "9",
-            "text": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression.",
-            "Results": [
-                {
-                    "bel_statement": "g(HGNC:BRCA1) increases sensitivity to a(CHEBI:cisplatin)"
-                },
-                {
-                    "bel_statement": "bp(GOBP:\"NOTCH signaling pathway\") decreases bp(GOBP:\"apoptotic process\")"
-                },
-                {
-                    "bel_statement": "bp(GOBP:\"Hedgehog signaling pathway\") decreases bp(GOBP:\"apoptotic process\")"
-                },
-                {
-                    "bel_statement": "bp(GOBP:\"Wnt signaling pathway\") decreases bp(GOBP:\"apoptotic process\")"
-                }
-            ]
+            "text": "Clinical Characteristics",
+            "Results": [],
+            "annotations": []
         },
         {
             "Index": "10",
-            "text": "Adjuvant chemotherapy has been shown to not only prolong disease-free survival in patients but overall survival as a whole; however, TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists. To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype. Highest response rates were noticed among those classified as basal like (85%) and HER2 positive (70%), as compared to luminal (47%, p<0.0001). Despite initial chemo sensitivity, disease free survival (p=0.04) and overall survival (p=0.02) remained poorest among those with basal like and HER2 positive tumours, compared to the luminal subtype. Although triple negative disease is highly responsive to Anthracycline/Taxane chemotherapy treatment, a high risk of relapse still remains if the tumour is not completely eradicated.",
+            "text": "TNBC is well known for its aggressive behaviour and is characterized by onset at a younger age, high mean tumour size, higher grade tumours and sometimes, a higher rate of node positivity. Additionally, this group is also known for an early peak of recurrence between the first and third year after diagnosis, and more aggressive metastases which are more likely to occur in viscera particularly in the lungs and brain, and less likely to spread to the bone. Based upon histological findings the majority of the triple negative breast cancers are of ductal origin; however, several other aggressive phenotypes also appear to be over represented, including metaplastic, apocrine and adenoid cystic. A histological study of basal-like tumours, all being ER/HER2 negative, yielded marked increase in mitotic count, geographic necrosis, pushing borders of invasion and stromal lymphocytic response.",
             "Results": [
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") positiveCorrelation bp(GOBP:\"response to anthracycline-based chemotherapy\")"
+                    "bel_statement": "path(DOID:1612) increases path(DOID:3908)",
+                    "evidence": "TNBC is well known for its aggressive behaviour and is characterized by onset at a younger age, high mean tumour size, higher grade tumours and sometimes, a higher rate of node positivity."
                 },
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") positiveCorrelation bp(GOBP:\"response to taxane-based chemotherapy\")"
+                    "bel_statement": "path(DOID:1612) increases path(DOID:3908)",
+                    "evidence": "Additionally, this group is also known for an early peak of recurrence between the first and third year after diagnosis, and more aggressive metastases which are more likely to occur in viscera particularly in the lungs and brain, and less likely to spread to the bone."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0003015",
+                    "entry_name": "aggressive behavior"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017668",
+                    "entry_name": "Age of Onset"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009369",
+                    "entry_name": "Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012008",
+                    "entry_name": "Recurrence"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003933",
+                    "entry_name": "Diagnosis"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002752",
+                    "entry_name": "aggressive"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009362",
+                    "entry_name": "Neoplasm Metastasis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014781",
+                    "entry_name": "Viscera"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008168",
+                    "entry_name": "Lung"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001921",
+                    "entry_name": "Brain"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002752",
+                    "entry_name": "aggressive"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010641",
+                    "entry_name": "Phenotype"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "8993",
+                    "entry_name": "PIP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000234",
+                    "entry_name": "Adenoids"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0070265",
+                    "entry_name": null
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009361",
+                    "entry_name": "Neoplasm Invasiveness"
                 }
             ]
         },
         {
             "Index": "11",
-            "text": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC.",
+            "text": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies. Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:BRCA1) decreases a(CHEBI:Cisplatin)"
+                    "bel_statement": "path(MESHD:\"Basal-like breast cancer\") negativeCorrelation path(MESHD:\"Breast Neoplasms\")",
+                    "evidence": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies."
                 },
                 {
-                    "bel_statement": "p(HGNC:BRCA1) decreases a(CHEBI:Carboplatin)"
+                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") negativeCorrelation path(MESHD:\"Breast Neoplasms\")",
+                    "evidence": "Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D011379",
+                    "entry_name": "Prognosis"
                 },
                 {
-                    "bel_statement": "a(CHEBI:Cisplatin) increases bp(GOBP:\"DNA damage\")"
+                    "db": "EFO",
+                    "id": "0000281",
+                    "entry_name": "basal-like breast carcinoma"
                 },
                 {
-                    "bel_statement": "a(CHEBI:Carboplatin) increases bp(GOBP:\"DNA damage\")"
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
                 },
                 {
-                    "bel_statement": "a(CHEBI:Cisplatin) increases bp(GOBP:\"apoptotic process\")"
+                    "db": "MESH",
+                    "id": "D011153",
+                    "entry_name": "Population"
                 },
                 {
-                    "bel_statement": "a(CHEBI:Carboplatin) increases bp(GOBP:\"apoptotic process\")"
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
                 },
                 {
-                    "bel_statement": "p(HGNC:TP63) increases a(CHEBI:Cisplatin)"
+                    "db": "MESH",
+                    "id": "D013534",
+                    "entry_name": "Survival"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
                 }
             ]
         },
         {
             "Index": "12",
-            "text": "EGFR expression is approximately seen in 60% of triple negative breast tumors, thus providing a reasonable targeted treatment approach. A phase II trial evaluating the combination of Cetuximab (a chimeric monoclonal antibody targeting EGFR) and Carboplatin, weekly for 3 to 4 weeks reported a response rate of 18% and overall clinical benefit of 27% among 102 patients with advanced TNBC.",
+            "text": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease. Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease. An estimated 15% of all patients with breast cancer will develop brain metastasis. In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005). In another study using patients with BRCA1 mutation, there was 82% complete pathologic response in those treated with Cisplatinum alone.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:EGFR) positiveCorrelation path(MESHD:\"Breast Neoplasms, Triple Negative\")"
+                    "bel_statement": "path(DOID:1612) increases path(DOID:0060077)",
+                    "evidence": "A recently reported Canadian series evaluating prognosis in over 1,500 women, showed an increased likelihood of distant recurrence and death among women with triple negative breast cancer, as compared to the non triple negative disease."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:CHEMBL1201581) decreases p(HGNC:EGFR)"
+                    "bel_statement": "path(DOID:1612) increases path(DOID:0060077)",
+                    "evidence": "Studies have consistently shown that more aggressive visceral and soft tissue relapses are more common and bone relapses less common among those diagnosed with triple negative versus ER positive disease."
+                },
+                {
+                    "bel_statement": "path(DOID:1612) increases path(DOID:0060077)",
+                    "evidence": "In a series of over 3,000 patients with brain metastasis arising from breast cancer treated from 1989 to 2006, multivariate analysis indicated that triple negative status was the greatest risk factor for the development of cerebral metastasis (odds ratio=4.16; p<0.001), above that of HER2 positive status (OR=3.43; p=0.005)."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D011379",
+                    "entry_name": "Prognosis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012008",
+                    "entry_name": "Recurrence"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0008219",
+                    "entry_name": "cell death"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014930",
+                    "entry_name": "Women"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002752",
+                    "entry_name": "aggressive"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ESR",
+                    "entry_name": "ESR"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009237",
+                    "entry_name": "Estimated Platelets Measurement"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001921",
+                    "entry_name": "Brain"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009708",
+                    "entry_name": "metastasis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001921",
+                    "entry_name": "Brain"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009708",
+                    "entry_name": "metastasis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015999",
+                    "entry_name": "Multivariate Analysis"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012307",
+                    "entry_name": "Risk Factors"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009708",
+                    "entry_name": "metastasis"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009154",
+                    "entry_name": "Mutation"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:27899",
+                    "entry_name": "cisplatin"
                 }
             ]
         },
         {
             "Index": "13",
-            "text": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC. EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%. Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents. To date, the majority of data with EGFR inhibitors has generally been interpreted as negative.",
-            "Results": [
+            "text": "Therapeutic Strategies",
+            "Results": [],
+            "annotations": [
                 {
-                    "bel_statement": "a(CHEMBL:Panitumumab) increases path(MESHD:\"Triple Negative Breast Neoplasms\")"
-                },
-                {
-                    "bel_statement": "a(CHEMBL:Panitumumab) increases a(CHEBI:Irinotecan)"
-                },
-                {
-                    "bel_statement": "a(CHEMBL:Panitumumab) increases a(CHEBI:Carboplatin)"
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
                 }
             ]
         },
         {
             "Index": "14",
-            "text": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+            "text": "Although triple negative breast cancers are associated with a generally poor breast cancer specific outcome, most are not resistant to chemotherapy. These patients have an extremely poor prognosis and relapse and die quickly. Several therapies are being developed that target specific biomarkers of TNBC or basal-like subtype. These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease; however, their uses as of date are limited to clinical trials and more work is needed to identify targets that yield high therapeutic ratios. TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin. Other, more recent promising therapeutic targets for TNBC include the NOTCH, Hedgehog and Wnt/b-Catenin signalling pathways. Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:PARP1) decreases bp(GOBP:\"DNA repair\")"
+                    "bel_statement": "p(HGNC:EGFR) increases path(DOID:1612)",
+                    "evidence": "These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease."
                 },
                 {
-                    "bel_statement": "p(HGNC:BRCA1) increases bp(GOBP:\"homologous recombination\")"
+                    "bel_statement": "p(HGNC:AR) increases path(DOID:1612)",
+                    "evidence": "These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease."
                 },
                 {
-                    "bel_statement": "p(HGNC:BRCA2) increases bp(GOBP:\"homologous recombination\")"
+                    "bel_statement": "p(HGNC:PARP1) increases path(DOID:1612)",
+                    "evidence": "These strategies include EGFR-targeted agents, androgen receptor targeted agents, anti-antigenic agents, and PARP inhibitors are offering an option in triple negative disease."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:Olaparib) decreases p(HGNC:PARP1)"
+                    "bel_statement": "g(HGNC:BRCA1) increases sensitivity to a(CHEBI:27899)",
+                    "evidence": "TNBC with BRCA1 gene mutations may be more sensitive to agents that cause DNA damage, such as Cisplatin."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:Velaparib) decreases p(HGNC:PARP1)"
+                    "bel_statement": "bp(GO:0007219) decreases bp(GO:0006915)",
+                    "evidence": "Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:PF-01367338) decreases p(HGNC:PARP1)"
+                    "bel_statement": "bp(GO:0007224) decreases bp(GO:0006915)",
+                    "evidence": "Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression."
+                },
+                {
+                    "bel_statement": "bp(GO:0016055) decreases bp(GO:0006915)",
+                    "evidence": "Studies have shown that these therapies alter the apoptotic pathway, inhibiting tumour progression."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004358",
+                    "entry_name": "Drug Therapy"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D011379",
+                    "entry_name": "Prognosis"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004952",
+                    "entry_name": "disease recurrence"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:59163",
+                    "entry_name": "biomarker"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "644",
+                    "entry_name": "AR"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62913",
+                    "entry_name": "EC 2.4.2.30 (NAD(+) ADP-ribosyltransferase) inhibitor"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016430",
+                    "entry_name": "Clinical Trial"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014937",
+                    "entry_name": "Work"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019398",
+                    "entry_name": "Genes, BRCA1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009154",
+                    "entry_name": "Mutation"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004249",
+                    "entry_name": "DNA Damage"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:27899",
+                    "entry_name": "cisplatin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Notch",
+                    "entry_name": "Notch"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Hedgehog",
+                    "entry_name": "Hedgehog"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009369",
+                    "entry_name": "Neoplasms"
                 }
             ]
         },
         {
             "Index": "15",
-            "text": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval.",
+            "text": "Adjuvant chemotherapy has been shown to not only prolong disease-free survival in patients but overall survival as a whole; however, TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists. To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype. Highest response rates were noticed among those classified as basal like (85%) and HER2 positive (70%), as compared to luminal (47%, p<0.0001). Despite initial chemo sensitivity, disease free survival (p=0.04) and overall survival (p=0.02) remained poorest among those with basal like and HER2 positive tumours, compared to the luminal subtype. Although triple negative disease is highly responsive to Anthracycline/Taxane chemotherapy treatment, a high risk of relapse still remains if the tumour is not completely eradicated.",
             "Results": [
                 {
-                    "bel_statement": "a(CHEMBL:Bevacizumab) decreases bp(GOBP:angiogenesis)"
+                    "bel_statement": "path(DOID:TNBC) negativeCorrelation a(CHEBI:Doxorubicin)",
+                    "evidence": "TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:Bevacizumab) decreases path(MESHD:\"Breast Neoplasms, Metastatic\")"
+                    "bel_statement": "path(DOID:TNBC) negativeCorrelation a(CHEBI:Cyclophosphamide)",
+                    "evidence": "TNBC lacks the typical targeted receptors found in luminal or HER-2 disease and therefore cannot be treated with hormonal agents, such as SERMS, aromatise inhibitors or HER2 antagonists."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:Bevacizumab) increases bp(GOBP:\"progression-free survival\")"
+                    "bel_statement": "path(DOID:TNBC) increases bp(GO:\"chemosensitivity\")",
+                    "evidence": "To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:Paclitaxel) increases bp(GOBP:\"progression-free survival\")"
+                    "bel_statement": "a(CHEBI:Doxorubicin) increases bp(GO:\"chemosensitivity\")",
+                    "evidence": "To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype."
                 },
                 {
-                    "bel_statement": "a(CHEMBL:Bevacizumab) increases bp(GOBP:\"progression-free survival\")"
+                    "bel_statement": "a(CHEBI:Cyclophosphamide) increases bp(GO:\"chemosensitivity\")",
+                    "evidence": "To combat this issue several neoadjuvant studies have been done which accentuated the relationship between chemo sensitivity and outcome, revealing proportionally higher sensitivity to anthracycline or anthracycline/taxane-based chemotherapy such as Doxorubicin and Cyclophosphamide (standard chemotherapeutic agents), for basal like/ER negative breast cancers as compared to the luminal subtype."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D017024",
+                    "entry_name": "Chemotherapy, Adjuvant"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018572",
+                    "entry_name": "Disease-Free Survival"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000638",
+                    "entry_name": "overall survival"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020845",
+                    "entry_name": "Selective Estrogen Receptor Modulators"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:35222",
+                    "entry_name": "inhibitor"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:48706",
+                    "entry_name": "antagonist"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:48120",
+                    "entry_name": "anthracycline"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004358",
+                    "entry_name": "Drug Therapy"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28748",
+                    "entry_name": "doxorubicin"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:4027",
+                    "entry_name": "cyclophosphamide"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018572",
+                    "entry_name": "Disease-Free Survival"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000638",
+                    "entry_name": "overall survival"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3430",
+                    "entry_name": "ERBB2"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8069",
+                    "entry_name": "phenobarbital"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004358",
+                    "entry_name": "Drug Therapy"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012306",
+                    "entry_name": "Risk"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004952",
+                    "entry_name": "disease recurrence"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009369",
+                    "entry_name": "Neoplasms"
                 }
             ]
         },
         {
             "Index": "16",
-            "text": "In conclusion, TNBC is a difficult and complex disease entity that is both confusing and frustrating for researchers, physicians and patients. To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including DNA damaging agents like platinum's, targeted EGFR and VEGF inhibitors, and, PARP inhibitors; however, none have been as clinically successful as anticipated and more targeted therapies need to be developed and explored. The Wnt/b-Catenin, NOTCH and Hedgehog signaling pathways are being considered as novel therapeutic targets for TNBC.",
+            "text": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis. Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer. However, this finding warrants further investigation and currently platinum's are not recommended for the adjuvant treatment of TNBC.",
             "Results": [
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") association bp(GOBP:\"Wnt signaling pathway\")"
+                    "bel_statement": "p(HGNC:BRCA1) decreases a(CHEBI:Cisplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis."
                 },
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") association bp(GOBP:\"Notch signaling pathway\")"
+                    "bel_statement": "p(HGNC:BRCA1) decreases a(CHEBI:Carboplatin)",
+                    "evidence": "Additionally, pre-clinical and clinical studies indicate that tumours with BRCA1 dysfunction are sensitive to platinum agents such as Cisplatin, and Carboplatin which function by causing DNA damage and promote tumour cell apoptosis."
                 },
                 {
-                    "bel_statement": "path(MESHD:\"Triple Negative Breast Neoplasms\") association bp(GOBP:\"Hedgehog signaling pathway\")"
+                    "bel_statement": "p(HGNC:TP63) increases a(CHEBI:Cisplatin)",
+                    "evidence": "Studies have shown that p63, a family member of p53, is responsible for controlling a survival pathway that directly mediates Cisplatin sensitivity in TNBC; it therefore, can possibly be used as a biomarker to predict response to platinum therapy in triple negative breast cancer."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D000068397",
+                    "entry_name": "Clinical Study"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33364",
+                    "entry_name": "platinum"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:27899",
+                    "entry_name": "cisplatin"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:31355",
+                    "entry_name": "carboplatin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004249",
+                    "entry_name": "DNA Damage"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009369",
+                    "entry_name": "Neoplasms"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006915",
+                    "entry_name": "apoptotic process"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "15979",
+                    "entry_name": "TP63"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11998",
+                    "entry_name": "TP53"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0001461",
+                    "entry_name": "control"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013534",
+                    "entry_name": "Survival"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:27899",
+                    "entry_name": "cisplatin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:59163",
+                    "entry_name": "biomarker"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0070541",
+                    "entry_name": "response to platinum ion"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012816",
+                    "entry_name": "Signs and Symptoms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33364",
+                    "entry_name": "platinum"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60809",
+                    "entry_name": "adjuvant"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
                 }
             ]
         },
         {
             "Index": "17",
+            "text": "EGFR expression is approximately seen in 60% of triple negative breast tumors, thus providing a reasonable targeted treatment approach. A phase II trial evaluating the combination of Cetuximab (a chimeric monoclonal antibody targeting EGFR) and Carboplatin, weekly for 3 to 4 weeks reported a response rate of 18% and overall clinical benefit of 27% among 102 patients with advanced TNBC.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:EGFR) increases path(DOID:1612)",
+                    "evidence": "EGFR expression is approximately seen in 60% of triple negative breast tumors, thus providing a reasonable targeted treatment approach."
+                },
+                {
+                    "bel_statement": "a(CHEBI:3723) decreases p(HGNC:EGFR)",
+                    "evidence": "A phase II trial evaluating the combination of Cetuximab (a chimeric monoclonal antibody targeting EGFR) and Carboplatin, weekly for 3 to 4 weeks reported a response rate of 18% and overall clinical benefit of 27% among 102 patients with advanced TNBC."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "3236",
+                    "entry_name": "EGFR"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "4204",
+                    "entry_name": "GCNT2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000068818",
+                    "entry_name": "Cetuximab"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000911",
+                    "entry_name": "Antibodies, Monoclonal"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3236",
+                    "entry_name": "EGFR"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:31355",
+                    "entry_name": "carboplatin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016424",
+                    "entry_name": "Overall"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                }
+            ]
+        },
+        {
+            "Index": "18",
+            "text": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC. EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%. Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents. To date, the majority of data with EGFR inhibitors has generally been interpreted as negative.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:irinotecan) increases path(DOID:TNBC)",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC."
+                },
+                {
+                    "bel_statement": "a(CHEBI:carboplatin) increases path(DOID:TNBC)",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC."
+                },
+                {
+                    "bel_statement": "a(CHEBI:cetuximab) increases path(DOID:TNBC)",
+                    "evidence": "Another study evaluating the combination of Irinotecan and Carboplatin with or without Cetuximab reported response rates of 49% and 30% respectively, among 72 patients with pre-treated TNBC."
+                },
+                {
+                    "bel_statement": "a(CHEBI:panitumumab) increases path(DOID:TNBC)",
+                    "evidence": "EGFR inhibitor Panitumumab, when used in combination with standard chemotherapeutic agents for neoadjuvant therapy for inoperable TNBC was recently reported to have shown a pathological complete response rate of 65%."
+                },
+                {
+                    "bel_statement": "a(CHEBI:EGFR inhibitor) increases path(DOID:TNBC)",
+                    "evidence": "Other studies have recently demonstrated that EGFR inhibitors when used in combination with Texans or platinum's may increase the efficacy of the other agents."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:80630",
+                    "entry_name": "irinotecan"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:31355",
+                    "entry_name": "carboplatin"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000068818",
+                    "entry_name": "Cetuximab"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62434",
+                    "entry_name": "EC 2.7.10.1 (receptor protein-tyrosine kinase) inhibitor"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000077544",
+                    "entry_name": "Panitumumab"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020360",
+                    "entry_name": "Neoadjuvant Therapy"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009697",
+                    "entry_name": "pathological complete response"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62434",
+                    "entry_name": "EC 2.7.10.1 (receptor protein-tyrosine kinase) inhibitor"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33364",
+                    "entry_name": "platinum"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62434",
+                    "entry_name": "EC 2.7.10.1 (receptor protein-tyrosine kinase) inhibitor"
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "text": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks. Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition. Several PARP inhibitors Olaparib, Velaparib and PF-01367338 are currently in clinical trials and hold a promising future. The study demonstrated a statistically significant 50% reduction in the risk of death; however, phase III trials failed to show statistically significant benefit for this combination, hence, the drug has been discontinued but some biomarker analysis is still underway to determine if a specific subset of patient may benefit from the drug. This therefore highlights the need for continued research and clinical trials.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:PARP1) decreases bp(GO:\"DNA repair\")",
+                    "evidence": "PARP1, a gene that encodes an enzyme involved in the molecular events leading to cell recovery from DNA damage, when inhibited, leads to the accumulation of double-stranded DNA breaks."
+                },
+                {
+                    "bel_statement": "p(HGNC:BRCA1) increases bp(GO:\"homologous recombination\")",
+                    "evidence": "Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition."
+                },
+                {
+                    "bel_statement": "p(HGNC:BRCA2) increases bp(GO:\"homologous recombination\")",
+                    "evidence": "Cells deficient in BRCA1 and BRCA2 (required for normal homologous recombination), are exquisitely sensitive to PARP1 inhibition."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "270",
+                    "entry_name": "PARP1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004798",
+                    "entry_name": "Enzymes"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004249",
+                    "entry_name": "DNA Damage"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D053903",
+                    "entry_name": "DNA Breaks, Double-Stranded"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1101",
+                    "entry_name": "BRCA2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0035825",
+                    "entry_name": "homologous recombination"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "270",
+                    "entry_name": "PARP1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62913",
+                    "entry_name": "EC 2.4.2.30 (NAD(+) ADP-ribosyltransferase) inhibitor"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:83766",
+                    "entry_name": "olaparib"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016430",
+                    "entry_name": "Clinical Trial"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:4471",
+                    "entry_name": "dextromethorphan hydrobromide"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012306",
+                    "entry_name": "Risk"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0008219",
+                    "entry_name": "cell death"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:23888",
+                    "entry_name": "drug"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:59163",
+                    "entry_name": "biomarker"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010361",
+                    "entry_name": "Patients"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:23888",
+                    "entry_name": "drug"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012106",
+                    "entry_name": "Research"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016430",
+                    "entry_name": "Clinical Trial"
+                }
+            ]
+        },
+        {
+            "Index": "20",
+            "text": "Antiangiogenic Agents",
+            "Results": [
+                {
+                    "bel_statement": "a(MESH:\"Antiangiogenic Agents\") decreases bp(GO:angiogenesis)",
+                    "evidence": "Antiangiogenic Agents"
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:48422",
+                    "entry_name": "angiogenesis inhibitor"
+                }
+            ]
+        },
+        {
+            "Index": "21",
+            "text": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer. The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease. This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane. Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC. Additionally, several small-molecule inhibitors of the VEGF pathway appear to have activity in the subset of pre-treated triple-negative breast cancer and definitive studies showing overall survival benefit will be needed prior to re approval.",
+            "Results": [
+                {
+                    "bel_statement": "a(MESH:\"Bevacizumab\") decreases a(HGNC:VEGF)",
+                    "evidence": "The antiangiogenic agent Bevacizumab, a monoclonal antibody that targets all forms of VEGF, has been evaluated in a number of large phase III trials as treatment of metastatic breast cancer."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Bevacizumab\") increases bp(GO:\"progression-free survival\")",
+                    "evidence": "The landmark study E2100 illustrated improvement in progressionfree survival (11.8 vs. 5.9 months, HR=0.60, p<0.001) when adding Bevacizumab to Paclitaxel chemotherapy compared with single-agent Paclitaxel alone in first-line treatment of metastatic disease."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Bevacizumab\") increases bp(GO:\"progression-free survival\")",
+                    "evidence": "This subsequently led to subgroup analysis that demonstrated similar progression free survival benefits in both patients with TNBC and non-TNBC with the use of Bevacizumab plus a taxane."
+                },
+                {
+                    "bel_statement": "a(MESH:\"Bevacizumab\") increases bp(GO:\"progression-free survival\")",
+                    "evidence": "Currently, the BEATRICE trial is prospectively investigating this combination as adjuvant therapy in TNBC."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:48422",
+                    "entry_name": "angiogenesis inhibitor"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000068258",
+                    "entry_name": "Bevacizumab"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000911",
+                    "entry_name": "Antibodies, Monoclonal"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020478",
+                    "entry_name": "Form"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "VEGF",
+                    "entry_name": "VEGF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6511",
+                    "entry_name": "LARGE1"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0006852",
+                    "entry_name": "metastatic"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000077982",
+                    "entry_name": "Progression-Free Survival"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000068258",
+                    "entry_name": "Bevacizumab"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:45863",
+                    "entry_name": "paclitaxel"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004358",
+                    "entry_name": "Drug Therapy"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:45863",
+                    "entry_name": "paclitaxel"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009709",
+                    "entry_name": "metastatic neoplasm"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "34499",
+                    "entry_name": "SMIM10L2A"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000077982",
+                    "entry_name": "Progression-Free Survival"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000068258",
+                    "entry_name": "Bevacizumab"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:36064",
+                    "entry_name": "taxane"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60809",
+                    "entry_name": "adjuvant"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:35222",
+                    "entry_name": "inhibitor"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "VEGF",
+                    "entry_name": "VEGF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000638",
+                    "entry_name": "overall survival"
+                }
+            ]
+        },
+        {
+            "Index": "22",
+            "text": "In conclusion, TNBC is a difficult and complex disease entity that is both confusing and frustrating for researchers, physicians and patients. To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including DNA damaging agents like platinum's, targeted EGFR and VEGF inhibitors, and, PARP inhibitors; however, none have been as clinically successful as anticipated and more targeted therapies need to be developed and explored. The Wnt/b-Catenin, NOTCH and Hedgehog signaling pathways are being considered as novel therapeutic targets for TNBC.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:platinum) decreases path(DOID:1612)",
+                    "evidence": "To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including DNA damaging agents like platinum's."
+                },
+                {
+                    "bel_statement": "p(HGNC:EGFR) decreases path(DOID:1612)",
+                    "evidence": "To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including targeted EGFR inhibitors."
+                },
+                {
+                    "bel_statement": "p(HGNC:VEGFA) decreases path(DOID:1612)",
+                    "evidence": "To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including targeted VEGF inhibitors."
+                },
+                {
+                    "bel_statement": "p(HGNC:PARP1) decreases path(DOID:1612)",
+                    "evidence": "To date there are multiple approaches attempting to improve care of triple negative breast cancer patients, including PARP inhibitors."
+                },
+                {
+                    "bel_statement": "bp(GO:\"Wnt signaling pathway\") decreases path(DOID:1612)",
+                    "evidence": "The Wnt/b-Catenin signaling pathway is being considered as a novel therapeutic target for TNBC."
+                },
+                {
+                    "bel_statement": "bp(GO:\"Notch signaling pathway\") decreases path(DOID:1612)",
+                    "evidence": "The NOTCH signaling pathway is being considered as a novel therapeutic target for TNBC."
+                },
+                {
+                    "bel_statement": "bp(GO:\"Hedgehog signaling pathway\") decreases path(DOID:1612)",
+                    "evidence": "The Hedgehog signaling pathway is being considered as a novel therapeutic target for TNBC."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020412",
+                    "entry_name": "Multifactorial Inheritance"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012108",
+                    "entry_name": "Research Personnel"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010820",
+                    "entry_name": "Physicians"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16991",
+                    "entry_name": "deoxyribonucleic acid"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33364",
+                    "entry_name": "platinum"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3236",
+                    "entry_name": "EGFR"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "VEGF",
+                    "entry_name": "VEGF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:35222",
+                    "entry_name": "inhibitor"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62913",
+                    "entry_name": "EC 2.4.2.30 (NAD(+) ADP-ribosyltransferase) inhibitor"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Notch",
+                    "entry_name": "Notch"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007224",
+                    "entry_name": "smoothened signaling pathway"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                }
+            ]
+        },
+        {
+            "Index": "23",
             "text": "The key to developing targeted therapies for TNBC will depend on understanding the molecular mechanism for the development of these cancers. There are seminal studies by Hosey et al. and by our group (unpublished results) on the possible molecular mechanisms of BRCA1 dysfunction which could result in ER negative breast cancers. Recently Ubc9, a sole SUMO-E2-conjugating enzyme for sumoylation was found to bind BRCA1 proteins and ferry it to the nucleus unlike disease associated mutant BRCA1 proteins. Over expression of Ubc9 was observed in breast tumours and TNBC cell lines. BRCA1 function-based cellular assays have been designed to detect loss of binding to Ubc9 by BRCA1 mutants (Patent number US 8,372,580). These assays not only predict the risk for developing TNBC but may also lead to the development of targeted therapies for hereditary and sporadic TNBC.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:UBE2I) binds p(HGNC:BRCA1)"
+                    "bel_statement": "p(HGNC:UBE2I) binds p(HGNC:BRCA1)",
+                    "evidence": "Recently Ubc9, a sole SUMO-E2-conjugating enzyme for sumoylation was found to bind BRCA1 proteins and ferry it to the nucleus unlike disease associated mutant BRCA1 proteins."
+                },
+                {
+                    "bel_statement": "p(HGNC:UBE2I) increases a(HGNC:BRCA1, loc(GO:nucleus))",
+                    "evidence": "Recently Ubc9, a sole SUMO-E2-conjugating enzyme for sumoylation was found to bind BRCA1 proteins and ferry it to the nucleus unlike disease associated mutant BRCA1 proteins."
+                },
+                {
+                    "bel_statement": "p(HGNC:UBE2I) increases path(DOID:TNBC)",
+                    "evidence": "Over expression of Ubc9 was observed in breast tumours and TNBC cell lines."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032882",
+                    "entry_name": "Comprehension"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28984",
+                    "entry_name": "aluminium atom"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ESR",
+                    "entry_name": "ESR"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12485",
+                    "entry_name": "UBE2I"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004798",
+                    "entry_name": "Enzymes"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016925",
+                    "entry_name": "protein sumoylation"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005634",
+                    "entry_name": "nucleus"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004194",
+                    "entry_name": "Disease"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12485",
+                    "entry_name": "UBE2I"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001943",
+                    "entry_name": "Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12485",
+                    "entry_name": "UBE2I"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "1100",
+                    "entry_name": "BRCA1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020490",
+                    "entry_name": "Patent"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012306",
+                    "entry_name": "Risk"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0003745",
+                    "entry_name": "Sporadic"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D064726",
+                    "entry_name": "Triple Negative Breast Neoplasms"
                 }
             ]
         }

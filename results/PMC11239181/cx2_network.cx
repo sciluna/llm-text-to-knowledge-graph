@@ -1,0 +1,797 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 1,
+                "name": "networkAttributes"
+            },
+            {
+                "elementCount": 18,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 16,
+                "name": "edges"
+            },
+            {
+                "elementCount": 1,
+                "name": "visualProperties"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "id": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                },
+                "networkAttributes": {
+                    "name": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "name": "LLM Text to Knowledge Graph for publication: PMC11239181"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "DDX6",
+                    "name": "p(HGNC:DDX6)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:2747"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "MBP",
+                    "name": "r(HGNC:MBP)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:6925"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "POP2",
+                    "name": "r(HGNC:POP2)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "POP2",
+                    "name": "p(HGNC:POP2)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "AR",
+                    "name": "r(HGNC:AR)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:644"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "BMP2",
+                    "name": "r(HGNC:BMP2)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:1069"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "LGALS1",
+                    "name": "r(HGNC:LGALS1)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:6561"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "DLX5",
+                    "name": "r(HGNC:DLX5)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:2918"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "ENO2",
+                    "name": "r(HGNC:ENO2)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:3353"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "PSMB9",
+                    "name": "r(HGNC:PSMB9)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:9546"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "mRNA destabilization",
+                    "name": "bp(GO:\"mRNA destabilization\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0061157"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "AR, var(DDX6 KO",
+                    "name": "r(HGNC:AR, var(DDX6 KO)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "BMP2, var(DDX6 KO",
+                    "name": "r(HGNC:BMP2, var(DDX6 KO)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "P08659",
+                    "name": "a(UniProt:P08659)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "RPL18A",
+                    "name": "r(HGNC:RPL18A)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "RPS3A",
+                    "name": "p(HGNC:RPS3A)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:10421"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "CNOT1",
+                    "name": "p(HGNC:CNOT1)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:7877"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "TUBB",
+                    "name": "p(HGNC:TUBB)",
+                    "type": "p"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:MBP)",
+                    "text": "(A) Schematic representation of the reporters used in panels (B, D). (B) Wild-type (WT) and DDX6 KO HEK293T cells were transfected with indicated reporter plasmids. After 48 hr, cells were treated with actinomycin D (ActD) and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (C) Relative reporter mRNA levels from panel B at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (D) HEK293T cells were transfected with MBP or POP2 dominant negative mutant (POP2 DE-AA) and indicated reporter plasmids. After 48 hr, cells were treated with ActD and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative reporter mRNA levels from panel D at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the SD (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each reporter mRNA in WT and POP2 DE-AA overexpressing cells is represented as the mean +- SD.",
+                    "evidence": "Wild-type (WT) and DDX6 KO HEK293T cells were transfected with indicated reporter plasmids. After 48 hr, cells were treated with actinomycin D (ActD) and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting."
+                }
+            },
+            {
+                "id": 1,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:POP2)",
+                    "text": "(A) Schematic representation of the reporters used in panels (B, D). (B) Wild-type (WT) and DDX6 KO HEK293T cells were transfected with indicated reporter plasmids. After 48 hr, cells were treated with actinomycin D (ActD) and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (C) Relative reporter mRNA levels from panel B at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (D) HEK293T cells were transfected with MBP or POP2 dominant negative mutant (POP2 DE-AA) and indicated reporter plasmids. After 48 hr, cells were treated with ActD and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative reporter mRNA levels from panel D at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the SD (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each reporter mRNA in WT and POP2 DE-AA overexpressing cells is represented as the mean +- SD.",
+                    "evidence": "Wild-type (WT) and DDX6 KO HEK293T cells were transfected with indicated reporter plasmids. After 48 hr, cells were treated with actinomycin D (ActD) and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting."
+                }
+            },
+            {
+                "id": 2,
+                "s": 3,
+                "t": 1,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:POP2) decreases r(HGNC:MBP)",
+                    "text": "(A) Schematic representation of the reporters used in panels (B, D). (B) Wild-type (WT) and DDX6 KO HEK293T cells were transfected with indicated reporter plasmids. After 48 hr, cells were treated with actinomycin D (ActD) and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (C) Relative reporter mRNA levels from panel B at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (D) HEK293T cells were transfected with MBP or POP2 dominant negative mutant (POP2 DE-AA) and indicated reporter plasmids. After 48 hr, cells were treated with ActD and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative reporter mRNA levels from panel D at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the SD (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each reporter mRNA in WT and POP2 DE-AA overexpressing cells is represented as the mean +- SD.",
+                    "evidence": "HEK293T cells were transfected with MBP or POP2 dominant negative mutant (POP2 DE-AA) and indicated reporter plasmids. After 48 hr, cells were treated with ActD and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting."
+                }
+            },
+            {
+                "id": 3,
+                "s": 0,
+                "t": 4,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:AR)",
+                    "text": "In addition to the unexpected finding that DDX6 translationally represses a specific group of endogenous transcripts, we reasoned that we should also find potential targets of DDX6-mediated mRNA decay in the group of mRNAs that are more abundant in the absence of DDX6. Based on our previous observations that DDX6 mediates decay of inefficiently translated mRNAs, we further reasoned that we could use the ribosome profiling data to identify upregulated mRNAs with locally increased ribosome occupancy, indicative of slow elongation rates (overview Figure 3:figure supplement 2A). We manually screened the list of transcripts with logFC >1 and a statistically significant change (FDR <0.005) in the RNA-seq experiment (298 transcripts) for the presence of a local increase of ribosome footprints as measured by the coupled ribosome profiling experiment and found 35 genes that matched these criteria (Figure 3:figure supplement 2B-G and Material and methods). It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q). The repetitive nature of this sequence makes it difficult to determine whether inefficient translation elongation occurs during decoding. However, it is interesting to note that a recent preprint suggests that CAG expansions can cause altered elongation kinetics that can lead to CAG expansion diseases like Huntington's disease. Repetitive codon sequences potentially lead to ribosome stalling because of limited tRNA availability. Given the repetitive nature of the transcript, we hypothesized that AR mRNA could be a direct DDX6 target. We then used quantitative PCR (qPCR) to measure the levels of selected transcripts in WT, DDX6 KO cells, and DDX6 KO cells expressing either WT or mutant DDX6 exogenously. DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq; note that especially for AR and ENO2 the changes in mRNA abundance appear to be underestimated by the qPCR analysis compared to the RNA-seq quantification which can possibly arise due to differences in normalization strategies of the different technologies or exact sample status). The following three potential DDX6 targets were not confirmed: C1QTNF4, CALCB, and PCK1. We observed that DDX6 KO cells had higher levels of target mRNAs compared to WT HEK293T cells, as also measured by the RNA-seq experiments, and were partially restored back to WT levels by expressing exogenous DDX6. The partial rescue might be explained by uneven transfection efficiency and/or additional time required to reach base line mRNA levels. It should be noted that none of the mutant forms of DDX6 were able to restore target mRNA levels, consistent with the previous reporter experiments. All proteins were expressed at equivalent levels (Figure 3I). These results strongly suggest that DDX6 plays a direct role in the regulation of target mRNA levels in HEK293T cells.",
+                    "evidence": "It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q)."
+                }
+            },
+            {
+                "id": 4,
+                "s": 0,
+                "t": 5,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:BMP2)",
+                    "text": "In addition to the unexpected finding that DDX6 translationally represses a specific group of endogenous transcripts, we reasoned that we should also find potential targets of DDX6-mediated mRNA decay in the group of mRNAs that are more abundant in the absence of DDX6. Based on our previous observations that DDX6 mediates decay of inefficiently translated mRNAs, we further reasoned that we could use the ribosome profiling data to identify upregulated mRNAs with locally increased ribosome occupancy, indicative of slow elongation rates (overview Figure 3:figure supplement 2A). We manually screened the list of transcripts with logFC >1 and a statistically significant change (FDR <0.005) in the RNA-seq experiment (298 transcripts) for the presence of a local increase of ribosome footprints as measured by the coupled ribosome profiling experiment and found 35 genes that matched these criteria (Figure 3:figure supplement 2B-G and Material and methods). It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q). The repetitive nature of this sequence makes it difficult to determine whether inefficient translation elongation occurs during decoding. However, it is interesting to note that a recent preprint suggests that CAG expansions can cause altered elongation kinetics that can lead to CAG expansion diseases like Huntington's disease. Repetitive codon sequences potentially lead to ribosome stalling because of limited tRNA availability. Given the repetitive nature of the transcript, we hypothesized that AR mRNA could be a direct DDX6 target. We then used quantitative PCR (qPCR) to measure the levels of selected transcripts in WT, DDX6 KO cells, and DDX6 KO cells expressing either WT or mutant DDX6 exogenously. DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq; note that especially for AR and ENO2 the changes in mRNA abundance appear to be underestimated by the qPCR analysis compared to the RNA-seq quantification which can possibly arise due to differences in normalization strategies of the different technologies or exact sample status). The following three potential DDX6 targets were not confirmed: C1QTNF4, CALCB, and PCK1. We observed that DDX6 KO cells had higher levels of target mRNAs compared to WT HEK293T cells, as also measured by the RNA-seq experiments, and were partially restored back to WT levels by expressing exogenous DDX6. The partial rescue might be explained by uneven transfection efficiency and/or additional time required to reach base line mRNA levels. It should be noted that none of the mutant forms of DDX6 were able to restore target mRNA levels, consistent with the previous reporter experiments. All proteins were expressed at equivalent levels (Figure 3I). These results strongly suggest that DDX6 plays a direct role in the regulation of target mRNA levels in HEK293T cells.",
+                    "evidence": "DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq."
+                }
+            },
+            {
+                "id": 5,
+                "s": 0,
+                "t": 6,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:LGALS1)",
+                    "text": "In addition to the unexpected finding that DDX6 translationally represses a specific group of endogenous transcripts, we reasoned that we should also find potential targets of DDX6-mediated mRNA decay in the group of mRNAs that are more abundant in the absence of DDX6. Based on our previous observations that DDX6 mediates decay of inefficiently translated mRNAs, we further reasoned that we could use the ribosome profiling data to identify upregulated mRNAs with locally increased ribosome occupancy, indicative of slow elongation rates (overview Figure 3:figure supplement 2A). We manually screened the list of transcripts with logFC >1 and a statistically significant change (FDR <0.005) in the RNA-seq experiment (298 transcripts) for the presence of a local increase of ribosome footprints as measured by the coupled ribosome profiling experiment and found 35 genes that matched these criteria (Figure 3:figure supplement 2B-G and Material and methods). It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q). The repetitive nature of this sequence makes it difficult to determine whether inefficient translation elongation occurs during decoding. However, it is interesting to note that a recent preprint suggests that CAG expansions can cause altered elongation kinetics that can lead to CAG expansion diseases like Huntington's disease. Repetitive codon sequences potentially lead to ribosome stalling because of limited tRNA availability. Given the repetitive nature of the transcript, we hypothesized that AR mRNA could be a direct DDX6 target. We then used quantitative PCR (qPCR) to measure the levels of selected transcripts in WT, DDX6 KO cells, and DDX6 KO cells expressing either WT or mutant DDX6 exogenously. DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq; note that especially for AR and ENO2 the changes in mRNA abundance appear to be underestimated by the qPCR analysis compared to the RNA-seq quantification which can possibly arise due to differences in normalization strategies of the different technologies or exact sample status). The following three potential DDX6 targets were not confirmed: C1QTNF4, CALCB, and PCK1. We observed that DDX6 KO cells had higher levels of target mRNAs compared to WT HEK293T cells, as also measured by the RNA-seq experiments, and were partially restored back to WT levels by expressing exogenous DDX6. The partial rescue might be explained by uneven transfection efficiency and/or additional time required to reach base line mRNA levels. It should be noted that none of the mutant forms of DDX6 were able to restore target mRNA levels, consistent with the previous reporter experiments. All proteins were expressed at equivalent levels (Figure 3I). These results strongly suggest that DDX6 plays a direct role in the regulation of target mRNA levels in HEK293T cells.",
+                    "evidence": "DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq."
+                }
+            },
+            {
+                "id": 6,
+                "s": 0,
+                "t": 7,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:DLX5)",
+                    "text": "In addition to the unexpected finding that DDX6 translationally represses a specific group of endogenous transcripts, we reasoned that we should also find potential targets of DDX6-mediated mRNA decay in the group of mRNAs that are more abundant in the absence of DDX6. Based on our previous observations that DDX6 mediates decay of inefficiently translated mRNAs, we further reasoned that we could use the ribosome profiling data to identify upregulated mRNAs with locally increased ribosome occupancy, indicative of slow elongation rates (overview Figure 3:figure supplement 2A). We manually screened the list of transcripts with logFC >1 and a statistically significant change (FDR <0.005) in the RNA-seq experiment (298 transcripts) for the presence of a local increase of ribosome footprints as measured by the coupled ribosome profiling experiment and found 35 genes that matched these criteria (Figure 3:figure supplement 2B-G and Material and methods). It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q). The repetitive nature of this sequence makes it difficult to determine whether inefficient translation elongation occurs during decoding. However, it is interesting to note that a recent preprint suggests that CAG expansions can cause altered elongation kinetics that can lead to CAG expansion diseases like Huntington's disease. Repetitive codon sequences potentially lead to ribosome stalling because of limited tRNA availability. Given the repetitive nature of the transcript, we hypothesized that AR mRNA could be a direct DDX6 target. We then used quantitative PCR (qPCR) to measure the levels of selected transcripts in WT, DDX6 KO cells, and DDX6 KO cells expressing either WT or mutant DDX6 exogenously. DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq; note that especially for AR and ENO2 the changes in mRNA abundance appear to be underestimated by the qPCR analysis compared to the RNA-seq quantification which can possibly arise due to differences in normalization strategies of the different technologies or exact sample status). The following three potential DDX6 targets were not confirmed: C1QTNF4, CALCB, and PCK1. We observed that DDX6 KO cells had higher levels of target mRNAs compared to WT HEK293T cells, as also measured by the RNA-seq experiments, and were partially restored back to WT levels by expressing exogenous DDX6. The partial rescue might be explained by uneven transfection efficiency and/or additional time required to reach base line mRNA levels. It should be noted that none of the mutant forms of DDX6 were able to restore target mRNA levels, consistent with the previous reporter experiments. All proteins were expressed at equivalent levels (Figure 3I). These results strongly suggest that DDX6 plays a direct role in the regulation of target mRNA levels in HEK293T cells.",
+                    "evidence": "DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq."
+                }
+            },
+            {
+                "id": 7,
+                "s": 0,
+                "t": 8,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:ENO2)",
+                    "text": "In addition to the unexpected finding that DDX6 translationally represses a specific group of endogenous transcripts, we reasoned that we should also find potential targets of DDX6-mediated mRNA decay in the group of mRNAs that are more abundant in the absence of DDX6. Based on our previous observations that DDX6 mediates decay of inefficiently translated mRNAs, we further reasoned that we could use the ribosome profiling data to identify upregulated mRNAs with locally increased ribosome occupancy, indicative of slow elongation rates (overview Figure 3:figure supplement 2A). We manually screened the list of transcripts with logFC >1 and a statistically significant change (FDR <0.005) in the RNA-seq experiment (298 transcripts) for the presence of a local increase of ribosome footprints as measured by the coupled ribosome profiling experiment and found 35 genes that matched these criteria (Figure 3:figure supplement 2B-G and Material and methods). It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q). The repetitive nature of this sequence makes it difficult to determine whether inefficient translation elongation occurs during decoding. However, it is interesting to note that a recent preprint suggests that CAG expansions can cause altered elongation kinetics that can lead to CAG expansion diseases like Huntington's disease. Repetitive codon sequences potentially lead to ribosome stalling because of limited tRNA availability. Given the repetitive nature of the transcript, we hypothesized that AR mRNA could be a direct DDX6 target. We then used quantitative PCR (qPCR) to measure the levels of selected transcripts in WT, DDX6 KO cells, and DDX6 KO cells expressing either WT or mutant DDX6 exogenously. DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq; note that especially for AR and ENO2 the changes in mRNA abundance appear to be underestimated by the qPCR analysis compared to the RNA-seq quantification which can possibly arise due to differences in normalization strategies of the different technologies or exact sample status). The following three potential DDX6 targets were not confirmed: C1QTNF4, CALCB, and PCK1. We observed that DDX6 KO cells had higher levels of target mRNAs compared to WT HEK293T cells, as also measured by the RNA-seq experiments, and were partially restored back to WT levels by expressing exogenous DDX6. The partial rescue might be explained by uneven transfection efficiency and/or additional time required to reach base line mRNA levels. It should be noted that none of the mutant forms of DDX6 were able to restore target mRNA levels, consistent with the previous reporter experiments. All proteins were expressed at equivalent levels (Figure 3I). These results strongly suggest that DDX6 plays a direct role in the regulation of target mRNA levels in HEK293T cells.",
+                    "evidence": "DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq."
+                }
+            },
+            {
+                "id": 8,
+                "s": 0,
+                "t": 9,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:DDX6) decreases r(HGNC:PSMB9)",
+                    "text": "In addition to the unexpected finding that DDX6 translationally represses a specific group of endogenous transcripts, we reasoned that we should also find potential targets of DDX6-mediated mRNA decay in the group of mRNAs that are more abundant in the absence of DDX6. Based on our previous observations that DDX6 mediates decay of inefficiently translated mRNAs, we further reasoned that we could use the ribosome profiling data to identify upregulated mRNAs with locally increased ribosome occupancy, indicative of slow elongation rates (overview Figure 3:figure supplement 2A). We manually screened the list of transcripts with logFC >1 and a statistically significant change (FDR <0.005) in the RNA-seq experiment (298 transcripts) for the presence of a local increase of ribosome footprints as measured by the coupled ribosome profiling experiment and found 35 genes that matched these criteria (Figure 3:figure supplement 2B-G and Material and methods). It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q). The repetitive nature of this sequence makes it difficult to determine whether inefficient translation elongation occurs during decoding. However, it is interesting to note that a recent preprint suggests that CAG expansions can cause altered elongation kinetics that can lead to CAG expansion diseases like Huntington's disease. Repetitive codon sequences potentially lead to ribosome stalling because of limited tRNA availability. Given the repetitive nature of the transcript, we hypothesized that AR mRNA could be a direct DDX6 target. We then used quantitative PCR (qPCR) to measure the levels of selected transcripts in WT, DDX6 KO cells, and DDX6 KO cells expressing either WT or mutant DDX6 exogenously. DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq; note that especially for AR and ENO2 the changes in mRNA abundance appear to be underestimated by the qPCR analysis compared to the RNA-seq quantification which can possibly arise due to differences in normalization strategies of the different technologies or exact sample status). The following three potential DDX6 targets were not confirmed: C1QTNF4, CALCB, and PCK1. We observed that DDX6 KO cells had higher levels of target mRNAs compared to WT HEK293T cells, as also measured by the RNA-seq experiments, and were partially restored back to WT levels by expressing exogenous DDX6. The partial rescue might be explained by uneven transfection efficiency and/or additional time required to reach base line mRNA levels. It should be noted that none of the mutant forms of DDX6 were able to restore target mRNA levels, consistent with the previous reporter experiments. All proteins were expressed at equivalent levels (Figure 3I). These results strongly suggest that DDX6 plays a direct role in the regulation of target mRNA levels in HEK293T cells.",
+                    "evidence": "DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq."
+                }
+            },
+            {
+                "id": 9,
+                "s": 0,
+                "t": 10,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:DDX6) increases bp(GO:\"mRNA destabilization\")",
+                    "text": "To test whether the identified translational pause sites in some of the endogenous DDX6-targeted mRNAs contribute to mRNA destabilization, we created different reporter constructs in which the putative ribosomal stalling region (RSR) was inserted downstream of the Renilla luciferase open reading frame, either preceding or following a stop-codon; R-LUC-RSR and R-LUC-stop-RSR, respectively (Figure 4A). These constructs were designed to differentiate translation-dependent regulation from translation-independent effects, triggered for example by binding of trans-regulatory factors (e.g. RNA-binding proteins or miRNAs) to the introduced sequence. We tested two of the sequences identified in our screen for DDX6-destabilized mRNAs: first, a stretch containing 23 'CAG' codon repeats (encoding 23 x Q) mimicking the X-chromosome encoded AR gene. For the second sequence, we chose a 30 nt stretch of the bone morphogenetic protein 2 (BMP2) gene encoded on chromosome 20, which codes for a sequence of basic amino acids (QRKRLKSSCK). Polybasic amino acid stretches and prolines have been reported to cause ribosome stalling. Since the sequence immediately adjacent to the actual stall site also contained several lysine, arginine, and proline codons, we cloned the stalling sequence with 100 nt upstream and downstream flanking regions to include all potential contributing regulatory elements in the reporter constructs. We then measured the half-lives of the reporter constructs when transfected into HEK293T cells. For this, reporter mRNA was quantified by northern blot at different time points after transcription was blocked using actinomycin D. As expected, the presence of the AR stalling sequence before the stop-codon strongly reduced the mRNA half-life compared to the control mRNA where the stop-codon precedes the stalling sequence (Figure 4B and C). The same was true for the BMP2 stalling sequence: the presence of the stalling sequence was associated with a strong translation-dependent reduction in mRNA half-life (4.0+-1.9 hr compared to >10 hr in the control vector) (Figure 4D and E). To test whether the observed reduction in reporter mRNA stability containing endogenous ribosomal stalling sites was dependent on DDX6, we also performed the half-life measurements in HEK293T DDX6 KO cells, and observed that the R-LUC-stop and R-LUC constructs for both AR and BMP2 stalling sequences had similar half-lives (Figure 4B-E). These results, therefore, confirm that DDX6 is required to trigger the co-translational mRNA decay induced by these sequences.",
+                    "evidence": "These results, therefore, confirm that DDX6 is required to trigger the co-translational mRNA decay induced by these sequences."
+                }
+            },
+            {
+                "id": 10,
+                "s": 4,
+                "t": 11,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "r(HGNC:AR) decreases r(HGNC:AR, var(DDX6 KO)",
+                    "text": "(A) Schematic representation of the reporters used in panels (B, C). (B) Representative northern blots showing the decay of androgen receptor (AR) reporter mRNAs in HEK293T wild-type (WT) or DDX6 KO cells. Cells were transfected with indicated reporter plasmids and monitored after the inhibition of transcription using actinomycin D (ActD) for the indicated time. 18 S rRNA ethidium bromide staining shows equal loading. (C) Relative reporter mRNA levels from panel B at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (D) Representative northern blots showing the decay of BMP2 reporter mRNAs in HEK293T WT or DDX6 KO cells. Cells were transfected with indicated reporter plasmids and monitored after the inhibition of transcription using ActD for the indicated time. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative reporter mRNA levels from panel D at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (F) HEK293T cells were transfected with indicated R-LUC reporters containing 6xMS2 binding sites, HA-tagged RPL22, and SBP-tagged MBP-MS2 plasmids. RNA bound to V5-SBP-MBP-MS2 was immunoprecipitated with Streptavidin beads. The presence of HA-tagged RPL22 in the immunoprecipitates was determined by western blotting. V5-SBP-MBP-MS2 protein level and RT-PCR of R-LUC reporter RNA levels served as a loading control.",
+                    "evidence": "Representative northern blots showing the decay of androgen receptor (AR) reporter mRNAs in HEK293T wild-type (WT) or DDX6 KO cells."
+                }
+            },
+            {
+                "id": 11,
+                "s": 5,
+                "t": 12,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "r(HGNC:BMP2) decreases r(HGNC:BMP2, var(DDX6 KO)",
+                    "text": "(A) Schematic representation of the reporters used in panels (B, C). (B) Representative northern blots showing the decay of androgen receptor (AR) reporter mRNAs in HEK293T wild-type (WT) or DDX6 KO cells. Cells were transfected with indicated reporter plasmids and monitored after the inhibition of transcription using actinomycin D (ActD) for the indicated time. 18 S rRNA ethidium bromide staining shows equal loading. (C) Relative reporter mRNA levels from panel B at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (D) Representative northern blots showing the decay of BMP2 reporter mRNAs in HEK293T WT or DDX6 KO cells. Cells were transfected with indicated reporter plasmids and monitored after the inhibition of transcription using ActD for the indicated time. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative reporter mRNA levels from panel D at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (F) HEK293T cells were transfected with indicated R-LUC reporters containing 6xMS2 binding sites, HA-tagged RPL22, and SBP-tagged MBP-MS2 plasmids. RNA bound to V5-SBP-MBP-MS2 was immunoprecipitated with Streptavidin beads. The presence of HA-tagged RPL22 in the immunoprecipitates was determined by western blotting. V5-SBP-MBP-MS2 protein level and RT-PCR of R-LUC reporter RNA levels served as a loading control.",
+                    "evidence": "Representative northern blots showing the decay of BMP2 reporter mRNAs in HEK293T WT or DDX6 KO cells."
+                }
+            },
+            {
+                "id": 12,
+                "s": 13,
+                "t": 14,
+                "v": {
+                    "interaction": "transcribedTo",
+                    "bel_expression": "a(UniProt:P08659) transcribedTo r(HGNC:RPL18A)",
+                    "text": "For mRNA half-life measurements, HEK293T wild-type, or DDX6 KO cells were seeded in six-well plates and transfected with 0.5 microg of the indicated Renilla luciferase (R-LUC) reporter plasmid. 48 hr after transfection, the R-LUC reporter mRNA level was monitored following inhibition of transcription by actinomycin D. For tethering assays, HEK293T wild-type, or DDX6 KO cells were seeded in six-well plates and transfected with 0.25 microg of the indicated R-LUC reporter plasmid containing 5xBoxB (R-LUC-5BoxB) and 0.25 mug Firefly luciferase (F-LUC) plasmid as transfection control, and 1 mug plasmids expressing the lambdaN-HA peptide or lambdaN-HA-CNOT3. For total RNA isolation, cells were resuspended in TRIzol (Thermo Fisher), and RNA was isolated using Phenol:Chloroform: Isoamyl alcohol (PanReac). For northern blotting, 10 microg RNA samples were separated on 2% glyoxal agarose gels and transferred onto nylon membranes (GeneScreen Plus, Perkin Elmer). Complementary [32P]-labeled probes were synthesized by linear PCR and hybridized at 65  C overnight in hybridization solution (0.5 M NaP pH = 7.0, 7% SDS, 1 mM EDTA pH = 8.0). After repeated washing in washing solution (0.5 M NaP pH = 7.0, 1% SDS, 1 mM EDTA pH = 8.0), membranes were scanned and quantified using the Typhoon phosphorimager (GE Healthcare). R-LUC reporter mRNA levels were then normalized to 18 S rRNA and plotted against time. mRNA half-lives (t1/2) +- standard deviations were calculated from the decay curves.",
+                    "evidence": "R-LUC reporter mRNA levels were then normalized to 18 S rRNA and plotted against time."
+                }
+            },
+            {
+                "id": 13,
+                "s": 15,
+                "t": 16,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:RPS3A) association p(HGNC:CNOT1)",
+                    "text": "HEK293T cells were grown in 10 cm dishes and transfected using Lipofectamine 2000 (Invitrogen). The transfection mixtures contained 10 mug of GFP- and HA-tagged constructs. HEK293T cells were harvested 48 hr after transfection in NET buffer (50 mM Tris, pH = 7.4, 1 mM EDTA, 150 mM NaCl, 0.1% Triton X-100) supplemented with 10% glycerol and protease inhibitors (Complete Protease Inhibitor Mix, Roche). Cell lysates were cleared by centrifugation at 18,000 g for 15 min and input samples were collected for western blotting. Co-immunoprecipitation experiments were performed in the presence of 1.5 U/microl RNase I (Ambion). Lysates were first incubated with 5 microl anti-GFP antibody (in-house) for 1 hr rotating at 4  C and subsequently mixed with 50 microl protein G-agarose (50% slurry, Roche) and incubated for 1 hr rotating at 4  C. After repeated washing in NET buffer, proteins were eluted with 2 x protein sample buffer and analyzed by SDS-PAGE. For western blotting, proteins were transferred onto nitrocellulose membranes (Santa Cruz) via tank transfer and developed with freshly mixed solutionA:solutionB (10:1) and 0.01% H2O2 [SolutionA: 0.025% Luminol (Roth) in 0.1  M Tris-HCl pH  = 8.6; SolutionB: 0.11% P-Coumaric acid (Sigma Aldrich) in DMSO]. HA- and GFP-tagged proteins were detected using horseradish peroxidase-conjugated monoclonal anti-HA (Roche, 3F10, 1:5,000) and anti-GFP (Roche, 11814460001, 1:2,000), respectively. Endogenous human RPS3A was detected using a polyclonal anti-RPS3A antibody (abcam, ab264368, 1:1,000), CNOT1 was detected using a rabbit anti-CNOT1 antibody (in-house, 1:1,000), DDX6 was detected using a rabbit polyclonal anti-DDX6 antibody (Bethyl, A300-461Z, 1:1000), Tubulin was detected using a mouse monoclonal anti-Tubulin antibody (Sigma Aldrich, T6199, 1:3000), and V5-SBP-MBP-MS2 was detected using a mouse monoclonal anti-V5 antibody BioRad, MCA1360GA, 1:5000.",
+                    "evidence": "Endogenous human RPS3A was detected using a polyclonal anti-RPS3A antibody (abcam, ab264368, 1:1,000), CNOT1 was detected using a rabbit anti-CNOT1 antibody (in-house, 1:1,000)."
+                }
+            },
+            {
+                "id": 14,
+                "s": 15,
+                "t": 0,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:RPS3A) association p(HGNC:DDX6)",
+                    "text": "HEK293T cells were grown in 10 cm dishes and transfected using Lipofectamine 2000 (Invitrogen). The transfection mixtures contained 10 mug of GFP- and HA-tagged constructs. HEK293T cells were harvested 48 hr after transfection in NET buffer (50 mM Tris, pH = 7.4, 1 mM EDTA, 150 mM NaCl, 0.1% Triton X-100) supplemented with 10% glycerol and protease inhibitors (Complete Protease Inhibitor Mix, Roche). Cell lysates were cleared by centrifugation at 18,000 g for 15 min and input samples were collected for western blotting. Co-immunoprecipitation experiments were performed in the presence of 1.5 U/microl RNase I (Ambion). Lysates were first incubated with 5 microl anti-GFP antibody (in-house) for 1 hr rotating at 4  C and subsequently mixed with 50 microl protein G-agarose (50% slurry, Roche) and incubated for 1 hr rotating at 4  C. After repeated washing in NET buffer, proteins were eluted with 2 x protein sample buffer and analyzed by SDS-PAGE. For western blotting, proteins were transferred onto nitrocellulose membranes (Santa Cruz) via tank transfer and developed with freshly mixed solutionA:solutionB (10:1) and 0.01% H2O2 [SolutionA: 0.025% Luminol (Roth) in 0.1  M Tris-HCl pH  = 8.6; SolutionB: 0.11% P-Coumaric acid (Sigma Aldrich) in DMSO]. HA- and GFP-tagged proteins were detected using horseradish peroxidase-conjugated monoclonal anti-HA (Roche, 3F10, 1:5,000) and anti-GFP (Roche, 11814460001, 1:2,000), respectively. Endogenous human RPS3A was detected using a polyclonal anti-RPS3A antibody (abcam, ab264368, 1:1,000), CNOT1 was detected using a rabbit anti-CNOT1 antibody (in-house, 1:1,000), DDX6 was detected using a rabbit polyclonal anti-DDX6 antibody (Bethyl, A300-461Z, 1:1000), Tubulin was detected using a mouse monoclonal anti-Tubulin antibody (Sigma Aldrich, T6199, 1:3000), and V5-SBP-MBP-MS2 was detected using a mouse monoclonal anti-V5 antibody BioRad, MCA1360GA, 1:5000.",
+                    "evidence": "Endogenous human RPS3A was detected using a polyclonal anti-RPS3A antibody (abcam, ab264368, 1:1,000), DDX6 was detected using a rabbit polyclonal anti-DDX6 antibody (Bethyl, A300-461Z, 1:1000)."
+                }
+            },
+            {
+                "id": 15,
+                "s": 15,
+                "t": 17,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "p(HGNC:RPS3A) association p(HGNC:TUBB)",
+                    "text": "HEK293T cells were grown in 10 cm dishes and transfected using Lipofectamine 2000 (Invitrogen). The transfection mixtures contained 10 mug of GFP- and HA-tagged constructs. HEK293T cells were harvested 48 hr after transfection in NET buffer (50 mM Tris, pH = 7.4, 1 mM EDTA, 150 mM NaCl, 0.1% Triton X-100) supplemented with 10% glycerol and protease inhibitors (Complete Protease Inhibitor Mix, Roche). Cell lysates were cleared by centrifugation at 18,000 g for 15 min and input samples were collected for western blotting. Co-immunoprecipitation experiments were performed in the presence of 1.5 U/microl RNase I (Ambion). Lysates were first incubated with 5 microl anti-GFP antibody (in-house) for 1 hr rotating at 4  C and subsequently mixed with 50 microl protein G-agarose (50% slurry, Roche) and incubated for 1 hr rotating at 4  C. After repeated washing in NET buffer, proteins were eluted with 2 x protein sample buffer and analyzed by SDS-PAGE. For western blotting, proteins were transferred onto nitrocellulose membranes (Santa Cruz) via tank transfer and developed with freshly mixed solutionA:solutionB (10:1) and 0.01% H2O2 [SolutionA: 0.025% Luminol (Roth) in 0.1  M Tris-HCl pH  = 8.6; SolutionB: 0.11% P-Coumaric acid (Sigma Aldrich) in DMSO]. HA- and GFP-tagged proteins were detected using horseradish peroxidase-conjugated monoclonal anti-HA (Roche, 3F10, 1:5,000) and anti-GFP (Roche, 11814460001, 1:2,000), respectively. Endogenous human RPS3A was detected using a polyclonal anti-RPS3A antibody (abcam, ab264368, 1:1,000), CNOT1 was detected using a rabbit anti-CNOT1 antibody (in-house, 1:1,000), DDX6 was detected using a rabbit polyclonal anti-DDX6 antibody (Bethyl, A300-461Z, 1:1000), Tubulin was detected using a mouse monoclonal anti-Tubulin antibody (Sigma Aldrich, T6199, 1:3000), and V5-SBP-MBP-MS2 was detected using a mouse monoclonal anti-V5 antibody BioRad, MCA1360GA, 1:5000.",
+                    "evidence": "Endogenous human RPS3A was detected using a polyclonal anti-RPS3A antibody (abcam, ab264368, 1:1,000), Tubulin was detected using a mouse monoclonal anti-Tubulin antibody (Sigma Aldrich, T6199, 1:3000)."
+                }
+            }
+        ]
+    },
+    {
+        "visualProperties": [
+            {
+                "default": {
+                    "edge": {
+                        "EDGE_SOURCE_ARROW_SIZE": 6.0,
+                        "EDGE_SOURCE_ARROW_SELECTED_PAINT": "#FFFF00",
+                        "EDGE_LABEL_OPACITY": 1.0,
+                        "EDGE_TARGET_ARROW_SELECTED_PAINT": "#FFFF00",
+                        "EDGE_TARGET_ARROW_SHAPE": "triangle",
+                        "EDGE_LABEL_BACKGROUND_OPACITY": 1.0,
+                        "EDGE_LABEL_POSITION": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "EDGE_ANCHOR": "C",
+                            "LABEL_ANCHOR": "C"
+                        },
+                        "EDGE_Z_ORDER": 0.0,
+                        "EDGE_LABEL_MAX_WIDTH": 200.0,
+                        "EDGE_LABEL_BACKGROUND_COLOR": "#B6B6B6",
+                        "EDGE_LABEL_ROTATION": 0.0,
+                        "EDGE_VISIBILITY": "element",
+                        "EDGE_LABEL_FONT_SIZE": 10,
+                        "EDGE_LABEL_COLOR": "#000000",
+                        "EDGE_SELECTED_PAINT": "#FF0000",
+                        "EDGE_SELECTED": "false",
+                        "EDGE_STACKING_DENSITY": 0.5,
+                        "EDGE_SOURCE_ARROW_COLOR": "#404040",
+                        "EDGE_TARGET_ARROW_COLOR": "#404040",
+                        "EDGE_STROKE_SELECTED_PAINT": "#FF0000",
+                        "EDGE_WIDTH": 7.0,
+                        "EDGE_SOURCE_ARROW_SHAPE": "none",
+                        "EDGE_LINE_COLOR": "#404040",
+                        "EDGE_OPACITY": 1.0,
+                        "EDGE_LABEL_BACKGROUND_SHAPE": "NONE",
+                        "EDGE_LABEL_FONT_FACE": {
+                            "FONT_FAMILY": "sans-serif",
+                            "FONT_STYLE": "normal",
+                            "FONT_WEIGHT": "normal",
+                            "FONT_NAME": "Dialog"
+                        },
+                        "EDGE_STACKING": "AUTO_BEND",
+                        "EDGE_LABEL_AUTOROTATE": false,
+                        "EDGE_LINE_STYLE": "solid",
+                        "EDGE_CURVED": true,
+                        "EDGE_TARGET_ARROW_SIZE": 6.0
+                    },
+                    "network": {
+                        "NETWORK_BACKGROUND_COLOR": "#FFFFFF"
+                    },
+                    "node": {
+                        "NODE_Y_LOCATION": 0.0,
+                        "NODE_BACKGROUND_COLOR": "#89D0F5",
+                        "NODE_LABEL_BACKGROUND_COLOR": "#B6B6B6",
+                        "NODE_WIDTH": 35.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_7": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_6": 50.0,
+                        "COMPOUND_NODE_SHAPE": "ROUND_RECTANGLE",
+                        "NODE_Z_LOCATION": 0.0,
+                        "NODE_LABEL_POSITION": {
+                            "HORIZONTAL_ALIGN": "center",
+                            "VERTICAL_ALIGN": "center",
+                            "HORIZONTAL_ANCHOR": "center",
+                            "VERTICAL_ANCHOR": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "JUSTIFICATION": "center"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_5": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_4": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_3": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_2": 50.0,
+                        "NODE_VISIBILITY": "element",
+                        "NODE_CUSTOMGRAPHICS_SIZE_1": 50.0,
+                        "NODE_BORDER_STYLE": "solid",
+                        "NODE_BACKGROUND_OPACITY": 1.0,
+                        "NODE_LABEL_COLOR": "#252525",
+                        "NODE_SELECTED": false,
+                        "NODE_BORDER_COLOR": "#CCCCCC",
+                        "NODE_CUSTOMGRAPHICS_POSITION_8": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_9": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_SHAPE": "ellipse",
+                        "NODE_CUSTOMGRAPHICS_POSITION_4": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_5": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_6": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_7": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_LABEL_FONT_SIZE": 12,
+                        "NODE_X_LOCATION": 0.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_1": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_BORDER_OPACITY": 1.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_2": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_9": 50.0,
+                        "NODE_LABEL_ROTATION": 0.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_3": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_8": 50.0,
+                        "NODE_BORDER_WIDTH": 0.0,
+                        "NODE_LABEL_OPACITY": 1.0,
+                        "NODE_HEIGHT": 35.0,
+                        "NODE_LABEL_BACKGROUND_SHAPE": "NONE",
+                        "COMPOUND_NODE_PADDING": "10.0",
+                        "NODE_LABEL_BACKGROUND_OPACITY": 1.0,
+                        "NODE_LABEL_FONT_FACE": {
+                            "FONT_FAMILY": "sans-serif",
+                            "FONT_STYLE": "normal",
+                            "FONT_WEIGHT": "normal",
+                            "FONT_NAME": "SansSerif"
+                        },
+                        "NODE_SELECTED_PAINT": "#FFFF00",
+                        "NODE_LABEL_MAX_WIDTH": 200.0
+                    }
+                },
+                "edgeMapping": {
+                    "EDGE_TARGET_ARROW_SHAPE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "none"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "tee"
+                                },
+                                {
+                                    "v": "association",
+                                    "vp": "none"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "tee"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LABEL": {
+                        "type": "PASSTHROUGH",
+                        "definition": {
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LINE_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_SOURCE_ARROW_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_TARGET_ARROW_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LINE_STYLE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "dashed"
+                                },
+                                {
+                                    "v": "association",
+                                    "vp": "dotted"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "solid"
+                                },
+                                {
+                                    "v": "directlyIncreases",
+                                    "vp": "solid"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    }
+                },
+                "nodeMapping": {
+                    "NODE_BORDER_WIDTH": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "complex",
+                                    "vp": 10.0
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_LABEL": {
+                        "type": "PASSTHROUGH",
+                        "definition": {
+                            "attribute": "label",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_LABEL_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_BORDER_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "complex",
+                                    "vp": "#238B45"
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_SHAPE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "a",
+                                    "vp": "rectangle"
+                                },
+                                {
+                                    "v": "act",
+                                    "vp": "diamond"
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

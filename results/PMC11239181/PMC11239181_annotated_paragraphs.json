@@ -1,0 +1,1927 @@
+{
+    "0": {
+        "text": "(A) Schematic representation of the reporters used in panels (B, D). (B) Wild-type (WT) and DDX6 KO HEK293T cells were transfected with indicated reporter plasmids. After 48 hr, cells were treated with actinomycin D (ActD) and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (C) Relative reporter mRNA levels from panel B at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (D) HEK293T cells were transfected with MBP or POP2 dominant negative mutant (POP2 DE-AA) and indicated reporter plasmids. After 48 hr, cells were treated with ActD and harvested at the indicated time points. Reporter mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative reporter mRNA levels from panel D at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the SD (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each reporter mRNA in WT and POP2 DE-AA overexpressing cells is represented as the mean +- SD.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D015152",
+                "entry_name": "Blotting, Northern"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18111",
+                "entry_name": "ribosomal RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:4883",
+                "entry_name": "ethidium bromide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            },
+            {
+                "db": "HGNC",
+                "id": "6210",
+                "entry_name": "CD82"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "6925",
+                "entry_name": "MBP"
+            },
+            {
+                "db": "HGNC",
+                "id": "9207",
+                "entry_name": "CNOT8"
+            },
+            {
+                "db": "HGNC",
+                "id": "9207",
+                "entry_name": "CNOT8"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D015152",
+                "entry_name": "Blotting, Northern"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18111",
+                "entry_name": "ribosomal RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:4883",
+                "entry_name": "ethidium bromide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            },
+            {
+                "db": "HGNC",
+                "id": "6210",
+                "entry_name": "CD82"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "9207",
+                "entry_name": "CNOT8"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            }
+        ]
+    },
+    "1": {
+        "text": "(A) The interaction between the recombinant NusA-Strep-DDX6 and purified human ribosomal proteins was analyzed by SDS-PAGE and stained with Coomassie blue. Input lysate (1%) and bound fractions (20%) were loaded. (B) Western blot showing the interaction between GFP-tagged DDX6 full-length/N-ter/C-ter with HA-tagged RPL22 and endogenous RPS3A in human HEK293T cells. GFP-tagged MBP served as a negative control. For the GFP-tagged proteins, the HA-tagged RPL22, and the endogenous RPS3A, 1% of the input and 20% of the immunoprecipitate were loaded. N-ter: N-terminus; C-ter: C-terminus. (C) Immunoprecipitation assay showing the interaction of GFP-tagged DDX6 (wild-type or the indicated mutants) with HA-tagged RPL22 or endogenous CNOT1 in HEK293T cells. Samples were analyzed as described in B. (D) DDX6 KO HEK293T cells were transfected with the control Renilla luciferase (R-LUC) reporter or a reporter containing 30 x rare codons and GFP-tagged DDX6 wild-type or mutants. After treating cells with ActD for 8 hr R-LUC mRNA levels were analyzed by northern blotting. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative control reporter mRNA levels from panel D were defined as 100%. Relative 30 x rare codon reporter mRNA levels were plotted. Bars represent the mean value and error bars the standard deviation (n=3). (F) Immunoblot illustrating the expression of proteins used in the assay shown in panel D.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "MESH",
+                "id": "D012269",
+                "entry_name": "Ribosomal Proteins"
+            },
+            {
+                "db": "EFO",
+                "id": "0010936",
+                "entry_name": "SDS-PAGE"
+            },
+            {
+                "db": "MESH",
+                "id": "C048139",
+                "entry_name": "Coomassie blue"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "10315",
+                "entry_name": "RPL22"
+            },
+            {
+                "db": "HGNC",
+                "id": "10421",
+                "entry_name": "RPS3A"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "6925",
+                "entry_name": "MBP"
+            },
+            {
+                "db": "HGNC",
+                "id": "10315",
+                "entry_name": "RPL22"
+            },
+            {
+                "db": "HGNC",
+                "id": "10421",
+                "entry_name": "RPS3A"
+            },
+            {
+                "db": "EFO",
+                "id": "0000541",
+                "entry_name": "immunoprecipitate"
+            },
+            {
+                "db": "MESH",
+                "id": "D047468",
+                "entry_name": "Immunoprecipitation"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "10315",
+                "entry_name": "RPL22"
+            },
+            {
+                "db": "HGNC",
+                "id": "7877",
+                "entry_name": "CNOT1"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "MESH",
+                "id": "D049410",
+                "entry_name": "Luciferases, Renilla"
+            },
+            {
+                "db": "MESH",
+                "id": "D003062",
+                "entry_name": "Codon"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D015152",
+                "entry_name": "Blotting, Northern"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18111",
+                "entry_name": "ribosomal RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:4883",
+                "entry_name": "ethidium bromide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D003062",
+                "entry_name": "Codon"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            }
+        ]
+    },
+    "2": {
+        "text": "In addition to the unexpected finding that DDX6 translationally represses a specific group of endogenous transcripts, we reasoned that we should also find potential targets of DDX6-mediated mRNA decay in the group of mRNAs that are more abundant in the absence of DDX6. Based on our previous observations that DDX6 mediates decay of inefficiently translated mRNAs, we further reasoned that we could use the ribosome profiling data to identify upregulated mRNAs with locally increased ribosome occupancy, indicative of slow elongation rates (overview Figure 3:figure supplement 2A). We manually screened the list of transcripts with logFC >1 and a statistically significant change (FDR <0.005) in the RNA-seq experiment (298 transcripts) for the presence of a local increase of ribosome footprints as measured by the coupled ribosome profiling experiment and found 35 genes that matched these criteria (Figure 3:figure supplement 2B-G and Material and methods). It is worth mentioning that one of the most highly upregulated mRNAs in DDX6 KO cells is the androgen receptor (AR) transcript containing CAG repeats, coding for a stretch of glutamine repeats (poly Q). The repetitive nature of this sequence makes it difficult to determine whether inefficient translation elongation occurs during decoding. However, it is interesting to note that a recent preprint suggests that CAG expansions can cause altered elongation kinetics that can lead to CAG expansion diseases like Huntington's disease. Repetitive codon sequences potentially lead to ribosome stalling because of limited tRNA availability. Given the repetitive nature of the transcript, we hypothesized that AR mRNA could be a direct DDX6 target. We then used quantitative PCR (qPCR) to measure the levels of selected transcripts in WT, DDX6 KO cells, and DDX6 KO cells expressing either WT or mutant DDX6 exogenously. DDX6 dependency was detected in 6 of the 9 tested mRNAs (Figure 3H and Figure 3:figure supplement 3A AR, BMP2, LGALS1, DLX5, ENO2, PSMB9; see also changes in mRNA abundance as determined by RNA-seq; note that especially for AR and ENO2 the changes in mRNA abundance appear to be underestimated by the qPCR analysis compared to the RNA-seq quantification which can possibly arise due to differences in normalization strategies of the different technologies or exact sample status). The following three potential DDX6 targets were not confirmed: C1QTNF4, CALCB, and PCK1. We observed that DDX6 KO cells had higher levels of target mRNAs compared to WT HEK293T cells, as also measured by the RNA-seq experiments, and were partially restored back to WT levels by expressing exogenous DDX6. The partial rescue might be explained by uneven transfection efficiency and/or additional time required to reach base line mRNA levels. It should be noted that none of the mutant forms of DDX6 were able to restore target mRNA levels, consistent with the previous reporter experiments. All proteins were expressed at equivalent levels (Figure 3I). These results strongly suggest that DDX6 plays a direct role in the regulation of target mRNA levels in HEK293T cells.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D012816",
+                "entry_name": "Signs and Symptoms"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "18549",
+                "entry_name": "DCSTAMP"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006402",
+                "entry_name": "mRNA catabolic process"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "MESH",
+                "id": "D000094506",
+                "entry_name": "Ribosome Profiling"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005840",
+                "entry_name": "ribosome"
+            },
+            {
+                "db": "MESH",
+                "id": "D000081246",
+                "entry_name": "RNA-Seq"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005840",
+                "entry_name": "ribosome"
+            },
+            {
+                "db": "MESH",
+                "id": "D000094506",
+                "entry_name": "Ribosome Profiling"
+            },
+            {
+                "db": "MESH",
+                "id": "D008722",
+                "entry_name": "Methods"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:28300",
+                "entry_name": "glutamine"
+            },
+            {
+                "db": "MESH",
+                "id": "D019368",
+                "entry_name": "Nature"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006414",
+                "entry_name": "translational elongation"
+            },
+            {
+                "db": "MESH",
+                "id": "D000076942",
+                "entry_name": "Preprint"
+            },
+            {
+                "db": "MESH",
+                "id": "D007700",
+                "entry_name": "Kinetics"
+            },
+            {
+                "db": "MESH",
+                "id": "D004194",
+                "entry_name": "Disease"
+            },
+            {
+                "db": "MESH",
+                "id": "D006816",
+                "entry_name": "Huntington Disease"
+            },
+            {
+                "db": "MESH",
+                "id": "D003062",
+                "entry_name": "Codon"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005840",
+                "entry_name": "ribosome"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:17843",
+                "entry_name": "transfer RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D019368",
+                "entry_name": "Nature"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "MESH",
+                "id": "D016133",
+                "entry_name": "Polymerase Chain Reaction"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "HGNC",
+                "id": "1069",
+                "entry_name": "BMP2"
+            },
+            {
+                "db": "HGNC",
+                "id": "6561",
+                "entry_name": "LGALS1"
+            },
+            {
+                "db": "HGNC",
+                "id": "2918",
+                "entry_name": "DLX5"
+            },
+            {
+                "db": "HGNC",
+                "id": "3353",
+                "entry_name": "ENO2"
+            },
+            {
+                "db": "HGNC",
+                "id": "9546",
+                "entry_name": "PSMB9"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D000081246",
+                "entry_name": "RNA-Seq"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3353",
+                "entry_name": "ENO2"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D000081246",
+                "entry_name": "RNA-Seq"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "14346",
+                "entry_name": "C1QTNF4"
+            },
+            {
+                "db": "HGNC",
+                "id": "1438",
+                "entry_name": "CALCB"
+            },
+            {
+                "db": "HGNC",
+                "id": "8724",
+                "entry_name": "PCK1"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "MESH",
+                "id": "D000081246",
+                "entry_name": "RNA-Seq"
+            },
+            {
+                "db": "MESH",
+                "id": "D001415",
+                "entry_name": "Back"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "MESH",
+                "id": "D004526",
+                "entry_name": "Efficiency"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:22695",
+                "entry_name": "base"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D020478",
+                "entry_name": "Form"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            }
+        ]
+    },
+    "3": {
+        "text": "To test whether the identified translational pause sites in some of the endogenous DDX6-targeted mRNAs contribute to mRNA destabilization, we created different reporter constructs in which the putative ribosomal stalling region (RSR) was inserted downstream of the Renilla luciferase open reading frame, either preceding or following a stop-codon; R-LUC-RSR and R-LUC-stop-RSR, respectively (Figure 4A). These constructs were designed to differentiate translation-dependent regulation from translation-independent effects, triggered for example by binding of trans-regulatory factors (e.g. RNA-binding proteins or miRNAs) to the introduced sequence. We tested two of the sequences identified in our screen for DDX6-destabilized mRNAs: first, a stretch containing 23 'CAG' codon repeats (encoding 23 x Q) mimicking the X-chromosome encoded AR gene. For the second sequence, we chose a 30 nt stretch of the bone morphogenetic protein 2 (BMP2) gene encoded on chromosome 20, which codes for a sequence of basic amino acids (QRKRLKSSCK). Polybasic amino acid stretches and prolines have been reported to cause ribosome stalling. Since the sequence immediately adjacent to the actual stall site also contained several lysine, arginine, and proline codons, we cloned the stalling sequence with 100 nt upstream and downstream flanking regions to include all potential contributing regulatory elements in the reporter constructs. We then measured the half-lives of the reporter constructs when transfected into HEK293T cells. For this, reporter mRNA was quantified by northern blot at different time points after transcription was blocked using actinomycin D. As expected, the presence of the AR stalling sequence before the stop-codon strongly reduced the mRNA half-life compared to the control mRNA where the stop-codon precedes the stalling sequence (Figure 4B and C). The same was true for the BMP2 stalling sequence: the presence of the stalling sequence was associated with a strong translation-dependent reduction in mRNA half-life (4.0+-1.9 hr compared to >10 hr in the control vector) (Figure 4D and E). To test whether the observed reduction in reporter mRNA stability containing endogenous ribosomal stalling sites was dependent on DDX6, we also performed the half-life measurements in HEK293T DDX6 KO cells, and observed that the R-LUC-stop and R-LUC constructs for both AR and BMP2 stalling sequences had similar half-lives (Figure 4B-E). These results, therefore, confirm that DDX6 is required to trigger the co-translational mRNA decay induced by these sequences.",
+        "annotations": [
+            {
+                "db": "GO",
+                "id": "GO:0061157",
+                "entry_name": "mRNA destabilization"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:16385",
+                "entry_name": "organic sulfide"
+            },
+            {
+                "db": "MESH",
+                "id": "D049410",
+                "entry_name": "Luciferases, Renilla"
+            },
+            {
+                "db": "MESH",
+                "id": "D016366",
+                "entry_name": "Open Reading Frames"
+            },
+            {
+                "db": "MESH",
+                "id": "D016601",
+                "entry_name": "RNA-Binding Proteins"
+            },
+            {
+                "db": "MESH",
+                "id": "D035683",
+                "entry_name": "MicroRNAs"
+            },
+            {
+                "db": "MESH",
+                "id": "D003062",
+                "entry_name": "Codon"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "HGNC",
+                "id": "17941",
+                "entry_name": "NTM"
+            },
+            {
+                "db": "HGNC",
+                "id": "1069",
+                "entry_name": "BMP2"
+            },
+            {
+                "db": "HGNC",
+                "id": "1069",
+                "entry_name": "BMP2"
+            },
+            {
+                "db": "MESH",
+                "id": "D002890",
+                "entry_name": "Chromosomes, Human, Pair 20"
+            },
+            {
+                "db": "MESH",
+                "id": "D024361",
+                "entry_name": "Amino Acids, Basic"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33709",
+                "entry_name": "amino acid"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005840",
+                "entry_name": "ribosome"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25094",
+                "entry_name": "lysine"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:29016",
+                "entry_name": "arginine"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:26271",
+                "entry_name": "proline"
+            },
+            {
+                "db": "MESH",
+                "id": "D003062",
+                "entry_name": "Codon"
+            },
+            {
+                "db": "HGNC",
+                "id": "17941",
+                "entry_name": "NTM"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33250",
+                "entry_name": "atom"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15369",
+                "entry_name": "actinomycin"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "1069",
+                "entry_name": "BMP2"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "HGNC",
+                "id": "1069",
+                "entry_name": "BMP2"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:30501",
+                "entry_name": "beryllium atom"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006402",
+                "entry_name": "mRNA catabolic process"
+            }
+        ]
+    },
+    "4": {
+        "text": "(A) Schematic representation of the reporters used in panels (B, C). (B) Representative northern blots showing the decay of androgen receptor (AR) reporter mRNAs in HEK293T wild-type (WT) or DDX6 KO cells. Cells were transfected with indicated reporter plasmids and monitored after the inhibition of transcription using actinomycin D (ActD) for the indicated time. 18 S rRNA ethidium bromide staining shows equal loading. (C) Relative reporter mRNA levels from panel B at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (D) Representative northern blots showing the decay of BMP2 reporter mRNAs in HEK293T WT or DDX6 KO cells. Cells were transfected with indicated reporter plasmids and monitored after the inhibition of transcription using ActD for the indicated time. 18 S rRNA ethidium bromide staining shows equal loading. (E) Relative reporter mRNA levels from panel D at time point zero (before ActD addition) were defined as 100%. Relative reporter mRNA levels were plotted as a function of time. Circles represent the mean value and error bars the standard deviation (SD) (n=3). The decay curves were fitted to an exponential decay with a single component (dotted lines). R2 values are indicated for each curve. The half-life of each mRNA in WT and DDX6 KO cells is represented as the mean +- SD. (F) HEK293T cells were transfected with indicated R-LUC reporters containing 6xMS2 binding sites, HA-tagged RPL22, and SBP-tagged MBP-MS2 plasmids. RNA bound to V5-SBP-MBP-MS2 was immunoprecipitated with Streptavidin beads. The presence of HA-tagged RPL22 in the immunoprecipitates was determined by western blotting. V5-SBP-MBP-MS2 protein level and RT-PCR of R-LUC reporter RNA levels served as a loading control.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "HGNC",
+                "id": "644",
+                "entry_name": "AR"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18111",
+                "entry_name": "ribosomal RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:4883",
+                "entry_name": "ethidium bromide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            },
+            {
+                "db": "HGNC",
+                "id": "6210",
+                "entry_name": "CD82"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            },
+            {
+                "db": "HGNC",
+                "id": "1069",
+                "entry_name": "BMP2"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18111",
+                "entry_name": "ribosomal RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:4883",
+                "entry_name": "ethidium bromide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:27666",
+                "entry_name": "actinomycin D"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            },
+            {
+                "db": "HGNC",
+                "id": "6210",
+                "entry_name": "CD82"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "EFO",
+                "id": "0007027",
+                "entry_name": "SD"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "10315",
+                "entry_name": "RPL22"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:201453",
+                "entry_name": "Streptavidin"
+            },
+            {
+                "db": "HGNC",
+                "id": "10315",
+                "entry_name": "RPL22"
+            },
+            {
+                "db": "MESH",
+                "id": "D015153",
+                "entry_name": "Blotting, Western"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            }
+        ]
+    },
+    "5": {
+        "text": "For mRNA half-life measurements, HEK293T wild-type, or DDX6 KO cells were seeded in six-well plates and transfected with 0.5 microg of the indicated Renilla luciferase (R-LUC) reporter plasmid. 48 hr after transfection, the R-LUC reporter mRNA level was monitored following inhibition of transcription by actinomycin D. For tethering assays, HEK293T wild-type, or DDX6 KO cells were seeded in six-well plates and transfected with 0.25 microg of the indicated R-LUC reporter plasmid containing 5xBoxB (R-LUC-5BoxB) and 0.25 mug Firefly luciferase (F-LUC) plasmid as transfection control, and 1 mug plasmids expressing the lambdaN-HA peptide or lambdaN-HA-CNOT3. For total RNA isolation, cells were resuspended in TRIzol (Thermo Fisher), and RNA was isolated using Phenol:Chloroform: Isoamyl alcohol (PanReac). For northern blotting, 10 microg RNA samples were separated on 2% glyoxal agarose gels and transferred onto nylon membranes (GeneScreen Plus, Perkin Elmer). Complementary [32P]-labeled probes were synthesized by linear PCR and hybridized at 65  C overnight in hybridization solution (0.5 M NaP pH = 7.0, 7% SDS, 1 mM EDTA pH = 8.0). After repeated washing in washing solution (0.5 M NaP pH = 7.0, 1% SDS, 1 mM EDTA pH = 8.0), membranes were scanned and quantified using the Typhoon phosphorimager (GE Healthcare). R-LUC reporter mRNA levels were then normalized to 18 S rRNA and plotted against time. mRNA half-lives (t1/2) +- standard deviations were calculated from the decay curves.",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "D006207",
+                "entry_name": "Half-Life"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "MESH",
+                "id": "D049410",
+                "entry_name": "Luciferases, Renilla"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0006351",
+                "entry_name": "DNA-templated transcription"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15369",
+                "entry_name": "actinomycin"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "6446",
+                "entry_name": "KRT8"
+            },
+            {
+                "db": "MESH",
+                "id": "D049409",
+                "entry_name": "Luciferases, Firefly"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:16670",
+                "entry_name": "peptide"
+            },
+            {
+                "db": "EFO",
+                "id": "0004964",
+                "entry_name": "total RNA"
+            },
+            {
+                "db": "MESH",
+                "id": "C411644",
+                "entry_name": "trizol"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15882",
+                "entry_name": "phenol"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35255",
+                "entry_name": "chloroform"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15837",
+                "entry_name": "isoamylol"
+            },
+            {
+                "db": "MESH",
+                "id": "D015152",
+                "entry_name": "Blotting, Northern"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34779",
+                "entry_name": "glyoxal"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:2511",
+                "entry_name": "agarose"
+            },
+            {
+                "db": "MESH",
+                "id": "D005782",
+                "entry_name": "Gels"
+            },
+            {
+                "db": "MESH",
+                "id": "D009757",
+                "entry_name": "Nylons"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016020",
+                "entry_name": "membrane"
+            },
+            {
+                "db": "MESH",
+                "id": "D016133",
+                "entry_name": "Polymerase Chain Reaction"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:75958",
+                "entry_name": "solution"
+            },
+            {
+                "db": "HGNC",
+                "id": "957",
+                "entry_name": "BASP1"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "HGNC",
+                "id": "10691",
+                "entry_name": "SDS"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:42191",
+                "entry_name": "EDTA(4-)"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "EFO",
+                "id": "0000735",
+                "entry_name": "washing"
+            },
+            {
+                "db": "EFO",
+                "id": "0000735",
+                "entry_name": "washing"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:75958",
+                "entry_name": "solution"
+            },
+            {
+                "db": "HGNC",
+                "id": "957",
+                "entry_name": "BASP1"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "HGNC",
+                "id": "10691",
+                "entry_name": "SDS"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:42191",
+                "entry_name": "EDTA(4-)"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016020",
+                "entry_name": "membrane"
+            },
+            {
+                "db": "HGNC",
+                "id": "4704",
+                "entry_name": "GYPC"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18111",
+                "entry_name": "ribosomal RNA"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33699",
+                "entry_name": "messenger RNA"
+            }
+        ]
+    },
+    "6": {
+        "text": "The method to purify ribosomal proteins from HEK293T cells was adapted from a previously published protocol. In brief, HEK293T cells were submitted to an osmotic shock by incubation in a hypotonic buffer containing NP-40. After removing the nuclear fraction by centrifugation at 750 g, the cytoplasmic fraction was spun down at 12,500 g to remove the mitochondrial fraction. The post-mitochondrial fraction was then adjusted to 0.5 M KCl to disrupt most interactions between ribosomes and other proteins of the other cell compartments. Finally, ribosomes were purified through a sucrose cushion by ultracentrifugation.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D008722",
+                "entry_name": "Methods"
+            },
+            {
+                "db": "MESH",
+                "id": "D012269",
+                "entry_name": "Ribosomal Proteins"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "EFO",
+                "id": "0001796",
+                "entry_name": "published"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "EFO",
+                "id": "0001794",
+                "entry_name": "submitted"
+            },
+            {
+                "db": "MESH",
+                "id": "D012769",
+                "entry_name": "Shock"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:78708",
+                "entry_name": "Nonidet P-40"
+            },
+            {
+                "db": "MESH",
+                "id": "D002498",
+                "entry_name": "Centrifugation"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:32588",
+                "entry_name": "potassium chloride"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005840",
+                "entry_name": "ribosome"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005840",
+                "entry_name": "ribosome"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:17992",
+                "entry_name": "sucrose"
+            },
+            {
+                "db": "MESH",
+                "id": "D014461",
+                "entry_name": "Ultracentrifugation"
+            }
+        ]
+    },
+    "7": {
+        "text": "NusA-Strep-tagged DDX6 was produced in E. coli BL21(DE3) Star cells (Thermo Fisher) in LB medium at 20  C. For the purification, cells were lysed by sonication in PBST buffer. NusA-Strep-tagged DDX6 was isolated from the crude lysate on Strep-Tactin sepharose (IBA) resin for 1 hr at 4  C. The resin was then washed twice with PBST buffer and once with binding buffer [50 mM Tris/HCl (pH 7.5), 150 mM NaCl]. Purified human ribosome proteins were then added to the resin and incubated for 1 hr at 4  C. After three washes with the binding buffer, bound proteins were eluted with 2 x protein sample buffer (100 mM Tris-HCl pH = 6.8, 4% SDS, 20% glycerol, 0.2 M DTT) and analyzed by SDS-PAGE followed by Coomassie staining.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "HGNC",
+                "id": "11359",
+                "entry_name": "STAR"
+            },
+            {
+                "db": "MESH",
+                "id": "D013010",
+                "entry_name": "Sonication"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:2511",
+                "entry_name": "agarose"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15997",
+                "entry_name": "2-methylpropanamine"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:26710",
+                "entry_name": "sodium chloride"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005840",
+                "entry_name": "ribosome"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "HGNC",
+                "id": "10691",
+                "entry_name": "SDS"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:17754",
+                "entry_name": "glycerol"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18320",
+                "entry_name": "1,4-dithiothreitol"
+            },
+            {
+                "db": "EFO",
+                "id": "0010936",
+                "entry_name": "SDS-PAGE"
+            }
+        ]
+    },
+    "8": {
+        "text": "HEK293T cells were grown in 10 cm dishes and transfected using Lipofectamine 2000 (Invitrogen). The transfection mixtures contained 10 mug of GFP- and HA-tagged constructs. HEK293T cells were harvested 48 hr after transfection in NET buffer (50 mM Tris, pH = 7.4, 1 mM EDTA, 150 mM NaCl, 0.1% Triton X-100) supplemented with 10% glycerol and protease inhibitors (Complete Protease Inhibitor Mix, Roche). Cell lysates were cleared by centrifugation at 18,000 g for 15 min and input samples were collected for western blotting. Co-immunoprecipitation experiments were performed in the presence of 1.5 U/microl RNase I (Ambion). Lysates were first incubated with 5 microl anti-GFP antibody (in-house) for 1 hr rotating at 4  C and subsequently mixed with 50 microl protein G-agarose (50% slurry, Roche) and incubated for 1 hr rotating at 4  C. After repeated washing in NET buffer, proteins were eluted with 2 x protein sample buffer and analyzed by SDS-PAGE. For western blotting, proteins were transferred onto nitrocellulose membranes (Santa Cruz) via tank transfer and developed with freshly mixed solutionA:solutionB (10:1) and 0.01% H2O2 [SolutionA: 0.025% Luminol (Roth) in 0.1  M Tris-HCl pH  = 8.6; SolutionB: 0.11% P-Coumaric acid (Sigma Aldrich) in DMSO]. HA- and GFP-tagged proteins were detected using horseradish peroxidase-conjugated monoclonal anti-HA (Roche, 3F10, 1:5,000) and anti-GFP (Roche, 11814460001, 1:2,000), respectively. Endogenous human RPS3A was detected using a polyclonal anti-RPS3A antibody (abcam, ab264368, 1:1,000), CNOT1 was detected using a rabbit anti-CNOT1 antibody (in-house, 1:1,000), DDX6 was detected using a rabbit polyclonal anti-DDX6 antibody (Bethyl, A300-461Z, 1:1000), Tubulin was detected using a mouse monoclonal anti-Tubulin antibody (Sigma Aldrich, T6199, 1:3000), and V5-SBP-MBP-MS2 was detected using a mouse monoclonal anti-V5 antibody BioRad, MCA1360GA, 1:5000.",
+        "annotations": [
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33390",
+                "entry_name": "curium atom"
+            },
+            {
+                "db": "MESH",
+                "id": "C086724",
+                "entry_name": "Lipofectamine"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:9754",
+                "entry_name": "tris"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:42191",
+                "entry_name": "EDTA(4-)"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:26710",
+                "entry_name": "sodium chloride"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:9750",
+                "entry_name": "Triton X-100"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:17754",
+                "entry_name": "glycerol"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:37670",
+                "entry_name": "protease inhibitor"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:37670",
+                "entry_name": "protease inhibitor"
+            },
+            {
+                "db": "MESH",
+                "id": "D002498",
+                "entry_name": "Centrifugation"
+            },
+            {
+                "db": "MESH",
+                "id": "D015153",
+                "entry_name": "Blotting, Western"
+            },
+            {
+                "db": "HGNC",
+                "id": "10044",
+                "entry_name": "RNASE1"
+            },
+            {
+                "db": "EFO",
+                "id": "0000735",
+                "entry_name": "washing"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "EFO",
+                "id": "0010936",
+                "entry_name": "SDS-PAGE"
+            },
+            {
+                "db": "MESH",
+                "id": "D015153",
+                "entry_name": "Blotting, Western"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53325",
+                "entry_name": "nitrocellulose"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016020",
+                "entry_name": "membrane"
+            },
+            {
+                "db": "HGNC",
+                "id": "11562",
+                "entry_name": "TANK"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:36003",
+                "entry_name": "decenoic acid"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:16240",
+                "entry_name": "hydrogen peroxide"
+            },
+            {
+                "db": "MESH",
+                "id": "D008165",
+                "entry_name": "Luminol"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:32374",
+                "entry_name": "trans-4-coumaric acid"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:28262",
+                "entry_name": "dimethyl sulfoxide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:13193",
+                "entry_name": "hydrogen acceptor"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "HGNC",
+                "id": "10421",
+                "entry_name": "RPS3A"
+            },
+            {
+                "db": "HGNC",
+                "id": "7877",
+                "entry_name": "CNOT1"
+            },
+            {
+                "db": "MESH",
+                "id": "D011817",
+                "entry_name": "Rabbits"
+            },
+            {
+                "db": "HGNC",
+                "id": "2747",
+                "entry_name": "DDX6"
+            },
+            {
+                "db": "MESH",
+                "id": "D011817",
+                "entry_name": "Rabbits"
+            },
+            {
+                "db": "FPLX",
+                "id": "Tubulin",
+                "entry_name": "Tubulin"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            },
+            {
+                "db": "MESH",
+                "id": "D051379",
+                "entry_name": "Mice"
+            }
+        ]
+    },
+    "9": {
+        "text": "HEK293T cells were plated in a 10 cm dish at 80% confluence. Indicated R-LUC reporter, HA-tagged RPL22, and SBP-MBP-MS2 plasmids were transfected into HEK293T cells. After 48 hr, the cells were collected and washed once with pre-cooled PBS. Cells were then lysed in NET buffer (50 mM Tris pH = 7.4, 1 mM EDTA, 150 mM NaCl, 0.1% Triton X-100). The lysate was centrifuged for 5 min at 13,000 g at 4  C. The supernatant was incubated with Strep-Tactin sepharose (IBA) resin with/without RNase A for 1 hr at 4  C. After three washes with NET buffer, bound proteins were eluted with 2 x protein sample buffer and analyzed by western blotting.",
+        "annotations": [
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33390",
+                "entry_name": "curium atom"
+            },
+            {
+                "db": "MESH",
+                "id": "D004057",
+                "entry_name": "Hyperostosis, Diffuse Idiopathic Skeletal"
+            },
+            {
+                "db": "HGNC",
+                "id": "10315",
+                "entry_name": "RPL22"
+            },
+            {
+                "db": "EFO",
+                "id": "0001184",
+                "entry_name": "HEK293T"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:9754",
+                "entry_name": "tris"
+            },
+            {
+                "db": "MESH",
+                "id": "D006863",
+                "entry_name": "Hydrogen-Ion Concentration"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:42191",
+                "entry_name": "EDTA(4-)"
+            },
+            {
+                "db": "MESH",
+                "id": "D009101",
+                "entry_name": "Multiple Myeloma"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:26710",
+                "entry_name": "sodium chloride"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:9750",
+                "entry_name": "Triton X-100"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:2511",
+                "entry_name": "agarose"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:15997",
+                "entry_name": "2-methylpropanamine"
+            },
+            {
+                "db": "HGNC",
+                "id": "10044",
+                "entry_name": "RNASE1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "MESH",
+                "id": "D015153",
+                "entry_name": "Blotting, Western"
+            }
+        ]
+    }
+}

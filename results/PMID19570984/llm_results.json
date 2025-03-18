@@ -2,35 +2,35 @@
     "LLM_extractions": [
         {
             "Index": "1",
-            "text": "Rin1 is a Rab5 guanine nucleotide exchange factor that plays an important role in Ras-activated endocytosis and growth factor receptor trafficking in fibroblasts. In this study, we show that Rin1 is expressed at high levels in a large number of non-small cell lung adenocarcinoma cell lines, including Hop62, H650, HCC4006, HCC827, EKVX, HCC2935, and A549. Rin1 depletion from A549 cells resulted in a decrease in cell proliferation that was correlated to a decrease in epidermal growth factor receptor (EGFR) signaling. Expression of wild type Rin1 but not the Rab5 guanine nucleotide exchange factor-deficient Rin1 (Rin1\u25a1) complemented the Rin1 depletion effects, and overexpression of Rin1\u25a1 had a dominant negative effect on cell proliferation. Rin1 depletion stabilized the cell surface levels of EGFR, suggesting that internalization was necessary for robust signaling in A549 cells. In support of this conclusion, introduction of either dominant negative Rab5 or dominant negative dynamin decreased A549 proliferation and EGFR signaling. These data demonstrate that proper internalization and endocytic trafficking are critical for EGFR-mediated signaling in A549 cells and suggest that up-regulation of Rin1 in A549 cell lines may contribute to their proliferative nature.",
+            "text": "Rin1 is a Rab5 guanine nucleotide exchange factor that plays an important role in Ras-activated endocytosis and growth factor receptor trafficking in fibroblasts. In this study, we show that Rin1 is expressed at high levels in a large number of non-small cell lung adenocarcinoma cell lines, including Hop62, H650, HCC4006, HCC827, EKVX, HCC2935, and A549. Rin1 depletion from A549 cells resulted in a decrease in cell proliferation that was correlated to a decrease in epidermal growth factor receptor (EGFR) signaling. Expression of wild type Rin1 but not the Rab5 guanine nucleotide exchange factor-deficient Rin1 (Rin1A) complemented the Rin1 depletion effects, and overexpression of Rin1A had a dominant negative effect on cell proliferation. Rin1 depletion stabilized the cell surface levels of EGFR, suggesting that internalization was necessary for robust signaling in A549 cells. In support of this conclusion, introduction of either dominant negative Rab5 or dominant negative dynamin decreased A549 proliferation and EGFR signaling. These data demonstrate that proper internalization and endocytic trafficking are critical for EGFR-mediated signaling in A549 cells and suggest that up-regulation of Rin1 in A549 cell lines may contribute to their proliferative nature.",
             "Results": [
-                {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"endocytosis\")",
-                    "evidence": "Rin1 is a Rab5 guanine nucleotide exchange factor that plays an important role in Ras-activated endocytosis and growth factor receptor trafficking in fibroblasts."
-                },
-                {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"growth factor receptor signaling pathway\")",
-                    "evidence": "Rin1 is a Rab5 guanine nucleotide exchange factor that plays an important role in Ras-activated endocytosis and growth factor receptor trafficking in fibroblasts."
-                },
-                {
-                    "bel_statement": "p(HGNC:RIN1) increases p(HGNC:EGFR)",
-                    "evidence": "Rin1 depletion from A549 cells resulted in a decrease in cell proliferation that was correlated to a decrease in epidermal growth factor receptor (EGFR) signaling."
-                },
                 {
                     "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
                     "evidence": "Rin1 depletion from A549 cells resulted in a decrease in cell proliferation that was correlated to a decrease in epidermal growth factor receptor (EGFR) signaling."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) directlyIncreases tloc(p(HGNC:EGFR), fromLoc(GO:\"cell surface\"), toLoc(GO:endosome))",
+                    "bel_statement": "p(HGNC:RIN1) increases p(HGNC:EGFR)",
                     "evidence": "Rin1 depletion stabilized the cell surface levels of EGFR, suggesting that internalization was necessary for robust signaling in A549 cells."
                 },
                 {
-                    "bel_statement": "p(HGNC:RAB5A) decreases bp(GO:\"cell proliferation\")",
-                    "evidence": "Introduction of either dominant negative Rab5 or dominant negative dynamin decreased A549 proliferation and EGFR signaling."
+                    "bel_statement": "p(HGNC:RIN1A) decreases bp(GO:\"cell proliferation\")",
+                    "evidence": "overexpression of Rin1A had a dominant negative effect on cell proliferation."
                 },
                 {
-                    "bel_statement": "p(HGNC:RAB5A) decreases p(HGNC:EGFR)",
-                    "evidence": "Introduction of either dominant negative Rab5 or dominant negative dynamin decreased A549 proliferation and EGFR signaling."
+                    "bel_statement": "p(HGNC:RIN1) increases p(HGNC:EGFR)",
+                    "evidence": "Expression of wild type Rin1 but not the Rab5 guanine nucleotide exchange factor-deficient Rin1 (Rin1A) complemented the Rin1 depletion effects."
+                },
+                {
+                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"EGFR signaling\")",
+                    "evidence": "Rin1 depletion from A549 cells resulted in a decrease in cell proliferation that was correlated to a decrease in epidermal growth factor receptor (EGFR) signaling."
+                },
+                {
+                    "bel_statement": "p(HGNC:RAB5) decreases bp(GO:\"cell proliferation\")",
+                    "evidence": "introduction of either dominant negative Rab5 or dominant negative dynamin decreased A549 proliferation and EGFR signaling."
+                },
+                {
+                    "bel_statement": "p(HGNC:DYN) decreases bp(GO:\"cell proliferation\")",
+                    "evidence": "introduction of either dominant negative Rab5 or dominant negative dynamin decreased A549 proliferation and EGFR signaling."
                 }
             ],
             "annotations": [
@@ -256,20 +256,24 @@
             "text": "Internalization of epidermal growth factor receptors (EGFR) and their subsequent delivery to lysosomes play key roles in attenuating EGF-mediated signaling cascades. The proper delivery of EGFR into lysosomes for degradation requires a series of highly regulated targeting and delivery events. Following ligand binding, EGFR is internalized via endocytic vesicles that are subsequently targeted to early endosomes. This targeting event is mediated by the small GTPase, Rab5. Once delivered to the early endosome, receptors that are destined for degradation are incorporated into vesicles that bud into the lumen of the endosome, forming the multivesicular body. Sequestration of the activated cytoplasmic domain of EGFR into the intralumenal vesicles of the multivesicular body effectively terminates receptor signaling. Subsequent fusion of the multivesicular body with lysosomes delivers the intralumenal vesicles and their contents into the lumen of the lysosome where they are degraded. Inactivating mutations in Rab5 disrupt the delivery of cell surface receptors, such as EGFR, to early endosomes, thereby inhibiting receptor trafficking to the lysosome and receptor degradation. Therefore, activation of Rab5 is a key point of regulation for EGFR signaling.",
             "Results": [
                 {
-                    "bel_statement": "act(p(HGNC:EGFR)) increases bp(GO:\"endocytosis\")",
+                    "bel_statement": "act(p(UniProt:EGFR)) increases bp(GO:\"EGF-mediated signaling cascade\")",
+                    "evidence": "Internalization of epidermal growth factor receptors (EGFR) and their subsequent delivery to lysosomes play key roles in attenuating EGF-mediated signaling cascades."
+                },
+                {
+                    "bel_statement": "act(p(UniProt:EGFR)) increases bp(GO:\"receptor degradation\")",
+                    "evidence": "The proper delivery of EGFR into lysosomes for degradation requires a series of highly regulated targeting and delivery events."
+                },
+                {
+                    "bel_statement": "act(p(UniProt:EGFR)) increases bp(GO:\"endocytosis\")",
                     "evidence": "Following ligand binding, EGFR is internalized via endocytic vesicles that are subsequently targeted to early endosomes."
                 },
                 {
-                    "bel_statement": "act(p(HGNC:RAB5A)) increases bp(GO:\"endosome targeting\")",
-                    "evidence": "This targeting event is mediated by the small GTPase, Rab5."
-                },
-                {
-                    "bel_statement": "act(p(HGNC:RAB5A)) increases deg(p(HGNC:EGFR))",
+                    "bel_statement": "act(p(UniProt:EGFR)) increases bp(GO:\"receptor trafficking\")",
                     "evidence": "Inactivating mutations in Rab5 disrupt the delivery of cell surface receptors, such as EGFR, to early endosomes, thereby inhibiting receptor trafficking to the lysosome and receptor degradation."
                 },
                 {
-                    "bel_statement": "act(p(HGNC:EGFR)) increases deg(p(HGNC:EGFR))",
-                    "evidence": "Sequestration of the activated cytoplasmic domain of EGFR into the intralumenal vesicles of the multivesicular body effectively terminates receptor signaling."
+                    "bel_statement": "act(p(UniProt:RAB5)) increases act(p(UniProt:EGFR))",
+                    "evidence": "Therefore, activation of Rab5 is a key point of regulation for EGFR signaling."
                 }
             ],
             "annotations": [
@@ -460,19 +464,15 @@
             "text": "Rab5 cycles between an inactive GDP-bound state and an active GTP-bound state, and Rab5 activation requires the exchange of GDP to GTP. This exchange is catalyzed by guanine nucleotide exchange factors (GEFs) that are specific to the Rab5 family of proteins. Rab5 family GEFs all contain a catalytic vacuolar protein sorting 9 (Vps9) domain that facilitates the GDP to GTP exchange. Many Rab5 GEFs contain other functional domains that are involved in cell signaling events. Rin1 is a good example of a multidomain Rab5 GEF. In addition to the Vps9 domain, Rin1 also contains an Src homology 2 domain, a proline-rich domain, and a Ras association domain. Rin1 was originally identified through its ability to interact with active Ras, and a role for Rin1 in a number of cell signaling systems has been established, including EGF-mediated signaling. Rin1 directly interacts with the activated EGFR through its Src homology 2 domain. Furthermore, Ras occupation of the Rin1 Ras association domain positively impacts the Rab5 GEF activity of Rin1, which promotes EGFR internalization and attenuation in fibroblasts. However, Rin1 expression is up-regulated in several types of cancers, including squamous cell carcinoma, colorectal cancer, and cervical cancer, through duplications or rearrangements of the RIN1 locus. These studies suggest that Rin1 may also play a role in enhancing cell proliferation.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) directlyIncreases act(p(HGNC:EGFR))",
+                    "bel_statement": "act(p(UniProt:Rin1)) increases bp(GO:\"EGF-mediated signaling\")",
+                    "evidence": "Rin1 was originally identified through its ability to interact with active Ras, and a role for Rin1 in a number of cell signaling systems has been established, including EGF-mediated signaling."
+                },
+                {
+                    "bel_statement": "p(UniProt:Rin1) hasActivity(bp(GO:\"EGF-mediated signaling\"))",
                     "evidence": "Rin1 directly interacts with the activated EGFR through its Src homology 2 domain."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) directlyIncreases act(p(HGNC:RAB5A))",
-                    "evidence": "Ras occupation of the Rin1 Ras association domain positively impacts the Rab5 GEF activity of Rin1, which promotes EGFR internalization and attenuation in fibroblasts."
-                },
-                {
-                    "bel_statement": "g(HGNC:RIN1) increases path(DOID:1909)",
-                    "evidence": "Rin1 expression is up-regulated in several types of cancers, including squamous cell carcinoma, colorectal cancer, and cervical cancer, through duplications or rearrangements of the RIN1 locus."
-                },
-                {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
+                    "bel_statement": "p(UniProt:Rin1) increases bp(GO:\"cell proliferation\")",
                     "evidence": "These studies suggest that Rin1 may also play a role in enhancing cell proliferation."
                 }
             ],
@@ -726,19 +726,19 @@
         },
         {
             "Index": "4",
-            "text": "It is well established that a large percentage of non-small cell lung adenocarcinomas exhibit up-regulation of EGFR and aberrant signaling through the Ras/MAPK pathway. In addition, a recent study examining 188 human lung adenocarcinomas identified that 132 of 188 tumor samples exhibited mutations relating to the Ras/MAPK signaling pathway. Accordingly, the role of Rin1 in non-small cell lung adenocarcinoma was addressed. Examination of a panel of non-small cell lung adenocarcinoma lines (including A549) revealed enhanced Rin1 expression relative to a nontransformed lung epithelial cell line (BEAS-2B). Depletion of Rin1 from A549 cells resulted in decreased proliferation. This decrease correlated with a reduction in EGF-activated ERK phosphorylation and the stabilization of cell surface EGFR. These defects were complemented by wild type Rin1 expression but not by mutant Rin1 lacking a functional Vps9 domain, suggesting that the GEF activity of Rin1 is necessary for proper EGFR signaling in A549 cells. In addition, overexpression of Rin1\u25a1, dominant negative Rab5, and dynamin resulted in similar defects in cell proliferation and EGFR signaling as Rin1 depletion. These data indicate that proper EGFR internalization and trafficking are critical for robust EGFR-mediated signaling and cell proliferation in A549 cells and offer evidence that Rin1 positively regulates cell proliferation in non-small cell lung adenocarcinoma.",
+            "text": "It is well established that a large percentage of non-small cell lung adenocarcinomas exhibit up-regulation of EGFR and aberrant signaling through the Ras/MAPK pathway. In addition, a recent study examining 188 human lung adenocarcinomas identified that 132 of 188 tumor samples exhibited mutations relating to the Ras/MAPK signaling pathway. Accordingly, the role of Rin1 in non-small cell lung adenocarcinoma was addressed. Examination of a panel of non-small cell lung adenocarcinoma lines (including A549) revealed enhanced Rin1 expression relative to a nontransformed lung epithelial cell line (BEAS-2B). Depletion of Rin1 from A549 cells resulted in decreased proliferation. This decrease correlated with a reduction in EGF-activated ERK phosphorylation and the stabilization of cell surface EGFR. These defects were complemented by wild type Rin1 expression but not by mutant Rin1 lacking a functional Vps9 domain, suggesting that the GEF activity of Rin1 is necessary for proper EGFR signaling in A549 cells. In addition, overexpression of Rin14, dominant negative Rab5, and dynamin resulted in similar defects in cell proliferation and EGFR signaling as Rin1 depletion. These data indicate that proper EGFR internalization and trafficking are critical for robust EGFR-mediated signaling and cell proliferation in A549 cells and offer evidence that Rin1 positively regulates cell proliferation in non-small cell lung adenocarcinoma.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:EGFR) increases act(p(HGNC:MAPK1), ma(GO:\"kinase activity\"))",
-                    "evidence": "It is well established that a large percentage of non-small cell lung adenocarcinomas exhibit up-regulation of EGFR and aberrant signaling through the Ras/MAPK pathway."
+                    "bel_statement": "p(HGNC:EGFR) increases bp(GO:\"cell proliferation\")",
+                    "evidence": "Depletion of Rin1 from A549 cells resulted in decreased proliferation."
+                },
+                {
+                    "bel_statement": "p(HGNC:RIN1) increases p(HGNC:EGFR)",
+                    "evidence": "suggesting that the GEF activity of Rin1 is necessary for proper EGFR signaling in A549 cells."
                 },
                 {
                     "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
                     "evidence": "These data indicate that proper EGFR internalization and trafficking are critical for robust EGFR-mediated signaling and cell proliferation in A549 cells and offer evidence that Rin1 positively regulates cell proliferation in non-small cell lung adenocarcinoma."
-                },
-                {
-                    "bel_statement": "p(HGNC:RIN1) increases p(HGNC:EGFR)",
-                    "evidence": "This decrease correlated with a reduction in EGF-activated ERK phosphorylation and the stabilization of cell surface EGFR. These defects were complemented by wild type Rin1 expression but not by mutant Rin1 lacking a functional Vps9 domain, suggesting that the GEF activity of Rin1 is necessary for proper EGFR signaling in A549 cells."
                 }
             ],
             "annotations": [
@@ -971,11 +971,714 @@
         },
         {
             "Index": "5",
-            "text": "Non-small Cell Lung Adenocarcinomas Cell Lines Overexpress Rin1\u2014To better understand Rin1 function in cell proliferation, a panel of lung adenocarcinoma cell lines was probed for Rin1 expression. Western blot analysis of cell lysates derived from seven non-small cell lung adenocarcinoma cell lines (A549, Hop62, H650, HCC4006, HCC827, EKVX, and HCC2935) revealed that all seven cell lines exhibit enhanced Rin1 levels compared with an immortalized but nontransformed lung epithelial cell line (BEAS-B2). Quantification of Rin1 expression levels (normalized to GAPDH expression levels) revealed a 2\u201312-fold increase in Rin1 protein levels in these cell lines. A549 cells overexpressed a modest level (\u223c3-fold) of Rin1 and are well characterized in terms of their EGFR expression levels and signaling. Therefore, the role of Rin1 in EGF signaling was further examined in the A549 cell line.",
+            "text": "Antibodies-Rin1 polyclonal antibody was obtained from BD Transduction Laboratories. Phospho-ERK1/2 polyclonal antibody and total EGFR polyclonal antibody were from Cell Signaling (Boston, MA). GFP monoclonal antibody was supplied by Clontech. Glyceraldehyde 3-phosphate dehydrogenase GAPDH antibody was from Novus Biologicals (Littleton, CO).",
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D001528",
+                    "entry_name": "Behcet Syndrome"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009293",
+                    "entry_name": "transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007753",
+                    "entry_name": "Laboratories"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ERK",
+                    "entry_name": "ERK"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3236",
+                    "entry_name": "EGFR"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001900",
+                    "entry_name": "Boston"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000911",
+                    "entry_name": "Antibodies, Monoclonal"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "4141",
+                    "entry_name": "GAPDH"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "4141",
+                    "entry_name": "GAPDH"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:17245",
+                    "entry_name": "carbon monoxide"
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "text": "Cell Culture-A549 cells (gift from Dr. Charles Howe, Mayo Clinic) were grown in RPMI media with L-glutamine (Invitrogen) and 10% fetal bovine serum (Invitrogen) (complete media) in an atmosphere containing 5% CO2 levels at 37 \u2103 using 10-cm tissue culture plates from Corning Glass. Lung adenocarcinomas cell lines (Hop62, H650, HCC4006, HCC827, EKVX, and HCC2935 all purchased from ATCC, Manassas, VA) were grown in Dulbecco's modified Eagle's medium supplemented with 10% fetal bovine serum at 37 \u2103 in an atmosphere containing 5% CO2 using 10-cm tissue culture plates from Falcon.",
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:18050",
+                    "entry_name": "L-glutamine"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D044967",
+                    "entry_name": "Serum"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001272",
+                    "entry_name": "Atmosphere"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7421",
+                    "entry_name": "MT-CO2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005898",
+                    "entry_name": "Glass"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0030078",
+                    "entry_name": "Lung adenocarcinoma"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0006439",
+                    "entry_name": "HOP62"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0003132",
+                    "entry_name": "HCC4006"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0003137",
+                    "entry_name": "HCC827"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0006786",
+                    "entry_name": "EKVX"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0005375",
+                    "entry_name": "HCC2935"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020307",
+                    "entry_name": "Eagles"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D044967",
+                    "entry_name": "Serum"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001272",
+                    "entry_name": "Atmosphere"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7421",
+                    "entry_name": "MT-CO2"
+                }
+            ]
+        },
+        {
+            "Index": "7",
+            "text": "Lung Adenocarcinoma Cell Line Lysates-Cell lines were grown to 90% confluency (~4 \u00d7 10^6 cells) under the conditions described above. Cells were washed with phosphate-buffered saline (PBS) and then harvested on ice by scraping in 300 pl of 2X Laemmli Buffer (20% glycerol, 0.1 M Tris-HCl, pH 6.8, and 10% SDS) containing bromphenol blue dye, 5% \u00df-mercaptoethanol, and EDTA-free protease inhibitor. Lysates were sonicated at 4 \u2103 for 5 s. After sonication, all lysates were divided into 100-ul aliquots, heated at 90\u00b0 for 5 min, and stored at -80 \u2103.",
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "HP",
+                    "id": "HP:0030078",
+                    "entry_name": "Lung adenocarcinoma"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002677",
+                    "entry_name": "saline"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007053",
+                    "entry_name": "Ice"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0009122",
+                    "entry_name": "scraping"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "2440",
+                    "entry_name": "CSH1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "C088816",
+                    "entry_name": "Laemmli buffer"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:17754",
+                    "entry_name": "glycerol"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006863",
+                    "entry_name": "Hydrogen-Ion Concentration"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "10691",
+                    "entry_name": "SDS"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:59424",
+                    "entry_name": "bromophenol blue"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:37958",
+                    "entry_name": "dye"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:37670",
+                    "entry_name": "protease inhibitor"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013010",
+                    "entry_name": "Sonication"
+                }
+            ]
+        },
+        {
+            "Index": "8",
+            "text": "Plasmids and Expression Vectors-GFP-Rin1 was PCR-amplified from the pGAD Rin1 construct using primers containing BglII and SalI restriction sites and then subcloned into pEGFP-C3 (Clontech). Rin1A was PCR-amplified from pGAD Rin14 construct, and to distinguish Rin1A expression from Rin1 wild type, the stop codon was not removed when Rin14 was subcloned into the pEGFP-N1 (Clontech) thus generating a tag-less Rin1A construct. GFP-dnRab5 (S34N) was a generous gift from Dr. Alejandro Barbieri, Florida International University. GFP-dn-dynamin (K44A) was a generous gift from Dr. Mark McNiven, Mayo Clinic.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases p(HGNC:EGFR)",
-                    "evidence": "A549 cells overexpressed a modest level (\u223c3-fold) of Rin1 and are well characterized in terms of their EGFR expression levels and signaling."
+                    "bel_statement": "p(UniProt:GFP) increases p(UniProt:Rin1)",
+                    "evidence": "GFP-Rin1 was PCR-amplified from the pGAD Rin1 construct using primers containing BglII and SalI restriction sites and then subcloned into pEGFP-C3 (Clontech)."
+                },
+                {
+                    "bel_statement": "p(UniProt:Rin1A) increases p(UniProt:Rin1)",
+                    "evidence": "Rin1A was PCR-amplified from pGAD Rin14 construct, and to distinguish Rin1A expression from Rin1 wild type, the stop codon was not removed when Rin14 was subcloned into the pEGFP-N1 (Clontech) thus generating a tag-less Rin1A construct."
+                },
+                {
+                    "bel_statement": "p(UniProt:GFP-dnRab5) increases p(UniProt:Rin1)",
+                    "evidence": "GFP-dnRab5 (S34N) was a generous gift from Dr. Alejandro Barbieri, Florida International University."
+                },
+                {
+                    "bel_statement": "p(UniProt:GFP-dn-dynamin) increases p(UniProt:Rin1)",
+                    "evidence": "GFP-dn-dynamin (K44A) was a generous gift from Dr. Mark McNiven, Mayo Clinic."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "18749",
+                    "entry_name": "RIN1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18749",
+                    "entry_name": "RIN1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018388",
+                    "entry_name": "Codon, Terminator"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005431",
+                    "entry_name": "Florida"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014495",
+                    "entry_name": "Universities"
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "text": "Transient Transfections-Cells were transfected using Lipofectamine 2000 (Invitrogen) at a 1:2 DNA to Lipofectamine ratio using Opti-MEM (Invitrogen). The transfection mixture was incubated with cells for 6 h and then washed three times with PBS before adding back complete media. Cells were allowed to recover for 48 h before they were assayed.",
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "HP",
+                    "id": "HP:0025153",
+                    "entry_name": "Transient"
+                },
+                {
+                    "db": "MESH",
+                    "id": "C086724",
+                    "entry_name": "Lipofectamine"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16991",
+                    "entry_name": "deoxyribonucleic acid"
+                },
+                {
+                    "db": "MESH",
+                    "id": "C086724",
+                    "entry_name": "Lipofectamine"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:60004",
+                    "entry_name": "mixture"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001415",
+                    "entry_name": "Back"
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "text": "Rin1 Morpholino Knockdown-Rin1 5'-UTR morpholino (CTCCTTCGCTTCAGGAAGAGAATCC) targeting the -35 to -11 region of RIN1 and nontargeting control morpholinos (CCTCTTACCTCAGTTACAATTTATA) were designed by Gene Tool LLC. A549 cells were grown in complete media to 80-90% confluency, trypsinized (1X trypsin, Invitrogen), and diluted to a final concentration of 5 \u00d7 10^6 cells/ml in complete media. 400 ul of diluted cells (2 \u00d7 10^6 cells total) and 10 nmol of morpholinos (preheated to 65 \u2103 for 10 min) were added to a 4-mm gap cuvette (VWR Scientific Products, West Chester, PA). Cells and morpholinos were mixed by gently tapping, and the morpholinos were introduced into the cells using electroporation (350 V with a 10-ms pulse using BTX Harvard Apparatus electroporator, Holliston, MA). Immediately after electroporation, cells were remixed, reconstituted in complete media, and plated at a concentration 1 \u00d7 10^5 cells/ml. Cells were allowed to recover for 24-72 h prior to analysis.",
+            "Results": [
+                {
+                    "bel_statement": "g(HGNC:RIN1) decreases g(HGNC:RIN1)",
+                    "evidence": "Rin1 Morpholino Knockdown-Rin1 5'-UTR morpholino (CTCCTTCGCTTCAGGAAGAGAATCC) targeting the -35 to -11 region of RIN1 and nontargeting control morpholinos (CCTCTTACCTCAGTTACAATTTATA) were designed by Gene Tool LLC."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "18749",
+                    "entry_name": "RIN1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020121",
+                    "entry_name": "5' Untranslated Regions"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18749",
+                    "entry_name": "RIN1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038045",
+                    "entry_name": "large latent transforming growth factor-beta complex"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000072283",
+                    "entry_name": "A549 Cells"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:9765",
+                    "entry_name": "Trypsin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "21610",
+                    "entry_name": "LNPK"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "GAP",
+                    "entry_name": "GAP"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16337",
+                    "entry_name": "phosphatidic acid"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018274",
+                    "entry_name": "Electroporation"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D011674",
+                    "entry_name": "Pulse"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018274",
+                    "entry_name": "Electroporation"
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "text": "Phospho-ERK1/2 Signaling Assay-Cells were washed two times with 1 ml of PBS and then serum-starved for 4 h using RPMI media. Cells were then stimulated with 100 ng/ml EGF (R & D Systems, Minneapolis, MN) for the indicated times and lysed with 100 ul of 5X sample buffer (25% 2-mercaptoethanol, 10% SDS, 0.3125 M Tris, pH 6.8, 0.16 mm bromphenol blue) directly on the wells post-stimulation. Lysates were collected and heated to 95 \u2103 for 10 min before Western blot analysis of phospho-ERK1/2 levels.",
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "ERK",
+                    "entry_name": "ERK"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11795",
+                    "entry_name": "THPO"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3229",
+                    "entry_name": "EGF"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:29035",
+                    "entry_name": "manganese(2+)"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "21610",
+                    "entry_name": "LNPK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:35225",
+                    "entry_name": "buffer"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:41218",
+                    "entry_name": "mercaptoethanol"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "10691",
+                    "entry_name": "SDS"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:9754",
+                    "entry_name": "tris"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006863",
+                    "entry_name": "Hydrogen-Ion Concentration"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009101",
+                    "entry_name": "Multiple Myeloma"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:59424",
+                    "entry_name": "bromophenol blue"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "ERK",
+                    "entry_name": "ERK"
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "text": "Colony Formation Assay-Cells were transfected with morpholinos and then the Rin1 expression constructs when used. Cells were allowed to recover for 24 h before replating at 1,000 or 3,000 cells per well in a 6-well plate (Corning Glass). Colony formation was then allowed to proceed for 8 days. Cells were then washed with 1 ml of PBS (Invitrogen), fixed/stained with 500 ul of Coomassie Blue solution (Bio-Rad) for 15 min, and finally washed three times with 1 ml of double distilled H2O. Fixed cell colonies were allowed to dry; plates were scanned at 600 dots per inch using an Epson Expression 1680 series scanner (Long Beach, CA), and images of colonies were electronically counted using the ColCount program written by J. R. Tomshine. Cells transfected with GFP-dnRab5 and GFP-dnDyn expression constructs were first sorted using flow cytometry before being plated.",
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18749",
+                    "entry_name": "RIN1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005898",
+                    "entry_name": "Glass"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11795",
+                    "entry_name": "THPO"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "21610",
+                    "entry_name": "LNPK"
+                },
+                {
+                    "db": "MESH",
+                    "id": "C048139",
+                    "entry_name": "Coomassie blue"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:75958",
+                    "entry_name": "solution"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11795",
+                    "entry_name": "THPO"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:15377",
+                    "entry_name": "water"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0004387",
+                    "entry_name": "inch"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:29108",
+                    "entry_name": "calcium(2+)"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019542",
+                    "entry_name": "Program"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005434",
+                    "entry_name": "Flow Cytometry"
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "text": "MTT Assay-Cells (1 \u00d7 10^5) were plated in each well of a 12-well plate and allowed to adhere for 24 h in complete media. The cells were washed two times with 1 ml of PBS, and 1 ml of RPMI containing 100 ng/ml EGF was added. After 24 and 72 h of incubation, 100 ul of 10X MTT reagent (250 mg of 3-[4,5-dimethylthiazol-2-yl]-2,5-diphenyltetrazolium bromide (Sigma) in 50 ml of PBS (Invitrogen)) was added, and samples were incubated for 1 h before the media were aspirated. Cells lysis buffer was added (20% SDS from Bio-Rad and 6 mM N,N-dimethylformamide from Sigma), and samples were incubated at room temperature for 15 min with vigorous shaking, and the lysates were analyzed spectrophotometrically at 570 nm.",
+            "Results": [],
+            "annotations": [
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:53233",
+                    "entry_name": "3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11795",
+                    "entry_name": "THPO"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11795",
+                    "entry_name": "THPO"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3229",
+                    "entry_name": "EGF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "21610",
+                    "entry_name": "LNPK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:53233",
+                    "entry_name": "3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33893",
+                    "entry_name": "reagent"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25107",
+                    "entry_name": "magnesium atom"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:15858",
+                    "entry_name": "bromide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11795",
+                    "entry_name": "THPO"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:35225",
+                    "entry_name": "buffer"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "10691",
+                    "entry_name": "SDS"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009101",
+                    "entry_name": "Multiple Myeloma"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:17741",
+                    "entry_name": "N,N-dimethylformamide"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013696",
+                    "entry_name": "Temperature"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "text": "125 I-Labeled EGF Internalization Assay-A549 cells were transfected with morpholinos as described above. 1 \u00d7 10^5 cells were added to each well of a 12-well plate and allowed to recover in complete serum for 48 h before serum starvation. Following at 4-h serum starvation in RPMI media, 125I-labeled EGF was added, and cell surface binding analysis was performed as described previously. For 125I-labeled EGF internalization assays, cells pre-bound with 125I-labeled EGF for 3.5 h at 4 \u2103 were shifted to 37 \u2103 for the times indicated.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"125I-labeled EGF\") increases sec(p(HGNC:EGFR))",
+                    "evidence": "Following at 4-h serum starvation in RPMI media, 125I-labeled EGF was added, and cell surface binding analysis was performed as described previously."
+                },
+                {
+                    "bel_statement": "sec(p(HGNC:EGFR)) increases a(CHEBI:\"125I-labeled EGF\")",
+                    "evidence": "For 125I-labeled EGF internalization assays, cells pre-bound with 125I-labeled EGF for 3.5 h at 4 \u2103 were shifted to 37 \u2103 for the times indicated."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "3229",
+                    "entry_name": "EGF"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D060172",
+                    "entry_name": "Morpholinos"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D044967",
+                    "entry_name": "Serum"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D044967",
+                    "entry_name": "Serum"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D044967",
+                    "entry_name": "Serum"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3229",
+                    "entry_name": "EGF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3229",
+                    "entry_name": "EGF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "3229",
+                    "entry_name": "EGF"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "text": "Non-small Cell Lung Adenocarcinomas Cell Lines Overexpress Rin1-To better understand Rin1 function in cell proliferation, a panel of lung adenocarcinoma cell lines was probed for Rin1 expression. Western blot analysis of cell lysates derived from seven non-small cell lung adenocarcinoma cell lines (A549, Hop62, H650, HCC4006, HCC827, EKVX, and HCC2935) revealed that all seven cell lines exhibit enhanced Rin1 levels compared with an immortalized but nontransformed lung epithelial cell line (BEAS-B2). Quantification of Rin1 expression levels (normalized to GAPDH expression levels) revealed a 2-12-fold increase in Rin1 protein levels in these cell lines. A549 cells overexpressed a modest level (~3-fold) of Rin1 and are well characterized in terms of their EGFR expression levels and signaling. Therefore, the role of Rin1 in EGF signaling was further examined in the A549 cell line.",
+            "Results": [
+                {
+                    "bel_statement": "a(HGNC:RIN1) increases a(HGNC:RIN1)",
+                    "evidence": "Western blot analysis of cell lysates derived from seven non-small cell lung adenocarcinoma cell lines (A549, Hop62, H650, HCC4006, HCC827, EKVX, and HCC2935) revealed that all seven cell lines exhibit enhanced Rin1 levels compared with an immortalized but nontransformed lung epithelial cell line (BEAS-B2)."
+                },
+                {
+                    "bel_statement": "a(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
+                    "evidence": "to better understand Rin1 function in cell proliferation, a panel of lung adenocarcinoma cell lines was probed for Rin1 expression."
+                },
+                {
+                    "bel_statement": "a(HGNC:RIN1) increases a(HGNC:RIN1)",
+                    "evidence": "Quantification of Rin1 expression levels (normalized to GAPDH expression levels) revealed a 2-12-fold increase in Rin1 protein levels in these cell lines."
+                },
+                {
+                    "bel_statement": "a(HGNC:RIN1) increases a(HGNC:RIN1)",
+                    "evidence": "A549 cells overexpressed a modest level (~3-fold) of Rin1 and are well characterized in terms of their EGFR expression levels and signaling."
                 }
             ],
             "annotations": [
@@ -1117,15 +1820,15 @@
             ]
         },
         {
-            "Index": "6",
-            "text": "Rin1 Depletion Negatively Impacts A549 Proliferation and EGFR Signaling\u2014To assess the functional significance of Rin1 overexpression in A549 cells, Rin1 was depleted using translation-blocking morpholinos that targeted the 5\u2032-UTR of RIN1. Morpholinos can generate very stable knockdown because of their resistance to nuclease degradation and were easily introduced into A549 cells (electroporation of 2 million cells with 5 nmol of morpholino resulted in a greater than 80% transfection efficiency; data not shown). Rin1 was previously shown to participate in EGFR signaling and trafficking in mouse fibroblasts. In this study, Rin1 depletion was used to analyze the impact of Rin1 on non-small cell lung adenocarcinoma proliferation. A549 cells transfected with either Rin1 5\u2032-UTR targeting morpholinos or control morpholinos were subjected to colony formation assays in the presence of complete media. Rin1 depletion resulted in a dramatic (over 4-fold) decrease in colony formation. To exclude off target effects, morpholinos that targeted other portions of RIN1 were also tested and had similar impacts on colony formation.",
+            "Index": "16",
+            "text": "Rin1 Depletion Negatively Impacts A549 Proliferation and EGFR Signaling-To assess the functional significance of Rin1 overexpression in A549 cells, Rin1 was depleted using translation-blocking morpholinos that targeted the 5'-UTR of RIN1. Morpholinos can generate very stable knockdown because of their resistance to nuclease degradation and were easily introduced into A549 cells (electroporation of 2 million cells with 5 nmol of morpholino resulted in a greater than 80% transfection efficiency; data not shown). Rin1 was previously shown to participate in EGFR signaling and trafficking in mouse fibroblasts. In this study, Rin1 depletion was used to analyze the impact of Rin1 on non-small cell lung adenocarcinoma proliferation. A549 cells transfected with either Rin1 5'-UTR targeting morpholinos or control morpholinos were subjected to colony formation assays in the presence of complete media. Rin1 depletion resulted in a dramatic (over 4-fold) decrease in colony formation. To exclude off target effects, morpholinos that targeted other portions of RIN1 were also tested and had similar impacts on colony formation.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
-                    "evidence": "Rin1 Depletion Negatively Impacts A549 Proliferation and EGFR Signaling\u2014To assess the functional significance of Rin1 overexpression in A549 cells, Rin1 was depleted using translation-blocking morpholinos that targeted the 5\u2032-UTR of RIN1."
+                    "bel_statement": "g(HGNC:RIN1) directlyDecreases bp(GO:\"cell proliferation\")",
+                    "evidence": "Rin1 Depletion Negatively Impacts A549 Proliferation and EGFR Signaling-To assess the functional significance of Rin1 overexpression in A549 cells, Rin1 was depleted using translation-blocking morpholinos that targeted the 5'-UTR of RIN1."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"EGFR signaling pathway\")",
+                    "bel_statement": "g(HGNC:RIN1) directlyDecreases bp(GO:\"EGFR signaling\")",
                     "evidence": "Rin1 was previously shown to participate in EGFR signaling and trafficking in mouse fibroblasts."
                 }
             ],
@@ -1303,15 +2006,15 @@
             ]
         },
         {
-            "Index": "7",
+            "Index": "17",
             "text": "To test whether the cell proliferation defect observed with Rin1 depletion was because of altered EGFR signaling, A549 cells were transfected with control or Rin1-specific morpholinos, serum-starved, and then stimulated with EGF. The levels of phosphorylated ERK1/2 (pERK) were used to assess EGF signaling. Depletion of Rin1 from A549 cells resulted in at least a 2-fold decrease in pERK levels, but not total ERK levels, indicating that the decrease in cell proliferation correlated with a decrease in EGF signaling. Additional cell proliferation assays were used to support this conclusion. An equal number of A549 cells were transfected with control or Rin1 morpholinos, allowed to recover for 24 h in complete media, and then switched to growth media containing only 100 ng/ml EGF for 24 and 72 h. 3-(4,5-Dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) uptake assays were then performed to assess the proliferative state of these cells. Rin1 depletion resulted in a decrease in cell proliferation as measured by the percent change in proliferation between 24 and 72 h. This decrease in cell proliferation was not because of any initial morpholino toxicity because 24 h after electroporation cells receiving control or Rin1 targeting morpholinos showed no difference in proliferation. These data confirmed a participatory role of Rin1 in EGF-mediated cell proliferation.",
             "Results": [
                 {
-                    "bel_statement": "a(UniProt:Q9UQC2) decreases act(p(HGNC:MAPK1), ma(GO:\"kinase activity\"))",
+                    "bel_statement": "p(HGNC:RIN1) decreases bp(GO:\"cell proliferation\")",
                     "evidence": "Depletion of Rin1 from A549 cells resulted in at least a 2-fold decrease in pERK levels, but not total ERK levels, indicating that the decrease in cell proliferation correlated with a decrease in EGF signaling."
                 },
                 {
-                    "bel_statement": "a(UniProt:Q9UQC2) decreases bp(GO:\"cell proliferation\")",
+                    "bel_statement": "a(CHEBI:\"EGF\") increases bp(GO:\"cell proliferation\")",
                     "evidence": "Rin1 depletion resulted in a decrease in cell proliferation as measured by the percent change in proliferation between 24 and 72 h."
                 }
             ],
@@ -1504,16 +2207,16 @@
             ]
         },
         {
-            "Index": "8",
-            "text": "To test the possibility that Rin1 depletion may have caused a delay in EGFR signaling as opposed to a general decrease in signaling, ERK1/2 activation was monitored for an extended period of time. Rin1 depletion resulted in a consistent, long term decrease in pERK levels up to 60 min without any apparent delay. In addition, re-expression of GFP-tagged full-length Rin1 (GFP-Rin1FL, resistant to the RIN1 5\u2032-UTR morpholino) but not GFP alone complemented this signaling defect, indicating that the EGF signaling defect was because of the loss of Rin1 function. To confirm Rin1 expression, Western analysis was performed.",
+            "Index": "18",
+            "text": "To test the possibility that Rin1 depletion may have caused a delay in EGFR signaling as opposed to a general decrease in signaling, ERK1/2 activation was monitored for an extended period of time. Rin1 depletion resulted in a consistent, long term decrease in pERK levels up to 60 min without any apparent delay. In addition, re-expression of GFP-tagged full-length Rin1 (GFP-Rin1FL, resistant to the RIN1 5'-UTR morpholino) but not GFP alone complemented this signaling defect, indicating that the EGF signaling defect was because of the loss of Rin1 function. To confirm Rin1 expression, Western analysis was performed.",
             "Results": [
                 {
-                    "bel_statement": "a(HGNC:RIN1) directlyDecreases p(HGNC:MAPK3, pmod(Ph))",
+                    "bel_statement": "p(HGNC:RIN1) decreases p(HGNC:ERK1)",
                     "evidence": "Rin1 depletion resulted in a consistent, long term decrease in pERK levels up to 60 min without any apparent delay."
                 },
                 {
-                    "bel_statement": "a(HGNC:RIN1) increases p(HGNC:EGFR)",
-                    "evidence": "In addition, re-expression of GFP-tagged full-length Rin1 (GFP-Rin1FL, resistant to the RIN1 5\u2032-UTR morpholino) but not GFP alone complemented this signaling defect, indicating that the EGF signaling defect was because of the loss of Rin1 function."
+                    "bel_statement": "p(HGNC:RIN1) hasActivity(p(HGNC:ERK1))",
+                    "evidence": "re-expression of GFP-tagged full-length Rin1 (GFP-Rin1FL, resistant to the RIN1 5'-UTR morpholino) but not GFP alone complemented this signaling defect, indicating that the EGF signaling defect was because of the loss of Rin1 function."
                 }
             ],
             "annotations": [
@@ -1600,16 +2303,20 @@
             ]
         },
         {
-            "Index": "9",
-            "text": "To further examine the impact of Rin1 on cell proliferation, A549 cells were transfected with either control or Rin1 morpholinos and then transfected with constructs encoding either GFP-Rin1 or the natural splice variant of Rin1 that lacks a functional Vps9 domain (Rin1\u25a1). After 24 h of recovery, cells were re-plated, and the ability of these transformants to proliferate was determined using the colony formation assay. Although GFP-Rin1 re-expression levels were low, this construct complemented the proliferation defect associated with the Rin1 depletion, although at a reduced level; this partial complementation may be attributed to less than complete transfection efficiency. However, Rin1\u25a1 expression did not complement Rin1 knockdown defects but instead caused further inhibition of cell proliferation. These results suggest that a functional Vps9 domain is critical for Rin1 activity in EGFR-mediated cell proliferation. To verify that the Rin1 Vps9 domain was important for A549 cell proliferation, Rin1\u25a1 or wild type Rin1 expression constructs were transfected into A549 cells and assayed for colony formation. Only Rin1\u25a1 expression but not wild type Rin1 expression resulted in decreased cell proliferation. These results indicated that Rin1 lacking a functional Vps9 domain acted as a dominant negative, suggesting that the trafficking roles of Rin1 were mediating EGFR proliferative signaling in A549 cells.",
+            "Index": "19",
+            "text": "To further examine the impact of Rin1 on cell proliferation, A549 cells were transfected with either control or Rin1 morpholinos and then transfected with constructs encoding either GFP-Rin1 or the natural splice variant of Rin1 that lacks a functional Vps9 domain (Rin14). After 24 h of recovery, cells were re-plated, and the ability of these transformants to proliferate was determined using the colony formation assay. Although GFP-Rin1 re-expression levels were low, this construct complemented the proliferation defect associated with the Rin1 depletion, although at a reduced level; this partial complementation may be attributed to less than complete transfection efficiency. However, Rin1A expression did not complement Rin1 knockdown defects but instead caused further inhibition of cell proliferation. These results suggest that a functional Vps9 domain is critical for Rin1 activity in EGFR-mediated cell proliferation. To verify that the Rin1 Vps9 domain was important for A549 cell proliferation, Rin14 or wild type Rin1 expression constructs were transfected into A549 cells and assayed for colony formation. Only Rin1A expression but not wild type Rin1 expression resulted in decreased cell proliferation. These results indicated that Rin1 lacking a functional Vps9 domain acted as a dominant negative, suggesting that the trafficking roles of Rin1 were mediating EGFR proliferative signaling in A549 cells.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
-                    "evidence": "These results suggest that a functional Vps9 domain is critical for Rin1 activity in EGFR-mediated cell proliferation."
+                    "bel_statement": "p(UniProt:GFP-Rin1) increases bp(GO:\"cell proliferation\")",
+                    "evidence": "Although GFP-Rin1 re-expression levels were low, this construct complemented the proliferation defect associated with the Rin1 depletion."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1, var(\"Rin1\u25a1\")) decreases bp(GO:\"cell proliferation\")",
-                    "evidence": "Only Rin1\u25a1 expression but not wild type Rin1 expression resulted in decreased cell proliferation."
+                    "bel_statement": "p(UniProt:Rin1A) decreases bp(GO:\"cell proliferation\")",
+                    "evidence": "Only Rin1A expression but not wild type Rin1 expression resulted in decreased cell proliferation."
+                },
+                {
+                    "bel_statement": "p(UniProt:Rin1) hasActivity(bp(GO:\"EGFR-mediated cell proliferation\"))",
+                    "evidence": "These results suggest that a functional Vps9 domain is critical for Rin1 activity in EGFR-mediated cell proliferation."
                 }
             ],
             "annotations": [
@@ -1751,12 +2458,16 @@
             ]
         },
         {
-            "Index": "10",
-            "text": "Internalization and Endosomal Trafficking Is Necessary for Proper Potentiation of EGFR Signaling in A549 Cells\u2014Because the Rin1 Vps9 domain activates Rab5 and has been shown to mediate ligand-induced EGFR internalization and endosomal trafficking, it was necessary to test whether loss of Rin1 impacted EGFR receptor levels (both total levels and also levels at the cell surface). The total levels of EGFR were examined using Western analysis. A549 cells were treated with control or Rin1 morpholinos, and then stimulated with 100 ng/ml EGF. Cell lysates were generated 0, 5, 10, and 30 min after stimulation. After 10 min of EGF treatment, EGFR levels dropped \u223c2-fold in cells transfected with the control morpholino, whereas cells depleted of Rin1 showed very little receptor loss following EGF stimulation.",
+            "Index": "20",
+            "text": "Internalization and Endosomal Trafficking Is Necessary for Proper Potentiation of EGFR Signaling in A549 Cells-Because the Rin1 Vps9 domain activates Rab5 and has been shown to mediate ligand-induced EGFR internalization and endosomal trafficking, it was necessary to test whether loss of Rin1 impacted EGFR receptor levels (both total levels and also levels at the cell surface). The total levels of EGFR were examined using Western analysis. A549 cells were treated with control or Rin1 morpholinos, and then stimulated with 100 ng/ml EGF. Cell lysates were generated 0, 5, 10, and 30 min after stimulation. After 10 min of EGF treatment, EGFR levels dropped ~2-fold in cells transfected with the control morpholino, whereas cells depleted of Rin1 showed very little receptor loss following EGF stimulation.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases act(p(HGNC:EGFR))",
-                    "evidence": "Because the Rin1 Vps9 domain activates Rab5 and has been shown to mediate ligand-induced EGFR internalization and endosomal trafficking, it was necessary to test whether loss of Rin1 impacted EGFR receptor levels (both total levels and also levels at the cell surface)."
+                    "bel_statement": "a(HGNC:EGFR) decreases a(HGNC:EGFR)",
+                    "evidence": "After 10 min of EGF treatment, EGFR levels dropped ~2-fold in cells transfected with the control morpholino."
+                },
+                {
+                    "bel_statement": "a(HGNC:RIN1) decreases a(HGNC:EGFR)",
+                    "evidence": "cells depleted of Rin1 showed very little receptor loss following EGF stimulation."
                 }
             ],
             "annotations": [
@@ -1863,19 +2574,19 @@
             ]
         },
         {
-            "Index": "11",
-            "text": "Surface levels of EGFR were measured by 125I-labeled EGF labeling. A549 cells were transfected with either control or Rin1 morpholinos, and cells were allowed to recover for 24 h. After a serum starvation of 4 h, the cells were incubated with 125I-labeled EGF for 3.5 h at 4 \u00b0C. Cells were then shifted to 37 \u00b0C for 30 min, and the amount of 125I-labeled EGF present at the cell surface was determined. Both control morpholino and Rin1 morpholino-transfected A549 cells exhibit comparable surface 125I-labeled EGF levels following the initial binding incubation, suggesting that the number of EGFRs at the cell surface following serum starvation was the same in cells with or without Rin1 depletion. However, after 30 min only 7% of the 125I-labeled EGF was still present at the cell surface of Rin1-expressing cells, whereas 73% of the 125I-labeled EGF was at the cell surface in Rin1-depleted cells. These results indicated that Rin1 depletion disrupted uptake of the surface-bound EGF. In addition, Rin1 depletion did not impact EGFR phosphorylation. These observations suggest that the defect in EGF-stimulated ERK1/2 activation with Rin1 depletion is because of a defect in EGFR endocytosis.",
+            "Index": "21",
+            "text": "Surface levels of EGFR were measured by 125I-labeled EGF labeling. A549 cells were transfected with either control or Rin1 morpholinos, and cells were allowed to recover for 24 h. After a serum starvation of 4 h, the cells were incubated with 125I-labeled EGF for 3.5 h at 4 \u2103. Cells were then shifted to 37 \u2103 for 30 min, and the amount of 125I-labeled EGF present at the cell surface was determined. Both control morpholino and Rin1 morpholino-transfected A549 cells exhibit comparable surface 125I-labeled EGF levels following the initial binding incubation, suggesting that the number of EGFRs at the cell surface following serum starvation was the same in cells with or without Rin1 depletion. However, after 30 min only 7% of the 125I-labeled EGF was still present at the cell surface of Rin1-expressing cells, whereas 73% of the 125I-labeled EGF was at the cell surface in Rin1-depleted cells. These results indicated that Rin1 depletion disrupted uptake of the surface-bound EGF. In addition, Rin1 depletion did not impact EGFR phosphorylation. These observations suggest that the defect in EGF-stimulated ERK1/2 activation with Rin1 depletion is because of a defect in EGFR endocytosis.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) directlyDecreases tloc(p(HGNC:EGFR), fromLoc(GO:\"cell surface\"), toLoc(GO:endosome\"))",
-                    "evidence": "These results indicated that Rin1 depletion disrupted uptake of the surface-bound EGF."
+                    "bel_statement": "p(HGNC:EGFR) decreases a(CHEBI:\"125I-labeled EGF\")",
+                    "evidence": "Both control morpholino and Rin1 morpholino-transfected A549 cells exhibit comparable surface 125I-labeled EGF levels following the initial binding incubation, suggesting that the number of EGFRs at the cell surface following serum starvation was the same in cells with or without Rin1 depletion."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) causesNoChange pmod(p(HGNC:EGFR), Ph)",
-                    "evidence": "In addition, Rin1 depletion did not impact EGFR phosphorylation."
+                    "bel_statement": "p(HGNC:EGFR) decreases a(CHEBI:\"125I-labeled EGF\")",
+                    "evidence": "However, after 30 min only 7% of the 125I-labeled EGF was still present at the cell surface of Rin1-expressing cells, whereas 73% of the 125I-labeled EGF was at the cell surface in Rin1-depleted cells."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) directlyDecreases act(p(HGNC:MAPK3), ma(GO:\"protein kinase activity\"))",
+                    "bel_statement": "bp(GO:\"EGFR endocytosis\") decreases bp(GO:\"EGF-stimulated ERK1/2 activation\")",
                     "evidence": "These observations suggest that the defect in EGF-stimulated ERK1/2 activation with Rin1 depletion is because of a defect in EGFR endocytosis."
                 }
             ],
@@ -2013,12 +2724,12 @@
             ]
         },
         {
-            "Index": "12",
-            "text": "To confirm that EGFR internalization was critical for potentiating EGFR signaling, a GFP-tagged dominant negative dynamin (dn-dynamin) K44A expression construct was transiently transfected into A549 cells, and the impact of its expression on EGF-stimulated signaling was determined. The expression of dn-dynamin resulted in an \u223c2-fold decrease in ERK1/2 activation in response to EGF stimulation; this observation supports the conclusion that internalization of EGFR is critical for proper signaling in A549 cells.",
+            "Index": "22",
+            "text": "To confirm that EGFR internalization was critical for potentiating EGFR signaling, a GFP-tagged dominant negative dynamin (dn-dynamin) K44A expression construct was transiently transfected into A549 cells, and the impact of its expression on EGF-stimulated signaling was determined. The expression of dn-dynamin resulted in an ~2-fold decrease in ERK1/2 activation in response to EGF stimulation; this observation supports the conclusion that internalization of EGFR is critical for proper signaling in A549 cells.",
             "Results": [
                 {
-                    "bel_statement": "act(p(HGNC:EGFR)) increases act(p(HGNC:MAPK1))",
-                    "evidence": "The expression of dn-dynamin resulted in an \u223c2-fold decrease in ERK1/2 activation in response to EGF stimulation; this observation supports the conclusion that internalization of EGFR is critical for proper signaling in A549 cells."
+                    "bel_statement": "p(HGNC:EGFR) directlyDecreases bp(GO:\"ERK1/2 activation\")",
+                    "evidence": "The expression of dn-dynamin resulted in an ~2-fold decrease in ERK1/2 activation in response to EGF stimulation."
                 }
             ],
             "annotations": [
@@ -2085,20 +2796,20 @@
             ]
         },
         {
-            "Index": "13",
-            "text": "To test the role of Rab5 in these processes, A549 cells were transfected with a GFP-tagged dominant negative Rab5 S34N (GFP-dnRab5) expression construct. Similar to the results with Rin1 depletion, expression of GFP-dnRab5 resulted in an \u223c2-fold decrease in pERK levels when compared with control cells expressing GFP alone. Finally, to confirm that dnRab5 and dn-dynamin expression impacted cell proliferation in a manner similar to Rin1 depletion, A549 cells transiently transfected with expression constructs encoding GFP-dnRab5, GFP-dn-dynamin, or GFP alone were tested for their ability to form colonies. Cells transfected with GFP-dnRab5 or GFP-dn-dynamin expression constructs showed decreased cell proliferation, supporting the conclusion that proper EGFR internalization and Rab5-mediated endosomal trafficking of EGFR are critical for potentiating proliferative signaling in A549 cells.",
+            "Index": "23",
+            "text": "To test the role of Rab5 in these processes, A549 cells were transfected with a GFP-tagged dominant negative Rab5 S34N (GFP-dnRab5) expression construct. Similar to the results with Rin1 depletion, expression of GFP-dnRab5 resulted in an ~2-fold decrease in pERK levels when compared with control cells expressing GFP alone. Finally, to confirm that dnRab5 and dn-dynamin expression impacted cell proliferation in a manner similar to Rin1 depletion, A549 cells transiently transfected with expression constructs encoding GFP-dnRab5, GFP-dn-dynamin, or GFP alone were tested for their ability to form colonies. Cells transfected with GFP-dnRab5 or GFP-dn-dynamin expression constructs showed decreased cell proliferation, supporting the conclusion that proper EGFR internalization and Rab5-mediated endosomal trafficking of EGFR are critical for potentiating proliferative signaling in A549 cells.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RAB5A, var(\"S34N\")) directlyDecreases p(HGNC:MAPK1, pmod(Ph))",
-                    "evidence": "Similar to the results with Rin1 depletion, expression of GFP-dnRab5 resulted in an \u223c2-fold decrease in pERK levels when compared with control cells expressing GFP alone."
+                    "bel_statement": "p(UniProt:GFP-dnRab5) directlyDecreases a(UniProt:pERK)",
+                    "evidence": "expression of GFP-dnRab5 resulted in an ~2-fold decrease in pERK levels when compared with control cells expressing GFP alone."
                 },
                 {
-                    "bel_statement": "p(HGNC:RAB5A, var(\"S34N\")) decreases bp(GO:\"cell proliferation\")",
-                    "evidence": "Cells transfected with GFP-dnRab5 or GFP-dn-dynamin expression constructs showed decreased cell proliferation, supporting the conclusion that proper EGFR internalization and Rab5-mediated endosomal trafficking of EGFR are critical for potentiating proliferative signaling in A549 cells."
+                    "bel_statement": "p(UniProt:GFP-dnRab5) directlyDecreases bp(GO:\"cell proliferation\")",
+                    "evidence": "Cells transfected with GFP-dnRab5 or GFP-dn-dynamin expression constructs showed decreased cell proliferation."
                 },
                 {
-                    "bel_statement": "p(HGNC:DNM1, var(\"dn\")) decreases bp(GO:\"cell proliferation\")",
-                    "evidence": "Cells transfected with GFP-dnRab5 or GFP-dn-dynamin expression constructs showed decreased cell proliferation, supporting the conclusion that proper EGFR internalization and Rab5-mediated endosomal trafficking of EGFR are critical for potentiating proliferative signaling in A549 cells."
+                    "bel_statement": "p(UniProt:GFP-dn-dynamin) directlyDecreases bp(GO:\"cell proliferation\")",
+                    "evidence": "Cells transfected with GFP-dnRab5 or GFP-dn-dynamin expression constructs showed decreased cell proliferation."
                 }
             ],
             "annotations": [
@@ -2170,28 +2881,16 @@
             ]
         },
         {
-            "Index": "14",
-            "text": "RIN1 mRNA Up-regulation in Human Lung Tumor Samples\u2014To determine whether Rin1 was up-regulated in human lung tumor specimens, the mRNA levels of RIN1 in a data base of gene expression profiles for human non-small cell lung cancer were analyzed. Gene expression from 186 human lung tumors with associated clinical information were surveyed for statistically significant variations in RIN1 mRNA levels. Of three Rin1 probe sets on the Affymetrix U95 array, one probe set (1777_at) was significantly up-regulated in adenocarcinoma, bronchioalveolar carcinoma, metastatic adenocarcinoma, and carcinoid and squamous cell carcinoma compared with normal lung. The other two probe sets demonstrated statistically significant up-regulation in both squamous cell carcinoma and metastatic adenocarcinoma of the lung. This analysis indicates that the up-regulation of Rin1 apparent in the lung adenocarcinoma cell lines is also evident in multiple human lung tumor specimens.",
+            "Index": "24",
+            "text": "RIN1 mRNA Up-regulation in Human Lung Tumor Samples-To determine whether Rin1 was up-regulated in human lung tumor specimens, the mRNA levels of RIN1 in a data base of gene expression profiles for human non-small cell lung cancer were analyzed. Gene expression from 186 human lung tumors with associated clinical information were surveyed for statistically significant variations in RIN1 mRNA levels. Of three Rin1 probe sets on the Affymetrix U95 array, one probe set (1777_at) was significantly up-regulated in adenocarcinoma, bronchioalveolar carcinoma, metastatic adenocarcinoma, and carcinoid and squamous cell carcinoma compared with normal lung. The other two probe sets demonstrated statistically significant up-regulation in both squamous cell carcinoma and metastatic adenocarcinoma of the lung. This analysis indicates that the up-regulation of Rin1 apparent in the lung adenocarcinoma cell lines is also evident in multiple human lung tumor specimens.",
             "Results": [
                 {
-                    "bel_statement": "r(HGNC:RIN1) increases path(DOID:3908)",
-                    "evidence": "Of three Rin1 probe sets on the Affymetrix U95 array, one probe set (1777_at) was significantly up-regulated in adenocarcinoma, bronchioalveolar carcinoma, metastatic adenocarcinoma, and carcinoid and squamous cell carcinoma compared with normal lung."
+                    "bel_statement": "g(HGNC:RIN1) increases a(HGNC:RIN1)",
+                    "evidence": "To determine whether Rin1 was up-regulated in human lung tumor specimens, the mRNA levels of RIN1 in a data base of gene expression profiles for human non-small cell lung cancer were analyzed."
                 },
                 {
-                    "bel_statement": "r(HGNC:RIN1) increases path(DOID:3909)",
-                    "evidence": "Of three Rin1 probe sets on the Affymetrix U95 array, one probe set (1777_at) was significantly up-regulated in adenocarcinoma, bronchioalveolar carcinoma, metastatic adenocarcinoma, and carcinoid and squamous cell carcinoma compared with normal lung."
-                },
-                {
-                    "bel_statement": "r(HGNC:RIN1) increases path(DOID:3907)",
-                    "evidence": "Of three Rin1 probe sets on the Affymetrix U95 array, one probe set (1777_at) was significantly up-regulated in adenocarcinoma, bronchioalveolar carcinoma, metastatic adenocarcinoma, and carcinoid and squamous cell carcinoma compared with normal lung."
-                },
-                {
-                    "bel_statement": "r(HGNC:RIN1) increases path(DOID:3906)",
-                    "evidence": "Of three Rin1 probe sets on the Affymetrix U95 array, one probe set (1777_at) was significantly up-regulated in adenocarcinoma, bronchioalveolar carcinoma, metastatic adenocarcinoma, and carcinoid and squamous cell carcinoma compared with normal lung."
-                },
-                {
-                    "bel_statement": "r(HGNC:RIN1) increases path(DOID:3905)",
-                    "evidence": "The other two probe sets demonstrated statistically significant up-regulation in both squamous cell carcinoma and metastatic adenocarcinoma of the lung."
+                    "bel_statement": "a(HGNC:RIN1) increases bp(GO:\"lung adenocarcinoma\")",
+                    "evidence": "This analysis indicates that the up-regulation of Rin1 apparent in the lung adenocarcinoma cell lines is also evident in multiple human lung tumor specimens."
                 }
             ],
             "annotations": [
@@ -2383,20 +3082,24 @@
             ]
         },
         {
-            "Index": "15",
+            "Index": "25",
             "text": "Endocytosis plays an important role in regulating the signaling capacity of EGFR. Receptor internalization has been shown to play an important role in the attenuation of EGFR signaling. Interfering with receptor internalization can potentiate cell signaling cascades and can result in increased cell proliferation. However, EGFR internalization can also be an important factor in potentiating signaling. Internalized EGFRs have been shown to maintain their activated state and are capable of recruiting downstream signaling components to early endosomal structures. These and other studies indicate that EGFR signaling can occur at the cell surface as well as from endosomal structures. Receptor trafficking events can therefore have profoundly different effects on cell signaling and cell proliferation given the specific cellular context.",
             "Results": [
                 {
-                    "bel_statement": "tloc(p(HGNC:EGFR), fromLoc(GO:\"cell surface\"), toLoc(GO:endosome\")) decreases act(p(HGNC:EGFR))",
-                    "evidence": "Receptor internalization has been shown to play an important role in the attenuation of EGFR signaling."
-                },
-                {
-                    "bel_statement": "tloc(p(HGNC:EGFR), fromLoc(GO:\"cell surface\"), toLoc(GO:endosome\")) increases bp(GO:\"cell proliferation\")",
+                    "bel_statement": "act(p(HGNC:EGFR)) increases bp(GO:\"cell proliferation\")",
                     "evidence": "Interfering with receptor internalization can potentiate cell signaling cascades and can result in increased cell proliferation."
                 },
                 {
-                    "bel_statement": "tloc(p(HGNC:EGFR), fromLoc(GO:\"cell surface\"), toLoc(GO:endosome\")) increases act(p(HGNC:EGFR))",
-                    "evidence": "Internalized EGFRs have been shown to maintain their activated state and are capable of recruiting downstream signaling components to early endosomal structures."
+                    "bel_statement": "act(p(HGNC:EGFR)) increases bp(GO:\"signaling capacity\")",
+                    "evidence": "Endocytosis plays an important role in regulating the signaling capacity of EGFR."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:EGFR)) increases bp(GO:\"attenuation of EGFR signaling\")",
+                    "evidence": "Receptor internalization has been shown to play an important role in the attenuation of EGFR signaling."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:EGFR)) increases bp(GO:\"signaling\")",
+                    "evidence": "These and other studies indicate that EGFR signaling can occur at the cell surface as well as from endosomal structures."
                 }
             ],
             "annotations": [
@@ -2488,27 +3191,15 @@
             ]
         },
         {
-            "Index": "16",
+            "Index": "26",
             "text": "Analysis of Rin1 function in non-small cell lung adenocarcinoma cell lines supports a role for receptor trafficking in propagating EGFR signaling in this cell type. Because of the critical role Rab5 plays in trafficking EGFR to early endosomal structures, up-regulation of the Rab5 activator Rin1 was one of the first clues suggesting that early endosomal trafficking could positively impact EGFR-mediated cell proliferation in non-small cell lung adenocarcinoma cell lines. Consistent with this model, Rin1 depletion from one of these cell lines, A549, resulted in decreased EGF-mediated cell proliferation. In addition to A549 cells, Rin1 depletion in Hop62 cells (another non-small cell lung adenocarcinoma cell line that overexpressed Rin1) also resulted in decreased EGF-dependent signaling and cell proliferation, although the decrease was not as robust as A549 cells. A positive impact of Rin1 on EGFR signaling was not limited to non-small cell adenocarcinoma cell lines. Rin1 depletion from a human epithelial carcinoma cell line (A431) also displayed a dramatic decrease in cell proliferation and EGFR signaling upon Rin1 depletion. In addition, RIN1 mRNA levels were also elevated in human lung tumors samples. These observations suggest that Rin1 can promote EGF signaling in a manner important for proliferation of both non-small cell lung adenocarcinoma and epithelial carcinoma.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"EGFR signaling pathway\")",
-                    "evidence": "Analysis of Rin1 function in non-small cell lung adenocarcinoma cell lines supports a role for receptor trafficking in propagating EGFR signaling in this cell type."
-                },
-                {
                     "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
-                    "evidence": "Consistent with this model, Rin1 depletion from one of these cell lines, A549, resulted in decreased EGF-mediated cell proliferation."
+                    "evidence": "Rin1 depletion from one of these cell lines, A549, resulted in decreased EGF-mediated cell proliferation."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"EGFR signaling pathway\")",
-                    "evidence": "In addition to A549 cells, Rin1 depletion in Hop62 cells (another non-small cell lung adenocarcinoma cell line that overexpressed Rin1) also resulted in decreased EGF-dependent signaling and cell proliferation, although the decrease was not as robust as A549 cells."
-                },
-                {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"cell proliferation\")",
-                    "evidence": "In addition to A549 cells, Rin1 depletion in Hop62 cells (another non-small cell lung adenocarcinoma cell line that overexpressed Rin1) also resulted in decreased EGF-dependent signaling and cell proliferation, although the decrease was not as robust as A549 cells."
-                },
-                {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"EGFR signaling pathway\")",
+                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"EGFR signaling\")",
                     "evidence": "A positive impact of Rin1 on EGFR signaling was not limited to non-small cell adenocarcinoma cell lines."
                 },
                 {
@@ -2750,28 +3441,20 @@
             ]
         },
         {
-            "Index": "17",
-            "text": "This positive role of Rin1 function in cell signaling in these cell types was surprising, because previous work demonstrated that Rin1 played an important role in signal attenuation. In studies using mouse fibroblasts, overexpression of Rin1 resulted in the attenuation of EGFR signaling, but overexpression of Rin1\u25a1 (lacking the ability to activate Rab5) resulted in increased signaling. The differences between these previous studies and the current observations are likely the result of the cellular location from which the majority of EGFR signaling occurs. In fibroblast-derived cell lines, the majority of signaling likely occurs from the cell surface, whereas in non-small cell adenocarcinoma-derived cell lines tested, EGFR internalization is necessary for robust signaling. This model is supported by the following observations: 1) even though Rin1 depletion from A549 cells resulted in the stabilization of cell surface EGFR, signaling was depressed; 2) signaling was negatively impacted in a similar manner when dominant negative dynamin or Rab5 were expressed in these cells. Together these data support a model in which the proper internalization and subsequent endocytic trafficking is critical for the potentiation of EGFR-mediated proliferative signaling in A549 cells.",
+            "Index": "27",
+            "text": "This positive role of Rin1 function in cell signaling in these cell types was surprising, because previous work demonstrated that Rin1 played an important role in signal attenuation. In studies using mouse fibroblasts, overexpression of Rin1 resulted in the attenuation of EGFR signaling, but overexpression of Rin14 (lacking the ability to activate Rab5) resulted in increased signaling. The differences between these previous studies and the current observations are likely the result of the cellular location from which the majority of EGFR signaling occurs. In fibroblast-derived cell lines, the majority of signaling likely occurs from the cell surface, whereas in non-small cell adenocarcinoma-derived cell lines tested, EGFR internalization is necessary for robust signaling. This model is supported by the following observations: 1) even though Rin1 depletion from A549 cells resulted in the stabilization of cell surface EGFR, signaling was depressed; 2) signaling was negatively impacted in a similar manner when dominant negative dynamin or Rab5 were expressed in these cells. Together these data support a model in which the proper internalization and subsequent endocytic trafficking is critical for the potentiation of EGFR-mediated proliferative signaling in A549 cells.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) decreases bp(GO:\"EGFR signaling pathway\")",
-                    "evidence": "In studies using mouse fibroblasts, overexpression of Rin1 resulted in the attenuation of EGFR signaling."
+                    "bel_statement": "p(HGNC:RIN1) increases act(p(HGNC:EGFR))",
+                    "evidence": "overexpression of Rin1 resulted in the attenuation of EGFR signaling, but overexpression of Rin14 (lacking the ability to activate Rab5) resulted in increased signaling."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) increases bp(GO:\"EGFR signaling pathway\")",
-                    "evidence": "Overexpression of Rin1\u25a1 (lacking the ability to activate Rab5) resulted in increased signaling."
-                },
-                {
-                    "bel_statement": "p(HGNC:RIN1) decreases surf(p(HGNC:EGFR))",
+                    "bel_statement": "p(HGNC:RIN1) decreases act(p(HGNC:EGFR))",
                     "evidence": "Rin1 depletion from A549 cells resulted in the stabilization of cell surface EGFR, signaling was depressed."
                 },
                 {
-                    "bel_statement": "p(HGNC:DNM1) decreases bp(GO:\"EGFR signaling pathway\")",
-                    "evidence": "Signaling was negatively impacted in a similar manner when dominant negative dynamin or Rab5 were expressed in these cells."
-                },
-                {
-                    "bel_statement": "p(HGNC:RAB5A) decreases bp(GO:\"EGFR signaling pathway\")",
-                    "evidence": "Signaling was negatively impacted in a similar manner when dominant negative dynamin or Rab5 were expressed in these cells."
+                    "bel_statement": "p(HGNC:RAB5) decreases act(p(HGNC:EGFR))",
+                    "evidence": "signaling was negatively impacted in a similar manner when dominant negative dynamin or Rab5 were expressed in these cells."
                 }
             ],
             "annotations": [
@@ -2903,19 +3586,23 @@
             ]
         },
         {
-            "Index": "18",
-            "text": "The diverse impact Rin1 function has on cell signaling systems is further exemplified by the examination of its role in breast cancer cell lines. Rin1 expression is silenced by the transcription repressor Snail in several breast cancer cell lines. When Rin1 expression is up-regulated in these cell lines, transforming growth factor \u03b2 signaling is suppressed; cell growth in soft agar is inhibited, and breast cancer tumorigenesis is attenuated. These analyses and the data presented here strongly support the model that Rin1 can participate in the potentiation or attenuation of cell signaling processes through its modulation of endocytic trafficking events in a context-specific manner. Defining the impacts of Rin1 on receptor signaling and trafficking systems in different cell types has offered unique insights into how regulatory components of the endocytic pathway impact normal cellular functions and how these processes can be altered to enhance cell proliferation and tumorigenesis.",
+            "Index": "28",
+            "text": "The diverse impact Rin1 function has on cell signaling systems is further exemplified by the examination of its role in breast cancer cell lines. Rin1 expression is silenced by the transcription repressor Snail in several breast cancer cell lines. When Rin1 expression is up-regulated in these cell lines, transforming growth factor \u00df signaling is suppressed; cell growth in soft agar is inhibited, and breast cancer tumorigenesis is attenuated. These analyses and the data presented here strongly support the model that Rin1 can participate in the potentiation or attenuation of cell signaling processes through its modulation of endocytic trafficking events in a context-specific manner. Defining the impacts of Rin1 on receptor signaling and trafficking systems in different cell types has offered unique insights into how regulatory components of the endocytic pathway impact normal cellular functions and how these processes can be altered to enhance cell proliferation and tumorigenesis.",
             "Results": [
                 {
-                    "bel_statement": "p(HGNC:RIN1) decreases bp(GO:\"transforming growth factor beta receptor signaling pathway\")",
-                    "evidence": "When Rin1 expression is up-regulated in these cell lines, transforming growth factor \u03b2 signaling is suppressed."
+                    "bel_statement": "g(HGNC:RIN1) decreases g(HGNC:SNAI1)",
+                    "evidence": "Rin1 expression is silenced by the transcription repressor Snail in several breast cancer cell lines."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) decreases bp(GO:\"cell growth\")",
+                    "bel_statement": "g(HGNC:RIN1) increases bp(GO:\"transforming growth factor beta signaling\")",
+                    "evidence": "When Rin1 expression is up-regulated in these cell lines, transforming growth factor \u00df signaling is suppressed."
+                },
+                {
+                    "bel_statement": "g(HGNC:RIN1) decreases bp(GO:\"cell growth in soft agar\")",
                     "evidence": "When Rin1 expression is up-regulated in these cell lines, cell growth in soft agar is inhibited."
                 },
                 {
-                    "bel_statement": "p(HGNC:RIN1) decreases path(DOID:breast_cancer)",
+                    "bel_statement": "g(HGNC:RIN1) decreases bp(GO:\"breast cancer tumorigenesis\")",
                     "evidence": "When Rin1 expression is up-regulated in these cell lines, breast cancer tumorigenesis is attenuated."
                 }
             ],
@@ -2961,9 +3648,9 @@
                     "entry_name": "RIN1"
                 },
                 {
-                    "db": "FPLX",
-                    "id": "TGFB",
-                    "entry_name": "TGFB"
+                    "db": "MESH",
+                    "id": "D015291",
+                    "entry_name": "Transforming Growth Factors"
                 },
                 {
                     "db": "GO",

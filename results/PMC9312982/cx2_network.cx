@@ -1,0 +1,1719 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 1,
+                "name": "networkAttributes"
+            },
+            {
+                "elementCount": 61,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 67,
+                "name": "edges"
+            },
+            {
+                "elementCount": 1,
+                "name": "visualProperties"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "id": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                },
+                "networkAttributes": {
+                    "name": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "name": "LLM Text to Knowledge Graph for publication: PMC9312982"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "TLR",
+                    "name": "a(FPLX:TLR)",
+                    "type": "a",
+                    "id": "https://identifiers.org/FPLX:TLR"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "pro-inflammatory response",
+                    "name": "bp(GO:\"pro-inflammatory response\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "adaptive immune response",
+                    "name": "bp(GO:\"adaptive immune response\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "TIRAP",
+                    "name": "p(HGNC:TIRAP)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:17192"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "MAPK3",
+                    "name": "act(p(HGNC:MAPK3)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "MAPK1",
+                    "name": "act(p(HGNC:MAPK1)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "LPS",
+                    "name": "a(CHEBI:LPS)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "FSL-1",
+                    "name": "a(CHEBI:FSL-1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "CL075",
+                    "name": "a(CHEBI:CL075)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "0002784",
+                    "name": "a(EFO:0002784)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "0005634",
+                    "name": "a(GO:0005634)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "STAT1",
+                    "name": "p(HGNC:STAT1)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:11362"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "GAPDH",
+                    "name": "p(HGNC:GAPDH)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:4141"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "PCNA",
+                    "name": "p(HGNC:PCNA)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:8729"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "TUBB",
+                    "name": "p(HGNC:TUBB)",
+                    "type": "p",
+                    "id": "https://identifiers.org/FPLX:TUBB"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "Q9NWZ3",
+                    "name": "a(UniProt:Q9NWZ3)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "TIRAP siRNA",
+                    "name": "a(EFO:TIRAP siRNA)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "MDM",
+                    "name": "a(EFO:MDM)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "IFNB1",
+                    "name": "r(HGNC:IFNB1)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "IL12A",
+                    "name": "r(HGNC:IL12A)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:5969"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "TNF",
+                    "name": "r(HGNC:TNF)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:11892"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "IL6",
+                    "name": "r(HGNC:IL6)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:6018"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "IL1B",
+                    "name": "r(HGNC:IL1B)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:5992"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "IL12B",
+                    "name": "r(HGNC:IL12B)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:5970"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "TIRAP",
+                    "name": "g(HGNC:TIRAP)",
+                    "type": "g",
+                    "id": "https://identifiers.org/HGNC:17192"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "IFNB1",
+                    "name": "p(HGNC:IFNB1)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "TLR4 signaling pathway",
+                    "name": "bp(GO:\"TLR4 signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "TLR2",
+                    "name": "p(HGNC:TLR2)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:11848"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "IRF5",
+                    "name": "tloc(p(HGNC:IRF5)",
+                    "type": "tloc",
+                    "id": "https://identifiers.org/HGNC:6120"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "MYD88",
+                    "name": "complex(p(HGNC:MYD88)",
+                    "type": "complex",
+                    "id": "https://identifiers.org/HGNC:7562"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "MAP3K7, pmod(Ph",
+                    "name": "p(HGNC:MAP3K7, pmod(Ph)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "MAPK1, pmod(Ph",
+                    "name": "p(HGNC:MAPK1, pmod(Ph)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "JNK1, pmod(Ph",
+                    "name": "p(HGNC:JNK1, pmod(Ph)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "MAPK14, pmod(Ph",
+                    "name": "p(HGNC:MAPK14, pmod(Ph)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "NFKBIA",
+                    "name": "deg(p(HGNC:NFKBIA)",
+                    "type": "deg",
+                    "id": "https://identifiers.org/HGNC:7797"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "AKT1, pmod(Ph, Ser, 473",
+                    "name": "p(HGNC:AKT1, pmod(Ph, Ser, 473)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "label": "TLR8",
+                    "name": "p(HGNC:TLR8)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:15632"
+                }
+            },
+            {
+                "id": 37,
+                "v": {
+                    "label": "TIRAP",
+                    "name": "a(HGNC:TIRAP)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:17192"
+                }
+            },
+            {
+                "id": 38,
+                "v": {
+                    "label": "TLR8 signaling pathway",
+                    "name": "bp(GO:\"TLR8 signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 39,
+                "v": {
+                    "label": "MAPK14",
+                    "name": "act(p(HGNC:MAPK14)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 40,
+                "v": {
+                    "label": "phosphatidylinositol 4,5-bisphosphate",
+                    "name": "a(CHEBI:\"phosphatidylinositol 4,5-bisphosphate\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 41,
+                "v": {
+                    "label": "phosphatidylinositol 3-phosphate",
+                    "name": "a(CHEBI:\"phosphatidylinositol 3-phosphate\")",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:26034"
+                }
+            },
+            {
+                "id": 42,
+                "v": {
+                    "label": "TLR7",
+                    "name": "act(p(HGNC:TLR7)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:15631"
+                }
+            },
+            {
+                "id": 43,
+                "v": {
+                    "label": "TLR9",
+                    "name": "act(p(HGNC:TLR9)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:15633"
+                }
+            },
+            {
+                "id": 44,
+                "v": {
+                    "label": "IFNA1",
+                    "name": "r(HGNC:IFNA1)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 45,
+                "v": {
+                    "label": "TIRAP",
+                    "name": "act(p(HGNC:TIRAP)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:17192"
+                }
+            },
+            {
+                "id": 46,
+                "v": {
+                    "label": "IRF5",
+                    "name": "act(p(HGNC:IRF5)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:6120"
+                }
+            },
+            {
+                "id": 47,
+                "v": {
+                    "label": "AKT1, pmod(Ph",
+                    "name": "p(HGNC:AKT1, pmod(Ph)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 48,
+                "v": {
+                    "label": "PI3K-Akt signaling pathway",
+                    "name": "bp(GO:\"PI3K-Akt signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 49,
+                "v": {
+                    "label": "cellular metabolic process",
+                    "name": "bp(GO:\"cellular metabolic process\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0044237"
+                }
+            },
+            {
+                "id": 50,
+                "v": {
+                    "label": "cellular survival",
+                    "name": "bp(GO:\"cellular survival\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 51,
+                "v": {
+                    "label": "IFNA1",
+                    "name": "p(HGNC:IFNA1)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 52,
+                "v": {
+                    "label": "0050741",
+                    "name": "path(DOID:0050741)",
+                    "type": "path"
+                }
+            },
+            {
+                "id": 53,
+                "v": {
+                    "label": "TLR2",
+                    "name": "r(HGNC:TLR2)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:11848"
+                }
+            },
+            {
+                "id": 54,
+                "v": {
+                    "label": "TLR4",
+                    "name": "r(HGNC:TLR4)",
+                    "type": "r",
+                    "id": "https://identifiers.org/HGNC:11850"
+                }
+            },
+            {
+                "id": 55,
+                "v": {
+                    "label": "STAT1, pmod(Ph, Tyr, 701",
+                    "name": "p(HGNC:STAT1, pmod(Ph, Tyr, 701)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 56,
+                "v": {
+                    "label": "PF-06426779",
+                    "name": "a(CHEBI:PF-06426779)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 57,
+                "v": {
+                    "label": "IRAK4",
+                    "name": "p(HGNC:IRAK4)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:17967"
+                }
+            },
+            {
+                "id": 58,
+                "v": {
+                    "label": "cytokine production",
+                    "name": "bp(GO:\"cytokine production\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0001816"
+                }
+            },
+            {
+                "id": 59,
+                "v": {
+                    "label": "IL-12A induction",
+                    "name": "bp(GO:\"IL-12A induction\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 60,
+                "v": {
+                    "label": "pro-inflammatory cytokine induction",
+                    "name": "bp(GO:\"pro-inflammatory cytokine induction\")",
+                    "type": "bp"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(FPLX:TLR) increases bp(GO:\"pro-inflammatory response\")",
+                    "text": "Toll-like receptors (TLRs) are one of the most studied groups of pattern-recognition receptors (PRRs), which recognize pathogen-associated molecular patterns and damage-associated molecular patterns. TLRs provide protection against both external and internal threats by initiating a pro-inflammatory response as well as activating and guiding the adaptive immune system to mount effector responses that will eliminate and/or ameliorate the problem. Dysfunction or dysregulation of TLR responses can have dire consequences for the host, such as increased susceptibility to infection or excessive life-threatening inflammation. Thus, understanding how these receptors operate holds great potential for guiding preventive measures as well as the development of better treatments and new drugs for infectious and autoimmune diseases, cancer, and cardiovascular disease. Through the years, some TLRs have received more attention than others, often due to the availability of easily accessible models and their convenience for study, but with technological and scientific advances, this gap is closing. TLR8 provides a classic example of a less-studied TLR as it is non-functional in rodents and, thus, application of murine models/KOs is limited.",
+                    "evidence": "TLRs provide protection against both external and internal threats by initiating a pro-inflammatory response as well as activating and guiding the adaptive immune system to mount effector responses that will eliminate and/or ameliorate the problem."
+                }
+            },
+            {
+                "id": 1,
+                "s": 0,
+                "t": 2,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(FPLX:TLR) increases bp(GO:\"adaptive immune response\")",
+                    "text": "Toll-like receptors (TLRs) are one of the most studied groups of pattern-recognition receptors (PRRs), which recognize pathogen-associated molecular patterns and damage-associated molecular patterns. TLRs provide protection against both external and internal threats by initiating a pro-inflammatory response as well as activating and guiding the adaptive immune system to mount effector responses that will eliminate and/or ameliorate the problem. Dysfunction or dysregulation of TLR responses can have dire consequences for the host, such as increased susceptibility to infection or excessive life-threatening inflammation. Thus, understanding how these receptors operate holds great potential for guiding preventive measures as well as the development of better treatments and new drugs for infectious and autoimmune diseases, cancer, and cardiovascular disease. Through the years, some TLRs have received more attention than others, often due to the availability of easily accessible models and their convenience for study, but with technological and scientific advances, this gap is closing. TLR8 provides a classic example of a less-studied TLR as it is non-functional in rodents and, thus, application of murine models/KOs is limited.",
+                    "evidence": "TLRs provide protection against both external and internal threats by initiating a pro-inflammatory response as well as activating and guiding the adaptive immune system to mount effector responses that will eliminate and/or ameliorate the problem."
+                }
+            },
+            {
+                "id": 2,
+                "s": 3,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIRAP) increases act(p(HGNC:MAPK3)",
+                    "text": "TLR2 and TLR4 require a Toll-internleukin-1-receptor (TIR) domain containing adaptor protein/MyD88 adaptor-like (TIRAP) to attract MyD88 to the signaling complex. For some time, the restricted role of TIRAP for these plasma-membrane-localized TLRs seemed apparent, given the phosphatidylinositol-4,5-bisphosphate (PI(4,5)P2)-binding motif in the N-terminal domain of TIRAP, which attracts this adaptor protein to the plasma membrane where PI(4,5)P2 is abundant. However, Bonham et al., have shown that TIRAP is also capable of binding other phosphoinositides, PI(3)P and PI(3,5)P2, on endosomal membranes, and mediates signaling from endosomal TLR7 and TLR9 in murine cells. Recently, some evidence of TIRAP involvement in signaling from TLR7 and TLR9 in human cells was provided by Leszczynska et al., and Zyzak et al.. In both studies, TIRAP is suggested to regulate IFNbeta expression by regulating ERK1/2 (MAPK3/MAPK1) activation. Whether TIRAP could contribute to signaling from TLR8, the third member of the TLR7 subgroup of TLRs, has not yet been explored.",
+                    "evidence": "In both studies, TIRAP is suggested to regulate IFNbeta expression by regulating ERK1/2 (MAPK3/MAPK1) activation."
+                }
+            },
+            {
+                "id": 3,
+                "s": 3,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIRAP) increases act(p(HGNC:MAPK1)",
+                    "text": "TLR2 and TLR4 require a Toll-internleukin-1-receptor (TIR) domain containing adaptor protein/MyD88 adaptor-like (TIRAP) to attract MyD88 to the signaling complex. For some time, the restricted role of TIRAP for these plasma-membrane-localized TLRs seemed apparent, given the phosphatidylinositol-4,5-bisphosphate (PI(4,5)P2)-binding motif in the N-terminal domain of TIRAP, which attracts this adaptor protein to the plasma membrane where PI(4,5)P2 is abundant. However, Bonham et al., have shown that TIRAP is also capable of binding other phosphoinositides, PI(3)P and PI(3,5)P2, on endosomal membranes, and mediates signaling from endosomal TLR7 and TLR9 in murine cells. Recently, some evidence of TIRAP involvement in signaling from TLR7 and TLR9 in human cells was provided by Leszczynska et al., and Zyzak et al.. In both studies, TIRAP is suggested to regulate IFNbeta expression by regulating ERK1/2 (MAPK3/MAPK1) activation. Whether TIRAP could contribute to signaling from TLR8, the third member of the TLR7 subgroup of TLRs, has not yet been explored.",
+                    "evidence": "In both studies, TIRAP is suggested to regulate IFNbeta expression by regulating ERK1/2 (MAPK3/MAPK1) activation."
+                }
+            },
+            {
+                "id": 4,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:LPS) increases a(CHEBI:FSL-1)",
+                    "text": "Human buffy coats and serum were from the blood bank at St. Olavs Hospital (Trondheim, Norway), with approval by the Regional Committee for Medical and Health Research Ethics (REC) in Central Norway (no. 2009/2245). Primary human monocytes were isolated from the buffy coat by adherence, as previously described. Monocytes were maintained in RPMI1640 (Sigma, Merck, Darmstadt, Germany), supplemented with 30% of pooled human serum. MDMs (used in the TIRAP silencing experiments) were obtained by differentiating cells for 12 days in RPMI1640 with 10% human serum and 20 ng/mL rhM-CSF (#216-MC-025, R&D Systems, Minneapolis, MN, USA). Ultrapure K12 LPS from E. coli, thiazoloquinoline compound CL075, and synthetic diacylated lipoprotein FSL-1 (Pam2CGDPKHPKSF) were from InvivoGen (San Diego, CA, USA). For stimulation of the primary cells, LPS and FSL-1 were used at concentration 100 ng/mL, CL075:2 microg/mL. IRAK4 inhibitor PF-06426779 (Merck, Darmstadt, Germany), selective allosteric pan-Akt inhibitors MK-2206 (#1032350-13-2, Axon Medchem, Groningen, Netherlands), Miransertib) and ATP-competitive pan-Akt inhibitor Capivasertib ((#1313881-70-7 and #1143532-39-1, MedChemExpress, Sollentuna, Sweden) were diluted in DMSO at concentration 5 mM and stored at -80  C; working solutions were prepared in cell-culture media immediately before use. Preparation of THP-1 TIRAP KO cells using LentiCRISPRv2 plasmid is described in supplementary materials and methods (available online).",
+                    "evidence": "For stimulation of the primary cells, LPS and FSL-1 were used at concentration 100 ng/mL, CL075:2 microg/mL."
+                }
+            },
+            {
+                "id": 5,
+                "s": 6,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:LPS) increases a(CHEBI:CL075)",
+                    "text": "Human buffy coats and serum were from the blood bank at St. Olavs Hospital (Trondheim, Norway), with approval by the Regional Committee for Medical and Health Research Ethics (REC) in Central Norway (no. 2009/2245). Primary human monocytes were isolated from the buffy coat by adherence, as previously described. Monocytes were maintained in RPMI1640 (Sigma, Merck, Darmstadt, Germany), supplemented with 30% of pooled human serum. MDMs (used in the TIRAP silencing experiments) were obtained by differentiating cells for 12 days in RPMI1640 with 10% human serum and 20 ng/mL rhM-CSF (#216-MC-025, R&D Systems, Minneapolis, MN, USA). Ultrapure K12 LPS from E. coli, thiazoloquinoline compound CL075, and synthetic diacylated lipoprotein FSL-1 (Pam2CGDPKHPKSF) were from InvivoGen (San Diego, CA, USA). For stimulation of the primary cells, LPS and FSL-1 were used at concentration 100 ng/mL, CL075:2 microg/mL. IRAK4 inhibitor PF-06426779 (Merck, Darmstadt, Germany), selective allosteric pan-Akt inhibitors MK-2206 (#1032350-13-2, Axon Medchem, Groningen, Netherlands), Miransertib) and ATP-competitive pan-Akt inhibitor Capivasertib ((#1313881-70-7 and #1143532-39-1, MedChemExpress, Sollentuna, Sweden) were diluted in DMSO at concentration 5 mM and stored at -80  C; working solutions were prepared in cell-culture media immediately before use. Preparation of THP-1 TIRAP KO cells using LentiCRISPRv2 plasmid is described in supplementary materials and methods (available online).",
+                    "evidence": "For stimulation of the primary cells, LPS and FSL-1 were used at concentration 100 ng/mL, CL075:2 microg/mL."
+                }
+            },
+            {
+                "id": 6,
+                "s": 7,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:FSL-1) increases a(CHEBI:CL075)",
+                    "text": "Human buffy coats and serum were from the blood bank at St. Olavs Hospital (Trondheim, Norway), with approval by the Regional Committee for Medical and Health Research Ethics (REC) in Central Norway (no. 2009/2245). Primary human monocytes were isolated from the buffy coat by adherence, as previously described. Monocytes were maintained in RPMI1640 (Sigma, Merck, Darmstadt, Germany), supplemented with 30% of pooled human serum. MDMs (used in the TIRAP silencing experiments) were obtained by differentiating cells for 12 days in RPMI1640 with 10% human serum and 20 ng/mL rhM-CSF (#216-MC-025, R&D Systems, Minneapolis, MN, USA). Ultrapure K12 LPS from E. coli, thiazoloquinoline compound CL075, and synthetic diacylated lipoprotein FSL-1 (Pam2CGDPKHPKSF) were from InvivoGen (San Diego, CA, USA). For stimulation of the primary cells, LPS and FSL-1 were used at concentration 100 ng/mL, CL075:2 microg/mL. IRAK4 inhibitor PF-06426779 (Merck, Darmstadt, Germany), selective allosteric pan-Akt inhibitors MK-2206 (#1032350-13-2, Axon Medchem, Groningen, Netherlands), Miransertib) and ATP-competitive pan-Akt inhibitor Capivasertib ((#1313881-70-7 and #1143532-39-1, MedChemExpress, Sollentuna, Sweden) were diluted in DMSO at concentration 5 mM and stored at -80  C; working solutions were prepared in cell-culture media immediately before use. Preparation of THP-1 TIRAP KO cells using LentiCRISPRv2 plasmid is described in supplementary materials and methods (available online).",
+                    "evidence": "For stimulation of the primary cells, LPS and FSL-1 were used at concentration 100 ng/mL, CL075:2 microg/mL."
+                }
+            },
+            {
+                "id": 7,
+                "s": 9,
+                "t": 10,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(EFO:0002784) increases a(GO:0005634)",
+                    "text": "Stimulated human primary monocytes were detached by accutase treatment and collected by centrifugation. Cell pellets were washed by once by PBS with 2% FCS. For preparation of total lysate, a cell pellet from one of the wells per condition was collected and lysed by RIPA lysis buffer (150 mM NaCl, 50 mM TrisHCl (pH7.5), 1% Triton X100, 5 mM EDTA, protease inhibitors, phosphatase inhibitors). The remaining cells were resuspended in Buffer A (50 mM NaCl, 10 mM HEPES pH = 8, 500 mM sucrose, 1 mM EDTA, 0.2% Triton-X100), and the samples were vortexed and centrifuged (5000 rpm, 5 min, 4  C). Cytosolic fraction in the supernatant was transferred to clean tubes. Pellets with nuclei were washed with Buffer B (50 mM NaCl, 10 mM HEPES (pH = 8), 25% glycerol, 0.1 mM EDTA), and centrifuged, the supernatants were discarded, and the pellets were resuspended in Buffer C (350 mM NaCl, 10 mM HEPES (pH = 8), 25% glycerol, 0.1 mM EDTA) with added Benzonaze endonuclease (Merck) and incubated on ice for 30 min, followed by centrifugation (15,000 rpm, 15 min, 4  C) to extract nuclear proteins.",
+                    "evidence": "Pellets with nuclei were washed with Buffer B (50 mM NaCl, 10 mM HEPES (pH = 8), 25% glycerol, 0.1 mM EDTA), and centrifuged, the supernatants were discarded, and the pellets were resuspended in Buffer C (350 mM NaCl, 10 mM HEPES (pH = 8), 25% glycerol, 0.1 mM EDTA) with added Benzonaze endonuclease (Merck) and incubated on ice for 30 min, followed by centrifugation (15,000 rpm, 15 min, 4 C) to extract nuclear proteins."
+                }
+            },
+            {
+                "id": 8,
+                "s": 11,
+                "t": 12,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:STAT1) increases p(HGNC:GAPDH)",
+                    "text": "Cell lysates for pSTAT1 analysis were prepared by simultaneous extraction of proteins and total RNA using Qiazol reagent (QIAGEN, Germantown, AR, USA), as suggested by the manufacturer. Extracted total RNA was used for RT-qPCR, while protein samples were used for simultaneous analysis of protein expression/post-translational modifications. Protein pellets were dissolved by heating the samples for 10 min at 95  C in a buffer containing 4 M urea, 1% SDS (Sigma, Merck, Darmstadt, Germany), and NuPAGE  LDS Sample Buffer (4X) (Thermo Fisher Scientific, Waltham, MA, USA), with a final 25 mM DTT in the samples. Otherwise, lysates were made using 1X RIPA lysis buffer. For traditional Western blot analysis, we used pre-cast protein gels NuPAGE  Novex . Proteins were transferred to iBlot Transfer Stacks by using the iBlot Gel Transfer Device (ThermoFisher Scientific, Waltham, MA, USA). The blots were developed with the SuperSignal West Femto (ThermoFisher Scientific) and visualized with the LI-COR ODYSSEY Fc Imaging System (LI-COR Biotechnology, Lincoln, NE, USA). For densitometry analysis of the bands, Odyssey Image Studio 5.2 software (LI-COR Biotechnology, Lincoln, NE, USA) was used, and the relative numbers of bands' intensity were normalized to the intensities of the respective loading-control protein (GAPDH, or PCNA, or beta-tubulin). Loading-control-protein expression was always performed on the same membrane as the protein of interest.",
+                    "evidence": "The relative numbers of bands' intensity were normalized to the intensities of the respective loading-control protein (GAPDH, or PCNA, or beta-tubulin)."
+                }
+            },
+            {
+                "id": 9,
+                "s": 11,
+                "t": 13,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:STAT1) increases p(HGNC:PCNA)",
+                    "text": "Cell lysates for pSTAT1 analysis were prepared by simultaneous extraction of proteins and total RNA using Qiazol reagent (QIAGEN, Germantown, AR, USA), as suggested by the manufacturer. Extracted total RNA was used for RT-qPCR, while protein samples were used for simultaneous analysis of protein expression/post-translational modifications. Protein pellets were dissolved by heating the samples for 10 min at 95  C in a buffer containing 4 M urea, 1% SDS (Sigma, Merck, Darmstadt, Germany), and NuPAGE  LDS Sample Buffer (4X) (Thermo Fisher Scientific, Waltham, MA, USA), with a final 25 mM DTT in the samples. Otherwise, lysates were made using 1X RIPA lysis buffer. For traditional Western blot analysis, we used pre-cast protein gels NuPAGE  Novex . Proteins were transferred to iBlot Transfer Stacks by using the iBlot Gel Transfer Device (ThermoFisher Scientific, Waltham, MA, USA). The blots were developed with the SuperSignal West Femto (ThermoFisher Scientific) and visualized with the LI-COR ODYSSEY Fc Imaging System (LI-COR Biotechnology, Lincoln, NE, USA). For densitometry analysis of the bands, Odyssey Image Studio 5.2 software (LI-COR Biotechnology, Lincoln, NE, USA) was used, and the relative numbers of bands' intensity were normalized to the intensities of the respective loading-control protein (GAPDH, or PCNA, or beta-tubulin). Loading-control-protein expression was always performed on the same membrane as the protein of interest.",
+                    "evidence": "The relative numbers of bands' intensity were normalized to the intensities of the respective loading-control protein (GAPDH, or PCNA, or beta-tubulin)."
+                }
+            },
+            {
+                "id": 10,
+                "s": 11,
+                "t": 14,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:STAT1) increases p(HGNC:TUBB)",
+                    "text": "Cell lysates for pSTAT1 analysis were prepared by simultaneous extraction of proteins and total RNA using Qiazol reagent (QIAGEN, Germantown, AR, USA), as suggested by the manufacturer. Extracted total RNA was used for RT-qPCR, while protein samples were used for simultaneous analysis of protein expression/post-translational modifications. Protein pellets were dissolved by heating the samples for 10 min at 95  C in a buffer containing 4 M urea, 1% SDS (Sigma, Merck, Darmstadt, Germany), and NuPAGE  LDS Sample Buffer (4X) (Thermo Fisher Scientific, Waltham, MA, USA), with a final 25 mM DTT in the samples. Otherwise, lysates were made using 1X RIPA lysis buffer. For traditional Western blot analysis, we used pre-cast protein gels NuPAGE  Novex . Proteins were transferred to iBlot Transfer Stacks by using the iBlot Gel Transfer Device (ThermoFisher Scientific, Waltham, MA, USA). The blots were developed with the SuperSignal West Femto (ThermoFisher Scientific) and visualized with the LI-COR ODYSSEY Fc Imaging System (LI-COR Biotechnology, Lincoln, NE, USA). For densitometry analysis of the bands, Odyssey Image Studio 5.2 software (LI-COR Biotechnology, Lincoln, NE, USA) was used, and the relative numbers of bands' intensity were normalized to the intensities of the respective loading-control protein (GAPDH, or PCNA, or beta-tubulin). Loading-control-protein expression was always performed on the same membrane as the protein of interest.",
+                    "evidence": "The relative numbers of bands' intensity were normalized to the intensities of the respective loading-control protein (GAPDH, or PCNA, or beta-tubulin)."
+                }
+            },
+            {
+                "id": 11,
+                "s": 15,
+                "t": 3,
+                "v": {
+                    "interaction": "hasComponent",
+                    "bel_expression": "a(UniProt:Q9NWZ3) hasComponent p(HGNC:TIRAP)",
+                    "text": "PBMC-derived monocytes for endogenous IPs were lysed using 1 X lysis buffer (150 mM NaCl, 50 mM TrisHCl (pH 8.0), 1 mM EDTA, 1% NP40) and supplemented with EDTA-free Complete Mini protease Inhibitor Cocktail Tablets as well as a PhosSTOP phosphatase-inhibitor cocktail from Roche, with 50 mM NaF and 2 mM Na3VO3 (Sigma, Merck, Darmstadt, Germany). Immunoprecipitations (IPs) were carried out on rotator at +4  C for 4 h by co-incubation of the lysates from the stimulated cells (400-500 mug of protein/IP) with specific anti-TIRAP antibodies covalently coupled to Dynabeads (M-270 Epoxy, Thermo Fisher Scientific, Waltham, MA, USA), as suggested by the manufacturer, followed by extensive washing of the beads in a lysis buffer. Co-precipitated complexes were eluted by heating the samples in a 1x loading buffer (LDS, Invitrogen), without reducing the reagent to minimize the antibodies' leakage to the eluates. Eluates were transferred to clean tubes, followed by the addition of DTT to the 40 mM concentration, heating, and Western blot analysis.",
+                    "evidence": "Immunoprecipitations (IPs) were carried out on rotator at +4 C for 4 h by co-incubation of the lysates from the stimulated cells (400-500 mug of protein/IP) with specific anti-TIRAP antibodies covalently coupled to Dynabeads (M-270 Epoxy, Thermo Fisher Scientific, Waltham, MA, USA), as suggested by the manufacturer, followed by extensive washing of the beads in a lysis buffer."
+                }
+            },
+            {
+                "id": 12,
+                "s": 16,
+                "t": 17,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(EFO:TIRAP siRNA) decreases a(EFO:MDM)",
+                    "text": "Anonymized clinical isolates of GBS, S. aureus, and E. coli were from a diagnostic collection by the Department of Medical Microbiology, St. Olavs Hospital, Trondheim, Norway. For infection experiments, blood-agar colonies were picked and grown in Todd-Hewitt Broth (GBS) or Tryptic Soy Broth (E. coli and S. aureus), with vigorous shaking at 37  C overnight. The bacteria cultures were diluted to the desired density (CFU/mL), based on OD600 measurements and calculations, as previously described in detail. Cultures of MDMs in 24-well plates, with TIRAP siRNA or control siRNA pre-treatment, were incubated with bacteria at 37  C for 60 min, before the killing of all extracellular bacteria with 100 mug/mL gentamicin. The MDM cultures were incubated further for a total challenge time of four hours. Cell lysis and RNA purification was done with the RNeasy 96 Plus kit (QIAGEN), followed by cDNA synthesis with Maxima cDNA synthesis kit (Thermo Fisher Scientific), and qPCR analysis of the cytokine expression.",
+                    "evidence": "Cultures of MDMs in 24-well plates, with TIRAP siRNA or control siRNA pre-treatment, were incubated with bacteria at 37 C for 60 min, before the killing of all extracellular bacteria with 100 mug/mL gentamicin."
+                }
+            },
+            {
+                "id": 13,
+                "s": 3,
+                "t": 18,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IFNB1)",
+                    "text": "Based on the reported links between endosomal TLRs and TIRAP expression, we have questioned whether TIRAP could also be involved in the regulation of signaling via TLR8 in human immune cells. To address this, we performed TIRAP silencing in human primary MDMs prior to stimulation with the thiazoquinoline compound CL075, which is a synthetic ligand specific for TLR8 in human monocytes and MDMs. Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression (Figure 1). Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours (Figure 1). TLR2 and TLR4 stimulation was conducted in parallel, since TIRAP is an important bridging adaptor for these TLRs. Indeed, TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation (Figure S1a,b). TLR2 did not induce IFNbeta mRNA expression or secretion in human MDMs, in agreement with earlier studies. Notably, in the case of TLR2 and TLR4 stimulation, we have not observed a significant effect on the early induction of pro-inflammatory cytokines (Figure S1a,b), which could be due to the still-sufficient amount of residual TIRAP protein for the initiation of signaling, despite a marked decrease in TIRAP-protein expression in silenced MDMs (Figure S1c).",
+                    "evidence": "Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression."
+                }
+            },
+            {
+                "id": 14,
+                "s": 3,
+                "t": 19,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IL12A)",
+                    "text": "Based on the reported links between endosomal TLRs and TIRAP expression, we have questioned whether TIRAP could also be involved in the regulation of signaling via TLR8 in human immune cells. To address this, we performed TIRAP silencing in human primary MDMs prior to stimulation with the thiazoquinoline compound CL075, which is a synthetic ligand specific for TLR8 in human monocytes and MDMs. Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression (Figure 1). Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours (Figure 1). TLR2 and TLR4 stimulation was conducted in parallel, since TIRAP is an important bridging adaptor for these TLRs. Indeed, TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation (Figure S1a,b). TLR2 did not induce IFNbeta mRNA expression or secretion in human MDMs, in agreement with earlier studies. Notably, in the case of TLR2 and TLR4 stimulation, we have not observed a significant effect on the early induction of pro-inflammatory cytokines (Figure S1a,b), which could be due to the still-sufficient amount of residual TIRAP protein for the initiation of signaling, despite a marked decrease in TIRAP-protein expression in silenced MDMs (Figure S1c).",
+                    "evidence": "Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression."
+                }
+            },
+            {
+                "id": 15,
+                "s": 3,
+                "t": 20,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:TNF)",
+                    "text": "Based on the reported links between endosomal TLRs and TIRAP expression, we have questioned whether TIRAP could also be involved in the regulation of signaling via TLR8 in human immune cells. To address this, we performed TIRAP silencing in human primary MDMs prior to stimulation with the thiazoquinoline compound CL075, which is a synthetic ligand specific for TLR8 in human monocytes and MDMs. Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression (Figure 1). Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours (Figure 1). TLR2 and TLR4 stimulation was conducted in parallel, since TIRAP is an important bridging adaptor for these TLRs. Indeed, TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation (Figure S1a,b). TLR2 did not induce IFNbeta mRNA expression or secretion in human MDMs, in agreement with earlier studies. Notably, in the case of TLR2 and TLR4 stimulation, we have not observed a significant effect on the early induction of pro-inflammatory cytokines (Figure S1a,b), which could be due to the still-sufficient amount of residual TIRAP protein for the initiation of signaling, despite a marked decrease in TIRAP-protein expression in silenced MDMs (Figure S1c).",
+                    "evidence": "Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours."
+                }
+            },
+            {
+                "id": 16,
+                "s": 3,
+                "t": 20,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:TNF)",
+                    "text": "Based on the reported links between endosomal TLRs and TIRAP expression, we have questioned whether TIRAP could also be involved in the regulation of signaling via TLR8 in human immune cells. To address this, we performed TIRAP silencing in human primary MDMs prior to stimulation with the thiazoquinoline compound CL075, which is a synthetic ligand specific for TLR8 in human monocytes and MDMs. Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression (Figure 1). Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours (Figure 1). TLR2 and TLR4 stimulation was conducted in parallel, since TIRAP is an important bridging adaptor for these TLRs. Indeed, TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation (Figure S1a,b). TLR2 did not induce IFNbeta mRNA expression or secretion in human MDMs, in agreement with earlier studies. Notably, in the case of TLR2 and TLR4 stimulation, we have not observed a significant effect on the early induction of pro-inflammatory cytokines (Figure S1a,b), which could be due to the still-sufficient amount of residual TIRAP protein for the initiation of signaling, despite a marked decrease in TIRAP-protein expression in silenced MDMs (Figure S1c).",
+                    "evidence": "TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation."
+                }
+            },
+            {
+                "id": 17,
+                "s": 3,
+                "t": 21,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IL6)",
+                    "text": "Based on the reported links between endosomal TLRs and TIRAP expression, we have questioned whether TIRAP could also be involved in the regulation of signaling via TLR8 in human immune cells. To address this, we performed TIRAP silencing in human primary MDMs prior to stimulation with the thiazoquinoline compound CL075, which is a synthetic ligand specific for TLR8 in human monocytes and MDMs. Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression (Figure 1). Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours (Figure 1). TLR2 and TLR4 stimulation was conducted in parallel, since TIRAP is an important bridging adaptor for these TLRs. Indeed, TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation (Figure S1a,b). TLR2 did not induce IFNbeta mRNA expression or secretion in human MDMs, in agreement with earlier studies. Notably, in the case of TLR2 and TLR4 stimulation, we have not observed a significant effect on the early induction of pro-inflammatory cytokines (Figure S1a,b), which could be due to the still-sufficient amount of residual TIRAP protein for the initiation of signaling, despite a marked decrease in TIRAP-protein expression in silenced MDMs (Figure S1c).",
+                    "evidence": "TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation."
+                }
+            },
+            {
+                "id": 18,
+                "s": 3,
+                "t": 22,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IL1B)",
+                    "text": "Based on the reported links between endosomal TLRs and TIRAP expression, we have questioned whether TIRAP could also be involved in the regulation of signaling via TLR8 in human immune cells. To address this, we performed TIRAP silencing in human primary MDMs prior to stimulation with the thiazoquinoline compound CL075, which is a synthetic ligand specific for TLR8 in human monocytes and MDMs. Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression (Figure 1). Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours (Figure 1). TLR2 and TLR4 stimulation was conducted in parallel, since TIRAP is an important bridging adaptor for these TLRs. Indeed, TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation (Figure S1a,b). TLR2 did not induce IFNbeta mRNA expression or secretion in human MDMs, in agreement with earlier studies. Notably, in the case of TLR2 and TLR4 stimulation, we have not observed a significant effect on the early induction of pro-inflammatory cytokines (Figure S1a,b), which could be due to the still-sufficient amount of residual TIRAP protein for the initiation of signaling, despite a marked decrease in TIRAP-protein expression in silenced MDMs (Figure S1c).",
+                    "evidence": "TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation."
+                }
+            },
+            {
+                "id": 19,
+                "s": 3,
+                "t": 23,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IL12B)",
+                    "text": "Based on the reported links between endosomal TLRs and TIRAP expression, we have questioned whether TIRAP could also be involved in the regulation of signaling via TLR8 in human immune cells. To address this, we performed TIRAP silencing in human primary MDMs prior to stimulation with the thiazoquinoline compound CL075, which is a synthetic ligand specific for TLR8 in human monocytes and MDMs. Analysis of cytokine mRNA expression following TLR8 stimulation in TIRAP-silenced cells showed a significant reduction in IFNbeta and IL-12A mRNA expression, with the most significant effect on IL-12A expression (Figure 1). Of the pro-inflammatory cytokines assessed following TLR8 stimulation, TIRAP silencing only affected TNF mRNA expression, both at two hours and four hours (Figure 1). TLR2 and TLR4 stimulation was conducted in parallel, since TIRAP is an important bridging adaptor for these TLRs. Indeed, TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation (Figure S1a,b). TLR2 did not induce IFNbeta mRNA expression or secretion in human MDMs, in agreement with earlier studies. Notably, in the case of TLR2 and TLR4 stimulation, we have not observed a significant effect on the early induction of pro-inflammatory cytokines (Figure S1a,b), which could be due to the still-sufficient amount of residual TIRAP protein for the initiation of signaling, despite a marked decrease in TIRAP-protein expression in silenced MDMs (Figure S1c).",
+                    "evidence": "TIRAP silencing led to decreased TNF, IL-6, IL-1beta, IL-12A, and IL-12B mRNA expression following TLR2 and TLR4 stimulation."
+                }
+            },
+            {
+                "id": 20,
+                "s": 24,
+                "t": 25,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:TIRAP) decreases p(HGNC:IFNB1)",
+                    "text": "To avoid problems with inefficient silencing, knockout-model (KO) systems are widely used. We prepared TIRAP KO THP-1 human monocyte/macrophage-like subline by Crispr/Cas9 gene editing, combined with subsequent TLR8 overexpression to achieve more robust type I IFNs induction in these cells. However, there was a noticeable change in TLR4 signaling in TIRAP KO THP-1 cells from two weeks (early) to four weeks (late) of cultivation in puromycin-selection medium (Figure S2a,b). TLR4-mediated IFNbeta expression was inhibited in early TIRAP KO cells, while the effect was lost after prolonged cultivation (Figure S2a,b). The response to LPS in TIRAP-silenced THP-1 cells was more comparable to early TIRAP KO cells (Figure S2a,c). This instability of the KO cells could be due to compensatory mechanisms, and we, thus, considered silencing of the TIRAP gene as a better approach for pinpointing the impact of TIRAP in TLR signaling.",
+                    "evidence": "TLR4-mediated IFNbeta expression was inhibited in early TIRAP KO cells, while the effect was lost after prolonged cultivation (Figure S2a,b)."
+                }
+            },
+            {
+                "id": 21,
+                "s": 24,
+                "t": 26,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:TIRAP) decreases bp(GO:\"TLR4 signaling pathway\")",
+                    "text": "To avoid problems with inefficient silencing, knockout-model (KO) systems are widely used. We prepared TIRAP KO THP-1 human monocyte/macrophage-like subline by Crispr/Cas9 gene editing, combined with subsequent TLR8 overexpression to achieve more robust type I IFNs induction in these cells. However, there was a noticeable change in TLR4 signaling in TIRAP KO THP-1 cells from two weeks (early) to four weeks (late) of cultivation in puromycin-selection medium (Figure S2a,b). TLR4-mediated IFNbeta expression was inhibited in early TIRAP KO cells, while the effect was lost after prolonged cultivation (Figure S2a,b). The response to LPS in TIRAP-silenced THP-1 cells was more comparable to early TIRAP KO cells (Figure S2a,c). This instability of the KO cells could be due to compensatory mechanisms, and we, thus, considered silencing of the TIRAP gene as a better approach for pinpointing the impact of TIRAP in TLR signaling.",
+                    "evidence": "There was a noticeable change in TLR4 signaling in TIRAP KO THP-1 cells from two weeks (early) to four weeks (late) of cultivation in puromycin-selection medium (Figure S2a,b)."
+                }
+            },
+            {
+                "id": 22,
+                "s": 3,
+                "t": 19,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IL12A)",
+                    "text": "TLR8 can sense ssRNA of bacterial origin. Given how common bacterial infections are, and the potential serious consequences associated with them, it is essential to understand the mechanistic interactions between the pathogen and immune cells. Group B streptococcus (S. agalactiae, GBS) and S. aureus are commensal bacteria but hold great invasive potential and can cause serious infections. TLR8 was recently shown to be involved in the innate immune responses to these Gram-positive bacteria but had less impact on responses to Gram-negative bacteria. As such, we wanted to address the importance of TIRAP in the TLR8-mediated responses to GBS and S. aureus. TIRAP-silenced primary MDMs were stimulated with TLR4 ligand LPS or TLR8 ligand CL075, or infected with clinical isolates of E. coli, GBS, or S. aureus, for a total of four hours and at two bacterial doses. Expression of IFNbeta, TNF, IL-12A, IL-12B, and IL-6 mRNA was analyzed by RT-qPCR (Figure 3). In accordance with our previous findings, successful TIRAP silencing reduced the expression of these cytokines following LPS treatment and infection by E. coli (Figure 3). TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection, with a similar tendency for IFNbeta induction, although statistical support was not achieved (Figure 3). These results indicated a clear effect of TIRAP silencing on TLR8-mediated IL-12A expression, with a similar yet non-significant trend for IFNbeta mRNA (Figure 1 and Figure 3). In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression, which could reflect the inhibition of TLR2-mediated pro-inflammatory signaling in TIRAP-silenced cells (Figure 3). We observed non-significant trends in the reduction in IFNbeta, IL-12A, or IL-12B mRNA expression, following an S. aureus challenge (Figure 3). S. aureus is sensed both by TLR2 and TLR8, and TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A, and it is possible that the combined TLR2 and TLR8 activation can diminish the requirement for TIRAP in the TLR8 mediated responses to S. aureus. Additional sensing mechanisms of whole live bacteria are also involved, such as complement and Fc receptors. These might compensate for the loss of TIRAP in our experiments, thus explaining the relatively small effects upon a bacterial challenge compared to pure TLR8-agonist stimulation. Thus, a kinetic study would be required to further clarify the impact of TIRAP in the sensing of live bacteria. Moreover, gene silencing has limitations, since it does not completely abrogate the expression or protein level of the silenced gene (Figure S3). Altogether, these results indicate that TIRAP can influence IRF5-mediated TLR8 signaling also during bacterial infection, which is especially clear for the induction of IL-12A expression by GBS.",
+                    "evidence": "TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection."
+                }
+            },
+            {
+                "id": 23,
+                "s": 3,
+                "t": 18,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IFNB1)",
+                    "text": "TLR8 can sense ssRNA of bacterial origin. Given how common bacterial infections are, and the potential serious consequences associated with them, it is essential to understand the mechanistic interactions between the pathogen and immune cells. Group B streptococcus (S. agalactiae, GBS) and S. aureus are commensal bacteria but hold great invasive potential and can cause serious infections. TLR8 was recently shown to be involved in the innate immune responses to these Gram-positive bacteria but had less impact on responses to Gram-negative bacteria. As such, we wanted to address the importance of TIRAP in the TLR8-mediated responses to GBS and S. aureus. TIRAP-silenced primary MDMs were stimulated with TLR4 ligand LPS or TLR8 ligand CL075, or infected with clinical isolates of E. coli, GBS, or S. aureus, for a total of four hours and at two bacterial doses. Expression of IFNbeta, TNF, IL-12A, IL-12B, and IL-6 mRNA was analyzed by RT-qPCR (Figure 3). In accordance with our previous findings, successful TIRAP silencing reduced the expression of these cytokines following LPS treatment and infection by E. coli (Figure 3). TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection, with a similar tendency for IFNbeta induction, although statistical support was not achieved (Figure 3). These results indicated a clear effect of TIRAP silencing on TLR8-mediated IL-12A expression, with a similar yet non-significant trend for IFNbeta mRNA (Figure 1 and Figure 3). In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression, which could reflect the inhibition of TLR2-mediated pro-inflammatory signaling in TIRAP-silenced cells (Figure 3). We observed non-significant trends in the reduction in IFNbeta, IL-12A, or IL-12B mRNA expression, following an S. aureus challenge (Figure 3). S. aureus is sensed both by TLR2 and TLR8, and TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A, and it is possible that the combined TLR2 and TLR8 activation can diminish the requirement for TIRAP in the TLR8 mediated responses to S. aureus. Additional sensing mechanisms of whole live bacteria are also involved, such as complement and Fc receptors. These might compensate for the loss of TIRAP in our experiments, thus explaining the relatively small effects upon a bacterial challenge compared to pure TLR8-agonist stimulation. Thus, a kinetic study would be required to further clarify the impact of TIRAP in the sensing of live bacteria. Moreover, gene silencing has limitations, since it does not completely abrogate the expression or protein level of the silenced gene (Figure S3). Altogether, these results indicate that TIRAP can influence IRF5-mediated TLR8 signaling also during bacterial infection, which is especially clear for the induction of IL-12A expression by GBS.",
+                    "evidence": "TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection, with a similar tendency for IFNbeta induction, although statistical support was not achieved."
+                }
+            },
+            {
+                "id": 24,
+                "s": 3,
+                "t": 21,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:IL6)",
+                    "text": "TLR8 can sense ssRNA of bacterial origin. Given how common bacterial infections are, and the potential serious consequences associated with them, it is essential to understand the mechanistic interactions between the pathogen and immune cells. Group B streptococcus (S. agalactiae, GBS) and S. aureus are commensal bacteria but hold great invasive potential and can cause serious infections. TLR8 was recently shown to be involved in the innate immune responses to these Gram-positive bacteria but had less impact on responses to Gram-negative bacteria. As such, we wanted to address the importance of TIRAP in the TLR8-mediated responses to GBS and S. aureus. TIRAP-silenced primary MDMs were stimulated with TLR4 ligand LPS or TLR8 ligand CL075, or infected with clinical isolates of E. coli, GBS, or S. aureus, for a total of four hours and at two bacterial doses. Expression of IFNbeta, TNF, IL-12A, IL-12B, and IL-6 mRNA was analyzed by RT-qPCR (Figure 3). In accordance with our previous findings, successful TIRAP silencing reduced the expression of these cytokines following LPS treatment and infection by E. coli (Figure 3). TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection, with a similar tendency for IFNbeta induction, although statistical support was not achieved (Figure 3). These results indicated a clear effect of TIRAP silencing on TLR8-mediated IL-12A expression, with a similar yet non-significant trend for IFNbeta mRNA (Figure 1 and Figure 3). In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression, which could reflect the inhibition of TLR2-mediated pro-inflammatory signaling in TIRAP-silenced cells (Figure 3). We observed non-significant trends in the reduction in IFNbeta, IL-12A, or IL-12B mRNA expression, following an S. aureus challenge (Figure 3). S. aureus is sensed both by TLR2 and TLR8, and TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A, and it is possible that the combined TLR2 and TLR8 activation can diminish the requirement for TIRAP in the TLR8 mediated responses to S. aureus. Additional sensing mechanisms of whole live bacteria are also involved, such as complement and Fc receptors. These might compensate for the loss of TIRAP in our experiments, thus explaining the relatively small effects upon a bacterial challenge compared to pure TLR8-agonist stimulation. Thus, a kinetic study would be required to further clarify the impact of TIRAP in the sensing of live bacteria. Moreover, gene silencing has limitations, since it does not completely abrogate the expression or protein level of the silenced gene (Figure S3). Altogether, these results indicate that TIRAP can influence IRF5-mediated TLR8 signaling also during bacterial infection, which is especially clear for the induction of IL-12A expression by GBS.",
+                    "evidence": "In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression."
+                }
+            },
+            {
+                "id": 25,
+                "s": 3,
+                "t": 20,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases r(HGNC:TNF)",
+                    "text": "TLR8 can sense ssRNA of bacterial origin. Given how common bacterial infections are, and the potential serious consequences associated with them, it is essential to understand the mechanistic interactions between the pathogen and immune cells. Group B streptococcus (S. agalactiae, GBS) and S. aureus are commensal bacteria but hold great invasive potential and can cause serious infections. TLR8 was recently shown to be involved in the innate immune responses to these Gram-positive bacteria but had less impact on responses to Gram-negative bacteria. As such, we wanted to address the importance of TIRAP in the TLR8-mediated responses to GBS and S. aureus. TIRAP-silenced primary MDMs were stimulated with TLR4 ligand LPS or TLR8 ligand CL075, or infected with clinical isolates of E. coli, GBS, or S. aureus, for a total of four hours and at two bacterial doses. Expression of IFNbeta, TNF, IL-12A, IL-12B, and IL-6 mRNA was analyzed by RT-qPCR (Figure 3). In accordance with our previous findings, successful TIRAP silencing reduced the expression of these cytokines following LPS treatment and infection by E. coli (Figure 3). TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection, with a similar tendency for IFNbeta induction, although statistical support was not achieved (Figure 3). These results indicated a clear effect of TIRAP silencing on TLR8-mediated IL-12A expression, with a similar yet non-significant trend for IFNbeta mRNA (Figure 1 and Figure 3). In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression, which could reflect the inhibition of TLR2-mediated pro-inflammatory signaling in TIRAP-silenced cells (Figure 3). We observed non-significant trends in the reduction in IFNbeta, IL-12A, or IL-12B mRNA expression, following an S. aureus challenge (Figure 3). S. aureus is sensed both by TLR2 and TLR8, and TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A, and it is possible that the combined TLR2 and TLR8 activation can diminish the requirement for TIRAP in the TLR8 mediated responses to S. aureus. Additional sensing mechanisms of whole live bacteria are also involved, such as complement and Fc receptors. These might compensate for the loss of TIRAP in our experiments, thus explaining the relatively small effects upon a bacterial challenge compared to pure TLR8-agonist stimulation. Thus, a kinetic study would be required to further clarify the impact of TIRAP in the sensing of live bacteria. Moreover, gene silencing has limitations, since it does not completely abrogate the expression or protein level of the silenced gene (Figure S3). Altogether, these results indicate that TIRAP can influence IRF5-mediated TLR8 signaling also during bacterial infection, which is especially clear for the induction of IL-12A expression by GBS.",
+                    "evidence": "In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression."
+                }
+            },
+            {
+                "id": 26,
+                "s": 27,
+                "t": 18,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TLR2) decreases r(HGNC:IFNB1)",
+                    "text": "TLR8 can sense ssRNA of bacterial origin. Given how common bacterial infections are, and the potential serious consequences associated with them, it is essential to understand the mechanistic interactions between the pathogen and immune cells. Group B streptococcus (S. agalactiae, GBS) and S. aureus are commensal bacteria but hold great invasive potential and can cause serious infections. TLR8 was recently shown to be involved in the innate immune responses to these Gram-positive bacteria but had less impact on responses to Gram-negative bacteria. As such, we wanted to address the importance of TIRAP in the TLR8-mediated responses to GBS and S. aureus. TIRAP-silenced primary MDMs were stimulated with TLR4 ligand LPS or TLR8 ligand CL075, or infected with clinical isolates of E. coli, GBS, or S. aureus, for a total of four hours and at two bacterial doses. Expression of IFNbeta, TNF, IL-12A, IL-12B, and IL-6 mRNA was analyzed by RT-qPCR (Figure 3). In accordance with our previous findings, successful TIRAP silencing reduced the expression of these cytokines following LPS treatment and infection by E. coli (Figure 3). TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection, with a similar tendency for IFNbeta induction, although statistical support was not achieved (Figure 3). These results indicated a clear effect of TIRAP silencing on TLR8-mediated IL-12A expression, with a similar yet non-significant trend for IFNbeta mRNA (Figure 1 and Figure 3). In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression, which could reflect the inhibition of TLR2-mediated pro-inflammatory signaling in TIRAP-silenced cells (Figure 3). We observed non-significant trends in the reduction in IFNbeta, IL-12A, or IL-12B mRNA expression, following an S. aureus challenge (Figure 3). S. aureus is sensed both by TLR2 and TLR8, and TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A, and it is possible that the combined TLR2 and TLR8 activation can diminish the requirement for TIRAP in the TLR8 mediated responses to S. aureus. Additional sensing mechanisms of whole live bacteria are also involved, such as complement and Fc receptors. These might compensate for the loss of TIRAP in our experiments, thus explaining the relatively small effects upon a bacterial challenge compared to pure TLR8-agonist stimulation. Thus, a kinetic study would be required to further clarify the impact of TIRAP in the sensing of live bacteria. Moreover, gene silencing has limitations, since it does not completely abrogate the expression or protein level of the silenced gene (Figure S3). Altogether, these results indicate that TIRAP can influence IRF5-mediated TLR8 signaling also during bacterial infection, which is especially clear for the induction of IL-12A expression by GBS.",
+                    "evidence": "TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A."
+                }
+            },
+            {
+                "id": 27,
+                "s": 27,
+                "t": 19,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TLR2) decreases r(HGNC:IL12A)",
+                    "text": "TLR8 can sense ssRNA of bacterial origin. Given how common bacterial infections are, and the potential serious consequences associated with them, it is essential to understand the mechanistic interactions between the pathogen and immune cells. Group B streptococcus (S. agalactiae, GBS) and S. aureus are commensal bacteria but hold great invasive potential and can cause serious infections. TLR8 was recently shown to be involved in the innate immune responses to these Gram-positive bacteria but had less impact on responses to Gram-negative bacteria. As such, we wanted to address the importance of TIRAP in the TLR8-mediated responses to GBS and S. aureus. TIRAP-silenced primary MDMs were stimulated with TLR4 ligand LPS or TLR8 ligand CL075, or infected with clinical isolates of E. coli, GBS, or S. aureus, for a total of four hours and at two bacterial doses. Expression of IFNbeta, TNF, IL-12A, IL-12B, and IL-6 mRNA was analyzed by RT-qPCR (Figure 3). In accordance with our previous findings, successful TIRAP silencing reduced the expression of these cytokines following LPS treatment and infection by E. coli (Figure 3). TIRAP silencing also significantly reduced IL-12A mRNA expression following GBS infection, with a similar tendency for IFNbeta induction, although statistical support was not achieved (Figure 3). These results indicated a clear effect of TIRAP silencing on TLR8-mediated IL-12A expression, with a similar yet non-significant trend for IFNbeta mRNA (Figure 1 and Figure 3). In S. aureus-infected cells, TIRAP silencing significantly reduced IL-6 and TNF mRNA expression, which could reflect the inhibition of TLR2-mediated pro-inflammatory signaling in TIRAP-silenced cells (Figure 3). We observed non-significant trends in the reduction in IFNbeta, IL-12A, or IL-12B mRNA expression, following an S. aureus challenge (Figure 3). S. aureus is sensed both by TLR2 and TLR8, and TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A, and it is possible that the combined TLR2 and TLR8 activation can diminish the requirement for TIRAP in the TLR8 mediated responses to S. aureus. Additional sensing mechanisms of whole live bacteria are also involved, such as complement and Fc receptors. These might compensate for the loss of TIRAP in our experiments, thus explaining the relatively small effects upon a bacterial challenge compared to pure TLR8-agonist stimulation. Thus, a kinetic study would be required to further clarify the impact of TIRAP in the sensing of live bacteria. Moreover, gene silencing has limitations, since it does not completely abrogate the expression or protein level of the silenced gene (Figure S3). Altogether, these results indicate that TIRAP can influence IRF5-mediated TLR8 signaling also during bacterial infection, which is especially clear for the induction of IL-12A expression by GBS.",
+                    "evidence": "TLR2 activation can suppress TLR8-IRF5-mediated induction of IFNbeta and IL-12A."
+                }
+            },
+            {
+                "id": 28,
+                "s": 3,
+                "t": 28,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIRAP) increases tloc(p(HGNC:IRF5)",
+                    "text": "Phosphorylation of IRFs and other transcription factors typically reflect their active state and is linked to their nuclear translocation and the activation of transcription of target genes. To evaluate the potential regulation of IRF5 phosphorylation by TIRAP, we performed electrophoresis using Phos-tag gel (Figure S4), since efficient phospho-IRF5 antibodies are not commercially available. Lysates of LPS-stimulated cells were included as a negative control since TLR4 signaling does not trigger IRF5 translocation in human MDMs, but rather it activates the IRF3-transcriptional factor in a TRAM/TRIF-dependent manner. No clear alterations in the phosphorylation pattern of IRF5 or p65 in TIRAP-silenced cells after CL075 stimulation were revealed (Figure S4). Thus, TIRAP expression positively regulated the nuclear translocation of IRF5 downstream to TLR8 (Figure 4), while having no effect on p65 phosphorylation or nuclear translocation (Figure S4).",
+                    "evidence": "Thus, TIRAP expression positively regulated the nuclear translocation of IRF5 downstream to TLR8 (Figure 4), while having no effect on p65 phosphorylation or nuclear translocation (Figure S4)."
+                }
+            },
+            {
+                "id": 29,
+                "s": 3,
+                "t": 29,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIRAP) increases complex(p(HGNC:MYD88)",
+                    "text": "The shared time point of 15 min for the LPS and CL075-stimulated cells demonstrates that TIRAP recruitment to IRAKs and MyD88 was delayed for CL075-stimulated cells when compared with LPS-stimulated cells (Figure 5). Overall, the extent of IRAK1 modification in 15 min of TLR stimulation in MDMs showed great donor variation (not shown), as expected. IP results with lysates from a donor with a fast and strong response to CL075 were selected to demonstrate that even with fast IRAK1 activation (already within 15 min), TIRAP was not co-precipitating with the Myddosome-complex molecules (Figure 5). In contrast, TIRAP was recruited to TLR4-activated Myddosome within 15 min, even though this experiment revealed only weak IRAK1 modification following LPS stimulation (Figure 5). These observations are in line with the well-established role of TIRAP as adaptor that connects MyD88 to TLR4.",
+                    "evidence": "These observations are in line with the well-established role of TIRAP as adaptor that connects MyD88 to TLR4."
+                }
+            },
+            {
+                "id": 30,
+                "s": 3,
+                "t": 30,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases p(HGNC:MAP3K7, pmod(Ph)",
+                    "text": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1, ERK1/2, JNK1/2, and p38 MAPK as well as the post-translational modification of IRAK1 (100 kDa band), and resulted in less effective degradation of IkappaBalpha. Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 and p38 MAPK phosphorylation, while not affecting IRAK1 posttranslational modifications or the degradation of IkappaBalpha (Figure 6a,b). Indeed, de-phosphorylation of TAK1 in TIRAP-silenced cells was faster when compared to control cells upon CL075 stimulation (Figure 6a,b), which may indicate a possible role of TIRAP in the stabilization of IRAK1/TABs/TAK1 signaling complex and increased TAK1-mediated cytokine production.",
+                    "evidence": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1."
+                }
+            },
+            {
+                "id": 31,
+                "s": 3,
+                "t": 31,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases p(HGNC:MAPK1, pmod(Ph)",
+                    "text": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1, ERK1/2, JNK1/2, and p38 MAPK as well as the post-translational modification of IRAK1 (100 kDa band), and resulted in less effective degradation of IkappaBalpha. Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 and p38 MAPK phosphorylation, while not affecting IRAK1 posttranslational modifications or the degradation of IkappaBalpha (Figure 6a,b). Indeed, de-phosphorylation of TAK1 in TIRAP-silenced cells was faster when compared to control cells upon CL075 stimulation (Figure 6a,b), which may indicate a possible role of TIRAP in the stabilization of IRAK1/TABs/TAK1 signaling complex and increased TAK1-mediated cytokine production.",
+                    "evidence": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of ERK1/2."
+                }
+            },
+            {
+                "id": 32,
+                "s": 3,
+                "t": 32,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases p(HGNC:JNK1, pmod(Ph)",
+                    "text": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1, ERK1/2, JNK1/2, and p38 MAPK as well as the post-translational modification of IRAK1 (100 kDa band), and resulted in less effective degradation of IkappaBalpha. Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 and p38 MAPK phosphorylation, while not affecting IRAK1 posttranslational modifications or the degradation of IkappaBalpha (Figure 6a,b). Indeed, de-phosphorylation of TAK1 in TIRAP-silenced cells was faster when compared to control cells upon CL075 stimulation (Figure 6a,b), which may indicate a possible role of TIRAP in the stabilization of IRAK1/TABs/TAK1 signaling complex and increased TAK1-mediated cytokine production.",
+                    "evidence": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of JNK1/2."
+                }
+            },
+            {
+                "id": 33,
+                "s": 3,
+                "t": 33,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases p(HGNC:MAPK14, pmod(Ph)",
+                    "text": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1, ERK1/2, JNK1/2, and p38 MAPK as well as the post-translational modification of IRAK1 (100 kDa band), and resulted in less effective degradation of IkappaBalpha. Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 and p38 MAPK phosphorylation, while not affecting IRAK1 posttranslational modifications or the degradation of IkappaBalpha (Figure 6a,b). Indeed, de-phosphorylation of TAK1 in TIRAP-silenced cells was faster when compared to control cells upon CL075 stimulation (Figure 6a,b), which may indicate a possible role of TIRAP in the stabilization of IRAK1/TABs/TAK1 signaling complex and increased TAK1-mediated cytokine production.",
+                    "evidence": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of p38 MAPK."
+                }
+            },
+            {
+                "id": 34,
+                "s": 3,
+                "t": 34,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases deg(p(HGNC:NFKBIA)",
+                    "text": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1, ERK1/2, JNK1/2, and p38 MAPK as well as the post-translational modification of IRAK1 (100 kDa band), and resulted in less effective degradation of IkappaBalpha. Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 and p38 MAPK phosphorylation, while not affecting IRAK1 posttranslational modifications or the degradation of IkappaBalpha (Figure 6a,b). Indeed, de-phosphorylation of TAK1 in TIRAP-silenced cells was faster when compared to control cells upon CL075 stimulation (Figure 6a,b), which may indicate a possible role of TIRAP in the stabilization of IRAK1/TABs/TAK1 signaling complex and increased TAK1-mediated cytokine production.",
+                    "evidence": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing resulted in less effective degradation of IkappaBalpha."
+                }
+            },
+            {
+                "id": 35,
+                "s": 3,
+                "t": 30,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases p(HGNC:MAP3K7, pmod(Ph)",
+                    "text": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1, ERK1/2, JNK1/2, and p38 MAPK as well as the post-translational modification of IRAK1 (100 kDa band), and resulted in less effective degradation of IkappaBalpha. Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 and p38 MAPK phosphorylation, while not affecting IRAK1 posttranslational modifications or the degradation of IkappaBalpha (Figure 6a,b). Indeed, de-phosphorylation of TAK1 in TIRAP-silenced cells was faster when compared to control cells upon CL075 stimulation (Figure 6a,b), which may indicate a possible role of TIRAP in the stabilization of IRAK1/TABs/TAK1 signaling complex and increased TAK1-mediated cytokine production.",
+                    "evidence": "Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 phosphorylation."
+                }
+            },
+            {
+                "id": 36,
+                "s": 3,
+                "t": 33,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases p(HGNC:MAPK14, pmod(Ph)",
+                    "text": "As could be seen from Figure 6a,c, in cells stimulated with LPS for 15-30 min, TIRAP silencing reduced the phosphorylation of TAK1, ERK1/2, JNK1/2, and p38 MAPK as well as the post-translational modification of IRAK1 (100 kDa band), and resulted in less effective degradation of IkappaBalpha. Silencing of TIRAP had some inhibitory effect on TLR8-mediated TAK1 and p38 MAPK phosphorylation, while not affecting IRAK1 posttranslational modifications or the degradation of IkappaBalpha (Figure 6a,b). Indeed, de-phosphorylation of TAK1 in TIRAP-silenced cells was faster when compared to control cells upon CL075 stimulation (Figure 6a,b), which may indicate a possible role of TIRAP in the stabilization of IRAK1/TABs/TAK1 signaling complex and increased TAK1-mediated cytokine production.",
+                    "evidence": "Silencing of TIRAP had some inhibitory effect on TLR8-mediated p38 MAPK phosphorylation."
+                }
+            },
+            {
+                "id": 37,
+                "s": 3,
+                "t": 35,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIRAP) increases p(HGNC:AKT1, pmod(Ph, Ser, 473)",
+                    "text": "PI3Ks and its downstream target, serine/threonine-kinase Akt (PKB), is activated by many receptors, including TLRs, and is known to regulate macrophage survival and migration as well as the response to different metabolic and inflammatory signals in macrophages. Phosphorylation of Akt (serine 473, S473) reflects a fully activated Akt kinase. The most consistent effect of TIRAP silencing upon the ligation of TLR8 across PBMCs from several donors was the decreased phosphorylation of Akt, particularly 45-60 min after TLR8 activation (Figure 6a,b), which correlates with the timeframe when TIRAP is recruited to the TLR8-induced Myddosome (Figure 5). These results indicate that TLR8 signaling may be coupled to the PI3K/Akt pathway, and that TIRAP positively regulates TLR8-mediated activation of Akt (Figure 6a,b). In comparison, in LPS-stimulated cells, TIRAP silencing had not much effect on the phosphorylation of Akt (Figure 6a,c).",
+                    "evidence": "The most consistent effect of TIRAP silencing upon the ligation of TLR8 across PBMCs from several donors was the decreased phosphorylation of Akt, particularly 45-60 min after TLR8 activation (Figure 6a,b), which correlates with the timeframe when TIRAP is recruited to the TLR8-induced Myddosome (Figure 5)."
+                }
+            },
+            {
+                "id": 38,
+                "s": 36,
+                "t": 35,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TLR8) increases p(HGNC:AKT1, pmod(Ph, Ser, 473)",
+                    "text": "PI3Ks and its downstream target, serine/threonine-kinase Akt (PKB), is activated by many receptors, including TLRs, and is known to regulate macrophage survival and migration as well as the response to different metabolic and inflammatory signals in macrophages. Phosphorylation of Akt (serine 473, S473) reflects a fully activated Akt kinase. The most consistent effect of TIRAP silencing upon the ligation of TLR8 across PBMCs from several donors was the decreased phosphorylation of Akt, particularly 45-60 min after TLR8 activation (Figure 6a,b), which correlates with the timeframe when TIRAP is recruited to the TLR8-induced Myddosome (Figure 5). These results indicate that TLR8 signaling may be coupled to the PI3K/Akt pathway, and that TIRAP positively regulates TLR8-mediated activation of Akt (Figure 6a,b). In comparison, in LPS-stimulated cells, TIRAP silencing had not much effect on the phosphorylation of Akt (Figure 6a,c).",
+                    "evidence": "These results indicate that TLR8 signaling may be coupled to the PI3K/Akt pathway, and that TIRAP positively regulates TLR8-mediated activation of Akt (Figure 6a,b)."
+                }
+            },
+            {
+                "id": 39,
+                "s": 37,
+                "t": 33,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:TIRAP) decreases p(HGNC:MAPK14, pmod(Ph)",
+                    "text": "TIRAP silencing resulted in reduced p38 MAPK phosphorylation, upon stimulation by TLR8 ligand (Figure 6). To investigate the role of p38 MAPK in TLR8 signaling, we pre-treated monocytes with a selective p38 MAPK inhibitor BIRB 796 and several other control inhibitors, followed by the stimulation of cells with CL075 (1 microg/mL) for one and two hours Overall, inhibition of p38 MAPK had no effect on nuclear translocation of IRF5 or p65 (Figure S6a). In contrast, TAK1 kinase inhibitor (5z-7-oxozeaenol) blocked IRF5 translocation, but not p65 translocation, while inhibiting IKKbeta with a IKKII-VIII inhibitor that blocked both p65 and IRF5 translocation, as shown in our earlier study. These data suggest that decreased phosphorylation of p38 MAPK does not explain the reduction in IRF5 nuclear translocation upon TIRAP silencing. Still, inhibition of p38 MAPK strongly inhibited the expression of IFNbeta and TNF mRNA in 2 h of CL075 stimulation, similar to TAK1 inhibition (Figure S6b). Since p65 nuclear translocation was not affected by the p38 MAPK inhibitor, this could be explained by attenuation of the AP-1 transcriptional complex activity in BIRB796-treated cells, which would result in reduced cytokine induction according to the established role for AP-1 in cytokines' promoter activity. Overall, we conclude that TIRAP may regulate TLR8 signaling via two distinct pathways: an Akt pathway and the TAK1 pathway that enhances p38 MAPK activation. Both pathways contribute to cytokine induction. The regulation of IFNbeta and IL-12A expression by modulation of nuclear IRF5 levels is the most marked effect of TIRAP silencing, which could not be explained by the decreased p38 MAPK activation in silenced cells. Thus, we proceeded with testing the effect of Akt inhibition on TLR8-mediated IFNbeta and IL-12A expression as well as IRF5 nuclear translocation.",
+                    "evidence": "TIRAP silencing resulted in reduced p38 MAPK phosphorylation, upon stimulation by TLR8 ligand (Figure 6)."
+                }
+            },
+            {
+                "id": 40,
+                "s": 37,
+                "t": 38,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "a(HGNC:TIRAP) regulates bp(GO:\"TLR8 signaling pathway\")",
+                    "text": "TIRAP silencing resulted in reduced p38 MAPK phosphorylation, upon stimulation by TLR8 ligand (Figure 6). To investigate the role of p38 MAPK in TLR8 signaling, we pre-treated monocytes with a selective p38 MAPK inhibitor BIRB 796 and several other control inhibitors, followed by the stimulation of cells with CL075 (1 microg/mL) for one and two hours Overall, inhibition of p38 MAPK had no effect on nuclear translocation of IRF5 or p65 (Figure S6a). In contrast, TAK1 kinase inhibitor (5z-7-oxozeaenol) blocked IRF5 translocation, but not p65 translocation, while inhibiting IKKbeta with a IKKII-VIII inhibitor that blocked both p65 and IRF5 translocation, as shown in our earlier study. These data suggest that decreased phosphorylation of p38 MAPK does not explain the reduction in IRF5 nuclear translocation upon TIRAP silencing. Still, inhibition of p38 MAPK strongly inhibited the expression of IFNbeta and TNF mRNA in 2 h of CL075 stimulation, similar to TAK1 inhibition (Figure S6b). Since p65 nuclear translocation was not affected by the p38 MAPK inhibitor, this could be explained by attenuation of the AP-1 transcriptional complex activity in BIRB796-treated cells, which would result in reduced cytokine induction according to the established role for AP-1 in cytokines' promoter activity. Overall, we conclude that TIRAP may regulate TLR8 signaling via two distinct pathways: an Akt pathway and the TAK1 pathway that enhances p38 MAPK activation. Both pathways contribute to cytokine induction. The regulation of IFNbeta and IL-12A expression by modulation of nuclear IRF5 levels is the most marked effect of TIRAP silencing, which could not be explained by the decreased p38 MAPK activation in silenced cells. Thus, we proceeded with testing the effect of Akt inhibition on TLR8-mediated IFNbeta and IL-12A expression as well as IRF5 nuclear translocation.",
+                    "evidence": "Overall, we conclude that TIRAP may regulate TLR8 signaling via two distinct pathways: an Akt pathway and the TAK1 pathway that enhances p38 MAPK activation."
+                }
+            },
+            {
+                "id": 41,
+                "s": 37,
+                "t": 39,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:TIRAP) increases act(p(HGNC:MAPK14)",
+                    "text": "TIRAP silencing resulted in reduced p38 MAPK phosphorylation, upon stimulation by TLR8 ligand (Figure 6). To investigate the role of p38 MAPK in TLR8 signaling, we pre-treated monocytes with a selective p38 MAPK inhibitor BIRB 796 and several other control inhibitors, followed by the stimulation of cells with CL075 (1 microg/mL) for one and two hours Overall, inhibition of p38 MAPK had no effect on nuclear translocation of IRF5 or p65 (Figure S6a). In contrast, TAK1 kinase inhibitor (5z-7-oxozeaenol) blocked IRF5 translocation, but not p65 translocation, while inhibiting IKKbeta with a IKKII-VIII inhibitor that blocked both p65 and IRF5 translocation, as shown in our earlier study. These data suggest that decreased phosphorylation of p38 MAPK does not explain the reduction in IRF5 nuclear translocation upon TIRAP silencing. Still, inhibition of p38 MAPK strongly inhibited the expression of IFNbeta and TNF mRNA in 2 h of CL075 stimulation, similar to TAK1 inhibition (Figure S6b). Since p65 nuclear translocation was not affected by the p38 MAPK inhibitor, this could be explained by attenuation of the AP-1 transcriptional complex activity in BIRB796-treated cells, which would result in reduced cytokine induction according to the established role for AP-1 in cytokines' promoter activity. Overall, we conclude that TIRAP may regulate TLR8 signaling via two distinct pathways: an Akt pathway and the TAK1 pathway that enhances p38 MAPK activation. Both pathways contribute to cytokine induction. The regulation of IFNbeta and IL-12A expression by modulation of nuclear IRF5 levels is the most marked effect of TIRAP silencing, which could not be explained by the decreased p38 MAPK activation in silenced cells. Thus, we proceeded with testing the effect of Akt inhibition on TLR8-mediated IFNbeta and IL-12A expression as well as IRF5 nuclear translocation.",
+                    "evidence": "Overall, we conclude that TIRAP may regulate TLR8 signaling via two distinct pathways: an Akt pathway and the TAK1 pathway that enhances p38 MAPK activation."
+                }
+            },
+            {
+                "id": 42,
+                "s": 37,
+                "t": 18,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:TIRAP) increases r(HGNC:IFNB1)",
+                    "text": "TIRAP silencing resulted in reduced p38 MAPK phosphorylation, upon stimulation by TLR8 ligand (Figure 6). To investigate the role of p38 MAPK in TLR8 signaling, we pre-treated monocytes with a selective p38 MAPK inhibitor BIRB 796 and several other control inhibitors, followed by the stimulation of cells with CL075 (1 microg/mL) for one and two hours Overall, inhibition of p38 MAPK had no effect on nuclear translocation of IRF5 or p65 (Figure S6a). In contrast, TAK1 kinase inhibitor (5z-7-oxozeaenol) blocked IRF5 translocation, but not p65 translocation, while inhibiting IKKbeta with a IKKII-VIII inhibitor that blocked both p65 and IRF5 translocation, as shown in our earlier study. These data suggest that decreased phosphorylation of p38 MAPK does not explain the reduction in IRF5 nuclear translocation upon TIRAP silencing. Still, inhibition of p38 MAPK strongly inhibited the expression of IFNbeta and TNF mRNA in 2 h of CL075 stimulation, similar to TAK1 inhibition (Figure S6b). Since p65 nuclear translocation was not affected by the p38 MAPK inhibitor, this could be explained by attenuation of the AP-1 transcriptional complex activity in BIRB796-treated cells, which would result in reduced cytokine induction according to the established role for AP-1 in cytokines' promoter activity. Overall, we conclude that TIRAP may regulate TLR8 signaling via two distinct pathways: an Akt pathway and the TAK1 pathway that enhances p38 MAPK activation. Both pathways contribute to cytokine induction. The regulation of IFNbeta and IL-12A expression by modulation of nuclear IRF5 levels is the most marked effect of TIRAP silencing, which could not be explained by the decreased p38 MAPK activation in silenced cells. Thus, we proceeded with testing the effect of Akt inhibition on TLR8-mediated IFNbeta and IL-12A expression as well as IRF5 nuclear translocation.",
+                    "evidence": "Both pathways contribute to cytokine induction."
+                }
+            },
+            {
+                "id": 43,
+                "s": 37,
+                "t": 19,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:TIRAP) increases r(HGNC:IL12A)",
+                    "text": "TIRAP silencing resulted in reduced p38 MAPK phosphorylation, upon stimulation by TLR8 ligand (Figure 6). To investigate the role of p38 MAPK in TLR8 signaling, we pre-treated monocytes with a selective p38 MAPK inhibitor BIRB 796 and several other control inhibitors, followed by the stimulation of cells with CL075 (1 microg/mL) for one and two hours Overall, inhibition of p38 MAPK had no effect on nuclear translocation of IRF5 or p65 (Figure S6a). In contrast, TAK1 kinase inhibitor (5z-7-oxozeaenol) blocked IRF5 translocation, but not p65 translocation, while inhibiting IKKbeta with a IKKII-VIII inhibitor that blocked both p65 and IRF5 translocation, as shown in our earlier study. These data suggest that decreased phosphorylation of p38 MAPK does not explain the reduction in IRF5 nuclear translocation upon TIRAP silencing. Still, inhibition of p38 MAPK strongly inhibited the expression of IFNbeta and TNF mRNA in 2 h of CL075 stimulation, similar to TAK1 inhibition (Figure S6b). Since p65 nuclear translocation was not affected by the p38 MAPK inhibitor, this could be explained by attenuation of the AP-1 transcriptional complex activity in BIRB796-treated cells, which would result in reduced cytokine induction according to the established role for AP-1 in cytokines' promoter activity. Overall, we conclude that TIRAP may regulate TLR8 signaling via two distinct pathways: an Akt pathway and the TAK1 pathway that enhances p38 MAPK activation. Both pathways contribute to cytokine induction. The regulation of IFNbeta and IL-12A expression by modulation of nuclear IRF5 levels is the most marked effect of TIRAP silencing, which could not be explained by the decreased p38 MAPK activation in silenced cells. Thus, we proceeded with testing the effect of Akt inhibition on TLR8-mediated IFNbeta and IL-12A expression as well as IRF5 nuclear translocation.",
+                    "evidence": "Both pathways contribute to cytokine induction."
+                }
+            },
+            {
+                "id": 44,
+                "s": 3,
+                "t": 40,
+                "v": {
+                    "interaction": "binds",
+                    "bel_expression": "p(HGNC:TIRAP) binds a(CHEBI:\"phosphatidylinositol 4,5-bisphosphate\")",
+                    "text": "In its N-terminal part, TIRAP contains a phosphoinositide (PI)-binding domain (PBD), which interacts with phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2)-enriched membranes. Bonham et al., demonstrated that TIRAP PBD is also capable of binding PtdIns(3)P on endosomal membranes, and when murine-bone-marrow-derived macrophages (BMDMs) are challenged with natural ligands (influenzas virus and Herpes simplex virus), TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression.",
+                    "evidence": "In its N-terminal part, TIRAP contains a phosphoinositide (PI)-binding domain (PBD), which interacts with phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2)-enriched membranes."
+                }
+            },
+            {
+                "id": 45,
+                "s": 3,
+                "t": 41,
+                "v": {
+                    "interaction": "binds",
+                    "bel_expression": "p(HGNC:TIRAP) binds a(CHEBI:\"phosphatidylinositol 3-phosphate\")",
+                    "text": "In its N-terminal part, TIRAP contains a phosphoinositide (PI)-binding domain (PBD), which interacts with phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2)-enriched membranes. Bonham et al., demonstrated that TIRAP PBD is also capable of binding PtdIns(3)P on endosomal membranes, and when murine-bone-marrow-derived macrophages (BMDMs) are challenged with natural ligands (influenzas virus and Herpes simplex virus), TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression.",
+                    "evidence": "Bonham et al., demonstrated that TIRAP PBD is also capable of binding PtdIns(3)P on endosomal membranes."
+                }
+            },
+            {
+                "id": 46,
+                "s": 3,
+                "t": 42,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "p(HGNC:TIRAP) regulates act(p(HGNC:TLR7)",
+                    "text": "In its N-terminal part, TIRAP contains a phosphoinositide (PI)-binding domain (PBD), which interacts with phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2)-enriched membranes. Bonham et al., demonstrated that TIRAP PBD is also capable of binding PtdIns(3)P on endosomal membranes, and when murine-bone-marrow-derived macrophages (BMDMs) are challenged with natural ligands (influenzas virus and Herpes simplex virus), TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression.",
+                    "evidence": "TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression."
+                }
+            },
+            {
+                "id": 47,
+                "s": 3,
+                "t": 43,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "p(HGNC:TIRAP) regulates act(p(HGNC:TLR9)",
+                    "text": "In its N-terminal part, TIRAP contains a phosphoinositide (PI)-binding domain (PBD), which interacts with phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2)-enriched membranes. Bonham et al., demonstrated that TIRAP PBD is also capable of binding PtdIns(3)P on endosomal membranes, and when murine-bone-marrow-derived macrophages (BMDMs) are challenged with natural ligands (influenzas virus and Herpes simplex virus), TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression.",
+                    "evidence": "TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression."
+                }
+            },
+            {
+                "id": 48,
+                "s": 3,
+                "t": 44,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIRAP) increases r(HGNC:IFNA1)",
+                    "text": "In its N-terminal part, TIRAP contains a phosphoinositide (PI)-binding domain (PBD), which interacts with phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2)-enriched membranes. Bonham et al., demonstrated that TIRAP PBD is also capable of binding PtdIns(3)P on endosomal membranes, and when murine-bone-marrow-derived macrophages (BMDMs) are challenged with natural ligands (influenzas virus and Herpes simplex virus), TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression.",
+                    "evidence": "TIRAP regulates signaling via TLR7 and TLR9, with a particular impact on IFNalpha expression."
+                }
+            },
+            {
+                "id": 49,
+                "s": 18,
+                "t": 45,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "r(HGNC:IFNB1) decreases act(p(HGNC:TIRAP)",
+                    "text": "Our data on the mRNA expression and cytokine secretion of IFNbeta and IL-12A in TIRAP-silenced cells showed a significant reduction in these responses upon TLR8 stimulation, while the effect on pro-inflammatory cytokines was not as clear. We have recently demonstrated that TLR8 is a dominant TLR in the response to the Gram-positive bacteria, such as GBS and S. aureus, in human primary monocytes and MDMs. We, therefore, addressed the contribution of TIRAP in the response to Gram-positive and Gram-negative bacterial infections in MDMs and revealed a partial dependency of TIRAP in the regulation of cytokine production with all the examined bacteria. The impact of TIRAP in E. coli-induced cytokine production could be mainly attributed to LPS-activated TLR4-signaling, while a partial reduction in TNF and IL-6 production induced by S. aureus may involve TLR2 signaling. Genetic TIRAP deficiency in humans impairs both TLR4 and TLR2 signaling, though the TLR2-response in macrophages and susceptibility to S. aureus infections can be rescued in vivo by lipoteichoic acid (LTA)-specific IgG antibodies, likely due to a compensatory mechanism via Fc-receptor (CD32) engagement. We have shown earlier that the GBS-induced cytokine production in myeloid cell cultures is almost entirely TLR8-mediated, and the significant reduction in IL-12A expression, thus, demonstrates a role of TLR8-TIRAP signaling during a challenge with a viable Gram-positive bacterium. Even though induction of IL-12A and IFNbeta by the Gram-positive bacteria is mainly TLR8 dependent, our data only revealed a tendency of attenuated IFNbeta expression after TIRAP silencing, which did not reach statistical support, possibly due to underpowered statistics. It is also possible that the selected time point for gene-expression analysis was sub-optimal, or that the triggering of several signaling mechanism by the whole live bacteria (e.g., TLR2, TLR8, Fc-receptors, complement receptors, etc.) could compensate for the reduced TIRAP levels. Moreover, considerable levels of TIRAP protein remain in the cells after TIRAP silencing. The effect of TIRAP silencing was more prominent for TLR2 and TLR4 signaling with prolonged stimulation, which may imply that the levels of TIRAP in silenced cells are sufficient to initiate proximal signaling but not to sustain the cytokine production. Generation of TIRAP KO THP-1 cells was done as an alternative strategy, but the phenotype appeared unstable, possibly due to compensatory signaling mechanisms. Thus, the real contribution of TIRAP to TLR8-mediated cytokine induction might be more prominent, both for purified agonists and whole bacteria, and this issue, thus, warrants further studies.",
+                    "evidence": "Our data on the mRNA expression and cytokine secretion of IFNbeta and IL-12A in TIRAP-silenced cells showed a significant reduction in these responses upon TLR8 stimulation."
+                }
+            },
+            {
+                "id": 50,
+                "s": 19,
+                "t": 45,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "r(HGNC:IL12A) decreases act(p(HGNC:TIRAP)",
+                    "text": "Our data on the mRNA expression and cytokine secretion of IFNbeta and IL-12A in TIRAP-silenced cells showed a significant reduction in these responses upon TLR8 stimulation, while the effect on pro-inflammatory cytokines was not as clear. We have recently demonstrated that TLR8 is a dominant TLR in the response to the Gram-positive bacteria, such as GBS and S. aureus, in human primary monocytes and MDMs. We, therefore, addressed the contribution of TIRAP in the response to Gram-positive and Gram-negative bacterial infections in MDMs and revealed a partial dependency of TIRAP in the regulation of cytokine production with all the examined bacteria. The impact of TIRAP in E. coli-induced cytokine production could be mainly attributed to LPS-activated TLR4-signaling, while a partial reduction in TNF and IL-6 production induced by S. aureus may involve TLR2 signaling. Genetic TIRAP deficiency in humans impairs both TLR4 and TLR2 signaling, though the TLR2-response in macrophages and susceptibility to S. aureus infections can be rescued in vivo by lipoteichoic acid (LTA)-specific IgG antibodies, likely due to a compensatory mechanism via Fc-receptor (CD32) engagement. We have shown earlier that the GBS-induced cytokine production in myeloid cell cultures is almost entirely TLR8-mediated, and the significant reduction in IL-12A expression, thus, demonstrates a role of TLR8-TIRAP signaling during a challenge with a viable Gram-positive bacterium. Even though induction of IL-12A and IFNbeta by the Gram-positive bacteria is mainly TLR8 dependent, our data only revealed a tendency of attenuated IFNbeta expression after TIRAP silencing, which did not reach statistical support, possibly due to underpowered statistics. It is also possible that the selected time point for gene-expression analysis was sub-optimal, or that the triggering of several signaling mechanism by the whole live bacteria (e.g., TLR2, TLR8, Fc-receptors, complement receptors, etc.) could compensate for the reduced TIRAP levels. Moreover, considerable levels of TIRAP protein remain in the cells after TIRAP silencing. The effect of TIRAP silencing was more prominent for TLR2 and TLR4 signaling with prolonged stimulation, which may imply that the levels of TIRAP in silenced cells are sufficient to initiate proximal signaling but not to sustain the cytokine production. Generation of TIRAP KO THP-1 cells was done as an alternative strategy, but the phenotype appeared unstable, possibly due to compensatory signaling mechanisms. Thus, the real contribution of TIRAP to TLR8-mediated cytokine induction might be more prominent, both for purified agonists and whole bacteria, and this issue, thus, warrants further studies.",
+                    "evidence": "Our data on the mRNA expression and cytokine secretion of IFNbeta and IL-12A in TIRAP-silenced cells showed a significant reduction in these responses upon TLR8 stimulation."
+                }
+            },
+            {
+                "id": 51,
+                "s": 3,
+                "t": 46,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TIRAP) increases act(p(HGNC:IRF5)",
+                    "text": "TLR8-mediated IFNbeta and IL-12A gene expression in human primary monocytes and macrophages is dependent on activation of IRF5. Our findings provide evidence that TIRAP is involved in the TLR8-IRF5 signaling mechanism. In contrast to the findings by Zyzak et al. and Leszczynska et al. regarding TLR9 and TLR7, TIRAP silencing in human MDMs did not alter ERK1/2 activation but, consistently, reduced the phosphorylation of Akt kinase. The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development. The PI3K-Akt pathway is also implicated in the regulation of TLR signaling, with evidence of both pro- and anti-inflammatory effects. Guiducci et al., showed that nuclear translocation of IRF7 and type I IFNs expression is enhanced by PI3K-Akt signaling, following TLR7 and TLR9 activation in human pDCs. Lima et al., reported crosstalk between TLR9 and PI3Kgamma in human PBMCs, while Sarkar et al., demonstrated that TLR3-dependent activation of the PI3K-Akt axis induces IRF3 phosphorylation and nuclear translocation in HEK293 cells. Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling. However, Akt could not be linked to TLR4-induced IFNbeta and IL-12A expression in human MDMs.",
+                    "evidence": "Our findings provide evidence that TIRAP is involved in the TLR8-IRF5 signaling mechanism."
+                }
+            },
+            {
+                "id": 52,
+                "s": 3,
+                "t": 47,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TIRAP) decreases p(HGNC:AKT1, pmod(Ph)",
+                    "text": "TLR8-mediated IFNbeta and IL-12A gene expression in human primary monocytes and macrophages is dependent on activation of IRF5. Our findings provide evidence that TIRAP is involved in the TLR8-IRF5 signaling mechanism. In contrast to the findings by Zyzak et al. and Leszczynska et al. regarding TLR9 and TLR7, TIRAP silencing in human MDMs did not alter ERK1/2 activation but, consistently, reduced the phosphorylation of Akt kinase. The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development. The PI3K-Akt pathway is also implicated in the regulation of TLR signaling, with evidence of both pro- and anti-inflammatory effects. Guiducci et al., showed that nuclear translocation of IRF7 and type I IFNs expression is enhanced by PI3K-Akt signaling, following TLR7 and TLR9 activation in human pDCs. Lima et al., reported crosstalk between TLR9 and PI3Kgamma in human PBMCs, while Sarkar et al., demonstrated that TLR3-dependent activation of the PI3K-Akt axis induces IRF3 phosphorylation and nuclear translocation in HEK293 cells. Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling. However, Akt could not be linked to TLR4-induced IFNbeta and IL-12A expression in human MDMs.",
+                    "evidence": "TIRAP silencing in human MDMs did not alter ERK1/2 activation but, consistently, reduced the phosphorylation of Akt kinase."
+                }
+            },
+            {
+                "id": 53,
+                "s": 48,
+                "t": 49,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"PI3K-Akt signaling pathway\") increases bp(GO:\"cellular metabolic process\")",
+                    "text": "TLR8-mediated IFNbeta and IL-12A gene expression in human primary monocytes and macrophages is dependent on activation of IRF5. Our findings provide evidence that TIRAP is involved in the TLR8-IRF5 signaling mechanism. In contrast to the findings by Zyzak et al. and Leszczynska et al. regarding TLR9 and TLR7, TIRAP silencing in human MDMs did not alter ERK1/2 activation but, consistently, reduced the phosphorylation of Akt kinase. The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development. The PI3K-Akt pathway is also implicated in the regulation of TLR signaling, with evidence of both pro- and anti-inflammatory effects. Guiducci et al., showed that nuclear translocation of IRF7 and type I IFNs expression is enhanced by PI3K-Akt signaling, following TLR7 and TLR9 activation in human pDCs. Lima et al., reported crosstalk between TLR9 and PI3Kgamma in human PBMCs, while Sarkar et al., demonstrated that TLR3-dependent activation of the PI3K-Akt axis induces IRF3 phosphorylation and nuclear translocation in HEK293 cells. Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling. However, Akt could not be linked to TLR4-induced IFNbeta and IL-12A expression in human MDMs.",
+                    "evidence": "The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development."
+                }
+            },
+            {
+                "id": 54,
+                "s": 48,
+                "t": 50,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"PI3K-Akt signaling pathway\") increases bp(GO:\"cellular survival\")",
+                    "text": "TLR8-mediated IFNbeta and IL-12A gene expression in human primary monocytes and macrophages is dependent on activation of IRF5. Our findings provide evidence that TIRAP is involved in the TLR8-IRF5 signaling mechanism. In contrast to the findings by Zyzak et al. and Leszczynska et al. regarding TLR9 and TLR7, TIRAP silencing in human MDMs did not alter ERK1/2 activation but, consistently, reduced the phosphorylation of Akt kinase. The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development. The PI3K-Akt pathway is also implicated in the regulation of TLR signaling, with evidence of both pro- and anti-inflammatory effects. Guiducci et al., showed that nuclear translocation of IRF7 and type I IFNs expression is enhanced by PI3K-Akt signaling, following TLR7 and TLR9 activation in human pDCs. Lima et al., reported crosstalk between TLR9 and PI3Kgamma in human PBMCs, while Sarkar et al., demonstrated that TLR3-dependent activation of the PI3K-Akt axis induces IRF3 phosphorylation and nuclear translocation in HEK293 cells. Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling. However, Akt could not be linked to TLR4-induced IFNbeta and IL-12A expression in human MDMs.",
+                    "evidence": "The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development."
+                }
+            },
+            {
+                "id": 55,
+                "s": 48,
+                "t": 18,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"PI3K-Akt signaling pathway\") increases r(HGNC:IFNB1)",
+                    "text": "TLR8-mediated IFNbeta and IL-12A gene expression in human primary monocytes and macrophages is dependent on activation of IRF5. Our findings provide evidence that TIRAP is involved in the TLR8-IRF5 signaling mechanism. In contrast to the findings by Zyzak et al. and Leszczynska et al. regarding TLR9 and TLR7, TIRAP silencing in human MDMs did not alter ERK1/2 activation but, consistently, reduced the phosphorylation of Akt kinase. The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development. The PI3K-Akt pathway is also implicated in the regulation of TLR signaling, with evidence of both pro- and anti-inflammatory effects. Guiducci et al., showed that nuclear translocation of IRF7 and type I IFNs expression is enhanced by PI3K-Akt signaling, following TLR7 and TLR9 activation in human pDCs. Lima et al., reported crosstalk between TLR9 and PI3Kgamma in human PBMCs, while Sarkar et al., demonstrated that TLR3-dependent activation of the PI3K-Akt axis induces IRF3 phosphorylation and nuclear translocation in HEK293 cells. Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling. However, Akt could not be linked to TLR4-induced IFNbeta and IL-12A expression in human MDMs.",
+                    "evidence": "Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling."
+                }
+            },
+            {
+                "id": 56,
+                "s": 48,
+                "t": 19,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"PI3K-Akt signaling pathway\") increases r(HGNC:IL12A)",
+                    "text": "TLR8-mediated IFNbeta and IL-12A gene expression in human primary monocytes and macrophages is dependent on activation of IRF5. Our findings provide evidence that TIRAP is involved in the TLR8-IRF5 signaling mechanism. In contrast to the findings by Zyzak et al. and Leszczynska et al. regarding TLR9 and TLR7, TIRAP silencing in human MDMs did not alter ERK1/2 activation but, consistently, reduced the phosphorylation of Akt kinase. The PI3K-Akt pathway can regulate cellular metabolism and survival, and its dysregulation is firmly linked to tumor development. The PI3K-Akt pathway is also implicated in the regulation of TLR signaling, with evidence of both pro- and anti-inflammatory effects. Guiducci et al., showed that nuclear translocation of IRF7 and type I IFNs expression is enhanced by PI3K-Akt signaling, following TLR7 and TLR9 activation in human pDCs. Lima et al., reported crosstalk between TLR9 and PI3Kgamma in human PBMCs, while Sarkar et al., demonstrated that TLR3-dependent activation of the PI3K-Akt axis induces IRF3 phosphorylation and nuclear translocation in HEK293 cells. Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling. However, Akt could not be linked to TLR4-induced IFNbeta and IL-12A expression in human MDMs.",
+                    "evidence": "Similar to these findings, here we show that Akt is involved in the regulation of IFNbeta and IL-12A induction upon TLR8-IRF5 signaling."
+                }
+            },
+            {
+                "id": 57,
+                "s": 51,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:IFNA1) increases p(HGNC:IFNB1)",
+                    "text": "As an endosomal ssRNA-sensing receptor, TLR8 is relevant both for viral and bacterial infections. IFNs are particularly important during viral infections, as they induce the expression of gene-encoding proteins with anti-viral effects, such as inhibiting the viral replication, assembly, and release of the virus particle. Thus, further exploration of the role of TIRAP in virus-induced TLR8 signaling (such as Influenza A Virus, HIV, West Nile Virus) is warranted. Cell-type specific differences in the expression level and utilization of TIRAP in TLR8 signaling should also be addressed. Furthermore, SNPs in TIRAP are associated to the incidence and severity of several diseases, such as tuberculosis, HIV, and systemic lupus erythematosus (SLE) as well as infections/diseases in which TLR8 is likely to play a role. Thus, understanding the contribution of TIRAP to the fine-tuning of TLR8 signaling might be of significant clinical relevance.",
+                    "evidence": "IFNs are particularly important during viral infections, as they induce the expression of gene-encoding proteins with anti-viral effects, such as inhibiting the viral replication, assembly, and release of the virus particle."
+                }
+            },
+            {
+                "id": 58,
+                "s": 24,
+                "t": 52,
+                "v": {
+                    "interaction": "association",
+                    "bel_expression": "g(HGNC:TIRAP) association path(DOID:0050741)",
+                    "text": "As an endosomal ssRNA-sensing receptor, TLR8 is relevant both for viral and bacterial infections. IFNs are particularly important during viral infections, as they induce the expression of gene-encoding proteins with anti-viral effects, such as inhibiting the viral replication, assembly, and release of the virus particle. Thus, further exploration of the role of TIRAP in virus-induced TLR8 signaling (such as Influenza A Virus, HIV, West Nile Virus) is warranted. Cell-type specific differences in the expression level and utilization of TIRAP in TLR8 signaling should also be addressed. Furthermore, SNPs in TIRAP are associated to the incidence and severity of several diseases, such as tuberculosis, HIV, and systemic lupus erythematosus (SLE) as well as infections/diseases in which TLR8 is likely to play a role. Thus, understanding the contribution of TIRAP to the fine-tuning of TLR8 signaling might be of significant clinical relevance.",
+                    "evidence": "SNPs in TIRAP are associated to the incidence and severity of several diseases, such as tuberculosis, HIV, and systemic lupus erythematosus (SLE) as well as infections/diseases in which TLR8 is likely to play a role."
+                }
+            },
+            {
+                "id": 59,
+                "s": 37,
+                "t": 53,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(HGNC:TIRAP) directlyDecreases r(HGNC:TLR2)",
+                    "text": "The following supporting information can be downloaded at . Supplementary Materials and Methods. Figure S1: TIRAP silencing in primary human MDMs significantly decreases TLR2- and TLR4-mediated cytokines mRNA expression. Figure S2: TIRAP silencing could be a more relevant approach than knockout to evaluate the fine-tuning of TLRs-mediated signaling by TIRAP. Figure S3: TIRAP silencing reduces STAT1 phosphorylation in LPS- or CL075-stimulated human MDMs. Figure S4: Total phosphorylation pattern of IRF5 in CL075-stimulated cells is not affected by TIRAP silencing. Figure S5: Band shift for IRAK4 protein in TIRAP IPs, induced by the pre-treatment of cells by the PF-06426779 IRAK4 inhibitor, supports the specificity of IRAK4 staining for the selected IPs and WB conditions. Figure S6. Pharmacological inhibition of p38 MAPK does not block the TLR8-induced nuclear translocation of IRF5 or p65, but it still suppresses TLR8-induced cytokine transcription. Figure S7: Tested Akt inhibitors have a similar inhibitory effect on TLR8-mediated IFNbeta and IL-12A expression. Figure S8: Inhibition of Akt strongly decreased TLR8-mediated phosphorylation of Y701 in STAT1, with no inhibitory effect on TLR4- or TLR8-mediated MAPKs phosphorylation. Figure S9: Akt inhibition had no effect on the total phosphorylation pattern of the IRF5-transcription factor.",
+                    "evidence": "TIRAP silencing in primary human MDMs significantly decreases TLR2- and TLR4-mediated cytokines mRNA expression."
+                }
+            },
+            {
+                "id": 60,
+                "s": 37,
+                "t": 54,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(HGNC:TIRAP) directlyDecreases r(HGNC:TLR4)",
+                    "text": "The following supporting information can be downloaded at . Supplementary Materials and Methods. Figure S1: TIRAP silencing in primary human MDMs significantly decreases TLR2- and TLR4-mediated cytokines mRNA expression. Figure S2: TIRAP silencing could be a more relevant approach than knockout to evaluate the fine-tuning of TLRs-mediated signaling by TIRAP. Figure S3: TIRAP silencing reduces STAT1 phosphorylation in LPS- or CL075-stimulated human MDMs. Figure S4: Total phosphorylation pattern of IRF5 in CL075-stimulated cells is not affected by TIRAP silencing. Figure S5: Band shift for IRAK4 protein in TIRAP IPs, induced by the pre-treatment of cells by the PF-06426779 IRAK4 inhibitor, supports the specificity of IRAK4 staining for the selected IPs and WB conditions. Figure S6. Pharmacological inhibition of p38 MAPK does not block the TLR8-induced nuclear translocation of IRF5 or p65, but it still suppresses TLR8-induced cytokine transcription. Figure S7: Tested Akt inhibitors have a similar inhibitory effect on TLR8-mediated IFNbeta and IL-12A expression. Figure S8: Inhibition of Akt strongly decreased TLR8-mediated phosphorylation of Y701 in STAT1, with no inhibitory effect on TLR4- or TLR8-mediated MAPKs phosphorylation. Figure S9: Akt inhibition had no effect on the total phosphorylation pattern of the IRF5-transcription factor.",
+                    "evidence": "TIRAP silencing in primary human MDMs significantly decreases TLR2- and TLR4-mediated cytokines mRNA expression."
+                }
+            },
+            {
+                "id": 61,
+                "s": 37,
+                "t": 55,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(HGNC:TIRAP) directlyDecreases p(HGNC:STAT1, pmod(Ph, Tyr, 701)",
+                    "text": "The following supporting information can be downloaded at . Supplementary Materials and Methods. Figure S1: TIRAP silencing in primary human MDMs significantly decreases TLR2- and TLR4-mediated cytokines mRNA expression. Figure S2: TIRAP silencing could be a more relevant approach than knockout to evaluate the fine-tuning of TLRs-mediated signaling by TIRAP. Figure S3: TIRAP silencing reduces STAT1 phosphorylation in LPS- or CL075-stimulated human MDMs. Figure S4: Total phosphorylation pattern of IRF5 in CL075-stimulated cells is not affected by TIRAP silencing. Figure S5: Band shift for IRAK4 protein in TIRAP IPs, induced by the pre-treatment of cells by the PF-06426779 IRAK4 inhibitor, supports the specificity of IRAK4 staining for the selected IPs and WB conditions. Figure S6. Pharmacological inhibition of p38 MAPK does not block the TLR8-induced nuclear translocation of IRF5 or p65, but it still suppresses TLR8-induced cytokine transcription. Figure S7: Tested Akt inhibitors have a similar inhibitory effect on TLR8-mediated IFNbeta and IL-12A expression. Figure S8: Inhibition of Akt strongly decreased TLR8-mediated phosphorylation of Y701 in STAT1, with no inhibitory effect on TLR4- or TLR8-mediated MAPKs phosphorylation. Figure S9: Akt inhibition had no effect on the total phosphorylation pattern of the IRF5-transcription factor.",
+                    "evidence": "TIRAP silencing reduces STAT1 phosphorylation in LPS- or CL075-stimulated human MDMs."
+                }
+            },
+            {
+                "id": 62,
+                "s": 56,
+                "t": 57,
+                "v": {
+                    "interaction": "directlyIncreases",
+                    "bel_expression": "a(CHEBI:PF-06426779) directlyIncreases p(HGNC:IRAK4)",
+                    "text": "The following supporting information can be downloaded at . Supplementary Materials and Methods. Figure S1: TIRAP silencing in primary human MDMs significantly decreases TLR2- and TLR4-mediated cytokines mRNA expression. Figure S2: TIRAP silencing could be a more relevant approach than knockout to evaluate the fine-tuning of TLRs-mediated signaling by TIRAP. Figure S3: TIRAP silencing reduces STAT1 phosphorylation in LPS- or CL075-stimulated human MDMs. Figure S4: Total phosphorylation pattern of IRF5 in CL075-stimulated cells is not affected by TIRAP silencing. Figure S5: Band shift for IRAK4 protein in TIRAP IPs, induced by the pre-treatment of cells by the PF-06426779 IRAK4 inhibitor, supports the specificity of IRAK4 staining for the selected IPs and WB conditions. Figure S6. Pharmacological inhibition of p38 MAPK does not block the TLR8-induced nuclear translocation of IRF5 or p65, but it still suppresses TLR8-induced cytokine transcription. Figure S7: Tested Akt inhibitors have a similar inhibitory effect on TLR8-mediated IFNbeta and IL-12A expression. Figure S8: Inhibition of Akt strongly decreased TLR8-mediated phosphorylation of Y701 in STAT1, with no inhibitory effect on TLR4- or TLR8-mediated MAPKs phosphorylation. Figure S9: Akt inhibition had no effect on the total phosphorylation pattern of the IRF5-transcription factor.",
+                    "evidence": "Band shift for IRAK4 protein in TIRAP IPs, induced by the pre-treatment of cells by the PF-06426779 IRAK4 inhibitor, supports the specificity of IRAK4 staining for the selected IPs and WB conditions."
+                }
+            },
+            {
+                "id": 63,
+                "s": 37,
+                "t": 58,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:TIRAP) decreases bp(GO:\"cytokine production\")",
+                    "text": "TIRAP silencing attenuates cytokine production from MDMs challenged with clinical isolates of E. coli (ECO), while affecting mainly IL-12A induction by Group B streptococcus (GBS) and pro-inflammatory cytokine induction by S. aureus (SAU). MDMs (5-6 donors in consecutive experiments) were pre-treated with TIRAP siRNA or control oligo and incubated with LPS (100 ng/mL), CL075 (1 microg/mL), or live bacteria (GBS 248, SAU 17-2, and ECO 18-1) for a total time of four hours. The doses of bacteria were 1 x 105/mL (e5) and 1 x 106/mL (e6). This roughly corresponds to MOI 0.01 and 0.1 for GBS, MOI 0.02 and 0.2 for SAU, and MOI 0.1 and 1.0 for ECO. Gene expression was determined by RT-qPCR, normalized to untreated sample, and presented as a mean relative fold change +SEM. Statistical testing was done with 2-way RM-ANOVA and post-test (* p < 0.05, ** p < 0.01, *** p < 0.001, **** p < 0.0001).",
+                    "evidence": "TIRAP silencing attenuates cytokine production from MDMs challenged with clinical isolates of E. coli (ECO)."
+                }
+            },
+            {
+                "id": 64,
+                "s": 37,
+                "t": 59,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:TIRAP) decreases bp(GO:\"IL-12A induction\")",
+                    "text": "TIRAP silencing attenuates cytokine production from MDMs challenged with clinical isolates of E. coli (ECO), while affecting mainly IL-12A induction by Group B streptococcus (GBS) and pro-inflammatory cytokine induction by S. aureus (SAU). MDMs (5-6 donors in consecutive experiments) were pre-treated with TIRAP siRNA or control oligo and incubated with LPS (100 ng/mL), CL075 (1 microg/mL), or live bacteria (GBS 248, SAU 17-2, and ECO 18-1) for a total time of four hours. The doses of bacteria were 1 x 105/mL (e5) and 1 x 106/mL (e6). This roughly corresponds to MOI 0.01 and 0.1 for GBS, MOI 0.02 and 0.2 for SAU, and MOI 0.1 and 1.0 for ECO. Gene expression was determined by RT-qPCR, normalized to untreated sample, and presented as a mean relative fold change +SEM. Statistical testing was done with 2-way RM-ANOVA and post-test (* p < 0.05, ** p < 0.01, *** p < 0.001, **** p < 0.0001).",
+                    "evidence": "TIRAP silencing attenuates cytokine production from MDMs challenged with clinical isolates of E. coli (ECO), while affecting mainly IL-12A induction by Group B streptococcus (GBS)."
+                }
+            },
+            {
+                "id": 65,
+                "s": 37,
+                "t": 60,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:TIRAP) decreases bp(GO:\"pro-inflammatory cytokine induction\")",
+                    "text": "TIRAP silencing attenuates cytokine production from MDMs challenged with clinical isolates of E. coli (ECO), while affecting mainly IL-12A induction by Group B streptococcus (GBS) and pro-inflammatory cytokine induction by S. aureus (SAU). MDMs (5-6 donors in consecutive experiments) were pre-treated with TIRAP siRNA or control oligo and incubated with LPS (100 ng/mL), CL075 (1 microg/mL), or live bacteria (GBS 248, SAU 17-2, and ECO 18-1) for a total time of four hours. The doses of bacteria were 1 x 105/mL (e5) and 1 x 106/mL (e6). This roughly corresponds to MOI 0.01 and 0.1 for GBS, MOI 0.02 and 0.2 for SAU, and MOI 0.1 and 1.0 for ECO. Gene expression was determined by RT-qPCR, normalized to untreated sample, and presented as a mean relative fold change +SEM. Statistical testing was done with 2-way RM-ANOVA and post-test (* p < 0.05, ** p < 0.01, *** p < 0.001, **** p < 0.0001).",
+                    "evidence": "TIRAP silencing attenuates cytokine production from MDMs challenged with clinical isolates of E. coli (ECO), while affecting mainly IL-12A induction by Group B streptococcus (GBS) and pro-inflammatory cytokine induction by S. aureus (SAU)."
+                }
+            },
+            {
+                "id": 66,
+                "s": 3,
+                "t": 35,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:TIRAP) directlyDecreases p(HGNC:AKT1, pmod(Ph, Ser, 473)",
+                    "text": "Silencing of TIRAP consistently inhibits TLR8-mediated phosphorylation of Akt S473. (a) Western blotting of lysates from MDMs treated with a control oligo or TIRAP-specific siRNA oligo and stimulated with 100 ng/mL LPS or 2 mug/mL CL075. The antibodies used are indicated on the figure, and GAPDH or PCNA are equal-loading controls. (b) Graphs show quantifications of protein levels relative to GAPDH or PCNA for CL075-stimulated cells and (c) LPS-stimulated cells. Representative image and graphs for one of four donors. Densitometry analysis and normalization to loading control was done using LiCor Odyssey software.",
+                    "evidence": "Silencing of TIRAP consistently inhibits TLR8-mediated phosphorylation of Akt S473."
+                }
+            }
+        ]
+    },
+    {
+        "visualProperties": [
+            {
+                "default": {
+                    "edge": {
+                        "EDGE_SOURCE_ARROW_SIZE": 6.0,
+                        "EDGE_SOURCE_ARROW_SELECTED_PAINT": "#FFFF00",
+                        "EDGE_LABEL_OPACITY": 1.0,
+                        "EDGE_TARGET_ARROW_SELECTED_PAINT": "#FFFF00",
+                        "EDGE_TARGET_ARROW_SHAPE": "triangle",
+                        "EDGE_LABEL_BACKGROUND_OPACITY": 1.0,
+                        "EDGE_LABEL_POSITION": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "EDGE_ANCHOR": "C",
+                            "LABEL_ANCHOR": "C"
+                        },
+                        "EDGE_Z_ORDER": 0.0,
+                        "EDGE_LABEL_MAX_WIDTH": 200.0,
+                        "EDGE_LABEL_BACKGROUND_COLOR": "#B6B6B6",
+                        "EDGE_LABEL_ROTATION": 0.0,
+                        "EDGE_VISIBILITY": "element",
+                        "EDGE_LABEL_FONT_SIZE": 10,
+                        "EDGE_LABEL_COLOR": "#000000",
+                        "EDGE_SELECTED_PAINT": "#FF0000",
+                        "EDGE_SELECTED": "false",
+                        "EDGE_STACKING_DENSITY": 0.5,
+                        "EDGE_SOURCE_ARROW_COLOR": "#404040",
+                        "EDGE_TARGET_ARROW_COLOR": "#404040",
+                        "EDGE_STROKE_SELECTED_PAINT": "#FF0000",
+                        "EDGE_WIDTH": 7.0,
+                        "EDGE_SOURCE_ARROW_SHAPE": "none",
+                        "EDGE_LINE_COLOR": "#404040",
+                        "EDGE_OPACITY": 1.0,
+                        "EDGE_LABEL_BACKGROUND_SHAPE": "NONE",
+                        "EDGE_LABEL_FONT_FACE": {
+                            "FONT_FAMILY": "sans-serif",
+                            "FONT_STYLE": "normal",
+                            "FONT_WEIGHT": "normal",
+                            "FONT_NAME": "Dialog"
+                        },
+                        "EDGE_STACKING": "AUTO_BEND",
+                        "EDGE_LABEL_AUTOROTATE": false,
+                        "EDGE_LINE_STYLE": "solid",
+                        "EDGE_CURVED": true,
+                        "EDGE_TARGET_ARROW_SIZE": 6.0
+                    },
+                    "network": {
+                        "NETWORK_BACKGROUND_COLOR": "#FFFFFF"
+                    },
+                    "node": {
+                        "NODE_Y_LOCATION": 0.0,
+                        "NODE_BACKGROUND_COLOR": "#89D0F5",
+                        "NODE_LABEL_BACKGROUND_COLOR": "#B6B6B6",
+                        "NODE_WIDTH": 35.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_7": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_6": 50.0,
+                        "COMPOUND_NODE_SHAPE": "ROUND_RECTANGLE",
+                        "NODE_Z_LOCATION": 0.0,
+                        "NODE_LABEL_POSITION": {
+                            "HORIZONTAL_ALIGN": "center",
+                            "VERTICAL_ALIGN": "center",
+                            "HORIZONTAL_ANCHOR": "center",
+                            "VERTICAL_ANCHOR": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "JUSTIFICATION": "center"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_5": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_4": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_3": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_2": 50.0,
+                        "NODE_VISIBILITY": "element",
+                        "NODE_CUSTOMGRAPHICS_SIZE_1": 50.0,
+                        "NODE_BORDER_STYLE": "solid",
+                        "NODE_BACKGROUND_OPACITY": 1.0,
+                        "NODE_LABEL_COLOR": "#252525",
+                        "NODE_SELECTED": false,
+                        "NODE_BORDER_COLOR": "#CCCCCC",
+                        "NODE_CUSTOMGRAPHICS_POSITION_8": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_9": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_SHAPE": "ellipse",
+                        "NODE_CUSTOMGRAPHICS_POSITION_4": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_5": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_6": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_7": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_LABEL_FONT_SIZE": 12,
+                        "NODE_X_LOCATION": 0.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_1": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_BORDER_OPACITY": 1.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_2": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_9": 50.0,
+                        "NODE_LABEL_ROTATION": 0.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_3": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_8": 50.0,
+                        "NODE_BORDER_WIDTH": 0.0,
+                        "NODE_LABEL_OPACITY": 1.0,
+                        "NODE_HEIGHT": 35.0,
+                        "NODE_LABEL_BACKGROUND_SHAPE": "NONE",
+                        "COMPOUND_NODE_PADDING": "10.0",
+                        "NODE_LABEL_BACKGROUND_OPACITY": 1.0,
+                        "NODE_LABEL_FONT_FACE": {
+                            "FONT_FAMILY": "sans-serif",
+                            "FONT_STYLE": "normal",
+                            "FONT_WEIGHT": "normal",
+                            "FONT_NAME": "SansSerif"
+                        },
+                        "NODE_SELECTED_PAINT": "#FFFF00",
+                        "NODE_LABEL_MAX_WIDTH": 200.0
+                    }
+                },
+                "edgeMapping": {
+                    "EDGE_TARGET_ARROW_SHAPE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "none"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "tee"
+                                },
+                                {
+                                    "v": "association",
+                                    "vp": "none"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "tee"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LABEL": {
+                        "type": "PASSTHROUGH",
+                        "definition": {
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LINE_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_SOURCE_ARROW_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_TARGET_ARROW_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LINE_STYLE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "dashed"
+                                },
+                                {
+                                    "v": "association",
+                                    "vp": "dotted"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "solid"
+                                },
+                                {
+                                    "v": "directlyIncreases",
+                                    "vp": "solid"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    }
+                },
+                "nodeMapping": {
+                    "NODE_BORDER_WIDTH": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "complex",
+                                    "vp": 10.0
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_LABEL": {
+                        "type": "PASSTHROUGH",
+                        "definition": {
+                            "attribute": "label",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_LABEL_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_BORDER_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "complex",
+                                    "vp": "#238B45"
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_SHAPE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "a",
+                                    "vp": "rectangle"
+                                },
+                                {
+                                    "v": "act",
+                                    "vp": "diamond"
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,3015 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": "1",
+            "text": "The innate immune response in vertebrates is the first line of defense against invading microorganisms. The main players in innate immunity are phagocytes such as neutrophils, macrophages, and dendritic cells. These cells can discriminate between pathogens and self by utilizing signals from the Toll-like receptors (TLRs). TLRs recognize conserved motifs predominantly found in microorganisms but not in vertebrates. Stimulation of TLRs causes an immediate defensive response, including the production of an array of antimicrobial peptides and cytokines. Accumulating evidence has shown that individual TLRs can activate overlapping as well as distinct signaling pathways, ultimately giving rise to distinct biological effects. Here, I will review our current understanding of the TLR signaling pathways.",
+            "Results": [
+                {
+                    "bel_statement": "p(FPLX:TLR) increases bp(GO:\"innate immune response\")",
+                    "evidence": "Stimulation of TLRs causes an immediate defensive response, including the production of an array of antimicrobial peptides and cytokines."
+                },
+                {
+                    "bel_statement": "p(FPLX:TLR) increases bp(GO:\"cytokine production\")",
+                    "evidence": "Stimulation of TLRs causes an immediate defensive response, including the production of an array of antimicrobial peptides and cytokines."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "GO",
+                    "id": "GO:0045087",
+                    "entry_name": "innate immune response"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014714",
+                    "entry_name": "Vertebrates"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0045087",
+                    "entry_name": "innate immune response"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010586",
+                    "entry_name": "Phagocytes"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009504",
+                    "entry_name": "Neutrophils"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003713",
+                    "entry_name": "Dendritic Cells"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D051193",
+                    "entry_name": "Toll-Like Receptors"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014714",
+                    "entry_name": "Vertebrates"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0002698",
+                    "entry_name": "array"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000089882",
+                    "entry_name": "Antimicrobial Peptides"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016454",
+                    "entry_name": "Review"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032882",
+                    "entry_name": "Comprehension"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0002224",
+                    "entry_name": "toll-like receptor signaling pathway"
+                }
+            ]
+        },
+        {
+            "Index": "2",
+            "text": "Toll was initially identified in insects as a receptor essential for dorsoventral polarity during embryogenesis. Subsequent studies revealed that it also plays an essential role in insects in the innate immune response against fungal infection. Mammalian homologues of Toll were subsequently identified through expressed sequence tag and genomic sequence database searches. To date, 10 members of the TLR family have been identified in mammals. TLRs are members of a larger superfamily of interleukin-1 receptors (IL-1Rs) that share significant homology in their cytoplasmic regions. In particular, TLRs and members of the IL-1R family share a conserved stretch of ~200 amino acids in their cytoplasmic region known as the Toll/IL-1R (TIR) domain. The region of homology in the TIR motif is confined to three conserved boxes that contain amino acids crucial for signaling. In contrast, the extracellular regions are quite diverse. The extracellular portion of the TLRs contains a leucine-rich repeat (LRR) motif whereas that of the IL-1Rs contains three immunoglobulin domains. The LRR domains consist of varying numbers of repeats, each 24\u201329 amino acids in length, containing the motif XXLXLXX and other conserved leucines. It is thought that these LRR domains are directly involved in the recognition of a variety of pathogens. The major ligands recognized by individual TLRs are summarized in Fig. 1.",
+            "Results": [
+                {
+                    "bel_statement": "p(FPLX:TLR) hasMember p(FPLX:IL1R)",
+                    "evidence": "TLRs are members of a larger superfamily of interleukin-1 receptors (IL-1Rs) that share significant homology in their cytoplasmic regions."
+                },
+                {
+                    "bel_statement": "p(FPLX:TLR) hasComponent p(FPLX:IL1R)",
+                    "evidence": "TLRs and members of the IL-1R family share a conserved stretch of ~200 amino acids in their cytoplasmic region known as the Toll/IL-1R (TIR) domain."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D007313",
+                    "entry_name": "Insecta"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009790",
+                    "entry_name": "embryo development"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D007313",
+                    "entry_name": "Insecta"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0045087",
+                    "entry_name": "innate immune response"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009181",
+                    "entry_name": "Mycoses"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020224",
+                    "entry_name": "Expressed Sequence Tags"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019991",
+                    "entry_name": "Database"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008322",
+                    "entry_name": "Mammals"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017472",
+                    "entry_name": "Receptors, Interleukin-1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0099568",
+                    "entry_name": "cytoplasmic region"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "5993",
+                    "entry_name": "IL1R1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0099568",
+                    "entry_name": "cytoplasmic region"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005576",
+                    "entry_name": "extracellular region"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005576",
+                    "entry_name": "extracellular region"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000070557",
+                    "entry_name": "Immunoglobulin Domains"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "text": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the adaptor molecule MyD88, IL-1RI-associated protein kinases (IRAKs), the transforming growth factor (TGF)-\u03b2-activated kinase (TAK1), TAK1-binding protein 1 (TAB1) and 2 (TAB2), and the tumor necrosis factor receptor-associated factor 6 (TRAF6). The generally accepted scenario of the IL-1/TLR signaling pathway is shown in Fig. 2.",
+            "Results": [
+                {
+                    "bel_statement": "p(FPLX:IL1R) increases p(HGNC:MYD88)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the adaptor molecule MyD88."
+                },
+                {
+                    "bel_statement": "p(FPLX:TLR) increases p(HGNC:MYD88)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the adaptor molecule MyD88."
+                },
+                {
+                    "bel_statement": "p(FPLX:IL1R) increases p(FPLX:IRAK)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the adaptor molecule MyD88, IL-1RI-associated protein kinases (IRAKs)."
+                },
+                {
+                    "bel_statement": "p(FPLX:TLR) increases p(FPLX:IRAK)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the adaptor molecule MyD88, IL-1RI-associated protein kinases (IRAKs)."
+                },
+                {
+                    "bel_statement": "p(FPLX:IL1R) increases p(HGNC:MAP3K7)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the transforming growth factor (TGF)-\u03b2-activated kinase (TAK1)."
+                },
+                {
+                    "bel_statement": "p(FPLX:TLR) increases p(HGNC:MAP3K7)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the transforming growth factor (TGF)-\u03b2-activated kinase (TAK1)."
+                },
+                {
+                    "bel_statement": "p(FPLX:IL1R) increases p(HGNC:TRAF6)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the tumor necrosis factor receptor-associated factor 6 (TRAF6)."
+                },
+                {
+                    "bel_statement": "p(FPLX:TLR) increases p(HGNC:TRAF6)",
+                    "evidence": "The IL-1R and TLR family signal via shared downstream signaling molecules. They include the tumor necrosis factor receptor-associated factor 6 (TRAF6)."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "5993",
+                    "entry_name": "IL1R1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62488",
+                    "entry_name": "signalling molecule"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015291",
+                    "entry_name": "Transforming Growth Factors"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17075",
+                    "entry_name": "TAB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11892",
+                    "entry_name": "TNF"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "text": "Triggering of the IL-1R or TLR causes the adaptor protein MyD88 to be recruited to the receptor complex, which in turn promotes association with the IL-1R-associated kinases IRAK4 and IRAK1. During the formation of this complex, IRAK4 is activated, leading to the hyperphosphorylation of IRAK-1, which then induces the interaction of TRAF6 with the complex. The association of IRAK-4\u2013IRAK-1\u2013TRAF6 causes some conformational change in one or more of these factors, leading to their disengagement from the receptor complex. The IRAK-4\u2013IRAK-1\u2013TRAF6 complex then interacts at the membrane with another preformed complex consisting of TAK1, TAB1, and TAB2. This interaction induces phosphorylation of TAB2 and TAK1, which then translocate together with TRAF6 and TAB1 to the cytosol. TAK1 is subsequently activated in the cytoplasm, leading to the activation of IKK. Inactive IKK sequesters NF-\u03baB in the cytoplasm, but activation leads to phosphorylation and degradation of I\u03baB and consequent release of NF-\u03baB. Activation of TAK1 also results in the activation of MAP kinases and c-Jun NH2-terminal kinase (JNK). I will discuss these molecules and their interactions in more detail below.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MYD88) increases complex(p(HGNC:IRAK4), p(HGNC:IRAK1))",
+                    "evidence": "Triggering of the IL-1R or TLR causes the adaptor protein MyD88 to be recruited to the receptor complex, which in turn promotes association with the IL-1R-associated kinases IRAK4 and IRAK1."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:IRAK4)) increases p(HGNC:IRAK1, pmod(Ph))",
+                    "evidence": "During the formation of this complex, IRAK4 is activated, leading to the hyperphosphorylation of IRAK-1, which then induces the interaction of TRAF6 with the complex."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:IRAK4), p(HGNC:IRAK1), p(HGNC:TRAF6)) increases complex(p(HGNC:TAK1), p(HGNC:TAB1), p(HGNC:TAB2))",
+                    "evidence": "The IRAK-4\u2013IRAK-1\u2013TRAF6 complex then interacts at the membrane with another preformed complex consisting of TAK1, TAB1, and TAB2."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:TAK1), p(HGNC:TAB1), p(HGNC:TAB2)) increases p(HGNC:TAB2, pmod(Ph))",
+                    "evidence": "This interaction induces phosphorylation of TAB2 and TAK1, which then translocate together with TRAF6 and TAB1 to the cytosol."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:TAK1), p(HGNC:TAB1), p(HGNC:TAB2)) increases p(HGNC:TAK1, pmod(Ph))",
+                    "evidence": "This interaction induces phosphorylation of TAB2 and TAK1, which then translocate together with TRAF6 and TAB1 to the cytosol."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:TAK1)) increases act(p(HGNC:IKBKB))",
+                    "evidence": "TAK1 is subsequently activated in the cytoplasm, leading to the activation of IKK."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:IKBKB)) increases deg(p(HGNC:NFKBIA))",
+                    "evidence": "Inactive IKK sequesters NF-\u03baB in the cytoplasm, but activation leads to phosphorylation and degradation of I\u03baB and consequent release of NF-\u03baB."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:TAK1)) increases act(p(HGNC:MAPK1))",
+                    "evidence": "Activation of TAK1 also results in the activation of MAP kinases and c-Jun NH2-terminal kinase (JNK)."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:TAK1)) increases act(p(HGNC:JNK))",
+                    "evidence": "Activation of TAK1 also results in the activation of MAP kinases and c-Jun NH2-terminal kinase (JNK)."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "5993",
+                    "entry_name": "IL1R1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0043235",
+                    "entry_name": "receptor complex"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0043235",
+                    "entry_name": "receptor complex"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17075",
+                    "entry_name": "TAB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17075",
+                    "entry_name": "TAB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005829",
+                    "entry_name": "cytosol"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005737",
+                    "entry_name": "cytoplasm"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IKK_complex",
+                    "entry_name": "IKK_complex"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IKK_complex",
+                    "entry_name": "IKK_complex"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005737",
+                    "entry_name": "cytoplasm"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IKB",
+                    "entry_name": "IKB"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "JNK",
+                    "entry_name": "JNK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "text": "MyD88 was originally isolated as a myeloid differentiation primary response gene that is rapidly induced upon IL-6-stimulated differentiation of M1 myeloleukemic cells into macrophages. MyD88 consists of an N-terminal death domain (DD) separated from its C-terminal TIR domain by a short linker sequence. MyD88 was subsequently cloned as an adapter molecule that functions to recruit IRAK to the IL-1 receptor complex following IL-1 stimulation. The association between MyD88 and IRAK is mediated through a DD-DD interaction. MyD88 also forms homodimers through DD-DD and TIR-TIR domain interactions and exists as a dimer when recruited to the receptor complex. When the C-terminal TIR domain of MyD88 is expressed by itself, it acts as a dominant-negative inhibitor of TLR4 and IL-1R signaling by preventing IRAK association with the receptors. Thus, MyD88 functions as an adapter linking IL-1R/TLRs with downstream signaling molecules harboring DD.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MYD88) increases p(HGNC:IRAK1)",
+                    "evidence": "MyD88 was subsequently cloned as an adapter molecule that functions to recruit IRAK to the IL-1 receptor complex following IL-1 stimulation."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:MYD88), p(HGNC:IRAK1))",
+                    "evidence": "The association between MyD88 and IRAK is mediated through a DD-DD interaction."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases p(HGNC:TLR4)",
+                    "evidence": "When the C-terminal TIR domain of MyD88 is expressed by itself, it acts as a dominant-negative inhibitor of TLR4 and IL-1R signaling by preventing IRAK association with the receptors."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "4096",
+                    "entry_name": "GADD45B"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0030154",
+                    "entry_name": "cell differentiation"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34826",
+                    "entry_name": "M1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000071459",
+                    "entry_name": "Death Domain"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "385",
+                    "entry_name": "AKR1C2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0045323",
+                    "entry_name": "interleukin-1 receptor complex"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "25055",
+                    "entry_name": "SMDT1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020478",
+                    "entry_name": "Form"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "25055",
+                    "entry_name": "SMDT1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0043235",
+                    "entry_name": "receptor complex"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11850",
+                    "entry_name": "TLR4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "5993",
+                    "entry_name": "IL1R1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:62488",
+                    "entry_name": "signalling molecule"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "385",
+                    "entry_name": "AKR1C2"
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "text": "Four different IRAKs (IRAK-1, IRAK-2, IRAK-M, and IRAK-4) have been identified in mammals. The expression patterns of these members differ; IRAK-1 and IRAK-4 are expressed in all tissues, IRAK-2 has a narrower cellular distribution, and IRAK-M expression is mainly restricted to cells of a myeloid origin. All IRAKs contain an N-terminal DD and a central Ser/Thr kinase domain (KD). Although the kinase activity of IRAK-1 increases strongly following IL-1 stimulation, IRAK-1 kinase activity is not required for its signaling function, because overexpression of a kinase-defective mutant of IRAK-1 is observed to strongly induce NF-\u03baB activation in cells otherwise deficient for IRAK-1. Upon stimulation, IRAK-1 is recruited to the receptor through a homophilic interaction with the DD of MyD88. MyD88 also binds to IRAK-4 and thereby facilitates IRAK-4 phosphorylation of critical residue(s) in the kinase activation loop of IRAK-1, triggering IRAK-1\u2019s own kinase activity. Once activated, IRAK-1 likely autophosphorylates residues in its N terminus. TRAF6 is also recruited to the receptor complex via interaction with IRAK-1. Three TRAF6 binding motifs (Pro-X-Glu-X-X-aromatic/acidic residue) are found in IRAK-1, as well as one in IRAK-M and two in IRAK-2. However, in contrast to IRAK-1 and IRAK-4, IRAK-2 and IRAK-M do not possess any detectable kinase activity. This is presumably because they have an asparagine and serine residue, respectively, in their kinase domains in place of an aspartate residue shown to be critical for the kinase activity of other IRAKs. IRAK-1-deficient mice and cell lines showed diminished cytokine production in response to IL-1 and LPS; nevertheless some response remained, suggesting that IRAK-2 or IRAK-M might compensate to some extent for the lack of IRAK-1. IRAK-4-deficient mice have been generated and showed almost complete unresponsiveness to IL-1, LPS, or other bacterial components, demonstrating that IRAK-4 is a key player in the IL-1R/TLR signaling. Recently, patients with inherited IRAK-4 deficiency have been identified. These patients failed to respond to IL-1, IL-18, or the stimulation of at least five TLRs (TLR2, TLR3, TLR4, TLR5, TLR9). Data with IRAK-M knock-out mice have revealed that IRAK-M serves as a negative regulator of IL-1R/TLR signaling. IRAK-M-deficient macrophages produced significantly higher cytokine levels in response to a variety of IL-1R/TLR ligands. Furthermore, IRAK-M-deficient macrophages did not become hyporesponsive following repeated exposure to LPS, suggesting that IRAK-M plays an essential role in endotoxin tolerance.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:IRAK1) increases act(p(HGNC:IRAK1), ma(GO:\"kinase activity\"))",
+                    "evidence": "Although the kinase activity of IRAK-1 increases strongly following IL-1 stimulation, IRAK-1 kinase activity is not required for its signaling function."
+                },
+                {
+                    "bel_statement": "p(HGNC:IRAK1) increases bp(GO:\"NF-kappaB transcription factor activity\")",
+                    "evidence": "Overexpression of a kinase-defective mutant of IRAK-1 is observed to strongly induce NF-\u03baB activation in cells otherwise deficient for IRAK-1."
+                },
+                {
+                    "bel_statement": "p(HGNC:IRAK1) directlyIncreases p(HGNC:TRAF6)",
+                    "evidence": "TRAF6 is also recruited to the receptor complex via interaction with IRAK-1."
+                },
+                {
+                    "bel_statement": "p(HGNC:IRAK4) directlyIncreases p(HGNC:IRAK1)",
+                    "evidence": "MyD88 also binds to IRAK-4 and thereby facilitates IRAK-4 phosphorylation of critical residue(s) in the kinase activation loop of IRAK-1, triggering IRAK-1\u2019s own kinase activity."
+                },
+                {
+                    "bel_statement": "p(HGNC:IRAK4) increases bp(GO:\"IL-1R/TLR signaling pathway\")",
+                    "evidence": "IRAK-4-deficient mice have been generated and showed almost complete unresponsiveness to IL-1, LPS, or other bacterial components, demonstrating that IRAK-4 is a key player in the IL-1R/TLR signaling."
+                },
+                {
+                    "bel_statement": "p(HGNC:IRAKM) decreases bp(GO:\"IL-1R/TLR signaling pathway\")",
+                    "evidence": "Data with IRAK-M knock-out mice have revealed that IRAK-M serves as a negative regulator of IL-1R/TLR signaling."
+                },
+                {
+                    "bel_statement": "p(HGNC:IRAKM) increases bp(GO:\"endotoxin tolerance\")",
+                    "evidence": "IRAK-M-deficient macrophages did not become hyporesponsive following repeated exposure to LPS, suggesting that IRAK-M plays an essential role in endotoxin tolerance."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6113",
+                    "entry_name": "IRAK2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008322",
+                    "entry_name": "Mammals"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014024",
+                    "entry_name": "Tissues"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6113",
+                    "entry_name": "IRAK2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "385",
+                    "entry_name": "AKR1C2"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0030645",
+                    "entry_name": "Central"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009080",
+                    "entry_name": "Mucocutaneous Lymph Node Syndrome"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016301",
+                    "entry_name": "kinase activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016301",
+                    "entry_name": "kinase activity"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "385",
+                    "entry_name": "AKR1C2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016301",
+                    "entry_name": "kinase activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0043235",
+                    "entry_name": "receptor complex"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6113",
+                    "entry_name": "IRAK2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6113",
+                    "entry_name": "IRAK2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016301",
+                    "entry_name": "kinase activity"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:22653",
+                    "entry_name": "asparagine"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:32848",
+                    "entry_name": "serine residue"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010770",
+                    "entry_name": "Phosphotransferases"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:32471",
+                    "entry_name": "aspartate residue"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016301",
+                    "entry_name": "kinase activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0001816",
+                    "entry_name": "cytokine production"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0070555",
+                    "entry_name": "response to interleukin-1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6113",
+                    "entry_name": "IRAK2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17967",
+                    "entry_name": "IRAK4"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "MESH",
+                    "id": "C564352",
+                    "entry_name": "IRAK4 Deficiency"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "5986",
+                    "entry_name": "IL18"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11848",
+                    "entry_name": "TLR2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11850",
+                    "entry_name": "TLR4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11851",
+                    "entry_name": "TLR5"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "15633",
+                    "entry_name": "TLR9"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018345",
+                    "entry_name": "Mice, Knockout"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000487",
+                    "entry_name": "exposure"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17020",
+                    "entry_name": "IRAK3"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000087523",
+                    "entry_name": "Endotoxin Tolerance"
+                }
+            ]
+        },
+        {
+            "Index": "7",
+            "text": "TRAFs constitute a family of evolutionarily conserved adaptor proteins. To date, six members of the TRAF family have been identified in mammals. The TRAF proteins are characterized by the presence of a coiled-coil TRAF-N domain and a conserved C-terminal TRAF domain. The TRAF-C domain mediates self-association and interactions with upstream receptors and signaling proteins. The N-terminal portion of most TRAF proteins also contains a RING finger/zinc finger region essential for downstream signaling events. TRAF6 acts as the signaling mediator for both the TNF receptor superfamily and the IL-1R/TLR superfamily. TRAF6 directly interacts with CD40 and TRANCE-R, which are members of the TNF receptor superfamily. TRAF6 is indirectly coupled to IL-1/TlR receptor activation and is recruited into the signaling complex via its association with IRAK.",
+            "Results": [
+                {
+                    "bel_statement": "p(FPLX:TRAF6) directlyIncreases p(HGNC:CD40)",
+                    "evidence": "TRAF6 directly interacts with CD40 and TRANCE-R, which are members of the TNF receptor superfamily."
+                },
+                {
+                    "bel_statement": "p(FPLX:TRAF6) directlyIncreases p(HGNC:TNFRSF11A)",
+                    "evidence": "TRAF6 directly interacts with CD40 and TRANCE-R, which are members of the TNF receptor superfamily."
+                },
+                {
+                    "bel_statement": "p(FPLX:TRAF6) increases p(HGNC:IRAK1)",
+                    "evidence": "TRAF6 is indirectly coupled to IL-1/TlR receptor activation and is recruited into the signaling complex via its association with IRAK."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "TRAF",
+                    "entry_name": "TRAF"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TRAF",
+                    "entry_name": "TRAF"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008322",
+                    "entry_name": "Mammals"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TRAF",
+                    "entry_name": "TRAF"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TRAF",
+                    "entry_name": "TRAF"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TRAF",
+                    "entry_name": "TRAF"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018124",
+                    "entry_name": "Receptors, Tumor Necrosis Factor"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11919",
+                    "entry_name": "CD40"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11908",
+                    "entry_name": "TNFRSF11A"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D018124",
+                    "entry_name": "Receptors, Tumor Necrosis Factor"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001244",
+                    "entry_name": "Association"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                }
+            ]
+        },
+        {
+            "Index": "8",
+            "text": "The activation of both NF-\u03baB and AP-1 by TRAF6 involves a MAP 3-kinase known as TAK1 and two adaptor proteins, TAB1 and TAB2. TAK1 is a member of the mitogen-activated protein kinase kinase kinase (MAPKKK) family. Studies using small interfering RNA (siRNA) to inhibit TAK1 expression show that TAK1 is essential for both IL-1- and TNF-\u03b2-induced NF-\u03baB activation. Two TAK1-binding proteins, TAB1 and TAB2, have been identified. When ectopically co-expressed, TAB1 augments the kinase activity of TAK1, indicating that TAB1 functions as an activator of TAK1. TAB2 is associated with the cell membrane in unstimulated conditions, but upon stimulation it translocates to the cytosol, where it functions as an adaptor linking TAK1 to TRAF6, thereby facilitating TAK1 activation. It has been shown recently that ubiquitination plays an important role in TAK1 activation. IKK activation by TRAF6 requires a dimeric ubiquitin-conjugating enzyme complex composed of Ubc13 and Uev1A as well as the TAK1\u2013kinase complex. TRAF6 can interact through its RING finger domain with Ubc13 in the Ubc13\u2013Uev1A complex. This Ubc\u2013TRAF6 complex catalyzes the formation of a Lys-63-linked polyubiquitin chain, which triggers TAK1 activation through a unique proteasome-independent mechanism.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:TRAF6) increases act(p(HGNC:MAP3K7))",
+                    "evidence": "The activation of both NF-\u03baB and AP-1 by TRAF6 involves a MAP 3-kinase known as TAK1 and two adaptor proteins, TAB1 and TAB2."
+                },
+                {
+                    "bel_statement": "p(HGNC:MAP3K7) increases act(p(HGNC:NFKB1))",
+                    "evidence": "Studies using small interfering RNA (siRNA) to inhibit TAK1 expression show that TAK1 is essential for both IL-1- and TNF-\u03b2-induced NF-\u03baB activation."
+                },
+                {
+                    "bel_statement": "p(HGNC:MAP3K7) increases act(p(HGNC:RELA))",
+                    "evidence": "Studies using small interfering RNA (siRNA) to inhibit TAK1 expression show that TAK1 is essential for both IL-1- and TNF-\u03b2-induced NF-\u03baB activation."
+                },
+                {
+                    "bel_statement": "p(HGNC:MAP3K7) increases act(p(HGNC:IKBKB))",
+                    "evidence": "IKK activation by TRAF6 requires a dimeric ubiquitin-conjugating enzyme complex composed of Ubc13 and Uev1A as well as the TAK1\u2013kinase complex."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:UBE2N), p(HGNC:UBE2V1)) increases act(p(HGNC:MAP3K7))",
+                    "evidence": "IKK activation by TRAF6 requires a dimeric ubiquitin-conjugating enzyme complex composed of Ubc13 and Uev1A as well as the TAK1\u2013kinase complex."
+                },
+                {
+                    "bel_statement": "p(HGNC:TRAF6) increases complex(p(HGNC:UBE2N), p(HGNC:UBE2V1))",
+                    "evidence": "TRAF6 can interact through its RING finger domain with Ubc13 in the Ubc13\u2013Uev1A complex."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:UBE2N), p(HGNC:UBE2V1)) increases act(p(HGNC:MAP3K7))",
+                    "evidence": "This Ubc\u2013TRAF6 complex catalyzes the formation of a Lys-63-linked polyubiquitin chain, which triggers TAK1 activation through a unique proteasome-independent mechanism."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "AP1",
+                    "entry_name": "AP1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019532",
+                    "entry_name": "Map"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17075",
+                    "entry_name": "TAB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAP3K",
+                    "entry_name": "MAP3K"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D034741",
+                    "entry_name": "RNA, Small Interfering"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D034741",
+                    "entry_name": "RNA, Small Interfering"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TAB",
+                    "entry_name": "TAB"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17075",
+                    "entry_name": "TAB2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0016301",
+                    "entry_name": "kinase activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18157",
+                    "entry_name": "TAB1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:195251",
+                    "entry_name": "activator"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17075",
+                    "entry_name": "TAB2"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005829",
+                    "entry_name": "cytosol"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D054875",
+                    "entry_name": "Ubiquitination"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IKK_complex",
+                    "entry_name": "IKK_complex"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0031371",
+                    "entry_name": "ubiquitin conjugating enzyme complex"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12492",
+                    "entry_name": "UBE2N"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12494",
+                    "entry_name": "UBE2V1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D054829",
+                    "entry_name": "RING Finger Domains"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12492",
+                    "entry_name": "UBE2N"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0035370",
+                    "entry_name": "UBC13-UEV1A complex"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D025821",
+                    "entry_name": "Polyubiquitin"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6859",
+                    "entry_name": "MAP3K7"
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "text": "Tollip (Toll-interacting protein) was originally cloned as a protein interacting with the IL-1 receptor accessory protein. Tollip also associates with TLR2 and TLR4. In resting cells, Tollip forms a complex with members of the IRAK family, thereby preventing NF-\u03baB activation. Upon activation Tollip\u2013IRAK-1 complexes are recruited to the cognate receptor, resulting in the rapid autophosphorylation of IRAK-1 and its dissociation from the receptor. At the same time, IRAK phosphorylates Tollip, which may lead to the dissociation of Tollip from IRAK-1 and its rapid ubiquitination and degradation. Tollip is believed to function primarily to maintain immune cells in a quiescent state and to facilitate the termination of IL-1R/TLR-induced cell signaling during inflammation and infection.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:TOLLIP) directlyIncreases complex(p(HGNC:IRAK1), p(HGNC:TOLLIP))",
+                    "evidence": "In resting cells, Tollip forms a complex with members of the IRAK family, thereby preventing NF-\u03baB activation."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:IRAK1), p(HGNC:TOLLIP)) directlyIncreases act(p(HGNC:IRAK1), ma(GO:\"autophosphorylation\"))",
+                    "evidence": "Upon activation Tollip\u2013IRAK-1 complexes are recruited to the cognate receptor, resulting in the rapid autophosphorylation of IRAK-1 and its dissociation from the receptor."
+                },
+                {
+                    "bel_statement": "act(p(HGNC:IRAK1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:TOLLIP, pmod(Ph))",
+                    "evidence": "At the same time, IRAK phosphorylates Tollip, which may lead to the dissociation of Tollip from IRAK-1 and its rapid ubiquitination and degradation."
+                },
+                {
+                    "bel_statement": "p(HGNC:TOLLIP) directlyIncreases deg(p(HGNC:TOLLIP))",
+                    "evidence": "At the same time, IRAK phosphorylates Tollip, which may lead to the dissociation of Tollip from IRAK-1 and its rapid ubiquitination and degradation."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "16476",
+                    "entry_name": "TOLLIP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16476",
+                    "entry_name": "TOLLIP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "5995",
+                    "entry_name": "IL1RAP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16476",
+                    "entry_name": "TOLLIP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11848",
+                    "entry_name": "TLR2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11850",
+                    "entry_name": "TLR4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16476",
+                    "entry_name": "TOLLIP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D020478",
+                    "entry_name": "Form"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004213",
+                    "entry_name": "Dissociative Disorders"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16476",
+                    "entry_name": "TOLLIP"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D004213",
+                    "entry_name": "Dissociative Disorders"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16476",
+                    "entry_name": "TOLLIP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D054875",
+                    "entry_name": "Ubiquitination"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0009056",
+                    "entry_name": "catabolic process"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "16476",
+                    "entry_name": "TOLLIP"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0006954",
+                    "entry_name": "inflammatory response"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000544",
+                    "entry_name": "infection"
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "text": "Pellino is a Drosophila protein that was cloned through a yeast two-hybrid screen against Pelle. Pellino is highly conserved among different species. At least two members of the Pellino family have been identified in mammals. Human Pellino 1 and its homolog from Caenorhabditis elegans share 44% amino acid identity and 53% similarity. Mouse Pellino 1 and Pellino 2 share 75% similarity. Studies using siRNA to inhibit Pellino 1 expression have shown that Pellino 1 is required for IL-1-induced NF-\u03baB activation and IL-8 gene expression. Pellino 2 has also been shown to be involved in IL-1R/TLR signaling pathways. Following IL-1 stimulation, IRAK-1 and Pellino 2 associate to form complexes. Ectopic expression of a Pellino 2 antisense construct was shown to inhibit IL-1- and LPS-dependent but not TNF-\u03b2-dependent activation of the IL-8 promoter. Pellino 1 and 2 are presumed to play a role in facilitating the release of phosphorylated IRAK from the receptor.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:PELI1) increases act(p(HGNC:NFKB1))",
+                    "evidence": "Studies using siRNA to inhibit Pellino 1 expression have shown that Pellino 1 is required for IL-1-induced NF-\u03baB activation and IL-8 gene expression."
+                },
+                {
+                    "bel_statement": "p(HGNC:PELI1) increases r(HGNC:IL8)",
+                    "evidence": "Studies using siRNA to inhibit Pellino 1 expression have shown that Pellino 1 is required for IL-1-induced NF-\u03baB activation and IL-8 gene expression."
+                },
+                {
+                    "bel_statement": "complex(p(HGNC:IRAK1), p(HGNC:PELI2))",
+                    "evidence": "Following IL-1 stimulation, IRAK-1 and Pellino 2 associate to form complexes."
+                },
+                {
+                    "bel_statement": "p(HGNC:PELI2) decreases r(HGNC:IL8)",
+                    "evidence": "Ectopic expression of a Pellino 2 antisense construct was shown to inhibit IL-1- and LPS-dependent but not TNF-\u03b2-dependent activation of the IL-8 promoter."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "MESH",
+                    "id": "D004330",
+                    "entry_name": "Drosophila"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015003",
+                    "entry_name": "Yeasts"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008322",
+                    "entry_name": "Mammals"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D017173",
+                    "entry_name": "Caenorhabditis elegans"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D051379",
+                    "entry_name": "Mice"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D034741",
+                    "entry_name": "RNA, Small Interfering"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6025",
+                    "entry_name": "CXCL8"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D000066630",
+                    "entry_name": "Ectopic Gene Expression"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6025",
+                    "entry_name": "CXCL8"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6112",
+                    "entry_name": "IRAK1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "text": "PI 3-kinases are activated in IL-1R/TLR signaling. The activation of PI 3-kinase occurs through an interaction of the Src homology (SH)-2 domain of the PI 3-kinase p85 subunit with a domain in the partner cell surface receptor containing the motif YXXM. Interestingly, this PI 3-kinase binding motif is present only in a subset of TLRs, i.e. in TLRs 1, 2, and 6 but not in TLRs 3, 4, or 5. TLR2 has been shown to bind directly to the regulatory p85 subunit of the PI 3-kinase. A putative PI 3-kinase binding site (amino acids 257\u2013260, YKAM) is also found in the C terminus of MyD88. LPS stimulation has been shown to result in tyrosine phosphorylation of MyD88 and formation of a PI 3-kinase\u2013MyD88 complex. However, the role of PI 3-kinase activation in TLR signaling remains to be elucidated.",
+            "Results": [
+                {
+                    "bel_statement": "p(FPLX:PI3K) increases act(p(FPLX:PI3K))",
+                    "evidence": "PI 3-kinases are activated in IL-1R/TLR signaling."
+                },
+                {
+                    "bel_statement": "p(FPLX:PI3K) binds p(HGNC:TLR2)",
+                    "evidence": "TLR2 has been shown to bind directly to the regulatory p85 subunit of the PI 3-kinase."
+                },
+                {
+                    "bel_statement": "p(FPLX:PI3K) binds p(HGNC:MYD88)",
+                    "evidence": "LPS stimulation has been shown to result in tyrosine phosphorylation of MyD88 and formation of a PI 3-kinase\u2013MyD88 complex."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11283",
+                    "entry_name": "SRC"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:29312",
+                    "entry_name": "sulfanyl"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K_p85",
+                    "entry_name": "PI3K_p85"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0038023",
+                    "entry_name": "signaling receptor activity"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11848",
+                    "entry_name": "TLR2"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K_p85",
+                    "entry_name": "PI3K_p85"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:33709",
+                    "entry_name": "amino acid"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:18186",
+                    "entry_name": "tyrosine"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:28874",
+                    "entry_name": "phosphatidylinositol"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "PI3K",
+                    "entry_name": "PI3K"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "text": "MyD88-deficient mice have been generated and found to be completely defective in their responses to IL-1 and the IL-1-related cytokine, IL-18. The response to LPS was shown to also be abolished. Furthermore, MyD88-deficient macrophages were shown to be completely unresponsive to other immunostimulatory components including peptidoglycan, lipoproteins, CpG DNA, flagellin, and imidazoquinolines, demonstrating the essential role of MyD88 in the response to all TLR responses. Although MyD88 is reported to be involved in TLR3 signaling, TLR3 does not appear to use the MyD88-dependent pathway to any significant extent, because the response to poly(I-C) was not impaired in MyD88-deficient mice. TLR3 is unique among the TLRs in that it lacks a highly conserved proline residue in its cytoplasmic portion, which in other TLRs has been shown to be essential for signaling. There is an alanine residue in this position in TLR3, conserved between human and mouse TLR3. It is noteworthy that, compared with other TLR ligands, poly(I-C) stimulation induces the production of relatively large amounts of type I interferons and interferon-inducible genes but smaller amounts of inflammatory cytokines such as TNF-\u03b2 and IL-6, further suggesting that TLR3 does not utilize the MyD88-dependent pathway for signaling.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases r(HGNC:IL1B)",
+                    "evidence": "MyD88-deficient mice have been generated and found to be completely defective in their responses to IL-1 and the IL-1-related cytokine, IL-18."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases r(HGNC:IL18)",
+                    "evidence": "MyD88-deficient mice have been generated and found to be completely defective in their responses to IL-1 and the IL-1-related cytokine, IL-18."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases bp(GO:\"response to lipopolysaccharide\")",
+                    "evidence": "The response to LPS was shown to also be abolished."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases bp(GO:\"response to peptidoglycan\")",
+                    "evidence": "MyD88-deficient macrophages were shown to be completely unresponsive to other immunostimulatory components including peptidoglycan, lipoproteins, CpG DNA, flagellin, and imidazoquinolines, demonstrating the essential role of MyD88 in the response to all TLR responses."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases bp(GO:\"response to lipoprotein\")",
+                    "evidence": "MyD88-deficient macrophages were shown to be completely unresponsive to other immunostimulatory components including peptidoglycan, lipoproteins, CpG DNA, flagellin, and imidazoquinolines, demonstrating the essential role of MyD88 in the response to all TLR responses."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases bp(GO:\"response to CpG DNA\")",
+                    "evidence": "MyD88-deficient macrophages were shown to be completely unresponsive to other immunostimulatory components including peptidoglycan, lipoproteins, CpG DNA, flagellin, and imidazoquinolines, demonstrating the essential role of MyD88 in the response to all TLR responses."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases bp(GO:\"response to flagellin\")",
+                    "evidence": "MyD88-deficient macrophages were shown to be completely unresponsive to other immunostimulatory components including peptidoglycan, lipoproteins, CpG DNA, flagellin, and imidazoquinolines, demonstrating the essential role of MyD88 in the response to all TLR responses."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) directlyDecreases bp(GO:\"response to imidazoquinoline\")",
+                    "evidence": "MyD88-deficient macrophages were shown to be completely unresponsive to other immunostimulatory components including peptidoglycan, lipoproteins, CpG DNA, flagellin, and imidazoquinolines, demonstrating the essential role of MyD88 in the response to all TLR responses."
+                },
+                {
+                    "bel_statement": "p(HGNC:TLR3) directlyIncreases bp(GO:\"type I interferon production\")",
+                    "evidence": "It is noteworthy that, compared with other TLR ligands, poly(I-C) stimulation induces the production of relatively large amounts of type I interferons and interferon-inducible genes but smaller amounts of inflammatory cytokines such as TNF-\u03b2 and IL-6, further suggesting that TLR3 does not utilize the MyD88-dependent pathway for signaling."
+                },
+                {
+                    "bel_statement": "p(HGNC:TLR3) directlyDecreases r(HGNC:TNF)",
+                    "evidence": "It is noteworthy that, compared with other TLR ligands, poly(I-C) stimulation induces the production of relatively large amounts of type I interferons and interferon-inducible genes but smaller amounts of inflammatory cytokines such as TNF-\u03b2 and IL-6, further suggesting that TLR3 does not utilize the MyD88-dependent pathway for signaling."
+                },
+                {
+                    "bel_statement": "p(HGNC:TLR3) directlyDecreases r(HGNC:IL6)",
+                    "evidence": "It is noteworthy that, compared with other TLR ligands, poly(I-C) stimulation induces the production of relatively large amounts of type I interferons and interferon-inducible genes but smaller amounts of inflammatory cytokines such as TNF-\u03b2 and IL-6, further suggesting that TLR3 does not utilize the MyD88-dependent pathway for signaling."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IL1",
+                    "entry_name": "IL1"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "5986",
+                    "entry_name": "IL18"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0032496",
+                    "entry_name": "response to lipopolysaccharide"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0025237",
+                    "entry_name": "Confusional arousal"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:8005",
+                    "entry_name": "peptidoglycan"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:6495",
+                    "entry_name": "lipoprotein"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:167896",
+                    "entry_name": "cytidylyl-(3'->5')-guanosine"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16991",
+                    "entry_name": "deoxyribonucleic acid"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005408",
+                    "entry_name": "Flagellin"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:38776",
+                    "entry_name": "imidazoquinoline"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:84491",
+                    "entry_name": "poly(I:C)"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:32874",
+                    "entry_name": "proline residue"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:32441",
+                    "entry_name": "alanine residue"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0012830",
+                    "entry_name": "Position"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D006801",
+                    "entry_name": "Humans"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D051379",
+                    "entry_name": "Mice"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:52214",
+                    "entry_name": "ligand"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:84491",
+                    "entry_name": "poly(I:C)"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6511",
+                    "entry_name": "LARGE1"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Interferon",
+                    "entry_name": "Interferon"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D016207",
+                    "entry_name": "Cytokines"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6018",
+                    "entry_name": "IL6"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "text": "Although MyD88 plays a critical role in TLR signaling, there is a difference in the signaling pathways triggered by LPS and by other bacterial components. Activation of NF-\u03baB and MAP kinases by mycoplasmal lipopeptide is completely abolished in TLR2- or MyD88-deficient macrophages. However, LPS activation of MAP kinases and NF-\u03baB remains intact in MyD88-deficient macrophages, although it is delayed compared with that in wild-type mice. This indicates that the TLR4-mediated response to LPS may involve both MyD88-dependent and -independent pathways, each of which leads to the activation of MAP kinases and NF-\u03baB. Subtractive hybridization studies showed that interferon-inducible genes including IP-10, a CXC chemokine, are induced in MyD88-deficient macrophages in response to LPS. Subsequent studies have revealed that the MyD88-independent pathway activates the transcription factor IRF-3. Following virus infection, double-stranded RNA, or LPS treatment, IRF-3 undergoes phosphorylation and translocates from the cytoplasm to the nucleus, resulting in the transcriptional activation of type I interferons. Analyses with IFN-\u03b2/\u03b1 receptor-deficient mice and STAT1-deficient mice showed that IP-10 induction in response to LPS is secondary to IFN-\u03b1 induction.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:MYD88) increases bp(GO:\"TLR signaling pathway\")",
+                    "evidence": "Although MyD88 plays a critical role in TLR signaling, there is a difference in the signaling pathways triggered by LPS and by other bacterial components."
+                },
+                {
+                    "bel_statement": "p(HGNC:TLR2) increases act(p(HGNC:MYD88))",
+                    "evidence": "Activation of NF-\u03baB and MAP kinases by mycoplasmal lipopeptide is completely abolished in TLR2- or MyD88-deficient macrophages."
+                },
+                {
+                    "bel_statement": "p(HGNC:MYD88) increases act(p(HGNC:TLR2))",
+                    "evidence": "Activation of NF-\u03baB and MAP kinases by mycoplasmal lipopeptide is completely abolished in TLR2- or MyD88-deficient macrophages."
+                },
+                {
+                    "bel_statement": "p(HGNC:TLR4) increases bp(GO:\"MAPK cascade\")",
+                    "evidence": "This indicates that the TLR4-mediated response to LPS may involve both MyD88-dependent and -independent pathways, each of which leads to the activation of MAP kinases and NF-\u03baB."
+                },
+                {
+                    "bel_statement": "p(HGNC:TLR4) increases bp(GO:\"NF-kappaB signaling\")",
+                    "evidence": "This indicates that the TLR4-mediated response to LPS may involve both MyD88-dependent and -independent pathways, each of which leads to the activation of MAP kinases and NF-\u03baB."
+                },
+                {
+                    "bel_statement": "p(HGNC:IRF3) increases r(HGNC:IFNA1)",
+                    "evidence": "Following virus infection, double-stranded RNA, or LPS treatment, IRF-3 undergoes phosphorylation and translocates from the cytoplasm to the nucleus, resulting in the transcriptional activation of type I interferons."
+                },
+                {
+                    "bel_statement": "r(HGNC:IFNA1) increases r(HGNC:CXCL10)",
+                    "evidence": "Analyses with IFN-\u03b2/\u03b1 receptor-deficient mice and STAT1-deficient mice showed that IP-10 induction in response to LPS is secondary to IFN-\u03b1 induction."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HP",
+                    "id": "HP:0025204",
+                    "entry_name": "Triggered by"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:46895",
+                    "entry_name": "lipopeptide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11848",
+                    "entry_name": "TLR2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0010037",
+                    "entry_name": "INTACT"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0032496",
+                    "entry_name": "response to lipopolysaccharide"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D066251",
+                    "entry_name": "Subtractive Hybridization Techniques"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "10637",
+                    "entry_name": "CXCL10"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019743",
+                    "entry_name": "Chemokines, CXC"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0032496",
+                    "entry_name": "response to lipopolysaccharide"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014157",
+                    "entry_name": "Transcription Factors"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6118",
+                    "entry_name": "IRF3"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D014777",
+                    "entry_name": "Virus Diseases"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:67208",
+                    "entry_name": "double-stranded RNA"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6118",
+                    "entry_name": "IRF3"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005737",
+                    "entry_name": "cytoplasm"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0005634",
+                    "entry_name": "nucleus"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D015533",
+                    "entry_name": "Transcriptional Activation"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "Interferon",
+                    "entry_name": "Interferon"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "10637",
+                    "entry_name": "CXCL10"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0032496",
+                    "entry_name": "response to lipopolysaccharide"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IFNA",
+                    "entry_name": "IFNA"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "text": "Another TIR domain-containing protein (TIRAP, also named Mal) was identified by database searches. TIRAP was shown to associate with TLR-4 but not with other TLRs. Overexpression of a dominant-negative form of TIRAP was shown to inhibit LPS-induced NF-\u03baB activation and dendritic cell maturation. Blockage of TIRAP using a cell-permeable inhibitory peptide also prevented induction of IP-10 by LPS. Thus it was initially expected that TIRAP/Mal might participate in the MyD88-independent pathway. However, studies with TIRAP-deficient mice subsequently revealed that TIRAP/Mal is not involved in the MyD88-independent pathway and that it acts as an adaptor in the MyD88-dependent signaling pathways downstream of TLR2 and TLR4. Recently another adaptor molecule named TRIF or TICAM-1 has been identified. Overexpression of TRIF, but not MyD88 or TIRAP, preferentially activates the IFN-\u03b2 promoter. A dominant-negative form (DN) of TRIF, but not MyD88DN or TIRAPDN, blocked the TLR3-mediated response to poly(I-C), indicating the specific role of TRIF in TLR3 signaling. TRIFDN also was observed to block signaling pathways activated by other TLR family members, which indicates a role for TRIF in the MyD88-dependent signaling pathway. A recent generation of TRIF-deficient mice showed the essential role of TRIF in the MyD88-independent pathways of TLR3 and TLR4 signaling. Interestingly, TRIF-deficient mice abolished the response to LPS in terms of cytokine production that was considered to be mediated by the MyD88-dependent pathway.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:TIRAP) association p(HGNC:TLR4)",
+                    "evidence": "TIRAP was shown to associate with TLR-4 but not with other TLRs."
+                },
+                {
+                    "bel_statement": "p(HGNC:TIRAP) decreases bp(GO:\"NF-kappaB signaling\")",
+                    "evidence": "Overexpression of a dominant-negative form of TIRAP was shown to inhibit LPS-induced NF-\u03baB activation and dendritic cell maturation."
+                },
+                {
+                    "bel_statement": "p(HGNC:TIRAP) decreases bp(GO:\"dendritic cell maturation\")",
+                    "evidence": "Overexpression of a dominant-negative form of TIRAP was shown to inhibit LPS-induced NF-\u03baB activation and dendritic cell maturation."
+                },
+                {
+                    "bel_statement": "p(HGNC:TIRAP) decreases a(HGNC:CXCL10)",
+                    "evidence": "Blockage of TIRAP using a cell-permeable inhibitory peptide also prevented induction of IP-10 by LPS."
+                },
+                {
+                    "bel_statement": "p(HGNC:TIRAP) actsIn bp(GO:\"MyD88-dependent toll-like receptor signaling pathway\")",
+                    "evidence": "TIRAP/Mal is not involved in the MyD88-independent pathway and that it acts as an adaptor in the MyD88-dependent signaling pathways downstream of TLR2 and TLR4."
+                },
+                {
+                    "bel_statement": "p(HGNC:TRIF) increases bp(GO:\"type I interferon production\")",
+                    "evidence": "Overexpression of TRIF, but not MyD88 or TIRAP, preferentially activates the IFN-\u03b2 promoter."
+                },
+                {
+                    "bel_statement": "p(HGNC:TRIF) decreases bp(GO:\"TLR3 signaling pathway\")",
+                    "evidence": "A dominant-negative form (DN) of TRIF, but not MyD88DN or TIRAPDN, blocked the TLR3-mediated response to poly(I-C), indicating the specific role of TRIF in TLR3 signaling."
+                },
+                {
+                    "bel_statement": "p(HGNC:TRIF) actsIn bp(GO:\"MyD88-independent toll-like receptor signaling pathway\")",
+                    "evidence": "A recent generation of TRIF-deficient mice showed the essential role of TRIF in the MyD88-independent pathways of TLR3 and TLR4 signaling."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "17192",
+                    "entry_name": "TIRAP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6817",
+                    "entry_name": "MAL"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019991",
+                    "entry_name": "Database"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17192",
+                    "entry_name": "TIRAP"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11850",
+                    "entry_name": "TLR4"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17192",
+                    "entry_name": "TIRAP"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003713",
+                    "entry_name": "Dendritic Cells"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17192",
+                    "entry_name": "TIRAP"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16670",
+                    "entry_name": "peptide"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "10637",
+                    "entry_name": "CXCL10"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:16412",
+                    "entry_name": "lipopolysaccharide"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11848",
+                    "entry_name": "TLR2"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11850",
+                    "entry_name": "TLR4"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17192",
+                    "entry_name": "TIRAP"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "IFNB",
+                    "entry_name": "IFNB"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0007834",
+                    "entry_name": "liver dysplastic nodule"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:84491",
+                    "entry_name": "poly(I:C)"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0005067",
+                    "entry_name": "block"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D005190",
+                    "entry_name": "Family"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000507",
+                    "entry_name": "generation"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11850",
+                    "entry_name": "TLR4"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0032496",
+                    "entry_name": "response to lipopolysaccharide"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0001816",
+                    "entry_name": "cytokine production"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "text": "TLR3 signaling depends mainly on the MyD88-independent pathway because poly(I-C) induces activation of NF-\u03baB and MAP kinases in MyD88-deficient macrophages almost to the same extent as in wild-type macrophages. Expression of a dominant-negative form of MyD88 or Mal/TIRAP does not abolish the TLR3-mediated response to poly(I-C). To date, no interaction between MyD88 or Mal and TLR3 upon poly(I-C) stimulation has been observed. Recently, a paper reported that TLR3-mediated activation of NF-\u03baB and MAP kinases involves an IRAK-independent pathway employing the signaling components TLR3-TRAF6-TAK1-TAB2-PKR. Thus, TRIF is a likely candidate adaptor to recruit the TRAF6\u2013TAK-1\u2013TAB2 complex to TLR3. In fact, TRIF harbors three TRAF6 binding motifs in its C terminus. A database search of TIR domain-containing adaptors has revealed two additional adaptor molecules. These findings suggest that several different TIR-containing adaptor molecules are involved in TLR-mediated signaling and that their differential utilization may be the basis for specificity of the responses to different TLRs.",
+            "Results": [
+                {
+                    "bel_statement": "a(CHEBI:\"poly(I-C)\") increases act(p(HGNC:NFKB1))",
+                    "evidence": "TLR3 signaling depends mainly on the MyD88-independent pathway because poly(I-C) induces activation of NF-\u03baB and MAP kinases in MyD88-deficient macrophages almost to the same extent as in wild-type macrophages."
+                },
+                {
+                    "bel_statement": "a(CHEBI:\"poly(I-C)\") increases bp(GO:\"MAPK cascade\")",
+                    "evidence": "TLR3 signaling depends mainly on the MyD88-independent pathway because poly(I-C) induces activation of NF-\u03baB and MAP kinases in MyD88-deficient macrophages almost to the same extent as in wild-type macrophages."
+                },
+                {
+                    "bel_statement": "p(HGNC:TRIF) increases complex(p(HGNC:TRAF6), p(HGNC:MAP3K7), p(HGNC:TAB2))",
+                    "evidence": "Thus, TRIF is a likely candidate adaptor to recruit the TRAF6\u2013TAK-1\u2013TAB2 complex to TLR3."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:84491",
+                    "entry_name": "poly(I:C)"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D008264",
+                    "entry_name": "Macrophages"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:84491",
+                    "entry_name": "poly(I:C)"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7562",
+                    "entry_name": "MYD88"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "6817",
+                    "entry_name": "MAL"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:84491",
+                    "entry_name": "poly(I:C)"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D010209",
+                    "entry_name": "Paper"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "NFkappaB",
+                    "entry_name": "NFkappaB"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "MAPK",
+                    "entry_name": "MAPK"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:34922",
+                    "entry_name": "picloram"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "11849",
+                    "entry_name": "TLR3"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "18348",
+                    "entry_name": "TICAM1"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "12036",
+                    "entry_name": "TRAF6"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D019991",
+                    "entry_name": "Database"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                }
+            ]
+        },
+        {
+            "Index": "16",
+            "text": "Although the signaling pathways acting downstream of the different TLRs were initially thought to be identical, it is now apparent that individual TLRs activate different sets of signaling pathways and exert distinct biological effects. This diversity of signaling is most likely the result of the combinatorial action of adaptor molecules. Of course we must await the generation of mice lacking these adaptor molecules to verify this speculation. A complete understanding of the signaling pathways elicited by each TLR has great promise in aiding the design of effective therapies against infectious diseases, septic shock, cancer, and autoimmune diseases.",
+            "Results": [
+                {
+                    "bel_statement": "p(HGNC:TLR) increases bp(GO:\"signaling pathway\")",
+                    "evidence": "Although the signaling pathways acting downstream of the different TLRs were initially thought to be identical, it is now apparent that individual TLRs activate different sets of signaling pathways and exert distinct biological effects."
+                }
+            ],
+            "annotations": [
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0023052",
+                    "entry_name": "signaling"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:5133",
+                    "entry_name": "fluthiacet-methyl"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "EFO",
+                    "id": "0000507",
+                    "entry_name": "generation"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "7094",
+                    "entry_name": "MICE"
+                },
+                {
+                    "db": "CHEBI",
+                    "id": "CHEBI:25367",
+                    "entry_name": "molecule"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D032882",
+                    "entry_name": "Comprehension"
+                },
+                {
+                    "db": "GO",
+                    "id": "GO:0007165",
+                    "entry_name": "signal transduction"
+                },
+                {
+                    "db": "FPLX",
+                    "id": "TLR",
+                    "entry_name": "TLR"
+                },
+                {
+                    "db": "HGNC",
+                    "id": "17318",
+                    "entry_name": "RXFP2"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D013812",
+                    "entry_name": "Therapeutics"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D003141",
+                    "entry_name": "Communicable Diseases"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D012772",
+                    "entry_name": "Shock, Septic"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D009369",
+                    "entry_name": "Neoplasms"
+                },
+                {
+                    "db": "MESH",
+                    "id": "D001327",
+                    "entry_name": "Autoimmune Diseases"
+                }
+            ]
+        }
+    ]
+}

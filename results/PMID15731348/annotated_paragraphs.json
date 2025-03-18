@@ -1,0 +1,2802 @@
+{
+    "1": {
+        "text": "Therapies that target the EGF receptor (EGFR), such as gefitinib (IRESSA), are effective in a subset of patients with advanced non-small cell lung cancer (NSCLC). The differences in intracellular signaling networks between gefitinib-sensitive and -resistant NSCLCs remain poorly understood. In this study, we observe that gefitinib reduces phospho-Akt levels only in NSCLC cell lines in which it inhibits growth. To elucidate the mechanism underlying this observation, we compared immunoprecipitates of phosphoinositide 3-kinase (PI3K) between gefitinib-sensitive and -resistant NSCLC cell lines. We observe that PI3K associates with ErbB-3 exclusively in gefitinib-sensitive NSCLC cell lines. Gefitinib dissociates this complex, thereby linking EGFR inhibition to decreased Akt activity. In contrast, gefitinib-resistant cells do not use ErbB-3 to activate the PI3K-Akt pathway. In fact, abundant ErbB-3 expression is detected only in gefitinib-sensitive NSCLC cell lines. Two gefitinib-sensitive NSCLC cell lines with endogenous distinct activating EGFR mutations (L858R and Del747-749), frequently observed in NSCLC patients who respond to gefitinib, also use ErbB-3 to couple to PI3K. Down-regulation of ErbB-3 by means of short hairpin RNA leads to decreased phospho-Akt levels in the gefitinib-sensitive NSCLC cell lines, Calu-3 (WT EGFR) and H3255 (L858R EGFR), but has no effect on Akt activation in the gefitinib-resistant cell lines, A549 and H522. We conclude that ErbB-3 is used to couple EGFR to the PI3K-Akt pathway in gefitinib-sensitive NSCLC cell lines harboring WT and mutant EGFRs.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005622",
+                "entry_name": "intracellular anatomical structure"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D019370",
+                "entry_name": "Observation"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "MESH",
+                "id": "D015536",
+                "entry_name": "Down-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "EFO",
+                "id": "0003123",
+                "entry_name": "NCI-H3255"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            }
+        ]
+    },
+    "2": {
+        "text": "Metastatic lung cancer is almost uniformly fatal, with a median survival of 8\u201310 months when treated with the most active combination of conventional chemotherapies; only 2% of patients are still alive 5 years after diagnosis. Recent therapeutic strategies have focused on the development of \u2018\u2018targeted therapies\u2019\u2019 that aim to specifically disrupt critical oncogenic mechanisms. The EGF receptor (EGFR) is one such target, because it is known to promote growth of cells and function as an oncogene and is expressed in up to 80\u201390% of non-small cell lung cancer (NSCLC).",
+        "annotations": [
+            {
+                "db": "EFO",
+                "id": "0006852",
+                "entry_name": "metastatic"
+            },
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D013534",
+                "entry_name": "Survival"
+            },
+            {
+                "db": "MESH",
+                "id": "D004358",
+                "entry_name": "Drug Therapy"
+            },
+            {
+                "db": "EFO",
+                "id": "0030041",
+                "entry_name": "alive (follow-up status)"
+            },
+            {
+                "db": "MESH",
+                "id": "D003933",
+                "entry_name": "Diagnosis"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "HGNC",
+                "id": "1694",
+                "entry_name": "CD69"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D009857",
+                "entry_name": "Oncogenes"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            }
+        ]
+    },
+    "3": {
+        "text": "The EGFR is a member of four proteins in the ErbB family of receptor tyrosine kinases. The other members are ErbB-2-HER2, ErbB-3, and ErbB-4. These receptors homodimerize or heterodimerize upon ligand binding. Upon dimerization, there is transautophosphorylation of the dimer partner. The tyrosine-phosphorylated proteins then serve as docking molecules to initiate intracellular signaling pathways. ErbB-3 is unique among the ErbB family members in that it has been shown to have weak or no tyrosine kinase activity. However, it is believed to couple with other ErbB family members to activate intracellular signaling. In particular, ErbB-3 effectively couples to the phosphoinositide 3-kinase (PI3K)-Akt pathway. It has six tyrosine phosphorylation sites with YXXMs motifs that serve as excellent binding sites for PI3K.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERBB",
+                "entry_name": "ERBB"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0038023",
+                "entry_name": "signaling receptor activity"
+            },
+            {
+                "db": "HGNC",
+                "id": "6906",
+                "entry_name": "MATK"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3432",
+                "entry_name": "ERBB4"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "MESH",
+                "id": "D019281",
+                "entry_name": "Dimerization"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0036290",
+                "entry_name": "protein trans-autophosphorylation"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25367",
+                "entry_name": "molecule"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035556",
+                "entry_name": "intracellular signal transduction"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERBB",
+                "entry_name": "ERBB"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "HGNC",
+                "id": "6906",
+                "entry_name": "MATK"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERBB",
+                "entry_name": "ERBB"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005622",
+                "entry_name": "intracellular anatomical structure"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0023052",
+                "entry_name": "signaling"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            }
+        ]
+    },
+    "4": {
+        "text": "Gefitinib [brand name IRESSA (ZD1839), AstraZeneca, Wilmington, DE] is a small-molecule quinazoline derivative that was developed as a tyrosine kinase inhibitor (TKI) of the WT EGFR. Gefitinib has been tested as monotherapy for patients with relapsed NSCLC. Patients treated with gefitinib have a response rate of 10\u201320%, whereas another 20\u201330% of patients have stable disease for at least 2 months. Recent studies indicate that a majority of patients who respond to EGFR-TKI therapy contain somatic mutations in the EGFR tyrosine kinase domain that include EGFR L858R and EGFR with deletions in exon 19. The mechanisms by which these mutations promote a cancer phenotype are incompletely defined. Experiments assessing overexpression of the EGFR mutants in fibroblasts and mammary epithelial cells suggest that the EGFR mutants may display different kinetics of activation and deactivation, as well as differential patterns of autophosphorylation and intracellular signaling cascades. Presumably, these mutations provide persistent stimulation of downstream pathways that drive cell transformation.",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D009275",
+                "entry_name": "Names"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:36621",
+                "entry_name": "quinazoline"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:38637",
+                "entry_name": "tyrosine kinase inhibitor"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0031915",
+                "entry_name": "Stable"
+            },
+            {
+                "db": "MESH",
+                "id": "D004194",
+                "entry_name": "Disease"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0001442",
+                "entry_name": "Typified by somatic mosaicism"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "6906",
+                "entry_name": "MATK"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "EFO",
+                "id": "0004423",
+                "entry_name": "exon"
+            },
+            {
+                "db": "EFO",
+                "id": "0022450",
+                "entry_name": "HB1119 cell"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D010641",
+                "entry_name": "Phenotype"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D005347",
+                "entry_name": "Fibroblasts"
+            },
+            {
+                "db": "MESH",
+                "id": "D004847",
+                "entry_name": "Epithelial Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D007700",
+                "entry_name": "Kinetics"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0035556",
+                "entry_name": "intracellular signal transduction"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "MESH",
+                "id": "D004328",
+                "entry_name": "Drive"
+            }
+        ]
+    },
+    "5": {
+        "text": "Still, some lung cancers that respond to EGFR-TKI therapy have the WT EGFR. A substantial proportion of patients with prolonged stable disease after treatment with EGFR-TKIs also possess WT EGFR. Therefore, if mutations in EGFR were used as the single criteria to determine who should receive anti-EGFR therapy, a significant population of patients who would derive clinical benefit from the EGFR-TKIs might be excluded. An understanding of the intracellular pathways that mediate EGFR-dependent and gefitinib-sensitive transformation would provide a mechanism for predicting which patients are likely to respond to this drug and may also suggest other drug targets for treating NSCLC patients who become resistant to anti-EGFR therapies.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D008175",
+                "entry_name": "Lung Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0025297",
+                "entry_name": "Prolonged"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0031915",
+                "entry_name": "Stable"
+            },
+            {
+                "db": "MESH",
+                "id": "D004194",
+                "entry_name": "Disease"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "MESH",
+                "id": "D011153",
+                "entry_name": "Population"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0040285",
+                "entry_name": "Excluded"
+            },
+            {
+                "db": "MESH",
+                "id": "D032882",
+                "entry_name": "Comprehension"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005622",
+                "entry_name": "intracellular anatomical structure"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:23888",
+                "entry_name": "drug"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:23888",
+                "entry_name": "drug"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            }
+        ]
+    },
+    "6": {
+        "text": "In this study, we observe that the PI3K-Akt pathway is down-regulated in response to gefitinib only in NSCLC cell lines that are growth-inhibited by gefitinib. Comparison of PI3K immunoprecipitates (IPs) between gefitinib-sensitive and -resistant NSCLC cell lines reveals that ErbB-3 couples to PI3K only in gefitinib-sensitive NSCLC cell lines harboring either WT or mutant EGFRs [L858R and Del747-749 (exon 19)]. Further, inhibition of ErbB-3 expression by means of ErbB-3 short hairpin RNA (shRNA) decreases Akt activation in gefitinib-sensitive cell lines harboring WT or mutant EGFR. In contrast to gefitinib-sensitive NSCLC cell lines, we do not detect significant ErbB-3 expression in resistant NSCLC cell lines.",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "EFO",
+                "id": "0007867",
+                "entry_name": "response to gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "HGNC",
+                "id": "871",
+                "entry_name": "ATP5IF1"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "EFO",
+                "id": "0004423",
+                "entry_name": "exon"
+            },
+            {
+                "db": "EFO",
+                "id": "0022450",
+                "entry_name": "HB1119 cell"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:33697",
+                "entry_name": "ribonucleic acid"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            }
+        ]
+    },
+    "7": {
+        "text": "ErbB-3 expression also serves as an effective predictor of sensitivity to gefitinib in NSCLC cell lines.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            }
+        ]
+    },
+    "8": {
+        "text": "DNA Constructs. Human EGFR, human ErbB-3, and GFP were cloned into pDNR-Dual (BD Biosciences). The EGFR mutant L858R was constructed by site-directed mutagenesis. All constructs were shuttled into the retroviral vector JP1520 by using the BD Creator System (BD Biosciences).",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:16991",
+                "entry_name": "deoxyribonucleic acid"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D006801",
+                "entry_name": "Humans"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D001528",
+                "entry_name": "Behcet Syndrome"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D016297",
+                "entry_name": "Mutagenesis, Site-Directed"
+            },
+            {
+                "db": "MESH",
+                "id": "D001528",
+                "entry_name": "Behcet Syndrome"
+            },
+            {
+                "db": "MESH",
+                "id": "D001528",
+                "entry_name": "Behcet Syndrome"
+            }
+        ]
+    },
+    "9": {
+        "text": "shRNA Constructs and Lentiviral Production. Six different potential shRNA constructs targeting ErbB-3 were provided by Dr. William Hahn (RNAi Consortium, Boston) in lentiviral cassettes and were tested for their ability to inhibit expression of cotransfected ErbB-3. The \u2018\u2018475\u2019\u2019 construct was the most efficient in blocking cotransfected ErbB-3 expression (90%) and was used for infection of cell lines. Virus produced from the parental vector was used as control. Lentivirus production and infections were performed as described.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016441",
+                "entry_name": "post-transcriptional gene silencing"
+            },
+            {
+                "db": "MESH",
+                "id": "D001900",
+                "entry_name": "Boston"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "EFO",
+                "id": "0000544",
+                "entry_name": "infection"
+            },
+            {
+                "db": "MESH",
+                "id": "D014780",
+                "entry_name": "Viruses"
+            },
+            {
+                "db": "MESH",
+                "id": "D016086",
+                "entry_name": "Lentivirus"
+            },
+            {
+                "db": "EFO",
+                "id": "0000544",
+                "entry_name": "infection"
+            }
+        ]
+    },
+    "10": {
+        "text": "Transient Transfections. CHO cells were seeded in six-well plates at 50% confluency. Transient transfections were performed with lipofectamine plus (Invitrogen) according to the manufacturer\u2019s recommendations. ErbB-3 or GFP (0.2 \u03bcg) was cotransfected with 0.2 \u03bcg of WT EGFR or EGFR L858R.",
+        "annotations": [
+            {
+                "db": "HP",
+                "id": "HP:0025153",
+                "entry_name": "Transient"
+            },
+            {
+                "db": "MESH",
+                "id": "D014162",
+                "entry_name": "Transfection"
+            },
+            {
+                "db": "MESH",
+                "id": "D016466",
+                "entry_name": "CHO Cells"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0025153",
+                "entry_name": "Transient"
+            },
+            {
+                "db": "MESH",
+                "id": "D014162",
+                "entry_name": "Transfection"
+            },
+            {
+                "db": "MESH",
+                "id": "C086724",
+                "entry_name": "Lipofectamine"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            }
+        ]
+    },
+    "11": {
+        "text": "Growth Assays. Cells were seeded at 25,000\u201340,000 per well in a 12-well plate. The next day (day 0), the medium was changed to full propagation medium (i.e., RPMI medium 1640 or DMEM plus 10% FBS) containing gefitinib (1 \u03bcM) or DMSO vehicle control. The medium was changed every 2 days. Cells were counted on days 1, 3, and 5 to ensure that the control cells were in logarithmic growth phase by day 5. Cells were counted by Coulter Counter or manually by hemocytometer. Experiments were repeated at least three times and performed each time in triplicate.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "26808",
+                "entry_name": "DYNAP"
+            },
+            {
+                "db": "HGNC",
+                "id": "20442",
+                "entry_name": "FBRS"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:28262",
+                "entry_name": "dimethyl sulfoxide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:38960",
+                "entry_name": "terbufos"
+            }
+        ]
+    },
+    "12": {
+        "text": "Immunoprecipitations and Western Blot Analysis. Cell lysates were prepared in 1% Nonidet P-40 lysis buffer. For IPs, anti-p85 antibody (5 \u03bcg per 10-cm plate; 1.5 mg of extract) or anti-ErbB-3 antibody (2 \u03bcg per 10-cm plate) was added to the lysate. IPs were washed three times with ice-cold lysis buffer before boiling in 2\u00d7 Lamelli sample buffer. Western blot analyses were conducted after separation by SDS-PAGE electrophoresis and transfer to nitrocellulose membranes. Immunoblotting was performed according to the antibody manufacturers\u2019 recommendations.",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:78708",
+                "entry_name": "Nonidet P-40"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "HGNC",
+                "id": "871",
+                "entry_name": "ATP5IF1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25107",
+                "entry_name": "magnesium atom"
+            },
+            {
+                "db": "HGNC",
+                "id": "871",
+                "entry_name": "ATP5IF1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:35225",
+                "entry_name": "buffer"
+            },
+            {
+                "db": "EFO",
+                "id": "0010936",
+                "entry_name": "SDS-PAGE"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:53325",
+                "entry_name": "nitrocellulose"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016020",
+                "entry_name": "membrane"
+            }
+        ]
+    },
+    "13": {
+        "text": "Sequencing of EGFR and K-Ras. Sequencing was performed as described.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "6407",
+                "entry_name": "KRAS"
+            }
+        ]
+    },
+    "14": {
+        "text": "Akt Activity Is Inhibited by Gefitinib Exclusively in NSCLC Cell Lines That Are Growth-Inhibited by Gefitinib. Initial investigations revealed that multiple NSCLC cell lines tested (10) are growth-inhibited by 50% in the presence of 20 \u03bcM LY294002, a potent PI3K inhibitor. Thus, we hypothesized that gefitinib may inhibit the PI3K-Akt pathway only in NSCLC cell lines in which it inhibits growth. As demonstrated, H1299, A549, and H23 cells all have an IC50 > 1 \u03bcM (\u2018\u2018gefitinib-resistant\u2019\u2019), whereas Calu-3, H358, and A431 cells all have an IC50 < 1 \u03bcM (\u2018\u2018gefitinib-sensitive\u2019\u2019). As shown, gefitinib leads to a reduction in phospho-Akt only in the gefitinib-sensitive NSCLC cell lines. The gefitinib concentration of 1 \u03bcM was used as the cutoff for sensitivity because this concentration approaches levels observed in serum from patients under treatment and has been used in other studies to distinguish between sensitive and resistant cell lines. Sequencing of the EGFR and K-Ras genes in these cell lines reveals that the EGFR in these cell lines does not have any mutations that are observed in a subset of NSCLC patients responding to gefitinib. The A431 cell line is an epidermoid carcinoma that is known to have amplification of the EGFR and is commonly used in studies assessing anti-EGFR therapy.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:65329",
+                "entry_name": "LY294002"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:84801",
+                "entry_name": "EC 2.7.1.127 (inositol-trisphosphate 3-kinase) inhibitor"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "EFO",
+                "id": "0002286",
+                "entry_name": "NCI-H23"
+            },
+            {
+                "db": "MESH",
+                "id": "D020128",
+                "entry_name": "Inhibitory Concentration 50"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "EFO",
+                "id": "0006268",
+                "entry_name": "A431"
+            },
+            {
+                "db": "MESH",
+                "id": "D020128",
+                "entry_name": "Inhibitory Concentration 50"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D044967",
+                "entry_name": "Serum"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "6407",
+                "entry_name": "KRAS"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "EFO",
+                "id": "0006268",
+                "entry_name": "A431"
+            },
+            {
+                "db": "MESH",
+                "id": "D002294",
+                "entry_name": "Carcinoma, Squamous Cell"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            }
+        ]
+    },
+    "15": {
+        "text": "The PI3K Regulatory Subunit, p85, Binds ErbB-3 in a Gefitinib-Dependent Manner Exclusively in Gefitinib-Sensitive NSCLC Cell Lines. We next sought to determine the molecular mechanism by which gefitinib down-regulates the PI3K-Akt pathway in gefitinib-sensitive cells. The regulatory subunit of type 1a PI3K, p85, mediates activation of this enzyme by binding to tyrosine-phosphorylated receptors or adaptor proteins. We hypothesized that, in gefitinib-sensitive NSCLC cells, there would be a phosphotyrosine (PTyr) protein\u2013p85 interaction that is lost upon addition of gefitinib.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "MESH",
+                "id": "D004798",
+                "entry_name": "Enzymes"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D019000",
+                "entry_name": "Phosphotyrosine"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:25434",
+                "entry_name": "bis(2-chloroethyl) sulfide"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            }
+        ]
+    },
+    "16": {
+        "text": "To test this idea, p85 was immunoprecipitated from gefitinib-sensitive and -resistant NSCLC cell lines incubated in the presence or absence of gefitinib. As demonstrated, there is a prominent PTyr band observed at 210 kDa (denoted by *) that coprecipitates with p85 in gefitinib-sensitive NSCLC cells. This association is disrupted by gefitinib. In the gefitinib-resistant cells, there is no detectable major 210-kDa PTyr protein interacting with p85, and gefitinib has no effect on p85-associated PTyr proteins. In Calu-3 cells, there is also a 110-kDa PTyr protein that interacts with p85 in a gefitinib-sensitive manner. Of note, there is a 160-kDa PTyr protein that interacts with p85 in both the gefitinib-sensitive and -resistant NSCLC cell lines. This association is not interrupted by gefitinib in any of the NSCLC cell lines tested. The identity of this protein is currently unknown.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            }
+        ]
+    },
+    "17": {
+        "text": "The 210-kDa PTyr protein that coprecipitates with p85 is of particular interest because it associates with p85 in a gefitinib-labile manner only in the gefitinib-sensitive NSCLC cell lines. To help determine the identity of this PTyr protein, the SCANSITE matrix was used to search for proteins in the SWISS-PROT database of the molecular mass range 140\u2013200 kDa that contain potential p85 SH2 binding sites. Six of the top 15 hits in this molecular weight range were from the same protein, ErbB-3. Therefore, the p85 IPs were probed with anti-ErbB-3 antibodies. In the gefitinib-sensitive NSCLC cell lines, there is indeed a gefitinib-labile interaction between p85 and ErbB-3. The ErbB-3 band comigrates with the PTyr band of 210 kDa. No ErbB-3 was identified in p85 coprecipitations from the gefitinib-resistant NSCLC cell lines.",
+        "annotations": [
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D019991",
+                "entry_name": "Database"
+            },
+            {
+                "db": "HGNC",
+                "id": "3603",
+                "entry_name": "FBN1"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "23726",
+                "entry_name": "FAM107B"
+            },
+            {
+                "db": "MESH",
+                "id": "D008970",
+                "entry_name": "Molecular Weight"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "871",
+                "entry_name": "ATP5IF1"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            }
+        ]
+    },
+    "18": {
+        "text": "This finding led us to evaluate NSCLC cell lines for the expression of ErbB-3. High expression of ErbB-3 was observed in only the gefitinib-sensitive NSCLC cell lines. We also probed NSCLC cell line extracts with antibodies against EGFR and ErbB-2. EGFR expression did not correlate with sensitivity to gefitinib as has been demonstrated by other studies. ErbB-2 expression is detected in all three gefitinib-sensitive cell lines, as well as in the gefitinib-resistant cell lines H322 and H522. As has been reported previously, the ErbB-2 locus is amplified in Calu-3 cells, leading to overexpression of this protein.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D012816",
+                "entry_name": "Signs and Symptoms"
+            },
+            {
+                "db": "HGNC",
+                "id": "34499",
+                "entry_name": "SMIM10L2A"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            }
+        ]
+    },
+    "19": {
+        "text": "A previous report had shown that a cell line without a functional PTEN tumor suppressor was unable to be inhibited by gefitinib, presumably because PTEN-deficient cell lines maintain Akt activity in the presence of EGFR inhibition. As shown, PTEN expression is present in the cell lines resistant to gefitinib. Thus, its absence does not explain resistance to gefitinib in these cell lines.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "9588",
+                "entry_name": "PTEN"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0051726",
+                "entry_name": "regulation of cell cycle"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "9588",
+                "entry_name": "PTEN"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            }
+        ]
+    },
+    "20": {
+        "text": "EGF Stimulates PI3K Association with ErbB-3 in a Gefitinib-Sensitive NSCLC Cell Line. To determine whether the association of p85 with ErbB-3 is enhanced by EGF ligand in a gefitinib-sensitive NSCLC cell line, Calu-3 cells were grown in the presence or absence of gefitinib before stimulation with EGF. As shown, EGF stimulated an association between p85 and ErbB-3 (also observed as the 210-kDa PTyr protein). This association was blocked by exposing the cells to 1 \u03bcM gefitinib. Assessment of ErbB-3 immunoprecipitations reveals that gefitinib leads to a decrease in ErbB-3 tyrosine phosphorylation and the amount of coprecipitated p85.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:52214",
+                "entry_name": "ligand"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D001244",
+                "entry_name": "Association"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:18186",
+                "entry_name": "tyrosine"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            }
+        ]
+    },
+    "21": {
+        "text": "As mentioned earlier, Calu-3 cells possess amplification of the ErbB-2 locus. Previous studies have shown that breast cancer cell lines with overexpression of ErbB-2 are sensitive to gefitinib. The studies we have presented thus far demonstrate that Calu-3 cellular growth and Akt activation are inhibited by 1 \u03bcM gefitinib but do not demonstrate whether these effects are due to inhibition of EGFR or off-target inhibition of ErbB-2. We performed a dose-response analysis of the p85\u2013ErbB-3 interaction as well as the phosphorylation status of Akt, EGFR, ErbB-2, and ErbB-3. As shown, phosphorylated Akt levels are dramatically reduced by 0.25 \u03bcM gefitinib. At this concentration, we also observe a reduction in the amount of ErbB-3 associated with p85 and decreased levels of phosphorylated ErbB-3 and phosphorylated EGFR. In contrast, phosphorylated ErbB-2 levels are not significantly reduced until concentrations of 4 \u03bcM are used. Of note, previous reports showed that the IC50 for inhibition of ErbB-2 by gefitinib is 100-fold higher than that for EGFR in vitro and that an exogenously expressed chimeric protein containing the ErbB-2 intracellular domain is not significantly inhibited by 1 \u03bcM gefitinib. Thus, although our experiments do not clearly demonstrate that gefitinib\u2019s effects on PI3K activation are due to inhibition of EGFR and not ErbB-2, this explanation seems more plausible given this collection of observations.",
+        "annotations": [
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "EFO",
+                "id": "0002885",
+                "entry_name": "breast cancer cell line"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016049",
+                "entry_name": "cell growth"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "MESH",
+                "id": "D020128",
+                "entry_name": "Inhibitory Concentration 50"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0005622",
+                "entry_name": "intracellular anatomical structure"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            },
+            {
+                "db": "MESH",
+                "id": "D020471",
+                "entry_name": "Collection"
+            }
+        ]
+    },
+    "22": {
+        "text": "NSCLC Cell Lines Harboring Activating EGFR Mutations Demonstrate a Gefitinib-Labile Interaction Between p85 and ErbB-3. The experiments presented thus far have evaluated NSCLC cell lines with WT EGFR. However, it appears that the majority of cancers with dramatic responses to EGFR tyrosine kinase inhibition harbor a somatic mutation in the EGFR. Therefore, we evaluated two patient-derived NSCLC cell lines that have mutant EGFR: H3255 and DFCILU-011 cells. H3255 cells contain an EGFR with a point mutation (L858R) and DFCILU-011 contains a deletion mutation in exon 19 (Del747-749). Both cell lines are very sensitive to gefitinib, with an IC50 of 50 nM. As shown, Akt activity is diminished in both cell lines when they are grown in full serum in the presence of gefitinib. Interestingly, we observe an interaction between p85 and ErbB-3 that is disrupted by gefitinib in both cell lines, suggesting that the mutant EGFRs activate the PI3K-Akt pathway by means of ErbB-3 as well. In the H3255 cells, PI3K also associates with an 110-kDa PTyr protein in a gefitinib-sensitive manner. Indeed, both the DFCILU-011 and H3255 cells demonstrate significant expression of ErbB-3, analogous to the gefitinib-sensitive NSCLC cell lines with WT EGFR. These results suggest that the mutant EGFRs also use ErbB-3 for activation of PI3K.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "6906",
+                "entry_name": "MATK"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0001442",
+                "entry_name": "Typified by somatic mosaicism"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "EFO",
+                "id": "0003123",
+                "entry_name": "NCI-H3255"
+            },
+            {
+                "db": "EFO",
+                "id": "0003123",
+                "entry_name": "NCI-H3255"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "MESH",
+                "id": "D017354",
+                "entry_name": "Point Mutation"
+            },
+            {
+                "db": "EFO",
+                "id": "0004014",
+                "entry_name": "deletion"
+            },
+            {
+                "db": "MESH",
+                "id": "D009154",
+                "entry_name": "Mutation"
+            },
+            {
+                "db": "EFO",
+                "id": "0004423",
+                "entry_name": "exon"
+            },
+            {
+                "db": "EFO",
+                "id": "0022450",
+                "entry_name": "HB1119 cell"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D020128",
+                "entry_name": "Inhibitory Concentration 50"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "26808",
+                "entry_name": "DYNAP"
+            },
+            {
+                "db": "MESH",
+                "id": "D044967",
+                "entry_name": "Serum"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "EFO",
+                "id": "0003123",
+                "entry_name": "NCI-H3255"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "EFO",
+                "id": "0003123",
+                "entry_name": "NCI-H3255"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            }
+        ]
+    },
+    "23": {
+        "text": "To determine whether ErbB-3 cooperates with mutant EGFRs to activate PI3Ks, EGFR WT and EGFR mutant (L858R) cells were transfected with or without ErbB-3 into CHO cells, a cell line that has no detectable EGFR or ErbB-3. In cells transfected with the L858R mutant (in the absence of ErbB-3), Akt activity returned to near baseline by 240 min after EGF stimulation. In contrast, cotransfection of ErbB-3 with the L858R mutant prolongs the strong activation of Akt up to 240 min after EGF stimulation. ErbB-3 expression appears to enhance basal activation of the Akt pathway by both the mutant and WT EGFR.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D016466",
+                "entry_name": "CHO Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            }
+        ]
+    },
+    "24": {
+        "text": "ErbB-3 Expression Is Necessary for Activation of the PI3K-Akt Pathway in Gefitinib-Sensitive NSCLC Cell Lines. The data generated in this study suggest that ErbB-3 is used to activate the PI3K-Akt pathway in gefitinib-sensitive NSCLC cell lines, whether the EGFR is WT or mutant. To test this idea, we interfered with ErbB-3 expression by employing RNA interference using a lentiviral-based shRNA expression system. The Calu-3 and H3255 cells were infected with ErbB-3 shRNA and control virus. For controls, the cell lines A549 and H522, which do not express ErbB-3, were also infected with the same viruses. As shown, the ErbB-3 shRNA efficiently down-regulated ErbB-3 in both the Calu-3 and H3255 cells, leading to a marked reduction in phospho-Akt levels and demonstrating that ErbB-3 couples to the PI3K-Akt pathway in these cells. In contrast, the amount of phospho-Akt was unchanged in the A549 and H522 cell lines infected with ErbB-3 shRNA. As shown, there is no appreciable expression of ErbB-3 detected in A549 or H522 cells.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "GO",
+                "id": "GO:0016441",
+                "entry_name": "post-transcriptional gene silencing"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "EFO",
+                "id": "0003123",
+                "entry_name": "NCI-H3255"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D014780",
+                "entry_name": "Viruses"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D014780",
+                "entry_name": "Viruses"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "EFO",
+                "id": "0002819",
+                "entry_name": "Calu3"
+            },
+            {
+                "db": "EFO",
+                "id": "0003123",
+                "entry_name": "NCI-H3255"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            }
+        ]
+    },
+    "25": {
+        "text": "In this study, we observed that although the PI3K-Akt pathway is activated in all NSCLC cell lines investigated, Akt activity is reduced in response to gefitinib selectively in NSCLC cell lines whose growth is inhibited by gefitinib. To our knowledge, the findings in this manuscript are the first to compare p85 IPs of several gefitinib-resistant and -sensitive cell lines and correlate their sensitivity to gefitinib with the existence of p85\u2013ErbB-3 interactions. Furthermore, this study demonstrates that the recently discovered mutant EGFRs also use ErbB-3 to activate the PI3K pathway. Additionally, we observe that inhibition of ErbB-3 expression leads to diminished Akt activation specifically in gefitinib-sensitive NSCLC cell lines.",
+        "annotations": [
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "EFO",
+                "id": "0007867",
+                "entry_name": "response to gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D019359",
+                "entry_name": "Knowledge"
+            },
+            {
+                "db": "MESH",
+                "id": "D020486",
+                "entry_name": "Manuscript"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K_p85",
+                "entry_name": "PI3K_p85"
+            },
+            {
+                "db": "HGNC",
+                "id": "871",
+                "entry_name": "ATP5IF1"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            }
+        ]
+    },
+    "26": {
+        "text": "It has been known for almost a decade that ErbB-3 is a very potent link between EGFR activation and PI3K activity. However, the role of ErbB-3 in tumorigenesis is currently evolving. For example, in a subclone of NIH 3T3 cells that does not express endogenous ErbB receptors, EGFR expression alone is unable to promote cellular transformation. However, coexpression with ErbB-3 coupled with stimulation with heregulin (not EGF) was sufficient to induce cellular transformation. It also appears that ErbB-3 likely promotes ErbB-2-HER2-dependant breast carcinogenesis; down-regulation of ErbB-3 leads to G1 arrest and decreased Akt phosphorylation in SKBR3 cells. Those observations, together with the ones in this study, suggest that cancer cell lines driven by a member of the ErbB receptor system often couple to ErbB-3 to activate the PI3K-Akt pathway and promote the cancer phenotype. Thus, antibodies that inhibit ErbB-3\u2019s heterodimerization with other ErbB family members may serve as a therapeutic strategy for cancers driven by either EGFR or ErbB-2.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "FPLX",
+                "id": "PI3K",
+                "entry_name": "PI3K"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D063646",
+                "entry_name": "Carcinogenesis"
+            },
+            {
+                "db": "MESH",
+                "id": "D041681",
+                "entry_name": "NIH 3T3 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D066246",
+                "entry_name": "ErbB Receptors"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3229",
+                "entry_name": "EGF"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D001940",
+                "entry_name": "Breast"
+            },
+            {
+                "db": "MESH",
+                "id": "D063646",
+                "entry_name": "Carcinogenesis"
+            },
+            {
+                "db": "MESH",
+                "id": "D015536",
+                "entry_name": "Down-Regulation"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:156296",
+                "entry_name": "G-1"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "EFO",
+                "id": "0001236",
+                "entry_name": "SKBR3"
+            },
+            {
+                "db": "EFO",
+                "id": "0001639",
+                "entry_name": "cancer cell line"
+            },
+            {
+                "db": "MESH",
+                "id": "D066246",
+                "entry_name": "ErbB Receptors"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D009369",
+                "entry_name": "Neoplasms"
+            },
+            {
+                "db": "MESH",
+                "id": "D010641",
+                "entry_name": "Phenotype"
+            },
+            {
+                "db": "FPLX",
+                "id": "ERBB",
+                "entry_name": "ERBB"
+            },
+            {
+                "db": "MESH",
+                "id": "D005190",
+                "entry_name": "Family"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3430",
+                "entry_name": "ERBB2"
+            }
+        ]
+    },
+    "27": {
+        "text": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib. However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib. Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib, either. These negative data underscore an important point: For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway (and likely other pathways, as well). H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs.",
+        "annotations": [
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "MESH",
+                "id": "D012190",
+                "entry_name": "Retroviridae"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HP",
+                "id": "HP:0031915",
+                "entry_name": "Stable"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "HGNC",
+                "id": "3236",
+                "entry_name": "EGFR"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:34922",
+                "entry_name": "picloram"
+            },
+            {
+                "db": "MESH",
+                "id": "D000072283",
+                "entry_name": "A549 Cells"
+            },
+            {
+                "db": "FPLX",
+                "id": "AKT",
+                "entry_name": "AKT"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            }
+        ]
+    },
+    "28": {
+        "text": "The results here suggest that NSCLCs that will respond to anti-EGFR therapy will likely possess significant expression of ErbB-3. The data in the present study are in agreement with a recently published report evaluating gefitinib sensitivity in multiple NSCLC cell lines. Although not explicitly stated by the authors of that study, the three NSCLC cell lines most sensitive to gefitinib (H358, PC9, and A431 cells) in that study appear to be the ones with the highest expression of ErbB-3. It is unlikely that all NSCLC (and NSCLC cell lines) that express ErbB-3 will respond to anti-EGFR therapy. However, the data presented in this study suggest that cancers responding to anti-EGFR therapy will likely have significant ErbB-3 expression. Therefore, assessment of ErbB-3 expression in NSCLC specimens may prove useful to enrich for the population of patients most likely to receive clinical benefit from anti-EGFR therapy. If such a correlation is observed, a clinical trial assessing ErbB-3 expression status to determine who should receive anti-EGFR therapy as first-line treatment may be warranted.",
+        "annotations": [
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "EFO",
+                "id": "0001796",
+                "entry_name": "published"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "CHEBI",
+                "id": "CHEBI:49668",
+                "entry_name": "gefitinib"
+            },
+            {
+                "db": "EFO",
+                "id": "0002847",
+                "entry_name": "PC-9"
+            },
+            {
+                "db": "EFO",
+                "id": "0006268",
+                "entry_name": "A431"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D002289",
+                "entry_name": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+                "db": "MESH",
+                "id": "D011153",
+                "entry_name": "Population"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            },
+            {
+                "db": "MESH",
+                "id": "D016430",
+                "entry_name": "Clinical Trial"
+            },
+            {
+                "db": "HGNC",
+                "id": "3431",
+                "entry_name": "ERBB3"
+            },
+            {
+                "db": "MESH",
+                "id": "D013812",
+                "entry_name": "Therapeutics"
+            }
+        ]
+    }
+}

@@ -1,0 +1,833 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 1,
+                "name": "networkAttributes"
+            },
+            {
+                "elementCount": 36,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 40,
+                "name": "edges"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "id": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                },
+                "networkAttributes": {
+                    "name": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "name": "LLM Text to Knowledge Graph for publication: PMID15731348"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "ERBB3",
+                    "name": "p(HGNC:ERBB3)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:3431"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "AKT1",
+                    "name": "p(HGNC:AKT1)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "EGFR",
+                    "name": "p(HGNC:EGFR)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:3236"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "Lung Neoplasms",
+                    "name": "path(MESH:\"Lung Neoplasms\")",
+                    "type": "path",
+                    "id": "https://identifiers.org/MESH:D008175"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "cell transformation",
+                    "name": "bp(GO:\"cell transformation\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "AKT1",
+                    "name": "act(p(HGNC:AKT1)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "ERBB3",
+                    "name": "a(HGNC:ERBB3)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:3431"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "gefitinib",
+                    "name": "a(CHEBI:gefitinib)",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:49668"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "EGFR",
+                    "name": "g(HGNC:EGFR)",
+                    "type": "g",
+                    "id": "https://identifiers.org/HGNC:3236"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "ERBB3",
+                    "name": "g(HGNC:ERBB3)",
+                    "type": "g",
+                    "id": "https://identifiers.org/HGNC:3431"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "LY294002",
+                    "name": "a(CHEBI:LY294002)",
+                    "type": "a",
+                    "id": "https://identifiers.org/CHEBI:65329"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "cell growth",
+                    "name": "bp(GO:\"cell growth\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0016049"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "AKT1",
+                    "name": "act(p(UniProt:AKT1)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "PI3K-Akt signaling pathway",
+                    "name": "bp(GO:\"PI3K-Akt signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "p85",
+                    "name": "act(p(UNIPROT:p85)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "p85",
+                    "name": "p(UNIPROT:p85)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "ERBB3",
+                    "name": "a(UniProt:ERBB3)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:3431"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "EGFR",
+                    "name": "a(UniProt:EGFR)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:3236"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "ERBB2",
+                    "name": "a(UniProt:ERBB2)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:3430"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "PTEN",
+                    "name": "p(HGNC:PTEN)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:9588"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "EGF",
+                    "name": "a(CHEBI:EGF)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:3229"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "P85",
+                    "name": "complex(p(UniProt:P85)",
+                    "type": "complex"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "ERBB2",
+                    "name": "p(HGNC:ERBB2)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:3430"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "EGFR",
+                    "name": "p(UniProt:EGFR)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:3236"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "ErbB-3",
+                    "name": "p(UniProt:ErbB-3)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "EGFR_L858R",
+                    "name": "p(UniProt:EGFR_L858R)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "Akt signaling pathway",
+                    "name": "bp(GO:\"Akt signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "Q15303",
+                    "name": "p(UniProt:Q15303)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "AKT1, pmod(Ph, Thr, 308",
+                    "name": "p(HGNC:AKT1, pmod(Ph, Thr, 308)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "ERBB3",
+                    "name": "p(UniProt:ERBB3)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:3431"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "cellular transformation",
+                    "name": "bp(GO:\"cellular transformation\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "breast carcinogenesis",
+                    "name": "bp(GO:\"breast carcinogenesis\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "cancer phenotype",
+                    "name": "bp(GO:\"cancer phenotype\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "protein kinase activity",
+                    "name": "ma(GO:\"protein kinase activity\")",
+                    "type": "ma"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "ErbB-3",
+                    "name": "a(UniProt:ErbB-3)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "response to anti-EGFR therapy",
+                    "name": "bp(GO:\"response to anti-EGFR therapy\")",
+                    "type": "bp"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:ERBB3) decreases p(HGNC:AKT1)",
+                    "text": "Therapies that target the EGF receptor (EGFR), such as gefitinib (IRESSA), are effective in a subset of patients with advanced non-small cell lung cancer (NSCLC). The differences in intracellular signaling networks between gefitinib-sensitive and -resistant NSCLCs remain poorly understood. In this study, we observe that gefitinib reduces phospho-Akt levels only in NSCLC cell lines in which it inhibits growth. To elucidate the mechanism underlying this observation, we compared immunoprecipitates of phosphoinositide 3-kinase (PI3K) between gefitinib-sensitive and -resistant NSCLC cell lines. We observe that PI3K associates with ErbB-3 exclusively in gefitinib-sensitive NSCLC cell lines. Gefitinib dissociates this complex, thereby linking EGFR inhibition to decreased Akt activity. In contrast, gefitinib-resistant cells do not use ErbB-3 to activate the PI3K-Akt pathway. In fact, abundant ErbB-3 expression is detected only in gefitinib-sensitive NSCLC cell lines. Two gefitinib-sensitive NSCLC cell lines with endogenous distinct activating EGFR mutations (L858R and Del747-749), frequently observed in NSCLC patients who respond to gefitinib, also use ErbB-3 to couple to PI3K. Down-regulation of ErbB-3 by means of short hairpin RNA leads to decreased phospho-Akt levels in the gefitinib-sensitive NSCLC cell lines, Calu-3 (WT EGFR) and H3255 (L858R EGFR), but has no effect on Akt activation in the gefitinib-resistant cell lines, A549 and H522. We conclude that ErbB-3 is used to couple EGFR to the PI3K-Akt pathway in gefitinib-sensitive NSCLC cell lines harboring WT and mutant EGFRs.",
+                    "evidence": "Down-regulation of ErbB-3 by means of short hairpin RNA leads to decreased phospho-Akt levels in the gefitinib-sensitive NSCLC cell lines."
+                }
+            },
+            {
+                "id": 1,
+                "s": 2,
+                "t": 3,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:EGFR) increases path(MESH:\"Lung Neoplasms\")",
+                    "text": "Metastatic lung cancer is almost uniformly fatal, with a median survival of 8\u201310 months when treated with the most active combination of conventional chemotherapies; only 2% of patients are still alive 5 years after diagnosis. Recent therapeutic strategies have focused on the development of \u2018\u2018targeted therapies\u2019\u2019 that aim to specifically disrupt critical oncogenic mechanisms. The EGF receptor (EGFR) is one such target, because it is known to promote growth of cells and function as an oncogene and is expressed in up to 80\u201390% of non-small cell lung cancer (NSCLC).",
+                    "evidence": "The EGF receptor (EGFR) is one such target, because it is known to promote growth of cells and function as an oncogene and is expressed in up to 80\u201390% of non-small cell lung cancer (NSCLC)."
+                }
+            },
+            {
+                "id": 2,
+                "s": 2,
+                "t": 4,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:EGFR) increases bp(GO:\"cell transformation\")",
+                    "text": "Gefitinib [brand name IRESSA (ZD1839), AstraZeneca, Wilmington, DE] is a small-molecule quinazoline derivative that was developed as a tyrosine kinase inhibitor (TKI) of the WT EGFR. Gefitinib has been tested as monotherapy for patients with relapsed NSCLC. Patients treated with gefitinib have a response rate of 10\u201320%, whereas another 20\u201330% of patients have stable disease for at least 2 months. Recent studies indicate that a majority of patients who respond to EGFR-TKI therapy contain somatic mutations in the EGFR tyrosine kinase domain that include EGFR L858R and EGFR with deletions in exon 19. The mechanisms by which these mutations promote a cancer phenotype are incompletely defined. Experiments assessing overexpression of the EGFR mutants in fibroblasts and mammary epithelial cells suggest that the EGFR mutants may display different kinetics of activation and deactivation, as well as differential patterns of autophosphorylation and intracellular signaling cascades. Presumably, these mutations provide persistent stimulation of downstream pathways that drive cell transformation.",
+                    "evidence": "Presumably, these mutations provide persistent stimulation of downstream pathways that drive cell transformation."
+                }
+            },
+            {
+                "id": 3,
+                "s": 0,
+                "t": 5,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:ERBB3) decreases act(p(HGNC:AKT1)",
+                    "text": "In this study, we observe that the PI3K-Akt pathway is down-regulated in response to gefitinib only in NSCLC cell lines that are growth-inhibited by gefitinib. Comparison of PI3K immunoprecipitates (IPs) between gefitinib-sensitive and -resistant NSCLC cell lines reveals that ErbB-3 couples to PI3K only in gefitinib-sensitive NSCLC cell lines harboring either WT or mutant EGFRs [L858R and Del747-749 (exon 19)]. Further, inhibition of ErbB-3 expression by means of ErbB-3 short hairpin RNA (shRNA) decreases Akt activation in gefitinib-sensitive cell lines harboring WT or mutant EGFR. In contrast to gefitinib-sensitive NSCLC cell lines, we do not detect significant ErbB-3 expression in resistant NSCLC cell lines.",
+                    "evidence": "Further, inhibition of ErbB-3 expression by means of ErbB-3 short hairpin RNA (shRNA) decreases Akt activation in gefitinib-sensitive cell lines harboring WT or mutant EGFR."
+                }
+            },
+            {
+                "id": 4,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:ERBB3) increases a(CHEBI:gefitinib)",
+                    "text": "ErbB-3 expression also serves as an effective predictor of sensitivity to gefitinib in NSCLC cell lines.",
+                    "evidence": "ErbB-3 expression also serves as an effective predictor of sensitivity to gefitinib in NSCLC cell lines."
+                }
+            },
+            {
+                "id": 5,
+                "s": 8,
+                "t": 9,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:EGFR) increases g(HGNC:ERBB3)",
+                    "text": "DNA Constructs. Human EGFR, human ErbB-3, and GFP were cloned into pDNR-Dual (BD Biosciences). The EGFR mutant L858R was constructed by site-directed mutagenesis. All constructs were shuttled into the retroviral vector JP1520 by using the BD Creator System (BD Biosciences).",
+                    "evidence": "Human EGFR, human ErbB-3, and GFP were cloned into pDNR-Dual (BD Biosciences)."
+                }
+            },
+            {
+                "id": 6,
+                "s": 9,
+                "t": 9,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:ERBB3) decreases g(HGNC:ERBB3)",
+                    "text": "shRNA Constructs and Lentiviral Production. Six different potential shRNA constructs targeting ErbB-3 were provided by Dr. William Hahn (RNAi Consortium, Boston) in lentiviral cassettes and were tested for their ability to inhibit expression of cotransfected ErbB-3. The \u2018\u2018475\u2019\u2019 construct was the most efficient in blocking cotransfected ErbB-3 expression (90%) and was used for infection of cell lines. Virus produced from the parental vector was used as control. Lentivirus production and infections were performed as described.",
+                    "evidence": "Six different potential shRNA constructs targeting ErbB-3 were provided by Dr. William Hahn (RNAi Consortium, Boston) in lentiviral cassettes and were tested for their ability to inhibit expression of cotransfected ErbB-3."
+                }
+            },
+            {
+                "id": 7,
+                "s": 9,
+                "t": 9,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:ERBB3) decreases g(HGNC:ERBB3)",
+                    "text": "shRNA Constructs and Lentiviral Production. Six different potential shRNA constructs targeting ErbB-3 were provided by Dr. William Hahn (RNAi Consortium, Boston) in lentiviral cassettes and were tested for their ability to inhibit expression of cotransfected ErbB-3. The \u2018\u2018475\u2019\u2019 construct was the most efficient in blocking cotransfected ErbB-3 expression (90%) and was used for infection of cell lines. Virus produced from the parental vector was used as control. Lentivirus production and infections were performed as described.",
+                    "evidence": "The \u2018\u2018475\u2019\u2019 construct was the most efficient in blocking cotransfected ErbB-3 expression (90%) and was used for infection of cell lines."
+                }
+            },
+            {
+                "id": 8,
+                "s": 10,
+                "t": 11,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:LY294002) decreases bp(GO:\"cell growth\")",
+                    "text": "Akt Activity Is Inhibited by Gefitinib Exclusively in NSCLC Cell Lines That Are Growth-Inhibited by Gefitinib. Initial investigations revealed that multiple NSCLC cell lines tested (10) are growth-inhibited by 50% in the presence of 20 \u03bcM LY294002, a potent PI3K inhibitor. Thus, we hypothesized that gefitinib may inhibit the PI3K-Akt pathway only in NSCLC cell lines in which it inhibits growth. As demonstrated, H1299, A549, and H23 cells all have an IC50 > 1 \u03bcM (\u2018\u2018gefitinib-resistant\u2019\u2019), whereas Calu-3, H358, and A431 cells all have an IC50 < 1 \u03bcM (\u2018\u2018gefitinib-sensitive\u2019\u2019). As shown, gefitinib leads to a reduction in phospho-Akt only in the gefitinib-sensitive NSCLC cell lines. The gefitinib concentration of 1 \u03bcM was used as the cutoff for sensitivity because this concentration approaches levels observed in serum from patients under treatment and has been used in other studies to distinguish between sensitive and resistant cell lines. Sequencing of the EGFR and K-Ras genes in these cell lines reveals that the EGFR in these cell lines does not have any mutations that are observed in a subset of NSCLC patients responding to gefitinib. The A431 cell line is an epidermoid carcinoma that is known to have amplification of the EGFR and is commonly used in studies assessing anti-EGFR therapy.",
+                    "evidence": "Initial investigations revealed that multiple NSCLC cell lines tested (10) are growth-inhibited by 50% in the presence of 20 \u03bcM LY294002, a potent PI3K inhibitor."
+                }
+            },
+            {
+                "id": 9,
+                "s": 7,
+                "t": 12,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:gefitinib) decreases act(p(UniProt:AKT1)",
+                    "text": "Akt Activity Is Inhibited by Gefitinib Exclusively in NSCLC Cell Lines That Are Growth-Inhibited by Gefitinib. Initial investigations revealed that multiple NSCLC cell lines tested (10) are growth-inhibited by 50% in the presence of 20 \u03bcM LY294002, a potent PI3K inhibitor. Thus, we hypothesized that gefitinib may inhibit the PI3K-Akt pathway only in NSCLC cell lines in which it inhibits growth. As demonstrated, H1299, A549, and H23 cells all have an IC50 > 1 \u03bcM (\u2018\u2018gefitinib-resistant\u2019\u2019), whereas Calu-3, H358, and A431 cells all have an IC50 < 1 \u03bcM (\u2018\u2018gefitinib-sensitive\u2019\u2019). As shown, gefitinib leads to a reduction in phospho-Akt only in the gefitinib-sensitive NSCLC cell lines. The gefitinib concentration of 1 \u03bcM was used as the cutoff for sensitivity because this concentration approaches levels observed in serum from patients under treatment and has been used in other studies to distinguish between sensitive and resistant cell lines. Sequencing of the EGFR and K-Ras genes in these cell lines reveals that the EGFR in these cell lines does not have any mutations that are observed in a subset of NSCLC patients responding to gefitinib. The A431 cell line is an epidermoid carcinoma that is known to have amplification of the EGFR and is commonly used in studies assessing anti-EGFR therapy.",
+                    "evidence": "As shown, gefitinib leads to a reduction in phospho-Akt only in the gefitinib-sensitive NSCLC cell lines."
+                }
+            },
+            {
+                "id": 10,
+                "s": 13,
+                "t": 14,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GO:\"PI3K-Akt signaling pathway\") decreases act(p(UNIPROT:p85)",
+                    "text": "The PI3K Regulatory Subunit, p85, Binds ErbB-3 in a Gefitinib-Dependent Manner Exclusively in Gefitinib-Sensitive NSCLC Cell Lines. We next sought to determine the molecular mechanism by which gefitinib down-regulates the PI3K-Akt pathway in gefitinib-sensitive cells. The regulatory subunit of type 1a PI3K, p85, mediates activation of this enzyme by binding to tyrosine-phosphorylated receptors or adaptor proteins. We hypothesized that, in gefitinib-sensitive NSCLC cells, there would be a phosphotyrosine (PTyr) protein\u2013p85 interaction that is lost upon addition of gefitinib.",
+                    "evidence": "We next sought to determine the molecular mechanism by which gefitinib down-regulates the PI3K-Akt pathway in gefitinib-sensitive cells."
+                }
+            },
+            {
+                "id": 11,
+                "s": 15,
+                "t": 0,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(UNIPROT:p85) decreases p(HGNC:ERBB3)",
+                    "text": "The PI3K Regulatory Subunit, p85, Binds ErbB-3 in a Gefitinib-Dependent Manner Exclusively in Gefitinib-Sensitive NSCLC Cell Lines. We next sought to determine the molecular mechanism by which gefitinib down-regulates the PI3K-Akt pathway in gefitinib-sensitive cells. The regulatory subunit of type 1a PI3K, p85, mediates activation of this enzyme by binding to tyrosine-phosphorylated receptors or adaptor proteins. We hypothesized that, in gefitinib-sensitive NSCLC cells, there would be a phosphotyrosine (PTyr) protein\u2013p85 interaction that is lost upon addition of gefitinib.",
+                    "evidence": "We hypothesized that, in gefitinib-sensitive NSCLC cells, there would be a phosphotyrosine (PTyr) protein\u2013p85 interaction that is lost upon addition of gefitinib."
+                }
+            },
+            {
+                "id": 12,
+                "s": 16,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:ERBB3) increases a(UniProt:EGFR)",
+                    "text": "This finding led us to evaluate NSCLC cell lines for the expression of ErbB-3. High expression of ErbB-3 was observed in only the gefitinib-sensitive NSCLC cell lines. We also probed NSCLC cell line extracts with antibodies against EGFR and ErbB-2. EGFR expression did not correlate with sensitivity to gefitinib as has been demonstrated by other studies. ErbB-2 expression is detected in all three gefitinib-sensitive cell lines, as well as in the gefitinib-resistant cell lines H322 and H522. As has been reported previously, the ErbB-2 locus is amplified in Calu-3 cells, leading to overexpression of this protein.",
+                    "evidence": "High expression of ErbB-3 was observed in only the gefitinib-sensitive NSCLC cell lines."
+                }
+            },
+            {
+                "id": 13,
+                "s": 18,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:ERBB2) increases a(UniProt:EGFR)",
+                    "text": "This finding led us to evaluate NSCLC cell lines for the expression of ErbB-3. High expression of ErbB-3 was observed in only the gefitinib-sensitive NSCLC cell lines. We also probed NSCLC cell line extracts with antibodies against EGFR and ErbB-2. EGFR expression did not correlate with sensitivity to gefitinib as has been demonstrated by other studies. ErbB-2 expression is detected in all three gefitinib-sensitive cell lines, as well as in the gefitinib-resistant cell lines H322 and H522. As has been reported previously, the ErbB-2 locus is amplified in Calu-3 cells, leading to overexpression of this protein.",
+                    "evidence": "ErbB-2 expression is detected in all three gefitinib-sensitive cell lines, as well as in the gefitinib-resistant cell lines H322 and H522."
+                }
+            },
+            {
+                "id": 14,
+                "s": 18,
+                "t": 18,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:ERBB2) increases a(UniProt:ERBB2)",
+                    "text": "This finding led us to evaluate NSCLC cell lines for the expression of ErbB-3. High expression of ErbB-3 was observed in only the gefitinib-sensitive NSCLC cell lines. We also probed NSCLC cell line extracts with antibodies against EGFR and ErbB-2. EGFR expression did not correlate with sensitivity to gefitinib as has been demonstrated by other studies. ErbB-2 expression is detected in all three gefitinib-sensitive cell lines, as well as in the gefitinib-resistant cell lines H322 and H522. As has been reported previously, the ErbB-2 locus is amplified in Calu-3 cells, leading to overexpression of this protein.",
+                    "evidence": "As has been reported previously, the ErbB-2 locus is amplified in Calu-3 cells, leading to overexpression of this protein."
+                }
+            },
+            {
+                "id": 15,
+                "s": 19,
+                "t": 7,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:PTEN) decreases a(CHEBI:gefitinib)",
+                    "text": "A previous report had shown that a cell line without a functional PTEN tumor suppressor was unable to be inhibited by gefitinib, presumably because PTEN-deficient cell lines maintain Akt activity in the presence of EGFR inhibition. As shown, PTEN expression is present in the cell lines resistant to gefitinib. Thus, its absence does not explain resistance to gefitinib in these cell lines.",
+                    "evidence": "A previous report had shown that a cell line without a functional PTEN tumor suppressor was unable to be inhibited by gefitinib."
+                }
+            },
+            {
+                "id": 16,
+                "s": 19,
+                "t": 5,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:PTEN) decreases act(p(HGNC:AKT1)",
+                    "text": "A previous report had shown that a cell line without a functional PTEN tumor suppressor was unable to be inhibited by gefitinib, presumably because PTEN-deficient cell lines maintain Akt activity in the presence of EGFR inhibition. As shown, PTEN expression is present in the cell lines resistant to gefitinib. Thus, its absence does not explain resistance to gefitinib in these cell lines.",
+                    "evidence": "presumably because PTEN-deficient cell lines maintain Akt activity in the presence of EGFR inhibition."
+                }
+            },
+            {
+                "id": 17,
+                "s": 20,
+                "t": 21,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:EGF) increases complex(p(UniProt:P85)",
+                    "text": "EGF Stimulates PI3K Association with ErbB-3 in a Gefitinib-Sensitive NSCLC Cell Line. To determine whether the association of p85 with ErbB-3 is enhanced by EGF ligand in a gefitinib-sensitive NSCLC cell line, Calu-3 cells were grown in the presence or absence of gefitinib before stimulation with EGF. As shown, EGF stimulated an association between p85 and ErbB-3 (also observed as the 210-kDa PTyr protein). This association was blocked by exposing the cells to 1 \u03bcM gefitinib. Assessment of ErbB-3 immunoprecipitations reveals that gefitinib leads to a decrease in ErbB-3 tyrosine phosphorylation and the amount of coprecipitated p85.",
+                    "evidence": "EGF Stimulates PI3K Association with ErbB-3 in a Gefitinib-Sensitive NSCLC Cell Line."
+                }
+            },
+            {
+                "id": 18,
+                "s": 7,
+                "t": 21,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:gefitinib) decreases complex(p(UniProt:P85)",
+                    "text": "EGF Stimulates PI3K Association with ErbB-3 in a Gefitinib-Sensitive NSCLC Cell Line. To determine whether the association of p85 with ErbB-3 is enhanced by EGF ligand in a gefitinib-sensitive NSCLC cell line, Calu-3 cells were grown in the presence or absence of gefitinib before stimulation with EGF. As shown, EGF stimulated an association between p85 and ErbB-3 (also observed as the 210-kDa PTyr protein). This association was blocked by exposing the cells to 1 \u03bcM gefitinib. Assessment of ErbB-3 immunoprecipitations reveals that gefitinib leads to a decrease in ErbB-3 tyrosine phosphorylation and the amount of coprecipitated p85.",
+                    "evidence": "This association was blocked by exposing the cells to 1 \u03bcM gefitinib."
+                }
+            },
+            {
+                "id": 19,
+                "s": 7,
+                "t": 1,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(CHEBI:gefitinib) directlyDecreases p(HGNC:AKT1)",
+                    "text": "As mentioned earlier, Calu-3 cells possess amplification of the ErbB-2 locus. Previous studies have shown that breast cancer cell lines with overexpression of ErbB-2 are sensitive to gefitinib. The studies we have presented thus far demonstrate that Calu-3 cellular growth and Akt activation are inhibited by 1 \u03bcM gefitinib but do not demonstrate whether these effects are due to inhibition of EGFR or off-target inhibition of ErbB-2. We performed a dose-response analysis of the p85\u2013ErbB-3 interaction as well as the phosphorylation status of Akt, EGFR, ErbB-2, and ErbB-3. As shown, phosphorylated Akt levels are dramatically reduced by 0.25 \u03bcM gefitinib. At this concentration, we also observe a reduction in the amount of ErbB-3 associated with p85 and decreased levels of phosphorylated ErbB-3 and phosphorylated EGFR. In contrast, phosphorylated ErbB-2 levels are not significantly reduced until concentrations of 4 \u03bcM are used. Of note, previous reports showed that the IC50 for inhibition of ErbB-2 by gefitinib is 100-fold higher than that for EGFR in vitro and that an exogenously expressed chimeric protein containing the ErbB-2 intracellular domain is not significantly inhibited by 1 \u03bcM gefitinib. Thus, although our experiments do not clearly demonstrate that gefitinib\u2019s effects on PI3K activation are due to inhibition of EGFR and not ErbB-2, this explanation seems more plausible given this collection of observations.",
+                    "evidence": "Calu-3 cellular growth and Akt activation are inhibited by 1 \u03bcM gefitinib."
+                }
+            },
+            {
+                "id": 20,
+                "s": 7,
+                "t": 0,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(CHEBI:gefitinib) directlyDecreases p(HGNC:ERBB3)",
+                    "text": "As mentioned earlier, Calu-3 cells possess amplification of the ErbB-2 locus. Previous studies have shown that breast cancer cell lines with overexpression of ErbB-2 are sensitive to gefitinib. The studies we have presented thus far demonstrate that Calu-3 cellular growth and Akt activation are inhibited by 1 \u03bcM gefitinib but do not demonstrate whether these effects are due to inhibition of EGFR or off-target inhibition of ErbB-2. We performed a dose-response analysis of the p85\u2013ErbB-3 interaction as well as the phosphorylation status of Akt, EGFR, ErbB-2, and ErbB-3. As shown, phosphorylated Akt levels are dramatically reduced by 0.25 \u03bcM gefitinib. At this concentration, we also observe a reduction in the amount of ErbB-3 associated with p85 and decreased levels of phosphorylated ErbB-3 and phosphorylated EGFR. In contrast, phosphorylated ErbB-2 levels are not significantly reduced until concentrations of 4 \u03bcM are used. Of note, previous reports showed that the IC50 for inhibition of ErbB-2 by gefitinib is 100-fold higher than that for EGFR in vitro and that an exogenously expressed chimeric protein containing the ErbB-2 intracellular domain is not significantly inhibited by 1 \u03bcM gefitinib. Thus, although our experiments do not clearly demonstrate that gefitinib\u2019s effects on PI3K activation are due to inhibition of EGFR and not ErbB-2, this explanation seems more plausible given this collection of observations.",
+                    "evidence": "At this concentration, we also observe a reduction in the amount of ErbB-3 associated with p85 and decreased levels of phosphorylated ErbB-3."
+                }
+            },
+            {
+                "id": 21,
+                "s": 7,
+                "t": 2,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(CHEBI:gefitinib) directlyDecreases p(HGNC:EGFR)",
+                    "text": "As mentioned earlier, Calu-3 cells possess amplification of the ErbB-2 locus. Previous studies have shown that breast cancer cell lines with overexpression of ErbB-2 are sensitive to gefitinib. The studies we have presented thus far demonstrate that Calu-3 cellular growth and Akt activation are inhibited by 1 \u03bcM gefitinib but do not demonstrate whether these effects are due to inhibition of EGFR or off-target inhibition of ErbB-2. We performed a dose-response analysis of the p85\u2013ErbB-3 interaction as well as the phosphorylation status of Akt, EGFR, ErbB-2, and ErbB-3. As shown, phosphorylated Akt levels are dramatically reduced by 0.25 \u03bcM gefitinib. At this concentration, we also observe a reduction in the amount of ErbB-3 associated with p85 and decreased levels of phosphorylated ErbB-3 and phosphorylated EGFR. In contrast, phosphorylated ErbB-2 levels are not significantly reduced until concentrations of 4 \u03bcM are used. Of note, previous reports showed that the IC50 for inhibition of ErbB-2 by gefitinib is 100-fold higher than that for EGFR in vitro and that an exogenously expressed chimeric protein containing the ErbB-2 intracellular domain is not significantly inhibited by 1 \u03bcM gefitinib. Thus, although our experiments do not clearly demonstrate that gefitinib\u2019s effects on PI3K activation are due to inhibition of EGFR and not ErbB-2, this explanation seems more plausible given this collection of observations.",
+                    "evidence": "At this concentration, we also observe a reduction in the amount of ErbB-3 associated with p85 and decreased levels of phosphorylated EGFR."
+                }
+            },
+            {
+                "id": 22,
+                "s": 7,
+                "t": 22,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "a(CHEBI:gefitinib) directlyDecreases p(HGNC:ERBB2)",
+                    "text": "As mentioned earlier, Calu-3 cells possess amplification of the ErbB-2 locus. Previous studies have shown that breast cancer cell lines with overexpression of ErbB-2 are sensitive to gefitinib. The studies we have presented thus far demonstrate that Calu-3 cellular growth and Akt activation are inhibited by 1 \u03bcM gefitinib but do not demonstrate whether these effects are due to inhibition of EGFR or off-target inhibition of ErbB-2. We performed a dose-response analysis of the p85\u2013ErbB-3 interaction as well as the phosphorylation status of Akt, EGFR, ErbB-2, and ErbB-3. As shown, phosphorylated Akt levels are dramatically reduced by 0.25 \u03bcM gefitinib. At this concentration, we also observe a reduction in the amount of ErbB-3 associated with p85 and decreased levels of phosphorylated ErbB-3 and phosphorylated EGFR. In contrast, phosphorylated ErbB-2 levels are not significantly reduced until concentrations of 4 \u03bcM are used. Of note, previous reports showed that the IC50 for inhibition of ErbB-2 by gefitinib is 100-fold higher than that for EGFR in vitro and that an exogenously expressed chimeric protein containing the ErbB-2 intracellular domain is not significantly inhibited by 1 \u03bcM gefitinib. Thus, although our experiments do not clearly demonstrate that gefitinib\u2019s effects on PI3K activation are due to inhibition of EGFR and not ErbB-2, this explanation seems more plausible given this collection of observations.",
+                    "evidence": "In contrast, phosphorylated ErbB-2 levels are not significantly reduced until concentrations of 4 \u03bcM are used."
+                }
+            },
+            {
+                "id": 23,
+                "s": 23,
+                "t": 13,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:EGFR) increases bp(GO:\"PI3K-Akt signaling pathway\")",
+                    "text": "NSCLC Cell Lines Harboring Activating EGFR Mutations Demonstrate a Gefitinib-Labile Interaction Between p85 and ErbB-3. The experiments presented thus far have evaluated NSCLC cell lines with WT EGFR. However, it appears that the majority of cancers with dramatic responses to EGFR tyrosine kinase inhibition harbor a somatic mutation in the EGFR. Therefore, we evaluated two patient-derived NSCLC cell lines that have mutant EGFR: H3255 and DFCILU-011 cells. H3255 cells contain an EGFR with a point mutation (L858R) and DFCILU-011 contains a deletion mutation in exon 19 (Del747-749). Both cell lines are very sensitive to gefitinib, with an IC50 of 50 nM. As shown, Akt activity is diminished in both cell lines when they are grown in full serum in the presence of gefitinib. Interestingly, we observe an interaction between p85 and ErbB-3 that is disrupted by gefitinib in both cell lines, suggesting that the mutant EGFRs activate the PI3K-Akt pathway by means of ErbB-3 as well. In the H3255 cells, PI3K also associates with an 110-kDa PTyr protein in a gefitinib-sensitive manner. Indeed, both the DFCILU-011 and H3255 cells demonstrate significant expression of ErbB-3, analogous to the gefitinib-sensitive NSCLC cell lines with WT EGFR. These results suggest that the mutant EGFRs also use ErbB-3 for activation of PI3K.",
+                    "evidence": "suggesting that the mutant EGFRs activate the PI3K-Akt pathway by means of ErbB-3 as well."
+                }
+            },
+            {
+                "id": 24,
+                "s": 24,
+                "t": 13,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:ErbB-3) increases bp(GO:\"PI3K-Akt signaling pathway\")",
+                    "text": "NSCLC Cell Lines Harboring Activating EGFR Mutations Demonstrate a Gefitinib-Labile Interaction Between p85 and ErbB-3. The experiments presented thus far have evaluated NSCLC cell lines with WT EGFR. However, it appears that the majority of cancers with dramatic responses to EGFR tyrosine kinase inhibition harbor a somatic mutation in the EGFR. Therefore, we evaluated two patient-derived NSCLC cell lines that have mutant EGFR: H3255 and DFCILU-011 cells. H3255 cells contain an EGFR with a point mutation (L858R) and DFCILU-011 contains a deletion mutation in exon 19 (Del747-749). Both cell lines are very sensitive to gefitinib, with an IC50 of 50 nM. As shown, Akt activity is diminished in both cell lines when they are grown in full serum in the presence of gefitinib. Interestingly, we observe an interaction between p85 and ErbB-3 that is disrupted by gefitinib in both cell lines, suggesting that the mutant EGFRs activate the PI3K-Akt pathway by means of ErbB-3 as well. In the H3255 cells, PI3K also associates with an 110-kDa PTyr protein in a gefitinib-sensitive manner. Indeed, both the DFCILU-011 and H3255 cells demonstrate significant expression of ErbB-3, analogous to the gefitinib-sensitive NSCLC cell lines with WT EGFR. These results suggest that the mutant EGFRs also use ErbB-3 for activation of PI3K.",
+                    "evidence": "suggesting that the mutant EGFRs also use ErbB-3 for activation of PI3K."
+                }
+            },
+            {
+                "id": 25,
+                "s": 24,
+                "t": 25,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:ErbB-3) increases p(UniProt:EGFR_L858R)",
+                    "text": "To determine whether ErbB-3 cooperates with mutant EGFRs to activate PI3Ks, EGFR WT and EGFR mutant (L858R) cells were transfected with or without ErbB-3 into CHO cells, a cell line that has no detectable EGFR or ErbB-3. In cells transfected with the L858R mutant (in the absence of ErbB-3), Akt activity returned to near baseline by 240 min after EGF stimulation. In contrast, cotransfection of ErbB-3 with the L858R mutant prolongs the strong activation of Akt up to 240 min after EGF stimulation. ErbB-3 expression appears to enhance basal activation of the Akt pathway by both the mutant and WT EGFR.",
+                    "evidence": "In contrast, cotransfection of ErbB-3 with the L858R mutant prolongs the strong activation of Akt up to 240 min after EGF stimulation."
+                }
+            },
+            {
+                "id": 26,
+                "s": 24,
+                "t": 26,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:ErbB-3) increases bp(GO:\"Akt signaling pathway\")",
+                    "text": "To determine whether ErbB-3 cooperates with mutant EGFRs to activate PI3Ks, EGFR WT and EGFR mutant (L858R) cells were transfected with or without ErbB-3 into CHO cells, a cell line that has no detectable EGFR or ErbB-3. In cells transfected with the L858R mutant (in the absence of ErbB-3), Akt activity returned to near baseline by 240 min after EGF stimulation. In contrast, cotransfection of ErbB-3 with the L858R mutant prolongs the strong activation of Akt up to 240 min after EGF stimulation. ErbB-3 expression appears to enhance basal activation of the Akt pathway by both the mutant and WT EGFR.",
+                    "evidence": "ErbB-3 expression appears to enhance basal activation of the Akt pathway by both the mutant and WT EGFR."
+                }
+            },
+            {
+                "id": 27,
+                "s": 27,
+                "t": 28,
+                "v": {
+                    "interaction": "directlyIncreases",
+                    "bel_expression": "p(UniProt:Q15303) directlyIncreases p(HGNC:AKT1, pmod(Ph, Thr, 308)",
+                    "text": "ErbB-3 Expression Is Necessary for Activation of the PI3K-Akt Pathway in Gefitinib-Sensitive NSCLC Cell Lines. The data generated in this study suggest that ErbB-3 is used to activate the PI3K-Akt pathway in gefitinib-sensitive NSCLC cell lines, whether the EGFR is WT or mutant. To test this idea, we interfered with ErbB-3 expression by employing RNA interference using a lentiviral-based shRNA expression system. The Calu-3 and H3255 cells were infected with ErbB-3 shRNA and control virus. For controls, the cell lines A549 and H522, which do not express ErbB-3, were also infected with the same viruses. As shown, the ErbB-3 shRNA efficiently down-regulated ErbB-3 in both the Calu-3 and H3255 cells, leading to a marked reduction in phospho-Akt levels and demonstrating that ErbB-3 couples to the PI3K-Akt pathway in these cells. In contrast, the amount of phospho-Akt was unchanged in the A549 and H522 cell lines infected with ErbB-3 shRNA. As shown, there is no appreciable expression of ErbB-3 detected in A549 or H522 cells.",
+                    "evidence": "As shown, the ErbB-3 shRNA efficiently down-regulated ErbB-3 in both the Calu-3 and H3255 cells, leading to a marked reduction in phospho-Akt levels and demonstrating that ErbB-3 couples to the PI3K-Akt pathway in these cells."
+                }
+            },
+            {
+                "id": 28,
+                "s": 29,
+                "t": 30,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:ERBB3) increases bp(GO:\"cellular transformation\")",
+                    "text": "It has been known for almost a decade that ErbB-3 is a very potent link between EGFR activation and PI3K activity. However, the role of ErbB-3 in tumorigenesis is currently evolving. For example, in a subclone of NIH 3T3 cells that does not express endogenous ErbB receptors, EGFR expression alone is unable to promote cellular transformation. However, coexpression with ErbB-3 coupled with stimulation with heregulin (not EGF) was sufficient to induce cellular transformation. It also appears that ErbB-3 likely promotes ErbB-2-HER2-dependant breast carcinogenesis; down-regulation of ErbB-3 leads to G1 arrest and decreased Akt phosphorylation in SKBR3 cells. Those observations, together with the ones in this study, suggest that cancer cell lines driven by a member of the ErbB receptor system often couple to ErbB-3 to activate the PI3K-Akt pathway and promote the cancer phenotype. Thus, antibodies that inhibit ErbB-3\u2019s heterodimerization with other ErbB family members may serve as a therapeutic strategy for cancers driven by either EGFR or ErbB-2.",
+                    "evidence": "However, coexpression with ErbB-3 coupled with stimulation with heregulin (not EGF) was sufficient to induce cellular transformation."
+                }
+            },
+            {
+                "id": 29,
+                "s": 29,
+                "t": 1,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(UniProt:ERBB3) decreases p(HGNC:AKT1)",
+                    "text": "It has been known for almost a decade that ErbB-3 is a very potent link between EGFR activation and PI3K activity. However, the role of ErbB-3 in tumorigenesis is currently evolving. For example, in a subclone of NIH 3T3 cells that does not express endogenous ErbB receptors, EGFR expression alone is unable to promote cellular transformation. However, coexpression with ErbB-3 coupled with stimulation with heregulin (not EGF) was sufficient to induce cellular transformation. It also appears that ErbB-3 likely promotes ErbB-2-HER2-dependant breast carcinogenesis; down-regulation of ErbB-3 leads to G1 arrest and decreased Akt phosphorylation in SKBR3 cells. Those observations, together with the ones in this study, suggest that cancer cell lines driven by a member of the ErbB receptor system often couple to ErbB-3 to activate the PI3K-Akt pathway and promote the cancer phenotype. Thus, antibodies that inhibit ErbB-3\u2019s heterodimerization with other ErbB family members may serve as a therapeutic strategy for cancers driven by either EGFR or ErbB-2.",
+                    "evidence": "down-regulation of ErbB-3 leads to G1 arrest and decreased Akt phosphorylation in SKBR3 cells."
+                }
+            },
+            {
+                "id": 30,
+                "s": 29,
+                "t": 31,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:ERBB3) increases bp(GO:\"breast carcinogenesis\")",
+                    "text": "It has been known for almost a decade that ErbB-3 is a very potent link between EGFR activation and PI3K activity. However, the role of ErbB-3 in tumorigenesis is currently evolving. For example, in a subclone of NIH 3T3 cells that does not express endogenous ErbB receptors, EGFR expression alone is unable to promote cellular transformation. However, coexpression with ErbB-3 coupled with stimulation with heregulin (not EGF) was sufficient to induce cellular transformation. It also appears that ErbB-3 likely promotes ErbB-2-HER2-dependant breast carcinogenesis; down-regulation of ErbB-3 leads to G1 arrest and decreased Akt phosphorylation in SKBR3 cells. Those observations, together with the ones in this study, suggest that cancer cell lines driven by a member of the ErbB receptor system often couple to ErbB-3 to activate the PI3K-Akt pathway and promote the cancer phenotype. Thus, antibodies that inhibit ErbB-3\u2019s heterodimerization with other ErbB family members may serve as a therapeutic strategy for cancers driven by either EGFR or ErbB-2.",
+                    "evidence": "ErbB-3 likely promotes ErbB-2-HER2-dependant breast carcinogenesis."
+                }
+            },
+            {
+                "id": 31,
+                "s": 29,
+                "t": 32,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:ERBB3) increases bp(GO:\"cancer phenotype\")",
+                    "text": "It has been known for almost a decade that ErbB-3 is a very potent link between EGFR activation and PI3K activity. However, the role of ErbB-3 in tumorigenesis is currently evolving. For example, in a subclone of NIH 3T3 cells that does not express endogenous ErbB receptors, EGFR expression alone is unable to promote cellular transformation. However, coexpression with ErbB-3 coupled with stimulation with heregulin (not EGF) was sufficient to induce cellular transformation. It also appears that ErbB-3 likely promotes ErbB-2-HER2-dependant breast carcinogenesis; down-regulation of ErbB-3 leads to G1 arrest and decreased Akt phosphorylation in SKBR3 cells. Those observations, together with the ones in this study, suggest that cancer cell lines driven by a member of the ErbB receptor system often couple to ErbB-3 to activate the PI3K-Akt pathway and promote the cancer phenotype. Thus, antibodies that inhibit ErbB-3\u2019s heterodimerization with other ErbB family members may serve as a therapeutic strategy for cancers driven by either EGFR or ErbB-2.",
+                    "evidence": "suggest that cancer cell lines driven by a member of the ErbB receptor system often couple to ErbB-3 to activate the PI3K-Akt pathway and promote the cancer phenotype."
+                }
+            },
+            {
+                "id": 32,
+                "s": 29,
+                "t": 7,
+                "v": {
+                    "interaction": "positiveCorrelation",
+                    "bel_expression": "p(UniProt:ERBB3) positiveCorrelation a(CHEBI:gefitinib)",
+                    "text": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib. However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib. Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib, either. These negative data underscore an important point: For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway (and likely other pathways, as well). H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs.",
+                    "evidence": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib."
+                }
+            },
+            {
+                "id": 33,
+                "s": 23,
+                "t": 33,
+                "v": {
+                    "interaction": "hasActivity",
+                    "bel_expression": "p(UniProt:EGFR) hasActivity ma(GO:\"protein kinase activity\")",
+                    "text": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib. However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib. Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib, either. These negative data underscore an important point: For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway (and likely other pathways, as well). H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs.",
+                    "evidence": "For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway."
+                }
+            },
+            {
+                "id": 34,
+                "s": 23,
+                "t": 26,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:EGFR) increases bp(GO:\"Akt signaling pathway\")",
+                    "text": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib. However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib. Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib, either. These negative data underscore an important point: For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway (and likely other pathways, as well). H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs.",
+                    "evidence": "For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway."
+                }
+            },
+            {
+                "id": 35,
+                "s": 29,
+                "t": 7,
+                "v": {
+                    "interaction": "doesNotIncrease",
+                    "bel_expression": "p(UniProt:ERBB3) doesNotIncrease a(CHEBI:gefitinib)",
+                    "text": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib. However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib. Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib, either. These negative data underscore an important point: For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway (and likely other pathways, as well). H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs.",
+                    "evidence": "However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib."
+                }
+            },
+            {
+                "id": 36,
+                "s": 23,
+                "t": 7,
+                "v": {
+                    "interaction": "doesNotIncrease",
+                    "bel_expression": "p(UniProt:EGFR) doesNotIncrease a(CHEBI:gefitinib)",
+                    "text": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib. However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib. Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib, either. These negative data underscore an important point: For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway (and likely other pathways, as well). H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs.",
+                    "evidence": "Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib."
+                }
+            },
+            {
+                "id": 37,
+                "s": 29,
+                "t": 7,
+                "v": {
+                    "interaction": "doesNotIncrease",
+                    "bel_expression": "p(UniProt:ERBB3) doesNotIncrease a(CHEBI:gefitinib)",
+                    "text": "Our study found a strong correlation between ErbB-3 expression in NSCLC cell lines and sensitivity to gefitinib. However, forced expression of ErbB-3 in H1299 and A549 cells with an ErbB-3-expressing retrovirus did not increase sensitivity to gefitinib. Indeed, exogenous stable expression of EGFR, EGFR (L858R), or EGFR (Del746-750) into H1299 cells did not render them sensitive to gefitinib, either. These negative data underscore an important point: For a cell to be sensitive to gefitinib, the cell must rely on the EGFR for activation of the Akt pathway (and likely other pathways, as well). H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs.",
+                    "evidence": "H1299 and A549 cells possess EGFR-independent mechanisms for Akt and thus remain gefitinib-resistant despite exogenous expression of ErbB-3 or mutant EGFRs."
+                }
+            },
+            {
+                "id": 38,
+                "s": 17,
+                "t": 34,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:EGFR) increases a(UniProt:ErbB-3)",
+                    "text": "The results here suggest that NSCLCs that will respond to anti-EGFR therapy will likely possess significant expression of ErbB-3. The data in the present study are in agreement with a recently published report evaluating gefitinib sensitivity in multiple NSCLC cell lines. Although not explicitly stated by the authors of that study, the three NSCLC cell lines most sensitive to gefitinib (H358, PC9, and A431 cells) in that study appear to be the ones with the highest expression of ErbB-3. It is unlikely that all NSCLC (and NSCLC cell lines) that express ErbB-3 will respond to anti-EGFR therapy. However, the data presented in this study suggest that cancers responding to anti-EGFR therapy will likely have significant ErbB-3 expression. Therefore, assessment of ErbB-3 expression in NSCLC specimens may prove useful to enrich for the population of patients most likely to receive clinical benefit from anti-EGFR therapy. If such a correlation is observed, a clinical trial assessing ErbB-3 expression status to determine who should receive anti-EGFR therapy as first-line treatment may be warranted.",
+                    "evidence": "The results here suggest that NSCLCs that will respond to anti-EGFR therapy will likely possess significant expression of ErbB-3."
+                }
+            },
+            {
+                "id": 39,
+                "s": 34,
+                "t": 35,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:ErbB-3) increases bp(GO:\"response to anti-EGFR therapy\")",
+                    "text": "The results here suggest that NSCLCs that will respond to anti-EGFR therapy will likely possess significant expression of ErbB-3. The data in the present study are in agreement with a recently published report evaluating gefitinib sensitivity in multiple NSCLC cell lines. Although not explicitly stated by the authors of that study, the three NSCLC cell lines most sensitive to gefitinib (H358, PC9, and A431 cells) in that study appear to be the ones with the highest expression of ErbB-3. It is unlikely that all NSCLC (and NSCLC cell lines) that express ErbB-3 will respond to anti-EGFR therapy. However, the data presented in this study suggest that cancers responding to anti-EGFR therapy will likely have significant ErbB-3 expression. Therefore, assessment of ErbB-3 expression in NSCLC specimens may prove useful to enrich for the population of patients most likely to receive clinical benefit from anti-EGFR therapy. If such a correlation is observed, a clinical trial assessing ErbB-3 expression status to determine who should receive anti-EGFR therapy as first-line treatment may be warranted.",
+                    "evidence": "The data presented in this study suggest that cancers responding to anti-EGFR therapy will likely have significant ErbB-3 expression."
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]
