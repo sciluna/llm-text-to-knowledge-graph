@@ -28,16 +28,13 @@ def download_pubtator_xml(pmc_id, output_dir):
 
 def get_pubtator_paragraphs(file_path):
     """
-    Extracts paragraphs and their annotations from a PubTator XML file,
+    Extracts paragraphs from a PubTator XML file,
     ensuring text represents full paragraphs or abstract-like content.
 
-    - Only includes annotations that have an 'NCBI Homologene' or 'identifier' starting with 'MESH:'.
-    - For each annotation, extracts 'entity_text', 'type', and the identifier (either MESH or NCBI Homologene ID).
-    - Only includes passages that have at least 2 such annotations.
-    - Removes duplicate annotations within a passage.
+    Only includes passages that are of sufficient length.
 
     :param file_path: Path to the PubTator XML file.
-    :return: A dictionary with numbered paragraphs as keys and values containing text and annotations.
+    :return: A dictionary with numbered paragraphs as keys and values containing text.
     """
     tree = etree.parse(file_path)
     root = tree.getroot()
@@ -60,68 +57,153 @@ def get_pubtator_paragraphs(file_path):
         if len(passage_text) < 20:  # Skip overly short texts
             continue
 
-        # Extract annotations within the passage
-        annotations = []
-        annotation_elements = passage.findall('.//annotation')
-        seen_annotations = set()
-        for annotation in annotation_elements:
-            # Build a dictionary of infon elements
-            infon_dict = {infon.get('key'): infon.text.strip() for infon in annotation.findall('infon') if infon.text}
-
-            # Check annotation criteria
-            identifier = ""
-            identifier_type = ""
-            if 'NCBI Homologene' in infon_dict:
-                identifier = infon_dict['NCBI Homologene']
-                identifier_type = 'NCBI Homologene'
-            elif 'identifier' in infon_dict and infon_dict['identifier'].startswith('MESH:'):
-                identifier = infon_dict['identifier']
-                identifier_type = 'MESH'
-
-            if identifier:
-                # Extract annotation details
-                ann_text = annotation.findtext('text', default="").strip()
-                ann_type = infon_dict.get('type', '')
-
-                # Create a unique tuple to check for duplicates
-                ann_tuple = (ann_text, ann_type, identifier)
-                if ann_tuple not in seen_annotations:
-                    seen_annotations.add(ann_tuple)
-                    annotations.append({
-                        'entity_text': ann_text,
-                        'type': ann_type,
-                        'identifier_type': identifier_type,
-                        'identifier': identifier
-                    })
-
-        # Include only sections with at least 2 valid annotations
-        if len(annotations) >= 2:
-            paragraphs_dict[str(paragraph_number)] = {
-                'text': passage_text,
-                'annotations': annotations
-            }
-            paragraph_number += 1
+        # add the paragraph to the dictionary
+        paragraphs_dict[str(paragraph_number)] = {
+            'text': passage_text
+        }
+        paragraph_number += 1
 
     return paragraphs_dict
 
 
-def extract_annotations_from_pubtator_xml(file_path):
+def fetch_metadata_via_eutils(article_id):
     """
-    Extracts annotations from a PubTator XML file.
-    :param file_path: Path to the PubTator XML file.
-    :return: A list of annotations.
+    Fetches article metadata from NCBI E-Utilities for either a PMID (digits only)
+    or a PMCID (e.g. 'PMC123456'), returning four fields:
+        1. pmid
+        2. title
+        3. authors (list of full-name strings)
+        4. abstract
+        5. doi
+        6. journal
+
+    :param article_id: A string like '12345678' (PMID) or 'PMC123456' (PMCID).
+    :return: dict with keys {'pmid', 'title', 'authors', 'abstract', 'doi', 'journal'}.
+             Some may be None or empty if missing from the record.
     """
-    tree = etree.parse(file_path)
-    root = tree.getroot() 
-    annotations = []
-    for annotation in root.findall('.//annotation'):
-        ann = {
-            'id': annotation.get('id'),
-            'type': annotation.findtext('infon[@key="type"]'),
-            'identifier': annotation.findtext('infon[@key="identifier"]'),
-            'offset': int(annotation.find('location').get('offset')),
-            'length': int(annotation.find('location').get('length')),
-            'text': annotation.findtext('text')
+    # Detect whether input is PMCID or PMID
+    is_pmcid = article_id.upper().startswith("PMC")
+
+    if is_pmcid:
+        # For PMCID, remove 'PMC' from the front to get the numeric portion
+        numeric_part = article_id.upper().replace("PMC", "")
+        params = {
+            'db': 'pmc',        # Tells E-Utilities to look in the PMC database
+            'id': numeric_part, 
+            'rettype': 'full',
+            'retmode': 'xml'
         }
-        annotations.append(ann)
-    return annotations
+    else:
+        # Otherwise assume it's a PMID
+        params = {
+            'db': 'pubmed',     # Tells E-Utilities to look in the PubMed database
+            'id': article_id,
+            'retmode': 'xml'
+        }
+
+    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+    response = requests.get(url, params=params)
+
+    # Build the return dict with the four fields
+    metadata = {
+        'pmid': None,
+        'title': None,
+        'authors': [],
+        'abstract': None,
+        'doi': None,
+        'journal': None
+    }
+
+    # If request fails, just return the empty structure
+    if response.status_code != 200:
+        print(f"E-utilities request failed (HTTP {response.status_code}).")
+        return metadata
+
+    # Parse the returned XML
+    tree = etree.fromstring(response.content)
+
+    if not is_pmcid:
+        pubmed_article = tree.find(".//PubmedArticle")
+        if pubmed_article is None:
+            # Possibly no results or invalid ID
+            return metadata
+
+        # PMID
+        pmid_elem = pubmed_article.find(".//PMID")
+        if pmid_elem is not None and pmid_elem.text:
+            metadata['pmid'] = pmid_elem.text.strip()
+
+        # Title
+        title_elem = pubmed_article.find(".//ArticleTitle")
+        if title_elem is not None and title_elem.text:
+            metadata['title'] = title_elem.text.strip()
+
+        # Authors
+        for author_elem in pubmed_article.findall(".//AuthorList/Author"):
+            last = author_elem.findtext("LastName")
+            fore = author_elem.findtext("ForeName")
+            if last or fore:
+                full_name = " ".join([fore or "", last or ""]).strip()
+                metadata['authors'].append(full_name)
+
+        # Abstract (can have multiple <AbstractText>)
+        abstract_texts = pubmed_article.findall(".//Abstract/AbstractText")
+        if abstract_texts:
+            combined = " ".join(elem.text for elem in abstract_texts if elem.text)
+            metadata['abstract'] = combined.strip() if combined else None
+
+        # DOI
+        doi_elem = pubmed_article.find(".//ArticleId[@IdType='doi']")
+        if doi_elem is not None and doi_elem.text:
+            metadata['doi'] = doi_elem.text.strip()
+
+        # Journal
+        journal_elem = pubmed_article.find(".//Journal/Title")
+        if journal_elem is not None and journal_elem.text:
+            metadata['journal'] = journal_elem.text.strip()
+
+    else:
+        article_elem = tree.find(".//article")
+        if article_elem is None:
+            return metadata
+
+        # Extract the PMID from <article-id pub-id-type="pmid">
+        for article_id_elem in article_elem.findall(".//article-id"):
+            id_type = article_id_elem.get("pub-id-type")
+            if id_type == "pmid":
+                metadata['pmid'] = article_id_elem.text.strip() if article_id_elem.text else None
+            elif id_type == "doi":  
+                metadata['doi'] = article_id_elem.text.strip() if article_id_elem.text else None
+
+        # Title
+        title_elem = article_elem.find(".//title-group/article-title")
+        if title_elem is not None and title_elem.text:
+            metadata['title'] = title_elem.text.strip()
+
+        # Authors
+        for contrib in article_elem.findall('.//contrib-group/contrib[@contrib-type="author"]'):
+            surname = contrib.findtext("name/surname")
+            given_names = contrib.findtext("name/given-names")
+            if surname or given_names:
+                full_name = " ".join([given_names or "", surname or ""]).strip()
+                metadata['authors'].append(full_name)
+
+        # Abstract
+        abstract_elem = article_elem.find(".//abstract")
+        if abstract_elem is not None:
+            # Some abstracts contain multiple <p> child elements
+            paragraphs = abstract_elem.findall(".//p")
+            if paragraphs:
+                combined = " ".join(p.text for p in paragraphs if p.text)
+                metadata['abstract'] = combined.strip() if combined else None
+            else:
+                # or a single text node if no <p> children
+                if abstract_elem.text:
+                    metadata['abstract'] = abstract_elem.text.strip()
+
+        # Journal            
+        journal_title_elem = article_elem.find(".//journal-title")
+        if journal_title_elem is not None and journal_title_elem.text:
+            metadata['journal'] = journal_title_elem.text.strip()
+
+    return metadata

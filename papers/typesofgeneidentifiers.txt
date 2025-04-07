@@ -24,3 +24,27 @@ SID: many (example: https://pubchem.ncbi.nlm.nih.gov/substance/53789923)
 
 Synonyms
 https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1983/synonyms/JSON
+
+PMC9309721
+PMC9312982
+PMC5881497
+PMC8869656
+PMC11239181
+
+Network properties example
+name - Kanwal et al: pmid/pmcid35203540
+description - title of paper, abstract
+reference - pmid 
+
+elif default: timestamp
+else:
+    parameter/argument for user to fill in title of choice
+    supply a pmid if paper is published - go to the eutils api to get the information for the paper- then process to the normal network ppts examples
+
+- create a new text document for the id problem
+  - put in 10 paragraphs with id problems from different papers
+  - identify paragraphs with id problems/entities not in annotation_list. The hard part of this is that we want a variety of problems. 
+  - assemble the document and run it with 4o, Claude 3.7, DeepSeek
+  - how many times a namespace was involved in an issue(both namespace error/wrong entity)
+  - what is the count of unique errors
+  - take note of time per model

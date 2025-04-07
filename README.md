@@ -14,8 +14,9 @@ A Python package to generate BEL statements and CX2 networks from scientific tex
   - [CX2 Network Generation](#cx2-network-generation)
   - [Uploading to NDEx](#uploading-to-ndex)
 - [Usage](#usage)
-  - [Command Line](#command-line)
-  - [Interactive Python](#interactive-python)
+  - [Network Naming and Metadata](#network-naming-and-metadata)
+  - [Command Line Examples](#command-line-examples)
+  - [Interactive Python Examples](#interactive-python-examples)
 - [Expected Output](#expected-output)
 - [Notes](#notes)
 
@@ -110,10 +111,33 @@ The package supports processing multiple documents in one run and requires an Op
 - **ndex_password (optional)**: NDEx account password for authentication.
 - **upload_to_ndex (flag)**: If set, uploads the generated networks to NDEx.
 - **style_path (optional)**: Path to a Cytoscape style JSON file; defaults to the file in the `data` directory.
+- **custom_name (optional)**: Custom name for the network; defaults to the timestamp.
+- **pmid_for_file (optional)**: In this case, the tool fetches metadata for the provided PMID/PMCID and this is used to set the network name.
 
-### Command Line
+### Network Naming and Metadata
+
+When processing a file, there are three options for naming the generated network:
+
+1. Automatic Naming (Default): If you provide no custom name or PMID/PMCID, the network name defaults to a timestamp (e.g., 20250304_1537).
+
+2. Custom Network Name: Provide a custom network name using the --custom_name parameter. The network will use that exact name.
+
+3. Metadata-Based Naming: If you supply a PMID or PMCID via the --pmid_for_file parameter, the package will:
+
+- Fetch metadata (title, abstract, and authors) from E-Utilities.
+- Set the network name to the format:
+- FirstAuthorLastName et al.: PMID_Number
+  For example, if the first author is "Wen‐Cheng Lu" and the PMID is 35080342, the network name will be:
+  Lu et al.: 35080342
+- Set additional network attributes:
+  - description: Combining the paper's title and abstract.
+  - reference: Displayed as PMID: 35080342 (with "PMID: " prefixed).
+**Note**: When processing a PMC article (using a PMC ID input), the package automatically fetches metadata from E-Utilities. In this case, you do not need to provide the --pmid_for_file parameter because the metadata-based naming is handled internally.
+
+### Command Line Examples
 
 ```bash
+**Example A: Processing a PMC Article (PMCID_Input)**
 python -m textToKnowledgeGraph.main \
   --api_key YOUR_OPENAI_API_KEY \
   --pmc_ids PMC123456 PMC234567 \
@@ -124,7 +148,7 @@ python -m textToKnowledgeGraph.main \
   --upload_to_ndex
 ```
 
-### Interactive Python
+### Interactive Python Examples
 
 ```python
 from textToKnowledgeGraph import main

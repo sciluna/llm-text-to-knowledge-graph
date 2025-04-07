@@ -1,0 +1,3178 @@
+{
+  "entries": [
+    {
+      "Index": "0",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "act(p(HGNC:MTOR)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:MTOR",
+          "namespace": "HGNC",
+          "identifier": "MTOR"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "act(p(FPLX:p38)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "FPLX:p38",
+          "namespace": "FPLX",
+          "identifier": "p38"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "act(p(HGNC:MAP2K1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:MAP2K1",
+          "namespace": "HGNC",
+          "identifier": "MAP2K1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "act(p(HGNC:DYRK2)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:DYRK2",
+          "namespace": "HGNC",
+          "identifier": "DYRK2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 142))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 230))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 527))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 142)) increases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230)) increases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "0",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 527)) increases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:AKT1, pmod(Ph, T, 142)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:AKT1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "AKT1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:AKT1, pmod(Ph, S, 230)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:AKT1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "AKT1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:AKT1, pmod(Ph, T, 527)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:AKT1, pmod(Ph, T, 527",
+          "namespace": "HGNC",
+          "identifier": "AKT1, pmod(Ph, T, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:AKT1, pmod(Ph, S, 326)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:AKT1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "AKT1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 142)) increases complex(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9), p(HGNC:GTF2B))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9), p(HGNC:GTF2B))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 527)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9), p(HGNC:GTF2B))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "3",
+      "bel_statement": "a(EFO:0004420) association path(MESH:D009369)",
+      "correct_terms": [
+        {
+          "term": "EFO:0004420",
+          "namespace": "EFO",
+          "identifier": "0004420"
+        },
+        {
+          "term": "MESH:D009369",
+          "namespace": "MESH",
+          "identifier": "D009369"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "4",
+      "bel_statement": "bp(GO:GO:0009408) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "GO:GO:0009408",
+          "namespace": "GO",
+          "identifier": "GO:0009408",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "4",
+      "bel_statement": "act(p(HGNC:HSF1)) increases bp(GO:GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "GO:GO:2000144",
+          "namespace": "GO",
+          "identifier": "GO:2000144",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "4",
+      "bel_statement": "act(p(HGNC:HSF1)) increases a(MESH:D018832)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "MESH:D018832",
+          "namespace": "MESH",
+          "identifier": "D018832"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "act(p(HGNC:HSF1)) increases path(MESH:D009369)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "MESH:D009369",
+          "namespace": "MESH",
+          "identifier": "D009369"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "act(p(HGNC:HSF1)) decreases path(MESH:D019636)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "MESH:D019636",
+          "namespace": "MESH",
+          "identifier": "D019636"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "act(p(HGNC:HSF1)) increases bp(GO:0007269)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "GO:0007269",
+          "namespace": "GO",
+          "identifier": "0007269"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "act(p(HGNC:HSF1)) increases bp(GO:0045202)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "GO:0045202",
+          "namespace": "GO",
+          "identifier": "0045202"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases bp(GO:0006351)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:0006351",
+          "namespace": "GO",
+          "identifier": "0006351"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(HGNC:MAP2K1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:MAP2K1",
+          "namespace": "HGNC",
+          "identifier": "MAP2K1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(HGNC:DYRK2) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:DYRK2",
+          "namespace": "HGNC",
+          "identifier": "DYRK2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(HGNC:MTOR) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:MTOR",
+          "namespace": "HGNC",
+          "identifier": "MTOR"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "6",
+      "bel_statement": "p(FPLX:p38) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "FPLX:p38",
+          "namespace": "FPLX",
+          "identifier": "p38"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "7",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "7",
+      "bel_statement": "p(HGNC:AKT2) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT2",
+          "namespace": "HGNC",
+          "identifier": "AKT2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "7",
+      "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "8",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "8",
+      "bel_statement": "p(HGNC:AKT2) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT2",
+          "namespace": "HGNC",
+          "identifier": "AKT2"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "8",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "8",
+      "bel_statement": "p(HGNC:AKT2) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT2",
+          "namespace": "HGNC",
+          "identifier": "AKT2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "8",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:0003677)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:0003677",
+          "namespace": "GO",
+          "identifier": "0003677"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "8",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "9",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Ser, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Ser, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "9",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "10",
+      "bel_statement": "p(HGNC:AKT1) increases complex(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "10",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:0003677)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:0003677",
+          "namespace": "GO",
+          "identifier": "0003677"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "12",
+      "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "12",
+      "bel_statement": "act(p(HGNC:AKT1)) increases bp(GO:0009408)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:0009408",
+          "namespace": "GO",
+          "identifier": "0009408"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "12",
+      "bel_statement": "act(p(HGNC:AKT1)) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "12",
+      "bel_statement": "act(p(HGNC:AKT1)) increases a(FPLX:HSPA)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "FPLX:HSPA",
+          "namespace": "FPLX",
+          "identifier": "HSPA"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "13",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "13",
+      "bel_statement": "bp(GO:GO:0009408) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "GO:GO:0009408",
+          "namespace": "GO",
+          "identifier": "GO:0009408",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "14",
+      "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:AKT2) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT2",
+          "namespace": "HGNC",
+          "identifier": "AKT2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "15",
+      "bel_statement": "complex(FPLX:mTORC1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "FPLX:mTORC1",
+          "namespace": "FPLX",
+          "identifier": "mTORC1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:MAP2K1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:MAP2K1",
+          "namespace": "HGNC",
+          "identifier": "MAP2K1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(FPLX:p38) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "FPLX:p38",
+          "namespace": "FPLX",
+          "identifier": "p38"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:DYRK2) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:DYRK2",
+          "namespace": "HGNC",
+          "identifier": "DYRK2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:\"transcription, DNA-templated\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "GO:transcription, DNA-templated",
+          "namespace": "GO",
+          "identifier": "transcription, DNA-templated",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:\"response to heat\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:response to heat",
+          "namespace": "GO",
+          "identifier": "response to heat"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:MTOR) increases bp(GO:\"response to heat\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:MTOR",
+          "namespace": "HGNC",
+          "identifier": "MTOR"
+        },
+        {
+          "term": "GO:response to heat",
+          "namespace": "GO",
+          "identifier": "response to heat"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "15",
+      "bel_statement": "p(HGNC:DYRK2) increases bp(GO:\"response to heat\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:DYRK2",
+          "namespace": "HGNC",
+          "identifier": "DYRK2"
+        },
+        {
+          "term": "GO:response to heat",
+          "namespace": "GO",
+          "identifier": "response to heat"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "16",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "act(p(HGNC:AKT1)) positiveCorrelation act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "act(complex(FPLX:mTORC1)) positiveCorrelation act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "FPLX:mTORC1",
+          "namespace": "FPLX",
+          "identifier": "mTORC1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "act(p(HGNC:AKT2)) negativeCorrelation act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT2",
+          "namespace": "HGNC",
+          "identifier": "AKT2"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "18",
+      "bel_statement": "act(p(HGNC:AKT1)) positiveCorrelation act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "18",
+      "bel_statement": "act(p(HGNC:MTOR)) positiveCorrelation act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:MTOR",
+          "namespace": "HGNC",
+          "identifier": "MTOR"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "19",
+      "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "20",
+      "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "20",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 142))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "20",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 230))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "20",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 527))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "20",
+      "bel_statement": "p(HGNC:MAP2K1) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 527))",
+      "correct_terms": [
+        {
+          "term": "HGNC:MAP2K1",
+          "namespace": "HGNC",
+          "identifier": "MAP2K1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "20",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "21",
+      "bel_statement": "act(p(HGNC:AKT1)) increases p(HGNC:HSF1, pmod(Ph))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "21",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph)) increases bp(GO:GO:0009408)",
+      "correct_terms": [],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph",
+          "error": "manufactured entity"
+        },
+        {
+          "term": "GO:GO:0009408",
+          "namespace": "GO",
+          "identifier": "GO:0009408",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.0
+    },
+    {
+      "Index": "22",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 142)) increases complex(p(HGNC:HSF1), p(HGNC:HSF1), p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "23",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "23",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:\"protein trimerization\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "GO:protein trimerization",
+          "namespace": "GO",
+          "identifier": "protein trimerization",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "23",
+      "bel_statement": "p(FPLX:CK2) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+      "correct_terms": [
+        {
+          "term": "FPLX:CK2",
+          "namespace": "FPLX",
+          "identifier": "CK2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "23",
+      "bel_statement": "p(FPLX:CK2) increases bp(GO:\"protein trimerization\")",
+      "correct_terms": [
+        {
+          "term": "FPLX:CK2",
+          "namespace": "FPLX",
+          "identifier": "CK2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "GO:protein trimerization",
+          "namespace": "GO",
+          "identifier": "protein trimerization",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "24",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 142)) increases complex(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "24",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "24",
+      "bel_statement": "complex(FPLX:CK2) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+      "correct_terms": [
+        {
+          "term": "FPLX:CK2",
+          "namespace": "FPLX",
+          "identifier": "CK2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "25",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230), pmod(Ph, S, 326), pmod(Ph, T, 527)) increases a(MESH:Association)",
+      "correct_terms": [
+        {
+          "term": "MESH:Association",
+          "namespace": "MESH",
+          "identifier": "Association"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "26",
+      "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 527))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "26",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 527)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "26",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 527)) increases complex(p(HGNC:HSF1), p(HGNC:GTF2B))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "27",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 527)) increases a(MESH:D001244)",
+      "correct_terms": [
+        {
+          "term": "MESH:D001244",
+          "namespace": "MESH",
+          "identifier": "D001244"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Thr, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Thr, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "27",
+      "bel_statement": "a(MESH:D001244) increases a(MESH:D035165)",
+      "correct_terms": [
+        {
+          "term": "MESH:D001244",
+          "namespace": "MESH",
+          "identifier": "D001244"
+        },
+        {
+          "term": "MESH:D035165",
+          "namespace": "MESH",
+          "identifier": "D035165"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "p(HGNC:HSF1) association p(HGNC:CDK9)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "HGNC:CDK9",
+          "namespace": "HGNC",
+          "identifier": "CDK9"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "p(HGNC:HSF1) association p(HGNC:GTF2B)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "HGNC:GTF2B",
+          "namespace": "HGNC",
+          "identifier": "GTF2B"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "29",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230)) increases a(MESH:D001244)",
+      "correct_terms": [
+        {
+          "term": "MESH:D001244",
+          "namespace": "MESH",
+          "identifier": "D001244"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "29",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases a(MESH:D001244)",
+      "correct_terms": [
+        {
+          "term": "MESH:D001244",
+          "namespace": "MESH",
+          "identifier": "D001244"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "29",
+      "bel_statement": "a(MESH:D001244) increases a(MESH:D035165)",
+      "correct_terms": [
+        {
+          "term": "MESH:D001244",
+          "namespace": "MESH",
+          "identifier": "D001244"
+        },
+        {
+          "term": "MESH:D035165",
+          "namespace": "MESH",
+          "identifier": "D035165"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "31",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, Ser, 326)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, Ser, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, Ser, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "31",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "31",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph)) decreases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "31",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph)) decreases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "32",
+      "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "32",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "32",
+      "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases path(MESH:D010051)",
+      "correct_terms": [
+        {
+          "term": "MESH:D010051",
+          "namespace": "MESH",
+          "identifier": "D010051"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 326",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 326",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "33",
+      "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "33",
+      "bel_statement": "act(p(HGNC:AKT1)) increases act(p(FPLX:mTORC1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "FPLX:mTORC1",
+          "namespace": "FPLX",
+          "identifier": "mTORC1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "33",
+      "bel_statement": "act(p(HGNC:HSF1)) increases act(p(FPLX:mTORC1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "FPLX:mTORC1",
+          "namespace": "FPLX",
+          "identifier": "mTORC1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "33",
+      "bel_statement": "act(p(HGNC:HSF1)) directlyDecreases act(p(FPLX:JNK))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "FPLX:JNK",
+          "namespace": "FPLX",
+          "identifier": "JNK"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "34",
+      "bel_statement": "a(CHEBI:9168) increases p(HGNC:5224)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:9168",
+          "namespace": "CHEBI",
+          "identifier": "9168"
+        },
+        {
+          "term": "HGNC:5224",
+          "namespace": "HGNC",
+          "identifier": "5224"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "34",
+      "bel_statement": "p(HGNC:16712) increases deg(p(HGNC:5224))",
+      "correct_terms": [
+        {
+          "term": "HGNC:16712",
+          "namespace": "HGNC",
+          "identifier": "16712"
+        },
+        {
+          "term": "HGNC:5224",
+          "namespace": "HGNC",
+          "identifier": "5224"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "34",
+      "bel_statement": "a(CHEBI:9168) decreases act(FPLX:ERK)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:9168",
+          "namespace": "CHEBI",
+          "identifier": "9168"
+        },
+        {
+          "term": "FPLX:ERK",
+          "namespace": "FPLX",
+          "identifier": "ERK"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "34",
+      "bel_statement": "p(HGNC:3942) increases p(HGNC:5224)",
+      "correct_terms": [
+        {
+          "term": "HGNC:3942",
+          "namespace": "HGNC",
+          "identifier": "3942"
+        },
+        {
+          "term": "HGNC:5224",
+          "namespace": "HGNC",
+          "identifier": "5224"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, T, 142))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, S, 230))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, T, 527))",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 527",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 527",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:AKT1) increases a(MESH:D001244)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "MESH:D001244",
+          "namespace": "MESH",
+          "identifier": "D001244"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:AKT1) increases a(MESH:D001244)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "MESH:D001244",
+          "namespace": "MESH",
+          "identifier": "D001244"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:AKT1) increases bp(GO:2000144)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "GO:2000144",
+          "namespace": "GO",
+          "identifier": "2000144"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(FPLX:CK2) increases p(HGNC:HSF1, pmod(Ph, T, 142))",
+      "correct_terms": [
+        {
+          "term": "FPLX:CK2",
+          "namespace": "FPLX",
+          "identifier": "CK2"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, T, 142",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, T, 142",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(FPLX:CAMK2_complex) increases p(HGNC:HSF1, pmod(Ph, S, 230))",
+      "correct_terms": [
+        {
+          "term": "FPLX:CAMK2_complex",
+          "namespace": "FPLX",
+          "identifier": "CAMK2_complex"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:HSF1, pmod(Ph, S, 230",
+          "namespace": "HGNC",
+          "identifier": "HSF1, pmod(Ph, S, 230",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "39",
+      "bel_statement": "a(CHEBI:67271) association a(CHEBI:9168)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:67271",
+          "namespace": "CHEBI",
+          "identifier": "67271"
+        },
+        {
+          "term": "CHEBI:9168",
+          "namespace": "CHEBI",
+          "identifier": "9168"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "41",
+      "bel_statement": "p(HGNC:391) increases p(HGNC:392)",
+      "correct_terms": [
+        {
+          "term": "HGNC:391",
+          "namespace": "HGNC",
+          "identifier": "391"
+        },
+        {
+          "term": "HGNC:392",
+          "namespace": "HGNC",
+          "identifier": "392"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "41",
+      "bel_statement": "p(HGNC:392) increases p(HGNC:393)",
+      "correct_terms": [
+        {
+          "term": "HGNC:392",
+          "namespace": "HGNC",
+          "identifier": "392"
+        },
+        {
+          "term": "HGNC:393",
+          "namespace": "HGNC",
+          "identifier": "393"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "41",
+      "bel_statement": "p(HGNC:393) increases p(HGNC:3093)",
+      "correct_terms": [
+        {
+          "term": "HGNC:393",
+          "namespace": "HGNC",
+          "identifier": "393"
+        },
+        {
+          "term": "HGNC:3093",
+          "namespace": "HGNC",
+          "identifier": "3093"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "42",
+      "bel_statement": "a(MESH:\"Luciferases, Firefly\") increases act(a(GO:\"luciferin monooxygenase activity\"))",
+      "correct_terms": [
+        {
+          "term": "MESH:Luciferases, Firefly",
+          "namespace": "MESH",
+          "identifier": "Luciferases, Firefly"
+        },
+        {
+          "term": "GO:luciferin monooxygenase activity",
+          "namespace": "GO",
+          "identifier": "luciferin monooxygenase activity"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "42",
+      "bel_statement": "a(MESH:\"Luciferases, Renilla\") increases act(a(GO:\"luciferin monooxygenase activity\"))",
+      "correct_terms": [
+        {
+          "term": "MESH:Luciferases, Renilla",
+          "namespace": "MESH",
+          "identifier": "Luciferases, Renilla"
+        },
+        {
+          "term": "GO:luciferin monooxygenase activity",
+          "namespace": "GO",
+          "identifier": "luciferin monooxygenase activity"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "43",
+      "bel_statement": "a(MESH:D047468) increases p(HGNC:ATP5IF1)",
+      "correct_terms": [
+        {
+          "term": "MESH:D047468",
+          "namespace": "MESH",
+          "identifier": "D047468"
+        },
+        {
+          "term": "HGNC:ATP5IF1",
+          "namespace": "HGNC",
+          "identifier": "ATP5IF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "44",
+      "bel_statement": "p(HGNC:HSF1) increases p(HGNC:AKT1)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "45",
+      "bel_statement": "a(MESH:D010770) association a(MESH:D013058)",
+      "correct_terms": [
+        {
+          "term": "MESH:D010770",
+          "namespace": "MESH",
+          "identifier": "D010770"
+        },
+        {
+          "term": "MESH:D013058",
+          "namespace": "MESH",
+          "identifier": "D013058"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(HGNC:AKT2) increases p(HGNC:HSF1)",
+      "correct_terms": [
+        {
+          "term": "HGNC:AKT2",
+          "namespace": "HGNC",
+          "identifier": "AKT2"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(FPLX:p38) increases p(HGNC:HSF1)",
+      "correct_terms": [
+        {
+          "term": "FPLX:p38",
+          "namespace": "FPLX",
+          "identifier": "p38"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(HGNC:MTOR) increases p(HGNC:HSF1)",
+      "correct_terms": [
+        {
+          "term": "HGNC:MTOR",
+          "namespace": "HGNC",
+          "identifier": "MTOR"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(FPLX:MEK) increases p(HGNC:HSF1)",
+      "correct_terms": [
+        {
+          "term": "FPLX:MEK",
+          "namespace": "FPLX",
+          "identifier": "MEK"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(HGNC:DYRK2) increases p(HGNC:HSF1)",
+      "correct_terms": [
+        {
+          "term": "HGNC:DYRK2",
+          "namespace": "HGNC",
+          "identifier": "DYRK2"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(FPLX:ERK) increases p(HGNC:HSF1)",
+      "correct_terms": [
+        {
+          "term": "FPLX:ERK",
+          "namespace": "FPLX",
+          "identifier": "ERK"
+        },
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "46",
+      "bel_statement": "p(HGNC:HSF1) hasActivity ma(GO:0043687)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "GO:0043687",
+          "namespace": "GO",
+          "identifier": "0043687"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "47",
+      "bel_statement": "bp(GO:0043687) association a(MESH:D013058)",
+      "correct_terms": [
+        {
+          "term": "GO:0043687",
+          "namespace": "GO",
+          "identifier": "0043687"
+        },
+        {
+          "term": "MESH:D013058",
+          "namespace": "MESH",
+          "identifier": "D013058"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "48",
+      "bel_statement": "complex(p(HGNC:HSF1), p(HGNC:HSF1), p(HGNC:HSF1))",
+      "correct_terms": [],
+      "mismatched_terms": [],
+      "score": 0
+    },
+    {
+      "Index": "49",
+      "bel_statement": "a(CHEBI:30742) increases p(HGNC:5224)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:30742",
+          "namespace": "CHEBI",
+          "identifier": "30742"
+        },
+        {
+          "term": "HGNC:5224",
+          "namespace": "HGNC",
+          "identifier": "5224"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "a(CHEBI:35225) partOf a(MESH:D002850)",
+      "correct_terms": [],
+      "mismatched_terms": [],
+      "score": 0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "a(CHEBI:9754) partOf a(CHEBI:35225)",
+      "correct_terms": [],
+      "mismatched_terms": [],
+      "score": 0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "a(CHEBI:26710) partOf a(CHEBI:35225)",
+      "correct_terms": [],
+      "mismatched_terms": [],
+      "score": 0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "a(CHEBI:78708) partOf a(CHEBI:35225)",
+      "correct_terms": [],
+      "mismatched_terms": [],
+      "score": 0
+    },
+    {
+      "Index": "52",
+      "bel_statement": "p(HGNC:HSF1) increases a(HGNC:KIT)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "HGNC:KIT",
+          "namespace": "HGNC",
+          "identifier": "KIT"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "53",
+      "bel_statement": "a(EFO:0010192) hasComponent g(HGNC:5232)",
+      "correct_terms": [
+        {
+          "term": "EFO:0010192",
+          "namespace": "EFO",
+          "identifier": "0010192"
+        },
+        {
+          "term": "HGNC:5232",
+          "namespace": "HGNC",
+          "identifier": "5232"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "53",
+      "bel_statement": "a(EFO:0010192) hasComponent g(HGNC:5241)",
+      "correct_terms": [
+        {
+          "term": "EFO:0010192",
+          "namespace": "EFO",
+          "identifier": "0010192"
+        },
+        {
+          "term": "HGNC:5241",
+          "namespace": "HGNC",
+          "identifier": "5241"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "53",
+      "bel_statement": "a(EFO:0010192) hasComponent g(HGNC:5261)",
+      "correct_terms": [
+        {
+          "term": "EFO:0010192",
+          "namespace": "EFO",
+          "identifier": "0010192"
+        },
+        {
+          "term": "HGNC:5261",
+          "namespace": "HGNC",
+          "identifier": "5261"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "54",
+      "bel_statement": "a(EFO:0004964) transcribedTo r(CHEBI:33699)",
+      "correct_terms": [
+        {
+          "term": "EFO:0004964",
+          "namespace": "EFO",
+          "identifier": "0004964"
+        },
+        {
+          "term": "CHEBI:33699",
+          "namespace": "CHEBI",
+          "identifier": "33699"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "54",
+      "bel_statement": "r(CHEBI:33699) transcribedTo r(EFO:0008481)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:33699",
+          "namespace": "CHEBI",
+          "identifier": "33699"
+        },
+        {
+          "term": "EFO:0008481",
+          "namespace": "EFO",
+          "identifier": "0008481"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "54",
+      "bel_statement": "bp(GO:0001171) increases r(EFO:0008481)",
+      "correct_terms": [
+        {
+          "term": "GO:0001171",
+          "namespace": "GO",
+          "identifier": "0001171"
+        },
+        {
+          "term": "EFO:0008481",
+          "namespace": "EFO",
+          "identifier": "0008481"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "56",
+      "bel_statement": "p(HGNC:HSF1) increases act(p(HGNC:AKT1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "HGNC:AKT1",
+          "namespace": "HGNC",
+          "identifier": "AKT1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "56",
+      "bel_statement": "p(HGNC:HSF1) increases act(p(HGNC:AKT2))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "HGNC:AKT2",
+          "namespace": "HGNC",
+          "identifier": "AKT2"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "56",
+      "bel_statement": "p(HGNC:HSF1) increases act(p(FPLX:p38))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "FPLX:p38",
+          "namespace": "FPLX",
+          "identifier": "p38"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "56",
+      "bel_statement": "p(HGNC:HSF1) increases act(p(FPLX:mTORC1))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "FPLX:mTORC1",
+          "namespace": "FPLX",
+          "identifier": "mTORC1"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "56",
+      "bel_statement": "p(HGNC:HSF1) increases act(p(FPLX:MEK))",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSF1",
+          "namespace": "HGNC",
+          "identifier": "HSF1"
+        },
+        {
+          "term": "FPLX:MEK",
+          "namespace": "FPLX",
+          "identifier": "MEK"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "56",
+      "bel_statement": "p(HGNC:DYRK2) decreases r(HGNC:DYRK2)",
+      "correct_terms": [
+        {
+          "term": "HGNC:DYRK2",
+          "namespace": "HGNC",
+          "identifier": "DYRK2"
+        },
+        {
+          "term": "HGNC:DYRK2",
+          "namespace": "HGNC",
+          "identifier": "DYRK2"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "63",
+      "bel_statement": "p(HGNC:MYL12A) increases a(MESH:D010770)",
+      "correct_terms": [
+        {
+          "term": "HGNC:MYL12A",
+          "namespace": "HGNC",
+          "identifier": "MYL12A"
+        },
+        {
+          "term": "MESH:D010770",
+          "namespace": "MESH",
+          "identifier": "D010770"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    }
+  ],
+  "overall_score": 0.7710843373493976
+}

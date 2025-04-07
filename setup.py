@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="textToKnowledgeGraph",
-    version="0.2.2",
+    version="0.2.7",
     packages=find_packages(),
     include_package_data=True,
     author="Favour James",

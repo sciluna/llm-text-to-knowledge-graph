@@ -1,0 +1,365 @@
+{
+  "entries": [
+    {
+      "Index": "1",
+      "bel_statement": "a(CHEBI:6801) increases a(CHEBI:59990)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:6801",
+          "namespace": "CHEBI",
+          "identifier": "6801"
+        },
+        {
+          "term": "CHEBI:59990",
+          "namespace": "CHEBI",
+          "identifier": "59990"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "1",
+      "bel_statement": "a(CHEBI:71196) association path(MESH:\"Diabetes Mellitus\")",
+      "correct_terms": [
+        {
+          "term": "CHEBI:71196",
+          "namespace": "CHEBI",
+          "identifier": "71196"
+        },
+        {
+          "term": "MESH:Diabetes Mellitus",
+          "namespace": "MESH",
+          "identifier": "Diabetes Mellitus"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "1",
+      "bel_statement": "a(CHEBI:68612) association path(MESH:\"Diabetes Mellitus\")",
+      "correct_terms": [
+        {
+          "term": "CHEBI:68612",
+          "namespace": "CHEBI",
+          "identifier": "68612"
+        },
+        {
+          "term": "MESH:Diabetes Mellitus",
+          "namespace": "MESH",
+          "identifier": "Diabetes Mellitus"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "1",
+      "bel_statement": "p(HGNC:SLC5A2) association path(MESH:\"Diabetes Mellitus\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC5A2",
+          "namespace": "HGNC",
+          "identifier": "SLC5A2"
+        },
+        {
+          "term": "MESH:Diabetes Mellitus",
+          "namespace": "MESH",
+          "identifier": "Diabetes Mellitus"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "2",
+      "bel_statement": "a(MESH:D000073893) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:D000073893",
+          "namespace": "MESH",
+          "identifier": "D000073893"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "2",
+      "bel_statement": "a(MESH:D000073893) increases path(MESH:D050177)",
+      "correct_terms": [
+        {
+          "term": "MESH:D000073893",
+          "namespace": "MESH",
+          "identifier": "D000073893"
+        },
+        {
+          "term": "MESH:D050177",
+          "namespace": "MESH",
+          "identifier": "D050177"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "2",
+      "bel_statement": "path(MESH:D050177) positiveCorrelation path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:D050177",
+          "namespace": "MESH",
+          "identifier": "D050177"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "2",
+      "bel_statement": "a(MESH:D000073893) increases path(MESH:D006184)",
+      "correct_terms": [
+        {
+          "term": "MESH:D000073893",
+          "namespace": "MESH",
+          "identifier": "D000073893"
+        },
+        {
+          "term": "MESH:D006184",
+          "namespace": "MESH",
+          "identifier": "D006184"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "a(CHEBI:63959) decreases a(CHEBI:25941)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:63959",
+          "namespace": "CHEBI",
+          "identifier": "63959"
+        },
+        {
+          "term": "CHEBI:25941",
+          "namespace": "CHEBI",
+          "identifier": "25941"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "a(CHEBI:63959) decreases p(MESH:D006360)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:63959",
+          "namespace": "CHEBI",
+          "identifier": "63959"
+        },
+        {
+          "term": "MESH:D006360",
+          "namespace": "MESH",
+          "identifier": "D006360"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "a(CHEBI:63959) decreases path(MESH:D001172)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:63959",
+          "namespace": "CHEBI",
+          "identifier": "63959"
+        },
+        {
+          "term": "MESH:D001172",
+          "namespace": "MESH",
+          "identifier": "D001172"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "complex(p(HGNC:ERCC5), complex(p(HGNC:ERCC4), p(HGNC:ERCC1)), p(HGNC:XPA), p(FPLX:RPA), p(HGNC:GTF2H3), p(HGNC:PCNA)) increases bp(MESH:\"Excision Repair\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:ERCC5",
+          "namespace": "HGNC",
+          "identifier": "ERCC5"
+        },
+        {
+          "term": "MESH:Excision Repair",
+          "namespace": "MESH",
+          "identifier": "Excision Repair"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "p(HGNC:PCNA) directlyIncreases complex(p(HGNC:PCNA), p(HGNC:ERCC5))",
+      "correct_terms": [
+        {
+          "term": "HGNC:PCNA",
+          "namespace": "HGNC",
+          "identifier": "PCNA"
+        },
+        {
+          "term": "HGNC:PCNA",
+          "namespace": "HGNC",
+          "identifier": "PCNA"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "p(FPLX:RPA) directlyIncreases complex(p(FPLX:RPA), a(CHEBI:\"single-stranded DNA\"))",
+      "correct_terms": [
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        },
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "p(FPLX:RPA) directlyIncreases complex(p(FPLX:RPA), p(HGNC:ERCC5))",
+      "correct_terms": [
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        },
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "p(FPLX:RPA) directlyIncreases complex(p(FPLX:RPA), complex(p(HGNC:ERCC4), p(HGNC:ERCC1)))",
+      "correct_terms": [
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        },
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "p(FPLX:RPA) directlyIncreases complex(p(FPLX:RPA), p(HGNC:XPA))",
+      "correct_terms": [
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        },
+        {
+          "term": "FPLX:RPA",
+          "namespace": "FPLX",
+          "identifier": "RPA"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "complex(p(HGNC:XPC), p(HGNC:RAD23B)) directlyDecreases complex(p(HGNC:ERCC5))",
+      "correct_terms": [
+        {
+          "term": "HGNC:XPC",
+          "namespace": "HGNC",
+          "identifier": "XPC"
+        },
+        {
+          "term": "HGNC:ERCC5",
+          "namespace": "HGNC",
+          "identifier": "ERCC5"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "8",
+      "bel_statement": "path(EFO:\"basal-like breast carcinoma\") negativeCorrelation path(MESH:\"Breast Neoplasms\")",
+      "correct_terms": [
+        {
+          "term": "EFO:basal-like breast carcinoma",
+          "namespace": "EFO",
+          "identifier": "basal-like breast carcinoma"
+        },
+        {
+          "term": "MESH:Breast Neoplasms",
+          "namespace": "MESH",
+          "identifier": "Breast Neoplasms"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "8",
+      "bel_statement": "path(MESH:\"Triple Negative Breast Neoplasms\") negativeCorrelation a(MESH:Survival)",
+      "correct_terms": [
+        {
+          "term": "MESH:Triple Negative Breast Neoplasms",
+          "namespace": "MESH",
+          "identifier": "Triple Negative Breast Neoplasms"
+        },
+        {
+          "term": "MESH:Survival",
+          "namespace": "MESH",
+          "identifier": "Survival"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    }
+  ],
+  "overall_score": 1.0
+}

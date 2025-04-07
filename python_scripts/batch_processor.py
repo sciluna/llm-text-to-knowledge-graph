@@ -2,10 +2,12 @@ import os
 import argparse
 import logging
 import sys
+import time
 from bel_main import process_document
 
 
 def main():
+    start_time = time.time()
     script_dir = os.path.dirname(os.path.abspath(__file__))  # path to batch_processor.py
     repo_dir = os.path.abspath(os.path.join(script_dir, os.pardir))  # move one level up
     default_style_path = os.path.join(repo_dir, 'data', 'cx_style.json')
@@ -39,6 +41,18 @@ def main():
         action="store_true",
         help="Flag to upload the generated CX2 network to NDEx"
     )
+    parser.add_argument(
+        "--custom_name",
+        type=str,
+        default=None,
+        help="Custom network name for file inputs; if provided, this name will be used."
+    )
+    parser.add_argument(
+        "--pmid_for_file",
+        type=str,
+        default=None,
+        help="PMID/PMCID for file input to fetch metadata and set network properties."
+    )
 
     args = parser.parse_args()
 
@@ -67,15 +81,20 @@ def main():
     for file_path in args.file_paths:
         logging.info(f"Starting processing for file: {file_path}")
         success = process_document(
-            pdf_path=file_path,  # If it's a TXT, process_document handles that as well.
+            pdf_path=file_path,  # process_document will treat it as a file input
             ndex_email=args.ndex_email,
             ndex_password=args.ndex_password,
             style_path=args.style_path,
-            upload_to_ndex=args.upload_to_ndex
+            upload_to_ndex=args.upload_to_ndex,
+            custom_name=args.custom_name,
+            pmid_for_file=args.pmid_for_file
         )
         if not success:
             logging.error(f"Processing failed for file: {file_path}")
             overall_success = False
+
+    elapsed_time = time.time() - start_time
+    logging.info(f"Total elapsed time: {elapsed_time:.2f} seconds")
 
     if not overall_success:
         logging.error("One or more documents failed to process.")

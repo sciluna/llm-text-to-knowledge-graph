@@ -12,7 +12,7 @@ Extract knowledge graph relationships as assertions in BEL format from a paragra
 Instructions:
 1. ONLY extract straightforward relationships between (1) molecular entities, (2) molecular entities and phenotypes, or (2) molecular entities and chemicals
 2. IGNORE other relationships. IGNORE general statements about disease, the biological context, and other non-molecular relationships.
-3. ONLY use the entities in the provided map of entities to official identifiers. Skip relationships that cannot be expressed using these entities.
+3. ONLY use the entities in the provided map of entities to official identifiers. Skip relationships that cannot be expressed using these entities. Always refer to the entities in the form prefix:entry_name from the annotation list.
 4. Skip sentences that do not contain relationships. 
 5. It is OK to decide not to extract a BEL statement if you are not confident in the relationship. 
 6. Do not duplicate any interaction that has already been extracted.
@@ -185,13 +185,21 @@ Output Instructions:
 For each sentence provided, extract the relevant interactions and return them directly in BEL format along with the exact sentence from which the interactions were extracted. 
 Do not include any other metadata or explanations, only the BEL interaction statements and the sentence.
 
-Output Format:
-
-"Results": [
-    [   "bel_statement": "<bel statement>",
-        "evidence":  "<evidence sentence>"
+Output Format: Format your entire response in valid JSON without any markdown code fences. 
+Return exactly:
+[
+  "interactions": [
+    [
+      "bel_statement": "<bel statement>",
+      "evidence": "<evidence sentence>"
     ],
     ...
+  ]
 ]
 
+No additional commentary or text outside the JSON object.
+If no results exist, return:
+[
+  "interactions": []
+]
 """

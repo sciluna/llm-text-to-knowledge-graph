@@ -1,0 +1,7244 @@
+[
+  {
+    "Index": "0",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2."
+      },
+      {
+        "bel_statement": "act(p(HGNC:MTOR)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2."
+      },
+      {
+        "bel_statement": "act(p(FPLX:p38)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2."
+      },
+      {
+        "bel_statement": "act(p(HGNC:MAP2K1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2."
+      },
+      {
+        "bel_statement": "act(p(HGNC:DYRK2)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 142))",
+        "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 230))",
+        "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 527))",
+        "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 142)) increases bp(GO:2000144)",
+        "evidence": "Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230)) increases bp(GO:2000144)",
+        "evidence": "Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases bp(GO:2000144)",
+        "evidence": "Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 527)) increases bp(GO:2000144)",
+        "evidence": "Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D018869",
+        "entry_name": "Heat-Shock Response"
+      },
+      {
+        "db": "MESH",
+        "id": "D014157",
+        "entry_name": "Transcription Factors"
+      },
+      {
+        "db": "MESH",
+        "id": "D012769",
+        "entry_name": "Shock"
+      },
+      {
+        "db": "FPLX",
+        "id": "Fibrinogen",
+        "entry_name": "Fibrinogen"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D006360",
+        "entry_name": "Heat-Shock Proteins"
+      },
+      {
+        "db": "MESH",
+        "id": "D020543",
+        "entry_name": "Proteome"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0003677",
+        "entry_name": "DNA binding"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:195251",
+        "entry_name": "activator"
+      },
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "18270",
+        "entry_name": "HHAT"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "1",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1, pmod(Ph, T, 142)) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 phosphorylated T142, S230 and T527 in addition to S326 and phosphorylation at these sites enhanced HSF1 transcriptional activity."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1, pmod(Ph, S, 230)) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 phosphorylated T142, S230 and T527 in addition to S326 and phosphorylation at these sites enhanced HSF1 transcriptional activity."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1, pmod(Ph, T, 527)) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 phosphorylated T142, S230 and T527 in addition to S326 and phosphorylation at these sites enhanced HSF1 transcriptional activity."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1, pmod(Ph, S, 326)) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 phosphorylated T142, S230 and T527 in addition to S326 and phosphorylation at these sites enhanced HSF1 transcriptional activity."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 142)) increases complex(p(HGNC:HSF1))",
+        "evidence": "T142 phosphorylation was necessary for HSF1 trimerization."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9), p(HGNC:GTF2B))",
+        "evidence": "S230, S326 and T527 were necessary for HSF1 to interact with general transcription factor components CDK9 (pTEF-b) and TFIIB."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9), p(HGNC:GTF2B))",
+        "evidence": "S230, S326 and T527 were necessary for HSF1 to interact with general transcription factor components CDK9 (pTEF-b) and TFIIB."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 527)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9), p(HGNC:GTF2B))",
+        "evidence": "S230, S326 and T527 were necessary for HSF1 to interact with general transcription factor components CDK9 (pTEF-b) and TFIIB."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D012769",
+        "entry_name": "Shock"
+      },
+      {
+        "db": "FPLX",
+        "id": "Fibrinogen",
+        "entry_name": "Fibrinogen"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D018869",
+        "entry_name": "Heat-Shock Response"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D014157",
+        "entry_name": "Transcription Factors"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "MESH",
+        "id": "D042925",
+        "entry_name": "Positive Transcriptional Elongation Factor B"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      }
+    ]
+  },
+  {
+    "Index": "2",
+    "Results": [],
+    "annotations": []
+  },
+  {
+    "Index": "3",
+    "Results": [
+      {
+        "bel_statement": "a(EFO:0004420) association path(MESH:D009369)",
+        "evidence": "the cancer genome atlas"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "EFO",
+        "id": "0004420",
+        "entry_name": "genome"
+      },
+      {
+        "db": "MESH",
+        "id": "D020466",
+        "entry_name": "Atlas"
+      }
+    ]
+  },
+  {
+    "Index": "4",
+    "Results": [
+      {
+        "bel_statement": "bp(GO:GO:0009408) increases act(p(HGNC:HSF1))",
+        "evidence": "With the onset of heat stress, this complex dissociates and the HSF1 protein undergoes nuclear localization, trimerization and phosphorylation leading to DNA binding at heat shock elements (HSEs) and gene transactivation."
+      },
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) increases bp(GO:GO:2000144)",
+        "evidence": "With the onset of heat stress, this complex dissociates and the HSF1 protein undergoes nuclear localization, trimerization and phosphorylation leading to DNA binding at heat shock elements (HSEs) and gene transactivation."
+      },
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) increases a(MESH:D018832)",
+        "evidence": "HSF1 target genes in response to heat stress include a large panel of chaperone proteins that safeguard the proteome from heat-induced denaturation."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "GO",
+        "id": "GO:0034605",
+        "entry_name": "cellular response to heat"
+      },
+      {
+        "db": "MESH",
+        "id": "D012769",
+        "entry_name": "Shock"
+      },
+      {
+        "db": "FPLX",
+        "id": "Fibrinogen",
+        "entry_name": "Fibrinogen"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D018869",
+        "entry_name": "Heat-Shock Response"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0005737",
+        "entry_name": "cytoplasm"
+      },
+      {
+        "db": "MESH",
+        "id": "D018832",
+        "entry_name": "Molecular Chaperones"
+      },
+      {
+        "db": "MESH",
+        "id": "D017668",
+        "entry_name": "Age of Onset"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0003677",
+        "entry_name": "DNA binding"
+      },
+      {
+        "db": "MESH",
+        "id": "D012769",
+        "entry_name": "Shock"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33250",
+        "entry_name": "atom"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "6511",
+        "entry_name": "LARGE1"
+      },
+      {
+        "db": "MESH",
+        "id": "D020543",
+        "entry_name": "Proteome"
+      }
+    ]
+  },
+  {
+    "Index": "5",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) increases path(MESH:D009369)",
+        "evidence": "Elevated HSF1 activity in multiple cancer types is a frequent occurrence."
+      },
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) decreases path(MESH:D019636)",
+        "evidence": "Conversely, loss of HSF1 is associated with neurodegenerative diseases, such as Huntington's and Alzheimer's diseases among others."
+      },
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) increases bp(GO:0007269)",
+        "evidence": "HSF1 activity is impaired with ageing but is critical for neuronal protein folding, neurotransmitter release, synapse formation, energy metabolism and neuronal survival."
+      },
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) increases bp(GO:0045202)",
+        "evidence": "HSF1 activity is impaired with ageing but is critical for neuronal protein folding, neurotransmitter release, synapse formation, energy metabolism and neuronal survival."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D004194",
+        "entry_name": "Disease"
+      },
+      {
+        "db": "MESH",
+        "id": "D010641",
+        "entry_name": "Phenotype"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "HP",
+        "id": "HP:0040282",
+        "entry_name": "Frequent"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D019636",
+        "entry_name": "Neurodegenerative Diseases"
+      },
+      {
+        "db": "MESH",
+        "id": "D000544",
+        "entry_name": "Alzheimer Disease"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0007269",
+        "entry_name": "neurotransmitter secretion"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0045202",
+        "entry_name": "synapse"
+      },
+      {
+        "db": "MESH",
+        "id": "D004734",
+        "entry_name": "Energy Metabolism"
+      },
+      {
+        "db": "MESH",
+        "id": "D013534",
+        "entry_name": "Survival"
+      }
+    ]
+  },
+  {
+    "Index": "6",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Our results indicate that AKT1 activates HSF1 most potently due to the unique ability of AKT1 to phosphorylate three additional residues beyond S326 that all contribute to different steps in the process of HSF1-driven transcription, including trimerization and gene transactivation."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases bp(GO:0006351)",
+        "evidence": "Our results indicate that AKT1 activates HSF1 most potently due to the unique ability of AKT1 to phosphorylate three additional residues beyond S326 that all contribute to different steps in the process of HSF1-driven transcription, including trimerization and gene transactivation."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases bp(GO:2000144)",
+        "evidence": "Our results indicate that AKT1 activates HSF1 most potently due to the unique ability of AKT1 to phosphorylate three additional residues beyond S326 that all contribute to different steps in the process of HSF1-driven transcription, including trimerization and gene transactivation."
+      },
+      {
+        "bel_statement": "p(HGNC:MAP2K1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Since the initial observation that S326 phosphorylation affects heat stress-induced HSF1 activity, five kinases have been observed to phosphorylate S326, including mTORC1, MEK1, p38, DYRK2 and AKT1, which our work previously identified can phosphorylate S326 in breast cancer."
+      },
+      {
+        "bel_statement": "p(HGNC:DYRK2) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Since the initial observation that S326 phosphorylation affects heat stress-induced HSF1 activity, five kinases have been observed to phosphorylate S326, including mTORC1, MEK1, p38, DYRK2 and AKT1, which our work previously identified can phosphorylate S326 in breast cancer."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Since the initial observation that S326 phosphorylation affects heat stress-induced HSF1 activity, five kinases have been observed to phosphorylate S326, including mTORC1, MEK1, p38, DYRK2 and AKT1, which our work previously identified can phosphorylate S326 in breast cancer."
+      },
+      {
+        "bel_statement": "p(HGNC:MTOR) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Since the initial observation that S326 phosphorylation affects heat stress-induced HSF1 activity, five kinases have been observed to phosphorylate S326, including mTORC1, MEK1, p38, DYRK2 and AKT1, which our work previously identified can phosphorylate S326 in breast cancer."
+      },
+      {
+        "bel_statement": "p(FPLX:p38) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Since the initial observation that S326 phosphorylation affects heat stress-induced HSF1 activity, five kinases have been observed to phosphorylate S326, including mTORC1, MEK1, p38, DYRK2 and AKT1, which our work previously identified can phosphorylate S326 in breast cancer."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0005634",
+        "entry_name": "nucleus"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D019370",
+        "entry_name": "Observation"
+      },
+      {
+        "db": "MESH",
+        "id": "D000339",
+        "entry_name": "Affect"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D014937",
+        "entry_name": "Work"
+      },
+      {
+        "db": "MESH",
+        "id": "D001943",
+        "entry_name": "Breast Neoplasms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:133232",
+        "entry_name": "imazamox-ammonium"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0006351",
+        "entry_name": "DNA-templated transcription"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      }
+    ]
+  },
+  {
+    "Index": "7",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "AKT1 and AKT2 phosphorylate HSF1 at S326 but only AKT1 activates HSF1"
+      },
+      {
+        "bel_statement": "p(HGNC:AKT2) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "AKT1 and AKT2 phosphorylate HSF1 at S326 but only AKT1 activates HSF1"
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 and AKT2 phosphorylate HSF1 at S326 but only AKT1 activates HSF1"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "8",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+        "evidence": "Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT2) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT2) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:0003677)",
+        "evidence": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:2000144)",
+        "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D020033",
+        "entry_name": "Protein Isoforms"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D012769",
+        "entry_name": "Shock"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33250",
+        "entry_name": "atom"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "MESH",
+        "id": "D020033",
+        "entry_name": "Protein Isoforms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0009629",
+        "entry_name": "event"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "MESH",
+        "id": "D020033",
+        "entry_name": "Protein Isoforms"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "HGNC",
+        "id": "6647",
+        "entry_name": "LMOD1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:195251",
+        "entry_name": "activator"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D000094403",
+        "entry_name": "Proteotoxic Stress"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "MESH",
+        "id": "D020033",
+        "entry_name": "Protein Isoforms"
+      },
+      {
+        "db": "HP",
+        "id": "HP:0032320",
+        "entry_name": "Affected"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0003677",
+        "entry_name": "DNA binding"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:74526",
+        "entry_name": "sec-butylamine"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:74526",
+        "entry_name": "sec-butylamine"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5232",
+        "entry_name": "HSPA1A"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSPA",
+        "entry_name": "HSPA"
+      },
+      {
+        "db": "HGNC",
+        "id": "5241",
+        "entry_name": "HSPA8"
+      },
+      {
+        "db": "HGNC",
+        "id": "5241",
+        "entry_name": "HSPA8"
+      },
+      {
+        "db": "HGNC",
+        "id": "5261",
+        "entry_name": "HSPD1"
+      },
+      {
+        "db": "HGNC",
+        "id": "29526",
+        "entry_name": "HSPA14"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0003677",
+        "entry_name": "DNA binding"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSPA",
+        "entry_name": "HSPA"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSP90",
+        "entry_name": "HSP90"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSPA",
+        "entry_name": "HSPA"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSPA",
+        "entry_name": "HSPA"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D020033",
+        "entry_name": "Protein Isoforms"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D006207",
+        "entry_name": "Half-Life"
+      },
+      {
+        "db": "EFO",
+        "id": "0002078",
+        "entry_name": "S1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "MESH",
+        "id": "D020033",
+        "entry_name": "Protein Isoforms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      }
+    ]
+  },
+  {
+    "Index": "9",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+        "evidence": "AKT1 Phosphorylates HSF1 on S326 and induces HSF1 activity independent of mTORC1."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 Phosphorylates HSF1 on S326 and induces HSF1 activity independent of mTORC1."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "232",
+        "entry_name": "ADCY1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D011994",
+        "entry_name": "Recombinant Proteins"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:15422",
+        "entry_name": "ATP"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "MESH",
+        "id": "D048888",
+        "entry_name": "Fireflies"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "10",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases complex(p(HGNC:HSF1))",
+        "evidence": "AKT1 promotes HSF1 trimerization and DNA binding."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:0003677)",
+        "evidence": "AKT1 promotes HSF1 trimerization and DNA binding."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0003677",
+        "entry_name": "DNA binding"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "MESH",
+        "id": "D020033",
+        "entry_name": "Protein Isoforms"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16842",
+        "entry_name": "formaldehyde"
+      },
+      {
+        "db": "HGNC",
+        "id": "11427",
+        "entry_name": "STUB1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0071735",
+        "entry_name": "IgG immunoglobulin complex"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "11427",
+        "entry_name": "STUB1"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "EFO",
+        "id": "0004964",
+        "entry_name": "total RNA"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "11",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 is required for full activation of HSF1 in response to heat stress"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "26808",
+        "entry_name": "DYNAP"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      }
+    ]
+  },
+  {
+    "Index": "12",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+        "evidence": "Our previous work indicated that HSF1 can be activated by AKT1 via phosphorylation at S326 in breast cancer cells."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases bp(GO:0009408)",
+        "evidence": "To assess whether AKT signalling is crucial for heat-induced activity of HSF1, cells were subjected to heat stress in the presence or absence of the pan-AKT inhibitor MK-2206. Results indicated that blocking AKT activity suppressed HSF1 activity in response to heat stress (Fig. 3A)."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Heat stress was also observed to induce HSF1 phosphorylation and knockdown of AKT1 significantly reduced HSF1 phosphorylation in response to heat (Fig. 3B)."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases a(FPLX:HSPA)",
+        "evidence": "In accordance with the phosphorylation results, loss of AKT1 significantly reduced levels of HSP70, a direct HSF1 gene target, in response to heat but loss of AKT2 had no significant effect (Fig. 3D)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:34922",
+        "entry_name": "picloram"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "MESH",
+        "id": "D001415",
+        "entry_name": "Back"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:34922",
+        "entry_name": "picloram"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D014937",
+        "entry_name": "Work"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001943",
+        "entry_name": "Breast Neoplasms"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0023052",
+        "entry_name": "signaling"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:67271",
+        "entry_name": "MK-2206"
+      },
+      {
+        "db": "FPLX",
+        "id": "AKT",
+        "entry_name": "AKT"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "MESH",
+        "id": "D000339",
+        "entry_name": "Affect"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "EFO",
+        "id": "0007689",
+        "entry_name": "3C"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0007689",
+        "entry_name": "3C"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSPA",
+        "entry_name": "HSPA"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:84801",
+        "entry_name": "EC 2.7.1.127 (inositol-trisphosphate 3-kinase) inhibitor"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:34922",
+        "entry_name": "picloram"
+      },
+      {
+        "db": "MESH",
+        "id": "D018869",
+        "entry_name": "Heat-Shock Response"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      }
+    ]
+  },
+  {
+    "Index": "13",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 is required for full HSF1 activation in response to heat stress."
+      },
+      {
+        "bel_statement": "bp(GO:GO:0009408) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 is required for full HSF1 activation in response to heat stress."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "26808",
+        "entry_name": "DYNAP"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:67271",
+        "entry_name": "MK-2206"
+      },
+      {
+        "db": "MESH",
+        "id": "D001528",
+        "entry_name": "Behcet Syndrome"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "17941",
+        "entry_name": "NTM"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "14",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 is a more potent activator of HSF1 than other known activator kinases"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:195251",
+        "entry_name": "activator"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:195251",
+        "entry_name": "activator"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      }
+    ]
+  },
+  {
+    "Index": "15",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Our above results indicated that both AKT1 and AKT2 can phosphorylate HSF1 at S326, but AKT1 is capable of promoting a substantially higher transcriptional activity of HSF1 (Fig. 1, 2)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT2) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "Our above results indicated that both AKT1 and AKT2 can phosphorylate HSF1 at S326, but AKT1 is capable of promoting a substantially higher transcriptional activity of HSF1 (Fig. 1, 2)."
+      },
+      {
+        "bel_statement": "complex(FPLX:mTORC1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "To test the importance of S326 phosphorylation, the four other kinases mTORC1, MEK1, p38 and DYRK2 that have previously been shown to phosphorylate HSF1 at S326 were also tested using an in vitro kinase assay."
+      },
+      {
+        "bel_statement": "p(HGNC:MAP2K1) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "To test the importance of S326 phosphorylation, the four other kinases mTORC1, MEK1, p38 and DYRK2 that have previously been shown to phosphorylate HSF1 at S326 were also tested using an in vitro kinase assay."
+      },
+      {
+        "bel_statement": "p(FPLX:p38) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "To test the importance of S326 phosphorylation, the four other kinases mTORC1, MEK1, p38 and DYRK2 that have previously been shown to phosphorylate HSF1 at S326 were also tested using an in vitro kinase assay."
+      },
+      {
+        "bel_statement": "p(HGNC:DYRK2) increases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "To test the importance of S326 phosphorylation, the four other kinases mTORC1, MEK1, p38 and DYRK2 that have previously been shown to phosphorylate HSF1 at S326 were also tested using an in vitro kinase assay."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:\"transcription, DNA-templated\")",
+        "evidence": "Importantly, all of the kinases tested significantly increased HSF1 transcriptional activity in this assay but HSF1 activity in response to AKT1 was significantly higher than all of the other kinases (Fig. 4C)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:\"response to heat\")",
+        "evidence": "Figure 4D indicates that knockdown of AKT1, mTOR and DYRK2 is the only kinases to significantly reduce the heat stress-induced HSF1 activity (comparison of +HS results for these genes to +HS for siCTL)."
+      },
+      {
+        "bel_statement": "p(HGNC:MTOR) increases bp(GO:\"response to heat\")",
+        "evidence": "Figure 4D indicates that knockdown of AKT1, mTOR and DYRK2 is the only kinases to significantly reduce the heat stress-induced HSF1 activity (comparison of +HS results for these genes to +HS for siCTL)."
+      },
+      {
+        "bel_statement": "p(HGNC:DYRK2) increases bp(GO:\"response to heat\")",
+        "evidence": "Figure 4D indicates that knockdown of AKT1, mTOR and DYRK2 is the only kinases to significantly reduce the heat stress-induced HSF1 activity (comparison of +HS results for these genes to +HS for siCTL)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0007690",
+        "entry_name": "4C"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "EFO",
+        "id": "0007690",
+        "entry_name": "4C"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "EFO",
+        "id": "0007690",
+        "entry_name": "4C"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "16",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 induced HSF1 activity stronger than other known activating kinases despite similar induction of S326 phosphorylation."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D011994",
+        "entry_name": "Recombinant Proteins"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:15422",
+        "entry_name": "ATP"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D003720",
+        "entry_name": "Densitometry"
+      },
+      {
+        "db": "HGNC",
+        "id": "4141",
+        "entry_name": "GAPDH"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6875",
+        "entry_name": "MAPK13"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "3311",
+        "entry_name": "SERPINB1"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "EFO",
+        "id": "0004964",
+        "entry_name": "total RNA"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "17",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) positiveCorrelation act(p(HGNC:HSF1))",
+        "evidence": "Results indicated that signatures for AKT1 and mTORC1 were significantly enriched in high HSF1 activity tumours (Fig. 5A-B), suggesting a strong correlation between the activity of these kinases and HSF1 activity."
+      },
+      {
+        "bel_statement": "act(complex(FPLX:mTORC1)) positiveCorrelation act(p(HGNC:HSF1))",
+        "evidence": "Results indicated that signatures for AKT1 and mTORC1 were significantly enriched in high HSF1 activity tumours (Fig. 5A-B), suggesting a strong correlation between the activity of these kinases and HSF1 activity."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT2)) negativeCorrelation act(p(HGNC:HSF1))",
+        "evidence": "The signature for AKT2 was significantly enriched in the low HSF1 activity group in the COADREAD patients and borderline significant in the BRCA patients, suggesting a possible weak negative correlation between activity of AKT2 and HSF1 (Fig. 5C)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001943",
+        "entry_name": "Breast Neoplasms"
+      },
+      {
+        "db": "FPLX",
+        "id": "BRCA",
+        "entry_name": "BRCA"
+      },
+      {
+        "db": "DOID",
+        "id": "DOID:0050861",
+        "entry_name": "colorectal adenocarcinoma"
+      },
+      {
+        "db": "MESH",
+        "id": "D064886",
+        "entry_name": "Dataset"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D064886",
+        "entry_name": "Dataset"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010641",
+        "entry_name": "Phenotype"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HP",
+        "id": "HP:0012827",
+        "entry_name": "Borderline"
+      },
+      {
+        "db": "FPLX",
+        "id": "BRCA",
+        "entry_name": "BRCA"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0007692",
+        "entry_name": "5C"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "18",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) positiveCorrelation act(p(HGNC:HSF1))",
+        "evidence": "AKT1 and mTOR are most strongly associated with HSF1 activity in tumour tissues."
+      },
+      {
+        "bel_statement": "act(p(HGNC:MTOR)) positiveCorrelation act(p(HGNC:HSF1))",
+        "evidence": "AKT1 and mTOR are most strongly associated with HSF1 activity in tumour tissues."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "MESH",
+        "id": "D014024",
+        "entry_name": "Tissues"
+      },
+      {
+        "db": "FPLX",
+        "id": "Actin",
+        "entry_name": "Actin"
+      },
+      {
+        "db": "MESH",
+        "id": "D001940",
+        "entry_name": "Breast"
+      },
+      {
+        "db": "MESH",
+        "id": "D015179",
+        "entry_name": "Colorectal Neoplasms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0001796",
+        "entry_name": "published"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "7756",
+        "entry_name": "NES"
+      },
+      {
+        "db": "HGNC",
+        "id": "7756",
+        "entry_name": "NES"
+      }
+    ]
+  },
+  {
+    "Index": "19",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+        "evidence": "AKT1 phosphorylates additional residues aside from S326 that are critical for HSF1 activity"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "20",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+        "evidence": "However, phosphorylation by these different kinases resulted in varying degrees of HSF1 transcriptional activity with AKT1 promoting higher activity than the other kinases."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 142))",
+        "evidence": "AKT1 phosphorylated T142, S230 and T527."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 230))",
+        "evidence": "AKT1 phosphorylated T142, S230 and T527."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 527))",
+        "evidence": "AKT1 phosphorylated T142, S230 and T527."
+      },
+      {
+        "bel_statement": "p(HGNC:MAP2K1) directlyIncreases p(HGNC:HSF1, pmod(Ph, T, 527))",
+        "evidence": "Interestingly, these sites were entirely unique to AKT1 as only MEK1 was seen to phosphorylate any of these sites by phosphorylating T527."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, S, 326))",
+        "evidence": "AKT1 modifies HSF1 in a unique pattern by phosphorylating T142, S230 and T527 in addition to S326."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0009629",
+        "entry_name": "event"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "6647",
+        "entry_name": "LMOD1"
+      },
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      },
+      {
+        "db": "HGNC",
+        "id": "1063",
+        "entry_name": "BLVRB"
+      },
+      {
+        "db": "MESH",
+        "id": "D020501",
+        "entry_name": "Tables"
+      },
+      {
+        "db": "EFO",
+        "id": "0002078",
+        "entry_name": "S1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:27594",
+        "entry_name": "carbon atom"
+      },
+      {
+        "db": "FPLX",
+        "id": "CK2",
+        "entry_name": "CK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009154",
+        "entry_name": "Mutation"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16449",
+        "entry_name": "alanine"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16449",
+        "entry_name": "alanine"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009154",
+        "entry_name": "Mutation"
+      },
+      {
+        "db": "EFO",
+        "id": "0001233",
+        "entry_name": "S2"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "21",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases p(HGNC:HSF1, pmod(Ph))",
+        "evidence": "AKT1 phosphorylates four residues that regulate the HSF1 response to heat stress."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph)) increases bp(GO:GO:0009408)",
+        "evidence": "AKT1 phosphorylates four residues that regulate the HSF1 response to heat stress."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "MESH",
+        "id": "D057188",
+        "entry_name": "Workflow"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D006801",
+        "entry_name": "Humans"
+      },
+      {
+        "db": "MESH",
+        "id": "D051379",
+        "entry_name": "Mice"
+      },
+      {
+        "db": "MESH",
+        "id": "D051381",
+        "entry_name": "Rats"
+      },
+      {
+        "db": "MESH",
+        "id": "D004285",
+        "entry_name": "Dogs"
+      },
+      {
+        "db": "MESH",
+        "id": "D008251",
+        "entry_name": "Macaca"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009154",
+        "entry_name": "Mutation"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "22",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, T, 142)) increases complex(p(HGNC:HSF1), p(HGNC:HSF1), p(HGNC:HSF1))",
+        "evidence": "Phosphorylation at T142 enhances trimerization of HSF1"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "23",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+        "evidence": "AKT1 phosphorylates HSF1 at multiple residues in addition to S326 (Fig. 6)."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:\"protein trimerization\")",
+        "evidence": "Introduction of AKT1 with wild-type (WT)-HSF1 resulted in an increase in trimerization, which was lost in the presence of the T142A phospho-null mutant (Fig. 7A)."
+      },
+      {
+        "bel_statement": "p(FPLX:CK2) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+        "evidence": "To test whether T142 regulation of trimerization was AKT1 specific, HSF1 trimerization was also tested in the presence of CK2, which has previously been observed to phosphorylate T142."
+      },
+      {
+        "bel_statement": "p(FPLX:CK2) increases bp(GO:\"protein trimerization\")",
+        "evidence": "In the presence of CK2, WT-HSF1 also showed a significant increase in trimerization but T142A-HSF1 did not undergo trimerization in the presence of CK2 (Fig. 7B)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:26986",
+        "entry_name": "threonine"
+      },
+      {
+        "db": "HGNC",
+        "id": "18270",
+        "entry_name": "HHAT"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HP",
+        "id": "HP:0032320",
+        "entry_name": "Affected"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:25434",
+        "entry_name": "bis(2-chloroethyl) sulfide"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "CK2",
+        "entry_name": "CK2"
+      },
+      {
+        "db": "FPLX",
+        "id": "CK2",
+        "entry_name": "CK2"
+      },
+      {
+        "db": "FPLX",
+        "id": "CK2",
+        "entry_name": "CK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "9657",
+        "entry_name": "PTPN5"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D002850",
+        "entry_name": "Chromatography, Gel"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D008970",
+        "entry_name": "Molecular Weight"
+      },
+      {
+        "db": "MESH",
+        "id": "D008970",
+        "entry_name": "Molecular Weight"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D008970",
+        "entry_name": "Molecular Weight"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D008970",
+        "entry_name": "Molecular Weight"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "24",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 142)) increases complex(p(HGNC:HSF1))",
+        "evidence": "Phosphorylation at T142 enhances HSF1 trimerization."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+        "evidence": "HEK-293 cells were transfected with WT-HSF1 or T142A-HSF1 in the presence or absence of AKT1 (A, C) or CK2 (B) for 48 h."
+      },
+      {
+        "bel_statement": "complex(FPLX:CK2) increases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+        "evidence": "HEK-293 cells were transfected with WT-HSF1 or T142A-HSF1 in the presence or absence of AKT1 (A, C) or CK2 (B) for 48 h."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "232",
+        "entry_name": "ADCY1"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "CK2",
+        "entry_name": "CK2"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D002850",
+        "entry_name": "Chromatography, Gel"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D008970",
+        "entry_name": "Molecular Weight"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "25",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230), pmod(Ph, S, 326), pmod(Ph, T, 527)) increases a(MESH:Association)",
+        "evidence": "Phosphorylation at S230, S326 and T527 enhances HSF1 association with general transcriptional factors"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      }
+    ]
+  },
+  {
+    "Index": "26",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 527))",
+        "evidence": "Our analysis identified T527 as a phosphorylated residue in the presence of AKT1 (Fig. 6), which is a novel site never before seen phosphorylated."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 527)) increases complex(p(HGNC:HSF1), p(HGNC:CDK9))",
+        "evidence": "Co-immunoprecipitation revealed a loss of interaction between T527A-HSF1 with CDK9 and TFIIB (Fig. 8D-E), suggesting that phosphorylation at this site is critical for this protein complex formation."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 527)) increases complex(p(HGNC:HSF1), p(HGNC:GTF2B))",
+        "evidence": "Co-immunoprecipitation revealed a loss of interaction between T527A-HSF1 with CDK9 and TFIIB (Fig. 8D-E), suggesting that phosphorylation at this site is critical for this protein complex formation."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D006801",
+        "entry_name": "Humans"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:18186",
+        "entry_name": "tyrosine"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:17822",
+        "entry_name": "serine"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:26986",
+        "entry_name": "threonine"
+      },
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      },
+      {
+        "db": "MESH",
+        "id": "D008722",
+        "entry_name": "Methods"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "EFO",
+        "id": "0009629",
+        "entry_name": "event"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:2659",
+        "entry_name": "aminophylline"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:2659",
+        "entry_name": "aminophylline"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0006351",
+        "entry_name": "DNA-templated transcription"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0070691",
+        "entry_name": "P-TEFb complex"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "MESH",
+        "id": "D035181",
+        "entry_name": "TATA-Box Binding Protein"
+      },
+      {
+        "db": "HGNC",
+        "id": "11588",
+        "entry_name": "TBP"
+      },
+      {
+        "db": "MESH",
+        "id": "D000339",
+        "entry_name": "Affect"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "HGNC",
+        "id": "11588",
+        "entry_name": "TBP"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "HGNC",
+        "id": "11588",
+        "entry_name": "TBP"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33699",
+        "entry_name": "messenger RNA"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSPA",
+        "entry_name": "HSPA"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      }
+    ]
+  },
+  {
+    "Index": "27",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, Thr, 527)) increases a(MESH:D001244)",
+        "evidence": "Phosphorylation at T527 enhances HSF1 association with general transcription factors."
+      },
+      {
+        "bel_statement": "a(MESH:D001244) increases a(MESH:D035165)",
+        "evidence": "Phosphorylation at T527 enhances HSF1 association with general transcription factors."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "MESH",
+        "id": "D035165",
+        "entry_name": "Transcription Factors, General"
+      },
+      {
+        "db": "HGNC",
+        "id": "232",
+        "entry_name": "ADCY1"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "HGNC",
+        "id": "11588",
+        "entry_name": "TBP"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "MESH",
+        "id": "D047468",
+        "entry_name": "Immunoprecipitation"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0071735",
+        "entry_name": "IgG immunoglobulin complex"
+      },
+      {
+        "db": "HGNC",
+        "id": "232",
+        "entry_name": "ADCY1"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "28",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+        "evidence": "Phosphorylation at S326 to upregulate HSF1 activity is well documented."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+        "evidence": "Phosphorylation at S230 has also been observed to promote HSF1 transcriptional activity."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1), ma(GO:\"positive regulation of DNA-templated transcription initiation\"))",
+        "evidence": "Taken together, these results indicate that AKT1-phosphorylated sites functionally contribute to the activation of HSF1 by promoting trimerization and gene transactivation."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1) association p(HGNC:CDK9)",
+        "evidence": "It was also observed that the S326A mutant had decreased protein association with CDK9 and TFIIB (Fig. 9D-E) and the S230A mutant had decreased interaction with CDK9 (Fig. 9F)."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1) association p(HGNC:GTF2B)",
+        "evidence": "It was also observed that the S326A mutant had decreased protein association with CDK9 and TFIIB (Fig. 9D-E) and the S230A mutant had decreased interaction with CDK9 (Fig. 9F)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "18270",
+        "entry_name": "HHAT"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0043687",
+        "entry_name": "post-translational protein modification"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0003677",
+        "entry_name": "DNA binding"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:194225",
+        "entry_name": "9b"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "11588",
+        "entry_name": "TBP"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:194226",
+        "entry_name": "9c"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:194229",
+        "entry_name": "9f"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      }
+    ]
+  },
+  {
+    "Index": "29",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 230)) increases a(MESH:D001244)",
+        "evidence": "Phosphorylation at S230 and S326 enhances HSF1 association with general transcription factors."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases a(MESH:D001244)",
+        "evidence": "Phosphorylation at S230 and S326 enhances HSF1 association with general transcription factors."
+      },
+      {
+        "bel_statement": "a(MESH:D001244) increases a(MESH:D035165)",
+        "evidence": "Phosphorylation at S230 and S326 enhances HSF1 association with general transcription factors."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "MESH",
+        "id": "D035165",
+        "entry_name": "Transcription Factors, General"
+      },
+      {
+        "db": "HGNC",
+        "id": "232",
+        "entry_name": "ADCY1"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "4648",
+        "entry_name": "GTF2B"
+      },
+      {
+        "db": "HGNC",
+        "id": "11588",
+        "entry_name": "TBP"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "2771",
+        "entry_name": "CFD"
+      },
+      {
+        "db": "MESH",
+        "id": "D057809",
+        "entry_name": "HEK293 Cells"
+      },
+      {
+        "db": "MESH",
+        "id": "D047468",
+        "entry_name": "Immunoprecipitation"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0071735",
+        "entry_name": "IgG immunoglobulin complex"
+      },
+      {
+        "db": "HGNC",
+        "id": "232",
+        "entry_name": "ADCY1"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      },
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      }
+    ]
+  },
+  {
+    "Index": "30",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+        "evidence": "The PI3K pathway has been linked to HSF1 activity as far back as 2000 but whether this was an indirect regulation or a direct regulation was unclear until our previous study indicating AKT1 directly activates HSF1."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+        "evidence": "The current study indicates that AKT1 also participates in heat stress-induced activation of HSF1 (Fig. 2) and that AKT1-mediated activation is independent of mTORC1 (Fig. 1)."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+        "evidence": "The current study extends our previous findings to identify precisely how AKT1 regulates HSF1 activity through phosphorylation."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+        "evidence": "Additionally, this study indicates for the first time the functional role in HSF1-induced transcription for each of these phosphorylation events by enhancing trimerization and gene transactivation."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+        "evidence": "The current study indicates that AKT1 also participates in heat stress-induced activation of HSF1 (Fig. 2) and that AKT1-mediated activation is independent of mTORC1 (Fig. 1)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D018869",
+        "entry_name": "Heat-Shock Response"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009408",
+        "entry_name": "response to heat"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0003677",
+        "entry_name": "DNA binding"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D032882",
+        "entry_name": "Comprehension"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D004194",
+        "entry_name": "Disease"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D019368",
+        "entry_name": "Nature"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D017348",
+        "entry_name": "Microscopy, Electron, Scanning Transmission"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "PI3K",
+        "entry_name": "PI3K"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:34922",
+        "entry_name": "picloram"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001415",
+        "entry_name": "Back"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0006351",
+        "entry_name": "DNA-templated transcription"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      }
+    ]
+  },
+  {
+    "Index": "31",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, Ser, 326)) increases act(p(HGNC:HSF1))",
+        "evidence": "This model is also supported by the numerous studies indicating that specific phosphorylation on S326 is important for HSF1 activity."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph)) increases act(p(HGNC:HSF1))",
+        "evidence": "Results from the current study indicate that phosphorylation on specific residues enhance HSF1 transcriptional activity by mediating specific steps in the process of activation."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph)) decreases act(p(HGNC:HSF1))",
+        "evidence": "There were also early indications that extensive phosphorylation can suppress HSF1 activity."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph)) decreases act(p(HGNC:HSF1))",
+        "evidence": "A more recent study indicated that an HSF1 mutant wherein all of the serine residues within the regulatory domain are phospho-null has greater activity compared to WT-HSF1 and this mutant did not undergo classic hyperphosphorylation, suggesting that hyperphosphorylation is actually suppressive to HSF1 activity."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:32848",
+        "entry_name": "serine residue"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0001796",
+        "entry_name": "published"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D005246",
+        "entry_name": "Feedback"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      }
+    ]
+  },
+  {
+    "Index": "32",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases act(p(HGNC:HSF1))",
+        "evidence": "However, the current study also identified that AKT1 was a stronger inducer of HSF1 activity than the other kinases tested despite S326 being phosphorylated by all kinases tested."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases act(p(HGNC:HSF1))",
+        "evidence": "The current study indicates that S326 phosphorylation actively participates in HSF1-induced gene transactivation giving support that it can serve as a marker for activity."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1, pmod(Ph, S, 326)) increases path(MESH:D010051)",
+        "evidence": "Other studies have also observed that S326 phosphorylation can still be used as a marker in disease contexts, such as S326 phosphorylation serving as a biomarker for ovarian cancer."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:59163",
+        "entry_name": "biomarker"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0043687",
+        "entry_name": "post-translational protein modification"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009154",
+        "entry_name": "Mutation"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "MESH",
+        "id": "D004194",
+        "entry_name": "Disease"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:59163",
+        "entry_name": "biomarker"
+      },
+      {
+        "db": "MESH",
+        "id": "D010051",
+        "entry_name": "Ovarian Neoplasms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "33",
+    "Results": [
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases act(p(HGNC:HSF1))",
+        "evidence": "The potency for AKT1-mediated activation of HSF1 observed in the current study advances our understanding of this relationship in disease settings wherein HSF1 is dysregulated."
+      },
+      {
+        "bel_statement": "act(p(HGNC:AKT1)) increases act(p(FPLX:mTORC1))",
+        "evidence": "While it is possible that AKT1 can increase mTORC1 activity, this study also indicates that AKT1-driven activation of HSF1 is independent of mTORC1 (Fig. 1)."
+      },
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) increases act(p(FPLX:mTORC1))",
+        "evidence": "The more likely explanation for the association between HSF1 activity and mTORC1 activity in these cancer datasets is that HSF1 has been shown to enhance mTORC1 activity via suppression of JNK."
+      },
+      {
+        "bel_statement": "act(p(HGNC:HSF1)) directlyDecreases act(p(FPLX:JNK))",
+        "evidence": "The more likely explanation for the association between HSF1 activity and mTORC1 activity in these cancer datasets is that HSF1 has been shown to enhance mTORC1 activity via suppression of JNK."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D032882",
+        "entry_name": "Comprehension"
+      },
+      {
+        "db": "MESH",
+        "id": "D004194",
+        "entry_name": "Disease"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6840",
+        "entry_name": "MAP2K1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "MESH",
+        "id": "D009369",
+        "entry_name": "Neoplasms"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "FPLX",
+        "id": "JNK",
+        "entry_name": "JNK"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      }
+    ]
+  },
+  {
+    "Index": "34",
+    "Results": [
+      {
+        "bel_statement": "a(CHEBI:9168) increases p(HGNC:5224)",
+        "evidence": "We also observed an interesting phenomenon wherein rapamycin appeared to increase HSF1 protein levels (Fig. 1G), which could be mediated by one of several possible mechanisms."
+      },
+      {
+        "bel_statement": "p(HGNC:16712) increases deg(p(HGNC:5224))",
+        "evidence": "ERK1/2 (and GSK3beta)-mediated phosphorylation at S303/307 recruits the ubiquitin ligase FBXW7 to promote HSF1 degradation."
+      },
+      {
+        "bel_statement": "a(CHEBI:9168) decreases act(FPLX:ERK)",
+        "evidence": "Because of the dose-dependent effects of rapamycin on ERK1/2 activity, it is possible that rapamycin decreased ERK1/2 activity in these cells, thereby decreasing FBXW7-mediated degradation of HSF1 resulting in stabilization of HSF1."
+      },
+      {
+        "bel_statement": "p(HGNC:3942) increases p(HGNC:5224)",
+        "evidence": "The current study also identified that mTOR can phosphorylate three additional residues aside from S326 that include S221, S241 and S344, all of which are in the HSF1 regulatory domain."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009056",
+        "entry_name": "catabolic process"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009056",
+        "entry_name": "catabolic process"
+      },
+      {
+        "db": "MESH",
+        "id": "D000107",
+        "entry_name": "Acetylation"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D054875",
+        "entry_name": "Ubiquitination"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009056",
+        "entry_name": "catabolic process"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D019370",
+        "entry_name": "Observation"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "FPLX",
+        "id": "ERK",
+        "entry_name": "ERK"
+      },
+      {
+        "db": "EFO",
+        "id": "0000428",
+        "entry_name": "dose"
+      },
+      {
+        "db": "FPLX",
+        "id": "ERK",
+        "entry_name": "ERK"
+      },
+      {
+        "db": "HGNC",
+        "id": "4617",
+        "entry_name": "GSK3B"
+      },
+      {
+        "db": "FPLX",
+        "id": "Ubiquitin",
+        "entry_name": "Ubiquitin"
+      },
+      {
+        "db": "MESH",
+        "id": "D008025",
+        "entry_name": "Ligases"
+      },
+      {
+        "db": "HGNC",
+        "id": "16712",
+        "entry_name": "FBXW7"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009056",
+        "entry_name": "catabolic process"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "FPLX",
+        "id": "ERK",
+        "entry_name": "ERK"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "FPLX",
+        "id": "ERK",
+        "entry_name": "ERK"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0009056",
+        "entry_name": "catabolic process"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "MESH",
+        "id": "D005246",
+        "entry_name": "Feedback"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "35",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, T, 142))",
+        "evidence": "Furthermore, AKT1 can phosphorylate additional residues that further enhance HSF1 activation, including T142, S230 and T527."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, S, 230))",
+        "evidence": "Furthermore, AKT1 can phosphorylate additional residues that further enhance HSF1 activation, including T142, S230 and T527."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1, pmod(Ph, T, 527))",
+        "evidence": "Furthermore, AKT1 can phosphorylate additional residues that further enhance HSF1 activation, including T142, S230 and T527."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases a(MESH:D001244)",
+        "evidence": "Phosphorylation at S230 has been observed by CaMKII and we show here that S230 phosphorylation by AKT1 enhances HSF1 association with CDK9 to promote transcription."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:2000144)",
+        "evidence": "Phosphorylation at S230 has been observed by CaMKII and we show here that S230 phosphorylation by AKT1 enhances HSF1 association with CDK9 to promote transcription."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases a(MESH:D001244)",
+        "evidence": "Phosphorylation at T527 has never been reported and we observed that AKT1-mediated phosphorylation of T527 enhances the association between HSF1 and CDK9/TFIIB to promote transcription."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT1) increases bp(GO:2000144)",
+        "evidence": "Phosphorylation at T527 has never been reported and we observed that AKT1-mediated phosphorylation of T527 enhances the association between HSF1 and CDK9/TFIIB to promote transcription."
+      },
+      {
+        "bel_statement": "p(FPLX:CK2) increases p(HGNC:HSF1, pmod(Ph, T, 142))",
+        "evidence": "Phosphorylation at T142 has been previously observed by CK2 and we show here that T142 phosphorylation enhances trimerization of HSF1 in response to AKT1 or CK2."
+      },
+      {
+        "bel_statement": "p(FPLX:CAMK2_complex) increases p(HGNC:HSF1, pmod(Ph, S, 230))",
+        "evidence": "Phosphorylation at S230 has been observed by CaMKII and we show here that S230 phosphorylation by AKT1 enhances HSF1 association with CDK9 to promote transcription."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:2000144",
+        "entry_name": "positive regulation of DNA-templated transcription initiation"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "CK2",
+        "entry_name": "CK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "FPLX",
+        "id": "CK2",
+        "entry_name": "CK2"
+      },
+      {
+        "db": "FPLX",
+        "id": "CAMK2_complex",
+        "entry_name": "CAMK2_complex"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0006351",
+        "entry_name": "DNA-templated transcription"
+      },
+      {
+        "db": "MESH",
+        "id": "D001244",
+        "entry_name": "Association"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0006351",
+        "entry_name": "DNA-templated transcription"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D013812",
+        "entry_name": "Therapeutics"
+      },
+      {
+        "db": "MESH",
+        "id": "D004194",
+        "entry_name": "Disease"
+      },
+      {
+        "db": "MESH",
+        "id": "D032882",
+        "entry_name": "Comprehension"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0043687",
+        "entry_name": "post-translational protein modification"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "36",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D008722",
+        "entry_name": "Methods"
+      }
+    ]
+  },
+  {
+    "Index": "37",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33893",
+        "entry_name": "reagent"
+      }
+    ]
+  },
+  {
+    "Index": "38",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D006801",
+        "entry_name": "Humans"
+      },
+      {
+        "db": "EFO",
+        "id": "0002885",
+        "entry_name": "breast cancer cell line"
+      },
+      {
+        "db": "EFO",
+        "id": "0001182",
+        "entry_name": "HEK293"
+      },
+      {
+        "db": "EFO",
+        "id": "0001182",
+        "entry_name": "HEK293"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:28685",
+        "entry_name": "molybdenum atom"
+      }
+    ]
+  },
+  {
+    "Index": "39",
+    "Results": [
+      {
+        "bel_statement": "a(CHEBI:67271) association a(CHEBI:9168)",
+        "evidence": "MK-2206 and rapamycin were purchased from Selleck Chemicals (Houston, TX)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:67271",
+        "entry_name": "MK-2206"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9168",
+        "entry_name": "sirolimus"
+      },
+      {
+        "db": "EFO",
+        "id": "0004948",
+        "entry_name": "TX"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:29108",
+        "entry_name": "calcium(2+)"
+      },
+      {
+        "db": "MESH",
+        "id": "D014162",
+        "entry_name": "Transfection"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "MESH",
+        "id": "D034741",
+        "entry_name": "RNA, Small Interfering"
+      },
+      {
+        "db": "HGNC",
+        "id": "5141",
+        "entry_name": "HP"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16991",
+        "entry_name": "deoxyribonucleic acid"
+      }
+    ]
+  },
+  {
+    "Index": "40",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D008156",
+        "entry_name": "Luciferases"
+      }
+    ]
+  },
+  {
+    "Index": "41",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:391) increases p(HGNC:392)",
+        "evidence": "The pcDNA3 Myr HA AKT1 plasmid was purchased from Addgene (ID 9008, RRID:Addgene_9008), which was originally established by Dr William Sellers. The pcDNA3 Myr HA AKT2 plasmid was purchased from Addgene (ID 9016, RRID:Addgene_9016), which was originally established by Dr William Sellers."
+      },
+      {
+        "bel_statement": "p(HGNC:392) increases p(HGNC:393)",
+        "evidence": "The pcDNA3 Myr HA AKT2 plasmid was purchased from Addgene (ID 9016, RRID:Addgene_9016), which was originally established by Dr William Sellers. The pcDNA3 Myr HA AKT3 plasmid was purchased from Addgene (ID 9017, RRID:Addgene_9017), which was originally established by Dr William Sellers."
+      },
+      {
+        "bel_statement": "p(HGNC:393) increases p(HGNC:3093)",
+        "evidence": "The pcDNA3 Myr HA AKT3 plasmid was purchased from Addgene (ID 9017, RRID:Addgene_9017), which was originally established by Dr William Sellers. The His-tagged DYRK2 plasmid was purchased from Addgene (ID 39031, RRID:Addgene_39031), which was originally established by Nicola Burgess-Brown."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:13193",
+        "entry_name": "hydrogen acceptor"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:25456",
+        "entry_name": "tetradecanoyl group"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:13193",
+        "entry_name": "hydrogen acceptor"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:25456",
+        "entry_name": "tetradecanoyl group"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:13193",
+        "entry_name": "hydrogen acceptor"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:25456",
+        "entry_name": "tetradecanoyl group"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:13193",
+        "entry_name": "hydrogen acceptor"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:13193",
+        "entry_name": "hydrogen acceptor"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      }
+    ]
+  },
+  {
+    "Index": "42",
+    "Results": [
+      {
+        "bel_statement": "a(MESH:\"Luciferases, Firefly\") increases act(a(GO:\"luciferin monooxygenase activity\"))",
+        "evidence": "Forty-eight hours after transfection, the cells were lysed and luciferase activity was measured using the Firefly and Renilla Luciferase Assay Kit (Promega)."
+      },
+      {
+        "bel_statement": "a(MESH:\"Luciferases, Renilla\") increases act(a(GO:\"luciferin monooxygenase activity\"))",
+        "evidence": "Forty-eight hours after transfection, the cells were lysed and luciferase activity was measured using the Firefly and Renilla Luciferase Assay Kit (Promega)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D012769",
+        "entry_name": "Shock"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33250",
+        "entry_name": "atom"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D049409",
+        "entry_name": "Luciferases, Firefly"
+      },
+      {
+        "db": "MESH",
+        "id": "C060580",
+        "entry_name": "Promega"
+      },
+      {
+        "db": "HGNC",
+        "id": "23316",
+        "entry_name": "HSD17B6"
+      },
+      {
+        "db": "MESH",
+        "id": "D049410",
+        "entry_name": "Luciferases, Renilla"
+      },
+      {
+        "db": "MESH",
+        "id": "D004526",
+        "entry_name": "Efficiency"
+      },
+      {
+        "db": "MESH",
+        "id": "D007060",
+        "entry_name": "Id"
+      },
+      {
+        "db": "HGNC",
+        "id": "7381",
+        "entry_name": "MST1R"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0045289",
+        "entry_name": "luciferin monooxygenase activity"
+      },
+      {
+        "db": "MESH",
+        "id": "D048888",
+        "entry_name": "Fireflies"
+      },
+      {
+        "db": "MESH",
+        "id": "D049410",
+        "entry_name": "Luciferases, Renilla"
+      },
+      {
+        "db": "HGNC",
+        "id": "6342",
+        "entry_name": "KIT"
+      },
+      {
+        "db": "MESH",
+        "id": "C060580",
+        "entry_name": "Promega"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0047077",
+        "entry_name": "Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity"
+      },
+      {
+        "db": "MESH",
+        "id": "D049410",
+        "entry_name": "Luciferases, Renilla"
+      }
+    ]
+  },
+  {
+    "Index": "43",
+    "Results": [
+      {
+        "bel_statement": "a(MESH:D047468) increases p(HGNC:ATP5IF1)",
+        "evidence": "Immunoblotting and Immunoprecipitation (IP)"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D047468",
+        "entry_name": "Immunoprecipitation"
+      },
+      {
+        "db": "HGNC",
+        "id": "871",
+        "entry_name": "ATP5IF1"
+      }
+    ]
+  },
+  {
+    "Index": "44",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1) increases p(HGNC:AKT1)",
+        "evidence": "Antibodies used for immunoblotting included p-HSF1 (S326) (Abcam #76076, RRID:AB_1310328), HSF1 (CST #4356, RRID:AB_2120258), AKT1 (CST #2938, RRID:AB_915788), AKT2 (CST #3063, RRID:AB_2225186), AKT3 (CST #3788, RRID:AB_2242534), beta-actin (BD Biosciences #612656, RRID:AB_2289199), GAPDH (CST #2118, RRID:AB_561053), GST (CST #2625, RRID:AB_490796), Flag (Sigma #3165, RRID:AB_259529), CDK9 (CST #2316, RRID:AB_2291505), DYRK2 (CST# 11921, RRID:AB_2797768) and GFP (CST #2956, RRID:AB_1196615)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:35225",
+        "entry_name": "buffer"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9754",
+        "entry_name": "tris"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:26710",
+        "entry_name": "sodium chloride"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:42191",
+        "entry_name": "EDTA(4-)"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:78708",
+        "entry_name": "Nonidet P-40"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9177",
+        "entry_name": "sodium deoxycholate"
+      },
+      {
+        "db": "HGNC",
+        "id": "10691",
+        "entry_name": "SDS"
+      },
+      {
+        "db": "HGNC",
+        "id": "871",
+        "entry_name": "ATP5IF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:35225",
+        "entry_name": "buffer"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9754",
+        "entry_name": "tris"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:26710",
+        "entry_name": "sodium chloride"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:42191",
+        "entry_name": "EDTA(4-)"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:30740",
+        "entry_name": "ethylene glycol bis(2-aminoethyl)tetraacetic acid"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "MESH",
+        "id": "C003319",
+        "entry_name": "sodium pyrophosphate"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:17270",
+        "entry_name": "glycerol 2-phosphate"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9750",
+        "entry_name": "Triton X-100"
+      },
+      {
+        "db": "HGNC",
+        "id": "871",
+        "entry_name": "ATP5IF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "393",
+        "entry_name": "AKT3"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "132",
+        "entry_name": "ACTB"
+      },
+      {
+        "db": "MESH",
+        "id": "D001528",
+        "entry_name": "Behcet Syndrome"
+      },
+      {
+        "db": "HGNC",
+        "id": "4141",
+        "entry_name": "GAPDH"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "FPLX",
+        "id": "GST",
+        "entry_name": "GST"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "1780",
+        "entry_name": "CDK9"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "HGNC",
+        "id": "871",
+        "entry_name": "ATP5IF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D051379",
+        "entry_name": "Mice"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0071735",
+        "entry_name": "IgG immunoglobulin complex"
+      }
+    ]
+  },
+  {
+    "Index": "45",
+    "Results": [
+      {
+        "bel_statement": "a(MESH:D010770) association a(MESH:D013058)",
+        "evidence": "Kinase assay and mass spectrometry"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      }
+    ]
+  },
+  {
+    "Index": "46",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1)",
+        "evidence": "Indicated amounts of recombinant GST-HSF-1 (0.1-0.4 mg) were incubated with or without 0.1 mg recombinant kinases for up to 120 min at 30 C in the presence of ATP in kinase assay buffer."
+      },
+      {
+        "bel_statement": "p(HGNC:AKT2) increases p(HGNC:HSF1)",
+        "evidence": "Indicated amounts of recombinant GST-HSF-1 (0.1-0.4 mg) were incubated with or without 0.1 mg recombinant kinases for up to 120 min at 30 C in the presence of ATP in kinase assay buffer."
+      },
+      {
+        "bel_statement": "p(FPLX:p38) increases p(HGNC:HSF1)",
+        "evidence": "Indicated amounts of recombinant GST-HSF-1 (0.1-0.4 mg) were incubated with or without 0.1 mg recombinant kinases for up to 120 min at 30 C in the presence of ATP in kinase assay buffer."
+      },
+      {
+        "bel_statement": "p(HGNC:MTOR) increases p(HGNC:HSF1)",
+        "evidence": "Indicated amounts of recombinant GST-HSF-1 (0.1-0.4 mg) were incubated with or without 0.1 mg recombinant kinases for up to 120 min at 30 C in the presence of ATP in kinase assay buffer."
+      },
+      {
+        "bel_statement": "p(FPLX:MEK) increases p(HGNC:HSF1)",
+        "evidence": "Indicated amounts of recombinant GST-HSF-1 (0.1-0.4 mg) were incubated with or without 0.1 mg recombinant kinases for up to 120 min at 30 C in the presence of ATP in kinase assay buffer."
+      },
+      {
+        "bel_statement": "p(HGNC:DYRK2) increases p(HGNC:HSF1)",
+        "evidence": "Indicated amounts of recombinant GST-HSF-1 (0.1-0.4 mg) were incubated with or without 0.1 mg recombinant kinases for up to 120 min at 30 C in the presence of ATP in kinase assay buffer."
+      },
+      {
+        "bel_statement": "p(FPLX:ERK) increases p(HGNC:HSF1)",
+        "evidence": "Indicated amounts of recombinant GST-HSF-1 (0.1-0.4 mg) were incubated with or without 0.1 mg recombinant kinases for up to 120 min at 30 C in the presence of ATP in kinase assay buffer."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1) hasActivity ma(GO:0043687)",
+        "evidence": "Samples were then boiled and subjected to SDS/PAGE and WB with indicated antibodies or subjected to mass spectrometry for detection of post-translational modifications."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "HGNC",
+        "id": "3942",
+        "entry_name": "MTOR"
+      },
+      {
+        "db": "FPLX",
+        "id": "MEK",
+        "entry_name": "MEK"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "FPLX",
+        "id": "ERK",
+        "entry_name": "ERK"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:25107",
+        "entry_name": "magnesium atom"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:25107",
+        "entry_name": "magnesium atom"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:15422",
+        "entry_name": "ATP"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:35225",
+        "entry_name": "buffer"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:46756",
+        "entry_name": "HEPES"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:6636",
+        "entry_name": "magnesium dichloride"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:63041",
+        "entry_name": "manganese(II) chloride"
+      },
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0043687",
+        "entry_name": "post-translational protein modification"
+      }
+    ]
+  },
+  {
+    "Index": "47",
+    "Results": [
+      {
+        "bel_statement": "bp(GO:0043687) association a(MESH:D013058)",
+        "evidence": "Mass spectrometry for post-translational modifications was performed at the Laboratory for Biological Mass Spectrometry at Indiana University (Bloomington, IN)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0043687",
+        "entry_name": "post-translational protein modification"
+      },
+      {
+        "db": "MESH",
+        "id": "D007753",
+        "entry_name": "Laboratories"
+      },
+      {
+        "db": "MESH",
+        "id": "D013058",
+        "entry_name": "Mass Spectrometry"
+      },
+      {
+        "db": "MESH",
+        "id": "D007196",
+        "entry_name": "Indiana"
+      },
+      {
+        "db": "MESH",
+        "id": "D014495",
+        "entry_name": "Universities"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16199",
+        "entry_name": "urea"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16134",
+        "entry_name": "ammonia"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:17544",
+        "entry_name": "hydrogencarbonate"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:75958",
+        "entry_name": "solution"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:63213",
+        "entry_name": "TCEP"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:32460",
+        "entry_name": "cysteine residue"
+      },
+      {
+        "db": "MESH",
+        "id": "D000478",
+        "entry_name": "Alkylation"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:32460",
+        "entry_name": "cysteine residue"
+      },
+      {
+        "db": "MESH",
+        "id": "D013696",
+        "entry_name": "Temperature"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "MESH",
+        "id": "D007460",
+        "entry_name": "Iodoacetamide"
+      },
+      {
+        "db": "MESH",
+        "id": "D002918",
+        "entry_name": "Chymotrypsin"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0007586",
+        "entry_name": "digestion"
+      },
+      {
+        "db": "MESH",
+        "id": "D002918",
+        "entry_name": "Chymotrypsin"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16670",
+        "entry_name": "peptide"
+      },
+      {
+        "db": "MESH",
+        "id": "D002851",
+        "entry_name": "Chromatography, High Pressure Liquid"
+      },
+      {
+        "db": "HGNC",
+        "id": "3603",
+        "entry_name": "FBN1"
+      },
+      {
+        "db": "MESH",
+        "id": "D005858",
+        "entry_name": "Germany"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16670",
+        "entry_name": "peptide"
+      },
+      {
+        "db": "UP",
+        "id": "P16893",
+        "entry_name": "P16893"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:30751",
+        "entry_name": "formic acid"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16670",
+        "entry_name": "peptide"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:46787",
+        "entry_name": "solvent"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:38472",
+        "entry_name": "acetonitrile"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:30751",
+        "entry_name": "formic acid"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:46787",
+        "entry_name": "solvent"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:38472",
+        "entry_name": "acetonitrile"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:30751",
+        "entry_name": "formic acid"
+      },
+      {
+        "db": "HGNC",
+        "id": "1689",
+        "entry_name": "CD59"
+      },
+      {
+        "db": "MESH",
+        "id": "D002196",
+        "entry_name": "Capillaries"
+      },
+      {
+        "db": "MESH",
+        "id": "D013696",
+        "entry_name": "Temperature"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:38876",
+        "entry_name": "pyraclofos"
+      },
+      {
+        "db": "HGNC",
+        "id": "3603",
+        "entry_name": "FBN1"
+      },
+      {
+        "db": "HGNC",
+        "id": "3603",
+        "entry_name": "FBN1"
+      },
+      {
+        "db": "EFO",
+        "id": "0001651",
+        "entry_name": "precursor"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:24870",
+        "entry_name": "ion"
+      },
+      {
+        "db": "HGNC",
+        "id": "3603",
+        "entry_name": "FBN1"
+      },
+      {
+        "db": "HGNC",
+        "id": "2881",
+        "entry_name": "DIH1"
+      },
+      {
+        "db": "MESH",
+        "id": "D006801",
+        "entry_name": "Humans"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:32460",
+        "entry_name": "cysteine residue"
+      },
+      {
+        "db": "MESH",
+        "id": "D000107",
+        "entry_name": "Acetylation"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16811",
+        "entry_name": "methionine"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16811",
+        "entry_name": "methionine"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:133469",
+        "entry_name": "pyroglutamine"
+      },
+      {
+        "db": "HGNC",
+        "id": "19343",
+        "entry_name": "ST6GALNAC3"
+      },
+      {
+        "db": "MESH",
+        "id": "D002918",
+        "entry_name": "Chymotrypsin"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0007586",
+        "entry_name": "digestion"
+      },
+      {
+        "db": "HGNC",
+        "id": "3603",
+        "entry_name": "FBN1"
+      },
+      {
+        "db": "EFO",
+        "id": "0001651",
+        "entry_name": "precursor"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:24870",
+        "entry_name": "ion"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:16670",
+        "entry_name": "peptide"
+      }
+    ]
+  },
+  {
+    "Index": "48",
+    "Results": [
+      {
+        "bel_statement": "complex(p(HGNC:HSF1), p(HGNC:HSF1), p(HGNC:HSF1))",
+        "evidence": "HSF1 trimerization and gel filtration chromatography"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "MESH",
+        "id": "D002850",
+        "entry_name": "Chromatography, Gel"
+      }
+    ]
+  },
+  {
+    "Index": "49",
+    "Results": [
+      {
+        "bel_statement": "a(CHEBI:30742) increases p(HGNC:5224)",
+        "evidence": "Cells were transfected with HSF1-Flag for 48 h. Cells were then fixed by adding 1 mm ethylene glycol bis-succinimidylsuccinate (Thermo Scientific, Waltham, MA) for 30 min at room temperature (RT) for crosslinking."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:30742",
+        "entry_name": "ethylene glycol"
+      },
+      {
+        "db": "MESH",
+        "id": "D013696",
+        "entry_name": "Temperature"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:28201",
+        "entry_name": "rotenone"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9754",
+        "entry_name": "tris"
+      },
+      {
+        "db": "MESH",
+        "id": "D006863",
+        "entry_name": "Hydrogen-Ion Concentration"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:28201",
+        "entry_name": "rotenone"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:35225",
+        "entry_name": "buffer"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      }
+    ]
+  },
+  {
+    "Index": "50",
+    "Results": [
+      {
+        "bel_statement": "a(CHEBI:35225) partOf a(MESH:D002850)",
+        "evidence": "Gel filtration chromatography was performed using fixed cells as described above for trimerization."
+      },
+      {
+        "bel_statement": "a(CHEBI:9754) partOf a(CHEBI:35225)",
+        "evidence": "The column was calibrated using running buffer and a Gel Filtration Markers Kit (Sigma)."
+      },
+      {
+        "bel_statement": "a(CHEBI:26710) partOf a(CHEBI:35225)",
+        "evidence": "The column was calibrated using running buffer and a Gel Filtration Markers Kit (Sigma)."
+      },
+      {
+        "bel_statement": "a(CHEBI:78708) partOf a(CHEBI:35225)",
+        "evidence": "The column was calibrated using running buffer and a Gel Filtration Markers Kit (Sigma)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D002850",
+        "entry_name": "Chromatography, Gel"
+      },
+      {
+        "db": "HGNC",
+        "id": "14942",
+        "entry_name": "PPP1R3B"
+      },
+      {
+        "db": "MESH",
+        "id": "D012420",
+        "entry_name": "Running"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:35225",
+        "entry_name": "buffer"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:9754",
+        "entry_name": "tris"
+      },
+      {
+        "db": "MESH",
+        "id": "D006863",
+        "entry_name": "Hydrogen-Ion Concentration"
+      },
+      {
+        "db": "MESH",
+        "id": "D009101",
+        "entry_name": "Multiple Myeloma"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:26710",
+        "entry_name": "sodium chloride"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:78708",
+        "entry_name": "Nonidet P-40"
+      },
+      {
+        "db": "MESH",
+        "id": "D012420",
+        "entry_name": "Running"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:35225",
+        "entry_name": "buffer"
+      },
+      {
+        "db": "MESH",
+        "id": "D002845",
+        "entry_name": "Chromatography"
+      },
+      {
+        "db": "MESH",
+        "id": "D012420",
+        "entry_name": "Running"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:35225",
+        "entry_name": "buffer"
+      },
+      {
+        "db": "MESH",
+        "id": "D002850",
+        "entry_name": "Chromatography, Gel"
+      },
+      {
+        "db": "HGNC",
+        "id": "6342",
+        "entry_name": "KIT"
+      },
+      {
+        "db": "HGNC",
+        "id": "11781",
+        "entry_name": "TGM5"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:29108",
+        "entry_name": "calcium(2+)"
+      },
+      {
+        "db": "MESH",
+        "id": "D005782",
+        "entry_name": "Gels"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:53325",
+        "entry_name": "nitrocellulose"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0016020",
+        "entry_name": "membrane"
+      },
+      {
+        "db": "MESH",
+        "id": "D008892",
+        "entry_name": "Milk"
+      },
+      {
+        "db": "MESH",
+        "id": "D013696",
+        "entry_name": "Temperature"
+      },
+      {
+        "db": "MESH",
+        "id": "C562366",
+        "entry_name": "IRDye 800CW"
+      },
+      {
+        "db": "HGNC",
+        "id": "3309",
+        "entry_name": "ELANE"
+      }
+    ]
+  },
+  {
+    "Index": "51",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D047369",
+        "entry_name": "Chromatin Immunoprecipitation"
+      },
+      {
+        "db": "HGNC",
+        "id": "11427",
+        "entry_name": "STUB1"
+      }
+    ]
+  },
+  {
+    "Index": "52",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1) increases a(HGNC:KIT)",
+        "evidence": "Rabbit polyclonal HSF1 antibody was used for IP (CST #4356)."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "11427",
+        "entry_name": "STUB1"
+      },
+      {
+        "db": "HGNC",
+        "id": "6342",
+        "entry_name": "KIT"
+      },
+      {
+        "db": "MESH",
+        "id": "D011817",
+        "entry_name": "Rabbits"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "871",
+        "entry_name": "ATP5IF1"
+      },
+      {
+        "db": "HGNC",
+        "id": "11021",
+        "entry_name": "SLC35A1"
+      },
+      {
+        "db": "EFO",
+        "id": "0010192",
+        "entry_name": "primer"
+      },
+      {
+        "db": "MESH",
+        "id": "D020501",
+        "entry_name": "Tables"
+      }
+    ]
+  },
+  {
+    "Index": "53",
+    "Results": [
+      {
+        "bel_statement": "a(EFO:0010192) hasComponent g(HGNC:5232)",
+        "evidence": "ChIP Primers Gene Primer Sequence (5'->3') HSPA1A F CACTCCCCCTTCCTCTCAG R TTCCCTTCTGAGCCAATCA"
+      },
+      {
+        "bel_statement": "a(EFO:0010192) hasComponent g(HGNC:5241)",
+        "evidence": "ChIP Primers Gene Primer Sequence (5'->3') HSPA8 F CCACCCTGCCTCTTATACCC R GGCTTGTGATTGGGTCTTGT"
+      },
+      {
+        "bel_statement": "a(EFO:0010192) hasComponent g(HGNC:5261)",
+        "evidence": "ChIP Primers Gene Primer Sequence (5'->3') HSPD1 F CGGCCGGCTTAGTCTAGTT R ATTTGACCCTTGAGCCGTAG"
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "11427",
+        "entry_name": "STUB1"
+      },
+      {
+        "db": "EFO",
+        "id": "0010192",
+        "entry_name": "primer"
+      },
+      {
+        "db": "HGNC",
+        "id": "5232",
+        "entry_name": "HSPA1A"
+      },
+      {
+        "db": "HGNC",
+        "id": "5241",
+        "entry_name": "HSPA8"
+      },
+      {
+        "db": "HGNC",
+        "id": "5261",
+        "entry_name": "HSPD1"
+      },
+      {
+        "db": "EFO",
+        "id": "0010192",
+        "entry_name": "primer"
+      },
+      {
+        "db": "FPLX",
+        "id": "HSPA",
+        "entry_name": "HSPA"
+      },
+      {
+        "db": "MESH",
+        "id": "D016296",
+        "entry_name": "Mutagenesis"
+      },
+      {
+        "db": "EFO",
+        "id": "0010192",
+        "entry_name": "primer"
+      }
+    ]
+  },
+  {
+    "Index": "54",
+    "Results": [
+      {
+        "bel_statement": "a(EFO:0004964) transcribedTo r(CHEBI:33699)",
+        "evidence": "For analysis of mRNA levels, total RNA was collected from cells using an RNA isolation kit (Zymo, Santa Cruz, CA)."
+      },
+      {
+        "bel_statement": "r(CHEBI:33699) transcribedTo r(EFO:0008481)",
+        "evidence": "Total RNA underwent reverse transcription (RT) using an RT kit (Applied Biosystems, Foster City, CA) that uses a mixture of oligodT and random primers."
+      },
+      {
+        "bel_statement": "bp(GO:0001171) increases r(EFO:0008481)",
+        "evidence": "Total RNA underwent reverse transcription (RT) using an RT kit (Applied Biosystems, Foster City, CA) that uses a mixture of oligodT and random primers."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33699",
+        "entry_name": "messenger RNA"
+      },
+      {
+        "db": "EFO",
+        "id": "0004964",
+        "entry_name": "total RNA"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33697",
+        "entry_name": "ribonucleic acid"
+      },
+      {
+        "db": "HGNC",
+        "id": "6342",
+        "entry_name": "KIT"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:29108",
+        "entry_name": "calcium(2+)"
+      },
+      {
+        "db": "EFO",
+        "id": "0004964",
+        "entry_name": "total RNA"
+      },
+      {
+        "db": "GO",
+        "id": "GO:0001171",
+        "entry_name": "reverse transcription"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:28201",
+        "entry_name": "rotenone"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:28201",
+        "entry_name": "rotenone"
+      },
+      {
+        "db": "HGNC",
+        "id": "6342",
+        "entry_name": "KIT"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:29108",
+        "entry_name": "calcium(2+)"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:60004",
+        "entry_name": "mixture"
+      },
+      {
+        "db": "EFO",
+        "id": "0010215",
+        "entry_name": "oligo-dT"
+      },
+      {
+        "db": "EFO",
+        "id": "0010216",
+        "entry_name": "random"
+      },
+      {
+        "db": "EFO",
+        "id": "0008481",
+        "entry_name": "cDNA"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:51461",
+        "entry_name": "SYBR Green I"
+      },
+      {
+        "db": "EFO",
+        "id": "0010192",
+        "entry_name": "primer"
+      },
+      {
+        "db": "MESH",
+        "id": "D020501",
+        "entry_name": "Tables"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33699",
+        "entry_name": "messenger RNA"
+      },
+      {
+        "db": "MESH",
+        "id": "D008722",
+        "entry_name": "Methods"
+      }
+    ]
+  },
+  {
+    "Index": "55",
+    "Results": [],
+    "annotations": []
+  },
+  {
+    "Index": "56",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:HSF1) increases act(p(HGNC:AKT1))",
+        "evidence": "The Gene Matrix file (.gmx) was generated using published gene signatures for AKT1, AKT2, p38, mTORC1 and MEK."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1) increases act(p(HGNC:AKT2))",
+        "evidence": "The Gene Matrix file (.gmx) was generated using published gene signatures for AKT1, AKT2, p38, mTORC1 and MEK."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1) increases act(p(FPLX:p38))",
+        "evidence": "The Gene Matrix file (.gmx) was generated using published gene signatures for AKT1, AKT2, p38, mTORC1 and MEK."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1) increases act(p(FPLX:mTORC1))",
+        "evidence": "The Gene Matrix file (.gmx) was generated using published gene signatures for AKT1, AKT2, p38, mTORC1 and MEK."
+      },
+      {
+        "bel_statement": "p(HGNC:HSF1) increases act(p(FPLX:MEK))",
+        "evidence": "The Gene Matrix file (.gmx) was generated using published gene signatures for AKT1, AKT2, p38, mTORC1 and MEK."
+      },
+      {
+        "bel_statement": "p(HGNC:DYRK2) decreases r(HGNC:DYRK2)",
+        "evidence": "Genes with more than a 2-fold decrease in expression with knockdown of DYRK2 were utilized for the gene list representing DYRK2 activity."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:33731",
+        "entry_name": "cluster"
+      },
+      {
+        "db": "FPLX",
+        "id": "BRCA",
+        "entry_name": "BRCA"
+      },
+      {
+        "db": "HGNC",
+        "id": "5224",
+        "entry_name": "HSF1"
+      },
+      {
+        "db": "EFO",
+        "id": "0001796",
+        "entry_name": "published"
+      },
+      {
+        "db": "HGNC",
+        "id": "391",
+        "entry_name": "AKT1"
+      },
+      {
+        "db": "HGNC",
+        "id": "392",
+        "entry_name": "AKT2"
+      },
+      {
+        "db": "FPLX",
+        "id": "p38",
+        "entry_name": "p38"
+      },
+      {
+        "db": "FPLX",
+        "id": "mTORC1",
+        "entry_name": "mTORC1"
+      },
+      {
+        "db": "FPLX",
+        "id": "MEK",
+        "entry_name": "MEK"
+      },
+      {
+        "db": "EFO",
+        "id": "0001796",
+        "entry_name": "published"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "EFO",
+        "id": "0001796",
+        "entry_name": "published"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "3093",
+        "entry_name": "DYRK2"
+      },
+      {
+        "db": "HGNC",
+        "id": "11427",
+        "entry_name": "STUB1"
+      },
+      {
+        "db": "HGNC",
+        "id": "7756",
+        "entry_name": "NES"
+      }
+    ]
+  },
+  {
+    "Index": "57",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "EFO",
+        "id": "0000507",
+        "entry_name": "generation"
+      },
+      {
+        "db": "HGNC",
+        "id": "4204",
+        "entry_name": "GCNT2"
+      },
+      {
+        "db": "MESH",
+        "id": "D016297",
+        "entry_name": "Mutagenesis, Site-Directed"
+      },
+      {
+        "db": "HGNC",
+        "id": "6342",
+        "entry_name": "KIT"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:29108",
+        "entry_name": "calcium(2+)"
+      },
+      {
+        "db": "MESH",
+        "id": "D016296",
+        "entry_name": "Mutagenesis"
+      },
+      {
+        "db": "MESH",
+        "id": "D020501",
+        "entry_name": "Tables"
+      },
+      {
+        "db": "MESH",
+        "id": "D009154",
+        "entry_name": "Mutation"
+      }
+    ]
+  },
+  {
+    "Index": "58",
+    "Results": [],
+    "annotations": []
+  },
+  {
+    "Index": "59",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "EFO",
+        "id": "0002326",
+        "entry_name": "SEM"
+      },
+      {
+        "db": "HGNC",
+        "id": "7887",
+        "entry_name": "NOVA2"
+      }
+    ]
+  },
+  {
+    "Index": "60",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D016265",
+        "entry_name": "Conflict of Interest"
+      }
+    ]
+  },
+  {
+    "Index": "61",
+    "Results": [],
+    "annotations": []
+  },
+  {
+    "Index": "62",
+    "Results": [],
+    "annotations": []
+  },
+  {
+    "Index": "63",
+    "Results": [
+      {
+        "bel_statement": "p(HGNC:MYL12A) increases a(MESH:D010770)",
+        "evidence": "RO and HR performed all kinase assays as well as some immunoblotting and reporter assay experiments."
+      }
+    ],
+    "annotations": [
+      {
+        "db": "HGNC",
+        "id": "16701",
+        "entry_name": "MYL12A"
+      },
+      {
+        "db": "HGNC",
+        "id": "11427",
+        "entry_name": "STUB1"
+      },
+      {
+        "db": "HGNC",
+        "id": "1455",
+        "entry_name": "CALR"
+      },
+      {
+        "db": "MESH",
+        "id": "D010770",
+        "entry_name": "Phosphotransferases"
+      },
+      {
+        "db": "CHEBI",
+        "id": "CHEBI:29339",
+        "entry_name": "azanediyl (triplet)"
+      },
+      {
+        "db": "MESH",
+        "id": "D047468",
+        "entry_name": "Immunoprecipitation"
+      },
+      {
+        "db": "HGNC",
+        "id": "6915",
+        "entry_name": "MB"
+      },
+      {
+        "db": "MESH",
+        "id": "D002845",
+        "entry_name": "Chromatography"
+      },
+      {
+        "db": "MESH",
+        "id": "D020486",
+        "entry_name": "Manuscript"
+      },
+      {
+        "db": "HGNC",
+        "id": "16701",
+        "entry_name": "MYL12A"
+      },
+      {
+        "db": "MESH",
+        "id": "D020486",
+        "entry_name": "Manuscript"
+      }
+    ]
+  },
+  {
+    "Index": "64",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D010380",
+        "entry_name": "Peer Review"
+      },
+      {
+        "db": "MESH",
+        "id": "D006664",
+        "entry_name": "History"
+      }
+    ]
+  },
+  {
+    "Index": "65",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D058537",
+        "entry_name": "Electronic Supplementary Materials"
+      }
+    ]
+  },
+  {
+    "Index": "66",
+    "Results": [],
+    "annotations": []
+  },
+  {
+    "Index": "67",
+    "Results": [],
+    "annotations": [
+      {
+        "db": "MESH",
+        "id": "D012106",
+        "entry_name": "Research"
+      }
+    ]
+  }
+]

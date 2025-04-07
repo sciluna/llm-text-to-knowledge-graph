@@ -1,0 +1,4699 @@
+{
+  "entries": [
+    {
+      "Index": "0",
+      "bel_statement": "a(CHEBI:6801) hasComponent a(CHEBI:59990)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:6801",
+          "namespace": "CHEBI",
+          "identifier": "6801"
+        },
+        {
+          "term": "CHEBI:59990",
+          "namespace": "CHEBI",
+          "identifier": "59990"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "0",
+      "bel_statement": "a(CHEBI:23888) increases a(EFO:0004368)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        },
+        {
+          "term": "EFO:0004368",
+          "namespace": "EFO",
+          "identifier": "0004368"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "0",
+      "bel_statement": "a(CHEBI:23888) challenges a(EFO:0011061)",
+      "correct_terms": [],
+      "mismatched_terms": [],
+      "score": 0
+    },
+    {
+      "Index": "0",
+      "bel_statement": "p(HGNC:11037) hasActivity a(CHEBI:71196)",
+      "correct_terms": [
+        {
+          "term": "HGNC:11037",
+          "namespace": "HGNC",
+          "identifier": "11037"
+        },
+        {
+          "term": "CHEBI:71196",
+          "namespace": "CHEBI",
+          "identifier": "71196"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "0",
+      "bel_statement": "p(HGNC:11037) hasActivity a(CHEBI:68612)",
+      "correct_terms": [
+        {
+          "term": "HGNC:11037",
+          "namespace": "HGNC",
+          "identifier": "11037"
+        },
+        {
+          "term": "CHEBI:68612",
+          "namespace": "CHEBI",
+          "identifier": "68612"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "1",
+      "bel_statement": "bp(GO:0030073) decreases a(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "GO:0030073",
+          "namespace": "GO",
+          "identifier": "0030073"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "1",
+      "bel_statement": "a(HGNC:INS) decreases a(MESH:D001786)",
+      "correct_terms": [
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        },
+        {
+          "term": "MESH:D001786",
+          "namespace": "MESH",
+          "identifier": "D001786"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "1",
+      "bel_statement": "a(HGNC:INS) decreases path(MESH:D006943)",
+      "correct_terms": [
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        },
+        {
+          "term": "MESH:D006943",
+          "namespace": "MESH",
+          "identifier": "D006943"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "2",
+      "bel_statement": "path(MESH:D003920) positiveCorrelation path(MESH:D009765)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D009765",
+          "namespace": "MESH",
+          "identifier": "D009765"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "2",
+      "bel_statement": "path(MESH:D003920) positiveCorrelation a(MESH:D004032)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D004032",
+          "namespace": "MESH",
+          "identifier": "D004032"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "2",
+      "bel_statement": "path(MESH:D003920) positiveCorrelation a(MESH:D008019)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D008019",
+          "namespace": "MESH",
+          "identifier": "D008019"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "3",
+      "bel_statement": "bp(EFO:0003940) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "EFO:0003940",
+          "namespace": "EFO",
+          "identifier": "0003940"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "3",
+      "bel_statement": "a(MESH:D000073893) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:D000073893",
+          "namespace": "MESH",
+          "identifier": "D000073893"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "4",
+      "bel_statement": "bp(EFO:0003940) increases bp(GO:0042593)",
+      "correct_terms": [
+        {
+          "term": "EFO:0003940",
+          "namespace": "EFO",
+          "identifier": "0003940"
+        },
+        {
+          "term": "GO:0042593",
+          "namespace": "GO",
+          "identifier": "0042593"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "4",
+      "bel_statement": "bp(EFO:0003940) decreases path(HP:0040270)",
+      "correct_terms": [
+        {
+          "term": "EFO:0003940",
+          "namespace": "EFO",
+          "identifier": "0003940"
+        },
+        {
+          "term": "HP:0040270",
+          "namespace": "HP",
+          "identifier": "0040270"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "5",
+      "bel_statement": "path(MESH:D003920) isA path(MESH:D002965)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D002965",
+          "namespace": "MESH",
+          "identifier": "D002965"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "a(MESH:D003920) positiveCorrelation a(HP:0100515)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "HP:0100515",
+          "namespace": "HP",
+          "identifier": "0100515"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "a(MESH:D003920) positiveCorrelation a(MESH:D006029)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D006029",
+          "namespace": "MESH",
+          "identifier": "D006029"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "a(MESH:D003920) positiveCorrelation a(MESH:D001786)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D001786",
+          "namespace": "MESH",
+          "identifier": "D001786"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "a(MESH:D003920) positiveCorrelation a(MESH:D001786)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D001786",
+          "namespace": "MESH",
+          "identifier": "D001786"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "a(HGNC:6081) decreases a(MESH:D001786)",
+      "correct_terms": [
+        {
+          "term": "HGNC:6081",
+          "namespace": "HGNC",
+          "identifier": "6081"
+        },
+        {
+          "term": "MESH:D001786",
+          "namespace": "MESH",
+          "identifier": "D001786"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "a(HGNC:6081) decreases a(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:6081",
+          "namespace": "HGNC",
+          "identifier": "6081"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "6",
+      "bel_statement": "a(CHEBI:35526) decreases a(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:35526",
+          "namespace": "CHEBI",
+          "identifier": "35526"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "7",
+      "bel_statement": "a(HGNC:INS) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "9",
+      "bel_statement": "a(MESH:\"Immune System\") directlyDecreases a(MESH:\"Insulin-Secreting Cells\")",
+      "correct_terms": [
+        {
+          "term": "MESH:Immune System",
+          "namespace": "MESH",
+          "identifier": "Immune System"
+        },
+        {
+          "term": "MESH:Insulin-Secreting Cells",
+          "namespace": "MESH",
+          "identifier": "Insulin-Secreting Cells"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "a(MESH:D050177) increases a(EFO:0002614)",
+      "correct_terms": [
+        {
+          "term": "MESH:D050177",
+          "namespace": "MESH",
+          "identifier": "D050177"
+        },
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "a(EFO:0002614) decreases a(CHEBI:17234)",
+      "correct_terms": [
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        },
+        {
+          "term": "CHEBI:17234",
+          "namespace": "CHEBI",
+          "identifier": "17234"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "a(EFO:0002614) increases a(CHEBI:17234)",
+      "correct_terms": [
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        },
+        {
+          "term": "CHEBI:17234",
+          "namespace": "CHEBI",
+          "identifier": "17234"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "bp(GO:0030073) increases a(HGNC:6081)",
+      "correct_terms": [
+        {
+          "term": "GO:0030073",
+          "namespace": "GO",
+          "identifier": "0030073"
+        },
+        {
+          "term": "HGNC:6081",
+          "namespace": "HGNC",
+          "identifier": "6081"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "a(EFO:0002614) increases a(MESH:D006943)",
+      "correct_terms": [
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        },
+        {
+          "term": "MESH:D006943",
+          "namespace": "MESH",
+          "identifier": "D006943"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "a(EFO:0002614) increases a(MESH:D006946)",
+      "correct_terms": [
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        },
+        {
+          "term": "MESH:D006946",
+          "namespace": "MESH",
+          "identifier": "D006946"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "a(EFO:1001905) regulates a(HP:0006279)",
+      "correct_terms": [
+        {
+          "term": "EFO:1001905",
+          "namespace": "EFO",
+          "identifier": "1001905"
+        },
+        {
+          "term": "HP:0006279",
+          "namespace": "HP",
+          "identifier": "0006279"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "11",
+      "bel_statement": "bp(GO:0006914) regulates a(HP:0006279)",
+      "correct_terms": [
+        {
+          "term": "GO:0006914",
+          "namespace": "GO",
+          "identifier": "0006914"
+        },
+        {
+          "term": "HP:0006279",
+          "namespace": "HP",
+          "identifier": "0006279"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "13",
+      "bel_statement": "path(MESH:D016640) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:D016640",
+          "namespace": "MESH",
+          "identifier": "D016640"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "13",
+      "bel_statement": "path(MESH:D016640) increases path(MESH:D009765)",
+      "correct_terms": [
+        {
+          "term": "MESH:D016640",
+          "namespace": "MESH",
+          "identifier": "D016640"
+        },
+        {
+          "term": "MESH:D009765",
+          "namespace": "MESH",
+          "identifier": "D009765"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "14",
+      "bel_statement": "a(CHEBI:35526) isA a(CHEBI:23888)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:35526",
+          "namespace": "CHEBI",
+          "identifier": "35526"
+        },
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "15",
+      "bel_statement": "a(HGNC:INS) increases a(MESH:Tissues)",
+      "correct_terms": [
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        },
+        {
+          "term": "MESH:Tissues",
+          "namespace": "MESH",
+          "identifier": "Tissues"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "15",
+      "bel_statement": "a(CHEBI:90415) increases a(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:90415",
+          "namespace": "CHEBI",
+          "identifier": "90415"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "15",
+      "bel_statement": "a(CHEBI:139492) increases a(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:139492",
+          "namespace": "CHEBI",
+          "identifier": "139492"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "a(CHEBI:90415) increases sec(p(HGNC:INS))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:90415",
+          "namespace": "CHEBI",
+          "identifier": "90415"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "a(CHEBI:26831) increases sec(p(HGNC:INS))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:26831",
+          "namespace": "CHEBI",
+          "identifier": "26831"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "a(CHEBI:26831) decreases a(MESH:D006442)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:26831",
+          "namespace": "CHEBI",
+          "identifier": "26831"
+        },
+        {
+          "term": "MESH:D006442",
+          "namespace": "MESH",
+          "identifier": "D006442"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "a(CHEBI:90415) increases a(GO:0008152)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:90415",
+          "namespace": "CHEBI",
+          "identifier": "90415"
+        },
+        {
+          "term": "GO:0008152",
+          "namespace": "GO",
+          "identifier": "0008152"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "a(CHEBI:90415) increases a(MESH:D054086)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:90415",
+          "namespace": "CHEBI",
+          "identifier": "90415"
+        },
+        {
+          "term": "MESH:D054086",
+          "namespace": "MESH",
+          "identifier": "D054086"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "17",
+      "bel_statement": "a(CHEBI:90415) increases a(CHEBI:29108)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:90415",
+          "namespace": "CHEBI",
+          "identifier": "90415"
+        },
+        {
+          "term": "CHEBI:29108",
+          "namespace": "CHEBI",
+          "identifier": "29108"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "18",
+      "bel_statement": "a(CHEBI:CHEBI:139492) increases p(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "CHEBI:CHEBI:139492",
+          "namespace": "CHEBI",
+          "identifier": "CHEBI:139492",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "19",
+      "bel_statement": "a(CHEBI:139492) increases act(p(HGNC:6081))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:139492",
+          "namespace": "CHEBI",
+          "identifier": "139492"
+        },
+        {
+          "term": "HGNC:6081",
+          "namespace": "HGNC",
+          "identifier": "6081"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "19",
+      "bel_statement": "a(CHEBI:50864) increases act(p(HGNC:6081))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:50864",
+          "namespace": "CHEBI",
+          "identifier": "50864"
+        },
+        {
+          "term": "HGNC:6081",
+          "namespace": "HGNC",
+          "identifier": "6081"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "19",
+      "bel_statement": "a(CHEBI:50864) decreases bp(GO:0007596)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:50864",
+          "namespace": "CHEBI",
+          "identifier": "50864"
+        },
+        {
+          "term": "GO:0007596",
+          "namespace": "GO",
+          "identifier": "0007596"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "19",
+      "bel_statement": "a(CHEBI:50864) decreases a(HGNC:2367)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:50864",
+          "namespace": "CHEBI",
+          "identifier": "50864"
+        },
+        {
+          "term": "HGNC:2367",
+          "namespace": "HGNC",
+          "identifier": "2367"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "19",
+      "bel_statement": "a(CHEBI:50864) decreases a(HGNC:6667)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:50864",
+          "namespace": "CHEBI",
+          "identifier": "50864"
+        },
+        {
+          "term": "HGNC:6667",
+          "namespace": "HGNC",
+          "identifier": "6667"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "19",
+      "bel_statement": "a(CHEBI:50864) decreases a(FPLX:Fibrinogen)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:50864",
+          "namespace": "CHEBI",
+          "identifier": "50864"
+        },
+        {
+          "term": "FPLX:Fibrinogen",
+          "namespace": "FPLX",
+          "identifier": "Fibrinogen"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "21",
+      "bel_statement": "a(CHEBI:67239) decreases a(CHEBI:16646)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:67239",
+          "namespace": "CHEBI",
+          "identifier": "67239"
+        },
+        {
+          "term": "CHEBI:16646",
+          "namespace": "CHEBI",
+          "identifier": "16646"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "21",
+      "bel_statement": "a(CHEBI:80270) increases bp(GO:0030073)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:80270",
+          "namespace": "CHEBI",
+          "identifier": "80270"
+        },
+        {
+          "term": "GO:0030073",
+          "namespace": "GO",
+          "identifier": "0030073"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "21",
+      "bel_statement": "a(CHEBI:80270) decreases bp(GO:0070091)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:80270",
+          "namespace": "CHEBI",
+          "identifier": "80270"
+        },
+        {
+          "term": "GO:0070091",
+          "namespace": "GO",
+          "identifier": "0070091"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "21",
+      "bel_statement": "a(CHEBI:80270) decreases bp(GO:0035483)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:80270",
+          "namespace": "CHEBI",
+          "identifier": "80270"
+        },
+        {
+          "term": "GO:0035483",
+          "namespace": "GO",
+          "identifier": "0035483"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "22",
+      "bel_statement": "a(CHEBI:85078) increases bp(GO:0007588)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:85078",
+          "namespace": "CHEBI",
+          "identifier": "85078"
+        },
+        {
+          "term": "GO:0007588",
+          "namespace": "GO",
+          "identifier": "0007588"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "22",
+      "bel_statement": "a(MESH:D000068896) increases bp(GO:0007588)",
+      "correct_terms": [
+        {
+          "term": "MESH:D000068896",
+          "namespace": "MESH",
+          "identifier": "D000068896"
+        },
+        {
+          "term": "GO:0007588",
+          "namespace": "GO",
+          "identifier": "0007588"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "23",
+      "bel_statement": "a(CHEBI:23888) decreases path(MESH:D006943)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        },
+        {
+          "term": "MESH:D006943",
+          "namespace": "MESH",
+          "identifier": "D006943"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "26",
+      "bel_statement": "a(CHEBI:16962) increases a(CHEBI:17650)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:16962",
+          "namespace": "CHEBI",
+          "identifier": "16962"
+        },
+        {
+          "term": "CHEBI:17650",
+          "namespace": "CHEBI",
+          "identifier": "17650"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "26",
+      "bel_statement": "a(CHEBI:17650) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17650",
+          "namespace": "CHEBI",
+          "identifier": "17650"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "26",
+      "bel_statement": "a(CHEBI:17650) increases path(MESH:D009765)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17650",
+          "namespace": "CHEBI",
+          "identifier": "17650"
+        },
+        {
+          "term": "MESH:D009765",
+          "namespace": "MESH",
+          "identifier": "D009765"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "26",
+      "bel_statement": "a(CHEBI:17650) increases path(MESH:D008052)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17650",
+          "namespace": "CHEBI",
+          "identifier": "17650"
+        },
+        {
+          "term": "MESH:D008052",
+          "namespace": "MESH",
+          "identifier": "D008052"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "26",
+      "bel_statement": "a(CHEBI:17650) increases path(MESH:D006973)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17650",
+          "namespace": "CHEBI",
+          "identifier": "17650"
+        },
+        {
+          "term": "MESH:D006973",
+          "namespace": "MESH",
+          "identifier": "D006973"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "26",
+      "bel_statement": "a(MESH:D042842) increases path(DOID:14221)",
+      "correct_terms": [
+        {
+          "term": "MESH:D042842",
+          "namespace": "MESH",
+          "identifier": "D042842"
+        },
+        {
+          "term": "DOID:14221",
+          "namespace": "DOID",
+          "identifier": "14221"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "27",
+      "bel_statement": "a(CHEBI:28300) increases a(MESH:C027618)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28300",
+          "namespace": "CHEBI",
+          "identifier": "28300"
+        },
+        {
+          "term": "MESH:C027618",
+          "namespace": "MESH",
+          "identifier": "C027618"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "a(CHEBI:17234) increases bp(GO:0008152)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17234",
+          "namespace": "CHEBI",
+          "identifier": "17234"
+        },
+        {
+          "term": "GO:0008152",
+          "namespace": "GO",
+          "identifier": "0008152"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "bp(GO:0009058) increases EFO:0002614",
+      "correct_terms": [
+        {
+          "term": "GO:0009058",
+          "namespace": "GO",
+          "identifier": "0009058"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "28",
+      "bel_statement": "p(HGNC:GFPT1) hasActivity ma(MESH:D005945)",
+      "correct_terms": [
+        {
+          "term": "HGNC:GFPT1",
+          "namespace": "HGNC",
+          "identifier": "GFPT1"
+        },
+        {
+          "term": "MESH:D005945",
+          "namespace": "MESH",
+          "identifier": "D005945"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "29",
+      "bel_statement": "a(CHEBI:18186) increases a(FPLX:Phosphatase)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:18186",
+          "namespace": "CHEBI",
+          "identifier": "18186"
+        },
+        {
+          "term": "FPLX:Phosphatase",
+          "namespace": "FPLX",
+          "identifier": "Phosphatase"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "p(HGNC:PTPN1) decreases p(HGNC:INSR)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PTPN1",
+          "namespace": "HGNC",
+          "identifier": "PTPN1"
+        },
+        {
+          "term": "HGNC:INSR",
+          "namespace": "HGNC",
+          "identifier": "INSR"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "p(HGNC:PTPN1) decreases bp(GO:0007165)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PTPN1",
+          "namespace": "HGNC",
+          "identifier": "PTPN1"
+        },
+        {
+          "term": "GO:0007165",
+          "namespace": "GO",
+          "identifier": "0007165"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "p(HGNC:PTPN1) decreases bp(GO:0023052)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PTPN1",
+          "namespace": "HGNC",
+          "identifier": "PTPN1"
+        },
+        {
+          "term": "GO:0023052",
+          "namespace": "GO",
+          "identifier": "0023052"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "p(HGNC:PTPN1) increases path(MESH:D009765)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PTPN1",
+          "namespace": "HGNC",
+          "identifier": "PTPN1"
+        },
+        {
+          "term": "MESH:D009765",
+          "namespace": "MESH",
+          "identifier": "D009765"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "p(HGNC:PTPN1) increases bp(GO:0044342)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PTPN1",
+          "namespace": "HGNC",
+          "identifier": "PTPN1"
+        },
+        {
+          "term": "GO:0044342",
+          "namespace": "GO",
+          "identifier": "0044342"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "p(HGNC:PTPN1) increases bp(GO:0030073)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PTPN1",
+          "namespace": "HGNC",
+          "identifier": "PTPN1"
+        },
+        {
+          "term": "GO:0030073",
+          "namespace": "GO",
+          "identifier": "0030073"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "30",
+      "bel_statement": "p(HGNC:PTPN1) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PTPN1",
+          "namespace": "HGNC",
+          "identifier": "PTPN1"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "31",
+      "bel_statement": "g(HGNC:23093) decreases r(HGNC:23093)",
+      "correct_terms": [
+        {
+          "term": "HGNC:23093",
+          "namespace": "HGNC",
+          "identifier": "23093"
+        },
+        {
+          "term": "HGNC:23093",
+          "namespace": "HGNC",
+          "identifier": "23093"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "31",
+      "bel_statement": "g(HGNC:23093) decreases complex(p(HGNC:23093), p(HGNC:1116))",
+      "correct_terms": [
+        {
+          "term": "HGNC:23093",
+          "namespace": "HGNC",
+          "identifier": "23093"
+        },
+        {
+          "term": "HGNC:23093",
+          "namespace": "HGNC",
+          "identifier": "23093"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "31",
+      "bel_statement": "g(HGNC:23093) decreases surf(p(HGNC:23093))",
+      "correct_terms": [
+        {
+          "term": "HGNC:23093",
+          "namespace": "HGNC",
+          "identifier": "23093"
+        },
+        {
+          "term": "HGNC:23093",
+          "namespace": "HGNC",
+          "identifier": "23093"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "31",
+      "bel_statement": "deg(p(HGNC:23093)) increases bp(GO:0006629)",
+      "correct_terms": [
+        {
+          "term": "HGNC:23093",
+          "namespace": "HGNC",
+          "identifier": "23093"
+        },
+        {
+          "term": "GO:0006629",
+          "namespace": "GO",
+          "identifier": "0006629"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "31",
+      "bel_statement": "bp(GO:0006629) increases a(CHEBI:17855)",
+      "correct_terms": [
+        {
+          "term": "GO:0006629",
+          "namespace": "GO",
+          "identifier": "0006629"
+        },
+        {
+          "term": "CHEBI:17855",
+          "namespace": "CHEBI",
+          "identifier": "17855"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "31",
+      "bel_statement": "a(CHEBI:17855) increases path(EFO:0002614)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17855",
+          "namespace": "CHEBI",
+          "identifier": "17855"
+        },
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "33",
+      "bel_statement": "p(HGNC:CCN3) positiveCorrelation p(HGNC:CRP)",
+      "correct_terms": [
+        {
+          "term": "HGNC:CCN3",
+          "namespace": "HGNC",
+          "identifier": "CCN3"
+        },
+        {
+          "term": "HGNC:CRP",
+          "namespace": "HGNC",
+          "identifier": "CRP"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "33",
+      "bel_statement": "p(HGNC:CCN3) positiveCorrelation path(DOID:9970)",
+      "correct_terms": [
+        {
+          "term": "HGNC:CCN3",
+          "namespace": "HGNC",
+          "identifier": "CCN3"
+        },
+        {
+          "term": "DOID:9970",
+          "namespace": "DOID",
+          "identifier": "9970"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "33",
+      "bel_statement": "p(HGNC:CCN3) increases path(MESH:D013812)",
+      "correct_terms": [
+        {
+          "term": "HGNC:CCN3",
+          "namespace": "HGNC",
+          "identifier": "CCN3"
+        },
+        {
+          "term": "MESH:D013812",
+          "namespace": "MESH",
+          "identifier": "D013812"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "34",
+      "bel_statement": "p(HGNC:FOXO1) increases bp(GO:0006915)",
+      "correct_terms": [
+        {
+          "term": "HGNC:FOXO1",
+          "namespace": "HGNC",
+          "identifier": "FOXO1"
+        },
+        {
+          "term": "GO:0006915",
+          "namespace": "GO",
+          "identifier": "0006915"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "34",
+      "bel_statement": "p(HGNC:FOXO1, pmod(Ph)) directlyIncreases p(HGNC:FOXO1, pmod(Ub))",
+      "correct_terms": [],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:FOXO1, pmod(Ph",
+          "namespace": "HGNC",
+          "identifier": "FOXO1, pmod(Ph",
+          "error": "manufactured entity"
+        },
+        {
+          "term": "HGNC:FOXO1, pmod(Ub",
+          "namespace": "HGNC",
+          "identifier": "FOXO1, pmod(Ub",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.0
+    },
+    {
+      "Index": "34",
+      "bel_statement": "p(HGNC:PPARGC1A) directlyIncreases p(HGNC:FOXO1, pmod(Ph))",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "HGNC:FOXO1, pmod(Ph",
+          "namespace": "HGNC",
+          "identifier": "FOXO1, pmod(Ph",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "35",
+      "bel_statement": "a(CHEBI:15904) increases p(HGNC:4501)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:15904",
+          "namespace": "CHEBI",
+          "identifier": "15904"
+        },
+        {
+          "term": "HGNC:4501",
+          "namespace": "HGNC",
+          "identifier": "4501"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "a(CHEBI:26666) increases p(HGNC:4501)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:26666",
+          "namespace": "CHEBI",
+          "identifier": "26666"
+        },
+        {
+          "term": "HGNC:4501",
+          "namespace": "HGNC",
+          "identifier": "4501"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "p(HGNC:4501) decreases bp(GO:0030073)",
+      "correct_terms": [
+        {
+          "term": "HGNC:4501",
+          "namespace": "HGNC",
+          "identifier": "4501"
+        },
+        {
+          "term": "GO:0030073",
+          "namespace": "GO",
+          "identifier": "0030073"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "35",
+      "bel_statement": "a(CHEBI:48706) decreases bp(GO:0030073)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:48706",
+          "namespace": "CHEBI",
+          "identifier": "48706"
+        },
+        {
+          "term": "GO:0030073",
+          "namespace": "GO",
+          "identifier": "0030073"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "37",
+      "bel_statement": "a(CHEBI:15843) increases a(CHEBI:64007)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:15843",
+          "namespace": "CHEBI",
+          "identifier": "15843"
+        },
+        {
+          "term": "CHEBI:64007",
+          "namespace": "CHEBI",
+          "identifier": "64007"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "37",
+      "bel_statement": "a(CHEBI:15843) increases a(CHEBI:34306)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:15843",
+          "namespace": "CHEBI",
+          "identifier": "15843"
+        },
+        {
+          "term": "CHEBI:34306",
+          "namespace": "CHEBI",
+          "identifier": "34306"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "37",
+      "bel_statement": "a(CHEBI:64007) decreases act(p(HGNC:3402))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:64007",
+          "namespace": "CHEBI",
+          "identifier": "64007"
+        },
+        {
+          "term": "HGNC:3402",
+          "namespace": "HGNC",
+          "identifier": "3402"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "38",
+      "bel_statement": "a(CHEBI:64007) decreases a(MESH:D050151)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:64007",
+          "namespace": "CHEBI",
+          "identifier": "64007"
+        },
+        {
+          "term": "MESH:D050151",
+          "namespace": "MESH",
+          "identifier": "D050151"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "38",
+      "bel_statement": "a(CHEBI:64007) increases a(HGNC:6081)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:64007",
+          "namespace": "CHEBI",
+          "identifier": "64007"
+        },
+        {
+          "term": "HGNC:6081",
+          "namespace": "HGNC",
+          "identifier": "6081"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "38",
+      "bel_statement": "a(CHEBI:64007) increases bp(GO:0019395)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:64007",
+          "namespace": "CHEBI",
+          "identifier": "64007"
+        },
+        {
+          "term": "GO:0019395",
+          "namespace": "GO",
+          "identifier": "0019395"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "38",
+      "bel_statement": "a(CHEBI:64007) increases a(MESH:D050154)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:64007",
+          "namespace": "CHEBI",
+          "identifier": "64007"
+        },
+        {
+          "term": "MESH:D050154",
+          "namespace": "MESH",
+          "identifier": "D050154"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "38",
+      "bel_statement": "bp(GO:0042311) decreases bp(GO:0006954)",
+      "correct_terms": [
+        {
+          "term": "GO:0042311",
+          "namespace": "GO",
+          "identifier": "0042311"
+        },
+        {
+          "term": "GO:0006954",
+          "namespace": "GO",
+          "identifier": "0006954"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "39",
+      "bel_statement": "p(HGNC:PPARGC1A) increases act(p(HGNC:PPARG))",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "HGNC:PPARG",
+          "namespace": "HGNC",
+          "identifier": "PPARG"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "40",
+      "bel_statement": "p(HGNC:PPARGC1A) regulates bp(GO:0097009)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "GO:0097009",
+          "namespace": "GO",
+          "identifier": "0097009"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "40",
+      "bel_statement": "p(HGNC:PPARGC1A) regulates p(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "40",
+      "bel_statement": "p(HGNC:PPARGC1A) regulates a(CHEBI:CHEBI:22586)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "CHEBI:CHEBI:22586",
+          "namespace": "CHEBI",
+          "identifier": "CHEBI:22586",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "40",
+      "bel_statement": "p(HGNC:PPARGC1A) decreases path(MESH:D008659)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "MESH:D008659",
+          "namespace": "MESH",
+          "identifier": "D008659"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "40",
+      "bel_statement": "p(HGNC:PPARGC1A) decreases bp(GO:0006954)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "GO:0006954",
+          "namespace": "GO",
+          "identifier": "0006954"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "40",
+      "bel_statement": "p(HGNC:PPARGC1A) decreases a(MESH:D011312)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "MESH:D011312",
+          "namespace": "MESH",
+          "identifier": "D011312"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "41",
+      "bel_statement": "p(HGNC:PPARGC1A) increases a(MESH:Liver)",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "MESH:Liver",
+          "namespace": "MESH",
+          "identifier": "Liver"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "41",
+      "bel_statement": "p(HGNC:PPARGC1A) increases bp(GO:\"insulin processing\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "GO:insulin processing",
+          "namespace": "GO",
+          "identifier": "insulin processing"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "41",
+      "bel_statement": "p(HGNC:PPARGC1A) increases path(MESH:\"Metabolic Diseases\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "MESH:Metabolic Diseases",
+          "namespace": "MESH",
+          "identifier": "Metabolic Diseases"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "43",
+      "bel_statement": "p(FPLX:PPAR) increases bp(MESH:Adipogenesis)",
+      "correct_terms": [
+        {
+          "term": "FPLX:PPAR",
+          "namespace": "FPLX",
+          "identifier": "PPAR"
+        },
+        {
+          "term": "MESH:Adipogenesis",
+          "namespace": "MESH",
+          "identifier": "Adipogenesis"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "43",
+      "bel_statement": "p(FPLX:PPAR) increases p(HGNC:ADIPOQ)",
+      "correct_terms": [
+        {
+          "term": "FPLX:PPAR",
+          "namespace": "FPLX",
+          "identifier": "PPAR"
+        },
+        {
+          "term": "HGNC:ADIPOQ",
+          "namespace": "HGNC",
+          "identifier": "ADIPOQ"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "43",
+      "bel_statement": "p(FPLX:PPAR) increases a(CHEBI:hormone)",
+      "correct_terms": [
+        {
+          "term": "FPLX:PPAR",
+          "namespace": "FPLX",
+          "identifier": "PPAR"
+        },
+        {
+          "term": "CHEBI:hormone",
+          "namespace": "CHEBI",
+          "identifier": "hormone"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "43",
+      "bel_statement": "p(FPLX:PPAR) increases p(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "FPLX:PPAR",
+          "namespace": "FPLX",
+          "identifier": "PPAR"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "43",
+      "bel_statement": "p(FPLX:PPAR) increases path(DOID:14221)",
+      "correct_terms": [
+        {
+          "term": "FPLX:PPAR",
+          "namespace": "FPLX",
+          "identifier": "PPAR"
+        },
+        {
+          "term": "DOID:14221",
+          "namespace": "DOID",
+          "identifier": "14221"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "45",
+      "bel_statement": "a(CHEBI:24261) increases a(MESH:D001786)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:24261",
+          "namespace": "CHEBI",
+          "identifier": "24261"
+        },
+        {
+          "term": "MESH:D001786",
+          "namespace": "MESH",
+          "identifier": "D001786"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "45",
+      "bel_statement": "act(p(HGNC:NR3C1)) increases a(EFO:0002614)",
+      "correct_terms": [
+        {
+          "term": "HGNC:NR3C1",
+          "namespace": "HGNC",
+          "identifier": "NR3C1"
+        },
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "45",
+      "bel_statement": "act(p(HGNC:NR3C1)) increases bp(GO:0006508)",
+      "correct_terms": [
+        {
+          "term": "HGNC:NR3C1",
+          "namespace": "HGNC",
+          "identifier": "NR3C1"
+        },
+        {
+          "term": "GO:0006508",
+          "namespace": "GO",
+          "identifier": "0006508"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "45",
+      "bel_statement": "act(p(HGNC:NR3C1)) decreases bp(GO:0009058)",
+      "correct_terms": [
+        {
+          "term": "HGNC:NR3C1",
+          "namespace": "HGNC",
+          "identifier": "NR3C1"
+        },
+        {
+          "term": "GO:0009058",
+          "namespace": "GO",
+          "identifier": "0009058"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "45",
+      "bel_statement": "act(p(HGNC:NR3C1)) decreases bp(GO:0046323)",
+      "correct_terms": [
+        {
+          "term": "HGNC:NR3C1",
+          "namespace": "HGNC",
+          "identifier": "NR3C1"
+        },
+        {
+          "term": "GO:0046323",
+          "namespace": "GO",
+          "identifier": "0046323"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "47",
+      "bel_statement": "p(HGNC:7782) decreases a(FPLX:G6Pase)",
+      "correct_terms": [
+        {
+          "term": "HGNC:7782",
+          "namespace": "HGNC",
+          "identifier": "7782"
+        },
+        {
+          "term": "FPLX:G6Pase",
+          "namespace": "FPLX",
+          "identifier": "G6Pase"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "47",
+      "bel_statement": "p(HGNC:7782) increases bp(MESH:D050156)",
+      "correct_terms": [
+        {
+          "term": "HGNC:7782",
+          "namespace": "HGNC",
+          "identifier": "7782"
+        },
+        {
+          "term": "MESH:D050156",
+          "namespace": "MESH",
+          "identifier": "D050156"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "47",
+      "bel_statement": "p(HGNC:7782) decreases bp(GO:0006915)",
+      "correct_terms": [
+        {
+          "term": "HGNC:7782",
+          "namespace": "HGNC",
+          "identifier": "7782"
+        },
+        {
+          "term": "GO:0006915",
+          "namespace": "GO",
+          "identifier": "0006915"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "48",
+      "bel_statement": "p(HGNC:MME) directlyDecreases a(CHEBI:peptide hormone)",
+      "correct_terms": [
+        {
+          "term": "HGNC:MME",
+          "namespace": "HGNC",
+          "identifier": "MME"
+        },
+        {
+          "term": "CHEBI:peptide hormone",
+          "namespace": "CHEBI",
+          "identifier": "peptide hormone"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "48",
+      "bel_statement": "a(CHEBI:metabolite) increases a(CHEBI:antioxidant)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:metabolite",
+          "namespace": "CHEBI",
+          "identifier": "metabolite"
+        },
+        {
+          "term": "CHEBI:antioxidant",
+          "namespace": "CHEBI",
+          "identifier": "antioxidant"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "48",
+      "bel_statement": "a(CHEBI:metabolite) decreases bp(GO:apoptotic process)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:metabolite",
+          "namespace": "CHEBI",
+          "identifier": "metabolite"
+        },
+        {
+          "term": "GO:apoptotic process",
+          "namespace": "GO",
+          "identifier": "apoptotic process"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "48",
+      "bel_statement": "a(CHEBI:metabolite) increases bp(GO:cell population proliferation)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:metabolite",
+          "namespace": "CHEBI",
+          "identifier": "metabolite"
+        },
+        {
+          "term": "GO:cell population proliferation",
+          "namespace": "GO",
+          "identifier": "cell population proliferation"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "48",
+      "bel_statement": "a(CHEBI:metabolite) decreases bp(GO:apoptotic process)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:metabolite",
+          "namespace": "CHEBI",
+          "identifier": "metabolite"
+        },
+        {
+          "term": "GO:apoptotic process",
+          "namespace": "GO",
+          "identifier": "apoptotic process"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "48",
+      "bel_statement": "a(CHEBI:metabolite) decreases path(MESH:Diabetes Mellitus)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:metabolite",
+          "namespace": "CHEBI",
+          "identifier": "metabolite"
+        },
+        {
+          "term": "MESH:Diabetes Mellitus",
+          "namespace": "MESH",
+          "identifier": "Diabetes Mellitus"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "49",
+      "bel_statement": "a(CHEBI:23888) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "49",
+      "bel_statement": "a(CHEBI:23888) decreases path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:HSD11B1) association path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSD11B1",
+          "namespace": "HGNC",
+          "identifier": "HSD11B1"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:HSD11B1) association path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSD11B1",
+          "namespace": "HGNC",
+          "identifier": "HSD11B1"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:GPR119) association path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:GPR119",
+          "namespace": "HGNC",
+          "identifier": "GPR119"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:GPR119) association path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "HGNC:GPR119",
+          "namespace": "HGNC",
+          "identifier": "GPR119"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:GPBAR1) association path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:GPBAR1",
+          "namespace": "HGNC",
+          "identifier": "GPBAR1"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:GPBAR1) association path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "HGNC:GPBAR1",
+          "namespace": "HGNC",
+          "identifier": "GPBAR1"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:SIRT1) association path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SIRT1",
+          "namespace": "HGNC",
+          "identifier": "SIRT1"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:SIRT1) association path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SIRT1",
+          "namespace": "HGNC",
+          "identifier": "SIRT1"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:SLC5A2) association path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC5A2",
+          "namespace": "HGNC",
+          "identifier": "SLC5A2"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:SLC5A2) association path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC5A2",
+          "namespace": "HGNC",
+          "identifier": "SLC5A2"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:FFAR1) association path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "HGNC:FFAR1",
+          "namespace": "HGNC",
+          "identifier": "FFAR1"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "50",
+      "bel_statement": "p(HGNC:FFAR1) association path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "HGNC:FFAR1",
+          "namespace": "HGNC",
+          "identifier": "FFAR1"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "51",
+      "bel_statement": "a(CHEBI:35222) increases path(MESH:D008659)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:35222",
+          "namespace": "CHEBI",
+          "identifier": "35222"
+        },
+        {
+          "term": "MESH:D008659",
+          "namespace": "MESH",
+          "identifier": "D008659"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "51",
+      "bel_statement": "a(CHEBI:48705) increases path(MESH:D008659)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:48705",
+          "namespace": "CHEBI",
+          "identifier": "48705"
+        },
+        {
+          "term": "MESH:D008659",
+          "namespace": "MESH",
+          "identifier": "D008659"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "51",
+      "bel_statement": "a(CHEBI:48706) increases path(MESH:D008659)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:48706",
+          "namespace": "CHEBI",
+          "identifier": "48706"
+        },
+        {
+          "term": "MESH:D008659",
+          "namespace": "MESH",
+          "identifier": "D008659"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "52",
+      "bel_statement": "a(MESH:D004032) regulates a(MESH:D000069196)",
+      "correct_terms": [
+        {
+          "term": "MESH:D004032",
+          "namespace": "MESH",
+          "identifier": "D004032"
+        },
+        {
+          "term": "MESH:D000069196",
+          "namespace": "MESH",
+          "identifier": "D000069196"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "52",
+      "bel_statement": "a(MESH:D000069196) positiveCorrelation path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:D000069196",
+          "namespace": "MESH",
+          "identifier": "D000069196"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "53",
+      "bel_statement": "a(MESH:D004032) increases a(MESH:D000069196)",
+      "correct_terms": [
+        {
+          "term": "MESH:D004032",
+          "namespace": "MESH",
+          "identifier": "D004032"
+        },
+        {
+          "term": "MESH:D000069196",
+          "namespace": "MESH",
+          "identifier": "D000069196"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "53",
+      "bel_statement": "a(MESH:D000069196) increases a(GO:GO:0006805)",
+      "correct_terms": [
+        {
+          "term": "MESH:D000069196",
+          "namespace": "MESH",
+          "identifier": "D000069196"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "GO:GO:0006805",
+          "namespace": "GO",
+          "identifier": "GO:0006805",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "53",
+      "bel_statement": "a(CHEBI:33281) increases a(MESH:D064806)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:33281",
+          "namespace": "CHEBI",
+          "identifier": "33281"
+        },
+        {
+          "term": "MESH:D064806",
+          "namespace": "MESH",
+          "identifier": "D064806"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "53",
+      "bel_statement": "a(MESH:D064806) increases path(MESH:D008659)",
+      "correct_terms": [
+        {
+          "term": "MESH:D064806",
+          "namespace": "MESH",
+          "identifier": "D064806"
+        },
+        {
+          "term": "MESH:D008659",
+          "namespace": "MESH",
+          "identifier": "D008659"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "54",
+      "bel_statement": "path(MESH:D064806) increases path(DOID:14221)",
+      "correct_terms": [
+        {
+          "term": "MESH:D064806",
+          "namespace": "MESH",
+          "identifier": "D064806"
+        },
+        {
+          "term": "DOID:14221",
+          "namespace": "DOID",
+          "identifier": "14221"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "54",
+      "bel_statement": "path(MESH:D064806) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:D064806",
+          "namespace": "MESH",
+          "identifier": "D064806"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) decreases a(CHEBI:17234)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "CHEBI:17234",
+          "namespace": "CHEBI",
+          "identifier": "17234"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) decreases p(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) decreases a(EFO:0004501)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "EFO:0004501",
+          "namespace": "EFO",
+          "identifier": "0004501"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) decreases a(FPLX:Fibrinogen)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "FPLX:Fibrinogen",
+          "namespace": "FPLX",
+          "identifier": "Fibrinogen"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) decreases a(EFO:0004578)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "EFO:0004578",
+          "namespace": "EFO",
+          "identifier": "0004578"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:18220) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:18220",
+          "namespace": "CHEBI",
+          "identifier": "18220"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) decreases a(MESH:D015227)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "MESH:D015227",
+          "namespace": "MESH",
+          "identifier": "D015227"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) increases a(MESH:D004734)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "MESH:D004734",
+          "namespace": "MESH",
+          "identifier": "D004734"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) increases a(CHEBI:50114)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "CHEBI:50114",
+          "namespace": "CHEBI",
+          "identifier": "50114"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:28088) increases path(MESH:D001943)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:28088",
+          "namespace": "CHEBI",
+          "identifier": "28088"
+        },
+        {
+          "term": "MESH:D001943",
+          "namespace": "MESH",
+          "identifier": "D001943"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "55",
+      "bel_statement": "a(CHEBI:76989) increases path(MESH:D004714)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:76989",
+          "namespace": "CHEBI",
+          "identifier": "76989"
+        },
+        {
+          "term": "MESH:D004714",
+          "namespace": "MESH",
+          "identifier": "D004714"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "56",
+      "bel_statement": "path(MESH:D003920) association path(MESH:D005234)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D005234",
+          "namespace": "MESH",
+          "identifier": "D005234"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "57",
+      "bel_statement": "bp(GO:0006629) association path(DOID:0080547)",
+      "correct_terms": [
+        {
+          "term": "GO:0006629",
+          "namespace": "GO",
+          "identifier": "0006629"
+        },
+        {
+          "term": "DOID:0080547",
+          "namespace": "DOID",
+          "identifier": "0080547"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "57",
+      "bel_statement": "path(MESH:D008659) association path(DOID:0080547)",
+      "correct_terms": [
+        {
+          "term": "MESH:D008659",
+          "namespace": "MESH",
+          "identifier": "D008659"
+        },
+        {
+          "term": "DOID:0080547",
+          "namespace": "DOID",
+          "identifier": "0080547"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "57",
+      "bel_statement": "path(DOID:0080547) increases a(HGNC:INS)",
+      "correct_terms": [
+        {
+          "term": "DOID:0080547",
+          "namespace": "DOID",
+          "identifier": "0080547"
+        },
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "57",
+      "bel_statement": "path(DOID:0080547) association path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "DOID:0080547",
+          "namespace": "DOID",
+          "identifier": "0080547"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "58",
+      "bel_statement": "p(HGNC:ZGLP1) increases a(EFO:0002614)",
+      "correct_terms": [
+        {
+          "term": "HGNC:ZGLP1",
+          "namespace": "HGNC",
+          "identifier": "ZGLP1"
+        },
+        {
+          "term": "EFO:0002614",
+          "namespace": "EFO",
+          "identifier": "0002614"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "58",
+      "bel_statement": "a(CHEBI:6801) increases a(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:6801",
+          "namespace": "CHEBI",
+          "identifier": "6801"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "58",
+      "bel_statement": "a(CHEBI:8228) increases path(DOID:0080547)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:8228",
+          "namespace": "CHEBI",
+          "identifier": "8228"
+        },
+        {
+          "term": "DOID:0080547",
+          "namespace": "DOID",
+          "identifier": "0080547"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "58",
+      "bel_statement": "p(HGNC:SLC5A2) increases bp(GO:0042593)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC5A2",
+          "namespace": "HGNC",
+          "identifier": "SLC5A2"
+        },
+        {
+          "term": "GO:0042593",
+          "namespace": "GO",
+          "identifier": "0042593"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "58",
+      "bel_statement": "p(HGNC:SLC5A2) decreases a(MESH:D005234)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC5A2",
+          "namespace": "HGNC",
+          "identifier": "SLC5A2"
+        },
+        {
+          "term": "MESH:D005234",
+          "namespace": "MESH",
+          "identifier": "D005234"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "58",
+      "bel_statement": "p(HGNC:SLC5A2) decreases a(MESH:D000637)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC5A2",
+          "namespace": "HGNC",
+          "identifier": "SLC5A2"
+        },
+        {
+          "term": "MESH:D000637",
+          "namespace": "MESH",
+          "identifier": "D000637"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "58",
+      "bel_statement": "p(HGNC:INS) increases a(MESH:D005234)",
+      "correct_terms": [
+        {
+          "term": "HGNC:INS",
+          "namespace": "HGNC",
+          "identifier": "INS"
+        },
+        {
+          "term": "MESH:D005234",
+          "namespace": "MESH",
+          "identifier": "D005234"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "60",
+      "bel_statement": "a(CHEBI:17234) increases a(MESH:D004231)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17234",
+          "namespace": "CHEBI",
+          "identifier": "17234"
+        },
+        {
+          "term": "MESH:D004231",
+          "namespace": "MESH",
+          "identifier": "D004231"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "60",
+      "bel_statement": "a(CHEBI:27881) increases act(p(HGNC:14929))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:27881",
+          "namespace": "CHEBI",
+          "identifier": "27881"
+        },
+        {
+          "term": "HGNC:14929",
+          "namespace": "HGNC",
+          "identifier": "14929"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "60",
+      "bel_statement": "a(CHEBI:183639) increases act(p(HGNC:14929))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:183639",
+          "namespace": "CHEBI",
+          "identifier": "183639"
+        },
+        {
+          "term": "HGNC:14929",
+          "namespace": "HGNC",
+          "identifier": "14929"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "60",
+      "bel_statement": "a(MESH:C584666) increases act(p(HGNC:14929))",
+      "correct_terms": [
+        {
+          "term": "MESH:C584666",
+          "namespace": "MESH",
+          "identifier": "C584666"
+        },
+        {
+          "term": "HGNC:14929",
+          "namespace": "HGNC",
+          "identifier": "14929"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "61",
+      "bel_statement": "a(MESH:D057185) increases path(MESH:D009765)",
+      "correct_terms": [
+        {
+          "term": "MESH:D057185",
+          "namespace": "MESH",
+          "identifier": "D057185"
+        },
+        {
+          "term": "MESH:D009765",
+          "namespace": "MESH",
+          "identifier": "D009765"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "61",
+      "bel_statement": "a(MESH:D004032) increases path(MESH:D009765)",
+      "correct_terms": [
+        {
+          "term": "MESH:D004032",
+          "namespace": "MESH",
+          "identifier": "D004032"
+        },
+        {
+          "term": "MESH:D009765",
+          "namespace": "MESH",
+          "identifier": "D009765"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "62",
+      "bel_statement": "a(MESH:D006442) decreases path(MESH:D048909)",
+      "correct_terms": [
+        {
+          "term": "MESH:D006442",
+          "namespace": "MESH",
+          "identifier": "D006442"
+        },
+        {
+          "term": "MESH:D048909",
+          "namespace": "MESH",
+          "identifier": "D048909"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "63",
+      "bel_statement": "path(MESH:D003920) association path(MESH:D008107)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "MESH:D008107",
+          "namespace": "MESH",
+          "identifier": "D008107"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "66",
+      "bel_statement": "a(CHEBI:23888) increases a(MESH:D000085002)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        },
+        {
+          "term": "MESH:D000085002",
+          "namespace": "MESH",
+          "identifier": "D000085002"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "66",
+      "bel_statement": "a(CHEBI:23888) increases a(MESH:D015431)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        },
+        {
+          "term": "MESH:D015431",
+          "namespace": "MESH",
+          "identifier": "D015431"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "67",
+      "bel_statement": "path(MESH:D050110) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:D050110",
+          "namespace": "MESH",
+          "identifier": "D050110"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "67",
+      "bel_statement": "path(MESH:D050110) decreases path(MESH:D008659)",
+      "correct_terms": [
+        {
+          "term": "MESH:D050110",
+          "namespace": "MESH",
+          "identifier": "D050110"
+        },
+        {
+          "term": "MESH:D008659",
+          "namespace": "MESH",
+          "identifier": "D008659"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "76",
+      "bel_statement": "a(CHEBI:34922) directlyDecreases act(p(HGNC:11037))",
+      "correct_terms": [
+        {
+          "term": "CHEBI:34922",
+          "namespace": "CHEBI",
+          "identifier": "34922"
+        },
+        {
+          "term": "HGNC:11037",
+          "namespace": "HGNC",
+          "identifier": "11037"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "79",
+      "bel_statement": "a(MESH:D002681) association a(MESH:D007194)",
+      "correct_terms": [
+        {
+          "term": "MESH:D002681",
+          "namespace": "MESH",
+          "identifier": "D002681"
+        },
+        {
+          "term": "MESH:D007194",
+          "namespace": "MESH",
+          "identifier": "D007194"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "79",
+      "bel_statement": "a(MESH:D007194) association a(MESH:D002681)",
+      "correct_terms": [
+        {
+          "term": "MESH:D007194",
+          "namespace": "MESH",
+          "identifier": "D007194"
+        },
+        {
+          "term": "MESH:D002681",
+          "namespace": "MESH",
+          "identifier": "D002681"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "79",
+      "bel_statement": "a(MESH:D010154) association a(MESH:D008800)",
+      "correct_terms": [
+        {
+          "term": "MESH:D010154",
+          "namespace": "MESH",
+          "identifier": "D010154"
+        },
+        {
+          "term": "MESH:D008800",
+          "namespace": "MESH",
+          "identifier": "D008800"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "79",
+      "bel_statement": "a(MESH:D001938) association a(MESH:D001938)",
+      "correct_terms": [
+        {
+          "term": "MESH:D001938",
+          "namespace": "MESH",
+          "identifier": "D001938"
+        },
+        {
+          "term": "MESH:D001938",
+          "namespace": "MESH",
+          "identifier": "D001938"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "79",
+      "bel_statement": "a(MESH:D008800) association a(MESH:D004534)",
+      "correct_terms": [
+        {
+          "term": "MESH:D008800",
+          "namespace": "MESH",
+          "identifier": "D008800"
+        },
+        {
+          "term": "MESH:D004534",
+          "namespace": "MESH",
+          "identifier": "D004534"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "79",
+      "bel_statement": "a(MESH:D007214) association a(MESH:D007214)",
+      "correct_terms": [
+        {
+          "term": "MESH:D007214",
+          "namespace": "MESH",
+          "identifier": "D007214"
+        },
+        {
+          "term": "MESH:D007214",
+          "namespace": "MESH",
+          "identifier": "D007214"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "79",
+      "bel_statement": "a(MESH:D010154) association a(MESH:D001459)",
+      "correct_terms": [
+        {
+          "term": "MESH:D010154",
+          "namespace": "MESH",
+          "identifier": "D010154"
+        },
+        {
+          "term": "MESH:D001459",
+          "namespace": "MESH",
+          "identifier": "D001459"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "80",
+      "bel_statement": "a(CHEBI:35526) isA a(CHEBI:23888)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:35526",
+          "namespace": "CHEBI",
+          "identifier": "35526"
+        },
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "80",
+      "bel_statement": "a(CHEBI:23888) increases path(MESH:D055808)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:23888",
+          "namespace": "CHEBI",
+          "identifier": "23888"
+        },
+        {
+          "term": "MESH:D055808",
+          "namespace": "MESH",
+          "identifier": "D055808"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:78425) increases a(MESH:D004763)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:78425",
+          "namespace": "CHEBI",
+          "identifier": "78425"
+        },
+        {
+          "term": "MESH:D004763",
+          "namespace": "MESH",
+          "identifier": "D004763"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:78425) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:78425",
+          "namespace": "CHEBI",
+          "identifier": "78425"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C542437) increases complex(FPLX:PPAR, FPLX:PPAR)",
+      "correct_terms": [
+        {
+          "term": "MESH:C542437",
+          "namespace": "MESH",
+          "identifier": "C542437"
+        }
+      ],
+      "mismatched_terms": [
+        {
+          "term": "FPLX:PPAR, FPLX:PPAR",
+          "namespace": "FPLX",
+          "identifier": "PPAR, FPLX:PPAR",
+          "error": "manufactured entity"
+        }
+      ],
+      "score": 0.5
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C542437) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:C542437",
+          "namespace": "MESH",
+          "identifier": "C542437"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:72323) increases a(CHEBI:68612)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:72323",
+          "namespace": "CHEBI",
+          "identifier": "72323"
+        },
+        {
+          "term": "CHEBI:68612",
+          "namespace": "CHEBI",
+          "identifier": "68612"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:72323) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:72323",
+          "namespace": "CHEBI",
+          "identifier": "72323"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:135810) decreases act(GO:0038023)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:135810",
+          "namespace": "CHEBI",
+          "identifier": "135810"
+        },
+        {
+          "term": "GO:0038023",
+          "namespace": "GO",
+          "identifier": "0038023"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:135810) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:135810",
+          "namespace": "CHEBI",
+          "identifier": "135810"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C555680) increases a(MESH:D004763)",
+      "correct_terms": [
+        {
+          "term": "MESH:C555680",
+          "namespace": "MESH",
+          "identifier": "C555680"
+        },
+        {
+          "term": "MESH:D004763",
+          "namespace": "MESH",
+          "identifier": "D004763"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C555680) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:C555680",
+          "namespace": "MESH",
+          "identifier": "C555680"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:82720) decreases a(FPLX:SLC2A)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:82720",
+          "namespace": "CHEBI",
+          "identifier": "82720"
+        },
+        {
+          "term": "FPLX:SLC2A",
+          "namespace": "FPLX",
+          "identifier": "SLC2A"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:82720) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:82720",
+          "namespace": "CHEBI",
+          "identifier": "82720"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:188719) decreases a(FPLX:SLC2A)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:188719",
+          "namespace": "CHEBI",
+          "identifier": "188719"
+        },
+        {
+          "term": "FPLX:SLC2A",
+          "namespace": "FPLX",
+          "identifier": "SLC2A"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:188719) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:188719",
+          "namespace": "CHEBI",
+          "identifier": "188719"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:177451) increases act(FPLX:GPCR)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:177451",
+          "namespace": "CHEBI",
+          "identifier": "177451"
+        },
+        {
+          "term": "FPLX:GPCR",
+          "namespace": "FPLX",
+          "identifier": "GPCR"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:177451) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:177451",
+          "namespace": "CHEBI",
+          "identifier": "177451"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:85078) decreases a(FPLX:SLC2A)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:85078",
+          "namespace": "CHEBI",
+          "identifier": "85078"
+        },
+        {
+          "term": "FPLX:SLC2A",
+          "namespace": "FPLX",
+          "identifier": "SLC2A"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:85078) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:85078",
+          "namespace": "CHEBI",
+          "identifier": "85078"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C000613158) increases a(MESH:D004359)",
+      "correct_terms": [
+        {
+          "term": "MESH:C000613158",
+          "namespace": "MESH",
+          "identifier": "C000613158"
+        },
+        {
+          "term": "MESH:D004359",
+          "namespace": "MESH",
+          "identifier": "D004359"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C000613158) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:C000613158",
+          "namespace": "MESH",
+          "identifier": "C000613158"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:73274) decreases a(FPLX:SLC2A)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:73274",
+          "namespace": "CHEBI",
+          "identifier": "73274"
+        },
+        {
+          "term": "FPLX:SLC2A",
+          "namespace": "FPLX",
+          "identifier": "SLC2A"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:73274) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:73274",
+          "namespace": "CHEBI",
+          "identifier": "73274"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134724) decreases a(FPLX:SLC2A)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134724",
+          "namespace": "CHEBI",
+          "identifier": "134724"
+        },
+        {
+          "term": "FPLX:SLC2A",
+          "namespace": "FPLX",
+          "identifier": "SLC2A"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134724) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134724",
+          "namespace": "CHEBI",
+          "identifier": "134724"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134725) decreases a(FPLX:SLC2A)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134725",
+          "namespace": "CHEBI",
+          "identifier": "134725"
+        },
+        {
+          "term": "FPLX:SLC2A",
+          "namespace": "FPLX",
+          "identifier": "SLC2A"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134725) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134725",
+          "namespace": "CHEBI",
+          "identifier": "134725"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:85662) increases a(MESH:D004359)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:85662",
+          "namespace": "CHEBI",
+          "identifier": "85662"
+        },
+        {
+          "term": "MESH:D004359",
+          "namespace": "MESH",
+          "identifier": "D004359"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:85662) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:85662",
+          "namespace": "CHEBI",
+          "identifier": "85662"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:85662) increases a(MESH:D004763)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:85662",
+          "namespace": "CHEBI",
+          "identifier": "85662"
+        },
+        {
+          "term": "MESH:D004763",
+          "namespace": "MESH",
+          "identifier": "D004763"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:85662) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:85662",
+          "namespace": "CHEBI",
+          "identifier": "85662"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C587357) increases a(HGNC:6081)",
+      "correct_terms": [
+        {
+          "term": "MESH:C587357",
+          "namespace": "MESH",
+          "identifier": "C587357"
+        },
+        {
+          "term": "HGNC:6081",
+          "namespace": "HGNC",
+          "identifier": "6081"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(MESH:C587357) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "MESH:C587357",
+          "namespace": "MESH",
+          "identifier": "C587357"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134735) increases a(CHEBI:68612)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134735",
+          "namespace": "CHEBI",
+          "identifier": "134735"
+        },
+        {
+          "term": "CHEBI:68612",
+          "namespace": "CHEBI",
+          "identifier": "68612"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134735) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134735",
+          "namespace": "CHEBI",
+          "identifier": "134735"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:167574) increases a(MESH:D004763)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:167574",
+          "namespace": "CHEBI",
+          "identifier": "167574"
+        },
+        {
+          "term": "MESH:D004763",
+          "namespace": "MESH",
+          "identifier": "D004763"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:167574) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:167574",
+          "namespace": "CHEBI",
+          "identifier": "167574"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134715) increases a(CHEBI:68612)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134715",
+          "namespace": "CHEBI",
+          "identifier": "134715"
+        },
+        {
+          "term": "CHEBI:68612",
+          "namespace": "CHEBI",
+          "identifier": "68612"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "81",
+      "bel_statement": "a(CHEBI:134715) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:134715",
+          "namespace": "CHEBI",
+          "identifier": "134715"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "82",
+      "bel_statement": "a(CHEBI:35526) decreases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:35526",
+          "namespace": "CHEBI",
+          "identifier": "35526"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "82",
+      "bel_statement": "a(CHEBI:35526) decreases path(MESH:D002318)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:35526",
+          "namespace": "CHEBI",
+          "identifier": "35526"
+        },
+        {
+          "term": "MESH:D002318",
+          "namespace": "MESH",
+          "identifier": "D002318"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:HSD11B1) decreases a(CHEBI:cortisol)",
+      "correct_terms": [
+        {
+          "term": "HGNC:HSD11B1",
+          "namespace": "HGNC",
+          "identifier": "HSD11B1"
+        },
+        {
+          "term": "CHEBI:cortisol",
+          "namespace": "CHEBI",
+          "identifier": "cortisol"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:GPR119) increases bp(GO:\"cAMP-mediated signaling\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:GPR119",
+          "namespace": "HGNC",
+          "identifier": "GPR119"
+        },
+        {
+          "term": "GO:cAMP-mediated signaling",
+          "namespace": "GO",
+          "identifier": "cAMP-mediated signaling"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:GPBAR1) increases a(CHEBI:\"3',5'-cyclic AMP\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:GPBAR1",
+          "namespace": "HGNC",
+          "identifier": "GPBAR1"
+        },
+        {
+          "term": "CHEBI:3',5'-cyclic AMP",
+          "namespace": "CHEBI",
+          "identifier": "3',5'-cyclic AMP"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:GPBAR1) increases bp(GO:secretion)",
+      "correct_terms": [
+        {
+          "term": "HGNC:GPBAR1",
+          "namespace": "HGNC",
+          "identifier": "GPBAR1"
+        },
+        {
+          "term": "GO:secretion",
+          "namespace": "GO",
+          "identifier": "secretion"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:SIRT1) increases bp(GO:\"glucose homeostasis\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:SIRT1",
+          "namespace": "HGNC",
+          "identifier": "SIRT1"
+        },
+        {
+          "term": "GO:glucose homeostasis",
+          "namespace": "GO",
+          "identifier": "glucose homeostasis"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:SLC5A2) increases bp(GO:\"glucose homeostasis\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC5A2",
+          "namespace": "HGNC",
+          "identifier": "SLC5A2"
+        },
+        {
+          "term": "GO:glucose homeostasis",
+          "namespace": "GO",
+          "identifier": "glucose homeostasis"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:FFAR1) increases bp(GO:secretion)",
+      "correct_terms": [
+        {
+          "term": "HGNC:FFAR1",
+          "namespace": "HGNC",
+          "identifier": "FFAR1"
+        },
+        {
+          "term": "GO:secretion",
+          "namespace": "GO",
+          "identifier": "secretion"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:PPARG) increases bp(GO:\"glucose homeostasis\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARG",
+          "namespace": "HGNC",
+          "identifier": "PPARG"
+        },
+        {
+          "term": "GO:glucose homeostasis",
+          "namespace": "GO",
+          "identifier": "glucose homeostasis"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:PPARG) decreases bp(GO:\"inflammatory response\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARG",
+          "namespace": "HGNC",
+          "identifier": "PPARG"
+        },
+        {
+          "term": "GO:inflammatory response",
+          "namespace": "GO",
+          "identifier": "inflammatory response"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:MATK) decreases bp(GO:\"apoptotic process\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:MATK",
+          "namespace": "HGNC",
+          "identifier": "MATK"
+        },
+        {
+          "term": "GO:apoptotic process",
+          "namespace": "GO",
+          "identifier": "apoptotic process"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:MATK) increases bp(GO:\"insulin secretion\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:MATK",
+          "namespace": "HGNC",
+          "identifier": "MATK"
+        },
+        {
+          "term": "GO:insulin secretion",
+          "namespace": "GO",
+          "identifier": "insulin secretion"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:IDE) decreases a(CHEBI:thiol)",
+      "correct_terms": [
+        {
+          "term": "HGNC:IDE",
+          "namespace": "HGNC",
+          "identifier": "IDE"
+        },
+        {
+          "term": "CHEBI:thiol",
+          "namespace": "CHEBI",
+          "identifier": "thiol"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:SLC27A5) increases a(CHEBI:\"long-chain fatty acid\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC27A5",
+          "namespace": "HGNC",
+          "identifier": "SLC27A5"
+        },
+        {
+          "term": "CHEBI:long-chain fatty acid",
+          "namespace": "CHEBI",
+          "identifier": "long-chain fatty acid"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:ADIPOQ) decreases path(MESH:Obesity)",
+      "correct_terms": [
+        {
+          "term": "HGNC:ADIPOQ",
+          "namespace": "HGNC",
+          "identifier": "ADIPOQ"
+        },
+        {
+          "term": "MESH:Obesity",
+          "namespace": "MESH",
+          "identifier": "Obesity"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:ADIPOQ) decreases path(MESH:\"Diabetes Mellitus\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:ADIPOQ",
+          "namespace": "HGNC",
+          "identifier": "ADIPOQ"
+        },
+        {
+          "term": "MESH:Diabetes Mellitus",
+          "namespace": "MESH",
+          "identifier": "Diabetes Mellitus"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:SLC2A4) increases bp(GO:exocytosis)",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC2A4",
+          "namespace": "HGNC",
+          "identifier": "SLC2A4"
+        },
+        {
+          "term": "GO:exocytosis",
+          "namespace": "GO",
+          "identifier": "exocytosis"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:SLC2A4) increases bp(GO:\"glucose homeostasis\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:SLC2A4",
+          "namespace": "HGNC",
+          "identifier": "SLC2A4"
+        },
+        {
+          "term": "GO:glucose homeostasis",
+          "namespace": "GO",
+          "identifier": "glucose homeostasis"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "83",
+      "bel_statement": "p(HGNC:PPARGC1A) decreases path(MESH:\"Diabetes Mellitus\")",
+      "correct_terms": [
+        {
+          "term": "HGNC:PPARGC1A",
+          "namespace": "HGNC",
+          "identifier": "PPARGC1A"
+        },
+        {
+          "term": "MESH:Diabetes Mellitus",
+          "namespace": "MESH",
+          "identifier": "Diabetes Mellitus"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "84",
+      "bel_statement": "path(MESH:D003920) increases a(CHEBI:17234)",
+      "correct_terms": [
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        },
+        {
+          "term": "CHEBI:17234",
+          "namespace": "CHEBI",
+          "identifier": "17234"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    },
+    {
+      "Index": "84",
+      "bel_statement": "a(CHEBI:17234) increases path(MESH:D003920)",
+      "correct_terms": [
+        {
+          "term": "CHEBI:17234",
+          "namespace": "CHEBI",
+          "identifier": "17234"
+        },
+        {
+          "term": "MESH:D003920",
+          "namespace": "MESH",
+          "identifier": "D003920"
+        }
+      ],
+      "mismatched_terms": [],
+      "score": 1.0
+    }
+  ],
+  "overall_score": 0.9865125240847784
+}
