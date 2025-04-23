@@ -61,6 +61,12 @@
                 "networkAttributes": {
                     "name": {
                         "d": "string"
+                    },
+                    "scoring_criteria": {
+                        "d": "string"
+                    },
+                    "display_order": {
+                        "d": "string"
                     }
                 }
             }
@@ -69,7 +75,9 @@
     {
         "networkAttributes": [
             {
-                "name": "LLM Text to Knowledge Graph for publication: mk002703"
+                "name": "LLM Text to Knowledge Graph for publication: mk002703",
+                "scoring_criteria": "checkbox: All correct|checkbox: Correct but could be more precise|checkbox: Post-translational modification errors|checkbox: Interaction type errors|checkbox: Identifier database errors|checkbox: Incorrect entities|checkbox: Incorrect order: source and target switched|checkbox: Not a relationship: common upstream cause instead|checkbox: Other errors|textarea: Comments",
+                "display_order": "bel_expression,evidence,text,interaction,source,target"
             }
         ]
     },
