@@ -11,7 +11,7 @@ Important Guidelines to Note:
 
 | Entity Class                                                   | Namespace | Definition                                                                                                  |
 |---------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------|
-| Human genes/proteins                                               | HGNC      | Approved symbols/names for human genes.                                                                      |
+| Human genes/proteins                                          | HGNC      | Approved symbols/names for human genes.                                                                      |
 | Human and model organism proteins                             | UniProt   | Comprehensive resource of protein sequences and functional information for human and model organisms.        |
 | Human protein families and complexes                          | FPLX   | Ontology for grouping related proteins into families, complexes, and other higher-level categories.          |
 | Small molecules, metabolites, etc.                            | ChEBI     | Chemical Entities of Biological Interest, covering small molecules, metabolites, and related compounds.      |
