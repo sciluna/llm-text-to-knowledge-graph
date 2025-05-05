@@ -1,0 +1,13 @@
+Run the test_pipeline on the annotated annotate_paragraphs in the command line:
+- To use custom prompt:
+```python test_pipeline.py \
+    --input_json test_paper_dp.json \
+    --model_provider openai \
+    --prompt_file custom_prompt.txt
+```
+- To use default prompt:
+```python test_pipeline.py \
+  --input_json test_paper_dp.json \
+  --model_provider openai
+```
+

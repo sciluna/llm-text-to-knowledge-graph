@@ -1,19 +1,12 @@
 import warnings
 import os
-import argparse
+# import argparse
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers.openai_functions import JsonKeyOutputFunctionsParser
-# from model import extraction_model 
 from bel_model import bel_extraction_model
 
 warnings.filterwarnings("ignore")
 
-_hidden = argparse.ArgumentParser(add_help=False)
-_hidden.add_argument("--prompt_file", type=str, default=None,
-                     help="Path to a custom prompt file")
-cli_args, _ = _hidden.parse_known_args()
-# use user’s prompt_file if provided, else default:
-filepath = cli_args.prompt_file or 'minimal_prompt_1.txt'
 
 
 def get_prompt(identifier, filepath):
@@ -47,14 +40,16 @@ def get_prompt(identifier, filepath):
     return ''.join(prompt)
 
 
-filepath = 'minimal_prompt_1.txt'
-prompt_identifier = 'general prompt'
-prompt = get_prompt(prompt_identifier, filepath)
-
-ann_prompt = ChatPromptTemplate.from_messages([
-    ("system", prompt),
-    ("human", "{text} | Annotations: {annotations}")
-])
+def load_prompt(prompt_file="prompt_file_v6.txt",
+                prompt_identifier="general prompt") -> str:
+    """Return just the system‑prompt text (one string)."""
+    return get_prompt(prompt_identifier, prompt_file)
 
 
-bel_extraction_chain = ann_prompt | bel_extraction_model | JsonKeyOutputFunctionsParser(key_name="interactions")
+def build_bel_extraction_chain(prompt_text: str):
+    """Return a BEL‑extraction chain that uses the supplied system‑prompt text."""
+    ann_prompt = ChatPromptTemplate.from_messages([
+        ("system", prompt_text),
+        ("human", "{text} | Annotations: {annotations}")
+    ])
+    return ann_prompt | bel_extraction_model | JsonKeyOutputFunctionsParser(key_name="interactions")

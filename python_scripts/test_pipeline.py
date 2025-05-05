@@ -1,14 +1,16 @@
 import os
+import argparse
 import json
 import warnings
 import time
 from dotenv import load_dotenv
 from typing import List
 from pydantic import BaseModel, Field
+from get_interactions import load_prompt
+from grounding_genes import annotate_paragraphs_in_json
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
-from get_interactions import prompt
 warnings.filterwarnings("ignore")
 
 load_dotenv()
@@ -187,7 +189,7 @@ def create_extraction_chain(model_provider=None):
 
 
 # Function to process text and return JSON
-def process_text_to_json(input_text, annotations="", model_provider=None):
+def process_text_to_json(input_text, annotations="", model_provider=None, prompt=None):
     if model_provider is None:
         raise ValueError("model_provider must be specified ('openai' or 'anthropic')")
 
@@ -198,10 +200,7 @@ def process_text_to_json(input_text, annotations="", model_provider=None):
         simple_annotations = annotations
 
     # Format the prompt
-    ann_prompt = ChatPromptTemplate.from_messages([
-        ("system", prompt),
-        ("human", "{text} | Annotations: {annotations}")
-    ])
+    ann_prompt = prompt
     formatted_prompt = ann_prompt.format(
         text=input_text, 
         annotations=simple_annotations
@@ -247,22 +246,22 @@ def llm_processing(paragraphs, model_provider=None):
         filtered_annotations = [ann for ann in annotations if ann.get("db") not in ("MESH", "MESHD")]
 
         # Use process_text_to_json to get JSON string
-        json_result = process_text_to_json(sentence, filtered_annotations, model_provider)
+        json_result = process_text_to_json(sentence, filtered_annotations, model_provider, prompt=prompt)
         results_dict = json.loads(json_result)
         interactions = results_dict.get('interactions', [])
-        raw_response = results_dict.get('raw_response', None)
-        error = results_dict.get('error', None)
+        # raw_response = results_dict.get('raw_response', None)
+        # error = results_dict.get('error', None)
 
         # If we have a raw response but no interactions, try to extract from raw response again
-        if raw_response and not interactions and model_provider.lower() == "anthropic":
-            interactions = parse_claude_response(raw_response)
+        # if raw_response and not interactions and model_provider.lower() == "anthropic":
+        #     interactions = parse_claude_response(raw_response)
 
         result_entry = {
             "Index": index,
             "text": sentence,
             "Results": interactions,
-            "error": error,
-            "raw_response": raw_response
+            # "error": error,
+            # "raw_response": raw_response
         }
         llm_results["LLM_extractions"].append(result_entry)
 
@@ -271,3 +270,40 @@ def llm_processing(paragraphs, model_provider=None):
     elapsed_minutes = elapsed_time / 60
     print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
     return llm_results
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run BEL extraction pipeline on input JSON.")
+    parser.add_argument(
+        "--input_json",
+        type=str,
+        required=True,
+        help="Path to the input JSON file with sentences for testing"
+    )
+    parser.add_argument(
+        "--model_provider",
+        type=str,
+        choices=["openai", "anthropic"],
+        default="openai",
+        help="Choose which model provider to use: 'openai' or 'anthropic'."
+    )
+    parser.add_argument(
+        "--prompt_file",
+        type=str,
+        default="minimal_prompt_1.txt",
+        help="Path to a custom prompt file (optional)."
+    )
+
+    args = parser.parse_args()
+
+    prompt = load_prompt(prompt_file=args.prompt_file)
+
+    with open(args.input_json) as f:
+        paragraphs = json.load(f)
+
+    annotated_paragraphs = annotate_paragraphs_in_json(paragraphs)
+    results = llm_processing(annotated_paragraphs, model_provider=args.model_provider)
+
+    with open("llm_results.json", "w") as out:
+        json.dump(results, out, indent=2)
+    print("BEL extraction completed. Results saved to llm_results.json")
