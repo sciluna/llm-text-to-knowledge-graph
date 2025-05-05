@@ -1,0 +1,1993 @@
+[
+    {
+        "CXVersion": "2.0",
+        "hasFragments": false
+    },
+    {
+        "metaData": [
+            {
+                "elementCount": 1,
+                "name": "attributeDeclarations"
+            },
+            {
+                "elementCount": 1,
+                "name": "networkAttributes"
+            },
+            {
+                "elementCount": 72,
+                "name": "nodes"
+            },
+            {
+                "elementCount": 84,
+                "name": "edges"
+            },
+            {
+                "elementCount": 1,
+                "name": "visualProperties"
+            }
+        ]
+    },
+    {
+        "attributeDeclarations": [
+            {
+                "nodes": {
+                    "label": {
+                        "d": "string"
+                    },
+                    "name": {
+                        "d": "string"
+                    },
+                    "type": {
+                        "d": "string"
+                    },
+                    "id": {
+                        "d": "string"
+                    }
+                },
+                "edges": {
+                    "interaction": {
+                        "d": "string"
+                    },
+                    "bel_expression": {
+                        "d": "string"
+                    },
+                    "text": {
+                        "d": "string"
+                    },
+                    "evidence": {
+                        "d": "string"
+                    }
+                },
+                "networkAttributes": {
+                    "name": {
+                        "d": "string"
+                    },
+                    "description": {
+                        "d": "string"
+                    },
+                    "reference": {
+                        "d": "string"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "name": "Pinna et al.: 28878689",
+                "description": "A20/TNFAIP3 Discriminates Tumor Necrosis Factor (TNF)-Induced NF-\u03baB from JNK Pathway Activation in Hepatocytes, In the liver tumor necrosis factor (TNF)-induced signaling critically regulates the immune response of non-parenchymal cells as well as proliferation and apoptosis of hepatocytes",
+                "reference": "PMID: 28878689"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "v": {
+                    "label": "tumor necrosis factor",
+                    "name": "a(CHEBI:\"tumor necrosis factor\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 1,
+                "v": {
+                    "label": "TNFAIP3",
+                    "name": "act(p(HGNC:TNFAIP3)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:11896"
+                }
+            },
+            {
+                "id": 2,
+                "v": {
+                    "label": "TNFAIP3",
+                    "name": "p(HGNC:TNFAIP3)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:11896"
+                }
+            },
+            {
+                "id": 3,
+                "v": {
+                    "label": "JNK",
+                    "name": "act(p(HGNC:JNK)",
+                    "type": "act",
+                    "id": "https://identifiers.org/FPLX:JNK"
+                }
+            },
+            {
+                "id": 4,
+                "v": {
+                    "label": "TNFAIP3",
+                    "name": "g(HGNC:TNFAIP3)",
+                    "type": "g",
+                    "id": "https://identifiers.org/HGNC:11896"
+                }
+            },
+            {
+                "id": 5,
+                "v": {
+                    "label": "caspase-3",
+                    "name": "act(p(HGNC:caspase-3)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 6,
+                "v": {
+                    "label": "TNF",
+                    "name": "p(HGNC:TNF)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:11892"
+                }
+            },
+            {
+                "id": 7,
+                "v": {
+                    "label": "inflammatory response",
+                    "name": "bp(GO:\"inflammatory response\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0006954"
+                }
+            },
+            {
+                "id": 8,
+                "v": {
+                    "label": "hepatocyte proliferation",
+                    "name": "bp(GO:\"hepatocyte proliferation\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0072574"
+                }
+            },
+            {
+                "id": 9,
+                "v": {
+                    "label": "tumorigenesis",
+                    "name": "bp(GO:\"tumorigenesis\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 10,
+                "v": {
+                    "label": "IKBKA",
+                    "name": "p(UniProt:IKBKA)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 11,
+                "v": {
+                    "label": "negative regulation of NF-kappaB signaling",
+                    "name": "bp(GO:\"negative regulation of NF-kappaB signaling\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 12,
+                "v": {
+                    "label": "TNFAIP3",
+                    "name": "p(UniProt:TNFAIP3)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:11896"
+                }
+            },
+            {
+                "id": 13,
+                "v": {
+                    "label": "Q9Y6B0",
+                    "name": "p(UniProt:Q9Y6B0)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 14,
+                "v": {
+                    "label": "Q9Y6B0",
+                    "name": "sec(p(UniProt:Q9Y6B0)",
+                    "type": "sec"
+                }
+            },
+            {
+                "id": 15,
+                "v": {
+                    "label": "NF-kappaB signaling",
+                    "name": "bp(GO:\"NF-kappaB signaling\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 16,
+                "v": {
+                    "label": "anti-apoptotic process",
+                    "name": "bp(GO:\"anti-apoptotic process\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 17,
+                "v": {
+                    "label": "apoptotic process",
+                    "name": "bp(GO:\"apoptotic process\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0006915"
+                }
+            },
+            {
+                "id": 18,
+                "v": {
+                    "label": "JNK signaling",
+                    "name": "bp(GO:\"JNK signaling\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 19,
+                "v": {
+                    "label": "TNF-mediated signaling pathway",
+                    "name": "bp(GO:\"TNF-mediated signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 20,
+                "v": {
+                    "label": "NF-kappaB signaling pathway",
+                    "name": "bp(GO:\"NF-kappaB signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 21,
+                "v": {
+                    "label": "JNK signaling pathway",
+                    "name": "bp(GO:\"JNK signaling pathway\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 22,
+                "v": {
+                    "label": "negative feedback regulation",
+                    "name": "bp(GO:\"negative feedback regulation\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 23,
+                "v": {
+                    "label": "cell functionality",
+                    "name": "bp(GO:\"cell functionality\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 24,
+                "v": {
+                    "label": "A20",
+                    "name": "g(HGNC:A20)",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 25,
+                "v": {
+                    "label": "Scramble siRNA",
+                    "name": "g(HGNC:Scramble siRNA)",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 26,
+                "v": {
+                    "label": "A20",
+                    "name": "p(HGNC:A20)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 27,
+                "v": {
+                    "label": "A20, pmod(Ph, Myc, unspecified",
+                    "name": "p(HGNC:A20, pmod(Ph, Myc, unspecified)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 28,
+                "v": {
+                    "label": "Firefly luciferase",
+                    "name": "a(CHEBI:\"Firefly luciferase\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 29,
+                "v": {
+                    "label": "Renilla luciferase",
+                    "name": "a(CHEBI:\"Renilla luciferase\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 30,
+                "v": {
+                    "label": "NF-kappaB-activator MEKK",
+                    "name": "a(CHEBI:\"NF-kappaB-activator MEKK\")",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 31,
+                "v": {
+                    "label": "response to TNF",
+                    "name": "bp(GO:\"response to TNF\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 32,
+                "v": {
+                    "label": "dynamic response",
+                    "name": "bp(GO:\"dynamic response\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 33,
+                "v": {
+                    "label": "p65",
+                    "name": "a(UniProt:p65)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 34,
+                "v": {
+                    "label": "p65",
+                    "name": "act(p(UniProt:p65)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 35,
+                "v": {
+                    "label": "IkappaBalpha",
+                    "name": "a(UniProt:IkappaBalpha)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 36,
+                "v": {
+                    "label": "IkappaBalpha",
+                    "name": "act(p(UniProt:IkappaBalpha)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 37,
+                "v": {
+                    "label": "A20",
+                    "name": "a(UniProt:A20)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 38,
+                "v": {
+                    "label": "IKBKA",
+                    "name": "g(HGNC:IKBKA)",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 39,
+                "v": {
+                    "label": "TNFR1",
+                    "name": "a(HGNC:TNFR1)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 40,
+                "v": {
+                    "label": "IkappaB-alpha",
+                    "name": "p(HGNC:IkappaB-alpha)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 41,
+                "v": {
+                    "label": "p65",
+                    "name": "p(HGNC:p65)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 42,
+                "v": {
+                    "label": "JNK",
+                    "name": "p(HGNC:JNK)",
+                    "type": "p",
+                    "id": "https://identifiers.org/FPLX:JNK"
+                }
+            },
+            {
+                "id": 43,
+                "v": {
+                    "label": "IKBKA",
+                    "name": "a(HGNC:IKBKA)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 44,
+                "v": {
+                    "label": "IKBKB",
+                    "name": "a(HGNC:IKBKB)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 45,
+                "v": {
+                    "label": "RELA",
+                    "name": "a(HGNC:RELA)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:9955"
+                }
+            },
+            {
+                "id": 46,
+                "v": {
+                    "label": "IKBKA",
+                    "name": "r(HGNC:IKBKA)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 47,
+                "v": {
+                    "label": "IKBKA",
+                    "name": "p(HGNC:IKBKA)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 48,
+                "v": {
+                    "label": "NFKB1",
+                    "name": "p(HGNC:NFKB1)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 49,
+                "v": {
+                    "label": "NFKB1",
+                    "name": "r(HGNC:NFKB1)",
+                    "type": "r"
+                }
+            },
+            {
+                "id": 50,
+                "v": {
+                    "label": "TNF",
+                    "name": "a(CHEBI:\"TNF\")",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:11892"
+                }
+            },
+            {
+                "id": 51,
+                "v": {
+                    "label": "NFKBIA",
+                    "name": "p(HGNC:NFKBIA)",
+                    "type": "p",
+                    "id": "https://identifiers.org/HGNC:7797"
+                }
+            },
+            {
+                "id": 52,
+                "v": {
+                    "label": "JUN",
+                    "name": "p(HGNC:JUN)",
+                    "type": "p"
+                }
+            },
+            {
+                "id": 53,
+                "v": {
+                    "label": "negative regulation of JNK signaling",
+                    "name": "bp(GO:\"negative regulation of JNK signaling\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 54,
+                "v": {
+                    "label": "NFKB1",
+                    "name": "act(p(HGNC:NFKB1)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 55,
+                "v": {
+                    "label": "response to tumor necrosis factor",
+                    "name": "bp(GO:\"response to tumor necrosis factor\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 56,
+                "v": {
+                    "label": "Q9D0B0",
+                    "name": "act(p(UNI:Q9D0B0)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 57,
+                "v": {
+                    "label": "A20",
+                    "name": "a(CHEBI:A20)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 58,
+                "v": {
+                    "label": "NFKB",
+                    "name": "act(p(HGNC:NFKB)",
+                    "type": "act"
+                }
+            },
+            {
+                "id": 59,
+                "v": {
+                    "label": "CASP3",
+                    "name": "act(p(HGNC:CASP3)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:1504"
+                }
+            },
+            {
+                "id": 60,
+                "v": {
+                    "label": "A20",
+                    "name": "a(HGNC:A20)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 61,
+                "v": {
+                    "label": "programmed cell death",
+                    "name": "bp(GO:\"programmed cell death\")",
+                    "type": "bp",
+                    "id": "https://identifiers.org/GO:0012501"
+                }
+            },
+            {
+                "id": 62,
+                "v": {
+                    "label": "CASP8",
+                    "name": "act(p(HGNC:CASP8)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:1509"
+                }
+            },
+            {
+                "id": 63,
+                "v": {
+                    "label": "TNF",
+                    "name": "a(CHEBI:TNF)",
+                    "type": "a",
+                    "id": "https://identifiers.org/HGNC:11892"
+                }
+            },
+            {
+                "id": 64,
+                "v": {
+                    "label": "cell proliferation",
+                    "name": "bp(GO:\"cell proliferation\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 65,
+                "v": {
+                    "label": "LPS",
+                    "name": "a(CHEBI:LPS)",
+                    "type": "a"
+                }
+            },
+            {
+                "id": 66,
+                "v": {
+                    "label": "target gene",
+                    "name": "g(HGNC:target gene)",
+                    "type": "g"
+                }
+            },
+            {
+                "id": 67,
+                "v": {
+                    "label": "liver damage",
+                    "name": "bp(GO:\"liver damage\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 68,
+                "v": {
+                    "label": "chronic hepatitis C virus infection",
+                    "name": "bp(GO:\"chronic hepatitis C virus infection\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 69,
+                "v": {
+                    "label": "cell survival",
+                    "name": "bp(GO:\"cell survival\")",
+                    "type": "bp"
+                }
+            },
+            {
+                "id": 70,
+                "v": {
+                    "label": "IQGAP2",
+                    "name": "act(p(UniProt:IQGAP2)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:6111"
+                }
+            },
+            {
+                "id": 71,
+                "v": {
+                    "label": "SQSTM1",
+                    "name": "act(p(UniProt:SQSTM1)",
+                    "type": "act",
+                    "id": "https://identifiers.org/HGNC:11280"
+                }
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "id": 0,
+                "s": 0,
+                "t": 1,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"tumor necrosis factor\") increases act(p(HGNC:TNFAIP3)",
+                    "text": "In the liver tumor necrosis factor (TNF)-induced signaling critically regulates the immune response of non-parenchymal cells as well as proliferation and apoptosis of hepatocytes via activation of the NF-kappaB and JNK pathways. Especially, the induction of negative feedback regulators, such as IkappaBalpha and A20 is responsible for the dynamic and time-restricted response of these important pathways. However, the precise mechanisms responsible for different TNF-induced phenotypes under physiological stimulation conditions are not completely understood so far. In addition, it is not known if varying TNF concentrations may differentially affect the desensitization properties of both pathways. By using computational modeling, we first showed that TNF-induced activation and downstream signaling is qualitatively comparable between primary mouse hepatocytes and immortalized hepatocellular carcinoma (HCC) cells. In order to define physiologically relevant TNF levels, which allow for an adjustable and dynamic NF-kappaB/JNK pathway response in parenchymal liver cells, a range of cytokine concentrations was defined that led to gradual pathway responses in HCC cells (1-5 ng/ml). Repeated stimulations with low (1 ng/ml), medium (2.5 ng/ml) and high (5 ng/ml) TNF amounts demonstrated that JNK signaling was still active at cytokine concentrations, which led to dampened NF-kappaB signaling illustrating differential pathway responsiveness depending on TNF input dynamics. SiRNA-mediated inhibition of the negative feedback regulator A20 (syn. TNFAIP3) or its overexpression did not significantly affect the NF-kappaB response. In contrast, A20 silencing increased the JNK response, while its overexpression dampened JNK phosphorylation. In addition, the A20 knockdown sensitized hepatocellular cells to TNF-induced cleavage and activity of the effector caspase-3. In conclusion, a mathematical model-based approach shows that the TNF-induced pathway responses are qualitatively comparable in primary and immortalized mouse hepatocytes. The cytokine amount defines the pathway responsiveness under repeated treatment conditions with NF-kappaB signaling being dampened 'earlier' than JNK. A20 appears to be the molecular switch discriminating between NF-kappaB and JNK signaling when stimulating with varying physiological cytokine concentrations.",
+                    "evidence": "SiRNA-mediated inhibition of the negative feedback regulator A20 (syn. TNFAIP3) or its overexpression did not significantly affect the NF-kappaB response."
+                }
+            },
+            {
+                "id": 1,
+                "s": 2,
+                "t": 3,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:TNFAIP3) decreases act(p(HGNC:JNK)",
+                    "text": "In the liver tumor necrosis factor (TNF)-induced signaling critically regulates the immune response of non-parenchymal cells as well as proliferation and apoptosis of hepatocytes via activation of the NF-kappaB and JNK pathways. Especially, the induction of negative feedback regulators, such as IkappaBalpha and A20 is responsible for the dynamic and time-restricted response of these important pathways. However, the precise mechanisms responsible for different TNF-induced phenotypes under physiological stimulation conditions are not completely understood so far. In addition, it is not known if varying TNF concentrations may differentially affect the desensitization properties of both pathways. By using computational modeling, we first showed that TNF-induced activation and downstream signaling is qualitatively comparable between primary mouse hepatocytes and immortalized hepatocellular carcinoma (HCC) cells. In order to define physiologically relevant TNF levels, which allow for an adjustable and dynamic NF-kappaB/JNK pathway response in parenchymal liver cells, a range of cytokine concentrations was defined that led to gradual pathway responses in HCC cells (1-5 ng/ml). Repeated stimulations with low (1 ng/ml), medium (2.5 ng/ml) and high (5 ng/ml) TNF amounts demonstrated that JNK signaling was still active at cytokine concentrations, which led to dampened NF-kappaB signaling illustrating differential pathway responsiveness depending on TNF input dynamics. SiRNA-mediated inhibition of the negative feedback regulator A20 (syn. TNFAIP3) or its overexpression did not significantly affect the NF-kappaB response. In contrast, A20 silencing increased the JNK response, while its overexpression dampened JNK phosphorylation. In addition, the A20 knockdown sensitized hepatocellular cells to TNF-induced cleavage and activity of the effector caspase-3. In conclusion, a mathematical model-based approach shows that the TNF-induced pathway responses are qualitatively comparable in primary and immortalized mouse hepatocytes. The cytokine amount defines the pathway responsiveness under repeated treatment conditions with NF-kappaB signaling being dampened 'earlier' than JNK. A20 appears to be the molecular switch discriminating between NF-kappaB and JNK signaling when stimulating with varying physiological cytokine concentrations.",
+                    "evidence": "In contrast, A20 silencing increased the JNK response, while its overexpression dampened JNK phosphorylation."
+                }
+            },
+            {
+                "id": 2,
+                "s": 4,
+                "t": 3,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:TNFAIP3) decreases act(p(HGNC:JNK)",
+                    "text": "In the liver tumor necrosis factor (TNF)-induced signaling critically regulates the immune response of non-parenchymal cells as well as proliferation and apoptosis of hepatocytes via activation of the NF-kappaB and JNK pathways. Especially, the induction of negative feedback regulators, such as IkappaBalpha and A20 is responsible for the dynamic and time-restricted response of these important pathways. However, the precise mechanisms responsible for different TNF-induced phenotypes under physiological stimulation conditions are not completely understood so far. In addition, it is not known if varying TNF concentrations may differentially affect the desensitization properties of both pathways. By using computational modeling, we first showed that TNF-induced activation and downstream signaling is qualitatively comparable between primary mouse hepatocytes and immortalized hepatocellular carcinoma (HCC) cells. In order to define physiologically relevant TNF levels, which allow for an adjustable and dynamic NF-kappaB/JNK pathway response in parenchymal liver cells, a range of cytokine concentrations was defined that led to gradual pathway responses in HCC cells (1-5 ng/ml). Repeated stimulations with low (1 ng/ml), medium (2.5 ng/ml) and high (5 ng/ml) TNF amounts demonstrated that JNK signaling was still active at cytokine concentrations, which led to dampened NF-kappaB signaling illustrating differential pathway responsiveness depending on TNF input dynamics. SiRNA-mediated inhibition of the negative feedback regulator A20 (syn. TNFAIP3) or its overexpression did not significantly affect the NF-kappaB response. In contrast, A20 silencing increased the JNK response, while its overexpression dampened JNK phosphorylation. In addition, the A20 knockdown sensitized hepatocellular cells to TNF-induced cleavage and activity of the effector caspase-3. In conclusion, a mathematical model-based approach shows that the TNF-induced pathway responses are qualitatively comparable in primary and immortalized mouse hepatocytes. The cytokine amount defines the pathway responsiveness under repeated treatment conditions with NF-kappaB signaling being dampened 'earlier' than JNK. A20 appears to be the molecular switch discriminating between NF-kappaB and JNK signaling when stimulating with varying physiological cytokine concentrations.",
+                    "evidence": "In contrast, A20 silencing increased the JNK response, while its overexpression dampened JNK phosphorylation."
+                }
+            },
+            {
+                "id": 3,
+                "s": 4,
+                "t": 5,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:TNFAIP3) increases act(p(HGNC:caspase-3)",
+                    "text": "In the liver tumor necrosis factor (TNF)-induced signaling critically regulates the immune response of non-parenchymal cells as well as proliferation and apoptosis of hepatocytes via activation of the NF-kappaB and JNK pathways. Especially, the induction of negative feedback regulators, such as IkappaBalpha and A20 is responsible for the dynamic and time-restricted response of these important pathways. However, the precise mechanisms responsible for different TNF-induced phenotypes under physiological stimulation conditions are not completely understood so far. In addition, it is not known if varying TNF concentrations may differentially affect the desensitization properties of both pathways. By using computational modeling, we first showed that TNF-induced activation and downstream signaling is qualitatively comparable between primary mouse hepatocytes and immortalized hepatocellular carcinoma (HCC) cells. In order to define physiologically relevant TNF levels, which allow for an adjustable and dynamic NF-kappaB/JNK pathway response in parenchymal liver cells, a range of cytokine concentrations was defined that led to gradual pathway responses in HCC cells (1-5 ng/ml). Repeated stimulations with low (1 ng/ml), medium (2.5 ng/ml) and high (5 ng/ml) TNF amounts demonstrated that JNK signaling was still active at cytokine concentrations, which led to dampened NF-kappaB signaling illustrating differential pathway responsiveness depending on TNF input dynamics. SiRNA-mediated inhibition of the negative feedback regulator A20 (syn. TNFAIP3) or its overexpression did not significantly affect the NF-kappaB response. In contrast, A20 silencing increased the JNK response, while its overexpression dampened JNK phosphorylation. In addition, the A20 knockdown sensitized hepatocellular cells to TNF-induced cleavage and activity of the effector caspase-3. In conclusion, a mathematical model-based approach shows that the TNF-induced pathway responses are qualitatively comparable in primary and immortalized mouse hepatocytes. The cytokine amount defines the pathway responsiveness under repeated treatment conditions with NF-kappaB signaling being dampened 'earlier' than JNK. A20 appears to be the molecular switch discriminating between NF-kappaB and JNK signaling when stimulating with varying physiological cytokine concentrations.",
+                    "evidence": "In addition, the A20 knockdown sensitized hepatocellular cells to TNF-induced cleavage and activity of the effector caspase-3."
+                }
+            },
+            {
+                "id": 4,
+                "s": 6,
+                "t": 7,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TNF) increases bp(GO:\"inflammatory response\")",
+                    "text": "The role of the cytokine tumor necrosis factor (TNF) in the liver has been investigated intensively. Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+                    "evidence": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes."
+                }
+            },
+            {
+                "id": 5,
+                "s": 6,
+                "t": 8,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TNF) increases bp(GO:\"hepatocyte proliferation\")",
+                    "text": "The role of the cytokine tumor necrosis factor (TNF) in the liver has been investigated intensively. Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+                    "evidence": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with hepatocyte proliferation in response to acute or chronic liver damage."
+                }
+            },
+            {
+                "id": 6,
+                "s": 6,
+                "t": 9,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:TNF) increases bp(GO:\"tumorigenesis\")",
+                    "text": "The role of the cytokine tumor necrosis factor (TNF) in the liver has been investigated intensively. Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+                    "evidence": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with tumorigenesis."
+                }
+            },
+            {
+                "id": 7,
+                "s": 10,
+                "t": 11,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:IKBKA) increases bp(GO:\"negative regulation of NF-kappaB signaling\")",
+                    "text": "The hepatocellular response upon TNF stimulation is based on a sequence of post-translational modifications occurring downstream of the TNF receptor (TNFRI) with several proteins organized in the signalosome (Ruland,). Binding of TNF to TNFRI sequentially activates the mitogen-activated protein kinase kinase kinase 7 (MAP3K7/MEKK7, syn: TAK1) followed by the recruitment of receptor-interacting serine/threonine-protein kinase 1 (RIPK1) and additional scaffold proteins (e.g., TAB, TRAF) to the signalosome. Transiently activated TAK1 is then mediating the phosphorylation of both IKKss and MKK4/7 leading to the activation of NF-kappaB and p38/JNK signaling, respectively (Wullaert et al.,). Importantly, direct transcriptional NF-kappaB targets, such as TNF alpha-induced protein 3 (TNFAIP3, synonym: A20) or nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha (IkappaBalpha) are essential for the fast and efficient shut-down of this pathway in terms of a negative feedback regulation (Ruland,).",
+                    "evidence": "Importantly, direct transcriptional NF-kappaB targets, such as TNF alpha-induced protein 3 (TNFAIP3, synonym: A20) or nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha (IkappaBalpha) are essential for the fast and efficient shut-down of this pathway in terms of a negative feedback regulation."
+                }
+            },
+            {
+                "id": 8,
+                "s": 12,
+                "t": 11,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:TNFAIP3) increases bp(GO:\"negative regulation of NF-kappaB signaling\")",
+                    "text": "The hepatocellular response upon TNF stimulation is based on a sequence of post-translational modifications occurring downstream of the TNF receptor (TNFRI) with several proteins organized in the signalosome (Ruland,). Binding of TNF to TNFRI sequentially activates the mitogen-activated protein kinase kinase kinase 7 (MAP3K7/MEKK7, syn: TAK1) followed by the recruitment of receptor-interacting serine/threonine-protein kinase 1 (RIPK1) and additional scaffold proteins (e.g., TAB, TRAF) to the signalosome. Transiently activated TAK1 is then mediating the phosphorylation of both IKKss and MKK4/7 leading to the activation of NF-kappaB and p38/JNK signaling, respectively (Wullaert et al.,). Importantly, direct transcriptional NF-kappaB targets, such as TNF alpha-induced protein 3 (TNFAIP3, synonym: A20) or nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha (IkappaBalpha) are essential for the fast and efficient shut-down of this pathway in terms of a negative feedback regulation (Ruland,).",
+                    "evidence": "Importantly, direct transcriptional NF-kappaB targets, such as TNF alpha-induced protein 3 (TNFAIP3, synonym: A20) or nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha (IkappaBalpha) are essential for the fast and efficient shut-down of this pathway in terms of a negative feedback regulation."
+                }
+            },
+            {
+                "id": 9,
+                "s": 13,
+                "t": 14,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(UniProt:Q9Y6B0) increases sec(p(UniProt:Q9Y6B0)",
+                    "text": "IkappaBalpha and A20 interfere with the TNF-induced response at different levels. While IkappaBalpha binds and inactivates the NF-kappaB dimers containing the subunit p65, A20 terminates the pathway response upstream of the IKK complex and therefore affects both the NF-kappaB and JNK response (Ruland,). Remarkably, A20 contains both a deubiquitinase domain catalyzing K63 ubiquitin cleavage from RIPK1 and an E3 ubiquitin ligase domain facilitating K48 ubiquitin binding, which is associated with RIPK1 degradation (Ma and Malynn,). Depending on the cell type these feedback mechanisms efficiently desensitize the TNF-induced NF-kappaB axis for 60-100 min after stimulation with TNF (refractory range) (Ashall et al.,). Notably, recent data demonstrated that the refractory time is not static. Instead this phase represents an adjustable system, which is regulated in an A20-dependent manner with direct impact on the secretome of cells and the authors hypothesized that this dynamic system is part of an inherent mechanism controlling the cellular inflammatory response (Adamson et al.,). However, it is unclear if and how existing feedback mechanisms differentially affect the downstream effector pathways induced by TNF in order to induce adjustable NF-kappaB and JNK responses.",
+                    "evidence": "this phase represents an adjustable system, which is regulated in an A20-dependent manner with direct impact on the secretome of cells."
+                }
+            },
+            {
+                "id": 10,
+                "s": 15,
+                "t": 16,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling\") increases bp(GO:\"anti-apoptotic process\")",
+                    "text": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,). This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis followed by the production of reactive oxygen species (ROS) (Chen et al.,). Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,), suggesting the existence of intra-cellular decision making processes discriminating between cyto-protection via NF-kappaB and programmed cell death via JNK. However, the functional duality of this system is a matter of debate and precise mechanisms regulating hepatocellular cell fate are not well understood.",
+                    "evidence": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties."
+                }
+            },
+            {
+                "id": 11,
+                "s": 15,
+                "t": 17,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling\") decreases bp(GO:\"apoptotic process\")",
+                    "text": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,). This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis followed by the production of reactive oxygen species (ROS) (Chen et al.,). Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,), suggesting the existence of intra-cellular decision making processes discriminating between cyto-protection via NF-kappaB and programmed cell death via JNK. However, the functional duality of this system is a matter of debate and precise mechanisms regulating hepatocellular cell fate are not well understood.",
+                    "evidence": "This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis."
+                }
+            },
+            {
+                "id": 12,
+                "s": 18,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"JNK signaling\") increases bp(GO:\"apoptotic process\")",
+                    "text": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,). This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis followed by the production of reactive oxygen species (ROS) (Chen et al.,). Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,), suggesting the existence of intra-cellular decision making processes discriminating between cyto-protection via NF-kappaB and programmed cell death via JNK. However, the functional duality of this system is a matter of debate and precise mechanisms regulating hepatocellular cell fate are not well understood.",
+                    "evidence": "This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis."
+                }
+            },
+            {
+                "id": 13,
+                "s": 19,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"TNF-mediated signaling pathway\") increases bp(GO:\"apoptotic process\")",
+                    "text": "The interpretation of the TNF input by the receptor/signalosome complex is central to understand this type of decision-making process. For example, a previous study showed that apoptosis signal-regulating kinase 1 (ASK1) is involved in the TNF-mediated induction of persistent JNK activity and induction of apoptosis (Tobiume et al.,). These data suggest that the type of cytokine input (single vs. repeated stimulation) may affect TNF-downstream effectors and subsequently cell biology. How the mode of pathway activation modulates the cellular behavior in terms of a decision making process has not been analyzed, yet.",
+                    "evidence": "a previous study showed that apoptosis signal-regulating kinase 1 (ASK1) is involved in the TNF-mediated induction of persistent JNK activity and induction of apoptosis."
+                }
+            },
+            {
+                "id": 14,
+                "s": 20,
+                "t": 21,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling pathway\") increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "In this study we want to answer how variable and multiple TNF stimulations may adjust the NF-kappaB and JNK pathway response in hepatocellular cells. For this, we first combine experimental data and mathematical modeling to compare the dynamic NF-kappaB and JNK pathway response in primary hepatocytes and liver cancer cells. Second, the differential NF-kappaB and JNK pathway responses upon single and multiple TNF activation were analyzed. Lastly, the impact of the negative feedback regulator A20 as molecular switch on pathway activity and cell functionality was determined.",
+                    "evidence": "In this study we want to answer how variable and multiple TNF stimulations may adjust the NF-kappaB and JNK pathway response in hepatocellular cells."
+                }
+            },
+            {
+                "id": 15,
+                "s": 22,
+                "t": 23,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"negative feedback regulation\") increases bp(GO:\"cell functionality\")",
+                    "text": "In this study we want to answer how variable and multiple TNF stimulations may adjust the NF-kappaB and JNK pathway response in hepatocellular cells. For this, we first combine experimental data and mathematical modeling to compare the dynamic NF-kappaB and JNK pathway response in primary hepatocytes and liver cancer cells. Second, the differential NF-kappaB and JNK pathway responses upon single and multiple TNF activation were analyzed. Lastly, the impact of the negative feedback regulator A20 as molecular switch on pathway activity and cell functionality was determined.",
+                    "evidence": "Lastly, the impact of the negative feedback regulator A20 as molecular switch on pathway activity and cell functionality was determined."
+                }
+            },
+            {
+                "id": 16,
+                "s": 24,
+                "t": 25,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "g(HGNC:A20) decreases g(HGNC:Scramble siRNA)",
+                    "text": "Hepa1-6 cells were seeded at 1.5 x 105 on 6 cm2 dishes 24 h prior to transfection. RNA-interference experiments were performed using the cationic carrier Oligofectamin (Life Technologies) according to the manufacturer's protocol. Each experiment included gene specific siRNA for A20 (GGG UAG GUU UGA AGA CUU A-dTdT) and Scramble siRNA (UGG UUU ACA UGU CGA CUA A-dTdT, Thermo Fisher Scientific, Ulm, Germany; final concentration: 100 nM). Fourty-eight hours after siRNA-transfection, cells were used for TNF time course experiments.",
+                    "evidence": "Each experiment included gene specific siRNA for A20 (GGG UAG GUU UGA AGA CUU A-dTdT) and Scramble siRNA (UGG UUU ACA UGU CGA CUA A-dTdT, Thermo Fisher Scientific, Ulm, Germany; final concentration: 100 nM)."
+                }
+            },
+            {
+                "id": 17,
+                "s": 26,
+                "t": 27,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:A20) increases p(HGNC:A20, pmod(Ph, Myc, unspecified)",
+                    "text": "For vector transfection, Hepa1-6 cells were seeded at 1.5 x 105 on 6 cm2 dishes 24 h before transfection. Attractene was used according the manufacturers' protocol (Qiagen, Hilden, Germany). For transfection experiments, A20 was cloned into the pCMV6-Entry vector creating a A20-myc-ddk fusion transcript (mTNM_001166402; Origene, Frankfurt, Germany). Fourty-eight hours after vector transfection, cells were used for TNF time course experiments. The pCMV6-A20 vector was validated by sequencing. For transfection efficiency estimation, cells were transfected with pMaxvector according to the manufacturer's instructions (Lonza, Walkersville, USA). Forty-eight hours after transfection GFP-positive cells were determined by FACS analysis.",
+                    "evidence": "For transfection experiments, A20 was cloned into the pCMV6-Entry vector creating a A20-myc-ddk fusion transcript."
+                }
+            },
+            {
+                "id": 18,
+                "s": 28,
+                "t": 29,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"Firefly luciferase\") increases a(CHEBI:\"Renilla luciferase\")",
+                    "text": "Luciferase gene reporter assays were performed as previously described (Weiler et al.,). Cells were transfected with plasmids containing NF-kappaB promoter elements fused to Firefly luciferase (pNF-kappaB-luc, Agilent, Waldbronn, Germany) and with Renilla Luciferase (pRL-CMV, Promega, Mannheim, Germany) at a ratio of 2:1 using Fugene HD transfection reagent (Promega) according to the manufacturer's instructions. Luciferase activity was measured 48 h after transfection using the Dual-Luciferase Reporter Assay System (Promega). Firefly luciferase activity was normalized to Renilla Luciferase activity. As positive control a plasmid containing NF-kappaB-activator MEKK was used (pFC-MEKK, Agilent, Waldbronn, Germany).",
+                    "evidence": "Firefly luciferase activity was normalized to Renilla Luciferase activity."
+                }
+            },
+            {
+                "id": 19,
+                "s": 30,
+                "t": 28,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"NF-kappaB-activator MEKK\") increases a(CHEBI:\"Firefly luciferase\")",
+                    "text": "Luciferase gene reporter assays were performed as previously described (Weiler et al.,). Cells were transfected with plasmids containing NF-kappaB promoter elements fused to Firefly luciferase (pNF-kappaB-luc, Agilent, Waldbronn, Germany) and with Renilla Luciferase (pRL-CMV, Promega, Mannheim, Germany) at a ratio of 2:1 using Fugene HD transfection reagent (Promega) according to the manufacturer's instructions. Luciferase activity was measured 48 h after transfection using the Dual-Luciferase Reporter Assay System (Promega). Firefly luciferase activity was normalized to Renilla Luciferase activity. As positive control a plasmid containing NF-kappaB-activator MEKK was used (pFC-MEKK, Agilent, Waldbronn, Germany).",
+                    "evidence": "As positive control a plasmid containing NF-kappaB-activator MEKK was used (pFC-MEKK, Agilent, Waldbronn, Germany)."
+                }
+            },
+            {
+                "id": 20,
+                "s": 20,
+                "t": 31,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling pathway\") increases bp(GO:\"response to TNF\")",
+                    "text": "In order to substantiate our assumption of equivalence between primary hepatocytes and immortalized hepatocellular carcinoma (HCC) cells we decided to perform a quantitative modeling approach to test whether an established model for primary hepatocytes can be adapted to fit the data from Hepa1-6 and Hep56 cells (Beuke et al.,). The methodological assumption was that the model represented and integrated quantitative information from previous experiments. The ODE-based model was originally created to describe data from primary mouse hepatocytes after TNF stimulation (Pinna et al.,) and was extended and tested to qualitatively describe time-resolved, dynamic response of NF-kappaB signaling to various doses of TNF (Beuke et al.,). To confirm equivalence of processes in the different cell types it was required that the mathematical model could be adjusted to the observations in Hepa1-6 cells without changes in the model structure or to parameters describing biochemical properties of the molecules, such as Km values. Justifiable model adjustments were changes in expression levels or turnover rates of signaling compounds or changes in transcription or translation rates. Since the original model comprehensively described the known relevant processes in the canonical NF-kappaB pathway it was relatively large (28 variables, 49 reactions) and consequently its parameter values were not completely identifiable. Therefore, we worked with ensembles of model parameterizations that each describe the experimental data well and that allow the generation of predictions even without complete parameter identifiabilty (Beuke et al.,). The model simulations and parameter estimations were carried out in COPASI (Mendes et al.,).",
+                    "evidence": "The ODE-based model was originally created to describe data from primary mouse hepatocytes after TNF stimulation."
+                }
+            },
+            {
+                "id": 21,
+                "s": 20,
+                "t": 32,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling pathway\") increases bp(GO:\"dynamic response\")",
+                    "text": "In order to substantiate our assumption of equivalence between primary hepatocytes and immortalized hepatocellular carcinoma (HCC) cells we decided to perform a quantitative modeling approach to test whether an established model for primary hepatocytes can be adapted to fit the data from Hepa1-6 and Hep56 cells (Beuke et al.,). The methodological assumption was that the model represented and integrated quantitative information from previous experiments. The ODE-based model was originally created to describe data from primary mouse hepatocytes after TNF stimulation (Pinna et al.,) and was extended and tested to qualitatively describe time-resolved, dynamic response of NF-kappaB signaling to various doses of TNF (Beuke et al.,). To confirm equivalence of processes in the different cell types it was required that the mathematical model could be adjusted to the observations in Hepa1-6 cells without changes in the model structure or to parameters describing biochemical properties of the molecules, such as Km values. Justifiable model adjustments were changes in expression levels or turnover rates of signaling compounds or changes in transcription or translation rates. Since the original model comprehensively described the known relevant processes in the canonical NF-kappaB pathway it was relatively large (28 variables, 49 reactions) and consequently its parameter values were not completely identifiable. Therefore, we worked with ensembles of model parameterizations that each describe the experimental data well and that allow the generation of predictions even without complete parameter identifiabilty (Beuke et al.,). The model simulations and parameter estimations were carried out in COPASI (Mendes et al.,).",
+                    "evidence": "The model was extended and tested to qualitatively describe time-resolved, dynamic response of NF-kappaB signaling to various doses of TNF."
+                }
+            },
+            {
+                "id": 22,
+                "s": 20,
+                "t": 21,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling pathway\") increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "We recently developed a computational ordinary differential equation (ODE) model for TNF-induced NF-kappaB activation based on quantitative and time-resolved experimental data derived from primary murine hepatocytes (Pinna et al.,). However, functional analysis and genetic manipulation of primary hepatocytes are technically challenging; primary hepatocytes are difficult to transfect and even minor contamination with other liver cell types (e.g., Kupffer cells) may compromise data quality and interpretation. To test if immortalized murine HCC cells (Hepa1-6) can be used as functional model for non-malignantly transformed hepatocytes, we utilized a computational approach to compare the TNF-induced NF-kappaB and JNK pathway activation.",
+                    "evidence": "To test if immortalized murine HCC cells (Hepa1-6) can be used as functional model for non-malignantly transformed hepatocytes, we utilized a computational approach to compare the TNF-induced NF-kappaB and JNK pathway activation."
+                }
+            },
+            {
+                "id": 23,
+                "s": 33,
+                "t": 34,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:p65) increases act(p(UniProt:p65)",
+                    "text": "Analyzing the expression of selected NF-kappaB pathway constituents revealed that both tested HCC (Hepa1-6 and Hep56) cell lines expressed higher p65 and IkappaBalpha protein amounts than primary hepatocytes (Figure 1A). In contrast, the total concentration of the TNFR1 was reduced in both HCC cells compared to non-malignantly transformed cells (median change: 2.5x). We then stimulated Hepa1-6 cells with TNF (10 ng/ml) and the total protein extracts were analyzed by quantitative Western immunoblotting for up to 480 min (12 time points; Figures 1B-D). As read-out, the activation of TNF downstream effectors, such as NF-kappaB (total p65, phospho-p65) and JNK (total JNK/phospho-JNK) was analyzed. In addition, the expression of the known negative feedback regulators IkappaBalpha (mRNA, protein, phosphorylation) and A20 (mRNA and total protein) was evaluated. For p65 and JNK an activation/phosphorylation with peaks around 5-10 min was detected in Hepa1-6 cells (Figures 1B,C). Total levels of IkappaBalpha showed an immediate decrease due to fast phosphorylation and concomitant proteasomal degradation followed by quick recovery to initial and higher concentrations (Figures 1B,C). A20 protein levels steadily increased 40-60 min after TNF stimulation until the end of the experiment (Figures 1C,D). In addition, real-time PCR results illustrated that the transcription of both feedback regulators was induced around 40 min after TNF administration, while the mRNA expression of other pathway constituents, such as p65 and IKKs was not affected (Figure 1E and data not shown). A similar dynamic pathway response was detected for another HCC cell line (Hep56, Supplementary Figure S1).",
+                    "evidence": "As read-out, the activation of TNF downstream effectors, such as NF-kappaB (total p65, phospho-p65) and JNK (total JNK/phospho-JNK) was analyzed."
+                }
+            },
+            {
+                "id": 24,
+                "s": 35,
+                "t": 36,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(UniProt:IkappaBalpha) decreases act(p(UniProt:IkappaBalpha)",
+                    "text": "Analyzing the expression of selected NF-kappaB pathway constituents revealed that both tested HCC (Hepa1-6 and Hep56) cell lines expressed higher p65 and IkappaBalpha protein amounts than primary hepatocytes (Figure 1A). In contrast, the total concentration of the TNFR1 was reduced in both HCC cells compared to non-malignantly transformed cells (median change: 2.5x). We then stimulated Hepa1-6 cells with TNF (10 ng/ml) and the total protein extracts were analyzed by quantitative Western immunoblotting for up to 480 min (12 time points; Figures 1B-D). As read-out, the activation of TNF downstream effectors, such as NF-kappaB (total p65, phospho-p65) and JNK (total JNK/phospho-JNK) was analyzed. In addition, the expression of the known negative feedback regulators IkappaBalpha (mRNA, protein, phosphorylation) and A20 (mRNA and total protein) was evaluated. For p65 and JNK an activation/phosphorylation with peaks around 5-10 min was detected in Hepa1-6 cells (Figures 1B,C). Total levels of IkappaBalpha showed an immediate decrease due to fast phosphorylation and concomitant proteasomal degradation followed by quick recovery to initial and higher concentrations (Figures 1B,C). A20 protein levels steadily increased 40-60 min after TNF stimulation until the end of the experiment (Figures 1C,D). In addition, real-time PCR results illustrated that the transcription of both feedback regulators was induced around 40 min after TNF administration, while the mRNA expression of other pathway constituents, such as p65 and IKKs was not affected (Figure 1E and data not shown). A similar dynamic pathway response was detected for another HCC cell line (Hep56, Supplementary Figure S1).",
+                    "evidence": "Total levels of IkappaBalpha showed an immediate decrease due to fast phosphorylation and concomitant proteasomal degradation followed by quick recovery to initial and higher concentrations."
+                }
+            },
+            {
+                "id": 25,
+                "s": 37,
+                "t": 37,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(UniProt:A20) increases a(UniProt:A20)",
+                    "text": "Analyzing the expression of selected NF-kappaB pathway constituents revealed that both tested HCC (Hepa1-6 and Hep56) cell lines expressed higher p65 and IkappaBalpha protein amounts than primary hepatocytes (Figure 1A). In contrast, the total concentration of the TNFR1 was reduced in both HCC cells compared to non-malignantly transformed cells (median change: 2.5x). We then stimulated Hepa1-6 cells with TNF (10 ng/ml) and the total protein extracts were analyzed by quantitative Western immunoblotting for up to 480 min (12 time points; Figures 1B-D). As read-out, the activation of TNF downstream effectors, such as NF-kappaB (total p65, phospho-p65) and JNK (total JNK/phospho-JNK) was analyzed. In addition, the expression of the known negative feedback regulators IkappaBalpha (mRNA, protein, phosphorylation) and A20 (mRNA and total protein) was evaluated. For p65 and JNK an activation/phosphorylation with peaks around 5-10 min was detected in Hepa1-6 cells (Figures 1B,C). Total levels of IkappaBalpha showed an immediate decrease due to fast phosphorylation and concomitant proteasomal degradation followed by quick recovery to initial and higher concentrations (Figures 1B,C). A20 protein levels steadily increased 40-60 min after TNF stimulation until the end of the experiment (Figures 1C,D). In addition, real-time PCR results illustrated that the transcription of both feedback regulators was induced around 40 min after TNF administration, while the mRNA expression of other pathway constituents, such as p65 and IKKs was not affected (Figure 1E and data not shown). A similar dynamic pathway response was detected for another HCC cell line (Hep56, Supplementary Figure S1).",
+                    "evidence": "A20 protein levels steadily increased 40-60 min after TNF stimulation until the end of the experiment."
+                }
+            },
+            {
+                "id": 26,
+                "s": 38,
+                "t": 38,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:IKBKA) increases g(HGNC:IKBKA)",
+                    "text": "Analyzing the expression of selected NF-kappaB pathway constituents revealed that both tested HCC (Hepa1-6 and Hep56) cell lines expressed higher p65 and IkappaBalpha protein amounts than primary hepatocytes (Figure 1A). In contrast, the total concentration of the TNFR1 was reduced in both HCC cells compared to non-malignantly transformed cells (median change: 2.5x). We then stimulated Hepa1-6 cells with TNF (10 ng/ml) and the total protein extracts were analyzed by quantitative Western immunoblotting for up to 480 min (12 time points; Figures 1B-D). As read-out, the activation of TNF downstream effectors, such as NF-kappaB (total p65, phospho-p65) and JNK (total JNK/phospho-JNK) was analyzed. In addition, the expression of the known negative feedback regulators IkappaBalpha (mRNA, protein, phosphorylation) and A20 (mRNA and total protein) was evaluated. For p65 and JNK an activation/phosphorylation with peaks around 5-10 min was detected in Hepa1-6 cells (Figures 1B,C). Total levels of IkappaBalpha showed an immediate decrease due to fast phosphorylation and concomitant proteasomal degradation followed by quick recovery to initial and higher concentrations (Figures 1B,C). A20 protein levels steadily increased 40-60 min after TNF stimulation until the end of the experiment (Figures 1C,D). In addition, real-time PCR results illustrated that the transcription of both feedback regulators was induced around 40 min after TNF administration, while the mRNA expression of other pathway constituents, such as p65 and IKKs was not affected (Figure 1E and data not shown). A similar dynamic pathway response was detected for another HCC cell line (Hep56, Supplementary Figure S1).",
+                    "evidence": "real-time PCR results illustrated that the transcription of both feedback regulators was induced around 40 min after TNF administration."
+                }
+            },
+            {
+                "id": 27,
+                "s": 39,
+                "t": 26,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:TNFR1) increases p(HGNC:A20)",
+                    "text": "Dynamic activation of TNF-induced NF-kappaB and JNK pathways in mouse liver cancer cells. (A) Comparison of p65/phospho-p65, IkappaB-alpha/phospho-IkappaB-alpha, TNFR1, and A20 protein amounts in primary murine hepatocytes (pmH) and 2 mouse HCC cell lines (Hepa1-6, Hep56). The mean TNFR1 difference between both HCC cell lines and hepatocytes was calculated based on three independent experiments followed by signal quantification. (B) Exemplary Western immunoblots of protein extract isolated from Hepa1-6 cells after administration of TNF (10 ng/ml) for the indicated time-points (untreated and 5-480 min after stimulation). Signals for p65/phospho-p65, IkappaBalpha/phospho-IkappaBalpha, JNK/phospho-JNK, and the negative feedback regulator A20 were quantified and normalized to the respective loading control (actin). (C) Relative protein amounts of NF-kappaB and JNK pathways constituents in Hepa1-6 cells after single TNF administration (10 ng/ml). (D) Relative protein amounts of A20 in Hepa1-6 cells after single TNF administration (10 ng/ml). (E) Relative mRNA levels of A20 and IkappaBalpha after single TNF stimulation. Graphs in (C-E) summarize the results from three independent experiments. Bars in panel (C-E) represent standard errors.",
+                    "evidence": "Comparison of p65/phospho-p65, IkappaB-alpha/phospho-IkappaB-alpha, TNFR1, and A20 protein amounts in primary murine hepatocytes (pmH) and 2 mouse HCC cell lines (Hepa1-6, Hep56)."
+                }
+            },
+            {
+                "id": 28,
+                "s": 39,
+                "t": 40,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:TNFR1) increases p(HGNC:IkappaB-alpha)",
+                    "text": "Dynamic activation of TNF-induced NF-kappaB and JNK pathways in mouse liver cancer cells. (A) Comparison of p65/phospho-p65, IkappaB-alpha/phospho-IkappaB-alpha, TNFR1, and A20 protein amounts in primary murine hepatocytes (pmH) and 2 mouse HCC cell lines (Hepa1-6, Hep56). The mean TNFR1 difference between both HCC cell lines and hepatocytes was calculated based on three independent experiments followed by signal quantification. (B) Exemplary Western immunoblots of protein extract isolated from Hepa1-6 cells after administration of TNF (10 ng/ml) for the indicated time-points (untreated and 5-480 min after stimulation). Signals for p65/phospho-p65, IkappaBalpha/phospho-IkappaBalpha, JNK/phospho-JNK, and the negative feedback regulator A20 were quantified and normalized to the respective loading control (actin). (C) Relative protein amounts of NF-kappaB and JNK pathways constituents in Hepa1-6 cells after single TNF administration (10 ng/ml). (D) Relative protein amounts of A20 in Hepa1-6 cells after single TNF administration (10 ng/ml). (E) Relative mRNA levels of A20 and IkappaBalpha after single TNF stimulation. Graphs in (C-E) summarize the results from three independent experiments. Bars in panel (C-E) represent standard errors.",
+                    "evidence": "Comparison of p65/phospho-p65, IkappaB-alpha/phospho-IkappaB-alpha, TNFR1, and A20 protein amounts in primary murine hepatocytes (pmH) and 2 mouse HCC cell lines (Hepa1-6, Hep56)."
+                }
+            },
+            {
+                "id": 29,
+                "s": 40,
+                "t": 41,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:IkappaB-alpha) decreases p(HGNC:p65)",
+                    "text": "Dynamic activation of TNF-induced NF-kappaB and JNK pathways in mouse liver cancer cells. (A) Comparison of p65/phospho-p65, IkappaB-alpha/phospho-IkappaB-alpha, TNFR1, and A20 protein amounts in primary murine hepatocytes (pmH) and 2 mouse HCC cell lines (Hepa1-6, Hep56). The mean TNFR1 difference between both HCC cell lines and hepatocytes was calculated based on three independent experiments followed by signal quantification. (B) Exemplary Western immunoblots of protein extract isolated from Hepa1-6 cells after administration of TNF (10 ng/ml) for the indicated time-points (untreated and 5-480 min after stimulation). Signals for p65/phospho-p65, IkappaBalpha/phospho-IkappaBalpha, JNK/phospho-JNK, and the negative feedback regulator A20 were quantified and normalized to the respective loading control (actin). (C) Relative protein amounts of NF-kappaB and JNK pathways constituents in Hepa1-6 cells after single TNF administration (10 ng/ml). (D) Relative protein amounts of A20 in Hepa1-6 cells after single TNF administration (10 ng/ml). (E) Relative mRNA levels of A20 and IkappaBalpha after single TNF stimulation. Graphs in (C-E) summarize the results from three independent experiments. Bars in panel (C-E) represent standard errors.",
+                    "evidence": "Exemplary Western immunoblots of protein extract isolated from Hepa1-6 cells after administration of TNF (10 ng/ml) for the indicated time-points (untreated and 5-480 min after stimulation)."
+                }
+            },
+            {
+                "id": 30,
+                "s": 42,
+                "t": 26,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "p(HGNC:JNK) increases p(HGNC:A20)",
+                    "text": "Dynamic activation of TNF-induced NF-kappaB and JNK pathways in mouse liver cancer cells. (A) Comparison of p65/phospho-p65, IkappaB-alpha/phospho-IkappaB-alpha, TNFR1, and A20 protein amounts in primary murine hepatocytes (pmH) and 2 mouse HCC cell lines (Hepa1-6, Hep56). The mean TNFR1 difference between both HCC cell lines and hepatocytes was calculated based on three independent experiments followed by signal quantification. (B) Exemplary Western immunoblots of protein extract isolated from Hepa1-6 cells after administration of TNF (10 ng/ml) for the indicated time-points (untreated and 5-480 min after stimulation). Signals for p65/phospho-p65, IkappaBalpha/phospho-IkappaBalpha, JNK/phospho-JNK, and the negative feedback regulator A20 were quantified and normalized to the respective loading control (actin). (C) Relative protein amounts of NF-kappaB and JNK pathways constituents in Hepa1-6 cells after single TNF administration (10 ng/ml). (D) Relative protein amounts of A20 in Hepa1-6 cells after single TNF administration (10 ng/ml). (E) Relative mRNA levels of A20 and IkappaBalpha after single TNF stimulation. Graphs in (C-E) summarize the results from three independent experiments. Bars in panel (C-E) represent standard errors.",
+                    "evidence": "Signals for p65/phospho-p65, IkappaBalpha/phospho-IkappaBalpha, JNK/phospho-JNK, and the negative feedback regulator A20 were quantified and normalized to the respective loading control (actin)."
+                }
+            },
+            {
+                "id": 31,
+                "s": 38,
+                "t": 43,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:IKBKA) increases a(HGNC:IKBKA)",
+                    "text": "A first visual comparison of data derived from primary hepatocyte data and Hepa1-6 cells already illustrated a high degree of qualitative similarities between both cell types (Figure 1; Pinna et al.,). In addition, previously established mathematical models derived from primary hepatocytes were used for quantitative testing of HCC cell line kinetics (Pinna et al.,; Beuke et al.,) Model predictions were compared to measurements of IkappaBalpha, phospho-IkappaBalpha, phospho-p65, and IkappaBalpha mRNA after TNF stimulation in Hepa1-6 cells. Adjusting the IkappaBalpha transcription rate was necessary to obtain satisfying model fits with comparable quality as observed for primary cells (Beuke et al.,; Figure 2, black lines).",
+                    "evidence": "Model predictions were compared to measurements of IkappaBalpha, phospho-IkappaBalpha, phospho-p65, and IkappaBalpha mRNA after TNF stimulation in Hepa1-6 cells."
+                }
+            },
+            {
+                "id": 32,
+                "s": 38,
+                "t": 44,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:IKBKA) increases a(HGNC:IKBKB)",
+                    "text": "A first visual comparison of data derived from primary hepatocyte data and Hepa1-6 cells already illustrated a high degree of qualitative similarities between both cell types (Figure 1; Pinna et al.,). In addition, previously established mathematical models derived from primary hepatocytes were used for quantitative testing of HCC cell line kinetics (Pinna et al.,; Beuke et al.,) Model predictions were compared to measurements of IkappaBalpha, phospho-IkappaBalpha, phospho-p65, and IkappaBalpha mRNA after TNF stimulation in Hepa1-6 cells. Adjusting the IkappaBalpha transcription rate was necessary to obtain satisfying model fits with comparable quality as observed for primary cells (Beuke et al.,; Figure 2, black lines).",
+                    "evidence": "Model predictions were compared to measurements of IkappaBalpha, phospho-IkappaBalpha, phospho-p65, and IkappaBalpha mRNA after TNF stimulation in Hepa1-6 cells."
+                }
+            },
+            {
+                "id": 33,
+                "s": 38,
+                "t": 45,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:IKBKA) increases a(HGNC:RELA)",
+                    "text": "A first visual comparison of data derived from primary hepatocyte data and Hepa1-6 cells already illustrated a high degree of qualitative similarities between both cell types (Figure 1; Pinna et al.,). In addition, previously established mathematical models derived from primary hepatocytes were used for quantitative testing of HCC cell line kinetics (Pinna et al.,; Beuke et al.,) Model predictions were compared to measurements of IkappaBalpha, phospho-IkappaBalpha, phospho-p65, and IkappaBalpha mRNA after TNF stimulation in Hepa1-6 cells. Adjusting the IkappaBalpha transcription rate was necessary to obtain satisfying model fits with comparable quality as observed for primary cells (Beuke et al.,; Figure 2, black lines).",
+                    "evidence": "Model predictions were compared to measurements of IkappaBalpha, phospho-IkappaBalpha, phospho-p65, and IkappaBalpha mRNA after TNF stimulation in Hepa1-6 cells."
+                }
+            },
+            {
+                "id": 34,
+                "s": 38,
+                "t": 46,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "g(HGNC:IKBKA) increases r(HGNC:IKBKA)",
+                    "text": "A first visual comparison of data derived from primary hepatocyte data and Hepa1-6 cells already illustrated a high degree of qualitative similarities between both cell types (Figure 1; Pinna et al.,). In addition, previously established mathematical models derived from primary hepatocytes were used for quantitative testing of HCC cell line kinetics (Pinna et al.,; Beuke et al.,) Model predictions were compared to measurements of IkappaBalpha, phospho-IkappaBalpha, phospho-p65, and IkappaBalpha mRNA after TNF stimulation in Hepa1-6 cells. Adjusting the IkappaBalpha transcription rate was necessary to obtain satisfying model fits with comparable quality as observed for primary cells (Beuke et al.,; Figure 2, black lines).",
+                    "evidence": "Adjusting the IkappaBalpha transcription rate was necessary to obtain satisfying model fits with comparable quality as observed for primary cells."
+                }
+            },
+            {
+                "id": 35,
+                "s": 20,
+                "t": 0,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling pathway\") increases a(CHEBI:\"tumor necrosis factor\")",
+                    "text": "TNF-induced NF-kappaB response in Hepa1-6 cells and model simulations. Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF (symbols connected by dashed lines indicate replicates from independent experiments). Corresponding simulations (black lines) were obtained from a model that was originally created and calibrated for murine primary hepatocytes and only slightly readjusted to fit the Hepa1-6 data (Beuke et al.,). Yellow lines: simulations after reduction of TNFR1 by a factor of 2.5. Blue lines: simulations after adjustment of IKK expression. Green lines: simulations after adjustment of TNF/TNFR1 internalization.",
+                    "evidence": "TNF-induced NF-kappaB response in Hepa1-6 cells and model simulations."
+                }
+            },
+            {
+                "id": 36,
+                "s": 0,
+                "t": 47,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"tumor necrosis factor\") increases p(HGNC:IKBKA)",
+                    "text": "TNF-induced NF-kappaB response in Hepa1-6 cells and model simulations. Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF (symbols connected by dashed lines indicate replicates from independent experiments). Corresponding simulations (black lines) were obtained from a model that was originally created and calibrated for murine primary hepatocytes and only slightly readjusted to fit the Hepa1-6 data (Beuke et al.,). Yellow lines: simulations after reduction of TNFR1 by a factor of 2.5. Blue lines: simulations after adjustment of IKK expression. Green lines: simulations after adjustment of TNF/TNFR1 internalization.",
+                    "evidence": "Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF."
+                }
+            },
+            {
+                "id": 37,
+                "s": 0,
+                "t": 46,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"tumor necrosis factor\") increases r(HGNC:IKBKA)",
+                    "text": "TNF-induced NF-kappaB response in Hepa1-6 cells and model simulations. Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF (symbols connected by dashed lines indicate replicates from independent experiments). Corresponding simulations (black lines) were obtained from a model that was originally created and calibrated for murine primary hepatocytes and only slightly readjusted to fit the Hepa1-6 data (Beuke et al.,). Yellow lines: simulations after reduction of TNFR1 by a factor of 2.5. Blue lines: simulations after adjustment of IKK expression. Green lines: simulations after adjustment of TNF/TNFR1 internalization.",
+                    "evidence": "Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF."
+                }
+            },
+            {
+                "id": 38,
+                "s": 0,
+                "t": 48,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"tumor necrosis factor\") increases p(HGNC:NFKB1)",
+                    "text": "TNF-induced NF-kappaB response in Hepa1-6 cells and model simulations. Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF (symbols connected by dashed lines indicate replicates from independent experiments). Corresponding simulations (black lines) were obtained from a model that was originally created and calibrated for murine primary hepatocytes and only slightly readjusted to fit the Hepa1-6 data (Beuke et al.,). Yellow lines: simulations after reduction of TNFR1 by a factor of 2.5. Blue lines: simulations after adjustment of IKK expression. Green lines: simulations after adjustment of TNF/TNFR1 internalization.",
+                    "evidence": "Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF."
+                }
+            },
+            {
+                "id": 39,
+                "s": 0,
+                "t": 49,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"tumor necrosis factor\") increases r(HGNC:NFKB1)",
+                    "text": "TNF-induced NF-kappaB response in Hepa1-6 cells and model simulations. Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF (symbols connected by dashed lines indicate replicates from independent experiments). Corresponding simulations (black lines) were obtained from a model that was originally created and calibrated for murine primary hepatocytes and only slightly readjusted to fit the Hepa1-6 data (Beuke et al.,). Yellow lines: simulations after reduction of TNFR1 by a factor of 2.5. Blue lines: simulations after adjustment of IKK expression. Green lines: simulations after adjustment of TNF/TNFR1 internalization.",
+                    "evidence": "Measured time courses of IkappaBalpha, phospho-p65, and IkappaBalpha-mRNA after administration of 10 ng/ml TNF."
+                }
+            },
+            {
+                "id": 40,
+                "s": 39,
+                "t": 43,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:TNFR1) decreases a(HGNC:IKBKA)",
+                    "text": "Interestingly, simulations after the reduction of total TNFR1 levels as indicated by our initial comparison of HCC cells and hepatocytes (Figure 1A, factor: 2.5) revealed a clear pathway dampening with regard to IkappaBalpha, phospho-p65, and IkappaBalpha mRNA amplitudes (Figure 2, yellow lines). Because no obvious differences between tumor cells and primary cells were detected in our experimental data sets, we hypothesized that adjustments of other pathway constituents can compensate the attenuated responsiveness upon TNFR1 reduction. The previously satisfying fit could be restored by applying simple parameter changes in the model either for the receptor dynamics (e.g., the internalization rate of the activated receptor complex; Figure 2, green lines) or at the level of IKK (e.g., IKK expression levels and IKK activation rate constants, data not shown). Other adjustments led to partial rescue of the dynamic pathway response (e.g., exclusive adjustment of IKK expression levels; Figure 2, blue lines). These results strongly suggested that hepatocellular (tumor) cells potentially harbor a number of adjustable setscrews, which may compensate for receptor variations. In addition, we drew the conclusion that most involved processes were qualitatively similar between hepatocytes and HCC cells.",
+                    "evidence": "simulations after the reduction of total TNFR1 levels as indicated by our initial comparison of HCC cells and hepatocytes (Figure 1A, factor: 2.5) revealed a clear pathway dampening with regard to IkappaBalpha."
+                }
+            },
+            {
+                "id": 41,
+                "s": 39,
+                "t": 45,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:TNFR1) decreases a(HGNC:RELA)",
+                    "text": "Interestingly, simulations after the reduction of total TNFR1 levels as indicated by our initial comparison of HCC cells and hepatocytes (Figure 1A, factor: 2.5) revealed a clear pathway dampening with regard to IkappaBalpha, phospho-p65, and IkappaBalpha mRNA amplitudes (Figure 2, yellow lines). Because no obvious differences between tumor cells and primary cells were detected in our experimental data sets, we hypothesized that adjustments of other pathway constituents can compensate the attenuated responsiveness upon TNFR1 reduction. The previously satisfying fit could be restored by applying simple parameter changes in the model either for the receptor dynamics (e.g., the internalization rate of the activated receptor complex; Figure 2, green lines) or at the level of IKK (e.g., IKK expression levels and IKK activation rate constants, data not shown). Other adjustments led to partial rescue of the dynamic pathway response (e.g., exclusive adjustment of IKK expression levels; Figure 2, blue lines). These results strongly suggested that hepatocellular (tumor) cells potentially harbor a number of adjustable setscrews, which may compensate for receptor variations. In addition, we drew the conclusion that most involved processes were qualitatively similar between hepatocytes and HCC cells.",
+                    "evidence": "simulations after the reduction of total TNFR1 levels as indicated by our initial comparison of HCC cells and hepatocytes (Figure 1A, factor: 2.5) revealed a clear pathway dampening with regard to phospho-p65."
+                }
+            },
+            {
+                "id": 42,
+                "s": 39,
+                "t": 38,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:TNFR1) decreases g(HGNC:IKBKA)",
+                    "text": "Interestingly, simulations after the reduction of total TNFR1 levels as indicated by our initial comparison of HCC cells and hepatocytes (Figure 1A, factor: 2.5) revealed a clear pathway dampening with regard to IkappaBalpha, phospho-p65, and IkappaBalpha mRNA amplitudes (Figure 2, yellow lines). Because no obvious differences between tumor cells and primary cells were detected in our experimental data sets, we hypothesized that adjustments of other pathway constituents can compensate the attenuated responsiveness upon TNFR1 reduction. The previously satisfying fit could be restored by applying simple parameter changes in the model either for the receptor dynamics (e.g., the internalization rate of the activated receptor complex; Figure 2, green lines) or at the level of IKK (e.g., IKK expression levels and IKK activation rate constants, data not shown). Other adjustments led to partial rescue of the dynamic pathway response (e.g., exclusive adjustment of IKK expression levels; Figure 2, blue lines). These results strongly suggested that hepatocellular (tumor) cells potentially harbor a number of adjustable setscrews, which may compensate for receptor variations. In addition, we drew the conclusion that most involved processes were qualitatively similar between hepatocytes and HCC cells.",
+                    "evidence": "simulations after the reduction of total TNFR1 levels as indicated by our initial comparison of HCC cells and hepatocytes (Figure 1A, factor: 2.5) revealed a clear pathway dampening with regard to IkappaBalpha mRNA amplitudes."
+                }
+            },
+            {
+                "id": 43,
+                "s": 20,
+                "t": 21,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling pathway\") increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "In sum, the dynamic activation of all analyzed signaling pathway and feedback constituents in HCC cells corresponded qualitatively between primary hepatocytes and immortalized HCC cells. Therefore, HCC cells represent a suitable in vitro model for the study of TNF-induced activation of NF-kappaB and JNK signaling as well as for the dynamic pathway activation after genetic manipulation.",
+                    "evidence": "HCC cells represent a suitable in vitro model for the study of TNF-induced activation of NF-kappaB and JNK signaling."
+                }
+            },
+            {
+                "id": 44,
+                "s": 50,
+                "t": 51,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"TNF\") increases p(HGNC:NFKBIA)",
+                    "text": "In order to define the dynamic range of NF-kappaB and JNK responsiveness in HCC cells with regard to different TNF concentrations, dose response experiments were performed with low-level but physiologically relevant TNF concentrations. For this Hepa1-6 cells were treated with 1, 2.5, and 5 ng/ml TNF and analyzed for the expression of p65 (total p65 and phopsho-p65), IkappaBalpha (total IkappaBalpha and phospho-IkappaBalpha), and JNK (total JNK and phospho-JNK) for up to 240 min. All cytokine concentrations induced specific phospho-p65 and phospho-JNK pathway responses, however, with concentration-dependent amplitudes (Figure 3). Even lowest TNF concentrations led to a sufficient expression of both negative feedback regulators IkappaBalpha and A20. Higher TNF concentrations (>5 ng/ml) did not further increase the NF-kappaB or JNK responses indicating pathway saturation (Beuke et al.,).",
+                    "evidence": "Even lowest TNF concentrations led to a sufficient expression of both negative feedback regulators IkappaBalpha and A20."
+                }
+            },
+            {
+                "id": 45,
+                "s": 50,
+                "t": 52,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"TNF\") increases p(HGNC:JUN)",
+                    "text": "In order to define the dynamic range of NF-kappaB and JNK responsiveness in HCC cells with regard to different TNF concentrations, dose response experiments were performed with low-level but physiologically relevant TNF concentrations. For this Hepa1-6 cells were treated with 1, 2.5, and 5 ng/ml TNF and analyzed for the expression of p65 (total p65 and phopsho-p65), IkappaBalpha (total IkappaBalpha and phospho-IkappaBalpha), and JNK (total JNK and phospho-JNK) for up to 240 min. All cytokine concentrations induced specific phospho-p65 and phospho-JNK pathway responses, however, with concentration-dependent amplitudes (Figure 3). Even lowest TNF concentrations led to a sufficient expression of both negative feedback regulators IkappaBalpha and A20. Higher TNF concentrations (>5 ng/ml) did not further increase the NF-kappaB or JNK responses indicating pathway saturation (Beuke et al.,).",
+                    "evidence": "All cytokine concentrations induced specific phospho-p65 and phospho-JNK pathway responses, however, with concentration-dependent amplitudes."
+                }
+            },
+            {
+                "id": 46,
+                "s": 50,
+                "t": 51,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:\"TNF\") increases p(HGNC:NFKBIA)",
+                    "text": "In order to define the dynamic range of NF-kappaB and JNK responsiveness in HCC cells with regard to different TNF concentrations, dose response experiments were performed with low-level but physiologically relevant TNF concentrations. For this Hepa1-6 cells were treated with 1, 2.5, and 5 ng/ml TNF and analyzed for the expression of p65 (total p65 and phopsho-p65), IkappaBalpha (total IkappaBalpha and phospho-IkappaBalpha), and JNK (total JNK and phospho-JNK) for up to 240 min. All cytokine concentrations induced specific phospho-p65 and phospho-JNK pathway responses, however, with concentration-dependent amplitudes (Figure 3). Even lowest TNF concentrations led to a sufficient expression of both negative feedback regulators IkappaBalpha and A20. Higher TNF concentrations (>5 ng/ml) did not further increase the NF-kappaB or JNK responses indicating pathway saturation (Beuke et al.,).",
+                    "evidence": "For this Hepa1-6 cells were treated with 1, 2.5, and 5 ng/ml TNF and analyzed for the expression of p65 (total p65 and phopsho-p65), IkappaBalpha (total IkappaBalpha and phospho-IkappaBalpha), and JNK (total JNK and phospho-JNK) for up to 240 min."
+                }
+            },
+            {
+                "id": 47,
+                "s": 11,
+                "t": 15,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GO:\"negative regulation of NF-kappaB signaling\") decreases bp(GO:\"NF-kappaB signaling\")",
+                    "text": "TNF-induced negative feedback differentially blocks NF-kappaB and JNK signaling",
+                    "evidence": "TNF-induced negative feedback differentially blocks NF-kappaB and JNK signaling."
+                }
+            },
+            {
+                "id": 48,
+                "s": 53,
+                "t": 18,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GO:\"negative regulation of JNK signaling\") decreases bp(GO:\"JNK signaling\")",
+                    "text": "TNF-induced negative feedback differentially blocks NF-kappaB and JNK signaling",
+                    "evidence": "TNF-induced negative feedback differentially blocks NF-kappaB and JNK signaling."
+                }
+            },
+            {
+                "id": 49,
+                "s": 6,
+                "t": 54,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "p(HGNC:TNF) regulates act(p(HGNC:NFKB1)",
+                    "text": "These data illustrate that under conditions of non-saturated stimulation, TNF differentially affected NF-kappaB and JNK signaling in hepatocellular cells. TNF-induced temporal desensitization supported JNK signaling when NF-kappaB signaling was still efficiently dampened.",
+                    "evidence": "These data illustrate that under conditions of non-saturated stimulation, TNF differentially affected NF-kappaB and JNK signaling in hepatocellular cells."
+                }
+            },
+            {
+                "id": 50,
+                "s": 6,
+                "t": 3,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "p(HGNC:TNF) regulates act(p(HGNC:JNK)",
+                    "text": "These data illustrate that under conditions of non-saturated stimulation, TNF differentially affected NF-kappaB and JNK signaling in hepatocellular cells. TNF-induced temporal desensitization supported JNK signaling when NF-kappaB signaling was still efficiently dampened.",
+                    "evidence": "TNF-induced temporal desensitization supported JNK signaling when NF-kappaB signaling was still efficiently dampened."
+                }
+            },
+            {
+                "id": 51,
+                "s": 26,
+                "t": 20,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "p(HGNC:A20) regulates bp(GO:\"NF-kappaB signaling pathway\")",
+                    "text": "A20 discriminates between NF-kappaB and JNK pathway activation",
+                    "evidence": "A20 discriminates between NF-kappaB and JNK pathway activation."
+                }
+            },
+            {
+                "id": 52,
+                "s": 26,
+                "t": 21,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "p(HGNC:A20) regulates bp(GO:\"JNK signaling pathway\")",
+                    "text": "A20 discriminates between NF-kappaB and JNK pathway activation",
+                    "evidence": "A20 discriminates between NF-kappaB and JNK pathway activation."
+                }
+            },
+            {
+                "id": 53,
+                "s": 15,
+                "t": 18,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GO:\"NF-kappaB signaling\") decreases bp(GO:\"JNK signaling\")",
+                    "text": "A20 is a known inhibitor of NF-kappaB and JNK signaling; however, its point of interference differs from IkappaBalpha since it blocks TNF-responses at the signalosome level (Lee et al.,; Ruland,). We therefore hypothesized that the NF-kappaB-induced expression of A20 (Figure 1D) could act as a rheostat for the differential inhibition of NF-kappaB and JNK signaling in hepatocellular cells.",
+                    "evidence": "We therefore hypothesized that the NF-kappaB-induced expression of A20 could act as a rheostat for the differential inhibition of NF-kappaB and JNK signaling in hepatocellular cells."
+                }
+            },
+            {
+                "id": 54,
+                "s": 55,
+                "t": 56,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"response to tumor necrosis factor\") increases act(p(UNI:Q9D0B0)",
+                    "text": "Because our previous data illustrated that TNF induced A20 protein expression after 40-60 min (Figure 1C), we decided to analyze the first 60 min after TNF administration to define the effects of basal A20 levels (without p65-induced A20 levels after 60 min). To test the impact of A20, we compared the activation of p65 and JNK after genetically changing the basal A20 levels in hepatocellular cells. Because the stable overexpression of A20 did not result in viable clones (Supplementary Figure S3A), we optimized the transfection protocol to achieve high transient transfection efficiencies of at least 80% (Supplementary Figures S3B,C). First, we transiently overexpressed murine A20 in Hepa1-6 cells and performed TNF stimulation experiments for up to 60 min (10 ng/ml; Figure 5A). While no significant effects on the phosphorylation of p65 were detectable, a reproducible reduction of JNK activation was observed (Figure 5B). Vice versa, the siRNA-mediated, specific inhibition of A20 again did not significantly affect the activation of p65. In contrast, JNK phosphorylation significantly increased in cells with transient silencing of A20. The fact that A20 did not affect p65 activity was confirmed in independent experiments including target gene expression and luciferase reporter assays (Supplementary Figures S4A,B). In order to further characterize the possible molecular basis for the differential impact of A20 on NF-kappaB and JNK, interaction studies were performed. Since ASK1 may sustain JNK activity and because A20 can interact with ASK1, we initiated co-immunoprecipitation experiments after TNF treatment (Tobiume et al.,; Won et al.,). Western immunoblotting revealed peculiar oscillatory dynamics between ASK1 and A20 with a maximum peak between 10 and 20 min after TNF stimulation (Figure 5C). Together with the published results, our data strongly suggested that the interaction between A20 and ASK1 is dynamically regulated by TNF and therefore might represent one possible mechanism how A20 controls JNK activity in the cell types analyzed here.",
+                    "evidence": "Together with the published results, our data strongly suggested that the interaction between A20 and ASK1 is dynamically regulated by TNF."
+                }
+            },
+            {
+                "id": 55,
+                "s": 26,
+                "t": 3,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:A20) directlyDecreases act(p(HGNC:JNK)",
+                    "text": "A20 negatively regulated JNK signaling in hepatocellular cells. (A) The overexpression of A20 is confirmed by western immunoblotting. Endogenous A20 and exogenous A20 were detected. Kinetics illustrate that NF-kappaB signaling is not affected after increasing A20 levels, while the phosphorylation of JNK is reduced after TNF administration (10 ng/ml). (B) The siRNA-mediated knockdown of A20 is confirmed by western immunoblotting. Kinetics after TNF administration (10 ng/ml) showed that JNK phosphorylation increased compared to controls. p65/phospho-p65 and JNK/phospho-JNK were quantified and normalized to the respective loading control (actin). All graphs summarize the results from three independent analyses. Bars represent standard errors. (C) Co-immunoprecipitation experiment detecting the physical interaction between A20 and ASK1 after TNF stimulation at indicated time points. The detection of ASK1 illustrates that the protein is not differentially expressed after TNF administration. IP: immunoprecipitation; WB: Western immunoblotting.",
+                    "evidence": "A20 negatively regulated JNK signaling in hepatocellular cells."
+                }
+            },
+            {
+                "id": 56,
+                "s": 57,
+                "t": 58,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:A20) decreases act(p(HGNC:NFKB)",
+                    "text": "These data suggest that basal A20 concentrations differentially inhibited NF-kappaB and JNK signaling and therefore are likely to be involved in a modulation of the JNK response in phases of TNF-induced desensitization.",
+                    "evidence": "These data suggest that basal A20 concentrations differentially inhibited NF-kappaB and JNK signaling."
+                }
+            },
+            {
+                "id": 57,
+                "s": 57,
+                "t": 3,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(CHEBI:A20) decreases act(p(HGNC:JNK)",
+                    "text": "These data suggest that basal A20 concentrations differentially inhibited NF-kappaB and JNK signaling and therefore are likely to be involved in a modulation of the JNK response in phases of TNF-induced desensitization.",
+                    "evidence": "These data suggest that basal A20 concentrations differentially inhibited NF-kappaB and JNK signaling."
+                }
+            },
+            {
+                "id": 58,
+                "s": 57,
+                "t": 21,
+                "v": {
+                    "interaction": "regulates",
+                    "bel_expression": "a(CHEBI:A20) regulates bp(GO:\"JNK signaling pathway\")",
+                    "text": "These data suggest that basal A20 concentrations differentially inhibited NF-kappaB and JNK signaling and therefore are likely to be involved in a modulation of the JNK response in phases of TNF-induced desensitization.",
+                    "evidence": "These data suggest that basal A20 concentrations differentially inhibited NF-kappaB and JNK signaling and therefore are likely to be involved in a modulation of the JNK response in phases of TNF-induced desensitization."
+                }
+            },
+            {
+                "id": 59,
+                "s": 26,
+                "t": 59,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:A20) decreases act(p(HGNC:CASP3)",
+                    "text": "A20 protects from a TNF-induced caspase3-cleavage",
+                    "evidence": "A20 protects from a TNF-induced caspase3-cleavage"
+                }
+            },
+            {
+                "id": 60,
+                "s": 60,
+                "t": 9,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(HGNC:A20) increases bp(GO:\"tumorigenesis\")",
+                    "text": "A20 is overexpressed in human HCCs illustrating that elevated A20 level may support tumorigenic properties of HCC cells (Chen et al.,; Catrysse et al.,; Wang et al.,). Because basal A20 abundance negatively regulated JNK pro-apoptotic phosphorylation (Figure 5), we hypothesized that decreased A20 levels can support hepatocellular programmed cell death.",
+                    "evidence": "A20 is overexpressed in human HCCs illustrating that elevated A20 level may support tumorigenic properties of HCC cells."
+                }
+            },
+            {
+                "id": 61,
+                "s": 60,
+                "t": 3,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:A20) decreases act(p(HGNC:JNK)",
+                    "text": "A20 is overexpressed in human HCCs illustrating that elevated A20 level may support tumorigenic properties of HCC cells (Chen et al.,; Catrysse et al.,; Wang et al.,). Because basal A20 abundance negatively regulated JNK pro-apoptotic phosphorylation (Figure 5), we hypothesized that decreased A20 levels can support hepatocellular programmed cell death.",
+                    "evidence": "Because basal A20 abundance negatively regulated JNK pro-apoptotic phosphorylation."
+                }
+            },
+            {
+                "id": 62,
+                "s": 60,
+                "t": 61,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:A20) decreases bp(GO:\"programmed cell death\")",
+                    "text": "A20 is overexpressed in human HCCs illustrating that elevated A20 level may support tumorigenic properties of HCC cells (Chen et al.,; Catrysse et al.,; Wang et al.,). Because basal A20 abundance negatively regulated JNK pro-apoptotic phosphorylation (Figure 5), we hypothesized that decreased A20 levels can support hepatocellular programmed cell death.",
+                    "evidence": "we hypothesized that decreased A20 levels can support hepatocellular programmed cell death."
+                }
+            },
+            {
+                "id": 63,
+                "s": 26,
+                "t": 59,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:A20) decreases act(p(HGNC:CASP3)",
+                    "text": "Inhibition of A20 by siRNA alone did not affect HCC cell viability indicating that TNF stimulation and subsequent activation of the downstream pathways was necessary to uncover the biological effects of A20 (Figure 6A). In contrast, inhibition of A20 for 48 h and subsequent treatment with TNF induced cleavage of the effector caspase-3 around 120 min after cytokine administration as detected by Western immunoblotting (Figure 6B). Notably, this perturbation approach diminished both basal A20 levels and TNF-induced A20 levels (starting after 40-60 min). To confirm the negative effects of A20 on caspase-3, additional activity assays were performed after A20 perturbation for 48 h followed by TNF stimulation. As already indicated by caspase-3 cleavage experiments, caspase activity was significantly increased after reduction of A20 expression about 60 min after TNF treatment (Figure 6C). In contrast, no significant induction of apoptosis was detectable by FACS using an identical protocol (Supplementary Figure S5). This led us to the conclusion that the loss of A20 followed by TNF stimulation (and stabilization of the JNK pathway) is not sufficient to induce a full-blown apoptotic response, however, first steps toward apoptosis, such as activation of an effector caspase-3 may represent the molecular requirement for this process. These underlying mechanisms are currently under further investigation.",
+                    "evidence": "Notably, this perturbation approach diminished both basal A20 levels and TNF-induced A20 levels (starting after 40-60 min)."
+                }
+            },
+            {
+                "id": 64,
+                "s": 26,
+                "t": 59,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:A20) decreases act(p(HGNC:CASP3)",
+                    "text": "Inhibition of A20 by siRNA alone did not affect HCC cell viability indicating that TNF stimulation and subsequent activation of the downstream pathways was necessary to uncover the biological effects of A20 (Figure 6A). In contrast, inhibition of A20 for 48 h and subsequent treatment with TNF induced cleavage of the effector caspase-3 around 120 min after cytokine administration as detected by Western immunoblotting (Figure 6B). Notably, this perturbation approach diminished both basal A20 levels and TNF-induced A20 levels (starting after 40-60 min). To confirm the negative effects of A20 on caspase-3, additional activity assays were performed after A20 perturbation for 48 h followed by TNF stimulation. As already indicated by caspase-3 cleavage experiments, caspase activity was significantly increased after reduction of A20 expression about 60 min after TNF treatment (Figure 6C). In contrast, no significant induction of apoptosis was detectable by FACS using an identical protocol (Supplementary Figure S5). This led us to the conclusion that the loss of A20 followed by TNF stimulation (and stabilization of the JNK pathway) is not sufficient to induce a full-blown apoptotic response, however, first steps toward apoptosis, such as activation of an effector caspase-3 may represent the molecular requirement for this process. These underlying mechanisms are currently under further investigation.",
+                    "evidence": "As already indicated by caspase-3 cleavage experiments, caspase activity was significantly increased after reduction of A20 expression about 60 min after TNF treatment."
+                }
+            },
+            {
+                "id": 65,
+                "s": 26,
+                "t": 17,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "p(HGNC:A20) decreases bp(GO:\"apoptotic process\")",
+                    "text": "Reduction of A20 sensitizes hepatocellular cells to TNF-induced apoptosis. (A) MTT viability assay illustrated that inhibition of A20 by siRNA did not affect the viability of Hepa1-6 cells after 24 and 48 h. (B) Measurement of caspase-3 fragments after A20 inhibition and TNF stimulation by Western immunoblotting. Exemplary results after densitometric quantification are shown. An independent repetition led to similar results. (C) Measurement of caspase-3 activity after A20 silencing followed by TNF stimulation. Exemplary results after fluorometric measurement are shown. An independent repetition led to similar results.",
+                    "evidence": "Reduction of A20 sensitizes hepatocellular cells to TNF-induced apoptosis."
+                }
+            },
+            {
+                "id": 66,
+                "s": 60,
+                "t": 59,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:A20) decreases act(p(HGNC:CASP3)",
+                    "text": "In summary, these results show that elevated A20 amounts reduced the activity of central effector caspases in hepatocellular cells after TNF stimulation.",
+                    "evidence": "In summary, these results show that elevated A20 amounts reduced the activity of central effector caspases in hepatocellular cells after TNF stimulation."
+                }
+            },
+            {
+                "id": 67,
+                "s": 60,
+                "t": 62,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "a(HGNC:A20) decreases act(p(HGNC:CASP8)",
+                    "text": "In summary, these results show that elevated A20 amounts reduced the activity of central effector caspases in hepatocellular cells after TNF stimulation.",
+                    "evidence": "In summary, these results show that elevated A20 amounts reduced the activity of central effector caspases in hepatocellular cells after TNF stimulation."
+                }
+            },
+            {
+                "id": 68,
+                "s": 63,
+                "t": 17,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases bp(GO:\"apoptotic process\")",
+                    "text": "The liver represents a frontline organ critically involved in the regulation of metabolic processes, hormone production, detoxification, and immunological responses. For this, a precise and temporary paracrine cross talk between non-parenchymal (Kupffer cells, liver sinusoidal endothelial cells, and hepatic stellate cells) and parenchymal liver cells (hepatocytes) is of central importance to fine tune and adjust the cellular and biological responses in these cell types. In this context, TNF-induced signaling is a key constituent of the innate immune response. For this, TNF is immediately produced by non-parenchymal cells in the liver e.g., in response to circulating pathogens, such as bacterial toxins (Seki et al.,; Wu et al.,). Next to its immune-modulatory properties, TNF regulates proliferation and apoptosis in hepatocytes. However, it is unclear how varying individual and continuous TNF administration affect molecular decision-making process and hepatocyte biology.",
+                    "evidence": "Next to its immune-modulatory properties, TNF regulates proliferation and apoptosis in hepatocytes."
+                }
+            },
+            {
+                "id": 69,
+                "s": 63,
+                "t": 64,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases bp(GO:\"cell proliferation\")",
+                    "text": "The liver represents a frontline organ critically involved in the regulation of metabolic processes, hormone production, detoxification, and immunological responses. For this, a precise and temporary paracrine cross talk between non-parenchymal (Kupffer cells, liver sinusoidal endothelial cells, and hepatic stellate cells) and parenchymal liver cells (hepatocytes) is of central importance to fine tune and adjust the cellular and biological responses in these cell types. In this context, TNF-induced signaling is a key constituent of the innate immune response. For this, TNF is immediately produced by non-parenchymal cells in the liver e.g., in response to circulating pathogens, such as bacterial toxins (Seki et al.,; Wu et al.,). Next to its immune-modulatory properties, TNF regulates proliferation and apoptosis in hepatocytes. However, it is unclear how varying individual and continuous TNF administration affect molecular decision-making process and hepatocyte biology.",
+                    "evidence": "Next to its immune-modulatory properties, TNF regulates proliferation and apoptosis in hepatocytes."
+                }
+            },
+            {
+                "id": 70,
+                "s": 63,
+                "t": 20,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases bp(GO:\"NF-kappaB signaling pathway\")",
+                    "text": "Induction of the NF-kappaB and/or JNK pathways by TNF has been intensively analyzed in different cancer cell types and immortalized fibroblasts under various culture conditions. In addition, computational modeling focused on the subcellular localization of NF-kappaB (Turner et al.,), the role of feedback mechanisms relevant for pathway termination (Werner et al.,), and how cytokine concentrations affect the oscillatory pathway behavior (Wang et al.,). Recently, computational modeling demonstrated that TNF, which is secreted by Kupffer cells and liver sinusoidal endothelial cells (LSECs) in response to lipopolysaccharide (LPS), induced an adjustable molecular response in primary isolated hepatocytes (Beuke et al.,). This mathematical model was robust for many model parameters indicating that changes of pathway constituents, such as IkappaBalpha did not significantly change the NF-kappaB pathway properties. This is supported by data presented in our study illustrating that this model with only slight modifications sufficiently explain the dynamic NF-kappaB behavior in primary hepatocytes and HCC cells, although initial amounts of p65 and IkappaBalpha are different (Figure 1A). To our knowledge, this is the first study demonstrating that TNF-induced NF-kappaB pathway dynamics is qualitatively comparable in normal cells and malignantly transformed cells.",
+                    "evidence": "Induction of the NF-kappaB and/or JNK pathways by TNF has been intensively analyzed in different cancer cell types and immortalized fibroblasts under various culture conditions."
+                }
+            },
+            {
+                "id": 71,
+                "s": 63,
+                "t": 21,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "Induction of the NF-kappaB and/or JNK pathways by TNF has been intensively analyzed in different cancer cell types and immortalized fibroblasts under various culture conditions. In addition, computational modeling focused on the subcellular localization of NF-kappaB (Turner et al.,), the role of feedback mechanisms relevant for pathway termination (Werner et al.,), and how cytokine concentrations affect the oscillatory pathway behavior (Wang et al.,). Recently, computational modeling demonstrated that TNF, which is secreted by Kupffer cells and liver sinusoidal endothelial cells (LSECs) in response to lipopolysaccharide (LPS), induced an adjustable molecular response in primary isolated hepatocytes (Beuke et al.,). This mathematical model was robust for many model parameters indicating that changes of pathway constituents, such as IkappaBalpha did not significantly change the NF-kappaB pathway properties. This is supported by data presented in our study illustrating that this model with only slight modifications sufficiently explain the dynamic NF-kappaB behavior in primary hepatocytes and HCC cells, although initial amounts of p65 and IkappaBalpha are different (Figure 1A). To our knowledge, this is the first study demonstrating that TNF-induced NF-kappaB pathway dynamics is qualitatively comparable in normal cells and malignantly transformed cells.",
+                    "evidence": "Induction of the NF-kappaB and/or JNK pathways by TNF has been intensively analyzed in different cancer cell types and immortalized fibroblasts under various culture conditions."
+                }
+            },
+            {
+                "id": 72,
+                "s": 63,
+                "t": 65,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases a(CHEBI:LPS)",
+                    "text": "Induction of the NF-kappaB and/or JNK pathways by TNF has been intensively analyzed in different cancer cell types and immortalized fibroblasts under various culture conditions. In addition, computational modeling focused on the subcellular localization of NF-kappaB (Turner et al.,), the role of feedback mechanisms relevant for pathway termination (Werner et al.,), and how cytokine concentrations affect the oscillatory pathway behavior (Wang et al.,). Recently, computational modeling demonstrated that TNF, which is secreted by Kupffer cells and liver sinusoidal endothelial cells (LSECs) in response to lipopolysaccharide (LPS), induced an adjustable molecular response in primary isolated hepatocytes (Beuke et al.,). This mathematical model was robust for many model parameters indicating that changes of pathway constituents, such as IkappaBalpha did not significantly change the NF-kappaB pathway properties. This is supported by data presented in our study illustrating that this model with only slight modifications sufficiently explain the dynamic NF-kappaB behavior in primary hepatocytes and HCC cells, although initial amounts of p65 and IkappaBalpha are different (Figure 1A). To our knowledge, this is the first study demonstrating that TNF-induced NF-kappaB pathway dynamics is qualitatively comparable in normal cells and malignantly transformed cells.",
+                    "evidence": "TNF, which is secreted by Kupffer cells and liver sinusoidal endothelial cells (LSECs) in response to lipopolysaccharide (LPS)"
+                }
+            },
+            {
+                "id": 73,
+                "s": 26,
+                "t": 17,
+                "v": {
+                    "interaction": "directlyDecreases",
+                    "bel_expression": "p(HGNC:A20) directlyDecreases bp(GO:\"apoptotic process\")",
+                    "text": "Our results demonstrate that TNF in a range between 1 and 5 ng/ml differentially desensitize NF-kappaB and JNK signaling in hepatocyte-derived cells. We hypothesized that A20 represents a molecular switch discriminating between the two pathways in a physiological concentration range. Our experimental data revealed that A20 negatively regulates pro-apoptotic JNK signaling and therefore favors the pro-survival NF-kappaB axis. Interestingly, increased A20 levels are detectable in human HCC tissue compared to surrounding livers, and recent publications confirm the oncogenic properties of elevated A20 levels (Chen et al.,; Catrysse et al.,; Wang et al.,). In addition, A20 inhibition followed by TNF stimulation supports caspase-3 cleavage and its enzymatic activity suggesting a phenotype prone to apoptosis. These results were confirmed by previous publications showing that increased A20 protects hepatocytes from TRAIL-induced apoptosis or supports hepatocyte proliferation after partial hepatectomy (Longo et al.,; Dong et al.,).",
+                    "evidence": "Our experimental data revealed that A20 negatively regulates pro-apoptotic JNK signaling and therefore favors the pro-survival NF-kappaB axis."
+                }
+            },
+            {
+                "id": 74,
+                "s": 26,
+                "t": 64,
+                "v": {
+                    "interaction": "directlyIncreases",
+                    "bel_expression": "p(HGNC:A20) directlyIncreases bp(GO:\"cell proliferation\")",
+                    "text": "Our results demonstrate that TNF in a range between 1 and 5 ng/ml differentially desensitize NF-kappaB and JNK signaling in hepatocyte-derived cells. We hypothesized that A20 represents a molecular switch discriminating between the two pathways in a physiological concentration range. Our experimental data revealed that A20 negatively regulates pro-apoptotic JNK signaling and therefore favors the pro-survival NF-kappaB axis. Interestingly, increased A20 levels are detectable in human HCC tissue compared to surrounding livers, and recent publications confirm the oncogenic properties of elevated A20 levels (Chen et al.,; Catrysse et al.,; Wang et al.,). In addition, A20 inhibition followed by TNF stimulation supports caspase-3 cleavage and its enzymatic activity suggesting a phenotype prone to apoptosis. These results were confirmed by previous publications showing that increased A20 protects hepatocytes from TRAIL-induced apoptosis or supports hepatocyte proliferation after partial hepatectomy (Longo et al.,; Dong et al.,).",
+                    "evidence": "previous publications showing that increased A20 protects hepatocytes from TRAIL-induced apoptosis or supports hepatocyte proliferation after partial hepatectomy."
+                }
+            },
+            {
+                "id": 75,
+                "s": 63,
+                "t": 20,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases bp(GO:\"NF-kappaB signaling pathway\")",
+                    "text": "Importantly, in our experimental setup we used TNF concentrations that can be detected in different areas of the liver vasculature network (3-10 ng/ml) under physiological and pathological conditions (Porowski et al.,). However, under some conditions, such as non-alcoholic steatohepatitis (NASH) or after liver transplantation much higher TNF levels may be measurable (34.2 and 43 ng/ml, respectively). This suggests that under pathological conditions differential desensitization of NF-kappaB and JNK signaling upon TNF stimulation is not effective anymore (Krawczyk et al.,; Fernandez-Yunquera et al.,), since high TNF concentrations abolished any fine-tune regulation of both pathways (Figure 4). The biological relevance of precise cytokine concentrations has been confirmed in studies showing that different TNF amounts can cause distinct responses with regard to target gene expression (Ashall et al.,). Moreover, our recent computational multi-scale model illustrated that LPS-induced TNF levels between 0.1 and 5 ng/ml cause an adjustable NF-kappaB pathway response, while higher cytokine amounts show maximal pathway amplitudes (Beuke et al.,).",
+                    "evidence": "This suggests that under pathological conditions differential desensitization of NF-kappaB and JNK signaling upon TNF stimulation is not effective anymore."
+                }
+            },
+            {
+                "id": 76,
+                "s": 63,
+                "t": 21,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases bp(GO:\"JNK signaling pathway\")",
+                    "text": "Importantly, in our experimental setup we used TNF concentrations that can be detected in different areas of the liver vasculature network (3-10 ng/ml) under physiological and pathological conditions (Porowski et al.,). However, under some conditions, such as non-alcoholic steatohepatitis (NASH) or after liver transplantation much higher TNF levels may be measurable (34.2 and 43 ng/ml, respectively). This suggests that under pathological conditions differential desensitization of NF-kappaB and JNK signaling upon TNF stimulation is not effective anymore (Krawczyk et al.,; Fernandez-Yunquera et al.,), since high TNF concentrations abolished any fine-tune regulation of both pathways (Figure 4). The biological relevance of precise cytokine concentrations has been confirmed in studies showing that different TNF amounts can cause distinct responses with regard to target gene expression (Ashall et al.,). Moreover, our recent computational multi-scale model illustrated that LPS-induced TNF levels between 0.1 and 5 ng/ml cause an adjustable NF-kappaB pathway response, while higher cytokine amounts show maximal pathway amplitudes (Beuke et al.,).",
+                    "evidence": "This suggests that under pathological conditions differential desensitization of NF-kappaB and JNK signaling upon TNF stimulation is not effective anymore."
+                }
+            },
+            {
+                "id": 77,
+                "s": 63,
+                "t": 66,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:TNF) increases g(HGNC:target gene)",
+                    "text": "Importantly, in our experimental setup we used TNF concentrations that can be detected in different areas of the liver vasculature network (3-10 ng/ml) under physiological and pathological conditions (Porowski et al.,). However, under some conditions, such as non-alcoholic steatohepatitis (NASH) or after liver transplantation much higher TNF levels may be measurable (34.2 and 43 ng/ml, respectively). This suggests that under pathological conditions differential desensitization of NF-kappaB and JNK signaling upon TNF stimulation is not effective anymore (Krawczyk et al.,; Fernandez-Yunquera et al.,), since high TNF concentrations abolished any fine-tune regulation of both pathways (Figure 4). The biological relevance of precise cytokine concentrations has been confirmed in studies showing that different TNF amounts can cause distinct responses with regard to target gene expression (Ashall et al.,). Moreover, our recent computational multi-scale model illustrated that LPS-induced TNF levels between 0.1 and 5 ng/ml cause an adjustable NF-kappaB pathway response, while higher cytokine amounts show maximal pathway amplitudes (Beuke et al.,).",
+                    "evidence": "the biological relevance of precise cytokine concentrations has been confirmed in studies showing that different TNF amounts can cause distinct responses with regard to target gene expression."
+                }
+            },
+            {
+                "id": 78,
+                "s": 65,
+                "t": 63,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "a(CHEBI:LPS) increases a(CHEBI:TNF)",
+                    "text": "Importantly, in our experimental setup we used TNF concentrations that can be detected in different areas of the liver vasculature network (3-10 ng/ml) under physiological and pathological conditions (Porowski et al.,). However, under some conditions, such as non-alcoholic steatohepatitis (NASH) or after liver transplantation much higher TNF levels may be measurable (34.2 and 43 ng/ml, respectively). This suggests that under pathological conditions differential desensitization of NF-kappaB and JNK signaling upon TNF stimulation is not effective anymore (Krawczyk et al.,; Fernandez-Yunquera et al.,), since high TNF concentrations abolished any fine-tune regulation of both pathways (Figure 4). The biological relevance of precise cytokine concentrations has been confirmed in studies showing that different TNF amounts can cause distinct responses with regard to target gene expression (Ashall et al.,). Moreover, our recent computational multi-scale model illustrated that LPS-induced TNF levels between 0.1 and 5 ng/ml cause an adjustable NF-kappaB pathway response, while higher cytokine amounts show maximal pathway amplitudes (Beuke et al.,).",
+                    "evidence": "our recent computational multi-scale model illustrated that LPS-induced TNF levels between 0.1 and 5 ng/ml cause an adjustable NF-kappaB pathway response."
+                }
+            },
+            {
+                "id": 79,
+                "s": 67,
+                "t": 68,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"liver damage\") increases bp(GO:\"chronic hepatitis C virus infection\")",
+                    "text": "In addition, our results might be of clinical relevance for patients with continuous inflammatory responses (e.g., during hepatitis). The data suggest that repeated induction of low TNF amounts (between 1 and 2.5 ng/ml) can already lead to stronger pro-apoptotic JNK activation but less-pronounced pro-survival NF-kappaB signaling. Thus, it is tempting to speculate that inhibition of the JNK pathway in earliest phases of liver damage might prevent recurrent cycles of cell death followed by regenerative proliferation, which is one characteristic of e.g., chronic hepatitis C virus infection (Karidis et al.,). However, additional in vivo experiments would be necessary to definitely draw this conclusion. These could include CCL4-stimulation approaches in a liver-specific A20 knockout background (Lee et al.,; Liu et al.,).",
+                    "evidence": "inhibition of the JNK pathway in earliest phases of liver damage might prevent recurrent cycles of cell death followed by regenerative proliferation, which is one characteristic of e.g., chronic hepatitis C virus infection."
+                }
+            },
+            {
+                "id": 80,
+                "s": 17,
+                "t": 69,
+                "v": {
+                    "interaction": "decreases",
+                    "bel_expression": "bp(GO:\"apoptotic process\") decreases bp(GO:\"cell survival\")",
+                    "text": "A couple of molecular mechanisms may explain the A20-mediated differential desensitization phenotype observed in our study. For example, A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation (Won et al.,). Since A20 is efficiently induced by TNF administration it is tempting to speculate that the loss of ASK1 might shift the cellular response from apoptosis to survival and proliferation. Our data include an additional mechanistic level to this observation. ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated (Tobiume et al.,; Won et al.,). We here showed that TNF affects the interaction between A20 and ASK1, which could explain the ASK1-dependent phosphorylation of JNK at specific periods after TNF administration. The underlying molecular mechanism for this precise and dynamic fine-tune regulation is not understood, however, the natural oscillations observed in the activation dynamics of both JNK and NF-kappaB could be partly explained in terms of synchrony / asynchrony ASK1:A20 dynamics as observed in this study (Ashall et al.,).",
+                    "evidence": "the loss of ASK1 might shift the cellular response from apoptosis to survival and proliferation."
+                }
+            },
+            {
+                "id": 81,
+                "s": 21,
+                "t": 69,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"JNK signaling pathway\") increases bp(GO:\"cell survival\")",
+                    "text": "A couple of molecular mechanisms may explain the A20-mediated differential desensitization phenotype observed in our study. For example, A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation (Won et al.,). Since A20 is efficiently induced by TNF administration it is tempting to speculate that the loss of ASK1 might shift the cellular response from apoptosis to survival and proliferation. Our data include an additional mechanistic level to this observation. ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated (Tobiume et al.,; Won et al.,). We here showed that TNF affects the interaction between A20 and ASK1, which could explain the ASK1-dependent phosphorylation of JNK at specific periods after TNF administration. The underlying molecular mechanism for this precise and dynamic fine-tune regulation is not understood, however, the natural oscillations observed in the activation dynamics of both JNK and NF-kappaB could be partly explained in terms of synchrony / asynchrony ASK1:A20 dynamics as observed in this study (Ashall et al.,).",
+                    "evidence": "the ASK1-dependent phosphorylation of JNK at specific periods after TNF administration."
+                }
+            },
+            {
+                "id": 82,
+                "s": 7,
+                "t": 70,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"inflammatory response\") increases act(p(UniProt:IQGAP2)",
+                    "text": "Together, our study suggests an A20-dependent mechanism, which may explain how hepatocytes differentially activate downstream effector pathways upon repeated stimulation with physiological TNF concentrations. Continuous availability of high TNF concentrations under pathophysiological conditions may uncouple this fine-tune regulation and therefore participate in the development of liver diseases. Future work might include the role of scaffold proteins (e.g., IQGAP2 and SQSTM1) and how their the subcellular localization might affect NF-kappaB and JNK pathway activity dependent on the cellular context (inflammation, loss of cell polarity). Knowledge on the spatio-/temporal regulation will help to define the specific responses of signaling pathways in healthy and diseased cells.",
+                    "evidence": "Future work might include the role of scaffold proteins (e.g., IQGAP2 and SQSTM1) and how their the subcellular localization might affect NF-kappaB and JNK pathway activity dependent on the cellular context (inflammation, loss of cell polarity)."
+                }
+            },
+            {
+                "id": 83,
+                "s": 7,
+                "t": 71,
+                "v": {
+                    "interaction": "increases",
+                    "bel_expression": "bp(GO:\"inflammatory response\") increases act(p(UniProt:SQSTM1)",
+                    "text": "Together, our study suggests an A20-dependent mechanism, which may explain how hepatocytes differentially activate downstream effector pathways upon repeated stimulation with physiological TNF concentrations. Continuous availability of high TNF concentrations under pathophysiological conditions may uncouple this fine-tune regulation and therefore participate in the development of liver diseases. Future work might include the role of scaffold proteins (e.g., IQGAP2 and SQSTM1) and how their the subcellular localization might affect NF-kappaB and JNK pathway activity dependent on the cellular context (inflammation, loss of cell polarity). Knowledge on the spatio-/temporal regulation will help to define the specific responses of signaling pathways in healthy and diseased cells.",
+                    "evidence": "Future work might include the role of scaffold proteins (e.g., IQGAP2 and SQSTM1) and how their the subcellular localization might affect NF-kappaB and JNK pathway activity dependent on the cellular context (inflammation, loss of cell polarity)."
+                }
+            }
+        ]
+    },
+    {
+        "visualProperties": [
+            {
+                "default": {
+                    "edge": {
+                        "EDGE_SOURCE_ARROW_SIZE": 6.0,
+                        "EDGE_SOURCE_ARROW_SELECTED_PAINT": "#FFFF00",
+                        "EDGE_LABEL_OPACITY": 1.0,
+                        "EDGE_TARGET_ARROW_SELECTED_PAINT": "#FFFF00",
+                        "EDGE_TARGET_ARROW_SHAPE": "triangle",
+                        "EDGE_LABEL_BACKGROUND_OPACITY": 1.0,
+                        "EDGE_LABEL_POSITION": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "EDGE_ANCHOR": "C",
+                            "LABEL_ANCHOR": "C"
+                        },
+                        "EDGE_Z_ORDER": 0.0,
+                        "EDGE_LABEL_MAX_WIDTH": 200.0,
+                        "EDGE_LABEL_BACKGROUND_COLOR": "#B6B6B6",
+                        "EDGE_LABEL_ROTATION": 0.0,
+                        "EDGE_VISIBILITY": "element",
+                        "EDGE_LABEL_FONT_SIZE": 10,
+                        "EDGE_LABEL_COLOR": "#000000",
+                        "EDGE_SELECTED_PAINT": "#FF0000",
+                        "EDGE_SELECTED": "false",
+                        "EDGE_STACKING_DENSITY": 0.5,
+                        "EDGE_SOURCE_ARROW_COLOR": "#404040",
+                        "EDGE_TARGET_ARROW_COLOR": "#404040",
+                        "EDGE_STROKE_SELECTED_PAINT": "#FF0000",
+                        "EDGE_WIDTH": 7.0,
+                        "EDGE_SOURCE_ARROW_SHAPE": "none",
+                        "EDGE_LINE_COLOR": "#404040",
+                        "EDGE_OPACITY": 1.0,
+                        "EDGE_LABEL_BACKGROUND_SHAPE": "NONE",
+                        "EDGE_LABEL_FONT_FACE": {
+                            "FONT_FAMILY": "sans-serif",
+                            "FONT_STYLE": "normal",
+                            "FONT_WEIGHT": "normal",
+                            "FONT_NAME": "Dialog"
+                        },
+                        "EDGE_STACKING": "AUTO_BEND",
+                        "EDGE_LABEL_AUTOROTATE": false,
+                        "EDGE_LINE_STYLE": "solid",
+                        "EDGE_CURVED": true,
+                        "EDGE_TARGET_ARROW_SIZE": 6.0
+                    },
+                    "network": {
+                        "NETWORK_BACKGROUND_COLOR": "#FFFFFF"
+                    },
+                    "node": {
+                        "NODE_Y_LOCATION": 0.0,
+                        "NODE_BACKGROUND_COLOR": "#89D0F5",
+                        "NODE_LABEL_BACKGROUND_COLOR": "#B6B6B6",
+                        "NODE_WIDTH": 35.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_7": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_6": 50.0,
+                        "COMPOUND_NODE_SHAPE": "ROUND_RECTANGLE",
+                        "NODE_Z_LOCATION": 0.0,
+                        "NODE_LABEL_POSITION": {
+                            "HORIZONTAL_ALIGN": "center",
+                            "VERTICAL_ALIGN": "center",
+                            "HORIZONTAL_ANCHOR": "center",
+                            "VERTICAL_ANCHOR": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "JUSTIFICATION": "center"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_5": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_4": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_3": 50.0,
+                        "NODE_CUSTOMGRAPHICS_SIZE_2": 50.0,
+                        "NODE_VISIBILITY": "element",
+                        "NODE_CUSTOMGRAPHICS_SIZE_1": 50.0,
+                        "NODE_BORDER_STYLE": "solid",
+                        "NODE_BACKGROUND_OPACITY": 1.0,
+                        "NODE_LABEL_COLOR": "#252525",
+                        "NODE_SELECTED": false,
+                        "NODE_BORDER_COLOR": "#CCCCCC",
+                        "NODE_CUSTOMGRAPHICS_POSITION_8": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_9": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_SHAPE": "ellipse",
+                        "NODE_CUSTOMGRAPHICS_POSITION_4": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_5": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_6": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_POSITION_7": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_LABEL_FONT_SIZE": 12,
+                        "NODE_X_LOCATION": 0.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_1": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_BORDER_OPACITY": 1.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_2": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_9": 50.0,
+                        "NODE_LABEL_ROTATION": 0.0,
+                        "NODE_CUSTOMGRAPHICS_POSITION_3": {
+                            "JUSTIFICATION": "center",
+                            "MARGIN_X": 0.0,
+                            "MARGIN_Y": 0.0,
+                            "ENTITY_ANCHOR": "C",
+                            "GRAPHICS_ANCHOR": "C"
+                        },
+                        "NODE_CUSTOMGRAPHICS_SIZE_8": 50.0,
+                        "NODE_BORDER_WIDTH": 0.0,
+                        "NODE_LABEL_OPACITY": 1.0,
+                        "NODE_HEIGHT": 35.0,
+                        "NODE_LABEL_BACKGROUND_SHAPE": "NONE",
+                        "COMPOUND_NODE_PADDING": "10.0",
+                        "NODE_LABEL_BACKGROUND_OPACITY": 1.0,
+                        "NODE_LABEL_FONT_FACE": {
+                            "FONT_FAMILY": "sans-serif",
+                            "FONT_STYLE": "normal",
+                            "FONT_WEIGHT": "normal",
+                            "FONT_NAME": "SansSerif"
+                        },
+                        "NODE_SELECTED_PAINT": "#FFFF00",
+                        "NODE_LABEL_MAX_WIDTH": 200.0
+                    }
+                },
+                "edgeMapping": {
+                    "EDGE_TARGET_ARROW_SHAPE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "none"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "tee"
+                                },
+                                {
+                                    "v": "association",
+                                    "vp": "none"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "tee"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LABEL": {
+                        "type": "PASSTHROUGH",
+                        "definition": {
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LINE_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_SOURCE_ARROW_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_TARGET_ARROW_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "increases",
+                                    "vp": "#CC00FF"
+                                },
+                                {
+                                    "v": "hasComponent",
+                                    "vp": "#0066FF"
+                                },
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "#FF0000"
+                                },
+                                {
+                                    "v": "decreases",
+                                    "vp": "#CCFF00"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "#00FF66"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    },
+                    "EDGE_LINE_STYLE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "positiveCorrelation",
+                                    "vp": "dashed"
+                                },
+                                {
+                                    "v": "association",
+                                    "vp": "dotted"
+                                },
+                                {
+                                    "v": "directlyDecreases",
+                                    "vp": "solid"
+                                },
+                                {
+                                    "v": "directlyIncreases",
+                                    "vp": "solid"
+                                }
+                            ],
+                            "attribute": "interaction",
+                            "type": "string"
+                        }
+                    }
+                },
+                "nodeMapping": {
+                    "NODE_BORDER_WIDTH": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "complex",
+                                    "vp": 10.0
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_LABEL": {
+                        "type": "PASSTHROUGH",
+                        "definition": {
+                            "attribute": "label",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_LABEL_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_BORDER_COLOR": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "complex",
+                                    "vp": "#238B45"
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    },
+                    "NODE_SHAPE": {
+                        "type": "DISCRETE",
+                        "definition": {
+                            "map": [
+                                {
+                                    "v": "a",
+                                    "vp": "rectangle"
+                                },
+                                {
+                                    "v": "act",
+                                    "vp": "diamond"
+                                }
+                            ],
+                            "attribute": "type",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "status": [
+            {
+                "error": "",
+                "success": true
+            }
+        ]
+    }
+]
