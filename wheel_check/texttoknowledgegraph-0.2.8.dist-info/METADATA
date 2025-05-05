@@ -1,3 +1,36 @@
+Metadata-Version: 2.4
+Name: textToKnowledgeGraph
+Version: 0.2.8
+Summary: A Python package to generate BEL statements and CX2 networks.
+Home-page: https://github.com/ndexbio/llm-text-to-knowledge-graph
+Author: Favour James
+Author-email: favour.ujames196@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain==0.3.13
+Requires-Dist: langchain_core==0.3.27
+Requires-Dist: langchain_openai==0.2.13
+Requires-Dist: lxml==5.2.1
+Requires-Dist: ndex2<4.0.0,>=3.8.0
+Requires-Dist: pandas
+Requires-Dist: pydantic==2.10.4
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: Requests==2.32.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # textToKnowledgeGraph
 
 A Python package to generate BEL statements and CX2 networks from scientific text.
@@ -145,21 +178,9 @@ python -m textToKnowledgeGraph.main \
   --txt_paths /path/to/document1.txt \
   --ndex_email <your_email@example.com> \
   --ndex_password your_password \
-  --upload_to_ndex
-```
-
-```bash
-**Example B: Processing Local Files (PDF/TXT_Input)**
-python -m textToKnowledgeGraph.main \
-  --api_key YOUR_OPENAI_API_KEY \
-  --pmc_ids PMC123456 PMC234567 \
-  --pdf_paths /path/to/paper1.pdf /path/to/paper2.pdf \
-  --txt_paths /path/to/document1.txt \
-  --ndex_email <your_email@example.com> \
-  --ndex_password your_password \
   --upload_to_ndex \
-  --custom_name My_Network \
-  --pmid_for_file 35080342
+  --custom_name "My_Network" \
+  --pmid_for_file 35080342 \
 ```
 
 ### Interactive Python Examples

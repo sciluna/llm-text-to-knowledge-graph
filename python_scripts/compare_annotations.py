@@ -1,5 +1,6 @@
 import json
 import re
+import sys
 
 
 def build_minimal_results(llm_results):
@@ -64,15 +65,15 @@ def parse_bel_statement(bel_statement):
 
 def compute_scores(llm_results, annotations):
     """
-    Computes a per-statement score and an overall score based on the number
-    of correct (namespace, identifier) pairs in each BEL statement.
+    Computes a per-statement score based on the number of correct (namespace, identifier)
+    pairs in each BEL statement compared with the annotation list.
 
     For each extracted pair:
       - If (namespace, identifier) exactly matches an annotation (by id or entry_name),
         it is counted as correct.
-      - Otherwise, the code checks if the identifier exists in any annotation with a
-        different namespace. If so, it is flagged as a "wrong namespace" error (with the expected namespace(s)).
-      - If the identifier is not found at all, it is flagged as a "manufactured entity".
+      - Otherwise, if the identifier exists in any annotation (via id or entry_name) but with a
+        different namespace, it flags a "wrong namespace" error.
+      - If the identifier is not found at all, it flags a "manufactured entity" error.
 
     Returns:
       - A list of entries (each with Index, bel_statement, correct_terms, mismatched_terms, score,
@@ -124,73 +125,43 @@ def compute_scores(llm_results, annotations):
                         })
             score = correct_count / len(pairs) if pairs else 0
 
-            # Determine if there's any error and collect the error types.
-            error_types = set()
-            for term in mismatched_terms:
-                if "error" in term:
-                    error_types.add(term["error"])
-            error_flag = True if error_types else False
-
             entry = {
                 "Index": index_val,
                 "bel_statement": bel_stmt,
                 "correct_terms": correct_terms,
                 "mismatched_terms": mismatched_terms,
-                "score": score,
-                "error_flag": error_flag,
-                "error_types": list(error_types)
+                "score": score
             }
             entries.append(entry)
     overall_score = total_correct / total_terms if total_terms > 0 else 0
     return entries, overall_score
 
 
-def build_error_lookup(comparison_data):
-    """
-    Reads the comparison_scoring.json (or similar) that looks like:
-
-    Returns a dict keyed by bel_statement, with values containing
-    {"error_flag": bool, "error_types": list}.
-    """
-    error_lookup = {}
-    for entry in comparison_data["entries"]:
-        bel_stmt = entry["bel_statement"]
-        error_lookup[bel_stmt] = {
-            "error_flag": entry.get("error_flag", False),
-            "error_types": entry.get("error_types", [])
-        }
-    return error_lookup
-
-
-# --- Main Script ---
 def main():
-    # 1) Load the JSON file with LLM results.
-    with open("test_openai_results.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-    llm_results = data.get("LLM_extractions", [])
+    if len(sys.argv) != 3:
+        print("Usage: python compare_entities.py <annotation_file.json> <llm_results_file.json>")
+        sys.exit(1)
 
-    # 2) Build a minimal structure: for each index, include only the bel_statement, evidence, and annotations.
-    minimal_results = []
-    for res in llm_results:
-        minimal_entry = {
-            "Index": res.get("Index"),
-            "Results": [
-                {
-                    "bel_statement": r.get("bel_statement"),
-                    "evidence": r.get("evidence")
-                }
-                for r in res.get("Results", [])
-            ],
-            "annotations": res.get("annotations", [])
-        }
-        minimal_results.append(minimal_entry)
+    annotation_file = sys.argv[1]
+    llm_file = sys.argv[2]
 
-    # Combine annotations from all extraction objects to form a unique annotation list.
-    combined_annotations = []
-    for res in llm_results:
-        combined_annotations.extend(res.get("annotations", []))
-    unique_annotations = {(ann['db'], ann['id'], ann['entry_name']): ann for ann in combined_annotations}
+    # Load the annotation list from the annotation file.
+    with open(annotation_file, "r", encoding="utf-8") as f:
+        annotation_data = json.load(f)
+    # Assuming the annotation file is structured as a dict with keys (e.g., "1", "2", etc.)
+    annotations = []
+    for key, value in annotation_data.items():
+        annotations.extend(value.get("annotations", []))
+    # Deduplicate annotations
+    unique_annotations = {(ann['db'], ann['id'], ann['entry_name']): ann for ann in annotations}
     annotations_list = list(unique_annotations.values())
+
+    # Load LLM results (with BEL statements) from the LLM results file.
+    with open(llm_file, "r", encoding="utf-8") as f:
+        llm_data = json.load(f)
+    llm_results = llm_data.get("LLM_extractions", [])
+
+    # Compute scores and check entities.
     scoring_entries, overall_score = compute_scores(llm_results, annotations_list)
 
     # Save the comparison & scoring output to "comparison_scoring.json"

@@ -12,7 +12,6 @@ from sentence_level_extraction import llm_ann_processing
 from grounding_genes import annotate_paragraphs_in_json, process_annotations
 from indra_download_extract import save_to_json, setup_output_directory
 from transform_bel_statements import process_llm_results
-from compare_annotations import build_minimal_results, compute_scores, build_error_lookup
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -59,27 +58,11 @@ def process_pmc_document(pmc_id, ndex_email=None, ndex_password=None, style_path
     llm_filename = 'llm_results.json'
     save_to_json(llm_results, llm_filename, output_dir)
 
-    logging.info("Building minimal results for scoring")
-    minimal_resuls = build_minimal_results(llm_results)
-    save_to_json(minimal_resuls, 'minimal_results.json', output_dir)
-
-    logging.info("Comparing results to check for errors")
-    combined_annotations = []
-    for res in llm_results:
-        combined_annotations.extend(res.get("annotations", []))
-    unique_annotations = {(ann['db'], ann['id'], ann['entry_name']): ann for ann in combined_annotations}
-    annotations_list = list(unique_annotations.values())
-    scoring_entries, overall_score = compute_scores(llm_results, annotations_list)
-    output = {"entries": scoring_entries, "overall_score": overall_score}
-    save_to_json(output, 'comparison_scoring.json', output_dir)
-
-    error_lookup = build_error_lookup(output)
-
     logging.info("Processing annotations to extract node URLs")
     processed_annotations = process_annotations(llm_results)
 
     logging.info("Generating CX2 network")
-    extracted_results = process_llm_results(processed_annotations, error_lookup=error_lookup)
+    extracted_results = process_llm_results(processed_annotations)
     cx2_network = convert_to_cx2(extracted_results, style_path=style_path)
 
     # Fetch metadata for the publication
@@ -293,14 +276,16 @@ if __name__ == "__main__":
     parser.add_argument("--upload_to_ndex", 
                         action="store_true", 
                         help="Flag to upload the CX2 network to NDEx")
+    parser.add_argument("--prompt_file",
+                        type=str,
+                        default=None,
+                        help="Path to a custom LLM prompt file (defaults to internal prompt)")
     parser.add_argument("--custom_name", type=str, 
                         help="If provided (and you're processing a file, not a PMC ID), "
                              "use this name for the network instead of timestamp.")
     parser.add_argument("--pmid_for_file", type=str,
                         help="If you're processing a file, and it corresponds to a known article, "
                              "supply a PMID or PMCID so we can fetch metadata for naming.")
-    parser.add_argument("--drop_error_types", nargs='*', default=[],
-                        help="List of error types to drop")
 
     args = parser.parse_args()
 
@@ -313,8 +298,7 @@ if __name__ == "__main__":
         style_path=args.style_path,
         upload_to_ndex=args.upload_to_ndex,
         custom_name=args.custom_name,
-        pmid_for_file=args.pmid_for_file,
-        drop_error_types=args.drop_error_types
+        pmid_for_file=args.pmid_for_file
     )
 
     elapsed_time = time.time() - start_time

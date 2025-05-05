@@ -1,0 +1,2 @@
+[console_scripts]
+textToKnowledgeGraph = textToKnowledgeGraph.main:main

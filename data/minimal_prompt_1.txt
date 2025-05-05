@@ -162,7 +162,7 @@ Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522.
 Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress.
 - act(p(HGNC:SUMO1), ma("GO:SUMO transferase activity")) directlyIncreases act(p(HGNC:SIRT1))
 - p(HGNC:SIRT1, pmod(Sumo, Lys, 734)) increases act(p(HGNC:SIRT1))
-- act(p(HGNC:SENP1)) directlyDecreases act(p(HGNC:SIRT1))
+- act(p(HGNC:SENP1), ma("GO:protein desumoylation")) directlyDecreases act(p(HGNC:SIRT1))
 
 NAD depletion mediated by PARP1 overactivation attenuates the deacetylase activity of SIRT1.
 - act(p(HGNC:PARP1)) decreases act(p(HGNC:SIRT1))
@@ -180,6 +180,12 @@ SIRT1 is regarded as a crucial epigenetic regulator that facilitates DNA repair.
 At DNA damage sites, BRG1 and SIRT1 physically interact, whereupon SIRT1 deacetylates BRG1 at lysine residues 1029 and 1033.
 - p(HGNC:SIRT1) directlyDecreases p(HGNC:BRG1, pmod(Ac, Lys, 1029))
 - p(HGNC:SIRT1) directlyDecreases p(HGNC:BRG1, pmod(Ac, Lys, 1033))
+
+In the third phase, gap filling, x-ray repair cross-complementing gene/protein 1 (XRCC1) appears to function as a platform for the assembly of DNA polymerase b (DPase b), DNA ligase III, and PARP.
+- complex(p(HGNC:XRCC1), p(HGNC:POLB), p(HGNC:LIG3), p(HGNC:PARP1)) 
+
+The binding of PARP by XRCC1 may function to block the further action of PARP during this phase at a repair site.
+- complex(p(HGNC:XRCC1), p(HGNC:PARP1)) directlyDecreases act(p(HGNC:PARP1))
 
 Output Instructions:
 

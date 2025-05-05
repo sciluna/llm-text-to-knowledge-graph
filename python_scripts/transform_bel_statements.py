@@ -56,59 +56,24 @@ def parse_bel_statement(bel_statement):
     return left_expr, relation, right_expr
 
 
-def process_llm_results(llm_data, error_lookup=None):
-    """
-    Merges error info from error_lookup into the final list of interactions.
-
-    llm_data is the raw JSON from your LLM pipeline, with structure:
-    {
-      "LLM_extractions": [
-        {
-          "Index": "1",
-          "text": "...",
-          "Results": [
-            {"bel_statement": "...", "evidence": "..."},
-            ...
-          ],
-          "annotations": [...]
-        },
-        ...
-      ]
-    }
-
-    error_lookup is a dict keyed by bel_statement -> { "error_flag": bool, "error_types": [...] }.
-    """
+def process_llm_results(llm_data):
     extracted_results = []
     for entry in llm_data.get("LLM_extractions", []):
         text = entry.get("text", "")
         for result in entry.get("Results", []):
             bel_stmt = result.get("bel_statement", "")
             evidence = result.get("evidence", "")
-
-            # Parse the BEL statement if needed (source, relationship, target).
             source, interaction, target = parse_bel_statement(bel_stmt)
             if not source or not interaction or not target:
                 # If parsing fails, skip or handle differently
                 continue
-
-            # Default to no error
-            err_flag = False
-            err_types = []
-
-            # If we have an error_lookup, see if there's data for this statement
-            if error_lookup is not None:
-                err_info = error_lookup.get(bel_stmt, {})
-                err_flag = err_info.get("error_flag", False)
-                err_types = err_info.get("error_types", [])
 
             extracted_results.append({
                 "source": source,
                 "interaction": interaction,
                 "target": target,
                 "text": text,
-                "evidence": evidence,
-                "error_flag": err_flag,
-                "error_types": err_types
+                "evidence": evidence
             })
 
         # for annots in entry["annotations"]:
