@@ -1,35 +1,55 @@
 
+
 def parse_bel_statement(bel_statement):
     bel_statement = bel_statement.strip()
 
+    depth = 0
+    for ch in bel_statement:
+        if ch == '(':
+            depth += 1
+        elif ch == ')':
+            depth -= 1
+        elif ch == ' ' and depth == 0:
+            # found a relation separator → go parse binary below
+            break
+    else:
+        # loop fell through (no top‐level space found) → unary
+        return bel_statement, None, None
+
     def extract_expression(s, start):
-        # Skip leading whitespace
+        # skip whitespace…
         while start < len(s) and s[start].isspace():
             start += 1
-        # Read the function name (letters only)
         func_start = start
-        while start < len(s) and s[start].isalpha():
-            start += 1
-        func_name = s[func_start:start]
-        # The next character must be an opening parenthesis
+        # read until '(' or token break
+        while start < len(s) and (s[start].isalnum() or s[start] in ['_', ':', '"']):
+            # if we hit a quote, consume the whole quoted string
+            if s[start] == '"':
+                start += 1
+                while start < len(s) and s[start] != '"':
+                    start += 1
+                start += 1
+            else:
+                start += 1
+
+        # if there’s no '(', treat what we just read as a bare term
         if start >= len(s) or s[start] != '(':
-            return None, start
-        # Now extract the entire expression, including nested parentheses
+            expr = s[func_start:start]
+            return expr, start
+
+        # otherwise it’s a function-call—fall back to your existing paren‐matching logic
+        func_name = s[func_start:start]
         stack = []
-        expr_start = start  # position of first '('
+        expr_start = start
         while start < len(s):
             if s[start] == '(':
                 stack.append('(')
             elif s[start] == ')':
-                if not stack:
-                    # Unbalanced; return None
-                    return None, start
                 stack.pop()
                 if not stack:
-                    start += 1  # include the closing parenthesis
+                    start += 1
                     break
             start += 1
-        # Return the complete expression (function name + arguments)
         expr = func_name + s[expr_start:start]
         return expr, start
 
@@ -64,17 +84,25 @@ def process_llm_results(llm_data):
             bel_stmt = result.get("bel_statement", "")
             evidence = result.get("evidence", "")
             source, interaction, target = parse_bel_statement(bel_stmt)
-            if not source or not interaction or not target:
-                # If parsing fails, skip or handle differently
+
+            if source and interaction is None and target is None:
+                extracted_results.append({
+                    "source": source,
+                    "interaction": None,
+                    "target": None,
+                    "text": text,
+                    "evidence": evidence
+                })
                 continue
 
-            extracted_results.append({
-                "source": source,
-                "interaction": interaction,
-                "target": target,
-                "text": text,
-                "evidence": evidence
-            })
+            if source and interaction and target:
+                extracted_results.append({
+                    "source": source,
+                    "interaction": interaction,
+                    "target": target,
+                    "text": text,
+                    "evidence": evidence
+                })
 
         # for annots in entry["annotations"]:
         #     entry_name = annots["entry_name"]

@@ -46,8 +46,6 @@ def convert_to_cx2(extracted_results, style_path=None):
     bel_expression_list = []
     text_list = []
     evidence_list = []
-    # error_flag_list = []
-    # error_types_list = []
 
     # Create mappings for node names to unique integer IDs
     node_name_to_id = {}
@@ -67,8 +65,12 @@ def convert_to_cx2(extracted_results, style_path=None):
         target = entry.get("target")
         text = entry.get("text")
         evidence = entry.get("evidence")
-        # error_flag = entry.get("error_flag", False)
-        # error_types = entry.get("error_types", [])
+
+        if source and interaction is None and target is None:
+            if source not in node_name_to_id:
+                node_name_to_id[source] = node_id_counter
+                node_id_counter += 1
+            continue
 
         if source and interaction and target:
             # Assign unique integer ID if node doesn't exist in mapping
@@ -88,8 +90,6 @@ def convert_to_cx2(extracted_results, style_path=None):
             target_list.append(target)
             interaction_list.append(interaction)
             evidence_list.append(evidence)
-            # error_flag_list.append(error_flag)
-            # error_types_list.append(", ".join(error_types) if error_types else "")
 
     # Create a DataFrame for CX2 conversion
     df = pd.DataFrame({
@@ -100,9 +100,7 @@ def convert_to_cx2(extracted_results, style_path=None):
         'target_label': target_label_list,
         'bel_expression': bel_expression_list,
         'text': text_list,
-        'evidence': evidence_list,
-        # 'error_flag': error_flag_list,
-        # 'error_types': error_types_list
+        'evidence': evidence_list
     })
 
     # Convert DataFrame to CX2 network format
