@@ -62,7 +62,9 @@ def parse_bel_statement(bel_statement):
     while idx < len(bel_statement) and bel_statement[idx].isspace():
         idx += 1
     rel_start = idx
-    while idx < len(bel_statement) and not bel_statement[idx].isspace():
+
+    # Stop at whitespace OR at the '(' that starts the right‐hand expression
+    while idx < len(bel_statement) and not bel_statement[idx].isspace() and bel_statement[idx] != '(':
         idx += 1
     relation = bel_statement[rel_start:idx]
 
@@ -78,6 +80,13 @@ def parse_bel_statement(bel_statement):
 
 def process_llm_results(llm_data):
     extracted_results = []
+
+    # track all node names
+    node_names = set()
+    # track just the unary‑only sources
+    unary_names = set()
+    # count of binary relations (edges)
+    binary_count = 0
     for entry in llm_data.get("LLM_extractions", []):
         text = entry.get("text", "")
         for result in entry.get("Results", []):
@@ -86,6 +95,8 @@ def process_llm_results(llm_data):
             source, interaction, target = parse_bel_statement(bel_stmt)
 
             if source and interaction is None and target is None:
+                unary_names.add(source)
+                node_names.add(source)
                 extracted_results.append({
                     "source": source,
                     "interaction": None,
@@ -96,6 +107,9 @@ def process_llm_results(llm_data):
                 continue
 
             if source and interaction and target:
+                binary_count += 1
+                node_names.add(source)
+                node_names.add(target)
                 extracted_results.append({
                     "source": source,
                     "interaction": interaction,
@@ -111,5 +125,18 @@ def process_llm_results(llm_data):
         #         "entry_name": entry_name,
         #         "url": url
         #     })  
+    node_count = len(node_names)
+    edge_count = binary_count
+    unary_node_count = len(unary_names)
+
+    unary_statement_count = sum(
+        1 for e in extracted_results
+        if e["interaction"] is None and e["target"] is None
+    )
+
+    print(f"Node count: {node_count}")
+    print(f"Edge count: {edge_count}")
+    print(f"Unique unary nodes: {unary_node_count}")
+    print(f"Unary statements (no edge): {unary_statement_count}")
 
     return extracted_results
