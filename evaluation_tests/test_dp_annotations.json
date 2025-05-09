@@ -3,109 +3,102 @@
         "text": "There are substantial shortcomings in the drugs currently available for treatment of type 2 diabetes mellitus. The global diabetic crisis has not abated despite the introduction of new types of drugs and targets. Persistent unaddressed patient needs remain a significant factor in the quest for new leads in routine studies. Drug discovery methods in this area have followed developments in the market, contributing to a recent rise in the number of molecules. Nevertheless, troubling developments and fresh challenges are still evident. Recently, metformin, the most widely used first-line drug for diabetes, was found to contain a carcinogenic contaminant known as N-nitroso dimethylamine (NDMA). Therefore, purity and toxicity are also a big challenge for drug discovery and development. Moreover, newer drug classes against SGLT-2 illustrate both progress and difficulties. The same was true previously in the case of glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors. Furthermore, researchers must study the importance of mechanistic characteristics of novel compounds, as well as exposure-related hazardous aspects of current and newly identified protein targets, in order to identify new pharmacological molecules with improved selectivity and specificity.",
         "annotations": [
             {
+                "matched_text": "drugs",
                 "db": "CHEBI",
                 "id": "CHEBI:23888",
-                "entry_name": "drug"
+                "entry_name": "drug",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "diabetes mellitus",
                 "db": "MESH",
                 "id": "D003920",
-                "entry_name": "Diabetes Mellitus"
+                "entry_name": "Diabetes Mellitus",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "drugs",
                 "db": "CHEBI",
                 "id": "CHEBI:23888",
-                "entry_name": "drug"
+                "entry_name": "drug",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D010361",
-                "entry_name": "Patients"
-            },
-            {
+                "matched_text": "Drug discovery",
                 "db": "MESH",
                 "id": "D055808",
-                "entry_name": "Drug Discovery"
+                "entry_name": "Drug Discovery",
+                "score": 0.7715934858792002
             },
             {
+                "matched_text": "methods",
                 "db": "MESH",
                 "id": "D008722",
-                "entry_name": "Methods"
+                "entry_name": "Methods",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "number of molecules",
                 "db": "EFO",
                 "id": "0004368",
-                "entry_name": "Number of molecules"
+                "entry_name": "Number of molecules",
+                "score": 0.7715934858792002
             },
             {
+                "matched_text": "metformin",
                 "db": "CHEBI",
                 "id": "CHEBI:6801",
-                "entry_name": "metformin"
+                "entry_name": "metformin",
+                "score": 1.0
             },
             {
+                "matched_text": "drug",
                 "db": "CHEBI",
                 "id": "CHEBI:23888",
-                "entry_name": "drug"
+                "entry_name": "drug",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D003920",
-                "entry_name": "Diabetes Mellitus"
-            },
-            {
-                "db": "CHEBI",
-                "id": "CHEBI:143130",
-                "entry_name": "impurity"
-            },
-            {
+                "matched_text": "dimethylamine",
                 "db": "CHEBI",
                 "id": "CHEBI:17170",
-                "entry_name": "dimethylamine"
+                "entry_name": "dimethylamine",
+                "score": 0.7777777777777778
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:59990",
-                "entry_name": "N,N-dimethyl-4-nitrosoaniline"
-            },
-            {
+                "matched_text": "toxicity",
                 "db": "EFO",
                 "id": "0011061",
-                "entry_name": "toxicity"
+                "entry_name": "toxicity",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "drug discovery",
                 "db": "MESH",
                 "id": "D055808",
-                "entry_name": "Drug Discovery"
+                "entry_name": "Drug Discovery",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "drug",
                 "db": "CHEBI",
                 "id": "CHEBI:23888",
-                "entry_name": "drug"
+                "entry_name": "drug",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "11037",
-                "entry_name": "SLC5A2"
-            },
-            {
+                "matched_text": "glucagon-like peptide-1 receptor agonists",
                 "db": "CHEBI",
                 "id": "CHEBI:71196",
-                "entry_name": "glucagon-like peptide-1 receptor agonist"
+                "entry_name": "glucagon-like peptide-1 receptor agonist",
+                "score": 0.7777777777777778
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:68612",
-                "entry_name": "EC 3.4.14.5 (dipeptidyl-peptidase IV) inhibitor"
-            },
-            {
-                "db": "MESH",
-                "id": "D012108",
-                "entry_name": "Research Personnel"
-            },
-            {
+                "matched_text": "molecules",
                 "db": "CHEBI",
                 "id": "CHEBI:25367",
-                "entry_name": "molecule"
+                "entry_name": "molecule",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -113,79 +106,81 @@
         "text": "In the case of Micronesia and other nearby islands, there is one hypothesis that argues the cause of severe diabetes is inadequate physical activity and an unhealthy diet. During times in which there is an inadequate food supply, people in Micronesia consume an excess amount of sugar to sustain themselves. After recovering from such periods, even with an increased availability of higher quality foods, sugar consumption has become an integral part of their daily dietary habits. Micronesian survey data show that around 73.1% of the population is overweight, and 32.1% frankly diabetic.",
         "annotations": [
             {
+                "matched_text": "Micronesia",
                 "db": "MESH",
                 "id": "D008849",
-                "entry_name": "Micronesia"
+                "entry_name": "Micronesia",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "islands",
                 "db": "MESH",
                 "id": "D062312",
-                "entry_name": "Islands"
+                "entry_name": "Islands",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "severe",
                 "db": "HP",
                 "id": "HP:0012828",
-                "entry_name": "Severe"
+                "entry_name": "Severe",
+                "score": 0.7623170480313337
             },
             {
-                "db": "MESH",
-                "id": "D003920",
-                "entry_name": "Diabetes Mellitus"
-            },
-            {
+                "matched_text": "physical activity",
                 "db": "EFO",
                 "id": "0003940",
-                "entry_name": "physical activity"
+                "entry_name": "physical activity",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "diet",
                 "db": "MESH",
                 "id": "D004032",
-                "entry_name": "Diet"
+                "entry_name": "Diet",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "food supply",
                 "db": "MESH",
                 "id": "D005523",
-                "entry_name": "Food Supply"
+                "entry_name": "Food Supply",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "Micronesia",
                 "db": "MESH",
                 "id": "D008849",
-                "entry_name": "Micronesia"
+                "entry_name": "Micronesia",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D000073893",
-                "entry_name": "Sugars"
-            },
-            {
+                "matched_text": "foods",
                 "db": "CHEBI",
                 "id": "CHEBI:33290",
-                "entry_name": "food"
+                "entry_name": "food",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D000073893",
-                "entry_name": "Sugars"
-            },
-            {
-                "db": "MESH",
-                "id": "D004032",
-                "entry_name": "Diet"
-            },
-            {
+                "matched_text": "habits",
                 "db": "MESH",
                 "id": "D006184",
-                "entry_name": "Habits"
+                "entry_name": "Habits",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "population",
                 "db": "MESH",
                 "id": "D011153",
-                "entry_name": "Population"
+                "entry_name": "Population",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "overweight",
                 "db": "MESH",
                 "id": "D050177",
-                "entry_name": "Overweight"
+                "entry_name": "Overweight",
+                "score": 0.7623170480313337
             }
         ]
     },
@@ -193,219 +188,228 @@
         "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
         "annotations": [
             {
-                "db": "MESH",
-                "id": "D018869",
-                "entry_name": "Heat-Shock Response"
-            },
-            {
-                "db": "MESH",
-                "id": "D014157",
-                "entry_name": "Transcription Factors"
-            },
-            {
+                "matched_text": "shock",
                 "db": "MESH",
                 "id": "D012769",
-                "entry_name": "Shock"
+                "entry_name": "Shock",
+                "score": 0.7623170480313337
             },
             {
-                "db": "FPLX",
-                "id": "Fibrinogen",
-                "entry_name": "Fibrinogen"
-            },
-            {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D006360",
-                "entry_name": "Heat-Shock Proteins"
-            },
-            {
+                "matched_text": "proteome",
                 "db": "MESH",
                 "id": "D020543",
-                "entry_name": "Proteome"
+                "entry_name": "Proteome",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "DNA binding",
                 "db": "GO",
                 "id": "GO:0003677",
-                "entry_name": "DNA binding"
+                "entry_name": "DNA binding",
+                "score": 0.7777777777777778
             },
             {
-                "db": "GO",
-                "id": "GO:2000144",
-                "entry_name": "positive regulation of DNA-templated transcription initiation"
-            },
-            {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "mTOR",
                 "db": "HGNC",
                 "id": "3942",
-                "entry_name": "MTOR"
+                "entry_name": "MTOR",
+                "score": 1.0
             },
             {
+                "matched_text": "p38",
                 "db": "FPLX",
                 "id": "p38",
-                "entry_name": "p38"
+                "entry_name": "p38",
+                "score": 1.0
             },
             {
+                "matched_text": "MEK1",
                 "db": "HGNC",
                 "id": "6840",
-                "entry_name": "MAP2K1"
+                "entry_name": "MAP2K1",
+                "score": 1.0
             },
             {
+                "matched_text": "DYRK2",
                 "db": "HGNC",
                 "id": "3093",
-                "entry_name": "DYRK2"
+                "entry_name": "DYRK2",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "mTOR",
                 "db": "HGNC",
                 "id": "3942",
-                "entry_name": "MTOR"
+                "entry_name": "MTOR",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "mTOR",
                 "db": "HGNC",
                 "id": "3942",
-                "entry_name": "MTOR"
+                "entry_name": "MTOR",
+                "score": 1.0
             },
             {
+                "matched_text": "p38",
                 "db": "FPLX",
                 "id": "p38",
-                "entry_name": "p38"
+                "entry_name": "p38",
+                "score": 1.0
             },
             {
+                "matched_text": "MEK1",
                 "db": "HGNC",
                 "id": "6840",
-                "entry_name": "MAP2K1"
+                "entry_name": "MAP2K1",
+                "score": 1.0
             },
             {
+                "matched_text": "DYRK2",
                 "db": "HGNC",
                 "id": "3093",
-                "entry_name": "DYRK2"
+                "entry_name": "DYRK2",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "activator",
                 "db": "CHEBI",
                 "id": "CHEBI:195251",
-                "entry_name": "activator"
+                "entry_name": "activator",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "Mass spectrometry",
                 "db": "MESH",
                 "id": "D013058",
-                "entry_name": "Mass Spectrometry"
+                "entry_name": "Mass Spectrometry",
+                "score": 0.7715934858792002
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D010770",
-                "entry_name": "Phosphotransferases"
-            },
-            {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "GO",
-                "id": "GO:2000144",
-                "entry_name": "positive regulation of DNA-templated transcription initiation"
-            },
-            {
-                "db": "HGNC",
-                "id": "4648",
-                "entry_name": "GTF2B"
-            },
-            {
+                "matched_text": "CDK9",
                 "db": "HGNC",
                 "id": "1780",
-                "entry_name": "CDK9"
+                "entry_name": "CDK9",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "18270",
-                "entry_name": "HHAT"
-            },
-            {
-                "db": "GO",
-                "id": "GO:2000144",
-                "entry_name": "positive regulation of DNA-templated transcription initiation"
-            },
-            {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "GO",
-                "id": "GO:2000144",
-                "entry_name": "positive regulation of DNA-templated transcription initiation"
-            },
-            {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             }
         ]
     },
@@ -413,169 +417,186 @@
         "text": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326. AKT1 has well-known oncogenic functions. AKT2 and AKT3 also have pro-tumour functions but whether HSF1 can be regulated by these isoforms remains unknown. To assess this possibility, either AKT1, AKT2 or AKT3 were introduced into multiple cell lines along with a luciferase reporter driven by the presence of two heat shock elements (HSEs). Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C). AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C). To determine the ability of the AKT isoforms to phosphorylate HSF1 at S326, a key phosphorylation event critical for HSF1 activity, an in vitro kinase assay followed by immunoblotting was performed with each AKT isoform. Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D). ",
         "annotations": [
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT3",
                 "db": "HGNC",
                 "id": "393",
-                "entry_name": "AKT3"
+                "entry_name": "AKT3",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D020033",
-                "entry_name": "Protein Isoforms"
-            },
-            {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT3",
                 "db": "HGNC",
                 "id": "393",
-                "entry_name": "AKT3"
+                "entry_name": "AKT3",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D008156",
-                "entry_name": "Luciferases"
-            },
-            {
+                "matched_text": "shock",
                 "db": "MESH",
                 "id": "D012769",
-                "entry_name": "Shock"
+                "entry_name": "Shock",
+                "score": 0.7623170480313337
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:33250",
-                "entry_name": "atom"
-            },
-            {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT3",
                 "db": "HGNC",
                 "id": "393",
-                "entry_name": "AKT3"
+                "entry_name": "AKT3",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT",
                 "db": "FPLX",
                 "id": "AKT",
-                "entry_name": "AKT"
+                "entry_name": "AKT",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D020033",
-                "entry_name": "Protein Isoforms"
-            },
-            {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "event",
                 "db": "EFO",
                 "id": "0009629",
-                "entry_name": "event"
+                "entry_name": "event",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D010770",
-                "entry_name": "Phosphotransferases"
-            },
-            {
+                "matched_text": "AKT",
                 "db": "FPLX",
                 "id": "AKT",
-                "entry_name": "AKT"
+                "entry_name": "AKT",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D020033",
-                "entry_name": "Protein Isoforms"
-            },
-            {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT3",
                 "db": "HGNC",
                 "id": "393",
-                "entry_name": "AKT3"
-            },
-            {
-                "db": "HGNC",
-                "id": "6647",
-                "entry_name": "LMOD1"
+                "entry_name": "AKT3",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -583,129 +604,158 @@
         "text": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D). However, we also observed that AKT2 did not phosphorylate S326 as strongly in cells (Fig. 1E), suggesting that AKT2 has the capability to phosphorylate HSF1 but this is more limited within living cells. AKT1 is also a well-known activator of mTOR and mTOR has been shown to phosphorylate HSF1 at S326 in response to proteotoxic stress. Therefore, to determine whether AKT1-driven HSF1 activity and S326 phosphorylation is mediated by mTOR, cells were treated with increasing concentrations of rapamycin and subjected to the HSE luciferase reporter assay or immunoblotting with p-HSF1 S326 antibodies. Results indicated that rapamycin had no effect on HSF1 activity (Fig. 1F) or on S326 phosphorylation (Fig. 1G) driven by AKT1. We further assessed whether the AKT isoforms affected downstream activation steps of HSF1, including trimerization and DNA binding. ",
         "annotations": [
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "activator",
                 "db": "CHEBI",
                 "id": "CHEBI:195251",
-                "entry_name": "activator"
+                "entry_name": "activator",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "mTOR",
                 "db": "HGNC",
                 "id": "3942",
-                "entry_name": "MTOR"
+                "entry_name": "MTOR",
+                "score": 1.0
             },
             {
+                "matched_text": "mTOR",
                 "db": "HGNC",
                 "id": "3942",
-                "entry_name": "MTOR"
+                "entry_name": "MTOR",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "proteotoxic stress",
                 "db": "MESH",
                 "id": "D000094403",
-                "entry_name": "Proteotoxic Stress"
+                "entry_name": "Proteotoxic Stress",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "mTOR",
                 "db": "HGNC",
                 "id": "3942",
-                "entry_name": "MTOR"
+                "entry_name": "MTOR",
+                "score": 1.0
             },
             {
+                "matched_text": "rapamycin",
                 "db": "CHEBI",
                 "id": "CHEBI:9168",
-                "entry_name": "sirolimus"
+                "entry_name": "sirolimus",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "23316",
-                "entry_name": "HSD17B6"
-            },
-            {
-                "db": "MESH",
-                "id": "D008156",
-                "entry_name": "Luciferases"
-            },
-            {
+                "matched_text": "rapamycin",
                 "db": "CHEBI",
                 "id": "CHEBI:9168",
-                "entry_name": "sirolimus"
+                "entry_name": "sirolimus",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT",
                 "db": "FPLX",
                 "id": "AKT",
-                "entry_name": "AKT"
+                "entry_name": "AKT",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D020033",
-                "entry_name": "Protein Isoforms"
-            },
-            {
+                "matched_text": "affected",
                 "db": "HP",
                 "id": "HP:0032320",
-                "entry_name": "Affected"
+                "entry_name": "Affected",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "DNA binding",
                 "db": "GO",
                 "id": "GO:0003677",
-                "entry_name": "DNA binding"
+                "entry_name": "DNA binding",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -713,199 +763,228 @@
         "text": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B). AKT2 and AKT3 promoted on minimal amounts of HSF1 trimerization (Fig. 2A-B). Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C). To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E). We did not observe any effect of AKT1 on HSF1 protein half-life (Fig. S1). These results indicate that AKT1 is the primary AKT isoform capable of activating HSF1 with AKT2 having modest effects in cells.",
         "annotations": [
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:74526",
-                "entry_name": "sec-butylamine"
-            },
-            {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT3",
                 "db": "HGNC",
                 "id": "393",
-                "entry_name": "AKT3"
+                "entry_name": "AKT3",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:74526",
-                "entry_name": "sec-butylamine"
-            },
-            {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSPA1A",
                 "db": "HGNC",
                 "id": "5232",
-                "entry_name": "HSPA1A"
+                "entry_name": "HSPA1A",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSP70",
                 "db": "FPLX",
                 "id": "HSPA",
-                "entry_name": "HSPA"
+                "entry_name": "HSPA",
+                "score": 1.0
             },
             {
+                "matched_text": "HSPA8",
                 "db": "HGNC",
                 "id": "5241",
-                "entry_name": "HSPA8"
+                "entry_name": "HSPA8",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "5241",
-                "entry_name": "HSPA8"
-            },
-            {
+                "matched_text": "HSPD1",
                 "db": "HGNC",
                 "id": "5261",
-                "entry_name": "HSPD1"
+                "entry_name": "HSPD1",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "29526",
-                "entry_name": "HSPA14"
-            },
-            {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT3",
                 "db": "HGNC",
                 "id": "393",
-                "entry_name": "AKT3"
+                "entry_name": "AKT3",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "DNA binding",
                 "db": "GO",
                 "id": "GO:0003677",
-                "entry_name": "DNA binding"
+                "entry_name": "DNA binding",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
-                "db": "GO",
-                "id": "GO:2000144",
-                "entry_name": "positive regulation of DNA-templated transcription initiation"
-            },
-            {
+                "matched_text": "HSP70",
                 "db": "FPLX",
                 "id": "HSPA",
-                "entry_name": "HSPA"
+                "entry_name": "HSPA",
+                "score": 1.0
             },
             {
+                "matched_text": "HSP90",
                 "db": "FPLX",
                 "id": "HSP90",
-                "entry_name": "HSP90"
+                "entry_name": "HSP90",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT3",
                 "db": "HGNC",
                 "id": "393",
-                "entry_name": "AKT3"
+                "entry_name": "AKT3",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "HSP70",
                 "db": "FPLX",
                 "id": "HSPA",
-                "entry_name": "HSPA"
+                "entry_name": "HSPA",
+                "score": 1.0
             },
             {
+                "matched_text": "HSP70",
                 "db": "FPLX",
                 "id": "HSPA",
-                "entry_name": "HSPA"
+                "entry_name": "HSPA",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D020033",
-                "entry_name": "Protein Isoforms"
-            },
-            {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "half-life",
                 "db": "MESH",
                 "id": "D006207",
-                "entry_name": "Half-Life"
+                "entry_name": "Half-Life",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "S1",
                 "db": "EFO",
                 "id": "0002078",
-                "entry_name": "S1"
+                "entry_name": "S1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "AKT1",
                 "db": "HGNC",
                 "id": "391",
-                "entry_name": "AKT1"
+                "entry_name": "AKT1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT",
                 "db": "FPLX",
                 "id": "AKT",
-                "entry_name": "AKT"
+                "entry_name": "AKT",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D020033",
-                "entry_name": "Protein Isoforms"
-            },
-            {
+                "matched_text": "HSF1",
                 "db": "HGNC",
                 "id": "5224",
-                "entry_name": "HSF1"
+                "entry_name": "HSF1",
+                "score": 1.0
             },
             {
+                "matched_text": "AKT2",
                 "db": "HGNC",
                 "id": "392",
-                "entry_name": "AKT2"
+                "entry_name": "AKT2",
+                "score": 1.0
             }
         ]
     },
@@ -913,44 +992,32 @@
         "text": "Tripterine is an inhibitor of heat shock protein 90 and an active component of Tripterygium wilfordii Hook F., which is used in traditional Chinese medicine to treat inflammatory diseases such as rheumatoid arthritis. We hypothesized that tripterine inhibits endogenous peroxynitrite formation and thereby prevents endothelial barrier dysfunction",
         "annotations": [
             {
-                "db": "CHEBI",
-                "id": "CHEBI:63959",
-                "entry_name": "celastrol"
-            },
-            {
-                "db": "MESH",
-                "id": "D006360",
-                "entry_name": "Heat-Shock Proteins"
-            },
-            {
+                "matched_text": "Tripterygium",
                 "db": "MESH",
                 "id": "D029757",
-                "entry_name": "Tripterygium"
+                "entry_name": "Tripterygium",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D008516",
-                "entry_name": "Medicine, Chinese Traditional"
-            },
-            {
+                "matched_text": "inflammatory diseases",
                 "db": "EFO",
                 "id": "0009903",
-                "entry_name": "inflammatory disease"
+                "entry_name": "inflammatory disease",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "rheumatoid arthritis",
                 "db": "MESH",
                 "id": "D001172",
-                "entry_name": "Arthritis, Rheumatoid"
+                "entry_name": "Arthritis, Rheumatoid",
+                "score": 0.7777777777777778
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:63959",
-                "entry_name": "celastrol"
-            },
-            {
+                "matched_text": "peroxynitrite",
                 "db": "CHEBI",
                 "id": "CHEBI:25941",
-                "entry_name": "peroxynitrite"
+                "entry_name": "peroxynitrite",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -958,134 +1025,137 @@
         "text": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
         "annotations": [
             {
-                "db": "CHEBI",
-                "id": "CHEBI:63959",
-                "entry_name": "celastrol"
-            },
-            {
-                "db": "MESH",
-                "id": "D052247",
-                "entry_name": "Nitric Oxide Synthase Type II"
-            },
-            {
+                "matched_text": "iNOS",
                 "db": "HGNC",
                 "id": "7873",
-                "entry_name": "NOS2"
+                "entry_name": "NOS2",
+                "score": 1.0
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:18009",
-                "entry_name": "NADP(+)"
-            },
-            {
+                "matched_text": "NADPH",
                 "db": "CHEBI",
                 "id": "CHEBI:16474",
-                "entry_name": "NADPH"
+                "entry_name": "NADPH",
+                "score": 1.0
             },
             {
+                "matched_text": "3-nitrotyrosine",
                 "db": "CHEBI",
                 "id": "CHEBI:86269",
-                "entry_name": "3-nitrotyrosine"
+                "entry_name": "3-nitrotyrosine",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "phosphatase",
                 "db": "FPLX",
                 "id": "Phosphatase",
-                "entry_name": "Phosphatase"
+                "entry_name": "Phosphatase",
+                "score": 1.0
             },
             {
+                "matched_text": "PP2A",
                 "db": "FPLX",
                 "id": "PPP2",
-                "entry_name": "PPP2"
+                "entry_name": "PPP2",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D010770",
-                "entry_name": "Phosphotransferases"
-            },
-            {
+                "matched_text": "ERK",
                 "db": "FPLX",
                 "id": "ERK",
-                "entry_name": "ERK"
+                "entry_name": "ERK",
+                "score": 1.0
             },
             {
+                "matched_text": "c-Jun",
                 "db": "HGNC",
                 "id": "6204",
-                "entry_name": "JUN"
+                "entry_name": "JUN",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D010770",
-                "entry_name": "Phosphotransferases"
-            },
-            {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D053612",
-                "entry_name": "Janus Kinases"
-            },
-            {
+                "matched_text": "Jak2",
                 "db": "HGNC",
                 "id": "6192",
-                "entry_name": "JAK2"
+                "entry_name": "JAK2",
+                "score": 0.9468150896722326
             },
             {
-                "db": "GO",
-                "id": "GO:0009056",
-                "entry_name": "catabolic process"
-            },
-            {
+                "matched_text": "endothelial cells",
                 "db": "MESH",
                 "id": "D042783",
-                "entry_name": "Endothelial Cells"
+                "entry_name": "Endothelial Cells",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "lipopolysaccharide",
                 "db": "CHEBI",
                 "id": "CHEBI:16412",
-                "entry_name": "lipopolysaccharide"
+                "entry_name": "lipopolysaccharide",
+                "score": 1.0
             },
             {
+                "matched_text": "LPS",
                 "db": "CHEBI",
                 "id": "CHEBI:16412",
-                "entry_name": "lipopolysaccharide"
+                "entry_name": "lipopolysaccharide",
+                "score": 1.0
             },
             {
+                "matched_text": "interferon",
                 "db": "FPLX",
                 "id": "Interferon",
-                "entry_name": "Interferon"
+                "entry_name": "Interferon",
+                "score": 1.0
             },
             {
+                "matched_text": "IFNg",
                 "db": "HGNC",
                 "id": "5438",
-                "entry_name": "IFNG"
+                "entry_name": "IFNG",
+                "score": 0.7431457431457431
             },
             {
+                "matched_text": "permeability",
                 "db": "MESH",
                 "id": "D010539",
-                "entry_name": "Permeability"
+                "entry_name": "Permeability",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "air",
                 "db": "MESH",
                 "id": "D000388",
-                "entry_name": "Air"
+                "entry_name": "Air",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "mice",
                 "db": "HGNC",
                 "id": "7094",
-                "entry_name": "MICE"
+                "entry_name": "MICE",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "LPS",
                 "db": "CHEBI",
                 "id": "CHEBI:16412",
-                "entry_name": "lipopolysaccharide"
+                "entry_name": "lipopolysaccharide",
+                "score": 1.0
             },
             {
+                "matched_text": "IFNg",
                 "db": "HGNC",
                 "id": "5438",
-                "entry_name": "IFNG"
+                "entry_name": "IFNG",
+                "score": 0.7431457431457431
             }
         ]
     },
@@ -1093,109 +1163,81 @@
         "text": "The second phase, excision of a short DNA strand segment containing the lesion, is carried out by an assembly of the XPG and XPF:excision repair cross-complementing 1 (ERCC1) endonucleases, together with XPA, RPA, TFIIH, and PCNA (which can bind XPG). This assembly appears to be held together in part through RPA, which binds to single-stranded DNA (ssDNA) regions in the vicinity of lesion, and at the same time may be able to bind XPG and XPF:ERCC1, as well as XPA. In going from the recognition to the excision phase, the molecular assembly rearranges as XPC:HR23B is replaced by XPG.",
         "annotations": [
             {
-                "db": "CHEBI",
-                "id": "CHEBI:16991",
-                "entry_name": "deoxyribonucleic acid"
-            },
-            {
-                "db": "HGNC",
-                "id": "3437",
-                "entry_name": "ERCC5"
-            },
-            {
-                "db": "HGNC",
-                "id": "3436",
-                "entry_name": "ERCC4"
-            },
-            {
+                "matched_text": "excision repair",
                 "db": "MESH",
                 "id": "D000097147",
-                "entry_name": "Excision Repair"
+                "entry_name": "Excision Repair",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "ERCC1",
                 "db": "HGNC",
                 "id": "3433",
-                "entry_name": "ERCC1"
+                "entry_name": "ERCC1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "endonucleases",
                 "db": "MESH",
                 "id": "D004720",
-                "entry_name": "Endonucleases"
+                "entry_name": "Endonucleases",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "XPA",
                 "db": "HGNC",
                 "id": "12814",
-                "entry_name": "XPA"
+                "entry_name": "XPA",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "RPA",
                 "db": "FPLX",
                 "id": "RPA",
-                "entry_name": "RPA"
+                "entry_name": "RPA",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "4657",
-                "entry_name": "GTF2H3"
-            },
-            {
+                "matched_text": "PCNA",
                 "db": "HGNC",
                 "id": "8729",
-                "entry_name": "PCNA"
+                "entry_name": "PCNA",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "3437",
-                "entry_name": "ERCC5"
-            },
-            {
-                "db": "HGNC",
-                "id": "11110",
-                "entry_name": "ARID1A"
-            },
-            {
+                "matched_text": "RPA",
                 "db": "FPLX",
                 "id": "RPA",
-                "entry_name": "RPA"
+                "entry_name": "RPA",
+                "score": 1.0
             },
             {
+                "matched_text": "single-stranded DNA",
                 "db": "CHEBI",
                 "id": "CHEBI:9160",
-                "entry_name": "single-stranded DNA"
+                "entry_name": "single-stranded DNA",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "3437",
-                "entry_name": "ERCC5"
-            },
-            {
-                "db": "HGNC",
-                "id": "3436",
-                "entry_name": "ERCC4"
-            },
-            {
+                "matched_text": "ERCC1",
                 "db": "HGNC",
                 "id": "3433",
-                "entry_name": "ERCC1"
+                "entry_name": "ERCC1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "XPA",
                 "db": "HGNC",
                 "id": "12814",
-                "entry_name": "XPA"
+                "entry_name": "XPA",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "XPC",
                 "db": "HGNC",
                 "id": "12816",
-                "entry_name": "XPC"
-            },
-            {
-                "db": "HGNC",
-                "id": "9813",
-                "entry_name": "RAD23B"
-            },
-            {
-                "db": "HGNC",
-                "id": "3437",
-                "entry_name": "ERCC5"
+                "entry_name": "XPC",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -1203,44 +1245,32 @@
         "text": "An inferior prognosis in the basal-like breast cancer, as compared to the luminal type, has been uniformly demonstrated by a variety of studies. Population based studies have also demonstrated similar results with reduced breast cancer specific survival among those with TNBC, as compared with the luminal subtype.",
         "annotations": [
             {
+                "matched_text": "prognosis",
                 "db": "MESH",
                 "id": "D011379",
-                "entry_name": "Prognosis"
+                "entry_name": "Prognosis",
+                "score": 0.7623170480313337
             },
             {
-                "db": "EFO",
-                "id": "0000281",
-                "entry_name": "basal-like breast carcinoma"
-            },
-            {
-                "db": "CHEBI",
-                "id": "CHEBI:8069",
-                "entry_name": "phenobarbital"
-            },
-            {
+                "matched_text": "Population",
                 "db": "MESH",
                 "id": "D011153",
-                "entry_name": "Population"
+                "entry_name": "Population",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "breast cancer",
                 "db": "MESH",
                 "id": "D001943",
-                "entry_name": "Breast Neoplasms"
+                "entry_name": "Breast Neoplasms",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "survival",
                 "db": "MESH",
                 "id": "D013534",
-                "entry_name": "Survival"
-            },
-            {
-                "db": "MESH",
-                "id": "D064726",
-                "entry_name": "Triple Negative Breast Neoplasms"
-            },
-            {
-                "db": "CHEBI",
-                "id": "CHEBI:8069",
-                "entry_name": "phenobarbital"
+                "entry_name": "Survival",
+                "score": 0.7623170480313337
             }
         ]
     },
@@ -1248,169 +1278,186 @@
         "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1. AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1. In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage. Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress. In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival. Additionally, transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1\\u03b1 transcriptional activity; PGC1\\u03b1 is an important regulator of metabolism and mitochondrial function.",
         "annotations": [
             {
-                "db": "MESH",
-                "id": "D010770",
-                "entry_name": "Phosphotransferases"
-            },
-            {
+                "matched_text": "DYRK1A",
                 "db": "HGNC",
                 "id": "3091",
-                "entry_name": "DYRK1A"
+                "entry_name": "DYRK1A",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "DYRK3",
                 "db": "HGNC",
                 "id": "3094",
-                "entry_name": "DYRK3"
+                "entry_name": "DYRK3",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D006801",
-                "entry_name": "Humans"
-            },
-            {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "p53",
                 "db": "HGNC",
                 "id": "11998",
-                "entry_name": "TP53"
+                "entry_name": "TP53",
+                "score": 1.0
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "AMPK",
                 "db": "FPLX",
                 "id": "AMPK",
-                "entry_name": "AMPK"
+                "entry_name": "AMPK",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D006801",
-                "entry_name": "Humans"
-            },
-            {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "p53",
                 "db": "HGNC",
                 "id": "11998",
-                "entry_name": "TP53"
+                "entry_name": "TP53",
+                "score": 1.0
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "methylation",
                 "db": "GO",
                 "id": "GO:0032259",
-                "entry_name": "methylation"
+                "entry_name": "methylation",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "30412",
-                "entry_name": "SETD7"
-            },
-            {
+                "matched_text": "p53",
                 "db": "HGNC",
                 "id": "11998",
-                "entry_name": "TP53"
+                "entry_name": "TP53",
+                "score": 1.0
             },
             {
+                "matched_text": "DNA damage",
                 "db": "MESH",
                 "id": "D004249",
-                "entry_name": "DNA Damage"
+                "entry_name": "DNA Damage",
+                "score": 0.7715934858792002
             },
             {
-                "db": "GO",
-                "id": "GO:0016925",
-                "entry_name": "protein sumoylation"
-            },
-            {
+                "matched_text": "SUMO1",
                 "db": "HGNC",
                 "id": "12502",
-                "entry_name": "SUMO1"
+                "entry_name": "SUMO1",
+                "score": 0.7777777777777778
             },
             {
-                "db": "GO",
-                "id": "GO:0016926",
-                "entry_name": "protein desumoylation"
-            },
-            {
+                "matched_text": "SENP1",
                 "db": "HGNC",
                 "id": "17927",
-                "entry_name": "SENP1"
+                "entry_name": "SENP1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
-                "db": "GO",
-                "id": "GO:0006974",
-                "entry_name": "DNA damage response"
-            },
-            {
+                "matched_text": "association",
                 "db": "MESH",
                 "id": "D001244",
-                "entry_name": "Association"
+                "entry_name": "Association",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "SENP1",
                 "db": "HGNC",
                 "id": "17927",
-                "entry_name": "SENP1"
+                "entry_name": "SENP1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "survival",
                 "db": "MESH",
                 "id": "D013534",
-                "entry_name": "Survival"
+                "entry_name": "Survival",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "GAPDH",
                 "db": "HGNC",
                 "id": "4141",
-                "entry_name": "GAPDH"
+                "entry_name": "GAPDH",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "metabolism",
                 "db": "GO",
                 "id": "GO:0008152",
-                "entry_name": "metabolic process"
+                "entry_name": "metabolic process",
+                "score": 1.0
             }
         ]
     },
@@ -1418,254 +1465,277 @@
         "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
         "annotations": [
             {
+                "matched_text": "Sirtuins",
                 "db": "MESH",
                 "id": "D037761",
-                "entry_name": "Sirtuins"
+                "entry_name": "Sirtuins",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D015003",
-                "entry_name": "Yeasts"
-            },
-            {
-                "db": "MESH",
-                "id": "D012094",
-                "entry_name": "Repression, Psychology"
-            },
-            {
+                "matched_text": "family",
                 "db": "MESH",
                 "id": "D005190",
-                "entry_name": "Family"
+                "entry_name": "Family",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "sirtuins",
                 "db": "MESH",
                 "id": "D037761",
-                "entry_name": "Sirtuins"
+                "entry_name": "Sirtuins",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "sirtuins",
                 "db": "MESH",
                 "id": "D037761",
-                "entry_name": "Sirtuins"
+                "entry_name": "Sirtuins",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "SIRT6",
                 "db": "HGNC",
                 "id": "14934",
-                "entry_name": "SIRT6"
+                "entry_name": "SIRT6",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT7",
                 "db": "HGNC",
                 "id": "14935",
-                "entry_name": "SIRT7"
+                "entry_name": "SIRT7",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "nucleus",
                 "db": "GO",
                 "id": "GO:0005634",
-                "entry_name": "nucleus"
+                "entry_name": "nucleus",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT2",
                 "db": "HGNC",
                 "id": "10886",
-                "entry_name": "SIRT2"
+                "entry_name": "SIRT2",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "localized",
                 "db": "HP",
                 "id": "HP:0012838",
-                "entry_name": "Localized"
+                "entry_name": "Localized",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "cytoplasm",
                 "db": "GO",
                 "id": "GO:0005737",
-                "entry_name": "cytoplasm"
+                "entry_name": "cytoplasm",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "sirtuins",
                 "db": "MESH",
                 "id": "D037761",
-                "entry_name": "Sirtuins"
+                "entry_name": "Sirtuins",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SIRT3",
                 "db": "HGNC",
                 "id": "14931",
-                "entry_name": "SIRT3"
+                "entry_name": "SIRT3",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT4",
                 "db": "HGNC",
                 "id": "14932",
-                "entry_name": "SIRT4"
+                "entry_name": "SIRT4",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT5",
                 "db": "HGNC",
                 "id": "14933",
-                "entry_name": "SIRT5"
+                "entry_name": "SIRT5",
+                "score": 0.7777777777777778
             },
             {
-                "db": "GO",
-                "id": "GO:0005739",
-                "entry_name": "mitochondrion"
-            },
-            {
-                "db": "MESH",
-                "id": "D037761",
-                "entry_name": "Sirtuins"
-            },
-            {
+                "matched_text": "family",
                 "db": "MESH",
                 "id": "D005190",
-                "entry_name": "Family"
+                "entry_name": "Family",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
+                "matched_text": "SIRT5",
                 "db": "HGNC",
                 "id": "14933",
-                "entry_name": "SIRT5"
+                "entry_name": "SIRT5",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT4",
                 "db": "HGNC",
                 "id": "14932",
-                "entry_name": "SIRT4"
+                "entry_name": "SIRT4",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT6",
                 "db": "HGNC",
                 "id": "14934",
-                "entry_name": "SIRT6"
+                "entry_name": "SIRT6",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D007244",
-                "entry_name": "Infectious Mononucleosis"
-            },
-            {
+                "matched_text": "ADP",
                 "db": "CHEBI",
                 "id": "CHEBI:16761",
-                "entry_name": "ADP"
+                "entry_name": "ADP",
+                "score": 1.0
             },
             {
+                "matched_text": "SIRT2",
                 "db": "HGNC",
                 "id": "10886",
-                "entry_name": "SIRT2"
+                "entry_name": "SIRT2",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SIRT3",
                 "db": "HGNC",
                 "id": "14931",
-                "entry_name": "SIRT3"
+                "entry_name": "SIRT3",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D020476",
-                "entry_name": "Exhibition"
-            },
-            {
+                "matched_text": "SIRT7",
                 "db": "HGNC",
                 "id": "14935",
-                "entry_name": "SIRT7"
+                "entry_name": "SIRT7",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "catalytic domain",
                 "db": "MESH",
                 "id": "D020134",
-                "entry_name": "Catalytic Domain"
+                "entry_name": "Catalytic Domain",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "sirtuins",
                 "db": "MESH",
                 "id": "D037761",
-                "entry_name": "Sirtuins"
+                "entry_name": "Sirtuins",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "ADP-ribosylation",
                 "db": "MESH",
                 "id": "D000074744",
-                "entry_name": "ADP-Ribosylation"
+                "entry_name": "ADP-Ribosylation",
+                "score": 0.7715934858792002
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:15846",
-                "entry_name": "NAD(+)"
-            },
-            {
+                "matched_text": "sirtuins",
                 "db": "MESH",
                 "id": "D037761",
-                "entry_name": "Sirtuins"
+                "entry_name": "Sirtuins",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "review",
                 "db": "MESH",
                 "id": "D016454",
-                "entry_name": "Review"
+                "entry_name": "Review",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
-                "db": "FPLX",
-                "id": "Cadherin",
-                "entry_name": "Cadherin"
-            },
-            {
-                "db": "MESH",
-                "id": "D037761",
-                "entry_name": "Sirtuins"
-            },
-            {
+                "matched_text": "family",
                 "db": "MESH",
                 "id": "D005190",
-                "entry_name": "Family"
+                "entry_name": "Family",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "tissues",
                 "db": "MESH",
                 "id": "D014024",
-                "entry_name": "Tissues"
+                "entry_name": "Tissues",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SIRT1",
                 "db": "HGNC",
                 "id": "14929",
-                "entry_name": "SIRT1"
+                "entry_name": "SIRT1",
+                "score": 1.0
             },
             {
-                "db": "GO",
-                "id": "GO:0007165",
-                "entry_name": "signal transduction"
-            },
-            {
+                "matched_text": "diseases",
                 "db": "MESH",
                 "id": "D004194",
-                "entry_name": "Disease"
+                "entry_name": "Disease",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D003920",
-                "entry_name": "Diabetes Mellitus"
-            },
-            {
+                "matched_text": "cardiovascular disease",
                 "db": "MESH",
                 "id": "D002318",
-                "entry_name": "Cardiovascular Diseases"
+                "entry_name": "Cardiovascular Diseases",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "neurodegeneration",
                 "db": "MESH",
                 "id": "D019636",
-                "entry_name": "Neurodegenerative Diseases"
+                "entry_name": "Neurodegenerative Diseases",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "cancer",
                 "db": "MESH",
                 "id": "D009369",
-                "entry_name": "Neoplasms"
+                "entry_name": "Neoplasms",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "aging",
                 "db": "MESH",
                 "id": "D000375",
-                "entry_name": "Aging"
+                "entry_name": "Aging",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "obesity",
                 "db": "MESH",
                 "id": "D009765",
-                "entry_name": "Obesity"
+                "entry_name": "Obesity",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -1673,114 +1743,137 @@
         "text": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,). This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis followed by the production of reactive oxygen species (ROS) (Chen et al.,). Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,), suggesting the existence of intra-cellular decision making processes discriminating between cyto-protection via NF-kappaB and programmed cell death via JNK. However, the functional duality of this system is a matter of debate and precise mechanisms regulating hepatocellular cell fate are not well understood.",
         "annotations": [
             {
+                "matched_text": "NF-kappaB",
                 "db": "FPLX",
                 "id": "NFkappaB",
-                "entry_name": "NFkappaB"
+                "entry_name": "NFkappaB",
+                "score": 1.0
             },
             {
+                "matched_text": "signaling",
                 "db": "GO",
                 "id": "GO:0023052",
-                "entry_name": "signaling"
+                "entry_name": "signaling",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "central",
                 "db": "HP",
                 "id": "HP:0030645",
-                "entry_name": "Central"
+                "entry_name": "Central",
+                "score": 0.7623170480313337
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:34922",
-                "entry_name": "picloram"
-            },
-            {
+                "matched_text": "TAK1",
                 "db": "HGNC",
                 "id": "6859",
-                "entry_name": "MAP3K7"
+                "entry_name": "MAP3K7",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "5961",
-                "entry_name": "IKBKG"
-            },
-            {
+                "matched_text": "death",
                 "db": "GO",
                 "id": "GO:0008219",
-                "entry_name": "cell death"
+                "entry_name": "cell death",
+                "score": 1.0
             },
             {
+                "matched_text": "apoptosis",
                 "db": "GO",
                 "id": "GO:0006915",
-                "entry_name": "apoptotic process"
+                "entry_name": "apoptotic process",
+                "score": 1.0
             },
             {
+                "matched_text": "NF-kappaB",
                 "db": "FPLX",
                 "id": "NFkappaB",
-                "entry_name": "NFkappaB"
+                "entry_name": "NFkappaB",
+                "score": 1.0
             },
             {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             },
             {
+                "matched_text": "reactive oxygen species",
                 "db": "CHEBI",
                 "id": "CHEBI:26523",
-                "entry_name": "reactive oxygen species"
+                "entry_name": "reactive oxygen species",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "ROS",
                 "db": "HGNC",
                 "id": "10261",
-                "entry_name": "ROS1"
+                "entry_name": "ROS1",
+                "score": 1.0
             },
             {
+                "matched_text": "TNF",
                 "db": "HGNC",
                 "id": "11892",
-                "entry_name": "TNF"
+                "entry_name": "TNF",
+                "score": 1.0
             },
             {
+                "matched_text": "NF-kappaB",
                 "db": "FPLX",
                 "id": "NFkappaB",
-                "entry_name": "NFkappaB"
+                "entry_name": "NFkappaB",
+                "score": 1.0
             },
             {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             },
             {
+                "matched_text": "signaling",
                 "db": "GO",
                 "id": "GO:0023052",
-                "entry_name": "signaling"
+                "entry_name": "signaling",
+                "score": 0.7777777777777778
             },
             {
-                "db": "GO",
-                "id": "GO:0005622",
-                "entry_name": "intracellular anatomical structure"
-            },
-            {
+                "matched_text": "decision making",
                 "db": "MESH",
                 "id": "D003657",
-                "entry_name": "Decision Making"
+                "entry_name": "Decision Making",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "cyto-protection",
                 "db": "MESH",
                 "id": "D019610",
-                "entry_name": "Cytoprotection"
+                "entry_name": "Cytoprotection",
+                "score": 0.7713873428159143
             },
             {
+                "matched_text": "NF-kappaB",
                 "db": "FPLX",
                 "id": "NFkappaB",
-                "entry_name": "NFkappaB"
+                "entry_name": "NFkappaB",
+                "score": 1.0
             },
             {
+                "matched_text": "programmed cell death",
                 "db": "GO",
                 "id": "GO:0012501",
-                "entry_name": "programmed cell death"
+                "entry_name": "programmed cell death",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             }
         ]
     },
@@ -1788,69 +1881,81 @@
         "text": "The role of the cytokine tumor necrosis factor (TNF) in the liver has been investigated intensively. Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
         "annotations": [
             {
+                "matched_text": "cytokine",
                 "db": "MESH",
                 "id": "D016207",
-                "entry_name": "Cytokines"
+                "entry_name": "Cytokines",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "tumor necrosis factor",
                 "db": "HGNC",
                 "id": "11892",
-                "entry_name": "TNF"
+                "entry_name": "TNF",
+                "score": 1.0
             },
             {
+                "matched_text": "TNF",
                 "db": "HGNC",
                 "id": "11892",
-                "entry_name": "TNF"
+                "entry_name": "TNF",
+                "score": 1.0
             },
             {
+                "matched_text": "liver",
                 "db": "MESH",
                 "id": "D008099",
-                "entry_name": "Liver"
+                "entry_name": "Liver",
+                "score": 0.7623170480313337
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:24432",
-                "entry_name": "biological role"
-            },
-            {
+                "matched_text": "TNF",
                 "db": "HGNC",
                 "id": "11892",
-                "entry_name": "TNF"
+                "entry_name": "TNF",
+                "score": 1.0
             },
             {
+                "matched_text": "NF-kappaB",
                 "db": "FPLX",
                 "id": "NFkappaB",
-                "entry_name": "NFkappaB"
+                "entry_name": "NFkappaB",
+                "score": 1.0
             },
             {
-                "db": "GO",
-                "id": "GO:0007165",
-                "entry_name": "signal transduction"
-            },
-            {
+                "matched_text": "hepatocyte proliferation",
                 "db": "GO",
                 "id": "GO:0072574",
-                "entry_name": "hepatocyte proliferation"
+                "entry_name": "hepatocyte proliferation",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "acute",
                 "db": "HP",
                 "id": "HP:0011009",
-                "entry_name": "Acute"
+                "entry_name": "Acute",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "chronic",
                 "db": "HP",
                 "id": "HP:0011010",
-                "entry_name": "Chronic"
+                "entry_name": "Chronic",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "liver",
                 "db": "MESH",
                 "id": "D008099",
-                "entry_name": "Liver"
+                "entry_name": "Liver",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "tumorigenesis",
                 "db": "MESH",
                 "id": "D063646",
-                "entry_name": "Carcinogenesis"
+                "entry_name": "Carcinogenesis",
+                "score": 1.0
             }
         ]
     },
@@ -1858,139 +1963,151 @@
         "text": "A couple of molecular mechanisms may explain the A20-mediated differential desensitization phenotype observed in our study. For example, A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation (Won et al.,). Since A20 is efficiently induced by TNF administration it is tempting to speculate that the loss of ASK1 might shift the cellular response from apoptosis to survival and proliferation. Our data include an additional mechanistic level to this observation. ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated (Tobiume et al.,; Won et al.,). We here showed that TNF affects the interaction between A20 and ASK1, which could explain the ASK1-dependent phosphorylation of JNK at specific periods after TNF administration. The underlying molecular mechanism for this precise and dynamic fine-tune regulation is not understood, however, the natural oscillations observed in the activation dynamics of both JNK and NF-kappaB could be partly explained in terms of synchrony / asynchrony ASK1:A20 dynamics as observed in this study (Ashall et al.,).",
         "annotations": [
             {
+                "matched_text": "phenotype",
                 "db": "MESH",
                 "id": "D010641",
-                "entry_name": "Phenotype"
+                "entry_name": "Phenotype",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "11896",
-                "entry_name": "TNFAIP3"
-            },
-            {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             },
             {
+                "matched_text": "signaling",
                 "db": "GO",
                 "id": "GO:0023052",
-                "entry_name": "signaling"
+                "entry_name": "signaling",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "ASK1",
                 "db": "HGNC",
                 "id": "6857",
-                "entry_name": "MAP3K5"
+                "entry_name": "MAP3K5",
+                "score": 1.0
             },
             {
-                "db": "GO",
-                "id": "GO:0009056",
-                "entry_name": "catabolic process"
-            },
-            {
-                "db": "HGNC",
-                "id": "11896",
-                "entry_name": "TNFAIP3"
-            },
-            {
+                "matched_text": "TNF",
                 "db": "HGNC",
                 "id": "11892",
-                "entry_name": "TNF"
+                "entry_name": "TNF",
+                "score": 1.0
             },
             {
+                "matched_text": "ASK1",
                 "db": "HGNC",
                 "id": "6857",
-                "entry_name": "MAP3K5"
+                "entry_name": "MAP3K5",
+                "score": 1.0
             },
             {
+                "matched_text": "apoptosis",
                 "db": "GO",
                 "id": "GO:0006915",
-                "entry_name": "apoptotic process"
+                "entry_name": "apoptotic process",
+                "score": 1.0
             },
             {
+                "matched_text": "survival",
                 "db": "MESH",
                 "id": "D013534",
-                "entry_name": "Survival"
+                "entry_name": "Survival",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "proliferation",
                 "db": "GO",
                 "id": "GO:0008283",
-                "entry_name": "cell population proliferation"
+                "entry_name": "cell population proliferation",
+                "score": 1.0
             },
             {
+                "matched_text": "observation",
                 "db": "MESH",
                 "id": "D019370",
-                "entry_name": "Observation"
+                "entry_name": "Observation",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "ASK1",
                 "db": "HGNC",
                 "id": "6857",
-                "entry_name": "MAP3K5"
+                "entry_name": "MAP3K5",
+                "score": 1.0
             },
             {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "11896",
-                "entry_name": "TNFAIP3"
-            },
-            {
+                "matched_text": "ASK1",
                 "db": "HGNC",
                 "id": "6857",
-                "entry_name": "MAP3K5"
+                "entry_name": "MAP3K5",
+                "score": 1.0
             },
             {
+                "matched_text": "TNF",
                 "db": "HGNC",
                 "id": "11892",
-                "entry_name": "TNF"
+                "entry_name": "TNF",
+                "score": 1.0
             },
             {
+                "matched_text": "affects",
                 "db": "MESH",
                 "id": "D000339",
-                "entry_name": "Affect"
+                "entry_name": "Affect",
+                "score": 0.7623170480313337
             },
             {
-                "db": "HGNC",
-                "id": "11896",
-                "entry_name": "TNFAIP3"
-            },
-            {
+                "matched_text": "ASK1",
                 "db": "HGNC",
                 "id": "6857",
-                "entry_name": "MAP3K5"
+                "entry_name": "MAP3K5",
+                "score": 1.0
             },
             {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             },
             {
+                "matched_text": "TNF",
                 "db": "HGNC",
                 "id": "11892",
-                "entry_name": "TNF"
+                "entry_name": "TNF",
+                "score": 1.0
             },
             {
+                "matched_text": "JNK",
                 "db": "FPLX",
                 "id": "JNK",
-                "entry_name": "JNK"
+                "entry_name": "JNK",
+                "score": 1.0
             },
             {
+                "matched_text": "NF-kappaB",
                 "db": "FPLX",
                 "id": "NFkappaB",
-                "entry_name": "NFkappaB"
+                "entry_name": "NFkappaB",
+                "score": 1.0
             },
             {
+                "matched_text": "ASK1",
                 "db": "HGNC",
                 "id": "6857",
-                "entry_name": "MAP3K5"
-            },
-            {
-                "db": "HGNC",
-                "id": "11896",
-                "entry_name": "TNFAIP3"
+                "entry_name": "MAP3K5",
+                "score": 1.0
             }
         ]
     },
@@ -1998,154 +2115,137 @@
         "text": "In the Classical activation pathway of complement, the C1 complex, containing one C1q and two molecules each of the serine proteases C1s and C1r, recognizes an antibody bound to a cell surface. Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave another complement protein, C4 into the anaphylatoxin C4a and C4b. This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell surfaces and bind another complement protein, C2. C2 is then cleaved into the activation peptide, C2b, and the protease containing C2a. The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphylatoxin C3a and the active form of C3, C3b, which is then able to covalently bind to the cell surfaces.",
         "annotations": [
             {
-                "db": "CHEBI",
-                "id": "CHEBI:34922",
-                "entry_name": "picloram"
-            },
-            {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
+                "matched_text": "C1 complex",
                 "db": "FPLX",
                 "id": "C1",
-                "entry_name": "C1"
+                "entry_name": "C1",
+                "score": 0.956091527520099
             },
             {
+                "matched_text": "C1q",
                 "db": "FPLX",
                 "id": "C1q",
-                "entry_name": "C1q"
+                "entry_name": "C1q",
+                "score": 1.0
             },
             {
+                "matched_text": "molecules",
                 "db": "CHEBI",
                 "id": "CHEBI:25367",
-                "entry_name": "molecule"
+                "entry_name": "molecule",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "serine proteases",
                 "db": "MESH",
                 "id": "D057057",
-                "entry_name": "Serine Proteases"
+                "entry_name": "Serine Proteases",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "C1s",
                 "db": "FPLX",
                 "id": "C1",
-                "entry_name": "C1"
+                "entry_name": "C1",
+                "score": 1.0
             },
             {
+                "matched_text": "C1r",
                 "db": "HGNC",
                 "id": "1246",
-                "entry_name": "C1R"
+                "entry_name": "C1R",
+                "score": 0.7245928674500104
             },
             {
+                "matched_text": "C1 complex",
                 "db": "FPLX",
                 "id": "C1",
-                "entry_name": "C1"
+                "entry_name": "C1",
+                "score": 0.956091527520099
             },
             {
+                "matched_text": "proteases",
                 "db": "FPLX",
                 "id": "Protease",
-                "entry_name": "Protease"
+                "entry_name": "Protease",
+                "score": 1.0
             },
             {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
+                "matched_text": "C4a",
                 "db": "HGNC",
                 "id": "1323",
-                "entry_name": "C4A"
+                "entry_name": "C4A",
+                "score": 0.7245928674500104
             },
             {
-                "db": "MESH",
-                "id": "D000706",
-                "entry_name": "Anaphylatoxins"
-            },
-            {
-                "db": "HGNC",
-                "id": "1323",
-                "entry_name": "C4A"
-            },
-            {
+                "matched_text": "C4b",
                 "db": "HGNC",
                 "id": "1324",
-                "entry_name": "C4B"
+                "entry_name": "C4B",
+                "score": 0.7245928674500104
             },
             {
-                "db": "HGNC",
-                "id": "6511",
-                "entry_name": "LARGE1"
-            },
-            {
+                "matched_text": "C4b",
                 "db": "HGNC",
                 "id": "1324",
-                "entry_name": "C4B"
+                "entry_name": "C4B",
+                "score": 0.7245928674500104
             },
             {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
+                "matched_text": "C2",
                 "db": "HGNC",
                 "id": "1248",
-                "entry_name": "C2"
+                "entry_name": "C2",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "C2",
                 "db": "HGNC",
                 "id": "1248",
-                "entry_name": "C2"
+                "entry_name": "C2",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "peptide",
                 "db": "CHEBI",
                 "id": "CHEBI:16670",
-                "entry_name": "peptide"
+                "entry_name": "peptide",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "31895",
-                "entry_name": "SCGB2B3P"
-            },
-            {
+                "matched_text": "protease",
                 "db": "FPLX",
                 "id": "Protease",
-                "entry_name": "Protease"
+                "entry_name": "Protease",
+                "score": 1.0
             },
             {
+                "matched_text": "C4b",
                 "db": "HGNC",
                 "id": "1324",
-                "entry_name": "C4B"
+                "entry_name": "C4B",
+                "score": 0.7245928674500104
             },
             {
-                "db": "MESH",
-                "id": "D057057",
-                "entry_name": "Serine Proteases"
-            },
-            {
+                "matched_text": "C3",
                 "db": "HGNC",
                 "id": "1318",
-                "entry_name": "C3"
+                "entry_name": "C3",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D000706",
-                "entry_name": "Anaphylatoxins"
-            },
-            {
+                "matched_text": "C3a",
                 "db": "EFO",
                 "id": "0002121",
-                "entry_name": "C3A"
+                "entry_name": "C3A",
+                "score": 0.7245928674500104
             },
             {
+                "matched_text": "C3",
                 "db": "HGNC",
                 "id": "1318",
-                "entry_name": "C3"
-            },
-            {
-                "db": "HGNC",
-                "id": "1318",
-                "entry_name": "C3"
+                "entry_name": "C3",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -2153,64 +2253,32 @@
         "text": "Since complement is continuously being activated, there needs to be a way to control complement activation. This is done by a number of other complement proteins. For example, in the fluid phase, factor H can bind to C3b, preventing the formation of the C3 convertase. Once bound to see C3b, factor H serves as a co-factor, allowing another compliment protein, factor I, to cleave C3b, thus inactivating it. There are also a number of cell bound proteins that are able to regulate complement activation.",
         "annotations": [
             {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
+                "matched_text": "complement activation",
                 "db": "GO",
                 "id": "GO:0006956",
-                "entry_name": "complement activation"
+                "entry_name": "complement activation",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
-                "db": "HGNC",
-                "id": "4883",
-                "entry_name": "CFH"
-            },
-            {
+                "matched_text": "C3",
                 "db": "HGNC",
                 "id": "1318",
-                "entry_name": "C3"
+                "entry_name": "C3",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "1318",
-                "entry_name": "C3"
-            },
-            {
-                "db": "HGNC",
-                "id": "1318",
-                "entry_name": "C3"
-            },
-            {
-                "db": "HGNC",
-                "id": "4883",
-                "entry_name": "CFH"
-            },
-            {
+                "matched_text": "co-factor",
                 "db": "CHEBI",
                 "id": "CHEBI:23357",
-                "entry_name": "cofactor"
+                "entry_name": "cofactor",
+                "score": 0.7775716347144919
             },
             {
-                "db": "FPLX",
-                "id": "Fibrinogen",
-                "entry_name": "Fibrinogen"
-            },
-            {
-                "db": "HGNC",
-                "id": "1318",
-                "entry_name": "C3"
-            },
-            {
+                "matched_text": "complement activation",
                 "db": "GO",
                 "id": "GO:0006956",
-                "entry_name": "complement activation"
+                "entry_name": "complement activation",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -2218,164 +2286,158 @@
         "text": "Li and coworkers demonstrated that partial sciatic nerve ligation activated complement. After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site, while no deposition was seen on sham-operated animals (no partial ligation). Increased heat-related hyperalgesia and mechanical allodynia was also seen on the on nerve-injured side. Injection of IgG, which also activates complement, into the paws of rats caused neuropathic pain symptoms. Activation of complement also increased the influx of macrophages. To further test the role of complement activation in pain, rats were injected IP with sCR1 15 minutes prior to partial ligation surgery, and then tested for heat and mechanical sensitivity. Rats injected with sCR1 showed significantly higher pain thresholds than those that were sham injected. These rats also showed less C3 deposition and macrophage influx. From these results, they suggested that increased hyperalgesia and allodynia may be associated with local complement activation, and the resulting macrophages present in damaged tissue.",
         "annotations": [
             {
-                "db": "CHEBI",
-                "id": "CHEBI:30145",
-                "entry_name": "lithium atom"
-            },
-            {
+                "matched_text": "sciatic nerve",
                 "db": "MESH",
                 "id": "D012584",
-                "entry_name": "Sciatic Nerve"
+                "entry_name": "Sciatic Nerve",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "ligation",
                 "db": "MESH",
                 "id": "D008026",
-                "entry_name": "Ligation"
+                "entry_name": "Ligation",
+                "score": 0.7623170480313337
             },
             {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
+                "matched_text": "ligation",
                 "db": "MESH",
                 "id": "D008026",
-                "entry_name": "Ligation"
+                "entry_name": "Ligation",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "C3",
                 "db": "HGNC",
                 "id": "1318",
-                "entry_name": "C3"
+                "entry_name": "C3",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "ligation",
                 "db": "MESH",
                 "id": "D008026",
-                "entry_name": "Ligation"
+                "entry_name": "Ligation",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "hyperalgesia",
                 "db": "MESH",
                 "id": "D006930",
-                "entry_name": "Hyperalgesia"
+                "entry_name": "Hyperalgesia",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "allodynia",
                 "db": "MESH",
                 "id": "D006930",
-                "entry_name": "Hyperalgesia"
+                "entry_name": "Hyperalgesia",
+                "score": 0.7623170480313337
             },
             {
-                "db": "MESH",
-                "id": "D007267",
-                "entry_name": "Injections"
-            },
-            {
-                "db": "GO",
-                "id": "GO:0071735",
-                "entry_name": "IgG immunoglobulin complex"
-            },
-            {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
+                "matched_text": "rats",
                 "db": "MESH",
                 "id": "D051381",
-                "entry_name": "Rats"
+                "entry_name": "Rats",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "neuropathic pain",
                 "db": "EFO",
                 "id": "0005762",
-                "entry_name": "neuropathic pain"
+                "entry_name": "neuropathic pain",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D003165",
-                "entry_name": "Complement System Proteins"
-            },
-            {
+                "matched_text": "macrophages",
                 "db": "MESH",
                 "id": "D008264",
-                "entry_name": "Macrophages"
+                "entry_name": "Macrophages",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "complement activation",
                 "db": "GO",
                 "id": "GO:0006956",
-                "entry_name": "complement activation"
+                "entry_name": "complement activation",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "pain",
                 "db": "EFO",
                 "id": "0003843",
-                "entry_name": "pain"
+                "entry_name": "pain",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "rats",
                 "db": "MESH",
                 "id": "D051381",
-                "entry_name": "Rats"
+                "entry_name": "Rats",
+                "score": 0.7623170480313337
             },
             {
-                "db": "HGNC",
-                "id": "871",
-                "entry_name": "ATP5IF1"
-            },
-            {
+                "matched_text": "ligation",
                 "db": "MESH",
                 "id": "D008026",
-                "entry_name": "Ligation"
+                "entry_name": "Ligation",
+                "score": 0.7623170480313337
             },
             {
-                "db": "MESH",
-                "id": "D013502",
-                "entry_name": "General Surgery"
-            },
-            {
+                "matched_text": "Rats",
                 "db": "MESH",
                 "id": "D051381",
-                "entry_name": "Rats"
+                "entry_name": "Rats",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "pain thresholds",
                 "db": "MESH",
                 "id": "D017288",
-                "entry_name": "Pain Threshold"
+                "entry_name": "Pain Threshold",
+                "score": 0.7623170480313337
             },
             {
-                "db": "CHEBI",
-                "id": "CHEBI:45615",
-                "entry_name": "salicylhydroxamic acid"
-            },
-            {
+                "matched_text": "rats",
                 "db": "MESH",
                 "id": "D051381",
-                "entry_name": "Rats"
+                "entry_name": "Rats",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "C3",
                 "db": "HGNC",
                 "id": "1318",
-                "entry_name": "C3"
+                "entry_name": "C3",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D008264",
-                "entry_name": "Macrophages"
-            },
-            {
+                "matched_text": "hyperalgesia",
                 "db": "MESH",
                 "id": "D006930",
-                "entry_name": "Hyperalgesia"
+                "entry_name": "Hyperalgesia",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "allodynia",
                 "db": "MESH",
                 "id": "D006930",
-                "entry_name": "Hyperalgesia"
+                "entry_name": "Hyperalgesia",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "complement activation",
                 "db": "GO",
                 "id": "GO:0006956",
-                "entry_name": "complement activation"
+                "entry_name": "complement activation",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "macrophages",
                 "db": "MESH",
                 "id": "D008264",
-                "entry_name": "Macrophages"
+                "entry_name": "Macrophages",
+                "score": 0.7623170480313337
             }
         ]
     },
@@ -2383,199 +2445,172 @@
         "text": "Signaling lymphocytic activation molecule family 1 (SLAMF1) is an Ig-like receptor and a costimulatory molecule that initiates signal transduction networks in a variety of immune cells. In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages. We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the endocytic recycling compartment (ERC) to Escherichia coli phagosomes. In resting macrophages, SLAMF1 is localized to ERC, but upon addition of E. coli, it is trafficked together with TRAM from ERC to E. coli phagosomes in a Rab11-dependent manner. We found that endogenous SLAMF1 protein interacted with TRAM and defined key interaction domains as amino acids 68 to 95 of TRAM as well as 15 C-terminal amino acids of SLAMF1. Interestingly, the SLAMF1-TRAM interaction was observed for human but not mouse proteins. Overall, our observations suggest that SLAMF1 is a new target for modulation of TLR4-TRAM-TRIF inflammatory signaling in human cells.",
         "annotations": [
             {
+                "matched_text": "Signaling lymphocytic activation molecule family",
                 "db": "MESH",
                 "id": "D000071176",
-                "entry_name": "Signaling Lymphocytic Activation Molecule Family"
+                "entry_name": "Signaling Lymphocytic Activation Molecule Family",
+                "score": 0.7715934858792002
             },
             {
+                "matched_text": "SLAMF1",
                 "db": "HGNC",
                 "id": "10903",
-                "entry_name": "SLAMF1"
+                "entry_name": "SLAMF1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "receptor",
                 "db": "GO",
                 "id": "GO:0038023",
-                "entry_name": "signaling receptor activity"
+                "entry_name": "signaling receptor activity",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "19137",
-                "entry_name": "CD276"
-            },
-            {
+                "matched_text": "signal transduction",
                 "db": "GO",
                 "id": "GO:0007165",
-                "entry_name": "signal transduction"
+                "entry_name": "signal transduction",
+                "score": 1.0
             },
             {
+                "matched_text": "SLAMF1",
                 "db": "HGNC",
                 "id": "10903",
-                "entry_name": "SLAMF1"
+                "entry_name": "SLAMF1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "Toll-like receptor 4",
                 "db": "HGNC",
                 "id": "11850",
-                "entry_name": "TLR4"
+                "entry_name": "TLR4",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "TLR4",
                 "db": "HGNC",
                 "id": "11850",
-                "entry_name": "TLR4"
+                "entry_name": "TLR4",
+                "score": 1.0
             },
             {
+                "matched_text": "interferon beta",
                 "db": "FPLX",
                 "id": "IFNB",
-                "entry_name": "IFNB"
+                "entry_name": "IFNB",
+                "score": 1.0
             },
             {
+                "matched_text": "IFNbeta",
                 "db": "FPLX",
                 "id": "IFNB",
-                "entry_name": "IFNB"
+                "entry_name": "IFNB",
+                "score": 0.9997938569367142
             },
             {
+                "matched_text": "Gram-negative bacteria",
                 "db": "MESH",
                 "id": "D006090",
-                "entry_name": "Gram-Negative Bacteria"
+                "entry_name": "Gram-Negative Bacteria",
+                "score": 0.7715934858792002
             },
             {
-                "db": "MESH",
-                "id": "D006801",
-                "entry_name": "Humans"
-            },
-            {
+                "matched_text": "macrophages",
                 "db": "MESH",
                 "id": "D008264",
-                "entry_name": "Macrophages"
+                "entry_name": "Macrophages",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SLAMF1",
                 "db": "HGNC",
                 "id": "10903",
-                "entry_name": "SLAMF1"
+                "entry_name": "SLAMF1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "molecule",
                 "db": "CHEBI",
                 "id": "CHEBI:25367",
-                "entry_name": "molecule"
+                "entry_name": "molecule",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "21354",
-                "entry_name": "TICAM2"
-            },
-            {
+                "matched_text": "endocytic recycling",
                 "db": "GO",
                 "id": "GO:0032456",
-                "entry_name": "endocytic recycling"
+                "entry_name": "endocytic recycling",
+                "score": 0.7777777777777778
             },
             {
-                "db": "GO",
-                "id": "GO:0055037",
-                "entry_name": "recycling endosome"
-            },
-            {
+                "matched_text": "Escherichia coli",
                 "db": "MESH",
                 "id": "D004926",
-                "entry_name": "Escherichia coli"
+                "entry_name": "Escherichia coli",
+                "score": 0.7777777777777778
             },
             {
-                "db": "GO",
-                "id": "GO:0045335",
-                "entry_name": "phagocytic vesicle"
-            },
-            {
+                "matched_text": "macrophages",
                 "db": "MESH",
                 "id": "D008264",
-                "entry_name": "Macrophages"
+                "entry_name": "Macrophages",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "SLAMF1",
                 "db": "HGNC",
                 "id": "10903",
-                "entry_name": "SLAMF1"
+                "entry_name": "SLAMF1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "localized",
                 "db": "HP",
                 "id": "HP:0012838",
-                "entry_name": "Localized"
+                "entry_name": "Localized",
+                "score": 0.7623170480313337
             },
             {
-                "db": "GO",
-                "id": "GO:0055037",
-                "entry_name": "recycling endosome"
-            },
-            {
-                "db": "HGNC",
-                "id": "21354",
-                "entry_name": "TICAM2"
-            },
-            {
-                "db": "GO",
-                "id": "GO:0055037",
-                "entry_name": "recycling endosome"
-            },
-            {
-                "db": "GO",
-                "id": "GO:0045335",
-                "entry_name": "phagocytic vesicle"
-            },
-            {
-                "db": "HGNC",
-                "id": "10903",
-                "entry_name": "SLAMF1"
-            },
-            {
-                "db": "HGNC",
-                "id": "21354",
-                "entry_name": "TICAM2"
-            },
-            {
+                "matched_text": "amino acids",
                 "db": "CHEBI",
                 "id": "CHEBI:33709",
-                "entry_name": "amino acid"
+                "entry_name": "amino acid",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "21354",
-                "entry_name": "TICAM2"
-            },
-            {
+                "matched_text": "amino acids",
                 "db": "CHEBI",
                 "id": "CHEBI:33709",
-                "entry_name": "amino acid"
+                "entry_name": "amino acid",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SLAMF1",
                 "db": "HGNC",
                 "id": "10903",
-                "entry_name": "SLAMF1"
+                "entry_name": "SLAMF1",
+                "score": 0.7777777777777778
             },
             {
-                "db": "MESH",
-                "id": "D006801",
-                "entry_name": "Humans"
-            },
-            {
-                "db": "MESH",
-                "id": "D051379",
-                "entry_name": "Mice"
-            },
-            {
+                "matched_text": "Overall",
                 "db": "MESH",
                 "id": "D016424",
-                "entry_name": "Overall"
+                "entry_name": "Overall",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "SLAMF1",
                 "db": "HGNC",
                 "id": "10903",
-                "entry_name": "SLAMF1"
+                "entry_name": "SLAMF1",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "signaling",
                 "db": "GO",
                 "id": "GO:0023052",
-                "entry_name": "signaling"
-            },
-            {
-                "db": "MESH",
-                "id": "D006801",
-                "entry_name": "Humans"
+                "entry_name": "signaling",
+                "score": 0.7777777777777778
             }
         ]
     },
@@ -2583,129 +2618,116 @@
         "text": "Toll-like receptors (TLRs) are pivotal for the defense against multiple pathogens by recognizing pathogen-associated molecular patterns. TLR4 recognizes lipopolysaccharide (LPS) from Gram-negative bacteria in complex with the coreceptors myeloid differentiation factor 2 and CD14, and it recruits signaling adapters myeloid differentiation primary response gene 88 (MyD88) and MyD88 adapter-like (Mal). This results in an immediate activation of nuclear factor kappaB (NF-kappaB) and production of proinflammatory cytokines. TLR4 is also present on endosomes and phagosomes to which the signaling adapter Toll receptor-associated molecule (TRAM) is recruited. The mechanism controlling TRAM recruitment remains unclear but seems to be Rab11 dependent.",
         "annotations": [
             {
+                "matched_text": "Toll-like receptors",
                 "db": "MESH",
                 "id": "D051193",
-                "entry_name": "Toll-Like Receptors"
+                "entry_name": "Toll-Like Receptors",
+                "score": 0.7715934858792002
             },
             {
+                "matched_text": "TLR4",
                 "db": "HGNC",
                 "id": "11850",
-                "entry_name": "TLR4"
+                "entry_name": "TLR4",
+                "score": 1.0
             },
             {
+                "matched_text": "lipopolysaccharide",
                 "db": "CHEBI",
                 "id": "CHEBI:16412",
-                "entry_name": "lipopolysaccharide"
+                "entry_name": "lipopolysaccharide",
+                "score": 1.0
             },
             {
+                "matched_text": "LPS",
                 "db": "CHEBI",
                 "id": "CHEBI:16412",
-                "entry_name": "lipopolysaccharide"
+                "entry_name": "lipopolysaccharide",
+                "score": 1.0
             },
             {
+                "matched_text": "Gram-negative bacteria",
                 "db": "MESH",
                 "id": "D006090",
-                "entry_name": "Gram-Negative Bacteria"
+                "entry_name": "Gram-Negative Bacteria",
+                "score": 0.7715934858792002
             },
             {
+                "matched_text": "differentiation",
                 "db": "GO",
                 "id": "GO:0030154",
-                "entry_name": "cell differentiation"
+                "entry_name": "cell differentiation",
+                "score": 1.0
             },
             {
-                "db": "HGNC",
-                "id": "3535",
-                "entry_name": "F2"
-            },
-            {
+                "matched_text": "CD14",
                 "db": "HGNC",
                 "id": "1628",
-                "entry_name": "CD14"
+                "entry_name": "CD14",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "signaling",
                 "db": "GO",
                 "id": "GO:0023052",
-                "entry_name": "signaling"
+                "entry_name": "signaling",
+                "score": 0.7777777777777778
             },
             {
-                "db": "HGNC",
-                "id": "4096",
-                "entry_name": "GADD45B"
-            },
-            {
+                "matched_text": "MyD88",
                 "db": "HGNC",
                 "id": "7562",
-                "entry_name": "MYD88"
+                "entry_name": "MYD88",
+                "score": 0.7245928674500104
             },
             {
-                "db": "HGNC",
-                "id": "17192",
-                "entry_name": "TIRAP"
-            },
-            {
+                "matched_text": "Mal",
                 "db": "HGNC",
                 "id": "6817",
-                "entry_name": "MAL"
+                "entry_name": "MAL",
+                "score": 0.7623170480313337
             },
             {
+                "matched_text": "NF-kappaB",
                 "db": "FPLX",
                 "id": "NFkappaB",
-                "entry_name": "NFkappaB"
+                "entry_name": "NFkappaB",
+                "score": 1.0
             },
             {
-                "db": "FPLX",
-                "id": "NFkappaB",
-                "entry_name": "NFkappaB"
-            },
-            {
+                "matched_text": "cytokines",
                 "db": "MESH",
                 "id": "D016207",
-                "entry_name": "Cytokines"
+                "entry_name": "Cytokines",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "TLR4",
                 "db": "HGNC",
                 "id": "11850",
-                "entry_name": "TLR4"
+                "entry_name": "TLR4",
+                "score": 1.0
             },
             {
+                "matched_text": "endosomes",
                 "db": "GO",
                 "id": "GO:0005768",
-                "entry_name": "endosome"
+                "entry_name": "endosome",
+                "score": 0.7777777777777778
             },
             {
-                "db": "GO",
-                "id": "GO:0045335",
-                "entry_name": "phagocytic vesicle"
-            },
-            {
+                "matched_text": "signaling",
                 "db": "GO",
                 "id": "GO:0023052",
-                "entry_name": "signaling"
+                "entry_name": "signaling",
+                "score": 0.7777777777777778
             },
             {
+                "matched_text": "molecule",
                 "db": "CHEBI",
                 "id": "CHEBI:25367",
-                "entry_name": "molecule"
-            },
-            {
-                "db": "HGNC",
-                "id": "21354",
-                "entry_name": "TICAM2"
-            },
-            {
-                "db": "EFO",
-                "id": "0001461",
-                "entry_name": "control"
-            },
-            {
-                "db": "HGNC",
-                "id": "21354",
-                "entry_name": "TICAM2"
-            },
-            {
-                "db": "HGNC",
-                "id": "9760",
-                "entry_name": "RAB11A"
+                "entry_name": "molecule",
+                "score": 0.7777777777777778
             }
         ]
     }

@@ -22,13 +22,14 @@ BEL Documentation:
 
 Types of entity:
 
-| Entity Class                                                   | Namespace | Definition                                                                                                  |
+| Entity Type                                                   | Namespace | Definition                                                                                                  |
 |---------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------|
 | Human genes/proteins                                          | HGNC      | Approved symbols/names for human genes.                                                                      |
 | Small molecules, metabolites, etc.                            | ChEBI     | Chemical Entities of Biological Interest, covering small molecules, metabolites, and related compounds.      |
 | Biological processes, molecular functions, and complexes      | GO        | Gene Ontology terms for biological processes, molecular functions, and cellular components.                  |
 | Diseases                                                      | DOID      | Disease Ontology identifiers, representing various human diseases.                                           |
                                            |
+IMPORTANT: Only use the entity types provided in the table above
 
 4. Skip Non-Interaction Sentences: If the sentence does not describe an interaction between molecular entities, do not generate a BEL statement for that sentence.
 5. The combination of a BEL function and its arguments fully specifies a BEL Term. 
@@ -128,6 +129,8 @@ Protein Modification Default Namespace
 | Sumo      | SUMOylation                                                                                         |
 | Ub        | ubiquitination, ubiquitinylation, ubiquitylation                                                    |
 
+IMPORTANT: Only use the modifications provided in the table above
+
 Examples: 
 
 AKT1 phosphorylated at Serine 473
@@ -152,6 +155,8 @@ BEL Relations:
 | negativeCorrelation [neg] | A is negatively correlated with B                         |
 | positiveCorrelation [pos] | A is positively correlated with B                         |
 | regulates [reg]           | A regulates (effects) B somehow                           |
+
+IMPORTANT: Only use the relationships provided in the table above
 
 BEL Statement Examples:
 

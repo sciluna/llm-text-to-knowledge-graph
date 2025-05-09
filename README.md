@@ -194,3 +194,6 @@ main(
 - The default style file is located at `<repo_root>/data/cx_style.json`. You can override this with the `--style_path` parameter.
 - Make sure your input files exist and that your API key is valid.
 - The package logs detailed processing steps and total runtime for batch processing.
+
+
+# python -m nltk.downloader stopwords

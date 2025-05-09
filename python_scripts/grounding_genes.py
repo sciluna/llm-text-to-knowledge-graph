@@ -10,7 +10,7 @@ def load_json_data(filepath):
     return data
 
 
-def annotate_paragraphs_in_json(data):
+def annotate_paragraphs_in_json(data):   
     """
     Accepts JSON data (a dictionary) directly, annotates each entry's text using Gilda,
     and returns a dictionary with the annotated data.
@@ -37,10 +37,13 @@ def annotate_paragraphs_in_json(data):
             if ann.matches:
                 top_match = ann.matches[0]
                 best_obj = {
+                    "matched_text": ann.text,                
                     "db": top_match.term.db,
                     "id": top_match.term.id,
-                    "entry_name": top_match.term.entry_name
+                    "entry_name": top_match.term.entry_name,
+                    "score": top_match.score
                 }
+                # if top_match.score > threshold:  # Only include matches with a score > 0.7
                 annots_as_list.append(best_obj)
 
         # Construct the new entry
