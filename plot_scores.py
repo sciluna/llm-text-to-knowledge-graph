@@ -17,7 +17,8 @@ def load_review_scores(json_path):
     with open(json_path, 'r') as f:
         data = json.load(f)
 
-    score_entries = data["review"]["scores"]
+    # Adjusted here: scores list is at the top level, not inside "review"
+    score_entries = data["scores"]
 
     score_counts = {}
 

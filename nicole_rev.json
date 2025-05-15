@@ -1,0 +1,813 @@
+{
+    "type": "review_list",
+    "object_list_id": "object_list_71aabda2-b117-4452-9a38-051295afea19",
+    "object_ids": [
+        "edge_405baa5d-99de-4165-b90b-9d5c24bb9c7e",
+        "edge_ba895e69-9b37-406d-8f64-4bae0a2df977",
+        "edge_f949ec71-cc98-4629-bad5-40807e07fb37",
+        "edge_5479ad28-17f6-4310-b2f5-b583e1131424",
+        "edge_9b984fac-5327-4fa6-b1b5-2dd45cd5d737",
+        "edge_4eae48a3-fa38-49cd-b0a7-b695ea687b90",
+        "edge_668d9947-2344-4f64-a74d-ad3df55762dc",
+        "edge_8fb2ed0c-fb5e-4339-a56f-6c7b458c98ce",
+        "edge_805a39e5-6e10-4c23-b055-78725f2dcefd",
+        "edge_9cb84f44-4e48-480d-9871-2bc9b9aa14ae",
+        "edge_e7902da3-5b03-43d0-bb40-e41b4a8025f1",
+        "edge_42893c61-3730-4794-bfde-365be9e63299",
+        "edge_cf93ee30-2f85-411c-bb45-053efd1c29e1",
+        "edge_785a7e5c-c8be-4e43-8e7e-a74293156ce8",
+        "edge_3749c1b8-665e-40dc-98f5-40343884d918",
+        "edge_f8ed344b-6e32-4f35-be87-ed2e2d744f72",
+        "edge_9d90b5a5-2daa-4351-a23a-3d09928f371d",
+        "edge_56812f39-1b08-4274-a2da-c887b61d3dae",
+        "edge_8a60856a-e210-4ad6-b7d2-938b19960172",
+        "edge_4fd372df-cf91-4f92-b699-e6a6c7dcc183",
+        "edge_6cbb18c7-e453-4e60-82a2-0eece018d885",
+        "edge_79b30352-5683-4a5c-b24c-f4378aa0dfa6",
+        "edge_1ca2a2fd-422a-4e63-974b-123c2abb7813",
+        "edge_988ecafa-7535-45bd-9450-9c11f8116fb5",
+        "edge_c11b5c47-8025-4607-a1e9-7de9adf24acf",
+        "edge_bf8c48f7-9306-45d3-b0a7-380f284bd3b5",
+        "edge_16a32ad9-4c1a-4383-b259-2512d84ca10b",
+        "edge_7317adfc-808c-4bcd-ac34-890fa904812a",
+        "edge_6f7167f7-46d3-4d0f-99bd-ccc05f6791f2",
+        "edge_41b97c17-924c-4398-a63c-09f50fdc2c8c",
+        "edge_edd2778d-e092-479a-a029-204d9736d5d5",
+        "edge_c5a9b4a2-3409-47da-8342-dfb762486bb5",
+        "edge_7d94e3eb-27c8-4890-86ab-f9c9971a27ac",
+        "edge_8c242fa3-d04d-4b45-af0b-320479bffe47",
+        "edge_5b2bdb6e-8be5-4b04-b78b-860533877eb0",
+        "edge_35c238b7-7fca-499a-8f81-f23b28d7084c",
+        "edge_10d575fe-4b77-46ab-8199-2e1e4ca9c755",
+        "edge_adcc15fa-8136-4720-ae67-f116db72c8fe",
+        "edge_f69c5f42-d55d-4940-b98d-00b1e39ef711",
+        "edge_c549f0f1-71ed-41df-b45e-ad04978b76a3",
+        "edge_b061c5d2-25bf-47e2-a6e1-e9e7b8e03943",
+        "edge_e3d5d965-7dc6-4cdd-881b-a18f3a93101a",
+        "edge_67ffbb41-4f67-4129-8f0b-033bcd7b8940",
+        "edge_2764f734-9a36-4d8b-bbb4-b271c0d55584",
+        "edge_74b4af92-a82c-4552-aae2-ff2acdd08302",
+        "edge_06fdf425-d48a-4517-99cc-358789a18074",
+        "edge_7c32035a-6a4e-426a-bc2d-794a4befa32f",
+        "edge_e4c2f465-b999-4345-846f-1b7881c321ec",
+        "edge_917103ae-bec9-4ba7-b415-519583ec055f",
+        "edge_8590bce4-a8aa-4a58-9b67-0c76c7fb8157"
+    ],
+    "reviewer": "Nicole",
+    "status": "submitted",
+    "scores": [
+        {
+            "reviewed_object": "edge_405baa5d-99de-4165-b90b-9d5c24bb9c7e",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "Identified that there is the contaminate in metformin, but has component is not descriptive enough  to understand. This is more or less information rather than a relationship. "
+            }
+        },
+        {
+            "reviewed_object": "edge_ba895e69-9b37-406d-8f64-4bae0a2df977",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "ma(Kinase activity) is broad reaching, and probably because all the kinases and mTOR are capable or the phosphorylation, but the evidence text focuses on AKT1, BEL statement may be conflating information"
+            }
+        },
+        {
+            "reviewed_object": "edge_f949ec71-cc98-4629-bad5-40807e07fb37",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "It may be outside of the scope of BEL, but the differential between in CAN phosphorylate to activation is nuanced in biology. The evidence suggests just because it can doesn't mean it is relevant. "
+            }
+        },
+        {
+            "reviewed_object": "edge_5479ad28-17f6-4310-b2f5-b583e1131424",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "For the last few of each of the direct interactions of this the source and target number is changing. This may be more of a recall error rather than the precision of the BEL statement "
+            }
+        },
+        {
+            "reviewed_object": "edge_9b984fac-5327-4fa6-b1b5-2dd45cd5d737",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "Switching between p38 and MAP2K1. Might be differences in the database naming. Switching between the gene symbol and protein name"
+            }
+        },
+        {
+            "reviewed_object": "edge_4eae48a3-fa38-49cd-b0a7-b695ea687b90",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "See similar comments along the same evidence for this interaction of HSF1 phosphorylation"
+            }
+        },
+        {
+            "reviewed_object": "edge_668d9947-2344-4f64-a74d-ad3df55762dc",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "the pulling of the molecular pathway here seems redundant to the interaction call... but might be a BEL quirk."
+            }
+        },
+        {
+            "reviewed_object": "edge_8fb2ed0c-fb5e-4339-a56f-6c7b458c98ce",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_805a39e5-6e10-4c23-b055-78725f2dcefd",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_9cb84f44-4e48-480d-9871-2bc9b9aa14ae",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_e7902da3-5b03-43d0-bb40-e41b4a8025f1",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "I wouldn't say its a direct interaction, this is a higher level interpretation of the interaction. The direct protein modification is a direct interaction."
+            }
+        },
+        {
+            "reviewed_object": "edge_42893c61-3730-4794-bfde-365be9e63299",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "It appears there is a difference between directly increase v. increase. AKT2 CAN increase the activity, but less than AKT1. BEL statement seems to be interpreting it more blanket like. "
+            }
+        },
+        {
+            "reviewed_object": "edge_cf93ee30-2f85-411c-bb45-053efd1c29e1",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "Repeat of of BEL statements"
+            }
+        },
+        {
+            "reviewed_object": "edge_785a7e5c-c8be-4e43-8e7e-a74293156ce8",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "Repeat again of previous BEL statements, but new evidence, probably from the same paper. "
+            }
+        },
+        {
+            "reviewed_object": "edge_3749c1b8-665e-40dc-98f5-40343884d918",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "Similar comments to before, same line of evidence, different section of the paper. It is repeating itself. "
+            }
+        },
+        {
+            "reviewed_object": "edge_f8ed344b-6e32-4f35-be87-ed2e2d744f72",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "repeats"
+            }
+        },
+        {
+            "reviewed_object": "edge_9d90b5a5-2daa-4351-a23a-3d09928f371d",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "Lack of the identification of trimers "
+            }
+        },
+        {
+            "reviewed_object": "edge_56812f39-1b08-4274-a2da-c887b61d3dae",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "I would think the act(HSF1) because its the activation of HSF1 is causing transcriptional increase of putative targets"
+            }
+        },
+        {
+            "reviewed_object": "edge_8a60856a-e210-4ad6-b7d2-938b19960172",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "Switching between HSPA1A and HSP70, defaulting to the gene symbol v. gene name. "
+            }
+        },
+        {
+            "reviewed_object": "edge_4fd372df-cf91-4f92-b699-e6a6c7dcc183",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "HSPA8 and HSPA1A are both HSP70 (different members of the family). But the evidence is able to resolve the naming differences used. "
+            }
+        },
+        {
+            "reviewed_object": "edge_6cbb18c7-e453-4e60-82a2-0eece018d885",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": "is celastrol a tripterine or a pentacyclic triterpenoid? (Emphasis on the pentacyclic). The evidence/ text (direct copies) do not indicate any directionality, only that they will be investigated. BEL statement implied an interaction. "
+            }
+        },
+        {
+            "reviewed_object": "edge_79b30352-5683-4a5c-b24c-f4378aa0dfa6",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": "See previous comment for this interaction"
+            }
+        },
+        {
+            "reviewed_object": "edge_1ca2a2fd-422a-4e63-974b-123c2abb7813",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "See previous comment for this interaction. "
+            }
+        },
+        {
+            "reviewed_object": "edge_988ecafa-7535-45bd-9450-9c11f8116fb5",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_c11b5c47-8025-4607-a1e9-7de9adf24acf",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_bf8c48f7-9306-45d3-b0a7-380f284bd3b5",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": true,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "Should have identified sumo(SUMO1). Could have identified the acetylation rather than generic sumo transferase activity. "
+            }
+        },
+        {
+            "reviewed_object": "edge_16a32ad9-4c1a-4383-b259-2512d84ca10b",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "sumoylation of SENP1 is missed. Unless it can't identify the specific residue in which the modification occurs. "
+            }
+        },
+        {
+            "reviewed_object": "edge_7317adfc-808c-4bcd-ac34-890fa904812a",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "loc (GO:nucleus) incorrect space in between loc and (GO..."
+            }
+        },
+        {
+            "reviewed_object": "edge_6f7167f7-46d3-4d0f-99bd-ccc05f6791f2",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "same space error"
+            }
+        },
+        {
+            "reviewed_object": "edge_41b97c17-924c-4398-a63c-09f50fdc2c8c",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "space error"
+            }
+        },
+        {
+            "reviewed_object": "edge_edd2778d-e092-479a-a029-204d9736d5d5",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "space error"
+            }
+        },
+        {
+            "reviewed_object": "edge_c5a9b4a2-3409-47da-8342-dfb762486bb5",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_7d94e3eb-27c8-4890-86ab-f9c9971a27ac",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_8c242fa3-d04d-4b45-af0b-320479bffe47",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_5b2bdb6e-8be5-4b04-b78b-860533877eb0",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "unclear the relationship, because the evidence states deficiency in TAK1 (MAP3K7) induced cell death. Maybe the issue is with the GO term apoptotic process not indicating activation of the process v. genes involved in the process. "
+            }
+        },
+        {
+            "reviewed_object": "edge_35c238b7-7fca-499a-8f81-f23b28d7084c",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "Similar comment to before. indirect association, unclear connection. "
+            }
+        },
+        {
+            "reviewed_object": "edge_10d575fe-4b77-46ab-8199-2e1e4ca9c755",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": true,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "FPLX is not an entity? The evidence is indirectly calling another citation rather than the exact paper. "
+            }
+        },
+        {
+            "reviewed_object": "edge_adcc15fa-8136-4720-ae67-f116db72c8fe",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "It is not using the direct line of evidence (DiDonato et al.) but a review (?) of the work. "
+            }
+        },
+        {
+            "reviewed_object": "edge_f69c5f42-d55d-4940-b98d-00b1e39ef711",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "Could use the original paper rather than a review or indirect calling of a different MS. "
+            }
+        },
+        {
+            "reviewed_object": "edge_c549f0f1-71ed-41df-b45e-ad04978b76a3",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": true,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "FPLX is not an entity? Can BEL identify generic phsophorlyation instead of act? "
+            }
+        },
+        {
+            "reviewed_object": "edge_b061c5d2-25bf-47e2-a6e1-e9e7b8e03943",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": true,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "FPLX?"
+            }
+        },
+        {
+            "reviewed_object": "edge_e3d5d965-7dc6-4cdd-881b-a18f3a93101a",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "Would be interesting to see conformational changes be reflected as a protein modification"
+            }
+        },
+        {
+            "reviewed_object": "edge_67ffbb41-4f67-4129-8f0b-033bcd7b8940",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "Directlyincreases... the cleavage of C3 is not associated in this context to be increase nor decreasing activity?"
+            }
+        },
+        {
+            "reviewed_object": "edge_2764f734-9a36-4d8b-bbb4-b271c0d55584",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "cofactor is nondescript... seems to be factor H.  "
+            }
+        },
+        {
+            "reviewed_object": "edge_74b4af92-a82c-4552-aae2-ff2acdd08302",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "Not direct evidence, seems to be a commentary of the work itself. shouldn't be used by BEL. The GO term also seems could be more precise, given the context of the text?"
+            }
+        },
+        {
+            "reviewed_object": "edge_06fdf425-d48a-4517-99cc-358789a18074",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": true,
+                "comments": "The evidence is not supportive of the idea that C3 activity itself is responsible for the increase in C3 (self regulation)"
+            }
+        },
+        {
+            "reviewed_object": "edge_7c32035a-6a4e-426a-bc2d-794a4befa32f",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "Could have found the primary literature to support this claim. "
+            }
+        },
+        {
+            "reviewed_object": "edge_e4c2f465-b999-4345-846f-1b7881c321ec",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "In the text surrounding the evidence there is more accurate description of how SLAMF1 is able to increase TLR4 and its through locatilzation which BEL should have been able to identify (if the GO term exists)."
+            }
+        },
+        {
+            "reviewed_object": "edge_917103ae-bec9-4ba7-b415-519583ec055f",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "DirectlyIncreases seems misleading, its an interaction not an increase. More or less its the activity of the genes is modulated by their association. "
+            }
+        },
+        {
+            "reviewed_object": "edge_8590bce4-a8aa-4a58-9b67-0c76c7fb8157",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": true,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "FPLX?"
+            }
+        }
+    ],
+    "submit_date": "2025-05-14T21:55:00.135Z",
+    "created": "05.14.2025 01:52:21",
+    "object_id": "review_list_3d7007b7-5642-4d6f-a9b5-892b153afc1a"
+}

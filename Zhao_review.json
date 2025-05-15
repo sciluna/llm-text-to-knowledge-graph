@@ -1,0 +1,813 @@
+{
+    "type": "review_list",
+    "object_list_id": "object_list_e73bb3d9-5201-4ba4-8efa-d401e0ba187a",
+    "object_ids": [
+        "edge_81a59605-a834-40f5-b292-1d14cb814cb0",
+        "edge_85b65011-3119-41a7-9f77-5aad19d9f193",
+        "edge_0ef55a33-fe3e-4483-b3bf-721e8d08f532",
+        "edge_7194a82e-ede7-4d40-af38-7f31e6c149f4",
+        "edge_0e05206c-386c-48d6-94d4-81de0f50f980",
+        "edge_ec768296-640c-40ef-b31d-b2397e9588eb",
+        "edge_56c813a2-201a-431d-8640-6de96c8cd14b",
+        "edge_08196855-1e39-4c5a-9bda-66fbd68434f4",
+        "edge_0c1d8cec-878f-422d-8584-6c7f0138645e",
+        "edge_ad79d248-32a0-461b-9e4a-172252b5b07e",
+        "edge_424aa02f-2ddc-406b-b7ba-fd39f86f620b",
+        "edge_afee9a1e-a5de-4855-b2d3-7c258d89b37e",
+        "edge_924d23d9-dd33-48a0-95ea-a7e9578bb395",
+        "edge_1114550b-943b-4d57-ab9a-aebe02d583f8",
+        "edge_9441d95e-0430-46bd-b421-75186ab4d1eb",
+        "edge_a5e21c7a-0cd3-400c-aa25-c1e66529af26",
+        "edge_250a0389-dc81-428a-86e6-504f9034b55f",
+        "edge_99d6f769-8e4a-448f-bcba-e036a40059fd",
+        "edge_f93c6a5f-4187-4956-a6b1-6568df78f587",
+        "edge_7cb3f279-99d1-4564-b6f0-92f621c93ab3",
+        "edge_63bb84ff-8e03-4d76-b555-0a507b8b2bd2",
+        "edge_fc59f3bb-fe83-417f-ba5a-78f9f114d24b",
+        "edge_7b7a97d1-16c5-41cb-8a35-c0c982a1b172",
+        "edge_841f52d3-b4fc-4d63-85d2-4f70e98ca7e9",
+        "edge_60428811-a966-4009-80f6-4e6ad5d3b3f6",
+        "edge_5cb12840-d105-49f7-bc74-349b716d93be",
+        "edge_bf7fcd54-ffad-429f-bc7c-e3acf8d6dcfd",
+        "edge_6a0eb13c-9e28-4232-bf1d-3febd80313e3",
+        "edge_72904425-4efa-41c1-b203-24d1329fffdb",
+        "edge_1fc21b7a-fed3-4a4f-b5a8-232f6c464418",
+        "edge_7cf454dc-6e3a-48bb-b91e-cfddcb28674c",
+        "edge_d76bf856-805a-4988-9ec0-a1ed3e0125d5",
+        "edge_3cc3c5d9-54e4-4b66-a1fb-d1a219053a7a",
+        "edge_8821db61-1df1-40bd-b0c6-f9a009a9378b",
+        "edge_8be7b643-e5f1-4f70-b8df-2a14f726fb49",
+        "edge_6c717762-c0e3-4b60-a928-0567f0195c03",
+        "edge_820d95de-da74-4d76-a88c-0221df28f38a",
+        "edge_c3707770-4bd8-4a22-81e5-a6ec87de3e34",
+        "edge_1a167bd5-46b5-42e4-9953-b3d7cd0c9128",
+        "edge_5fe8f214-587c-423a-9067-6210eeb51f01",
+        "edge_b40396ec-c27b-4dfd-bc5c-074a139f10ec",
+        "edge_db91aa67-02c0-42fd-9a2f-315138057551",
+        "edge_32df38c0-3d03-41a0-bcd5-ae029ae396c9",
+        "edge_e097aab1-9e81-4451-91d7-b9e9ea318fc2",
+        "edge_8c1a9031-33ae-4278-bd73-68eb15017985",
+        "edge_c4f1b3a6-3260-4ad2-9a3a-05bb0afb3bba",
+        "edge_ed517747-d035-41c8-9f8c-7868c1fd586d",
+        "edge_758d4e7f-08bd-4987-9362-7dd55b50ff2f",
+        "edge_d0de9db5-96cf-440a-8d07-807df2e2f9dd",
+        "edge_f66d2caf-14a0-4c0b-862f-b4806a448678"
+    ],
+    "reviewer": "Zhao, Xiaoyu",
+    "status": "submitted",
+    "scores": [
+        {
+            "reviewed_object": "edge_81a59605-a834-40f5-b292-1d14cb814cb0",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_85b65011-3119-41a7-9f77-5aad19d9f193",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_0ef55a33-fe3e-4483-b3bf-721e8d08f532",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_7194a82e-ede7-4d40-af38-7f31e6c149f4",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_0e05206c-386c-48d6-94d4-81de0f50f980",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": " MEK1: MAP2K1"
+            }
+        },
+        {
+            "reviewed_object": "edge_ec768296-640c-40ef-b31d-b2397e9588eb",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_56c813a2-201a-431d-8640-6de96c8cd14b",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_08196855-1e39-4c5a-9bda-66fbd68434f4",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_0c1d8cec-878f-422d-8584-6c7f0138645e",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_ad79d248-32a0-461b-9e4a-172252b5b07e",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_424aa02f-2ddc-406b-b7ba-fd39f86f620b",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_afee9a1e-a5de-4855-b2d3-7c258d89b37e",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_924d23d9-dd33-48a0-95ea-a7e9578bb395",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_1114550b-943b-4d57-ab9a-aebe02d583f8",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_9441d95e-0430-46bd-b421-75186ab4d1eb",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_a5e21c7a-0cd3-400c-aa25-c1e66529af26",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_250a0389-dc81-428a-86e6-504f9034b55f",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_99d6f769-8e4a-448f-bcba-e036a40059fd",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "p(HGNC:AKT1) increases act(HGNC:HSF1)\nbased on evidence of \"significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60)\""
+            }
+        },
+        {
+            "reviewed_object": "edge_f93c6a5f-4187-4956-a6b1-6568df78f587",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_7cb3f279-99d1-4564-b6f0-92f621c93ab3",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_63bb84ff-8e03-4d76-b555-0a507b8b2bd2",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+            }
+        },
+        {
+            "reviewed_object": "edge_fc59f3bb-fe83-417f-ba5a-78f9f114d24b",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+            }
+        },
+        {
+            "reviewed_object": "edge_7b7a97d1-16c5-41cb-8a35-c0c982a1b172",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+            }
+        },
+        {
+            "reviewed_object": "edge_841f52d3-b4fc-4d63-85d2-4f70e98ca7e9",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_60428811-a966-4009-80f6-4e6ad5d3b3f6",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_5cb12840-d105-49f7-bc74-349b716d93be",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_bf7fcd54-ffad-429f-bc7c-e3acf8d6dcfd",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_6a0eb13c-9e28-4232-bf1d-3febd80313e3",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_72904425-4efa-41c1-b203-24d1329fffdb",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_1fc21b7a-fed3-4a4f-b5a8-232f6c464418",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_7cf454dc-6e3a-48bb-b91e-cfddcb28674c",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_d76bf856-805a-4988-9ec0-a1ed3e0125d5",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_3cc3c5d9-54e4-4b66-a1fb-d1a219053a7a",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_8821db61-1df1-40bd-b0c6-f9a009a9378b",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": true,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_8be7b643-e5f1-4f70-b8df-2a14f726fb49",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_6c717762-c0e3-4b60-a928-0567f0195c03",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_820d95de-da74-4d76-a88c-0221df28f38a",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "p(FPLX:NFkappaB)"
+            }
+        },
+        {
+            "reviewed_object": "edge_c3707770-4bd8-4a22-81e5-a6ec87de3e34",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "should be 'associated' instead of 'increase'"
+            }
+        },
+        {
+            "reviewed_object": "edge_1a167bd5-46b5-42e4-9953-b3d7cd0c9128",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "should be 'decrease' instead of 'directlyDecreases'"
+            }
+        },
+        {
+            "reviewed_object": "edge_5fe8f214-587c-423a-9067-6210eeb51f01",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "FPLX:JNK"
+            }
+        },
+        {
+            "reviewed_object": "edge_b40396ec-c27b-4dfd-bc5c-074a139f10ec",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "FPLX:C1q"
+            }
+        },
+        {
+            "reviewed_object": "edge_db91aa67-02c0-42fd-9a2f-315138057551",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "it is the \"cleavage causes a large conformational change in C4b\" instead of p(HGNC:C4B) increase complex(p(HGNC:C4B), p(HGNC:C2))"
+            }
+        },
+        {
+            "reviewed_object": "edge_32df38c0-3d03-41a0-bcd5-ae029ae396c9",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": " \"ma(GO:\"serine-type endopeptidase activity\")\" was not specified in the evidence or text"
+            }
+        },
+        {
+            "reviewed_object": "edge_e097aab1-9e81-4451-91d7-b9e9ea318fc2",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": true,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "CHEBI:cofactor. "
+            }
+        },
+        {
+            "reviewed_object": "edge_8c1a9031-33ae-4278-bd73-68eb15017985",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_c4f1b3a6-3260-4ad2-9a3a-05bb0afb3bba",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": true,
+                "comments": "this act(p(HGNC:C3)) increases a(HGNC:C3) self relationship was not supported by the text or evidence"
+            }
+        },
+        {
+            "reviewed_object": "edge_ed517747-d035-41c8-9f8c-7868c1fd586d",
+            "scores": {
+                "all_correct": true,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": ""
+            }
+        },
+        {
+            "reviewed_object": "edge_758d4e7f-08bd-4987-9362-7dd55b50ff2f",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": true,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "p(HGNC:TLR4) --> act(HGNC:TLR4)"
+            }
+        },
+        {
+            "reviewed_object": "edge_d0de9db5-96cf-440a-8d07-807df2e2f9dd",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": true,
+                "identifier_database_errors": false,
+                "incorrect_entities": false,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "it was the localization istead of protein abundance of TICAM3 got changed.can be p(HGNC:SLAMF1)increase p(HGNC:TICAM2, loc(GO:\"Escherichia coli phagosomes\"))"
+            }
+        },
+        {
+            "reviewed_object": "edge_f66d2caf-14a0-4c0b-862f-b4806a448678",
+            "scores": {
+                "all_correct": false,
+                "correct_but_could_be_more_precise": false,
+                "posttranslational_modification_errors": false,
+                "interaction_type_errors": false,
+                "identifier_database_errors": true,
+                "incorrect_entities": true,
+                "incorrect_order_source_and_target_switched": false,
+                "not_a_valid_relationshiptype": false,
+                "other_errors": false,
+                "comments": "p(HGNC:NFKB1)"
+            }
+        }
+    ],
+    "submit_date": "2025-05-14T19:33:19.769Z",
+    "created": "05.14.2025 01:44:02",
+    "object_id": "review_list_8622e50d-c8c9-488b-92d1-8ca8d1308506"
+}
