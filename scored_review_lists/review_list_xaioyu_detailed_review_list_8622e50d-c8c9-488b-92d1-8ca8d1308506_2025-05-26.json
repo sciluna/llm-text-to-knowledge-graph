@@ -1,0 +1,1974 @@
+{
+  "metadata": {
+    "reviewer": "Zhao, Xiaoyu",
+    "object_id": "review_list_8622e50d-c8c9-488b-92d1-8ca8d1308506",
+    "created": "05.14.2025 01:44:02",
+    "exported_at": "2025-05-26T17:37:02.686Z"
+  },
+  "review_list": {
+    "type": "review_list",
+    "object_list_id": "object_list_e73bb3d9-5201-4ba4-8efa-d401e0ba187a",
+    "object_ids": [
+      "edge_81a59605-a834-40f5-b292-1d14cb814cb0",
+      "edge_85b65011-3119-41a7-9f77-5aad19d9f193",
+      "edge_0ef55a33-fe3e-4483-b3bf-721e8d08f532",
+      "edge_7194a82e-ede7-4d40-af38-7f31e6c149f4",
+      "edge_0e05206c-386c-48d6-94d4-81de0f50f980",
+      "edge_ec768296-640c-40ef-b31d-b2397e9588eb",
+      "edge_56c813a2-201a-431d-8640-6de96c8cd14b",
+      "edge_08196855-1e39-4c5a-9bda-66fbd68434f4",
+      "edge_0c1d8cec-878f-422d-8584-6c7f0138645e",
+      "edge_ad79d248-32a0-461b-9e4a-172252b5b07e",
+      "edge_424aa02f-2ddc-406b-b7ba-fd39f86f620b",
+      "edge_afee9a1e-a5de-4855-b2d3-7c258d89b37e",
+      "edge_924d23d9-dd33-48a0-95ea-a7e9578bb395",
+      "edge_1114550b-943b-4d57-ab9a-aebe02d583f8",
+      "edge_9441d95e-0430-46bd-b421-75186ab4d1eb",
+      "edge_a5e21c7a-0cd3-400c-aa25-c1e66529af26",
+      "edge_250a0389-dc81-428a-86e6-504f9034b55f",
+      "edge_99d6f769-8e4a-448f-bcba-e036a40059fd",
+      "edge_f93c6a5f-4187-4956-a6b1-6568df78f587",
+      "edge_7cb3f279-99d1-4564-b6f0-92f621c93ab3",
+      "edge_63bb84ff-8e03-4d76-b555-0a507b8b2bd2",
+      "edge_fc59f3bb-fe83-417f-ba5a-78f9f114d24b",
+      "edge_7b7a97d1-16c5-41cb-8a35-c0c982a1b172",
+      "edge_841f52d3-b4fc-4d63-85d2-4f70e98ca7e9",
+      "edge_60428811-a966-4009-80f6-4e6ad5d3b3f6",
+      "edge_5cb12840-d105-49f7-bc74-349b716d93be",
+      "edge_bf7fcd54-ffad-429f-bc7c-e3acf8d6dcfd",
+      "edge_6a0eb13c-9e28-4232-bf1d-3febd80313e3",
+      "edge_72904425-4efa-41c1-b203-24d1329fffdb",
+      "edge_1fc21b7a-fed3-4a4f-b5a8-232f6c464418",
+      "edge_7cf454dc-6e3a-48bb-b91e-cfddcb28674c",
+      "edge_d76bf856-805a-4988-9ec0-a1ed3e0125d5",
+      "edge_3cc3c5d9-54e4-4b66-a1fb-d1a219053a7a",
+      "edge_8821db61-1df1-40bd-b0c6-f9a009a9378b",
+      "edge_8be7b643-e5f1-4f70-b8df-2a14f726fb49",
+      "edge_6c717762-c0e3-4b60-a928-0567f0195c03",
+      "edge_820d95de-da74-4d76-a88c-0221df28f38a",
+      "edge_c3707770-4bd8-4a22-81e5-a6ec87de3e34",
+      "edge_1a167bd5-46b5-42e4-9953-b3d7cd0c9128",
+      "edge_5fe8f214-587c-423a-9067-6210eeb51f01",
+      "edge_b40396ec-c27b-4dfd-bc5c-074a139f10ec",
+      "edge_db91aa67-02c0-42fd-9a2f-315138057551",
+      "edge_32df38c0-3d03-41a0-bcd5-ae029ae396c9",
+      "edge_e097aab1-9e81-4451-91d7-b9e9ea318fc2",
+      "edge_8c1a9031-33ae-4278-bd73-68eb15017985",
+      "edge_c4f1b3a6-3260-4ad2-9a3a-05bb0afb3bba",
+      "edge_ed517747-d035-41c8-9f8c-7868c1fd586d",
+      "edge_758d4e7f-08bd-4987-9362-7dd55b50ff2f",
+      "edge_d0de9db5-96cf-440a-8d07-807df2e2f9dd",
+      "edge_f66d2caf-14a0-4c0b-862f-b4806a448678"
+    ],
+    "reviewer": "Zhao, Xiaoyu",
+    "status": "submitted",
+    "scores": [
+      {
+        "reviewed_object": "edge_81a59605-a834-40f5-b292-1d14cb814cb0",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_85b65011-3119-41a7-9f77-5aad19d9f193",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_0ef55a33-fe3e-4483-b3bf-721e8d08f532",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_7194a82e-ede7-4d40-af38-7f31e6c149f4",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_0e05206c-386c-48d6-94d4-81de0f50f980",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": true,
+          "comments": " MEK1: MAP2K1"
+        }
+      },
+      {
+        "reviewed_object": "edge_ec768296-640c-40ef-b31d-b2397e9588eb",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_56c813a2-201a-431d-8640-6de96c8cd14b",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_08196855-1e39-4c5a-9bda-66fbd68434f4",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_0c1d8cec-878f-422d-8584-6c7f0138645e",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_ad79d248-32a0-461b-9e4a-172252b5b07e",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_424aa02f-2ddc-406b-b7ba-fd39f86f620b",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_afee9a1e-a5de-4855-b2d3-7c258d89b37e",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_924d23d9-dd33-48a0-95ea-a7e9578bb395",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_1114550b-943b-4d57-ab9a-aebe02d583f8",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_9441d95e-0430-46bd-b421-75186ab4d1eb",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_a5e21c7a-0cd3-400c-aa25-c1e66529af26",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_250a0389-dc81-428a-86e6-504f9034b55f",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_99d6f769-8e4a-448f-bcba-e036a40059fd",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": true,
+          "comments": "p(HGNC:AKT1) increases act(HGNC:HSF1)\nbased on evidence of \"significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60)\""
+        }
+      },
+      {
+        "reviewed_object": "edge_f93c6a5f-4187-4956-a6b1-6568df78f587",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_7cb3f279-99d1-4564-b6f0-92f621c93ab3",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_63bb84ff-8e03-4d76-b555-0a507b8b2bd2",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": true,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+        }
+      },
+      {
+        "reviewed_object": "edge_fc59f3bb-fe83-417f-ba5a-78f9f114d24b",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": true,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+        }
+      },
+      {
+        "reviewed_object": "edge_7b7a97d1-16c5-41cb-8a35-c0c982a1b172",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": true,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+        }
+      },
+      {
+        "reviewed_object": "edge_841f52d3-b4fc-4d63-85d2-4f70e98ca7e9",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_60428811-a966-4009-80f6-4e6ad5d3b3f6",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_5cb12840-d105-49f7-bc74-349b716d93be",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_bf7fcd54-ffad-429f-bc7c-e3acf8d6dcfd",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_6a0eb13c-9e28-4232-bf1d-3febd80313e3",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_72904425-4efa-41c1-b203-24d1329fffdb",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_1fc21b7a-fed3-4a4f-b5a8-232f6c464418",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_7cf454dc-6e3a-48bb-b91e-cfddcb28674c",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_d76bf856-805a-4988-9ec0-a1ed3e0125d5",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_3cc3c5d9-54e4-4b66-a1fb-d1a219053a7a",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_8821db61-1df1-40bd-b0c6-f9a009a9378b",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": true,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_8be7b643-e5f1-4f70-b8df-2a14f726fb49",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_6c717762-c0e3-4b60-a928-0567f0195c03",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_820d95de-da74-4d76-a88c-0221df28f38a",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": true,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "p(FPLX:NFkappaB)"
+        }
+      },
+      {
+        "reviewed_object": "edge_c3707770-4bd8-4a22-81e5-a6ec87de3e34",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": true,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "should be 'associated' instead of 'increase'"
+        }
+      },
+      {
+        "reviewed_object": "edge_1a167bd5-46b5-42e4-9953-b3d7cd0c9128",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": true,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "should be 'decrease' instead of 'directlyDecreases'"
+        }
+      },
+      {
+        "reviewed_object": "edge_5fe8f214-587c-423a-9067-6210eeb51f01",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": true,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "FPLX:JNK"
+        }
+      },
+      {
+        "reviewed_object": "edge_b40396ec-c27b-4dfd-bc5c-074a139f10ec",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": true,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "FPLX:C1q"
+        }
+      },
+      {
+        "reviewed_object": "edge_db91aa67-02c0-42fd-9a2f-315138057551",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": true,
+          "comments": "it is the \"cleavage causes a large conformational change in C4b\" instead of p(HGNC:C4B) increase complex(p(HGNC:C4B), p(HGNC:C2))"
+        }
+      },
+      {
+        "reviewed_object": "edge_32df38c0-3d03-41a0-bcd5-ae029ae396c9",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": true,
+          "comments": " \"ma(GO:\"serine-type endopeptidase activity\")\" was not specified in the evidence or text"
+        }
+      },
+      {
+        "reviewed_object": "edge_e097aab1-9e81-4451-91d7-b9e9ea318fc2",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": true,
+          "incorrect_entities": true,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "CHEBI:cofactor. "
+        }
+      },
+      {
+        "reviewed_object": "edge_8c1a9031-33ae-4278-bd73-68eb15017985",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_c4f1b3a6-3260-4ad2-9a3a-05bb0afb3bba",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": true,
+          "comments": "this act(p(HGNC:C3)) increases a(HGNC:C3) self relationship was not supported by the text or evidence"
+        }
+      },
+      {
+        "reviewed_object": "edge_ed517747-d035-41c8-9f8c-7868c1fd586d",
+        "scores": {
+          "all_correct": true,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": ""
+        }
+      },
+      {
+        "reviewed_object": "edge_758d4e7f-08bd-4987-9362-7dd55b50ff2f",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": true,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "p(HGNC:TLR4) --> act(HGNC:TLR4)"
+        }
+      },
+      {
+        "reviewed_object": "edge_d0de9db5-96cf-440a-8d07-807df2e2f9dd",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": true,
+          "identifier_database_errors": false,
+          "incorrect_entities": false,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "it was the localization istead of protein abundance of TICAM3 got changed.can be p(HGNC:SLAMF1)increase p(HGNC:TICAM2, loc(GO:\"Escherichia coli phagosomes\"))"
+        }
+      },
+      {
+        "reviewed_object": "edge_f66d2caf-14a0-4c0b-862f-b4806a448678",
+        "scores": {
+          "all_correct": false,
+          "correct_but_could_be_more_precise": false,
+          "posttranslational_modification_errors": false,
+          "interaction_type_errors": false,
+          "identifier_database_errors": true,
+          "incorrect_entities": true,
+          "incorrect_order_source_and_target_switched": false,
+          "not_a_valid_relationshiptype": false,
+          "other_errors": false,
+          "comments": "p(HGNC:NFKB1)"
+        }
+      }
+    ],
+    "submit_date": "2025-05-14T19:33:19.769Z",
+    "created": "05.14.2025 01:44:02",
+    "object_id": "review_list_8622e50d-c8c9-488b-92d1-8ca8d1308506"
+  },
+  "review_count": 50,
+  "reviews": [
+    {
+      "review_id": "edge_81a59605-a834-40f5-b292-1d14cb814cb0",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "a(CHEBI:metformin) hasComponent a(CHEBI:N,N-dimethyl-4-nitrosoaniline)",
+      "interaction": "hasComponent",
+      "evidence": "Recently, metformin, the most widely used first-line drug for diabetes, was found to contain a carcinogenic contaminant known as N-nitroso dimethylamine (NDMA).",
+      "text": "There are substantial shortcomings in the drugs currently available for treatment of type 2 diabetes mellitus. The global diabetic crisis has not abated despite the introduction of new types of drugs and targets. Persistent unaddressed patient needs remain a significant factor in the quest for new leads in routine studies. Drug discovery methods in this area have followed developments in the market, contributing to a recent rise in the number of molecules. Nevertheless, troubling developments and fresh challenges are still evident. Recently, metformin, the most widely used first-line drug for diabetes, was found to contain a carcinogenic contaminant known as N-nitroso dimethylamine (NDMA). Therefore, purity and toxicity are also a big challenge for drug discovery and development. Moreover, newer drug classes against SGLT-2 illustrate both progress and difficulties. The same was true previously in the case of glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors. Furthermore, researchers must study the importance of mechanistic characteristics of novel compounds, as well as exposure-related hazardous aspects of current and newly identified protein targets, in order to identify new pharmacological molecules with improved selectivity and specificity.",
+      "reviewed_object_id": "edge_81a59605-a834-40f5-b292-1d14cb814cb0",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_85b65011-3119-41a7-9f77-5aad19d9f193",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_85b65011-3119-41a7-9f77-5aad19d9f193",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_0ef55a33-fe3e-4483-b3bf-721e8d08f532",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_0ef55a33-fe3e-4483-b3bf-721e8d08f532",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_7194a82e-ede7-4d40-af38-7f31e6c149f4",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:MTOR), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_7194a82e-ede7-4d40-af38-7f31e6c149f4",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_0e05206c-386c-48d6-94d4-81de0f50f980",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:MAP2K1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_0e05206c-386c-48d6-94d4-81de0f50f980",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": true,
+        "comments": " MEK1: MAP2K1"
+      },
+      "review_comments": " MEK1: MAP2K1"
+    },
+    {
+      "review_id": "edge_ec768296-640c-40ef-b31d-b2397e9588eb",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:DYRK2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_ec768296-640c-40ef-b31d-b2397e9588eb",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_56c813a2-201a-431d-8640-6de96c8cd14b",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+      "interaction": "directlyIncreases",
+      "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_56c813a2-201a-431d-8640-6de96c8cd14b",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_08196855-1e39-4c5a-9bda-66fbd68434f4",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 230))",
+      "interaction": "directlyIncreases",
+      "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_08196855-1e39-4c5a-9bda-66fbd68434f4",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_0c1d8cec-878f-422d-8584-6c7f0138645e",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 527))",
+      "interaction": "directlyIncreases",
+      "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+      "text": "The heat stress response activates the transcription factor heat shock factor 1 (HSF1), which subsequently upregulates heat shock proteins to maintain the integrity of the proteome. HSF1 activation requires nuclear localization, trimerization, DNA binding, phosphorylation and gene transactivation. Phosphorylation at S326 is an important regulator of HSF1 transcriptional activity. Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2. Here, we observed activation of HSF1 by AKT1 independently of mTOR. AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1. Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator. Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not. Subsequent investigation revealed that phosphorylation at T142 is necessary for HSF1 trimerization and that S230, S326 and T527 are required for HSF1 gene transactivation and recruitment of TFIIB and CDK9. Interestingly, T527 as a phosphorylated residue has not been previously shown and sits in the transactivation domain, further implying a role for this site in HSF1 gene transactivation. This study suggests that HSF1 hyperphosphorylation is targeted and these specific residues have direct function in regulating HSF1 transcriptional activity.",
+      "reviewed_object_id": "edge_0c1d8cec-878f-422d-8584-6c7f0138645e",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_ad79d248-32a0-461b-9e4a-172252b5b07e",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326.",
+      "text": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326. AKT1 has well-known oncogenic functions. AKT2 and AKT3 also have pro-tumour functions but whether HSF1 can be regulated by these isoforms remains unknown. To assess this possibility, either AKT1, AKT2 or AKT3 were introduced into multiple cell lines along with a luciferase reporter driven by the presence of two heat shock elements (HSEs). Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C). AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C). To determine the ability of the AKT isoforms to phosphorylate HSF1 at S326, a key phosphorylation event critical for HSF1 activity, an in vitro kinase assay followed by immunoblotting was performed with each AKT isoform. Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D). ",
+      "reviewed_object_id": "edge_ad79d248-32a0-461b-9e4a-172252b5b07e",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_424aa02f-2ddc-406b-b7ba-fd39f86f620b",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+      "interaction": "directlyIncreases",
+      "evidence": "Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C).",
+      "text": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326. AKT1 has well-known oncogenic functions. AKT2 and AKT3 also have pro-tumour functions but whether HSF1 can be regulated by these isoforms remains unknown. To assess this possibility, either AKT1, AKT2 or AKT3 were introduced into multiple cell lines along with a luciferase reporter driven by the presence of two heat shock elements (HSEs). Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C). AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C). To determine the ability of the AKT isoforms to phosphorylate HSF1 at S326, a key phosphorylation event critical for HSF1 activity, an in vitro kinase assay followed by immunoblotting was performed with each AKT isoform. Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D). ",
+      "reviewed_object_id": "edge_424aa02f-2ddc-406b-b7ba-fd39f86f620b",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_afee9a1e-a5de-4855-b2d3-7c258d89b37e",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT2)) increases act(p(HGNC:HSF1))",
+      "interaction": "increases",
+      "evidence": "AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C).",
+      "text": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326. AKT1 has well-known oncogenic functions. AKT2 and AKT3 also have pro-tumour functions but whether HSF1 can be regulated by these isoforms remains unknown. To assess this possibility, either AKT1, AKT2 or AKT3 were introduced into multiple cell lines along with a luciferase reporter driven by the presence of two heat shock elements (HSEs). Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C). AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C). To determine the ability of the AKT isoforms to phosphorylate HSF1 at S326, a key phosphorylation event critical for HSF1 activity, an in vitro kinase assay followed by immunoblotting was performed with each AKT isoform. Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D). ",
+      "reviewed_object_id": "edge_afee9a1e-a5de-4855-b2d3-7c258d89b37e",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_924d23d9-dd33-48a0-95ea-a7e9578bb395",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).",
+      "text": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326. AKT1 has well-known oncogenic functions. AKT2 and AKT3 also have pro-tumour functions but whether HSF1 can be regulated by these isoforms remains unknown. To assess this possibility, either AKT1, AKT2 or AKT3 were introduced into multiple cell lines along with a luciferase reporter driven by the presence of two heat shock elements (HSEs). Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C). AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C). To determine the ability of the AKT isoforms to phosphorylate HSF1 at S326, a key phosphorylation event critical for HSF1 activity, an in vitro kinase assay followed by immunoblotting was performed with each AKT isoform. Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D). ",
+      "reviewed_object_id": "edge_924d23d9-dd33-48a0-95ea-a7e9578bb395",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_1114550b-943b-4d57-ab9a-aebe02d583f8",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).",
+      "text": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326. AKT1 has well-known oncogenic functions. AKT2 and AKT3 also have pro-tumour functions but whether HSF1 can be regulated by these isoforms remains unknown. To assess this possibility, either AKT1, AKT2 or AKT3 were introduced into multiple cell lines along with a luciferase reporter driven by the presence of two heat shock elements (HSEs). Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C). AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C). To determine the ability of the AKT isoforms to phosphorylate HSF1 at S326, a key phosphorylation event critical for HSF1 activity, an in vitro kinase assay followed by immunoblotting was performed with each AKT isoform. Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D). ",
+      "reviewed_object_id": "edge_1114550b-943b-4d57-ab9a-aebe02d583f8",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_9441d95e-0430-46bd-b421-75186ab4d1eb",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:AKT2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D).",
+      "text": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D). However, we also observed that AKT2 did not phosphorylate S326 as strongly in cells (Fig. 1E), suggesting that AKT2 has the capability to phosphorylate HSF1 but this is more limited within living cells. AKT1 is also a well-known activator of mTOR and mTOR has been shown to phosphorylate HSF1 at S326 in response to proteotoxic stress. Therefore, to determine whether AKT1-driven HSF1 activity and S326 phosphorylation is mediated by mTOR, cells were treated with increasing concentrations of rapamycin and subjected to the HSE luciferase reporter assay or immunoblotting with p-HSF1 S326 antibodies. Results indicated that rapamycin had no effect on HSF1 activity (Fig. 1F) or on S326 phosphorylation (Fig. 1G) driven by AKT1. We further assessed whether the AKT isoforms affected downstream activation steps of HSF1, including trimerization and DNA binding. ",
+      "reviewed_object_id": "edge_9441d95e-0430-46bd-b421-75186ab4d1eb",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_a5e21c7a-0cd3-400c-aa25-c1e66529af26",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:MTOR), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+      "interaction": "directlyIncreases",
+      "evidence": "AKT1 is also a well-known activator of mTOR and mTOR has been shown to phosphorylate HSF1 at S326 in response to proteotoxic stress.",
+      "text": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D). However, we also observed that AKT2 did not phosphorylate S326 as strongly in cells (Fig. 1E), suggesting that AKT2 has the capability to phosphorylate HSF1 but this is more limited within living cells. AKT1 is also a well-known activator of mTOR and mTOR has been shown to phosphorylate HSF1 at S326 in response to proteotoxic stress. Therefore, to determine whether AKT1-driven HSF1 activity and S326 phosphorylation is mediated by mTOR, cells were treated with increasing concentrations of rapamycin and subjected to the HSE luciferase reporter assay or immunoblotting with p-HSF1 S326 antibodies. Results indicated that rapamycin had no effect on HSF1 activity (Fig. 1F) or on S326 phosphorylation (Fig. 1G) driven by AKT1. We further assessed whether the AKT isoforms affected downstream activation steps of HSF1, including trimerization and DNA binding. ",
+      "reviewed_object_id": "edge_a5e21c7a-0cd3-400c-aa25-c1e66529af26",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_250a0389-dc81-428a-86e6-504f9034b55f",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:AKT1) increases complex(p(HGNC:HSF1))",
+      "interaction": "increases",
+      "evidence": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B).",
+      "text": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B). AKT2 and AKT3 promoted on minimal amounts of HSF1 trimerization (Fig. 2A-B). Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C). To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E). We did not observe any effect of AKT1 on HSF1 protein half-life (Fig. S1). These results indicate that AKT1 is the primary AKT isoform capable of activating HSF1 with AKT2 having modest effects in cells.",
+      "reviewed_object_id": "edge_250a0389-dc81-428a-86e6-504f9034b55f",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_99d6f769-8e4a-448f-bcba-e036a40059fd",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:AKT1) increases p(HGNC:HSF1)",
+      "interaction": "increases",
+      "evidence": "Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C).",
+      "text": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B). AKT2 and AKT3 promoted on minimal amounts of HSF1 trimerization (Fig. 2A-B). Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C). To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E). We did not observe any effect of AKT1 on HSF1 protein half-life (Fig. S1). These results indicate that AKT1 is the primary AKT isoform capable of activating HSF1 with AKT2 having modest effects in cells.",
+      "reviewed_object_id": "edge_99d6f769-8e4a-448f-bcba-e036a40059fd",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": true,
+        "comments": "p(HGNC:AKT1) increases act(HGNC:HSF1)\nbased on evidence of \"significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60)\""
+      },
+      "review_comments": "p(HGNC:AKT1) increases act(HGNC:HSF1)\nbased on evidence of \"significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60)\""
+    },
+    {
+      "review_id": "edge_f93c6a5f-4187-4956-a6b1-6568df78f587",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:AKT1) increases r(HGNC:HSPA1A)",
+      "interaction": "increases",
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E).",
+      "text": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B). AKT2 and AKT3 promoted on minimal amounts of HSF1 trimerization (Fig. 2A-B). Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C). To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E). We did not observe any effect of AKT1 on HSF1 protein half-life (Fig. S1). These results indicate that AKT1 is the primary AKT isoform capable of activating HSF1 with AKT2 having modest effects in cells.",
+      "reviewed_object_id": "edge_f93c6a5f-4187-4956-a6b1-6568df78f587",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_7cb3f279-99d1-4564-b6f0-92f621c93ab3",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:AKT1) increases r(HGNC:HSPA8)",
+      "interaction": "increases",
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E).",
+      "text": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B). AKT2 and AKT3 promoted on minimal amounts of HSF1 trimerization (Fig. 2A-B). Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C). To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E). We did not observe any effect of AKT1 on HSF1 protein half-life (Fig. S1). These results indicate that AKT1 is the primary AKT isoform capable of activating HSF1 with AKT2 having modest effects in cells.",
+      "reviewed_object_id": "edge_7cb3f279-99d1-4564-b6f0-92f621c93ab3",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_63bb84ff-8e03-4d76-b555-0a507b8b2bd2",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "a(CHEBI:celastrol) decreases p(HGNC:NOS2)",
+      "interaction": "decreases",
+      "evidence": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
+      "text": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
+      "reviewed_object_id": "edge_63bb84ff-8e03-4d76-b555-0a507b8b2bd2",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": true,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+      },
+      "review_comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+    },
+    {
+      "review_id": "edge_fc59f3bb-fe83-417f-ba5a-78f9f114d24b",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "a(CHEBI:celastrol) decreases act(a(CHEBI:NADPH))",
+      "interaction": "decreases",
+      "evidence": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
+      "text": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
+      "reviewed_object_id": "edge_fc59f3bb-fe83-417f-ba5a-78f9f114d24b",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": true,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+      },
+      "review_comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+    },
+    {
+      "review_id": "edge_7b7a97d1-16c5-41cb-8a35-c0c982a1b172",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "a(CHEBI:celastrol) decreases act(p(HGNC:JAK2))",
+      "interaction": "decreases",
+      "evidence": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
+      "text": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
+      "reviewed_object_id": "edge_7b7a97d1-16c5-41cb-8a35-c0c982a1b172",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": true,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+      },
+      "review_comments": "the text and evidence did not spcifify the \"decrease\" interaction"
+    },
+    {
+      "review_id": "edge_841f52d3-b4fc-4d63-85d2-4f70e98ca7e9",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:DYRK1A), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))",
+      "interaction": "directlyIncreases",
+      "evidence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.",
+      "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1. AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1. In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage. Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress. In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival. Additionally, transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1\\u03b1 transcriptional activity; PGC1\\u03b1 is an important regulator of metabolism and mitochondrial function.",
+      "reviewed_object_id": "edge_841f52d3-b4fc-4d63-85d2-4f70e98ca7e9",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_60428811-a966-4009-80f6-4e6ad5d3b3f6",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:DYRK3), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))",
+      "interaction": "directlyIncreases",
+      "evidence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.",
+      "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1. AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1. In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage. Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress. In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival. Additionally, transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1\\u03b1 transcriptional activity; PGC1\\u03b1 is an important regulator of metabolism and mitochondrial function.",
+      "reviewed_object_id": "edge_60428811-a966-4009-80f6-4e6ad5d3b3f6",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_5cb12840-d105-49f7-bc74-349b716d93be",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:SUMO1), ma(GO:\"SUMO transferase activity\")) directlyIncreases act(p(HGNC:SIRT1))",
+      "interaction": "directlyIncreases",
+      "evidence": "Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress.",
+      "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1. AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1. In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage. Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress. In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival. Additionally, transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1\\u03b1 transcriptional activity; PGC1\\u03b1 is an important regulator of metabolism and mitochondrial function.",
+      "reviewed_object_id": "edge_5cb12840-d105-49f7-bc74-349b716d93be",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_bf7fcd54-ffad-429f-bc7c-e3acf8d6dcfd",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:SENP1), ma(GO:\"protein desumoylation\")) directlyDecreases act(p(HGNC:SIRT1))",
+      "interaction": "directlyDecreases",
+      "evidence": "Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress.",
+      "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1. AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1. In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage. Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress. In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival. Additionally, transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1\\u03b1 transcriptional activity; PGC1\\u03b1 is an important regulator of metabolism and mitochondrial function.",
+      "reviewed_object_id": "edge_bf7fcd54-ffad-429f-bc7c-e3acf8d6dcfd",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_6a0eb13c-9e28-4232-bf1d-3febd80313e3",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SIRT1) loc (GO:nucleus)",
+      "interaction": "loc",
+      "evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+      "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
+      "reviewed_object_id": "edge_6a0eb13c-9e28-4232-bf1d-3febd80313e3",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_72904425-4efa-41c1-b203-24d1329fffdb",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SIRT6) loc (GO:nucleus)",
+      "interaction": "loc",
+      "evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+      "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
+      "reviewed_object_id": "edge_72904425-4efa-41c1-b203-24d1329fffdb",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_1fc21b7a-fed3-4a4f-b5a8-232f6c464418",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SIRT7) loc (GO:nucleus)",
+      "interaction": "loc",
+      "evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+      "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
+      "reviewed_object_id": "edge_1fc21b7a-fed3-4a4f-b5a8-232f6c464418",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_7cf454dc-6e3a-48bb-b91e-cfddcb28674c",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SIRT2) loc (GO:cytoplasm)",
+      "interaction": "loc",
+      "evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+      "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
+      "reviewed_object_id": "edge_7cf454dc-6e3a-48bb-b91e-cfddcb28674c",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_d76bf856-805a-4988-9ec0-a1ed3e0125d5",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SIRT3) loc (GO:mitochondrion)",
+      "interaction": "loc",
+      "evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+      "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
+      "reviewed_object_id": "edge_d76bf856-805a-4988-9ec0-a1ed3e0125d5",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_3cc3c5d9-54e4-4b66-a1fb-d1a219053a7a",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SIRT4) loc (GO:mitochondrion)",
+      "interaction": "loc",
+      "evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+      "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
+      "reviewed_object_id": "edge_3cc3c5d9-54e4-4b66-a1fb-d1a219053a7a",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_8821db61-1df1-40bd-b0c6-f9a009a9378b",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SIRT5) loc (GO:mitochondrion)",
+      "interaction": "loc",
+      "evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+      "text": "Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity.",
+      "reviewed_object_id": "edge_8821db61-1df1-40bd-b0c6-f9a009a9378b",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": true,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_8be7b643-e5f1-4f70-b8df-2a14f726fb49",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:MAP3K7) decreases bp(GO:\"apoptotic process\")",
+      "interaction": "decreases",
+      "evidence": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,).",
+      "text": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,). This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis followed by the production of reactive oxygen species (ROS) (Chen et al.,). Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,), suggesting the existence of intra-cellular decision making processes discriminating between cyto-protection via NF-kappaB and programmed cell death via JNK. However, the functional duality of this system is a matter of debate and precise mechanisms regulating hepatocellular cell fate are not well understood.",
+      "reviewed_object_id": "edge_8be7b643-e5f1-4f70-b8df-2a14f726fb49",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_6c717762-c0e3-4b60-a928-0567f0195c03",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:IKBKG) decreases bp(GO:\"apoptotic process\")",
+      "interaction": "decreases",
+      "evidence": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,).",
+      "text": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,). This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis followed by the production of reactive oxygen species (ROS) (Chen et al.,). Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,), suggesting the existence of intra-cellular decision making processes discriminating between cyto-protection via NF-kappaB and programmed cell death via JNK. However, the functional duality of this system is a matter of debate and precise mechanisms regulating hepatocellular cell fate are not well understood.",
+      "reviewed_object_id": "edge_6c717762-c0e3-4b60-a928-0567f0195c03",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_820d95de-da74-4d76-a88c-0221df28f38a",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:TNF) increases p(FPLX:NFkappaB)",
+      "interaction": "increases",
+      "evidence": "Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,)",
+      "text": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,). This apoptosis in the absence of NF-kappaB depends on the persistent activation of the JNK axis followed by the production of reactive oxygen species (ROS) (Chen et al.,). Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,), suggesting the existence of intra-cellular decision making processes discriminating between cyto-protection via NF-kappaB and programmed cell death via JNK. However, the functional duality of this system is a matter of debate and precise mechanisms regulating hepatocellular cell fate are not well understood.",
+      "reviewed_object_id": "edge_820d95de-da74-4d76-a88c-0221df28f38a",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": true,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "p(FPLX:NFkappaB)"
+      },
+      "review_comments": "p(FPLX:NFkappaB)"
+    },
+    {
+      "review_id": "edge_c3707770-4bd8-4a22-81e5-a6ec87de3e34",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:TNF) increases bp(GO:hepatocyte proliferation)",
+      "interaction": "increases",
+      "evidence": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+      "text": "The role of the cytokine tumor necrosis factor (TNF) in the liver has been investigated intensively. Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+      "reviewed_object_id": "edge_c3707770-4bd8-4a22-81e5-a6ec87de3e34",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": true,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "should be 'associated' instead of 'increase'"
+      },
+      "review_comments": "should be 'associated' instead of 'increase'"
+    },
+    {
+      "review_id": "edge_1a167bd5-46b5-42e4-9953-b3d7cd0c9128",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:TNFAIP3) directlyDecreases act(p(HGNC:MAP3K5))",
+      "interaction": "directlyDecreases",
+      "evidence": "A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation.",
+      "text": "A couple of molecular mechanisms may explain the A20-mediated differential desensitization phenotype observed in our study. For example, A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation (Won et al.,). Since A20 is efficiently induced by TNF administration it is tempting to speculate that the loss of ASK1 might shift the cellular response from apoptosis to survival and proliferation. Our data include an additional mechanistic level to this observation. ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated (Tobiume et al.,; Won et al.,). We here showed that TNF affects the interaction between A20 and ASK1, which could explain the ASK1-dependent phosphorylation of JNK at specific periods after TNF administration. The underlying molecular mechanism for this precise and dynamic fine-tune regulation is not understood, however, the natural oscillations observed in the activation dynamics of both JNK and NF-kappaB could be partly explained in terms of synchrony / asynchrony ASK1:A20 dynamics as observed in this study (Ashall et al.,).",
+      "reviewed_object_id": "edge_1a167bd5-46b5-42e4-9953-b3d7cd0c9128",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": true,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "should be 'decrease' instead of 'directlyDecreases'"
+      },
+      "review_comments": "should be 'decrease' instead of 'directlyDecreases'"
+    },
+    {
+      "review_id": "edge_5fe8f214-587c-423a-9067-6210eeb51f01",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:MAP3K5) directlyIncreases act(p(FPLX:JNK))",
+      "interaction": "directlyIncreases",
+      "evidence": "ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated.",
+      "text": "A couple of molecular mechanisms may explain the A20-mediated differential desensitization phenotype observed in our study. For example, A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation (Won et al.,). Since A20 is efficiently induced by TNF administration it is tempting to speculate that the loss of ASK1 might shift the cellular response from apoptosis to survival and proliferation. Our data include an additional mechanistic level to this observation. ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated (Tobiume et al.,; Won et al.,). We here showed that TNF affects the interaction between A20 and ASK1, which could explain the ASK1-dependent phosphorylation of JNK at specific periods after TNF administration. The underlying molecular mechanism for this precise and dynamic fine-tune regulation is not understood, however, the natural oscillations observed in the activation dynamics of both JNK and NF-kappaB could be partly explained in terms of synchrony / asynchrony ASK1:A20 dynamics as observed in this study (Ashall et al.,).",
+      "reviewed_object_id": "edge_5fe8f214-587c-423a-9067-6210eeb51f01",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": true,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "FPLX:JNK"
+      },
+      "review_comments": "FPLX:JNK"
+    },
+    {
+      "review_id": "edge_b40396ec-c27b-4dfd-bc5c-074a139f10ec",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "complex(p(FPLX:C1q), p(HGNC:C1R), p(HGNC:C1R), p(HGNC:C1S), p(HGNC:C1S)) directlyIncreases act(p(HGNC:C4A), ma(GO:\"serine-type endopeptidase activity\"))",
+      "interaction": "directlyIncreases",
+      "evidence": "Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave another complement protein, C4 into the anaphylatoxin C4a and C4b.",
+      "text": "In the Classical activation pathway of complement, the C1 complex, containing one C1q and two molecules each of the serine proteases C1s and C1r, recognizes an antibody bound to a cell surface. Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave another complement protein, C4 into the anaphylatoxin C4a and C4b. This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell surfaces and bind another complement protein, C2. C2 is then cleaved into the activation peptide, C2b, and the protease containing C2a. The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphylatoxin C3a and the active form of C3, C3b, which is then able to covalently bind to the cell surfaces.",
+      "reviewed_object_id": "edge_b40396ec-c27b-4dfd-bc5c-074a139f10ec",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": true,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "FPLX:C1q"
+      },
+      "review_comments": "FPLX:C1q"
+    },
+    {
+      "review_id": "edge_db91aa67-02c0-42fd-9a2f-315138057551",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:C4B) directlyIncreases complex(p(HGNC:C4B), p(HGNC:C2))",
+      "interaction": "directlyIncreases",
+      "evidence": "This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell surfaces and bind another complement protein, C2.",
+      "text": "In the Classical activation pathway of complement, the C1 complex, containing one C1q and two molecules each of the serine proteases C1s and C1r, recognizes an antibody bound to a cell surface. Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave another complement protein, C4 into the anaphylatoxin C4a and C4b. This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell surfaces and bind another complement protein, C2. C2 is then cleaved into the activation peptide, C2b, and the protease containing C2a. The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphylatoxin C3a and the active form of C3, C3b, which is then able to covalently bind to the cell surfaces.",
+      "reviewed_object_id": "edge_db91aa67-02c0-42fd-9a2f-315138057551",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": true,
+        "comments": "it is the \"cleavage causes a large conformational change in C4b\" instead of p(HGNC:C4B) increase complex(p(HGNC:C4B), p(HGNC:C2))"
+      },
+      "review_comments": "it is the \"cleavage causes a large conformational change in C4b\" instead of p(HGNC:C4B) increase complex(p(HGNC:C4B), p(HGNC:C2))"
+    },
+    {
+      "review_id": "edge_32df38c0-3d03-41a0-bcd5-ae029ae396c9",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "complex(p(HGNC:C4B), p(HGNC:C2)) directlyIncreases act(p(HGNC:C3), ma(GO:\"serine-type endopeptidase activity\"))",
+      "interaction": "directlyIncreases",
+      "evidence": "The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphylatoxin C3a and the active form of C3, C3b, which is then able to covalently bind to the cell surfaces.",
+      "text": "In the Classical activation pathway of complement, the C1 complex, containing one C1q and two molecules each of the serine proteases C1s and C1r, recognizes an antibody bound to a cell surface. Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave another complement protein, C4 into the anaphylatoxin C4a and C4b. This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell surfaces and bind another complement protein, C2. C2 is then cleaved into the activation peptide, C2b, and the protease containing C2a. The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphylatoxin C3a and the active form of C3, C3b, which is then able to covalently bind to the cell surfaces.",
+      "reviewed_object_id": "edge_32df38c0-3d03-41a0-bcd5-ae029ae396c9",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": true,
+        "comments": " \"ma(GO:\"serine-type endopeptidase activity\")\" was not specified in the evidence or text"
+      },
+      "review_comments": " \"ma(GO:\"serine-type endopeptidase activity\")\" was not specified in the evidence or text"
+    },
+    {
+      "review_id": "edge_e097aab1-9e81-4451-91d7-b9e9ea318fc2",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:CFH) directlyIncreases a(CHEBI:cofactor)",
+      "interaction": "directlyIncreases",
+      "evidence": "Once bound to see C3b, factor H serves as a co-factor, allowing another compliment protein, factor I, to cleave C3b, thus inactivating it.",
+      "text": "Since complement is continuously being activated, there needs to be a way to control complement activation. This is done by a number of other complement proteins. For example, in the fluid phase, factor H can bind to C3b, preventing the formation of the C3 convertase. Once bound to see C3b, factor H serves as a co-factor, allowing another compliment protein, factor I, to cleave C3b, thus inactivating it. There are also a number of cell bound proteins that are able to regulate complement activation.",
+      "reviewed_object_id": "edge_e097aab1-9e81-4451-91d7-b9e9ea318fc2",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": true,
+        "incorrect_entities": true,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "CHEBI:cofactor. "
+      },
+      "review_comments": "CHEBI:cofactor. "
+    },
+    {
+      "review_id": "edge_8c1a9031-33ae-4278-bd73-68eb15017985",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:C3)) increases bp(GO:\"complement activation\")",
+      "interaction": "increases",
+      "evidence": "Li and coworkers demonstrated that partial sciatic nerve ligation activated complement.",
+      "text": "Li and coworkers demonstrated that partial sciatic nerve ligation activated complement. After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site, while no deposition was seen on sham-operated animals (no partial ligation). Increased heat-related hyperalgesia and mechanical allodynia was also seen on the on nerve-injured side. Injection of IgG, which also activates complement, into the paws of rats caused neuropathic pain symptoms. Activation of complement also increased the influx of macrophages. To further test the role of complement activation in pain, rats were injected IP with sCR1 15 minutes prior to partial ligation surgery, and then tested for heat and mechanical sensitivity. Rats injected with sCR1 showed significantly higher pain thresholds than those that were sham injected. These rats also showed less C3 deposition and macrophage influx. From these results, they suggested that increased hyperalgesia and allodynia may be associated with local complement activation, and the resulting macrophages present in damaged tissue.",
+      "reviewed_object_id": "edge_8c1a9031-33ae-4278-bd73-68eb15017985",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_c4f1b3a6-3260-4ad2-9a3a-05bb0afb3bba",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:C3)) increases a(HGNC:C3)",
+      "interaction": "increases",
+      "evidence": "After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site, while no deposition was seen on sham-operated animals (no partial ligation).",
+      "text": "Li and coworkers demonstrated that partial sciatic nerve ligation activated complement. After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site, while no deposition was seen on sham-operated animals (no partial ligation). Increased heat-related hyperalgesia and mechanical allodynia was also seen on the on nerve-injured side. Injection of IgG, which also activates complement, into the paws of rats caused neuropathic pain symptoms. Activation of complement also increased the influx of macrophages. To further test the role of complement activation in pain, rats were injected IP with sCR1 15 minutes prior to partial ligation surgery, and then tested for heat and mechanical sensitivity. Rats injected with sCR1 showed significantly higher pain thresholds than those that were sham injected. These rats also showed less C3 deposition and macrophage influx. From these results, they suggested that increased hyperalgesia and allodynia may be associated with local complement activation, and the resulting macrophages present in damaged tissue.",
+      "reviewed_object_id": "edge_c4f1b3a6-3260-4ad2-9a3a-05bb0afb3bba",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": true,
+        "comments": "this act(p(HGNC:C3)) increases a(HGNC:C3) self relationship was not supported by the text or evidence"
+      },
+      "review_comments": "this act(p(HGNC:C3)) increases a(HGNC:C3) self relationship was not supported by the text or evidence"
+    },
+    {
+      "review_id": "edge_ed517747-d035-41c8-9f8c-7868c1fd586d",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "act(p(HGNC:C3)) increases bp(GO:\"macrophage infiltration\")",
+      "interaction": "increases",
+      "evidence": "Activation of complement also increased the influx of macrophages.",
+      "text": "Li and coworkers demonstrated that partial sciatic nerve ligation activated complement. After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site, while no deposition was seen on sham-operated animals (no partial ligation). Increased heat-related hyperalgesia and mechanical allodynia was also seen on the on nerve-injured side. Injection of IgG, which also activates complement, into the paws of rats caused neuropathic pain symptoms. Activation of complement also increased the influx of macrophages. To further test the role of complement activation in pain, rats were injected IP with sCR1 15 minutes prior to partial ligation surgery, and then tested for heat and mechanical sensitivity. Rats injected with sCR1 showed significantly higher pain thresholds than those that were sham injected. These rats also showed less C3 deposition and macrophage influx. From these results, they suggested that increased hyperalgesia and allodynia may be associated with local complement activation, and the resulting macrophages present in damaged tissue.",
+      "reviewed_object_id": "edge_ed517747-d035-41c8-9f8c-7868c1fd586d",
+      "review_scores": {
+        "all_correct": true,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": ""
+      },
+      "review_comments": "N/A"
+    },
+    {
+      "review_id": "edge_758d4e7f-08bd-4987-9362-7dd55b50ff2f",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SLAMF1) directlyIncreases p(HGNC:TLR4)",
+      "interaction": "directlyIncreases",
+      "evidence": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+      "text": "Signaling lymphocytic activation molecule family 1 (SLAMF1) is an Ig-like receptor and a costimulatory molecule that initiates signal transduction networks in a variety of immune cells. In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages. We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the endocytic recycling compartment (ERC) to Escherichia coli phagosomes. In resting macrophages, SLAMF1 is localized to ERC, but upon addition of E. coli, it is trafficked together with TRAM from ERC to E. coli phagosomes in a Rab11-dependent manner. We found that endogenous SLAMF1 protein interacted with TRAM and defined key interaction domains as amino acids 68 to 95 of TRAM as well as 15 C-terminal amino acids of SLAMF1. Interestingly, the SLAMF1-TRAM interaction was observed for human but not mouse proteins. Overall, our observations suggest that SLAMF1 is a new target for modulation of TLR4-TRAM-TRIF inflammatory signaling in human cells.",
+      "reviewed_object_id": "edge_758d4e7f-08bd-4987-9362-7dd55b50ff2f",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": true,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "p(HGNC:TLR4) --> act(HGNC:TLR4)"
+      },
+      "review_comments": "p(HGNC:TLR4) --> act(HGNC:TLR4)"
+    },
+    {
+      "review_id": "edge_d0de9db5-96cf-440a-8d07-807df2e2f9dd",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:SLAMF1) directlyIncreases p(HGNC:TICAM2)",
+      "interaction": "directlyIncreases",
+      "evidence": "We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the endocytic recycling compartment (ERC) to Escherichia coli phagosomes.",
+      "text": "Signaling lymphocytic activation molecule family 1 (SLAMF1) is an Ig-like receptor and a costimulatory molecule that initiates signal transduction networks in a variety of immune cells. In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages. We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the endocytic recycling compartment (ERC) to Escherichia coli phagosomes. In resting macrophages, SLAMF1 is localized to ERC, but upon addition of E. coli, it is trafficked together with TRAM from ERC to E. coli phagosomes in a Rab11-dependent manner. We found that endogenous SLAMF1 protein interacted with TRAM and defined key interaction domains as amino acids 68 to 95 of TRAM as well as 15 C-terminal amino acids of SLAMF1. Interestingly, the SLAMF1-TRAM interaction was observed for human but not mouse proteins. Overall, our observations suggest that SLAMF1 is a new target for modulation of TLR4-TRAM-TRIF inflammatory signaling in human cells.",
+      "reviewed_object_id": "edge_d0de9db5-96cf-440a-8d07-807df2e2f9dd",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": true,
+        "identifier_database_errors": false,
+        "incorrect_entities": false,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "it was the localization istead of protein abundance of TICAM3 got changed.can be p(HGNC:SLAMF1)increase p(HGNC:TICAM2, loc(GO:\"Escherichia coli phagosomes\"))"
+      },
+      "review_comments": "it was the localization istead of protein abundance of TICAM3 got changed.can be p(HGNC:SLAMF1)increase p(HGNC:TICAM2, loc(GO:\"Escherichia coli phagosomes\"))"
+    },
+    {
+      "review_id": "edge_f66d2caf-14a0-4c0b-862f-b4806a448678",
+      "reviewer": "Zhao, Xiaoyu",
+      "object_type": "objects",
+      "bel_expression": "p(HGNC:TLR4) directlyIncreases act(p(FPLX:NFkappaB))",
+      "interaction": "directlyIncreases",
+      "evidence": "This results in an immediate activation of nuclear factor kappaB (NF-kappaB) and production of proinflammatory cytokines.",
+      "text": "Toll-like receptors (TLRs) are pivotal for the defense against multiple pathogens by recognizing pathogen-associated molecular patterns. TLR4 recognizes lipopolysaccharide (LPS) from Gram-negative bacteria in complex with the coreceptors myeloid differentiation factor 2 and CD14, and it recruits signaling adapters myeloid differentiation primary response gene 88 (MyD88) and MyD88 adapter-like (Mal). This results in an immediate activation of nuclear factor kappaB (NF-kappaB) and production of proinflammatory cytokines. TLR4 is also present on endosomes and phagosomes to which the signaling adapter Toll receptor-associated molecule (TRAM) is recruited. The mechanism controlling TRAM recruitment remains unclear but seems to be Rab11 dependent.",
+      "reviewed_object_id": "edge_f66d2caf-14a0-4c0b-862f-b4806a448678",
+      "review_scores": {
+        "all_correct": false,
+        "correct_but_could_be_more_precise": false,
+        "posttranslational_modification_errors": false,
+        "interaction_type_errors": false,
+        "identifier_database_errors": true,
+        "incorrect_entities": true,
+        "incorrect_order_source_and_target_switched": false,
+        "not_a_valid_relationshiptype": false,
+        "other_errors": false,
+        "comments": "p(HGNC:NFKB1)"
+      },
+      "review_comments": "p(HGNC:NFKB1)"
+    }
+  ]
+}
