@@ -1,0 +1,1522 @@
+{
+    "INDRA_REACH_extractions": [
+        {
+            "Index": "1",
+            "Evidence": "Recently, metformin, the most widely used first-line drug for diabetes, was found to contain a carcinogenic contaminant known as N-nitroso dimethylamine (NDMA).",
+            "Results": []
+        },
+        {
+            "Index": "3",
+            "Evidence": "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2.",
+            "Results": []
+        },
+        {
+            "Index": "3",
+            "Evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AKT1",
+                        "db_refs": {
+                            "UP": "P31749",
+                            "TEXT": "AKT1",
+                            "HGNC": "391",
+                            "EGID": "207"
+                        }
+                    },
+                    "sub": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "residue": "T",
+                    "position": "527",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            30,
+                                            34
+                                        ],
+                                        [
+                                            55,
+                                            59
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -5356311158366823997
+                        }
+                    ],
+                    "id": "5349f3fd-627d-43d9-82c9-96e20572d511",
+                    "matches_hash": "17433451173102159"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AKT1",
+                        "db_refs": {
+                            "UP": "P31749",
+                            "TEXT": "AKT1",
+                            "HGNC": "391",
+                            "EGID": "207"
+                        }
+                    },
+                    "sub": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "326",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            30,
+                                            34
+                                        ],
+                                        [
+                                            55,
+                                            59
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -5356311158366823997
+                        }
+                    ],
+                    "id": "ddcf9866-5bce-4d35-8585-c08a5fed2f87",
+                    "matches_hash": "13778258035290707"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AKT1",
+                        "db_refs": {
+                            "UP": "P31749",
+                            "TEXT": "AKT1",
+                            "HGNC": "391",
+                            "EGID": "207"
+                        }
+                    },
+                    "sub": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "residue": "T",
+                    "position": "142",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            30,
+                                            34
+                                        ],
+                                        [
+                                            55,
+                                            59
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -5356311158366823997
+                        }
+                    ],
+                    "id": "cb5c2f52-5ca6-47b9-94bf-33bf4fda141f",
+                    "matches_hash": "-4580121560804543"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AKT1",
+                        "db_refs": {
+                            "UP": "P31749",
+                            "TEXT": "AKT1",
+                            "HGNC": "391",
+                            "EGID": "207"
+                        }
+                    },
+                    "sub": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "230",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            30,
+                                            34
+                                        ],
+                                        [
+                                            55,
+                                            59
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -5356311158366823997
+                        }
+                    ],
+                    "id": "2a2a0d67-0134-414c-8228-7c91f7585d96",
+                    "matches_hash": "26455441946472326"
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "Evidence": "AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1.",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AKT2",
+                        "db_refs": {
+                            "UP": "P31751",
+                            "TEXT": "AKT2",
+                            "HGNC": "392",
+                            "EGID": "208"
+                        }
+                    },
+                    "sub": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "326",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            4
+                                        ],
+                                        [
+                                            33,
+                                            37
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -9196516970670222957
+                        }
+                    ],
+                    "id": "9d1be12f-0b6a-4447-87f8-0d6778fa7f3d",
+                    "matches_hash": "-4527851237819133"
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "Evidence": "Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator.",
+            "Results": []
+        },
+        {
+            "Index": "4",
+            "Evidence": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AKT2",
+                        "db_refs": {
+                            "UP": "P31751",
+                            "TEXT": "AKT2",
+                            "HGNC": "392",
+                            "EGID": "208"
+                        }
+                    },
+                    "sub": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "326",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            5,
+                                            9
+                                        ],
+                                        [
+                                            42,
+                                            46
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6848266924144946151
+                        }
+                    ],
+                    "id": "0c43037a-8788-4d67-8cff-215423629d49",
+                    "matches_hash": "-4527851237819133"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AKT1",
+                        "db_refs": {
+                            "UP": "P31749",
+                            "TEXT": "AKT1",
+                            "HGNC": "391",
+                            "EGID": "207"
+                        }
+                    },
+                    "sub": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "326",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            5,
+                                            9
+                                        ],
+                                        [
+                                            42,
+                                            46
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6848266924144946151
+                        }
+                    ],
+                    "id": "330f161f-d59d-4b45-b5e4-fcfdce95f5da",
+                    "matches_hash": "13778258035290707"
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "Evidence": "Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C).",
+            "Results": []
+        },
+        {
+            "Index": "4",
+            "Evidence": "AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C).",
+            "Results": []
+        },
+        {
+            "Index": "4",
+            "Evidence": "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326.",
+            "Results": []
+        },
+        {
+            "Index": "5",
+            "Evidence": "AKT1 is also a well-known activator of mTOR and mTOR has been shown to phosphorylate HSF1 at S326 in response to proteotoxic stress.",
+            "Results": []
+        },
+        {
+            "Index": "5",
+            "Evidence": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D).",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "AKT2",
+                        "db_refs": {
+                            "UP": "P31751",
+                            "TEXT": "AKT2",
+                            "HGNC": "392",
+                            "EGID": "208"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D).",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_2_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            142,
+                                            146
+                                        ],
+                                        [
+                                            117,
+                                            121
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 8520023740745130737
+                        }
+                    ],
+                    "id": "28e2e991-6b3b-4761-8135-f5238e4a5c46",
+                    "matches_hash": "26567942523235357"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "Fig. 1A-D",
+                        "db_refs": {
+                            "TEXT": "Fig. 1A-D"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSF1",
+                        "db_refs": {
+                            "UP": "Q00613",
+                            "TEXT": "HSF1",
+                            "HGNC": "5224",
+                            "EGID": "3297"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D).",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_2_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            148,
+                                            157
+                                        ],
+                                        [
+                                            117,
+                                            121
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 8520023740745130737
+                        }
+                    ],
+                    "id": "76276b1f-df51-4561-9f19-6f4ee1e377aa",
+                    "matches_hash": "3255405968925042"
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "Evidence": "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B).",
+            "Results": []
+        },
+        {
+            "Index": "6",
+            "Evidence": "Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C).",
+            "Results": []
+        },
+        {
+            "Index": "6",
+            "Evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E).",
+            "Results": [
+                {
+                    "type": "IncreaseAmount",
+                    "subj": {
+                        "name": "AKT2",
+                        "db_refs": {
+                            "UP": "P31751",
+                            "TEXT": "AKT2",
+                            "HGNC": "392",
+                            "EGID": "208"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSP90",
+                        "db_refs": {
+                            "FPLX": "HSP90",
+                            "TEXT": "HSP90",
+                            "NCIT": "C17766",
+                            "PF": "PF00183"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+                            "annotations": {
+                                "found_by": "transcription_1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            197,
+                                            201
+                                        ],
+                                        [
+                                            117,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6130304616559131117
+                        }
+                    ],
+                    "id": "088f634c-681b-4dec-ac17-273c988a9012",
+                    "matches_hash": "-5256657256676163"
+                },
+                {
+                    "type": "IncreaseAmount",
+                    "subj": {
+                        "name": "AKT1",
+                        "db_refs": {
+                            "UP": "P31749",
+                            "TEXT": "AKT1",
+                            "HGNC": "391",
+                            "EGID": "207"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSP90",
+                        "db_refs": {
+                            "FPLX": "HSP90",
+                            "TEXT": "HSP90",
+                            "NCIT": "C17766",
+                            "PF": "PF00183"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+                            "annotations": {
+                                "found_by": "transcription_1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            197,
+                                            201
+                                        ],
+                                        [
+                                            117,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6130304616559131117
+                        }
+                    ],
+                    "id": "6edaca3d-6eca-463d-85a8-aaf79be5a6c6",
+                    "matches_hash": "11068550884753097"
+                },
+                {
+                    "type": "IncreaseAmount",
+                    "subj": {
+                        "name": "AKT3",
+                        "db_refs": {
+                            "UP": "Q9Y243",
+                            "TEXT": "AKT3",
+                            "HGNC": "393",
+                            "EGID": "10000"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSP90",
+                        "db_refs": {
+                            "FPLX": "HSP90",
+                            "TEXT": "HSP90",
+                            "NCIT": "C17766",
+                            "PF": "PF00183"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+                            "annotations": {
+                                "found_by": "transcription_1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            197,
+                                            201
+                                        ],
+                                        [
+                                            117,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6130304616559131117
+                        }
+                    ],
+                    "id": "9c186198-e313-434c-9bb0-2dd302b22bc6",
+                    "matches_hash": "-11269519478741860"
+                },
+                {
+                    "type": "IncreaseAmount",
+                    "subj": {
+                        "name": "AKT3",
+                        "db_refs": {
+                            "UP": "Q9Y243",
+                            "TEXT": "AKT3",
+                            "HGNC": "393",
+                            "EGID": "10000"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSPA",
+                        "db_refs": {
+                            "FPLX": "HSPA",
+                            "TEXT": "HSP70",
+                            "PF": "PF00012"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+                            "annotations": {
+                                "found_by": "transcription_1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            189,
+                                            193
+                                        ],
+                                        [
+                                            107,
+                                            112
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6130304616559131117
+                        }
+                    ],
+                    "id": "96b74052-38bd-4b49-a7a2-6cdc03c04ecd",
+                    "matches_hash": "25998629092327012"
+                },
+                {
+                    "type": "IncreaseAmount",
+                    "subj": {
+                        "name": "AKT1",
+                        "db_refs": {
+                            "UP": "P31749",
+                            "TEXT": "AKT1",
+                            "HGNC": "391",
+                            "EGID": "207"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSPA",
+                        "db_refs": {
+                            "FPLX": "HSPA",
+                            "TEXT": "HSP70",
+                            "PF": "PF00012"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+                            "annotations": {
+                                "found_by": "transcription_1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            189,
+                                            193
+                                        ],
+                                        [
+                                            107,
+                                            112
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6130304616559131117
+                        }
+                    ],
+                    "id": "97e67958-6826-4521-a297-04e022693bc0",
+                    "matches_hash": "-30585613856940213"
+                },
+                {
+                    "type": "IncreaseAmount",
+                    "subj": {
+                        "name": "AKT2",
+                        "db_refs": {
+                            "UP": "P31751",
+                            "TEXT": "AKT2",
+                            "HGNC": "392",
+                            "EGID": "208"
+                        }
+                    },
+                    "obj": {
+                        "name": "HSPA",
+                        "db_refs": {
+                            "FPLX": "HSPA",
+                            "TEXT": "HSP70",
+                            "PF": "PF00012"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+                            "annotations": {
+                                "found_by": "transcription_1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            189,
+                                            193
+                                        ],
+                                        [
+                                            107,
+                                            112
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6130304616559131117
+                        }
+                    ],
+                    "id": "86cc2b14-7eef-4a55-a092-a4c1ff7fff9a",
+                    "matches_hash": "-25429775439657535"
+                }
+            ]
+        },
+        {
+            "Index": "8",
+            "Evidence": "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.",
+            "Results": []
+        },
+        {
+            "Index": "9",
+            "Evidence": "The second phase, excision of a short DNA strand segment containing the lesion, is carried out by an assembly of the XPG and XPF:excision repair cross-complementing 1 (ERCC1) endonucleases, together with XPA, RPA, TFIIH, and PCNA (which can bind XPG).",
+            "Results": []
+        },
+        {
+            "Index": "11",
+            "Evidence": "Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress.",
+            "Results": []
+        },
+        {
+            "Index": "11",
+            "Evidence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "TP53",
+                        "db_refs": {
+                            "UP": "P04637",
+                            "TEXT": "p53",
+                            "HGNC": "11998",
+                            "EGID": "7157"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            119,
+                                            124
+                                        ],
+                                        [
+                                            112,
+                                            115
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 6753416114666976647
+                        }
+                    ],
+                    "id": "8359785e-5de7-443a-85c5-e219e9b0b0d6",
+                    "matches_hash": "25432345321514615"
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "Evidence": "This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase.",
+            "Results": []
+        },
+        {
+            "Index": "12",
+            "Evidence": "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.",
+            "Results": []
+        },
+        {
+            "Index": "12",
+            "Evidence": "SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7.",
+            "Results": []
+        },
+        {
+            "Index": "13",
+            "Evidence": "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,).",
+            "Results": []
+        },
+        {
+            "Index": "13",
+            "Evidence": "Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,)",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TNF",
+                        "db_refs": {
+                            "UP": "P01375",
+                            "TEXT": "TNF",
+                            "EGID": "7124",
+                            "HGNC": "11892"
+                        }
+                    },
+                    "obj": {
+                        "name": "NFkappaB",
+                        "db_refs": {
+                            "FPLX": "NFkappaB",
+                            "TEXT": "NF-kappaB",
+                            "NCIT": "C17380",
+                            "IP": "IPR000451"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,)",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            54,
+                                            57
+                                        ],
+                                        [
+                                            68,
+                                            77
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -4868024442092466183
+                        }
+                    ],
+                    "id": "5db43b3e-7d79-4bad-8d6b-e327fd27b1bc",
+                    "matches_hash": "24925077976876453"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TNF",
+                        "db_refs": {
+                            "UP": "P01375",
+                            "TEXT": "TNF",
+                            "EGID": "7124",
+                            "HGNC": "11892"
+                        }
+                    },
+                    "obj": {
+                        "name": "JNK",
+                        "db_refs": {
+                            "FPLX": "JNK",
+                            "TEXT": "JNK",
+                            "IP": "IPR008351"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,)",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            54,
+                                            57
+                                        ],
+                                        [
+                                            82,
+                                            85
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -4868024442092466183
+                        }
+                    ],
+                    "id": "2ea14306-bddd-4ace-a60f-8131315e5c0d",
+                    "matches_hash": "-17461133745816345"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "Evidence": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TNF",
+                        "db_refs": {
+                            "UP": "P01375",
+                            "TEXT": "TNF",
+                            "EGID": "7124",
+                            "HGNC": "11892"
+                        }
+                    },
+                    "obj": {
+                        "name": "signal transduction",
+                        "db_refs": {
+                            "GO": "GO:0007165",
+                            "TEXT": "signaling pathway",
+                            "MESH": "D015398"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_3_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            24,
+                                            27
+                                        ],
+                                        [
+                                            71,
+                                            88
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -1271131270806149116
+                        }
+                    ],
+                    "id": "5813b209-af3d-4382-bf88-703bba2cc68d",
+                    "matches_hash": "-2143142286176078"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TNF",
+                        "db_refs": {
+                            "UP": "P01375",
+                            "TEXT": "TNF",
+                            "EGID": "7124",
+                            "HGNC": "11892"
+                        }
+                    },
+                    "obj": {
+                        "name": "NFkappaB",
+                        "db_refs": {
+                            "FPLX": "NFkappaB",
+                            "TEXT": "NF-kappaB",
+                            "NCIT": "C17380",
+                            "IP": "IPR000451"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_3_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            24,
+                                            27
+                                        ],
+                                        [
+                                            61,
+                                            70
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -1271131270806149116
+                        }
+                    ],
+                    "id": "60351023-432d-485e-a173-8c2e6c34f15d",
+                    "matches_hash": "24925077976876453"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "Evidence": "ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated.",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "MAP3K5",
+                        "db_refs": {
+                            "UP": "Q99683",
+                            "TEXT": "ASK1",
+                            "HGNC": "6857",
+                            "EGID": "4217"
+                        }
+                    },
+                    "sub": {
+                        "name": "JNK",
+                        "db_refs": {
+                            "FPLX": "JNK",
+                            "TEXT": "JNK",
+                            "IP": "IPR008351"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated.",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            4
+                                        ],
+                                        [
+                                            23,
+                                            26
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -2667087188847393239
+                        }
+                    ],
+                    "id": "dacee7d7-ed2e-44c7-8d67-61e18f8d2971",
+                    "matches_hash": "-8447276876151329"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "Evidence": "A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation.",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "JNK",
+                        "db_refs": {
+                            "FPLX": "JNK",
+                            "TEXT": "JNK",
+                            "IP": "IPR008351"
+                        }
+                    },
+                    "obj": {
+                        "name": "TNF",
+                        "db_refs": {
+                            "UP": "P01375",
+                            "TEXT": "TNF",
+                            "EGID": "7124",
+                            "HGNC": "11892"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_3_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            25,
+                                            28
+                                        ],
+                                        [
+                                            44,
+                                            47
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -8242652713902339899
+                        }
+                    ],
+                    "id": "a1bcd00d-84b4-4d82-abc3-63cd94364538",
+                    "matches_hash": "-16442171027869433"
+                }
+            ]
+        },
+        {
+            "Index": "16",
+            "Evidence": "The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphylatoxin C3a and the active form of C3, C3b, which is then able to covalently bind to the cell surfaces.",
+            "Results": []
+        },
+        {
+            "Index": "16",
+            "Evidence": "Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave another complement protein, C4 into the anaphylatoxin C4a and C4b.",
+            "Results": []
+        },
+        {
+            "Index": "16",
+            "Evidence": "This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell surfaces and bind another complement protein, C2.",
+            "Results": []
+        },
+        {
+            "Index": "17",
+            "Evidence": "Once bound to see C3b, factor H serves as a co-factor, allowing another compliment protein, factor I, to cleave C3b, thus inactivating it.",
+            "Results": []
+        },
+        {
+            "Index": "18",
+            "Evidence": "After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site, while no deposition was seen on sham-operated animals (no partial ligation).",
+            "Results": []
+        },
+        {
+            "Index": "18",
+            "Evidence": "Li and coworkers demonstrated that partial sciatic nerve ligation activated complement.",
+            "Results": []
+        },
+        {
+            "Index": "18",
+            "Evidence": "Activation of complement also increased the influx of macrophages.",
+            "Results": []
+        },
+        {
+            "Index": "19",
+            "Evidence": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TLR4",
+                        "db_refs": {
+                            "UP": "O00206",
+                            "TEXT": "Toll-like receptor 4",
+                            "EGID": "7099",
+                            "HGNC": "11850"
+                        }
+                    },
+                    "obj": {
+                        "name": "IFNB1",
+                        "db_refs": {
+                            "UP": "P01574",
+                            "TEXT": "IFNbeta",
+                            "HGNC": "5434",
+                            "EGID": "3456"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_3_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            53,
+                                            73
+                                        ],
+                                        [
+                                            120,
+                                            127
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -1554040696708821460
+                        }
+                    ],
+                    "id": "7765f710-77fb-4998-b4e2-200c81dfb9de",
+                    "matches_hash": "-35347334615874262"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TLR4",
+                        "db_refs": {
+                            "UP": "O00206",
+                            "TEXT": "TLR4",
+                            "EGID": "7099",
+                            "HGNC": "11850"
+                        }
+                    },
+                    "obj": {
+                        "name": "TLR4",
+                        "db_refs": {
+                            "UP": "O00206",
+                            "TEXT": "Toll-like receptor 4",
+                            "EGID": "7099",
+                            "HGNC": "11850"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_noun_Hearst",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            75,
+                                            79
+                                        ],
+                                        [
+                                            53,
+                                            73
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -1554040696708821460
+                        }
+                    ],
+                    "id": "1057b6a0-c86d-47d3-b98e-621a3a133b3b",
+                    "matches_hash": "14604426651654864"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TLR4",
+                        "db_refs": {
+                            "UP": "O00206",
+                            "TEXT": "Toll-like receptor 4",
+                            "EGID": "7099",
+                            "HGNC": "11850"
+                        }
+                    },
+                    "obj": {
+                        "name": "IFNB",
+                        "db_refs": {
+                            "FPLX": "IFNB",
+                            "TEXT": "interferon beta",
+                            "IP": "IPR015588",
+                            "NCIT": "C20495"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_3_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            53,
+                                            73
+                                        ],
+                                        [
+                                            103,
+                                            118
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -1554040696708821460
+                        }
+                    ],
+                    "id": "fa069280-21a5-4cca-99ca-154d119d87cb",
+                    "matches_hash": "-2227966735067420"
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "Evidence": "We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the endocytic recycling compartment (ERC) to Escherichia coli phagosomes.",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "SLAMF1",
+                            "db_refs": {
+                                "UP": "Q13291",
+                                "TEXT": "SLAMF1",
+                                "EGID": "6504",
+                                "HGNC": "10903"
+                            }
+                        },
+                        {
+                            "name": "TRAM1",
+                            "db_refs": {
+                                "UP": "Q15629",
+                                "TEXT": "TRAM",
+                                "HGNC": "20568",
+                                "EGID": "23471"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the endocytic recycling compartment (ERC) to Escherichia coli phagosomes.",
+                            "annotations": {
+                                "found_by": "binding1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            14,
+                                            20
+                                        ],
+                                        [
+                                            84,
+                                            88
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -1943877758515264930
+                        }
+                    ],
+                    "id": "4e9b82da-a6cd-49c5-9b05-657ab8e45811",
+                    "matches_hash": "-673962164157347"
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "Evidence": "We found that endogenous SLAMF1 protein interacted with TRAM and defined key interaction domains as amino acids 68 to 95 of TRAM as well as 15 C-terminal amino acids of SLAMF1.",
+            "Results": []
+        },
+        {
+            "Index": "20",
+            "Evidence": "TLR4 recognizes lipopolysaccharide (LPS) from Gram-negative bacteria in complex with the coreceptors myeloid differentiation factor 2 and CD14, and it recruits signaling adapters myeloid differentiation primary response gene 88 (MyD88) and MyD88 adapter-like (Mal).",
+            "Results": []
+        },
+        {
+            "Index": "20",
+            "Evidence": "This results in an immediate activation of nuclear factor kappaB (NF-kappaB) and production of proinflammatory cytokines.",
+            "Results": []
+        }
+    ]
+}

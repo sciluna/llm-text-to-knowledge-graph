@@ -1,0 +1,1124 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {
+    "pybel_version": "0.15.5",
+    "document_metadata": {
+      "name": "indra",
+      "version": "4bf94f04-6b49-43fc-b91c-2fa3e6fd0786"
+    },
+    "namespace_url": {
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170725.belns",
+      "UP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/swissprot/swissprot-20170725.belns",
+      "IP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-20170731.belns",
+      "FPLX": "https://raw.githubusercontent.com/sorgerlab/famplex/5f5b573fe26d7405dbccb711ae8e5697b6a3ec7e/export/famplex.belns",
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi-ids/chebi-ids-20170725.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20170725.belns"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "\\d+"
+    },
+    "annotation_url": {},
+    "annotation_pattern": {},
+    "annotation_list": {},
+    "annotation_curie": [],
+    "annotation_miriam": []
+  },
+  "nodes": [
+    {
+      "function": "Abundance",
+      "concept": {
+        "namespace": "TEXT",
+        "name": "Fig. 1A-D"
+      },
+      "id": "76c05dc0f3853bf706f36fba0374caeb",
+      "bel": "a(TEXT:\"Fig. 1A-D\")"
+    },
+    {
+      "function": "BiologicalProcess",
+      "concept": {
+        "namespace": "GO",
+        "name": "signal transduction",
+        "identifier": "GO:0007165"
+      },
+      "id": "4358598b1ed7cce1aedd5d2384f4287e",
+      "bel": "bp(GO:\"GO:0007165\" ! \"signal transduction\")"
+    },
+    {
+      "function": "Complex",
+      "members": [
+        {
+          "function": "Protein",
+          "concept": {
+            "namespace": "HGNC",
+            "name": "SLAMF1",
+            "identifier": "10903"
+          },
+          "id": "8edc0fe8edcc12d14cb9af6541f9ad89",
+          "bel": "p(HGNC:10903 ! SLAMF1)"
+        },
+        {
+          "function": "Protein",
+          "concept": {
+            "namespace": "HGNC",
+            "name": "TRAM1",
+            "identifier": "20568"
+          },
+          "id": "b081b2ac42587c48ff95adb2c6f74c24",
+          "bel": "p(HGNC:20568 ! TRAM1)"
+        }
+      ],
+      "id": "92893367dd37285c1f4e14eaa499a843",
+      "bel": "complex(p(HGNC:10903 ! SLAMF1), p(HGNC:20568 ! TRAM1))"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "FPLX",
+        "name": "HSP90",
+        "identifier": "HSP90"
+      },
+      "id": "b3faa64b5cee4a4551851cdeea4e52c3",
+      "bel": "p(FPLX:HSP90 ! HSP90)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "FPLX",
+        "name": "HSPA",
+        "identifier": "HSPA"
+      },
+      "id": "f434f58913e94a96e4b3421b9c9fdb62",
+      "bel": "p(FPLX:HSPA ! HSPA)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "FPLX",
+        "name": "IFNB",
+        "identifier": "IFNB"
+      },
+      "id": "c8a8eb4875f2b8ce8a75d9e433fbfbb4",
+      "bel": "p(FPLX:IFNB ! IFNB)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "FPLX",
+        "name": "JNK",
+        "identifier": "JNK"
+      },
+      "id": "dad73959f664c0bfb5d5b08c4ca64b17",
+      "bel": "p(FPLX:JNK ! JNK)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "FPLX",
+        "name": "JNK",
+        "identifier": "JNK"
+      },
+      "variants": [
+        {
+          "kind": "pmod",
+          "concept": {
+            "namespace": "go",
+            "name": "protein phosphorylation",
+            "identifier": "0006468"
+          }
+        }
+      ],
+      "id": "ffa82c7ee1c13c32d3582f5bfc0f6576",
+      "bel": "p(FPLX:JNK ! JNK, pmod(go:0006468 ! \"protein phosphorylation\"))"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "FPLX",
+        "name": "NFkappaB",
+        "identifier": "NFkappaB"
+      },
+      "id": "88d17b6331091fc80738548dc5cbba18",
+      "bel": "p(FPLX:NFkappaB ! NFkappaB)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "SLAMF1",
+        "identifier": "10903"
+      },
+      "id": "8edc0fe8edcc12d14cb9af6541f9ad89",
+      "bel": "p(HGNC:10903 ! SLAMF1)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "TLR4",
+        "identifier": "11850"
+      },
+      "id": "a21d5a095d0857ba8fbe81ad5f3c47a0",
+      "bel": "p(HGNC:11850 ! TLR4)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "TNF",
+        "identifier": "11892"
+      },
+      "id": "f1034233ec212f882bbb4fb6d68cccaa",
+      "bel": "p(HGNC:11892 ! TNF)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "TP53",
+        "identifier": "11998"
+      },
+      "id": "8b066f22dc5b48efae2893fcbbceba83",
+      "bel": "p(HGNC:11998 ! TP53)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "TP53",
+        "identifier": "11998"
+      },
+      "variants": [
+        {
+          "kind": "pmod",
+          "concept": {
+            "namespace": "go",
+            "name": "protein acetylation",
+            "identifier": "0006473"
+          }
+        }
+      ],
+      "id": "23e512d192f127b9895e917ee6abd0ea",
+      "bel": "p(HGNC:11998 ! TP53, pmod(go:0006473 ! \"protein acetylation\"))"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "SIRT1",
+        "identifier": "14929"
+      },
+      "id": "0a9911adef893953631862591f43612e",
+      "bel": "p(HGNC:14929 ! SIRT1)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "TRAM1",
+        "identifier": "20568"
+      },
+      "id": "b081b2ac42587c48ff95adb2c6f74c24",
+      "bel": "p(HGNC:20568 ! TRAM1)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "AKT1",
+        "identifier": "391"
+      },
+      "id": "7cffb86a2d23c2ef6073a5321995b5c4",
+      "bel": "p(HGNC:391 ! AKT1)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "AKT2",
+        "identifier": "392"
+      },
+      "id": "c69a2c824decec8069a079af346e47a8",
+      "bel": "p(HGNC:392 ! AKT2)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "AKT3",
+        "identifier": "393"
+      },
+      "id": "742c05aa09ac92b93ded55121305217b",
+      "bel": "p(HGNC:393 ! AKT3)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "HSF1",
+        "identifier": "5224"
+      },
+      "id": "3d9a4ed5482871c5ac4244463b844483",
+      "bel": "p(HGNC:5224 ! HSF1)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "HSF1",
+        "identifier": "5224"
+      },
+      "variants": [
+        {
+          "kind": "pmod",
+          "concept": {
+            "namespace": "go",
+            "name": "protein phosphorylation",
+            "identifier": "0006468"
+          },
+          "code": "Ser",
+          "pos": 230
+        }
+      ],
+      "id": "39b1c1ebcc828b2a730400c42b96ac68",
+      "bel": "p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 230))"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "HSF1",
+        "identifier": "5224"
+      },
+      "variants": [
+        {
+          "kind": "pmod",
+          "concept": {
+            "namespace": "go",
+            "name": "protein phosphorylation",
+            "identifier": "0006468"
+          },
+          "code": "Ser",
+          "pos": 326
+        }
+      ],
+      "id": "3f249a6f2c3b1d555a61e2828c91f9a7",
+      "bel": "p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "HSF1",
+        "identifier": "5224"
+      },
+      "variants": [
+        {
+          "kind": "pmod",
+          "concept": {
+            "namespace": "go",
+            "name": "protein phosphorylation",
+            "identifier": "0006468"
+          },
+          "code": "Thr",
+          "pos": 142
+        }
+      ],
+      "id": "8245c6f15cdcb788912ca297bd68ed5c",
+      "bel": "p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Thr, 142))"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "HSF1",
+        "identifier": "5224"
+      },
+      "variants": [
+        {
+          "kind": "pmod",
+          "concept": {
+            "namespace": "go",
+            "name": "protein phosphorylation",
+            "identifier": "0006468"
+          },
+          "code": "Thr",
+          "pos": 527
+        }
+      ],
+      "id": "c6e504582c378298826c0bdd99f5631f",
+      "bel": "p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Thr, 527))"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "IFNB1",
+        "identifier": "5434"
+      },
+      "id": "7f9d919bff2f0ba95c9e0dd7e72d006d",
+      "bel": "p(HGNC:5434 ! IFNB1)"
+    },
+    {
+      "function": "Protein",
+      "concept": {
+        "namespace": "HGNC",
+        "name": "MAP3K5",
+        "identifier": "6857"
+      },
+      "id": "71dcd98981f13b77379107778d561494",
+      "bel": "p(HGNC:6857 ! MAP3K5)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "17433451173102159": true
+        },
+        "uuid": {
+          "5349f3fd-627d-43d9-82c9-96e20572d511": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-5356311158366823997": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+      "source": 16,
+      "target": 23,
+      "key": 0
+    },
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "13778258035290707": true
+        },
+        "uuid": {
+          "ddcf9866-5bce-4d35-8585-c08a5fed2f87": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-5356311158366823997": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+      "source": 16,
+      "target": 21,
+      "key": 0
+    },
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "13778258035290707": true
+        },
+        "uuid": {
+          "330f161f-d59d-4b45-b5e4-fcfdce95f5da": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-6848266924144946151": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).",
+      "source": 16,
+      "target": 21,
+      "key": 1
+    },
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "-4580121560804543": true
+        },
+        "uuid": {
+          "cb5c2f52-5ca6-47b9-94bf-33bf4fda141f": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-5356311158366823997": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+      "source": 16,
+      "target": 22,
+      "key": 0
+    },
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "26455441946472326": true
+        },
+        "uuid": {
+          "2a2a0d67-0134-414c-8228-7c91f7585d96": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-5356311158366823997": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.",
+      "source": 16,
+      "target": 20,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "11068550884753097": true
+        },
+        "uuid": {
+          "6edaca3d-6eca-463d-85a8-aaf79be5a6c6": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "6130304616559131117": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+      "source": 16,
+      "target": 3,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-30585613856940213": true
+        },
+        "uuid": {
+          "97e67958-6826-4521-a297-04e022693bc0": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "6130304616559131117": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+      "source": 16,
+      "target": 4,
+      "key": 0
+    },
+    {
+      "relation": "hasVariant",
+      "source": 19,
+      "target": 23,
+      "key": "cf3d59f4f0b0444f691d8202c08aa015"
+    },
+    {
+      "relation": "hasVariant",
+      "source": 19,
+      "target": 21,
+      "key": "ac9b990e181d05ff9d88843009ee5c35"
+    },
+    {
+      "relation": "hasVariant",
+      "source": 19,
+      "target": 22,
+      "key": "d4926e6119839df3bba878cfbf7db876"
+    },
+    {
+      "relation": "hasVariant",
+      "source": 19,
+      "target": 20,
+      "key": "0b91ec4c24b8a5308f51b6f20995c6d1"
+    },
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "-4527851237819133": true
+        },
+        "uuid": {
+          "9d1be12f-0b6a-4447-87f8-0d6778fa7f3d": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-9196516970670222957": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1.",
+      "source": 17,
+      "target": 21,
+      "key": 0
+    },
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "-4527851237819133": true
+        },
+        "uuid": {
+          "0c43037a-8788-4d67-8cff-215423629d49": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-6848266924144946151": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).",
+      "source": 17,
+      "target": 21,
+      "key": 1
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "26567942523235357": true
+        },
+        "uuid": {
+          "28e2e991-6b3b-4761-8135-f5238e4a5c46": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "8520023740745130737": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 19,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D).",
+      "source": 17,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-5256657256676163": true
+        },
+        "uuid": {
+          "088f634c-681b-4dec-ac17-273c988a9012": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "6130304616559131117": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+      "source": 17,
+      "target": 3,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-25429775439657535": true
+        },
+        "uuid": {
+          "86cc2b14-7eef-4a55-a092-a4c1ff7fff9a": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "6130304616559131117": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+      "source": 17,
+      "target": 4,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "3255405968925042": true
+        },
+        "uuid": {
+          "76276b1f-df51-4561-9f19-6f4ee1e377aa": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "8520023740745130737": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 19,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation far exceeded the HSF1 activity induced by AKT2 (Fig. 1A-D).",
+      "source": 0,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-11269519478741860": true
+        },
+        "uuid": {
+          "9c186198-e313-434c-9bb0-2dd302b22bc6": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "6130304616559131117": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+      "source": 18,
+      "target": 3,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "25998629092327012": true
+        },
+        "uuid": {
+          "96b74052-38bd-4b49-a7a2-6cdc03c04ecd": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "6130304616559131117": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3.",
+      "source": 18,
+      "target": 4,
+      "key": 0
+    },
+    {
+      "relation": "directlyDecreases",
+      "annotations": {
+        "stmt_hash": {
+          "25432345321514615": true
+        },
+        "uuid": {
+          "8359785e-5de7-443a-85c5-e219e9b0b0d6": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "6753416114666976647": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.",
+      "source": 14,
+      "target": 13,
+      "key": 0
+    },
+    {
+      "relation": "hasVariant",
+      "source": 12,
+      "target": 13,
+      "key": "c331f938fb108e680ba86a84c44d1d0e"
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "24925077976876453": true
+        },
+        "uuid": {
+          "5db43b3e-7d79-4bad-8d6b-e327fd27b1bc": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-4868024442092466183": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 8,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,)",
+      "source": 11,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "24925077976876453": true
+        },
+        "uuid": {
+          "60351023-432d-485e-a173-8c2e6c34f15d": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-1271131270806149116": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 8,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+      "source": 11,
+      "key": 1
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-17461133745816345": true
+        },
+        "uuid": {
+          "2ea14306-bddd-4ace-a60f-8131315e5c0d": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-4868024442092466183": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 6,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,)",
+      "source": 11,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-2143142286176078": true
+        },
+        "uuid": {
+          "5813b209-af3d-4382-bf88-703bba2cc68d": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-1271131270806149116": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).",
+      "source": 11,
+      "target": 1,
+      "key": 0
+    },
+    {
+      "relation": "hasVariant",
+      "source": 6,
+      "target": 7,
+      "key": "e6876dd596a6944a8f56294ef3f23e8a"
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-16442171027869433": true
+        },
+        "uuid": {
+          "a1bcd00d-84b4-4d82-abc3-63cd94364538": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-8242652713902339899": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 11,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation.",
+      "source": 6,
+      "key": 0
+    },
+    {
+      "relation": "directlyIncreases",
+      "annotations": {
+        "stmt_hash": {
+          "-8447276876151329": true
+        },
+        "uuid": {
+          "dacee7d7-ed2e-44c7-8d67-61e18f8d2971": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-2667087188847393239": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated.",
+      "source": 25,
+      "target": 7,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-35347334615874262": true
+        },
+        "uuid": {
+          "7765f710-77fb-4998-b4e2-200c81dfb9de": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-1554040696708821460": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 24,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+      "source": 10,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "14604426651654864": true
+        },
+        "uuid": {
+          "1057b6a0-c86d-47d3-b98e-621a3a133b3b": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-1554040696708821460": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 10,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+      "source": 10,
+      "key": 0
+    },
+    {
+      "relation": "increases",
+      "annotations": {
+        "stmt_hash": {
+          "-2227966735067420": true
+        },
+        "uuid": {
+          "fa069280-21a5-4cca-99ca-154d119d87cb": true
+        },
+        "belief": {
+          "1": true
+        },
+        "source_hash": {
+          "-1554040696708821460": true
+        },
+        "source_api": {
+          "reach": true
+        }
+      },
+      "target": 5,
+      "citation": {
+        "namespace": "other",
+        "identifier": "reach:Unknown"
+      },
+      "evidence": "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.",
+      "source": 10,
+      "key": 0
+    },
+    {
+      "relation": "partOf",
+      "source": 9,
+      "target": 2,
+      "key": "bea60c04871d647ef47cd2bec3ef292f"
+    },
+    {
+      "relation": "partOf",
+      "source": 15,
+      "target": 2,
+      "key": "8ad7755b855f83f98545df3f3f8df97c"
+    }
+  ]
+}

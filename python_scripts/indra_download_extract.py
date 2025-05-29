@@ -1,7 +1,9 @@
 import os
 import json
+import time
 import os.path
 import logging
+from indra.sources import reach
 
 logger = logging.getLogger(__name__)
 
@@ -37,4 +39,33 @@ def save_to_json(data, filename, output_dir):
     file_path = os.path.join(output_dir, filename)
     with open(file_path, 'w', encoding="utf-8") as file:
         json.dump(data, file, indent=4)
-    print(f"File saved successfully to {file_path}")
+    print(f"File saved successfully to {file_path}") 
+
+
+def indra_processing(evidence_by_index):
+    indra_reach_results = {"INDRA_REACH_extractions": []}
+    start_time = time.time()
+
+    # Loop through the sentences dictionary directly
+    for index_entry in evidence_by_index:
+        index = index_entry["Index"]
+        evidences = index_entry["evidences"]
+
+        for evidence_text in evidences:
+            # Remove the "evidence: " prefix
+            sentence = evidence_text.replace("evidence: ", "", 1).strip()
+            reach_processor = reach.process_text(sentence, url=reach.local_text_url)
+            stmts = reach_processor.statements
+            statements_json = [stmt.to_json() for stmt in stmts]
+
+            indra_reach_results["INDRA_REACH_extractions"].append({
+                "Index": index,
+                "Evidence": sentence,
+                "Results": statements_json
+            })
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    elapsed_minutes = elapsed_time / 60
+    print(f"Time taken for indra processing: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+    return indra_reach_results
