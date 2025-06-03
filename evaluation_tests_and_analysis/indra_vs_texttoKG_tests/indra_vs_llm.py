@@ -273,47 +273,47 @@ class BELComparator:
 
         for llm_stmt in llm_statements:
             llm_parsed = self.parser.parse_bel_statement(llm_stmt['bel_statement'])
-            
+
             best_match = None
             best_score = 0.0
-            
+
             for indra_stmt in indra_statements:
                 indra_parsed = self.parser.parse_bel_statement(indra_stmt['bel_statement'])
                 score = self.calculate_match_score(llm_parsed, indra_parsed)
-                
+
                 if score > best_score:
                     best_score = score
                     best_match = (llm_stmt, indra_stmt, llm_parsed, indra_parsed, score)
-            
+
             if best_match:
                 matches.append(best_match)
             else:
                 # No match found
                 matches.append((llm_stmt, None, llm_parsed, None, 0.0))
-        
+
         return matches
-    
+
     def create_best_match_plus_singles(self, llm_data: Dict, indra_data: Dict) -> List[Dict]:
         """Create best matches plus single INDRA statements which have no LLM match"""
         comparison_results = []
         used_indra_statements = set()  # Track which INDRA statements have been matched
-        
+
         # Step 1: Find best matches for each LLM statement
         for index in llm_data:
             for evidence in llm_data[index]:
                 llm_statements = llm_data[index][evidence]
                 indra_statements = indra_data.get(index, {}).get(evidence, [])
-                
+
                 # Find best matches (original algorithm)
                 matches = self.find_best_matches(llm_statements, indra_statements)
-                
+
                 for match in matches:
                     llm_stmt, indra_stmt, llm_parsed, indra_parsed, score = match
-                    
+
                     # Track which INDRA statement was used
                     if indra_stmt:
                         used_indra_statements.add((index, evidence, indra_stmt['bel_statement']))
-                    
+
                     comparison_results.append({
                         'index': index,
                         'evidence': evidence,
@@ -325,16 +325,41 @@ class BELComparator:
                         'indra_subject': indra_parsed['subject'] if indra_parsed else None,
                         'indra_relationship': indra_parsed['relationship'] if indra_parsed else None,
                         'indra_object': indra_parsed['object'] if indra_parsed else None,
-                        'subject_match': self.are_components_semantically_equal(llm_parsed['subject'], indra_parsed['subject']) if indra_parsed else False,
-                        'relationship_match': llm_parsed['relationship'] == indra_parsed['relationship'] if indra_parsed else False,
-                        'object_match': self.are_components_semantically_equal(llm_parsed['object'], indra_parsed['object']) if indra_parsed else False,
-                        'subject_namespace_match': bool(set(llm_parsed['subject_namespaces']).intersection(set(indra_parsed['subject_namespaces']))) if indra_parsed else False,
-                        'object_namespace_match': bool(set(llm_parsed['object_namespaces']).intersection(set(indra_parsed['object_namespaces']))) if indra_parsed else False,
+                        'subject_match': (
+                            self.are_components_semantically_equal(
+                                llm_parsed['subject'],
+                                indra_parsed['subject']
+                            ) if indra_parsed else False
+                        ),
+                        'relationship_match': (
+                            llm_parsed['relationship'] == indra_parsed['relationship']
+                            if indra_parsed else False
+                        ),
+                        'object_match': (
+                            self.are_components_semantically_equal(
+                                llm_parsed['object'],
+                                indra_parsed['object']
+                            ) if indra_parsed else False
+                        ),
+                        'subject_namespace_match': (
+                            bool(
+                                set(llm_parsed['subject_namespaces']).intersection(
+                                    set(indra_parsed['subject_namespaces'])
+                                )
+                            ) if indra_parsed else False
+                        ),
+                        'object_namespace_match': (
+                            bool(
+                                set(llm_parsed['object_namespaces']).intersection(
+                                    set(indra_parsed['object_namespaces'])
+                                )
+                            ) if indra_parsed else False
+                        ),
                         'match_score': score,
                         'similarity_rating': None,  # To be filled by LLM for all pairs
                         'match_type': 'Best Match' if indra_stmt else 'LLM Only'
                     })
-        
+
         # Step 2: Add orphaned INDRA statements (those not matched to any LLM statement)
         for index in indra_data:
             for evidence in indra_data[index]:
@@ -342,8 +367,7 @@ class BELComparator:
                 for indra_stmt in indra_statements:
                     # Check if this INDRA statement was already matched
                     if (index, evidence, indra_stmt['bel_statement']) not in used_indra_statements:
-                        indra_parsed = self.parser.parse_bel_statement(indra_stmt['bel_statement'])
-                        
+                        indra_parsed = self.parser.parse_bel_statement(indra_stmt['bel_statement']) 
                         comparison_results.append({
                             'index': index,
                             'evidence': evidence,
@@ -364,49 +388,51 @@ class BELComparator:
                             'similarity_rating': "INDRA Only",
                             'match_type': 'INDRA Only'
                         })
-        
+
         return comparison_results
-    
+
     def get_llm_similarity_rating(self, llm_statement: str, indra_statement: str) -> str:
         """Use LLM to rate similarity between two BEL statements"""
         if not indra_statement:
             return "No Match"
-        
+
         prompt = f"""
-You are a biological knowledge expert. Compare these two BEL (Biological Expression Language) statements and rate their similarity:
+        You are a biological knowledge expert. Compare these two BEL (Biological Expression Language) statements 
+        and rate their similarity:
 
-LLM Statement: {llm_statement}
-INDRA Statement: {indra_statement}
+        LLM Statement: {llm_statement}
+        INDRA Statement: {indra_statement}
 
-Rate the similarity as:
-- "Good": The statements represent the same or very similar biological relationships
-- "Medium": The statements are related but have minor differences in specificity or representation
-- "Bad": The statements represent different biological relationships or have major conflicts
+        Rate the similarity as:
+        - "Good": The statements represent the same or very similar biological relationships
+        - "Medium": The statements are related but have minor differences in specificity or representation
+        - "Bad": The statements represent different biological relationships or have major conflicts
 
-Consider:
-- Biological equivalence (not just textual similarity)
-- Whether different representations might mean the same thing biologically
-- Namespace differences that might be equivalent (e.g., different identifiers for same entity)
+        Consider:
+        - Biological equivalence (not just textual similarity)
+        - Whether different representations might mean the same thing biologically
+        - Namespace differences that might be equivalent (e.g., different identifiers for same entity)
 
-Respond with EXACTLY one word: Good, Medium, or Bad
-"""
-        
+        Respond with EXACTLY one word: Good, Medium, or Bad
+        """
+
         try:
             response = openai.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are a biological knowledge expert specializing in BEL statement analysis."},
+                    {"role": "system", 
+                     "content": "You are a biological knowledge expert specializing in BEL statement analysis."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0,
                 max_tokens=10
             )
-            
+
             rating = response.choices[0].message.content.strip()
-            
+
             # More flexible validation - handle common variations
             rating_lower = rating.lower().replace('.', '').replace(',', '')
-            
+
             if rating_lower in ['good']:
                 return "Good"
             elif rating_lower in ['medium', 'okay', 'ok']:
@@ -416,19 +442,19 @@ Respond with EXACTLY one word: Good, Medium, or Bad
             else:
                 print(f"Unexpected LLM response: '{rating}' - treating as Unknown")
                 return "Unknown"
-                
+
         except Exception as e:
             print(f"Error getting LLM rating: {e}")
             return "Error"
-    
+
     def add_similarity_ratings(self, comparison_data: List[Dict]) -> List[Dict]:
         """Add LLM similarity ratings for all statement pairs"""
         print("Getting LLM similarity ratings for all paired statements...")
-        
+
         # Count how many will need LLM rating
         paired_statements = [row for row in comparison_data if row['indra_statement'] is not None]
         print(f"Found {len(paired_statements)} paired statements (out of {len(comparison_data)} total)")
-        
+
         for i, row in enumerate(comparison_data):
             if row['indra_statement'] is not None:
                 print(f"Processing {i+1}/{len(comparison_data)} (LLM rating needed)")
@@ -436,9 +462,9 @@ Respond with EXACTLY one word: Good, Medium, or Bad
                 row['similarity_rating'] = rating
                 time.sleep(1)  # Rate limiting
             # For rows without pairs, similarity_rating is already set in create_best_match_plus_orphans
-        
+
         return comparison_data
-    
+
     def save_results(self, comparison_data: List[Dict], output_file: str):
         """Save results to CSV and JSON"""
         # Save as CSV
@@ -446,35 +472,35 @@ Respond with EXACTLY one word: Good, Medium, or Bad
         csv_file = output_file.replace('.json', '.csv')
         df.to_csv(csv_file, index=False)
         print(f"Results saved to {csv_file}")
-        
+
         # Save as JSON
         with open(output_file, 'w') as f:
             json.dump(comparison_data, f, indent=2)
         print(f"Results saved to {output_file}")
-        
+
         # Print summary statistics
         matched_pairs = len([r for r in comparison_data if r['indra_statement']])
         print(f"Paired statements: {len([r for r in comparison_data if r['indra_statement'] is not None])}")
         print(f"Best matches: {len([r for r in comparison_data if r['match_type'] == 'Best Match'])}")
         print(f"LLM-only statements: {len([r for r in comparison_data if r['match_type'] == 'LLM Only'])}")
         print(f"INDRA-only statements: {len([r for r in comparison_data if r['match_type'] == 'INDRA Only'])}")
-        
+
         if matched_pairs > 0:
             similarity_counts = {}
             for row in comparison_data:
                 rating = row['similarity_rating']
                 similarity_counts[rating] = similarity_counts.get(rating, 0) + 1
-            
-            print(f"\nSimilarity ratings:")
+
+            print("\nSimilarity ratings:")
             for rating, count in similarity_counts.items():
                 print(f"  {rating}: {count}")
-        
+
         # Print match statistics
         if matched_pairs > 0:
             subject_matches = len([r for r in comparison_data if r['subject_match']])
             relationship_matches = len([r for r in comparison_data if r['relationship_match']])
             object_matches = len([r for r in comparison_data if r['object_match']])
-            
+
             print(f"\nComponent matches (out of {matched_pairs} pairs):")
             print(f"  Subject matches: {subject_matches} ({subject_matches/matched_pairs*100:.1f}%)")
             print(f"  Relationship matches: {relationship_matches} ({relationship_matches/matched_pairs*100:.1f}%)")
@@ -484,28 +510,29 @@ Respond with EXACTLY one word: Good, Medium, or Bad
 def main():
     # Initialize comparator
     comparator = BELComparator()
-    
+
     # Load data
     print("Loading data...")
-    llm_data, indra_data = comparator.load_data('index_evidence_bel.json', 'indra_bel_cleaned.json')
-    
+    llm_data, indra_data = comparator.load_data('evaluation_tests/indra_vs_texttoKG_tests/texttoKG_cleaned.json',
+                                                'evaluation_tests/indra_vs_texttoKG_tests/indra_bel_cleaned.json')
+
     # Normalize data structures
     print("Normalizing data structures...")
     llm_normalized = comparator.normalize_llm_data(llm_data)
     indra_normalized = comparator.normalize_indra_data(indra_data)
-    
+
     # Create best matches plus orphaned INDRA statements
     print("Creating best matches plus orphaned statements...")
     comparison_data = comparator.create_best_match_plus_orphans(llm_normalized, indra_normalized)
-    
+
     print(f"Found {len(comparison_data)} total comparisons")
-    
+
     # Add LLM similarity ratings 
     comparison_data = comparator.add_similarity_ratings(comparison_data)
-    
+
     # Save results
-    comparator.save_results(comparison_data, 'bel_comparison_results.json')
-    
+    comparator.save_results(comparison_data, 'evaluation_tests/indra_vs_texttoKG_tests/bel_comparison_results.json')
+
     print("Comparison complete!")
 
 

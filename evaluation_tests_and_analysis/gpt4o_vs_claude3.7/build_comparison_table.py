@@ -135,7 +135,7 @@ if __name__ == "__main__":
         llm3_data = json.load(f)
 
     all_llms_data = [
-        {"name": "gpt-4o",     "data": llm1_data},
+        {"name": "gpt-4o", "data": llm1_data},
         {"name": "claude3.5", "data": llm2_data},
         {"name": "claude3.7", "data": llm3_data},
     ]

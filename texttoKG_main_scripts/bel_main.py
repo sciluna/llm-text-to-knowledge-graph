@@ -23,7 +23,15 @@ def validate_pmc_id(pmc_id):
         raise ValueError("Invalid PMC ID format. It should start with 'PMC' followed by digits.")
 
 
-def process_pmc_document(pmc_id, ndex_email=None, ndex_password=None, style_path=None, upload_to_ndex=False):
+def process_pmc_document(
+    pmc_id,
+    ndex_email=None,
+    ndex_password=None,
+    style_path=None,
+    upload_to_ndex=False,
+    prompt_file="prompt_file_v6.txt",
+    prompt_identifier="general prompt"
+):
     """
     Process a document given a PMC ID.
     Steps:
@@ -54,7 +62,7 @@ def process_pmc_document(pmc_id, ndex_email=None, ndex_password=None, style_path
     save_to_json(annotated_paragraphs, annotated_filename, output_dir)
 
     logging.info("Processing annotated paragraphs with the LLM-BEL model")
-    llm_results = llm_ann_processing(annotated_paragraphs)
+    llm_results = llm_ann_processing(annotated_paragraphs, prompt_file=prompt_file, prompt_identifier=prompt_identifier)
     llm_filename = 'llm_results.json'
     save_to_json(llm_results, llm_filename, output_dir)
 
@@ -112,7 +120,9 @@ def process_pmc_document(pmc_id, ndex_email=None, ndex_password=None, style_path
 def process_file_document(file_path, pmid_or_pmcid=None, custom_name=None, 
                           ndex_email=None, 
                           ndex_password=None, 
-                          style_path=None, upload_to_ndex=False):
+                          style_path=None, upload_to_ndex=False,
+                          prompt_file="prompt_file_v6.txt",
+                          prompt_identifier="general prompt"):
     """
     Process a document given a file path (PDF or TXT).
     Steps:
@@ -138,7 +148,7 @@ def process_file_document(file_path, pmid_or_pmcid=None, custom_name=None,
     save_to_json(annotated_paragraphs, annotated_filename, output_dir)
 
     logging.info("Processing annotated paragraphs with the LLM-BEL model")
-    llm_results = llm_ann_processing(annotated_paragraphs)
+    llm_results = llm_ann_processing(annotated_paragraphs, prompt_file=prompt_file, prompt_identifier=prompt_identifier)
     llm_filename = 'llm_results.json'
     save_to_json(llm_results, llm_filename, output_dir)
 
@@ -208,6 +218,8 @@ def process_document(pmc_id=None,
                      ndex_password=None, 
                      style_path=None, 
                      upload_to_ndex=False,
+                     prompt_file="prompt_file_v6.txt",
+                     prompt_identifier="general prompt",
                      custom_name=None,
                      pmid_for_file=None):
     """
@@ -224,7 +236,9 @@ def process_document(pmc_id=None,
             pmc_id, 
             ndex_email, 
             ndex_password, 
-            style_path=style_path, 
+            style_path=style_path,
+            prompt_file=prompt_file,
+            prompt_identifier=prompt_identifier, 
             upload_to_ndex=upload_to_ndex
         )
 
@@ -237,6 +251,8 @@ def process_document(pmc_id=None,
             ndex_password=ndex_password,
             style_path=style_path,
             upload_to_ndex=upload_to_ndex,
+            prompt_file=prompt_file,
+            prompt_identifier=prompt_identifier,
             custom_name=custom_name,
             pmid_or_pmcid=pmid_for_file
         )
@@ -278,8 +294,12 @@ if __name__ == "__main__":
                         help="Flag to upload the CX2 network to NDEx")
     parser.add_argument("--prompt_file",
                         type=str,
-                        default=None,
-                        help="Path to a custom LLM prompt file (defaults to internal prompt)")
+                        default="prompt_file_v6.txt",
+                        help="Path to a custom LLM prompt file (defaults to prompt_file_v6.txt)")
+    parser.add_argument("--prompt_id",
+                        type=str,
+                        default="general prompt",
+                        help="Block identifier inside the prompt file.")
     parser.add_argument("--custom_name", type=str, 
                         help="If provided (and you're processing a file, not a PMC ID), "
                              "use this name for the network instead of timestamp.")
@@ -297,6 +317,8 @@ if __name__ == "__main__":
         ndex_password=args.ndex_password,
         style_path=args.style_path,
         upload_to_ndex=args.upload_to_ndex,
+        prompt_file=args.prompt_file,
+        prompt_identifier=args.prompt_id,
         custom_name=args.custom_name,
         pmid_for_file=args.pmid_for_file
     )

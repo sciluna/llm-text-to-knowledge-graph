@@ -6,8 +6,8 @@ import time
 from dotenv import load_dotenv
 from typing import List
 from pydantic import BaseModel, Field
-from get_interactions import load_prompt
-from grounding_genes import annotate_paragraphs_in_json
+from texttoKG_main_scripts.get_interactions import load_prompt
+from texttoKG_main_scripts.grounding_genes import annotate_paragraphs_in_json
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 
@@ -73,9 +73,10 @@ def create_extraction_chain(prompt: str, use_special: bool = False):
     # Append special instructions if flag is set
     if use_special:
         prompt = (
-            prompt +
-            " special additional instructions: consider the confidence values in the annotations list when forming statements "
-            "and if the confidence is low, make your decision on what is the appropriate official name and use that for the statement."
+            prompt + " special additional instructions: " 
+            " consider the confidence values in the annotations list when forming statements "
+            "and if the confidence is low, make your decision on what is the appropriate official name "
+            "and use that for the statement."
         )
 
     model = create_extraction_model()
@@ -136,7 +137,7 @@ def llm_processing(paragraphs, prompt: str, use_special: bool):
         })
 
     elapsed = time.time() - start_time
-    print(f"Time taken: {elapsed:.2f} seconds ({elapsed/60:.2f} minutes)") . 
+    print(f"Time taken: {elapsed:.2f} seconds ({elapsed/60:.2f} minutes)") 
     return llm_results
 
 

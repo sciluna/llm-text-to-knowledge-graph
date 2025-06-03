@@ -1,5 +1,3 @@
-
-
 def parse_bel_statement(bel_statement):
     bel_statement = bel_statement.strip()
 
@@ -118,13 +116,13 @@ def process_llm_results(llm_data):
                     "evidence": evidence
                 })
 
-        # for annots in entry["annotations"]:
-        #     entry_name = annots["entry_name"]
-        #     url = annots["url"]
-        #     extracted_results.append({
-        #         "entry_name": entry_name,
-        #         "url": url
-        #     })  
+        for annots in entry["annotations"]:
+            entry_name = annots["entry_name"]
+            url = annots["url"]
+            extracted_results.append({
+                "entry_name": entry_name,
+                "url": url
+            })  
     node_count = len(node_names)
     edge_count = binary_count
     unary_node_count = len(unary_names)

@@ -8,7 +8,7 @@ from bel_model import bel_extraction_model
 warnings.filterwarnings("ignore")
 
 
-
+# Function to read the prompt from a file based on an identifier
 def get_prompt(identifier, filepath):
     # Determine the absolute path to the script's directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -17,7 +17,7 @@ def get_prompt(identifier, filepath):
     project_dir = os.path.dirname(script_dir)
 
     # Construct the absolute path to the prompt file in the main 'data' directory
-    absolute_filepath = os.path.join(project_dir, 'data', filepath)
+    absolute_filepath = os.path.join(project_dir, 'prompts', filepath)
 
     with open(absolute_filepath, 'rb') as file:
         content = file.read()
@@ -47,7 +47,21 @@ def load_prompt(prompt_file="prompt_file_v6.txt",
 
 
 def build_bel_extraction_chain(prompt_text: str):
-    """Return a BEL‑extraction chain that uses the supplied system‑prompt text."""
+    """
+    Creates and returns a BEL (Biological Expression Language) extraction processing chain.
+
+    This function constructs a prompt template for a chat-based language model, using the provided
+    system prompt text. The template expects user input containing a text and its annotations.
+    The resulting chain processes the input through a BEL extraction model and parses the output
+    to extract the "interactions" key from the model's JSON response.
+
+    Args:
+        prompt_text (str): The system prompt text to guide the BEL extraction process.
+
+    Returns:
+        A composed chain that takes annotated text as input, runs BEL extraction, and outputs
+        the extracted interactions in structured format.
+    """
     ann_prompt = ChatPromptTemplate.from_messages([
         ("system", prompt_text),
         ("human", "{text} | Annotations: {annotations}")
