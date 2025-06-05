@@ -209,7 +209,7 @@ def main(
     ndex_password=None,
     style_path=None,
     upload_to_ndex=False,
-    prompt_file="prompt_file_v6.txt",
+    prompt_file="prompt_file_v7.txt",
     prompt_identifier="general prompt",
     custom_name=None,
     pmid_for_file=None

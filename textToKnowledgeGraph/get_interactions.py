@@ -28,7 +28,7 @@ def get_prompt(identifier, filepath):
     return ''.join(prompt)
 
 
-def load_prompt(prompt_file="prompt_file_v6.txt",
+def load_prompt(prompt_file="prompt_file_v7.txt",
                 prompt_identifier="general prompt") -> str:
     """Return just the system‑prompt text (one string)."""
     return get_prompt(prompt_identifier, prompt_file)

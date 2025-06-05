@@ -30,16 +30,12 @@ def _build_chain(prompt_file, prompt_identifier, api_key):
     Get the BEL extraction chain for (file, identifier), rebuilding
     automatically if the file was edited since last time.
     """
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_dir = os.path.dirname(script_dir)
-    absolute_filepath = os.path.join(project_dir, 'data', prompt_file)
-
     try:
         mtime = os.path.getmtime(prompt_file)
     except FileNotFoundError:
         raise FileNotFoundError(f"Prompt file not found: {prompt_file}")
 
-    return _build_chain_cached(absolute_filepath, prompt_file, prompt_identifier, mtime, api_key)
+    return _build_chain_cached(prompt_file, prompt_identifier, mtime, api_key)
 
 
 # Initialize dictionaries to store the results
@@ -48,7 +44,7 @@ llm_results = {}
 
 #Extracting BEL interactions from sentences with annotations using llm
 def llm_bel_processing(paragraphs, api_key, 
-                       prompt_file="prompt_file_v6.txt",
+                       prompt_file="prompt_file_v7.txt",
                        prompt_identifier="general prompt"):
     bel_extraction_chain = _build_chain(prompt_file, prompt_identifier, api_key)
     llm_results = {"LLM_extractions": []}

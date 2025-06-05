@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name            = "texttoknowledgegraph"
-version         = "0.2.8"
+version         = "0.3.1"
 description     = "A Python package to generate BEL statements and CX2 networks."
 readme          = "textToKnowledgeGraph/README.md"
 requires-python = ">=3.11"
