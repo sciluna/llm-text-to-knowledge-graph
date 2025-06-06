@@ -4,6 +4,7 @@ import time
 import logging
 from .get_interactions import build_bel_extraction_chain, load_prompt
 from functools import lru_cache
+from importlib import resources
 
 logger = logging.getLogger(__name__)
 
@@ -26,16 +27,13 @@ def _build_chain_cached(prompt_file, prompt_identifier, api_key, prompt_mtime):
 
 
 def _build_chain(prompt_file, prompt_identifier, api_key):
-    """
-    Get the BEL extraction chain for (file, identifier), rebuilding
-    automatically if the file was edited since last time.
-    """
-    try:
-        mtime = os.path.getmtime(prompt_file)
-    except FileNotFoundError:
-        raise FileNotFoundError(f"Prompt file not found: {prompt_file}")
+    # locate the file that lives in textToKnowledgeGraph/…
+    data = resources.files("textToKnowledgeGraph").joinpath(prompt_file)
 
-    return _build_chain_cached(prompt_file, prompt_identifier, mtime, api_key)
+    # convert to a real on-disk path (works for wheels/zip-imports)
+    with resources.as_file(data) as abs_path:
+        mtime = os.path.getmtime(abs_path)
+        return _build_chain_cached(abs_path, prompt_identifier, api_key, mtime)
 
 
 # Initialize dictionaries to store the results
