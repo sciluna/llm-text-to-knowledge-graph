@@ -32,15 +32,19 @@ A Python package to generate BEL statements and CX2 networks from scientific tex
 ## Dependencies
 
 - Python >= 3.11
-- langchain==0.3.13
-- langchain_core==0.3.27
-- langchain_openai==0.2.13
+- langchain
+- langchain_core
+- langchain_openai
 - lxml==5.2.1
 - ndex2>=3.8.0,<4.0.0
 - pandas
-- pydantic==2.10.4
-- python-dotenv==1.0.1
-- Requests==2.32.3
+- pydantic
+- python-dotenv
+- Requests
+- nltk
+- gilda
+- markitdown[all]
+- openai
 
 ## Glossary
 
@@ -194,6 +198,4 @@ main(
 - The default style file is located at `<repo_root>/data/cx_style.json`. You can override this with the `--style_path` parameter.
 - Make sure your input files exist and that your API key is valid.
 - The package logs detailed processing steps and total runtime for batch processing.
-
-
-# python -m nltk.downloader stopwords
+- You may need to run this `python -m nltk.downloader stopwords` to download the NLTK stopwords corpus if you encounter issues with text processing.
