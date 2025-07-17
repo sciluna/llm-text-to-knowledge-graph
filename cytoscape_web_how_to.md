@@ -8,6 +8,12 @@
 
 ## Installing the textToKnowledgeGraph App
 
+The URL for the textToKnowledgeGraph service is:  https://cd.ndexbio.org/cy/cytocontainer/v1/llm_text_to_knowledge_graph
+
+On the menubar, choose Apps -> Manage Apps and paste the URL into the "Enter a new external service URL" input box.
+
+The service will respond and register itself in your environment.
+
 ## Using the App
 
 ### Using OpenAI API Key
