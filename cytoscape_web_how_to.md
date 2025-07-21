@@ -2,6 +2,8 @@
 
 **textToKnowledgeGraph** is available as a [Cytoscape Web Service App](https://cytoscape-web.readthedocs.io/en/latest/Extending.html#service-apps)
 
+**------->We have encountered bugs using Safari, currently investigating.<-----**
+
  The app enables you to process a paper specified by its [PubMed Central ID](https://en.wikipedia.org/wiki/PubMed_Central#PMCID), creating the knowledge grap in Cytoscape Web's workspace.
 
 Cytoscape Web can be used without logging in, but if you go to [NDEx](www.ndexbio.org) and create an account, you will be able to save and share the knowledge graphs that you create.
