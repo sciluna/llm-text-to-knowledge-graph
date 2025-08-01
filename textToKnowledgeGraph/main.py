@@ -218,6 +218,10 @@ def main(
     Determines the input type (PMC ID or file path) and routes to the appropriate processing function.
     Exactly one of pmc_id, pdf_path, or txt_path should be provided.
     """
+    if style_path is None:
+        style_path = os.path.join(os.path.dirname(__file__), "cx_style.json")
+
+    logging.info(f"Using CX style file: {style_path}") 
     # Default empty lists if None
     pmc_ids = pmc_ids or []
     pdf_paths = pdf_paths or []

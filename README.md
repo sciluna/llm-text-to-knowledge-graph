@@ -71,7 +71,8 @@ pip install textToKnowledgeGraph
 ### Features Available
 
 - **BEL Generation**: Extracts biological interactions from scientific papers and generates BEL statements.  
-- **CX2 Network Generation**: Converts extracted interactions into CX2 network format for visualization in Cytoscape.  
+- **CX2 Network Generation**: Converts extracted interactions into CX2 network format for visualization in Cytoscape. 
+- **Style Customization**: Allows users to specify a custom Cytoscape style JSON file for network visualization. 
 - **Uploading to NDEx**: Uploads the generated CX2 networks to NDEx for sharing and visualization.
 
 ### BEL Generation
@@ -95,6 +96,53 @@ pip install textToKnowledgeGraph
 ### CX2 Network Generation
 
 Converts extracted interactions into CX2 network format for visualization in Cytoscape.
+
+### Style Customization
+
+The python package uses a default Cytoscape style JSON file located at `<repo_root>/data/cx_style.json`. You can reuse any visual style you’ve created in Cytoscape or any style you would like to implement in your graphs. Export the network that contains this desired style as a CX/CX2 network and point our tool at that exported JSON. Here is how to do it:
+
+- Export your styled network from Cytoscape
+
+1. In Cytoscape Desktop, load the network whose style you want to copy.
+2. Go to **File → Export → Network → CX** (or **CX2**) and save the file to your local drive, e.g. `my_network.cx2`.
+
+- Extract the style JSON
+
+1. Open the `.cx` or `.cx2` file in any IDE or text editor of your choice.
+2. Locate these two top‐level entries (`"visualProperties"` and/or `"visualEditorProperties"`):
+
+   ```json
+   {
+     // … other CX2 aspects …
+     "visualEditorProperties": [
+       /* … your style’s editor definitions … */
+     ],
+     "visualProperties": [
+       /* … your style’s property mappings … */
+     ]
+   }
+   ```
+
+3. Copy those arrays into a new json file called, for example, `custom-style.json`:
+
+   ```json
+   {
+     "visualEditorProperties": [ 
+       /* … paste here … */ 
+     ],
+     "visualProperties": [ 
+       /* … paste here … */ 
+     ]
+   }
+   ```
+
+4. Save `custom-style.json` somewhere in your project workspace.
+
+- Run textToKnowledgeGraph with your style
+
+Use the `--style_path` flag to tell the tool where to load your exported style
+
+The generated CX2 will now carry your custom Cytoscape style, ready to load into Cytoscape Desktop or NDEx with the same look & feel.
 
 ### Uploading to NDEx
 
