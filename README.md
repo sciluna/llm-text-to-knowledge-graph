@@ -234,6 +234,19 @@ main(
     pmid_for_file=35080342,              # optional
 )
 ```
+### How to change the appearance of the knowledge graphs
+To change them one at a time, just edit the style in Cytoscape Web
+
+But if you want to have your code output them in a custom style, there is an easy way to do it. You take one knowledge graph, edit its style, and save it to your filesystem *to use as a style template*. You then add a step to your output pipeline, as shown in the following code example. You extract the visual properties from the style template and insert them into the new knowledge graph. (This works because both graphs have the same node and edge properties.)
+
+```python
+factory = RawCX2NetworkFactory()
+path_to_style_network = os.path.join(os.path.dirname(cellmaps_vnn.__file__), 'my_style_template.cx2')
+style_network = factory.get_cx2network(path_to_style_network)
+vis_prop = style_network.get_visual_properties()
+my_network.set_visual_properties(vis_prop)
+my_network.write_as_raw_cx2(my_network_restyled_path)
+```
 
 ## Expected Output
 
