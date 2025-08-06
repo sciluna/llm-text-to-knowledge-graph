@@ -245,15 +245,18 @@ main(
 
 ## Notes
 
-- The default style file is located at `<repo_root>/data/cx_style.json`. You can override this with the `--style_path` parameter.
 - Make sure your input files exist and that your API key is valid.
 - The package logs detailed processing steps and total runtime for batch processing.
 - You may need to run this `python -m nltk.downloader stopwords` to download the NLTK stopwords corpus if you encounter issues with text processing.
 
 ## How to change the style of the knowledge graphs
-To change them one at a time, just edit the style in Cytoscape Web or Cytoscape Desktop
-
-But if you want to have your code output them in a custom style, there is an easy way to do it. You take one knowledge graph, edit its style, and save it to your filesystem *to use as a style template*. You then add a step to your output pipeline, as shown in the following code example. You extract the visual properties from the style template and insert them into the new knowledge graph. (This works because both graphs have the same node and edge properties.)
+- To change them one at a time, just edit the style in Cytoscape Web or Cytoscape Desktop
+- The default style file is located at `<repo_root>/data/cx_style.json`. You can copy and edit this to make your own style file. Then override the default using the `--style_path` parameter.
+- An alternative way to do it is to use a network as a style template.
+  - You take one knowledge graph, edit its style, and save it to your filesystem.
+  - You then add a step to your output pipeline, as shown in the following code example.
+  - You extract the visual properties from the style template and insert them into the knowledge graph. (This works because both graphs have the same node and edge properties.)
+  - Note that this method uses the CX2 file format.
 
 ```python
 factory = RawCX2NetworkFactory()
