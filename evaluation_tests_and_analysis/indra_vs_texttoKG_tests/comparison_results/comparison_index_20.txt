@@ -1,0 +1,32 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 20
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     2
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      2
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (2 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: TLR4 recognizes lipopolysaccharide (LPS) from Gram-negative bacteria in complex with the coreceptors...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    complex(p(HGNC:TLR4), a(CHEBI:lipopolysaccharide), p(HGNC:F2), p(HGNC:CD14))
+
+Evidence: This results in an immediate activation of nuclear factor kappaB (NF-kappaB) and production of proin...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:TLR4) directlyIncreases act(p(FPLX:NFkappaB))
+
+================================================================================

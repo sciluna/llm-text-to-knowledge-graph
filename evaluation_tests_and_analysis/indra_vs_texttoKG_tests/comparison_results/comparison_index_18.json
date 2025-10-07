@@ -1,0 +1,106 @@
+{
+  "index": "18",
+  "n_evidence_texts": 3,
+  "evidence_results": {
+    "Activation of complement also increased the influx of macrophages.": {
+      "llm_statements": [
+        "act(p(HGNC:C3)) increases bp(GO:\"macrophage infiltration\")"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:C3)) increases bp(GO:\"macrophage infiltration\")",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site, while no deposition was seen on sham-operated animals (no partial ligation).": {
+      "llm_statements": [
+        "act(p(HGNC:C3)) increases a(HGNC:C3)"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:C3)) increases a(HGNC:C3)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "Li and coworkers demonstrated that partial sciatic nerve ligation activated complement.": {
+      "llm_statements": [
+        "act(p(HGNC:C3)) increases bp(GO:\"complement activation\")"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:C3)) increases bp(GO:\"complement activation\")",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 3,
+    "total_indra_statements": 0,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 3,
+    "total_indra_only": 0,
+    "llm_precision": 0.0,
+    "indra_precision": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "total_indices": 17,
+  "total_evidence_texts": 38,
+  "total_llm_statements": 62,
+  "total_indra_statements": 27,
+  "total_exact_matches": 0,
+  "total_core_matches": 8,
+  "total_llm_only": 54,
+  "total_indra_only": 19,
+  "indices_with_matches": 4,
+  "indices_with_exact_matches": 0,
+  "indices_with_core_matches": 4,
+  "core_match_score_distribution": {
+    "0.8": 7,
+    "0.55": 1
+  },
+  "core_match_details": {
+    "modification_match": 6,
+    "activity_match": 2,
+    "relationship_compatible": 8
+  },
+  "llm_precision": 0.12903225806451613,
+  "indra_precision": 0.2962962962962963
+}

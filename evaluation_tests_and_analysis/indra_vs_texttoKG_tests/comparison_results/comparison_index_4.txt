@@ -1,0 +1,51 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 4
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     5
+  Total INDRA statements:   2
+  Exact matches:            0
+  Core matches:             2
+  LLM-only statements:      3
+  INDRA-only statements:    0
+  LLM precision:            40.00%
+  INDRA precision:          100.00%
+
+EVIDENCE-LEVEL BREAKDOWN (4 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no s...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:AKT2)) increases act(p(HGNC:HSF1))
+
+Evidence: Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for p...
+  LLM statements: 2, INDRA statements: 2
+  Exact matches: 0, Core matches: 2
+  LLM-only: 0, INDRA-only: 0
+  Core matches (entities match, details differ):
+    LLM:   act(p(HGNC:AKT2), ma(GO:"kinase activity")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))
+    INDRA: p(HGNC:392 ! AKT2) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! "protein phosphorylation", Ser, 326))
+    Score: 0.80
+    LLM:   act(p(HGNC:AKT1), ma(GO:"kinase activity")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))
+    INDRA: p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! "protein phosphorylation", Ser, 326))
+    Score: 0.80
+
+Evidence: Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C).
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))
+
+Evidence: We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 ...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:AKT1), ma(GO:"kinase activity")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))
+
+================================================================================

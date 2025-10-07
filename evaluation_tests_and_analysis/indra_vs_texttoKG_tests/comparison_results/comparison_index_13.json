@@ -1,0 +1,106 @@
+{
+  "index": "13",
+  "n_evidence_texts": 2,
+  "evidence_results": {
+    "Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with different dynamics (Iqbal and Zaidi,)": {
+      "llm_statements": [
+        "p(HGNC:TNF) increases p(FPLX:NFkappaB)"
+      ],
+      "indra_statements": [
+        "p(HGNC:11892 ! TNF) increases p(FPLX:NFkappaB ! NFkappaB)",
+        "p(HGNC:11892 ! TNF) increases p(FPLX:JNK ! JNK)"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [
+          {
+            "llm_statement": "p(HGNC:TNF) increases p(FPLX:NFkappaB)",
+            "indra_statement": "p(HGNC:11892 ! TNF) increases p(FPLX:NFkappaB ! NFkappaB)",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": false,
+              "activity_match": true,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          }
+        ],
+        "llm_only": [],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:11892 ! TNF) increases p(FPLX:JNK ! JNK)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 2,
+        "n_exact_matches": 0,
+        "n_core_matches": 1,
+        "n_llm_only": 0,
+        "n_indra_only": 1,
+        "llm_recall": 1.0,
+        "indra_recall": 0.5
+      }
+    },
+    "NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by many genetic in vivo models, in which deficiency of central pathway constituents, such as TAK1, IKKss, and IKKgamma induced massive hepatocellular cell death (Luedde and Schwabe,).": {
+      "llm_statements": [
+        "p(HGNC:MAP3K7) decreases bp(GO:\"apoptotic process\")",
+        "p(HGNC:IKBKG) decreases bp(GO:\"apoptotic process\")"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:MAP3K7) decreases bp(GO:\"apoptotic process\")",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:IKBKG) decreases bp(GO:\"apoptotic process\")",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 2,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 2,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 3,
+    "total_indra_statements": 2,
+    "total_exact_matches": 0,
+    "total_core_matches": 1,
+    "total_llm_only": 2,
+    "total_indra_only": 1,
+    "llm_precision": 0.3333333333333333,
+    "indra_precision": 0.5
+  }
+}

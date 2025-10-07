@@ -1,0 +1,102 @@
+{
+  "index": "11",
+  "n_evidence_texts": 2,
+  "evidence_results": {
+    "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.": {
+      "llm_statements": [
+        "act(p(HGNC:DYRK1A), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))",
+        "act(p(HGNC:DYRK3), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))"
+      ],
+      "indra_statements": [
+        "p(HGNC:14929 ! SIRT1) directlyDecreases p(HGNC:11998 ! TP53, pmod(go:0006473 ! \"protein acetylation\"))"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:DYRK1A), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:DYRK3), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:14929 ! SIRT1) directlyDecreases p(HGNC:11998 ! TP53, pmod(go:0006473 ! \"protein acetylation\"))",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 2,
+        "n_indra_statements": 1,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 2,
+        "n_indra_only": 1,
+        "llm_recall": 0.0,
+        "indra_recall": 0.0
+      }
+    },
+    "Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress.": {
+      "llm_statements": [
+        "act(p(HGNC:SUMO1), ma(GO:\"SUMO transferase activity\")) directlyIncreases act(p(HGNC:SIRT1))",
+        "act(p(HGNC:SENP1), ma(GO:\"protein desumoylation\")) directlyDecreases act(p(HGNC:SIRT1))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:SUMO1), ma(GO:\"SUMO transferase activity\")) directlyIncreases act(p(HGNC:SIRT1))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SENP1), ma(GO:\"protein desumoylation\")) directlyDecreases act(p(HGNC:SIRT1))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 2,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 2,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 4,
+    "total_indra_statements": 1,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 4,
+    "total_indra_only": 1,
+    "llm_precision": 0.0,
+    "indra_precision": 0.0
+  }
+}

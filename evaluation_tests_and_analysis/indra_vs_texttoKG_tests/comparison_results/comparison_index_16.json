@@ -1,0 +1,106 @@
+{
+  "index": "16",
+  "n_evidence_texts": 3,
+  "evidence_results": {
+    "Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave another complement protein, C4 into the anaphylatoxin C4a and C4b.": {
+      "llm_statements": [
+        "complex(p(FPLX:C1q), p(HGNC:C1R), p(HGNC:C1R), p(HGNC:C1S), p(HGNC:C1S)) directlyIncreases act(p(HGNC:C4A), ma(GO:\"serine-type endopeptidase activity\"))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "complex(p(FPLX:C1q), p(HGNC:C1R), p(HGNC:C1R), p(HGNC:C1S), p(HGNC:C1S)) directlyIncreases act(p(HGNC:C4A), ma(GO:\"serine-type endopeptidase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphylatoxin C3a and the active form of C3, C3b, which is then able to covalently bind to the cell surfaces.": {
+      "llm_statements": [
+        "complex(p(HGNC:C4B), p(HGNC:C2)) directlyIncreases act(p(HGNC:C3), ma(GO:\"serine-type endopeptidase activity\"))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "complex(p(HGNC:C4B), p(HGNC:C2)) directlyIncreases act(p(HGNC:C3), ma(GO:\"serine-type endopeptidase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell surfaces and bind another complement protein, C2.": {
+      "llm_statements": [
+        "p(HGNC:C4B) directlyIncreases complex(p(HGNC:C4B), p(HGNC:C2))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:C4B) directlyIncreases complex(p(HGNC:C4B), p(HGNC:C2))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 3,
+    "total_indra_statements": 0,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 3,
+    "total_indra_only": 0,
+    "llm_precision": 0.0,
+    "indra_precision": 0
+  }
+}

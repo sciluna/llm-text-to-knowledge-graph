@@ -1,0 +1,46 @@
+{
+  "index": "17",
+  "n_evidence_texts": 1,
+  "evidence_results": {
+    "Once bound to see C3b, factor H serves as a co-factor, allowing another compliment protein, factor I, to cleave C3b, thus inactivating it.": {
+      "llm_statements": [
+        "p(HGNC:CFH) directlyIncreases a(CHEBI:cofactor)"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:CFH) directlyIncreases a(CHEBI:cofactor)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 1,
+    "total_indra_statements": 0,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 1,
+    "total_indra_only": 0,
+    "llm_precision": 0.0,
+    "indra_precision": 0
+  }
+}

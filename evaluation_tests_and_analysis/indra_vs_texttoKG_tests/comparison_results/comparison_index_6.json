@@ -1,0 +1,164 @@
+{
+  "index": "6",
+  "n_evidence_texts": 3,
+  "evidence_results": {
+    "Introduction of AKT1 was observed to promote a significant increase in trimerization, although the AKT1-driven trimerization was not as much as heat stress (Fig. 2A-B).": {
+      "llm_statements": [
+        "p(HGNC:AKT1) increases complex(p(HGNC:HSF1))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:AKT1) increases complex(p(HGNC:HSF1))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets HSPA1A (HSP70), HSPA8 (HSP73) and HSPD1 (HSP60), whereas AKT2 and AKT3 had no significant effect on HSF1 binding (Fig. 2C).": {
+      "llm_statements": [
+        "p(HGNC:AKT1) increases p(HGNC:HSF1)"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:AKT1) increases p(HGNC:HSF1)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed expression of HSP70 and HSP90, well-known HSF1 target genes, in response to expression of AKT1, AKT2 or AKT3. Both HSP70 and HSP70 expression were seen to increase more in response to AKT1 than other isoforms (Fig. 2D-E).": {
+      "llm_statements": [
+        "p(HGNC:AKT1) increases r(HGNC:HSPA1A)",
+        "p(HGNC:AKT1) increases r(HGNC:HSPA8)"
+      ],
+      "indra_statements": [
+        "p(HGNC:392 ! AKT2) increases p(FPLX:HSP90 ! HSP90)",
+        "p(HGNC:392 ! AKT2) increases p(FPLX:HSPA ! HSPA)",
+        "p(HGNC:391 ! AKT1) increases p(FPLX:HSP90 ! HSP90)",
+        "p(HGNC:391 ! AKT1) increases p(FPLX:HSPA ! HSPA)",
+        "p(HGNC:393 ! AKT3) increases p(FPLX:HSP90 ! HSP90)",
+        "p(HGNC:393 ! AKT3) increases p(FPLX:HSPA ! HSPA)"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:AKT1) increases r(HGNC:HSPA1A)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:AKT1) increases r(HGNC:HSPA8)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:392 ! AKT2) increases p(FPLX:HSP90 ! HSP90)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:392 ! AKT2) increases p(FPLX:HSPA ! HSPA)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:391 ! AKT1) increases p(FPLX:HSP90 ! HSP90)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:391 ! AKT1) increases p(FPLX:HSPA ! HSPA)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:393 ! AKT3) increases p(FPLX:HSP90 ! HSP90)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:393 ! AKT3) increases p(FPLX:HSPA ! HSPA)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 2,
+        "n_indra_statements": 6,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 2,
+        "n_indra_only": 6,
+        "llm_recall": 0.0,
+        "indra_recall": 0.0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 4,
+    "total_indra_statements": 6,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 4,
+    "total_indra_only": 6,
+    "llm_precision": 0.0,
+    "indra_precision": 0.0
+  }
+}

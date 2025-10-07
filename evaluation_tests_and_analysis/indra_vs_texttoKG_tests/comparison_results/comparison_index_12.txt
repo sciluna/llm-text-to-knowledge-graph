@@ -1,0 +1,52 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 12
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     16
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      16
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (3 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferase...
+  LLM statements: 8, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 8, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:SIRT1), ma(GO:"deacetylase activity"))
+    act(p(HGNC:SIRT5), ma(GO:"deacetylase activity"))
+    act(p(HGNC:SIRT4), ma(GO:"ADP-ribosyltransferase activity"))
+    act(p(HGNC:SIRT6), ma(GO:"ADP-ribosyltransferase activity"))
+    act(p(HGNC:SIRT2), ma(GO:"deacetylase activity"))
+    act(p(HGNC:SIRT2), ma(GO:"ADP-ribosyltransferase activity"))
+    act(p(HGNC:SIRT3), ma(GO:"deacetylase activity"))
+    act(p(HGNC:SIRT3), ma(GO:"ADP-ribosyltransferase activity"))
+
+Evidence: This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in man...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:SIRT1), ma(GO:"deacetylase activity"))
+
+Evidence: Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in...
+  LLM statements: 7, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 7, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:SIRT1) loc(GO:nucleus)
+    p(HGNC:SIRT6) loc(GO:nucleus)
+    p(HGNC:SIRT7) loc(GO:nucleus)
+    p(HGNC:SIRT2) loc(GO:cytoplasm)
+    p(HGNC:SIRT3) loc(GO:mitochondrion)
+    p(HGNC:SIRT4) loc(GO:mitochondrion)
+    p(HGNC:SIRT5) loc(GO:mitochondrion)
+
+================================================================================

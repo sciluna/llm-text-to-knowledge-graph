@@ -1,0 +1,169 @@
+{
+  "index": "4",
+  "n_evidence_texts": 4,
+  "evidence_results": {
+    "AKT2 promoted a significant increase in HSF1 activity, but the effect was modest while AKT3 had no significant effect on HSF1 activity (Fig. 1A-C).": {
+      "llm_statements": [
+        "act(p(HGNC:AKT2)) increases act(p(HGNC:HSF1))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:AKT2)) increases act(p(HGNC:HSF1))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "Both AKT1 and AKT2 phosphorylated S326 of HSF1 at similar levels but AKT3 showed no capability for phosphorylating S326 (Fig. 1D).": {
+      "llm_statements": [
+        "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+        "act(p(HGNC:AKT2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))"
+      ],
+      "indra_statements": [
+        "p(HGNC:392 ! AKT2) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))",
+        "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [
+          {
+            "llm_statement": "act(p(HGNC:AKT2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": "p(HGNC:392 ! AKT2) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": true,
+              "activity_match": false,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          },
+          {
+            "llm_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": true,
+              "activity_match": false,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          }
+        ],
+        "llm_only": [],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 2,
+        "n_indra_statements": 2,
+        "n_exact_matches": 0,
+        "n_core_matches": 2,
+        "n_llm_only": 0,
+        "n_indra_only": 0,
+        "llm_recall": 1.0,
+        "indra_recall": 1.0
+      }
+    },
+    "Consistent with our previous findings, AKT1 strongly induced HSF1 activity (Fig. 1A-C).": {
+      "llm_statements": [
+        "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:AKT1)) directlyIncreases act(p(HGNC:HSF1))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "We previously identified AKT1 as an upstream regulator of HSF1 activity via phosphorylation of HSF1 at S326.": {
+      "llm_statements": [
+        "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 5,
+    "total_indra_statements": 2,
+    "total_exact_matches": 0,
+    "total_core_matches": 2,
+    "total_llm_only": 3,
+    "total_indra_only": 0,
+    "llm_precision": 0.4,
+    "indra_precision": 1.0
+  }
+}

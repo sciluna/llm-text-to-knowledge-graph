@@ -1,0 +1,210 @@
+{
+  "index": "12",
+  "n_evidence_texts": 3,
+  "evidence_results": {
+    "SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT7.": {
+      "llm_statements": [
+        "act(p(HGNC:SIRT1), ma(GO:\"deacetylase activity\"))",
+        "act(p(HGNC:SIRT5), ma(GO:\"deacetylase activity\"))",
+        "act(p(HGNC:SIRT4), ma(GO:\"ADP-ribosyltransferase activity\"))",
+        "act(p(HGNC:SIRT6), ma(GO:\"ADP-ribosyltransferase activity\"))",
+        "act(p(HGNC:SIRT2), ma(GO:\"deacetylase activity\"))",
+        "act(p(HGNC:SIRT2), ma(GO:\"ADP-ribosyltransferase activity\"))",
+        "act(p(HGNC:SIRT3), ma(GO:\"deacetylase activity\"))",
+        "act(p(HGNC:SIRT3), ma(GO:\"ADP-ribosyltransferase activity\"))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:SIRT1), ma(GO:\"deacetylase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SIRT5), ma(GO:\"deacetylase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SIRT4), ma(GO:\"ADP-ribosyltransferase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SIRT6), ma(GO:\"ADP-ribosyltransferase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SIRT2), ma(GO:\"deacetylase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SIRT2), ma(GO:\"ADP-ribosyltransferase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SIRT3), ma(GO:\"deacetylase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:SIRT3), ma(GO:\"ADP-ribosyltransferase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 8,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 8,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD+-dependent protein deacetylase.": {
+      "llm_statements": [
+        "act(p(HGNC:SIRT1), ma(GO:\"deacetylase activity\"))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:SIRT1), ma(GO:\"deacetylase activity\"))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria.": {
+      "llm_statements": [
+        "p(HGNC:SIRT1) loc(GO:nucleus)",
+        "p(HGNC:SIRT6) loc(GO:nucleus)",
+        "p(HGNC:SIRT7) loc(GO:nucleus)",
+        "p(HGNC:SIRT2) loc(GO:cytoplasm)",
+        "p(HGNC:SIRT3) loc(GO:mitochondrion)",
+        "p(HGNC:SIRT4) loc(GO:mitochondrion)",
+        "p(HGNC:SIRT5) loc(GO:mitochondrion)"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:SIRT1) loc(GO:nucleus)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:SIRT6) loc(GO:nucleus)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:SIRT7) loc(GO:nucleus)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:SIRT2) loc(GO:cytoplasm)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:SIRT3) loc(GO:mitochondrion)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:SIRT4) loc(GO:mitochondrion)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "p(HGNC:SIRT5) loc(GO:mitochondrion)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 7,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 7,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 16,
+    "total_indra_statements": 0,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 16,
+    "total_indra_only": 0,
+    "llm_precision": 0.0,
+    "indra_precision": 0
+  }
+}

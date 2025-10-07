@@ -1,0 +1,150 @@
+{
+  "index": "19",
+  "n_evidence_texts": 3,
+  "evidence_results": {
+    "In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction of interferon beta (IFNbeta) and for killing of Gram-negative bacteria by human macrophages.": {
+      "llm_statements": [
+        "p(HGNC:SLAMF1) directlyIncreases p(HGNC:TLR4)"
+      ],
+      "indra_statements": [
+        "p(HGNC:11850 ! TLR4) increases p(HGNC:5434 ! IFNB1)",
+        "p(HGNC:11850 ! TLR4) increases p(HGNC:11850 ! TLR4)",
+        "p(HGNC:11850 ! TLR4) increases p(FPLX:IFNB ! IFNB)"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:SLAMF1) directlyIncreases p(HGNC:TLR4)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:11850 ! TLR4) increases p(HGNC:5434 ! IFNB1)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:11850 ! TLR4) increases p(HGNC:11850 ! TLR4)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:11850 ! TLR4) increases p(FPLX:IFNB ! IFNB)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 3,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 3,
+        "llm_recall": 0.0,
+        "indra_recall": 0.0
+      }
+    },
+    "We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the endocytic recycling compartment (ERC) to Escherichia coli phagosomes.": {
+      "llm_statements": [
+        "p(HGNC:SLAMF1) directlyIncreases p(HGNC:TICAM2)"
+      ],
+      "indra_statements": [
+        "p(HGNC:10903 ! SLAMF1) partOf complex(p(HGNC:10903 ! SLAMF1), p(HGNC:20568 ! TRAM1))",
+        "p(HGNC:20568 ! TRAM1) partOf complex(p(HGNC:10903 ! SLAMF1), p(HGNC:20568 ! TRAM1))"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:SLAMF1) directlyIncreases p(HGNC:TICAM2)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:10903 ! SLAMF1) partOf complex(p(HGNC:10903 ! SLAMF1), p(HGNC:20568 ! TRAM1))",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:20568 ! TRAM1) partOf complex(p(HGNC:10903 ! SLAMF1), p(HGNC:20568 ! TRAM1))",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 2,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 2,
+        "llm_recall": 0.0,
+        "indra_recall": 0.0
+      }
+    },
+    "We found that endogenous SLAMF1 protein interacted with TRAM and defined key interaction domains as amino acids 68 to 95 of TRAM as well as 15 C-terminal amino acids of SLAMF1.": {
+      "llm_statements": [
+        "complex(p(HGNC:SLAMF1), p(HGNC:TICAM2))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "complex(p(HGNC:SLAMF1), p(HGNC:TICAM2))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 3,
+    "total_indra_statements": 5,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 3,
+    "total_indra_only": 5,
+    "llm_precision": 0.0,
+    "indra_precision": 0.0
+  }
+}

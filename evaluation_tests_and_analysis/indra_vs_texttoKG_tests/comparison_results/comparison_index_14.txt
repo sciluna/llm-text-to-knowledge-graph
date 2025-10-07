@@ -1,0 +1,28 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 14
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     1
+  Total INDRA statements:   2
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      1
+  INDRA-only statements:    2
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (1 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associa...
+  LLM statements: 1, INDRA statements: 2
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 2
+  LLM-only statements (INDRA missed these):
+    p(HGNC:TNF) increases bp(GO:hepatocyte proliferation)
+  INDRA-only statements (LLM missed these):
+    p(HGNC:11892 ! TNF) increases bp(GO:"GO:0007165" ! "signal transduction")
+    p(HGNC:11892 ! TNF) increases p(FPLX:NFkappaB ! NFkappaB)
+
+================================================================================

@@ -1,0 +1,227 @@
+{
+  "index": "3",
+  "n_evidence_texts": 4,
+  "evidence_results": {
+    "AKT2 also phosphorylated S326 of HSF1 but showed weak ability to activate HSF1.": {
+      "llm_statements": [
+        "act(p(HGNC:AKT2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))"
+      ],
+      "indra_statements": [
+        "p(HGNC:392 ! AKT2) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [
+          {
+            "llm_statement": "act(p(HGNC:AKT2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": "p(HGNC:392 ! AKT2) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": true,
+              "activity_match": false,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          }
+        ],
+        "llm_only": [],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 1,
+        "n_exact_matches": 0,
+        "n_core_matches": 1,
+        "n_llm_only": 0,
+        "n_indra_only": 0,
+        "llm_recall": 1.0,
+        "indra_recall": 1.0
+      }
+    },
+    "Mass spectrometry showed that AKT1 also phosphorylated HSF1 at T142, S230 and T527 in addition to S326, whereas the other kinases did not.": {
+      "llm_statements": [
+        "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+        "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 230))",
+        "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 527))"
+      ],
+      "indra_statements": [
+        "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Thr, 527))",
+        "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))",
+        "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Thr, 142))",
+        "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 230))"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [
+          {
+            "llm_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 527))",
+            "indra_statement": "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Thr, 527))",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": true,
+              "activity_match": false,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          },
+          {
+            "llm_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 230))",
+            "indra_statement": "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 230))",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": true,
+              "activity_match": false,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          },
+          {
+            "llm_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Thr, 142))",
+            "indra_statement": "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Thr, 142))",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": true,
+              "activity_match": false,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          }
+        ],
+        "llm_only": [],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:391 ! AKT1) directlyIncreases p(HGNC:5224 ! HSF1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 326))",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 3,
+        "n_indra_statements": 4,
+        "n_exact_matches": 0,
+        "n_core_matches": 3,
+        "n_llm_only": 0,
+        "n_indra_only": 1,
+        "llm_recall": 1.0,
+        "indra_recall": 0.75
+      }
+    },
+    "Phosphorylation at S326 is mediated by AKT1, mTOR, p38, MEK1 and DYRK2.": {
+      "llm_statements": [
+        "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:AKT1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "Similarly, mTOR, p38, MEK1 and DYRK2 all phosphorylated S326 but AKT1 was the most potent activator.": {
+      "llm_statements": [
+        "act(p(HGNC:MTOR), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+        "act(p(HGNC:MAP2K1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+        "act(p(HGNC:DYRK2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "act(p(HGNC:MTOR), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:MAP2K1), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "act(p(HGNC:DYRK2), ma(GO:\"kinase activity\")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 3,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 3,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 8,
+    "total_indra_statements": 5,
+    "total_exact_matches": 0,
+    "total_core_matches": 4,
+    "total_llm_only": 4,
+    "total_indra_only": 1,
+    "llm_precision": 0.5,
+    "indra_precision": 0.8
+  }
+}

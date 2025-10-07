@@ -1,0 +1,27 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 8
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     3
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      3
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (1 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synt...
+  LLM statements: 3, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 3, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    a(CHEBI:celastrol) decreases p(HGNC:NOS2)
+    a(CHEBI:celastrol) decreases act(a(CHEBI:NADPH))
+    a(CHEBI:celastrol) decreases act(p(HGNC:JAK2))
+
+================================================================================

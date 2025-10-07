@@ -1,0 +1,46 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 19
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     3
+  Total INDRA statements:   5
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      3
+  INDRA-only statements:    5
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (3 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: In this study, we report that SLAMF1 is required for Toll-like receptor 4 (TLR4)-mediated induction ...
+  LLM statements: 1, INDRA statements: 3
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 3
+  LLM-only statements (INDRA missed these):
+    p(HGNC:SLAMF1) directlyIncreases p(HGNC:TLR4)
+  INDRA-only statements (LLM missed these):
+    p(HGNC:11850 ! TLR4) increases p(HGNC:5434 ! IFNB1)
+    p(HGNC:11850 ! TLR4) increases p(HGNC:11850 ! TLR4)
+    p(HGNC:11850 ! TLR4) increases p(FPLX:IFNB ! IFNB)
+
+Evidence: We found that SLAMF1 controls trafficking of the Toll receptor-associated molecule (TRAM) from the e...
+  LLM statements: 1, INDRA statements: 2
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 2
+  LLM-only statements (INDRA missed these):
+    p(HGNC:SLAMF1) directlyIncreases p(HGNC:TICAM2)
+  INDRA-only statements (LLM missed these):
+    p(HGNC:10903 ! SLAMF1) partOf complex(p(HGNC:10903 ! SLAMF1), p(HGNC:20568 ! TRAM1))
+    p(HGNC:20568 ! TRAM1) partOf complex(p(HGNC:10903 ! SLAMF1), p(HGNC:20568 ! TRAM1))
+
+Evidence: We found that endogenous SLAMF1 protein interacted with TRAM and defined key interaction domains as ...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    complex(p(HGNC:SLAMF1), p(HGNC:TICAM2))
+
+================================================================================

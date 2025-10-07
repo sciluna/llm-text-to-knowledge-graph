@@ -1,0 +1,35 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 5
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     2
+  Total INDRA statements:   2
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      2
+  INDRA-only statements:    2
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (2 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: AKT1 is also a well-known activator of mTOR and mTOR has been shown to phosphorylate HSF1 at S326 in...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:MTOR), ma(GO:"kinase activity")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))
+
+Evidence: These results seem contradictory because AKT2 phosphorylated S326, but the level of phosphorylation ...
+  LLM statements: 1, INDRA statements: 2
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 2
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:AKT2), ma(GO:"kinase activity")) directlyIncreases p(HGNC:HSF1, pmod(Ph, Ser, 326))
+  INDRA-only statements (LLM missed these):
+    p(HGNC:392 ! AKT2) increases p(HGNC:5224 ! HSF1)
+    a(TEXT:"Fig. 1A-D") increases p(HGNC:5224 ! HSF1)
+
+================================================================================

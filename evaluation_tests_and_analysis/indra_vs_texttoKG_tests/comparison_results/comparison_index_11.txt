@@ -1,0 +1,36 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 11
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     4
+  Total INDRA statements:   1
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      4
+  INDRA-only statements:    1
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (2 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deace...
+  LLM statements: 2, INDRA statements: 1
+  Exact matches: 0, Core matches: 0
+  LLM-only: 2, INDRA-only: 1
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:DYRK1A), ma(GO:"kinase activity")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))
+    act(p(HGNC:DYRK3), ma(GO:"kinase activity")) directlyIncreases p(HGNC:SIRT1, pmod(Ph, Thr, 522))
+  INDRA-only statements (LLM missed these):
+    p(HGNC:14929 ! SIRT1) directlyDecreases p(HGNC:11998 ! TP53, pmod(go:0006473 ! "protein acetylation"))
+
+Evidence: Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SI...
+  LLM statements: 2, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 2, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    act(p(HGNC:SUMO1), ma(GO:"SUMO transferase activity")) directlyIncreases act(p(HGNC:SIRT1))
+    act(p(HGNC:SENP1), ma(GO:"protein desumoylation")) directlyDecreases act(p(HGNC:SIRT1))
+
+================================================================================

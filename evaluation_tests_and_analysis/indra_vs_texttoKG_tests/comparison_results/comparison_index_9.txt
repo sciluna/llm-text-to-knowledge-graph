@@ -1,0 +1,25 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 9
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     1
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      1
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (1 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: The second phase, excision of a short DNA strand segment containing the lesion, is carried out by an...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    complex(p(HGNC:ERCC5), p(HGNC:ERCC4), p(HGNC:ERCC1), p(HGNC:XPA), p(HGNC:GTF2H3), p(HGNC:PCNA))
+
+================================================================================
