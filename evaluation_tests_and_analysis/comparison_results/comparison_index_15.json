@@ -1,0 +1,136 @@
+{
+  "index": "15",
+  "n_evidence_texts": 4,
+  "evidence_results": {
+    "A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation (Won et al.,).": {
+      "llm_statements": [
+        "p(HGNC:TNFAIP3) directlyDecreases act(p(HGNC:MAP3K5))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:TNFAIP3) directlyDecreases act(p(HGNC:MAP3K5))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of ASK1 degradation.": {
+      "llm_statements": [],
+      "indra_statements": [
+        "p(FPLX:JNK ! JNK) increases p(HGNC:11892 ! TNF)"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(FPLX:JNK ! JNK) increases p(HGNC:11892 ! TNF)",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 0,
+        "n_indra_statements": 1,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 0,
+        "n_indra_only": 1,
+        "llm_recall": 0,
+        "indra_recall": 0.0
+      }
+    },
+    "ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated (Tobiume et al.,; Won et al.,).": {
+      "llm_statements": [
+        "p(HGNC:MAP3K5) directlyIncreases act(p(FPLX:JNK))"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "p(HGNC:MAP3K5) directlyIncreases act(p(FPLX:JNK))",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 1,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    },
+    "ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated.": {
+      "llm_statements": [],
+      "indra_statements": [
+        "p(HGNC:6857 ! MAP3K5) directlyIncreases p(FPLX:JNK ! JNK, pmod(go:0006468 ! \"protein phosphorylation\"))"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:6857 ! MAP3K5) directlyIncreases p(FPLX:JNK ! JNK, pmod(go:0006468 ! \"protein phosphorylation\"))",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 0,
+        "n_indra_statements": 1,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 0,
+        "n_indra_only": 1,
+        "llm_recall": 0,
+        "indra_recall": 0.0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 2,
+    "total_indra_statements": 2,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 2,
+    "total_indra_only": 2,
+    "llm_precision": 0.0,
+    "indra_precision": 0.0
+  }
+}

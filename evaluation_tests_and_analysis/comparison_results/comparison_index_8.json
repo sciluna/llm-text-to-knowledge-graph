@@ -1,0 +1,78 @@
+{
+  "index": "8",
+  "n_evidence_texts": 1,
+  "evidence_results": {
+    "Effects of tripterine were investigated on endothelial barrier function, inducible nitric oxide synthase (iNOS) expression, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, 3-nitrotyrosine formation, protein phosphatase type 2A (PP2A) activity, activation of extracellular-regulated kinase (ERK), c-Jun terminal kinase (JNK) and Janus kinase (Jak2), and degradation of IkB in microvascular endothelial cells exposed to pro-inflammatory stimulus [lipopolysaccharide (LPS) + interferon g (IFNg)] and on vascular permeability in air pouches of mice injected with LPS + IFNg.": {
+      "llm_statements": [
+        "a(CHEBI:celastrol) decreases p(HGNC:NOS2)",
+        "a(CHEBI:celastrol) decreases act(FPLX:PPP2)",
+        "a(CHEBI:celastrol) decreases act(FPLX:ERK)",
+        "a(CHEBI:celastrol) decreases act(FPLX:JNK)",
+        "a(CHEBI:celastrol) decreases act(HGNC:JAK2)"
+      ],
+      "indra_statements": [],
+      "matches": {
+        "exact": [],
+        "core": [],
+        "llm_only": [
+          {
+            "llm_statement": "a(CHEBI:celastrol) decreases p(HGNC:NOS2)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "a(CHEBI:celastrol) decreases act(FPLX:PPP2)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "a(CHEBI:celastrol) decreases act(FPLX:ERK)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "a(CHEBI:celastrol) decreases act(FPLX:JNK)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          },
+          {
+            "llm_statement": "a(CHEBI:celastrol) decreases act(HGNC:JAK2)",
+            "indra_statement": null,
+            "match_type": "llm_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ],
+        "indra_only": []
+      },
+      "summary": {
+        "n_llm_statements": 5,
+        "n_indra_statements": 0,
+        "n_exact_matches": 0,
+        "n_core_matches": 0,
+        "n_llm_only": 5,
+        "n_indra_only": 0,
+        "llm_recall": 0.0,
+        "indra_recall": 0
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 5,
+    "total_indra_statements": 0,
+    "total_exact_matches": 0,
+    "total_core_matches": 0,
+    "total_llm_only": 5,
+    "total_indra_only": 0,
+    "llm_precision": 0.0,
+    "indra_precision": 0
+  }
+}

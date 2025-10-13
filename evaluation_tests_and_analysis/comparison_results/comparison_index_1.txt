@@ -1,0 +1,25 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 1
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     1
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      1
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (1 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: Recently, metformin, the most widely used first-line drug for diabetes, was found to contain a carci...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    a(CHEBI:metformin) hasComponent a(CHEBI:N,N-dimethyl-4-nitrosoaniline)
+
+================================================================================

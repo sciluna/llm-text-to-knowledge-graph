@@ -1,0 +1,40 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 18
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     4
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      4
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (3 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: After ligation, C3 deposition was seen at the injury site, as well as in areas near the injury site,...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    a(GO:"complement activation") increases a(HGNC:C3)
+
+Evidence: Injection of IgG, which also activates complement, into the paws of rats caused neuropathic pain sym...
+  LLM statements: 2, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 2, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    a(GO:"IgG immunoglobulin complex") increases a(GO:"complement activation")
+    a(GO:"complement activation") increases a(EFO:neuropathic pain)
+
+Evidence: These rats also showed less C3 deposition and macrophage influx.
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    a(GO:"complement activation") increases a(HGNC:C3)
+
+================================================================================

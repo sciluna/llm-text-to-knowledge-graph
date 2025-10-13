@@ -1,0 +1,38 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 13
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     3
+  Total INDRA statements:   2
+  Exact matches:            0
+  Core matches:             1
+  LLM-only statements:      2
+  INDRA-only statements:    1
+  LLM precision:            33.33%
+  INDRA precision:          50.00%
+
+EVIDENCE-LEVEL BREAKDOWN (2 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: Interestingly, previous experiments demonstrated that TNF activated NF-kappaB and JNK signaling with...
+  LLM statements: 1, INDRA statements: 2
+  Exact matches: 0, Core matches: 1
+  LLM-only: 0, INDRA-only: 1
+  Core matches (entities match, details differ):
+    LLM:   act(p(HGNC:TNF)) increases act(FPLX:NFkappaB)
+    INDRA: p(HGNC:11892 ! TNF) increases p(FPLX:NFkappaB ! NFkappaB)
+    Score: 0.80
+      → Modifications differ
+  INDRA-only statements (LLM missed these):
+    p(HGNC:11892 ! TNF) increases p(FPLX:JNK ! JNK)
+
+Evidence: NF-kappaB signaling exerts anti-apoptotic and cyto-protective properties, which is illustrated by ma...
+  LLM statements: 2, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 2, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:MAP3K7) decreases bp(GO:"apoptotic process")
+    p(HGNC:IKBKG) decreases bp(GO:"apoptotic process")
+
+================================================================================

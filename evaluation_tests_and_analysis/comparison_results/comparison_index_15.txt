@@ -1,0 +1,46 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 15
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     2
+  Total INDRA statements:   2
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      2
+  INDRA-only statements:    2
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (4 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of AS...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:TNFAIP3) directlyDecreases act(p(HGNC:MAP3K5))
+
+Evidence: A20 suppresses apoptotic JNK signaling in a TNF-dependent and independent manner via induction of AS...
+  LLM statements: 0, INDRA statements: 1
+  Exact matches: 0, Core matches: 0
+  LLM-only: 0, INDRA-only: 1
+  INDRA-only statements (LLM missed these):
+    p(FPLX:JNK ! JNK) increases p(HGNC:11892 ! TNF)
+
+Evidence: ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated (...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:MAP3K5) directlyIncreases act(p(FPLX:JNK))
+
+Evidence: ASK1 can phosphorylate JNK and the physical interaction between A20 and ASK1 has been demonstrated.
+  LLM statements: 0, INDRA statements: 1
+  Exact matches: 0, Core matches: 0
+  LLM-only: 0, INDRA-only: 1
+  INDRA-only statements (LLM missed these):
+    p(HGNC:6857 ! MAP3K5) directlyIncreases p(FPLX:JNK ! JNK, pmod(go:0006468 ! "protein phosphorylation"))
+
+================================================================================

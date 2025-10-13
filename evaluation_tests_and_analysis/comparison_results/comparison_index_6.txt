@@ -1,0 +1,51 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 6
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     3
+  Total INDRA statements:   6
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      3
+  INDRA-only statements:    6
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (4 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: Introduction of AKT1 was observed to promote a significant increase in trimerization, although the A...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:AKT1) increases complex(p(HGNC:HSF1))
+
+Evidence: Similarly, introduction of AKT1 promoted a significant increase of HSF1 binding to putative targets ...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:AKT1) increases p(HGNC:HSF1, ma(GO:"DNA binding"))
+
+Evidence: To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed express...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:AKT1) increases bp(GO:"positive regulation of DNA-templated transcription initiation")
+
+Evidence: To confirm whether DNA binding of HSF1 resulted in gene transactivation, we further assessed express...
+  LLM statements: 0, INDRA statements: 6
+  Exact matches: 0, Core matches: 0
+  LLM-only: 0, INDRA-only: 6
+  INDRA-only statements (LLM missed these):
+    p(HGNC:392 ! AKT2) increases p(FPLX:HSP90 ! HSP90)
+    p(HGNC:392 ! AKT2) increases p(FPLX:HSPA ! HSPA)
+    p(HGNC:391 ! AKT1) increases p(FPLX:HSP90 ! HSP90)
+    p(HGNC:391 ! AKT1) increases p(FPLX:HSPA ! HSPA)
+    p(HGNC:393 ! AKT3) increases p(FPLX:HSP90 ! HSP90)
+    p(HGNC:393 ! AKT3) increases p(FPLX:HSPA ! HSPA)
+
+================================================================================

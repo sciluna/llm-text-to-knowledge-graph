@@ -1,0 +1,39 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 16
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     3
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      3
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (3 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: Once the C1 complex is bound to the cell surface, the proteases are activated and are able to cleave...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    complex(p(FPLX:C1q), p(HGNC:C1R), p(HGNC:C1R)) directlyIncreases act(p(HGNC:C4A), ma(GO:"serine-type endopeptidase activity"))
+
+Evidence: The complex of C4b and C2a (C4b2a) is a serine protease that specifically cleaves C3 into the anaphy...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    complex(p(HGNC:C4B), p(HGNC:C2)) directlyIncreases act(p(HGNC:C3), ma(GO:"serine-type endopeptidase activity"))
+
+Evidence: This cleavage causes a large conformational change in C4b, allowing it to covalently bind to cell su...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:C4B) directlyIncreases complex(p(HGNC:C4B), p(HGNC:C2))
+
+================================================================================

@@ -1,0 +1,32 @@
+================================================================================
+BEL STATEMENT COMPARISON REPORT - INDEX 17
+================================================================================
+
+AGGREGATE SUMMARY:
+  Total LLM statements:     2
+  Total INDRA statements:   0
+  Exact matches:            0
+  Core matches:             0
+  LLM-only statements:      2
+  INDRA-only statements:    0
+  LLM precision:            0.00%
+  INDRA precision:          0.00%
+
+EVIDENCE-LEVEL BREAKDOWN (2 evidence texts):
+--------------------------------------------------------------------------------
+
+Evidence: For example, in the fluid phase, factor H can bind to C3b, preventing the formation of the C3 conver...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:CFH) directlyDecreases complex(p(HGNC:C3), p(HGNC:C3))
+
+Evidence: Once bound to see C3b, factor H serves as a co-factor, allowing another compliment protein, factor I...
+  LLM statements: 1, INDRA statements: 0
+  Exact matches: 0, Core matches: 0
+  LLM-only: 1, INDRA-only: 0
+  LLM-only statements (INDRA missed these):
+    p(HGNC:CFH) directlyIncreases act(p(HGNC:CFI), ma(GO:"peptidase activity"))
+
+================================================================================

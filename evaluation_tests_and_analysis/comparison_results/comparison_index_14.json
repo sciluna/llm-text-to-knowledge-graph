@@ -1,0 +1,68 @@
+{
+  "index": "14",
+  "n_evidence_texts": 1,
+  "evidence_results": {
+    "Biological functions of TNF and subsequent activation of the NF-kappaB signaling pathway are associated with inflammatory processes, hepatocyte proliferation in response to acute or chronic liver damage, as well as tumorigenesis (DiDonato et al.,).": {
+      "llm_statements": [
+        "p(HGNC:TNF) increases act(p(FPLX:NFkappaB))"
+      ],
+      "indra_statements": [
+        "p(HGNC:11892 ! TNF) increases bp(GO:\"GO:0007165\" ! \"signal transduction\")",
+        "p(HGNC:11892 ! TNF) increases p(FPLX:NFkappaB ! NFkappaB)"
+      ],
+      "matches": {
+        "exact": [],
+        "core": [
+          {
+            "llm_statement": "p(HGNC:TNF) increases act(p(FPLX:NFkappaB))",
+            "indra_statement": "p(HGNC:11892 ! TNF) increases p(FPLX:NFkappaB ! NFkappaB)",
+            "match_type": "core_match",
+            "score": 0.8,
+            "details": {
+              "comparable": true,
+              "core_entities_match": true,
+              "relationship_match": true,
+              "relationship_compatible": true,
+              "modification_match": false,
+              "activity_match": true,
+              "components": {
+                "subject_entities_match": true,
+                "object_entities_match": true
+              }
+            }
+          }
+        ],
+        "llm_only": [],
+        "indra_only": [
+          {
+            "llm_statement": null,
+            "indra_statement": "p(HGNC:11892 ! TNF) increases bp(GO:\"GO:0007165\" ! \"signal transduction\")",
+            "match_type": "indra_only",
+            "score": 0.0,
+            "details": {}
+          }
+        ]
+      },
+      "summary": {
+        "n_llm_statements": 1,
+        "n_indra_statements": 2,
+        "n_exact_matches": 0,
+        "n_core_matches": 1,
+        "n_llm_only": 0,
+        "n_indra_only": 1,
+        "llm_recall": 1.0,
+        "indra_recall": 0.5
+      }
+    }
+  },
+  "aggregate_summary": {
+    "total_llm_statements": 1,
+    "total_indra_statements": 2,
+    "total_exact_matches": 0,
+    "total_core_matches": 1,
+    "total_llm_only": 0,
+    "total_indra_only": 1,
+    "llm_precision": 1.0,
+    "indra_precision": 0.5
+  }
+}
