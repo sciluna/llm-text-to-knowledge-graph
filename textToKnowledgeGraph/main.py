@@ -13,6 +13,10 @@ from .sentence_level_extraction import llm_bel_processing
 from .indra_download_extract import save_to_json, setup_output_directory
 from .transform_bel_statements import process_llm_results
 
+import nltk
+
+# Install needed NLTK data
+nltk.download('stopwords')
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
