@@ -6,7 +6,6 @@ textToKnowledgeGraph is also available as a service-based App for Cytoscape Web!
 
 ## Table of Contents
 
-- [Quickstart](#quickstart)
 - [Project Description](#project-description)
 - [Dependencies](#dependencies)
 - [Glossary](#glossary)
@@ -22,18 +21,6 @@ textToKnowledgeGraph is also available as a service-based App for Cytoscape Web!
   - [Interactive Python Examples](#interactive-python-examples)
 - [Expected Output](#expected-output)
 - [Notes](#notes)
-
-## Quickstart 
-This will produce a knowledge graph for PMC3898398 as BEL statements in CX2. The following instructions use pipx to install textToKnowledgeGraph as a command-line tool in an isolated environments so they can be run globally (i.e., from your shell) without interfering with other Python projects or your system Python.
-
-```
-pip install pipx
-pipx install git+https://github.com/sciluna/llm-text-to-knowledge-graph.git
-
-textToKnowledgeGraph \
-  --api_key REPLACE_WITH_OPENAI_API_KEY  \ 
-  --pmc_ids PMC3898398
-```
 
 ## Project Description
 
@@ -180,7 +167,6 @@ The package supports processing multiple documents in one run and requires an Op
 - **style_path (optional)**: Path to a Cytoscape style JSON file; defaults to the file in the `data` directory.
 - **custom_name (optional)**: Custom name for the network; defaults to the timestamp.
 - **pmid_for_file (optional)**: In this case, the tool fetches metadata for the provided PMID/PMCID and this is used to set the network name.
-- **prompt_file (optional)**: A custom prompt for extraction
 
 ### Network Naming and Metadata
 
@@ -280,4 +266,3 @@ vis_prop = style_network.get_visual_properties()
 my_network.set_visual_properties(vis_prop)
 my_network.write_as_raw_cx2(my_network_restyled_path)
 ```
-
