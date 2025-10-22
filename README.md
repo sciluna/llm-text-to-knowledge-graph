@@ -1,6 +1,6 @@
 # textToKnowledgeGraph
 
-A Python package to generate BEL statements and CX2 networks from scientific text.
+A Python package to generate Biological Expression Language (BEL) statements and Cytoscape CX2 networks from scientific text.
 
 textToKnowledgeGraph is also available as a service-based App for Cytoscape Web! [How-To for Cytoscape Web](cytoscape_web_how_to.md) 
 
@@ -24,9 +24,10 @@ textToKnowledgeGraph is also available as a service-based App for Cytoscape Web!
 - [Notes](#notes)
 
 ## Quickstart 
-This will produce a knowledge graph for PMC3898398
+This will produce a knowledge graph for PMC3898398 as BEL statements in CX2. The following instructions use pipx to install textToKnowledgeGraph as a command-line tool in an isolated environments so they can be run globally (i.e., from your shell) without interfering with other Python projects or your system Python.
 
 ```
+pip install pipx
 pipx install git+https://github.com/sciluna/llm-text-to-knowledge-graph.git
 
 textToKnowledgeGraph \
@@ -179,6 +180,7 @@ The package supports processing multiple documents in one run and requires an Op
 - **style_path (optional)**: Path to a Cytoscape style JSON file; defaults to the file in the `data` directory.
 - **custom_name (optional)**: Custom name for the network; defaults to the timestamp.
 - **pmid_for_file (optional)**: In this case, the tool fetches metadata for the provided PMID/PMCID and this is used to set the network name.
+- **prompt_file (optional)**: A custom prompt for extraction
 
 ### Network Naming and Metadata
 
