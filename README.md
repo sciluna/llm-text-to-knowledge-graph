@@ -6,6 +6,7 @@ textToKnowledgeGraph is also available as a service-based App for Cytoscape Web!
 
 ## Table of Contents
 
+- [Quickstart](#quickstart)
 - [Project Description](#project-description)
 - [Dependencies](#dependencies)
 - [Glossary](#glossary)
@@ -21,6 +22,17 @@ textToKnowledgeGraph is also available as a service-based App for Cytoscape Web!
   - [Interactive Python Examples](#interactive-python-examples)
 - [Expected Output](#expected-output)
 - [Notes](#notes)
+
+## Quickstart 
+This will produce a knowledge graph for PMC3898398
+
+```
+pipx install git+https://github.com/sciluna/llm-text-to-knowledge-graph.git
+
+textToKnowledgeGraph \
+  --api_key REPLACE_WITH_OPENAI_API_KEY  \ 
+  --pmc_ids PMC3898398
+```
 
 ## Project Description
 
