@@ -92,7 +92,7 @@ def process_pmc_document(pmc_id,
             "description": f"{metadata['title']}, {metadata['abstract']}",
             "reference": f"PMID: {pmid_str}"
         })
-        cx2_filename = 'cx2_network.cx'
+        cx2_filename = 'cx2_network.cx2'
         save_to_json(cx2_network.to_cx2(), cx2_filename, output_dir)
 
         if upload_to_ndex:
